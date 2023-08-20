@@ -1,0 +1,104 @@
+
+#Config for Regions Unexplored!
+[region_weights]
+	#Sets Terrablender region weight for the primary region.
+	#Range: 0 ~ 2147483646
+	primary_region_weight = 11
+	#Sets Terrablender region weight for Nether region.
+	#Range: 0 ~ 2147483646
+	nether_region_weight = 14
+	#Sets Terrablender region weight for the secondary region.
+	#Range: 0 ~ 2147483646
+	secondary_region_weight = 8
+
+[biome_toggles]
+	toggle_fungal_fen = true
+	toggle_grassy_beach = true
+	toggle_spires = true
+	toggle_poppy_fields = true
+	toggle_blackwood_forest = true
+	toggle_flooded_plains = true
+	toggle_fen = true
+	toggle_bayou = true
+	toggle_joshua_desert = true
+	toggle_lush_delta = true
+	toggle_grassland = true
+	toggle_prairie = true
+	toggle_willow_forest = true
+	toggle_eucalyptus_forest = true
+	toggle_bamboo_forest = true
+	toggle_smouldering_woodland = true
+	toggle_redwoods = true
+	toggle_boreal_forest = true
+	toggle_giant_bayou = true
+	toggle_highland_fields = true
+	toggle_scorching_caves = true
+	toggle_arid_mountains = true
+	toggle_outback = true
+	toggle_cold_river = true
+	toggle_gravel_beach = true
+	toggle_mauve_hills = true
+	toggle_mycotoxic_undergrowth = true
+	toggle_baobab_savanna = true
+	#overworld_biomes
+	toggle_alpha_grove = true
+	toggle_barley_fields = true
+	toggle_orchard = true
+	toggle_temperate_grove = true
+	toggle_towering_cliffs = true
+	toggle_mountains = true
+	toggle_rainforest = true
+	toggle_redstone_hell = true
+	toggle_flower_field = true
+	toggle_frozen_forest = true
+	toggle_muddy_river = true
+	toggle_silver_birch_forest = true
+	toggle_pine_slopes = true
+	toggle_pine_forest = true
+	toggle_cold_deciduous_forest = true
+	toggle_pumpkin_fields = true
+	toggle_frozen_tundra = true
+	toggle_lush_hills = true
+	toggle_shrubland = true
+	toggle_icy_desert = true
+	toggle_corrupted_holt = true
+	#cave_biomes
+	toggle_bioshroom_caves = true
+	toggle_prismachasm = true
+	toggle_chalk_cliffs = true
+	#nether_biomes
+	toggle_blackstone_basin = true
+	toggle_steppe = true
+	toggle_cold_boreal_forest = true
+	toggle_glistering_meadow = true
+	toggle_cherry_hills = true
+	toggle_tropics = true
+	toggle_dry_bushland = true
+	toggle_autumnal_maple_forest = true
+	toggle_saguaro_desert = true
+	toggle_maple_forest = true
+	toggle_sparse_redwoods = true
+	toggle_deciduous_forest = true
+	toggle_meadow = true
+	toggle_old_growth_rainforest = true
+	toggle_redstone_caves = true
+	toggle_golden_boreal_forest = true
+	toggle_lupine_plains = true
+	toggle_icy_heights = true
+
+[worldgen_options]
+	#surface_rules
+	toggle_custom_dirt = true
+
+[block_color_options]
+	#Sets Eucalyptus colour saturation.
+	#Range: 0.0 ~ 1.0
+	eucalyptus_saturation = 0.5
+	#Sets Eucalyptus colour brightness.
+	#Range: 0.0 ~ 1.0
+	eucalyptus_brightness = 0.8
+	#block_color_options
+	#Sets Eucalyptus colour transition size. Bigger number = bigger distance between colours.
+	#Range: 0.0 ~ 200.0
+	eucalyptus_transition_size = 25.0
+

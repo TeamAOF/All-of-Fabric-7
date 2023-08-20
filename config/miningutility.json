@@ -1,0 +1,5 @@
+{
+  "ropeLadderBlockLimit": 64,
+  "invertedRopeLadderBlockLimit": 64,
+  "damageMiningHelmetOnUse": true
+}

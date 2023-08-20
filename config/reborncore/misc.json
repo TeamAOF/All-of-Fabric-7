@@ -1,0 +1,8 @@
+{
+  "config": {
+    "Selected Energy system": {
+      "comment": "Possible values are: E (was FE, EU)",
+      "value": "E"
+    }
+  }
+}

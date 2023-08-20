@@ -1,0 +1,53 @@
+type = customizablemenus
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.coderbot.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_6599 {
+}
+
+net.minecraft.class_4288 {
+}
+
+net.minecraft.class_440 {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_7944 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_6777 {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_525 {
+}
+

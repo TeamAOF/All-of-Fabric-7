@@ -1,0 +1,18 @@
+{
+  "printChestLoottable": {
+    "desc:": "Prints the chest loottable on opening and on spawn and logs the Loottables which do not have a boss assigned of structures to the latest.log. Useful to find the table used by a dungeon chest, only works if the chest is not opened yet: default:false",
+    "printChestLoottable": false
+  },
+  "globalDifficultyMultiplier": {
+    "desc:": "Global difficulty multiplier, affects health and damage of all bosses, default = 1.0, max = 1000",
+    "globalDifficultyMultiplier": 1.0
+  },
+  "globalBossSpawnChance": {
+    "desc:": "Global boss spawn chance, determines the chance per treasure chest spawn at which a boss can appear in a structure. Chance X in 100, default = 30",
+    "globalBossSpawnChance": 30
+  },
+  "minDistance": {
+    "desc:": "Minimum distance in blocks between spawning, is not 100% guranteed compares last 20 spawns. default = 100",
+    "minDistance": 100
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"overgrownweight": 50,
+	"overgrownminspawn": 1,
+	"overgrownmaxspawn": 2,
+	"sharpshooterweight": 60,
+	"sharpshooterminspawn": 1,
+	"sharpshootermaxspawn": 2,
+	"charredweight": 50,
+	"charredminspawn": 1,
+	"charredmaxspawn": 2,
+	"sunkenweight": 50,
+	"sunkenminspawn": 1,
+	"sunkenmaxspawn": 2,
+	"swampedweight": 70,
+	"swampedminspawn": 1,
+	"swampedmaxspawn": 3,
+	"desertedweight": 40,
+	"desertedminspawn": 1,
+	"desertedmaxspawn": 3
+}

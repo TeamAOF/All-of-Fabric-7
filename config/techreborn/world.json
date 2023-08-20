@@ -1,0 +1,102 @@
+{
+  "generation": {
+    "enableOilLakeGeneration": {
+      "comment": "When enabled oil lakes will generate in the world",
+      "value": true
+    },
+    "enableGalenaOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, galena ores will generate in the world",
+      "value": true
+    },
+    "enableMetallurgistGeneration": {
+      "comment": "When enabled metallurgist houses can generate in villages",
+      "value": true
+    },
+    "enableSodaliteOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, sodalite ores will generate in the world",
+      "value": true
+    },
+    "enableIridiumOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, iridium ores will generate in the world",
+      "value": true
+    },
+    "enableSphaleriteOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, sphalerite ores will generate in the world",
+      "value": true
+    },
+    "enableRubyOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, ruby ores will generate in the world",
+      "value": true
+    },
+    "enableSheldoniteOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, sheldonite ores will generate in the world",
+      "value": true
+    },
+    "enablePyriteOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, pyrite ores will generate in the world",
+      "value": true
+    },
+    "enablePeridotOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, peridot ores will generate in the world",
+      "value": true
+    },
+    "enableElectricianGeneration": {
+      "comment": "When enabled electrician houses can generate in villages",
+      "value": true
+    },
+    "enableRubberTreeGeneration": {
+      "comment": "When enabled rubber trees will generate in the world",
+      "value": true
+    },
+    "enableTungstenOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, tungsten ores will generate in the world",
+      "value": true
+    },
+    "enableOreGeneration": {
+      "comment": "When enabled ores will generate in the world",
+      "value": true
+    },
+    "enableSapphireOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, sapphire ores will generate in the world",
+      "value": true
+    },
+    "enableSilverOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, silver ores will generate in the world",
+      "value": true
+    },
+    "enableCinnabarOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, cinnabar ores will generate in the world",
+      "value": true
+    },
+    "enableBauxiteOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, bauxite ores will generate in the world",
+      "value": true
+    },
+    "enableLeadOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, lead ores will generate in the world",
+      "value": true
+    },
+    "enableTinOreGeneration": {
+      "comment": "When enabled and enableOreGeneration isn\u0027t disabled, tin ores will generate in the world",
+      "value": true
+    }
+  },
+  "loot": {
+    "enableEndLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to The End loot chests.",
+      "value": true
+    },
+    "enableNetherLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to Nether loot chests.",
+      "value": true
+    },
+    "enableOverworldLoot": {
+      "comment": "When true TechReborn will add ingots, machine frames and circuits to OverWorld loot chests.",
+      "value": true
+    },
+    "enableFishingJunkLoot": {
+      "comment": "When true TechReborn will add items to fishing junk loot.",
+      "value": true
+    }
+  }
+}

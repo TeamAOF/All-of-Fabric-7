@@ -1,0 +1,7 @@
+# Config for Toolkit
+
+# Show join message on player join will display a custom message when the player joins a server or single player world
+show_on_join_message=false
+
+# The custom message to show to players
+join_message=Hello from ToolKit, this message can be change or disabled in config.

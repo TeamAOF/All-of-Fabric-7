@@ -1,0 +1,48 @@
+
+# Set to true if compressed bone meal drops should go straight into the player's inventory.
+addDropsDirectlyToInventory = false
+
+# Set to true if compressed bone meal drops should go straight into the machine's inventory when used automatically.
+addDropsDirectlyToInventoryForFakePlayers = true
+
+# This enables use of extremely compressed bone meal to turn saplings into large fancy trees.
+allowBoneMealOnSaplings = true
+
+# This enables use of normal Bone Meal on sugar canes in order to grow them upwards.
+allowBoneMealOnSugarCanes = true
+
+# This enables use of normal Bone Meal on vines in order to grow them downwards.
+allowBoneMealOnVines = true
+
+# The amount of bone meal applied to the plant when using compressed bone meal.
+compressedBoneMealPower = 4
+
+# The amount of bone meal applied to the plant when using extremely compressed bone meal.
+extremelyCompressedBoneMealPower = 36
+
+# The maximum amount of flowers that can spawn when using Florist's Bone Meal on grass.
+floristsBoneMealMaxFlowers = 5
+
+# The maximum range that flowers can spawn when using Florist's Bone Meal on grass.
+floristsBoneMealMaxRange = 3
+
+# List of blocks that can be duplicated by using Florist's Bone Meal on them.
+flowerBlocks = [ 
+    "minecraft:poppy", 
+    "minecraft:dandelion", 
+    "minecraft:blue_orchid", 
+    "minecraft:allium", 
+    "minecraft:azure_bluet", 
+    "minecraft:red_tulip", 
+    "minecraft:orange_tulip", 
+    "minecraft:white_tulip", 
+    "minecraft:pink_tulip", 
+    "minecraft:oxeye_daisy", 
+    "minecraft:rose_bush", 
+    "minecraft:peony", 
+    "minecraft:lilac", 
+    "minecraft:sunflower", 
+    "minecraft:cornflower", 
+    "minecraft:lily_of_the_valley"
+ ]
+

@@ -1,0 +1,15 @@
+#Determines if itemsList contains allowed items or denied items.
+#Allowed Values: DENY, ALLOW
+itemListType = "DENY"
+#The items for crafting with elytras.
+itemsList = []
+#Determines how the combined elytra chestplates will behave.
+#NORMAL: Elytras will exist separately from the chestplate, able to be separated later.
+#UNISON: Elytras will fuse completely with the chestplate, unable to be separated.
+#PERFECT: Elytras will fuse completely with the chestplate and flying will not use durability.
+#Allowed Values: NORMAL, UNISON, PERFECT
+fusionType = "NORMAL"
+#The energy cost per second of fall flying if fusionType is UNISON and the chestplate uses energy.
+#Range: > 0
+energyCost = 1000
+

@@ -1,0 +1,90 @@
+# Power consumption will be calculated as follows:
+#Idle power drain = idlePowerDrain + portal size * sizePowerDrain
+#Interdimensional teleport power drain = travelPowerDrain + dimensionPowerDrain
+#Same dimension teleport power drain = travelPowerDrain + (target distance)^(1/2) * distancePowerDrain
+["Power Consumption"]
+    # If false, a portal will not require power.
+    # Allowed values: true, false - Default: true
+    requirePower = true
+
+    # How much power will a portal drain per tick when idle?
+    # Allowed range: 0 ~ 1000000 - Default: 1
+    idlePowerDrain = 1
+
+    # How much idle power does the portal drain per block of its size?
+    # Allowed range: 0.0 ~ 1000000.0 - Default: 0.5
+    sizePowerDrain = 0.5
+
+    # How much power will be drained when an entity is teleported?
+    # Allowed range: 0 ~ 1000000 - Default: 100
+    travelPowerDrain = 100
+
+    # How much energy is drained when an entity is teleported multiplied by the distance?
+    # Allowed range: 0.0 ~ 1000000.0 - Default: 0.5
+    distancePowerDrain = 0.5
+
+    # How much energy is drained when an entity is teleported to another dimension?
+    # Allowed range: 0 ~ 1000000 - Default: 400
+    dimensionPowerDrain = 400
+
+[General]
+    # If true, a portal will require frame blocks at its corners. Previously build portals won't be affected.
+    # Allowed values: true, false - Default: false
+    requireCorners = false
+
+    # How big can the area inside a portal be? Higher numbers can impact performance when activating a portal. Previously build portals won't be affected.
+    # Allowed range: 1 ~ 2000 - Default: 400
+    maxPortalSize = 400
+
+    # Does a portal require a dimensional core for interdimensional travel? (WIP)
+    # Allowed values: true, false - Default: true
+    requireDimensionalCore = true
+
+["Target Devices"]
+    # The maximum number of targets that can be stored in the basic target definition device.
+    # Allowed range: 1 ~ 10 - Default: 1
+    basicDeviceTargetCount = 1
+
+    # The maximum number of targets that can be stored in the advanced target definition device.
+    # Allowed range: 1 ~ 10 - Default: 5
+    advancedDeviceTargetCount = 5
+
+["Energy Cells"]
+    # The amount of energy the portal stabilizer can store.
+    # Allowed range: 1 ~ 1000000 - Default: 5000
+    stabilizerEnergyCapacity = 5000
+
+    # The amount of energy the basic energy cell can store.
+    # Allowed range: 1 ~ 1000000 - Default: 10000
+    basicEnergyCellCapacity = 10000
+
+    # The amount of energy the advanced energy cell can store.
+    # Allowed range: 1 ~ 1000000 - Default: 25000
+    advancedEnergyCellCapacity = 25000
+
+["Target Cells"]
+    # The number of targets the portal stabilizer can store.
+    # Allowed range: 1 ~ 20 - Default: 1
+    stabilizerTargetCapacity = 1
+
+    # The number of targets the basic target cell can store.
+    # Allowed range: 1 ~ 20 - Default: 4
+    basicTargetCellCapacity = 4
+
+    # The number of targets the advanced target cell can store.
+    # Allowed range: 1 ~ 20 - Default: 8
+    advancedTargetCellCapacity = 8
+
+[Generators]
+    # How much energy does the coal generator generate per tick?
+    # Allowed range: 1 ~ 1000000 - Default: 10
+    coalGeneratorPower = 10
+
+    # How much energy can the coal generator store?
+    # Allowed range: 1 ~ 1000000 - Default: 5000
+    coalGeneratorCapacity = 5000
+
+    # In what area (coalGeneratorRange^3) should the coal generator send energy?
+    # Allowed range: 1 ~ 4 - Default: 2
+    coalGeneratorRange = 2
+

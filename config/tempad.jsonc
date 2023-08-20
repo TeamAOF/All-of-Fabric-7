@@ -1,0 +1,41 @@
+{
+    /*
+     * The distance from the player that the Tempad is summoned.
+     * Range: 1 - 10
+     */
+    "distanceFromPlayer": 3,
+    /*
+     * The amount of time in ticks that the timedoor will wait before closing itself after the owner walked through it.
+     * Type: Integer
+     */
+    "timedoorWaitTime": 60,
+    /*
+     * The amount of time in ticks that the Tempad will add to the wait time when the player is in the Tempad.
+     * Type: Integer
+     */
+    "timedoorAddWaitTime": 40,
+    /*
+     * The amount of fuel that the timedoor will consume on opening of the timedoor.
+     * Type: Integer
+     */
+    "timedoorFuelAmount": 180,
+    /*
+     * The amount of fuel that the timedoor can hold.
+     * Type: Integer
+     */
+    "timedoorFuelCapacity": 1000,
+    /*
+     * The amount of fuel that the advanced timedoor will consume on opening of the timedoor.
+     * Type: Integer
+     */
+    "advancedTimedoorFuelAmount": 1,
+    /*
+     * The amount of fuel that the advanced timedoor can hold.
+     * Type: Integer
+     */
+    "advancedTimedoorFuelCapacity": 1000,
+    // The type of fuel that the timedoor will consume.
+    "timedoorFuelType": "tempad:timer",
+    // The type of fuel that the advanced timedoor will consume.
+    "advancedTimedoorFuelType": "tempad:unlimited"
+}

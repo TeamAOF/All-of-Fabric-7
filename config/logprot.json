@@ -1,0 +1,22 @@
+{
+  "invulTime": {
+    "desc:": "Time in ticks the logging player is invulnerable, 20 ticks is 1sec. Default is 50secs so 1000 ticks",
+    "invulTime": 1000
+  },
+  "maxDist": {
+    "desc:": "Max distance in blocks(2d) the invulnerability lasts, default: 4",
+    "maxDist": 4
+  },
+  "debugOutput": {
+    "desc:": "Whether to enable debug log outputs, default: false",
+    "debugOutput": false
+  },
+  "dimensionprotection": {
+    "desc:": "Enables the protection for dimension changes too, default: true",
+    "dimensionprotection": true
+  },
+  "respawnprotection": {
+    "desc:": "Enables the protection for respawning too, default: true",
+    "respawnprotection": true
+  }
+}

@@ -1,0 +1,109 @@
+[General]
+    # Can backpacks be put inside other backpacks?
+    # Allowed values: true, false - Default: true
+    allowBagInBag = true
+
+    # How many layers deep can you place backpacks inside backpacks? -1 for infinite, 0 is the same as setting 'allowBagInBag' to false.
+    # Allowed range: -1 ~ 5 - Default: -1
+    maxBagInBagLayer = -1
+
+    # Should the backpack remain in the player's inventory if they die?
+    # Allowed values: true, false - Default: false
+    keepBackpacksOnDeath = false
+
+    # Should backpacks be destroyed by lava and fire?
+    # Allowed values: true, false - Default: true
+    canBackpacksBurn = true
+
+[Backpacks]
+    [Backpacks.Basic]
+        # Enable the basic backpack?
+        # Allowed values: true, false - Default: true
+        basicEnable = true
+
+        # How many rows does the basic backpack have?
+        # Allowed range: 1 ~ 9 - Default: 3
+        basicRows = 3
+
+        # How many columns does the basic backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        basicColumns = 9
+
+    [Backpacks.Iron]
+        # Enable the iron backpack?
+        # Allowed values: true, false - Default: true
+        ironEnable = true
+
+        # How many rows does the iron backpack have?
+        # Allowed range: 1 ~ 9 - Default: 4
+        ironRows = 4
+
+        # How many columns does the iron backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        ironColumns = 9
+
+    [Backpacks.Copper]
+        # Enable the copper backpack?
+        # Allowed values: true, false - Default: true
+        copperEnable = true
+
+        # How many rows does the copper backpack have?
+        # Allowed range: 1 ~ 9 - Default: 4
+        copperRows = 4
+
+        # How many columns does the copper backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        copperColumns = 9
+
+    [Backpacks.Silver]
+        # Enable the silver backpack?
+        # Allowed values: true, false - Default: true
+        silverEnable = true
+
+        # How many rows does the silver backpack have?
+        # Allowed range: 1 ~ 9 - Default: 5
+        silverRows = 5
+
+        # How many columns does the silver backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        silverColumns = 9
+
+    [Backpacks.Gold]
+        # Enable the gold backpack?
+        # Allowed values: true, false - Default: true
+        goldEnable = true
+
+        # How many rows does the gold backpack have?
+        # Allowed range: 1 ~ 9 - Default: 5
+        goldRows = 5
+
+        # How many columns does the gold backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        goldColumns = 9
+
+    [Backpacks.Diamond]
+        # Enable the diamond backpack?
+        # Allowed values: true, false - Default: true
+        diamondEnable = true
+
+        # How many rows does the diamond backpack have?
+        # Allowed range: 1 ~ 9 - Default: 7
+        diamondRows = 7
+
+        # How many columns does the diamond backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        diamondColumns = 9
+
+    [Backpacks.Obsidian]
+        # Enable the obsidian backpack?
+        # Allowed values: true, false - Default: true
+        obsidianEnable = true
+
+        # How many rows does the obsidian backpack have?
+        # Allowed range: 1 ~ 9 - Default: 8
+        obsidianRows = 8
+
+        # How many columns does the obsidian backpack have?
+        # Allowed range: 1 ~ 13 - Default: 9
+        obsidianColumns = 9
+

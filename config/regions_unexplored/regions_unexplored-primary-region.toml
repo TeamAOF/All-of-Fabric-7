@@ -1,0 +1,325 @@
+
+#Config for Regions Unexplored primary region!
+[-----------------MIDDLE_BIOMES--------------------]
+	cool_neutral = "regions_unexplored:maple_forest"
+	cool_wet = "regions_unexplored:maple_forest"
+	cool_dry = "regions_unexplored:autumnal_maple_forest"
+	cool_humid = "regions_unexplored:boreal_forest"
+	neutral_humid = "regions_unexplored:blackwood_forest"
+	warm_humid = "regions_unexplored:redwoods"
+	neutral_dry = "regions_unexplored:shrubland"
+	hot_neutral = "regions_unexplored:saguaro_desert"
+	neutral_wet = "regions_unexplored:pine_forest"
+	#warm_biomes
+	warm_arid = "regions_unexplored:deciduous_forest"
+	#hot_biomes
+	hot_arid = "regions_unexplored:baobab_savanna"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:orchard"
+	warm_neutral = "regions_unexplored:barley_fields"
+	#cool_biomes
+	cool_arid = "regions_unexplored:pumpkin_fields"
+	hot_humid = "regions_unexplored:old_growth_rainforest"
+	#icy_biomes
+	icy_arid = "regions_unexplored:icy_desert"
+	warm_dry = "regions_unexplored:deciduous_forest"
+	icy_neutral = "regions_unexplored:frozen_forest"
+	warm_wet = "regions_unexplored:redwoods"
+	icy_wet = "regions_unexplored:cold_boreal_forest"
+	hot_wet = "regions_unexplored:saguaro_desert"
+	icy_dry = "regions_unexplored:frozen_tundra"
+	hot_dry = "regions_unexplored:baobab_savanna"
+	neutral_neutral = "regions_unexplored:temperate_grove"
+	icy_humid = "regions_unexplored:cold_boreal_forest"
+
+[-----------------MIDDLE_BIOMES_VARIANT--------------------]
+	cool_neutral = "regions_unexplored:maple_forest"
+	cool_wet = "regions_unexplored:boreal_forest"
+	cool_dry = "regions_unexplored:silver_birch_forest"
+	cool_humid = "regions_unexplored:golden_boreal_forest"
+	neutral_humid = "regions_unexplored:blackwood_forest"
+	warm_humid = "regions_unexplored:sparse_redwoods"
+	neutral_dry = "regions_unexplored:shrubland"
+	hot_neutral = "regions_unexplored:joshua_desert"
+	neutral_wet = "regions_unexplored:pine_forest"
+	#warm_biomes
+	warm_arid = "regions_unexplored:deciduous_forest"
+	#hot_biomes
+	hot_arid = "regions_unexplored:baobab_savanna"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:orchard"
+	warm_neutral = "regions_unexplored:prairie"
+	#cool_biomes
+	cool_arid = "regions_unexplored:autumnal_maple_forest"
+	hot_humid = "regions_unexplored:old_growth_rainforest"
+	#icy_biomes
+	icy_arid = "regions_unexplored:alpha_grove"
+	warm_dry = "regions_unexplored:deciduous_forest"
+	icy_neutral = "regions_unexplored:frozen_tundra"
+	warm_wet = "regions_unexplored:redwoods"
+	icy_wet = "regions_unexplored:cold_boreal_forest"
+	hot_wet = "regions_unexplored:joshua_desert"
+	icy_dry = "regions_unexplored:frozen_tundra"
+	hot_dry = "regions_unexplored:baobab_savanna"
+	neutral_neutral = "regions_unexplored:temperate_grove"
+	icy_humid = "regions_unexplored:spires"
+
+[-----------------PLATEAU_BIOMES--------------------]
+	cool_neutral = "regions_unexplored:maple_forest"
+	cool_wet = "regions_unexplored:boreal_forest"
+	cool_dry = "regions_unexplored:autumnal_maple_forest"
+	cool_humid = "regions_unexplored:boreal_forest"
+	neutral_humid = "regions_unexplored:blackwood_forest"
+	warm_humid = "regions_unexplored:redwoods"
+	neutral_dry = "regions_unexplored:highland_fields"
+	hot_neutral = "regions_unexplored:rainforest"
+	neutral_wet = "regions_unexplored:highland_fields"
+	#warm_biomes
+	warm_arid = "regions_unexplored:deciduous_forest"
+	#hot_biomes
+	hot_arid = "regions_unexplored:steppe"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:highland_fields"
+	warm_neutral = "regions_unexplored:deciduous_forest"
+	#cool_biomes
+	cool_arid = "regions_unexplored:autumnal_maple_forest"
+	hot_humid = "regions_unexplored:rainforest"
+	#icy_biomes
+	icy_arid = "regions_unexplored:icy_heights"
+	warm_dry = "regions_unexplored:deciduous_forest"
+	icy_neutral = "regions_unexplored:icy_heights"
+	warm_wet = "regions_unexplored:deciduous_forest"
+	icy_wet = "regions_unexplored:icy_heights"
+	hot_wet = "regions_unexplored:rainforest"
+	icy_dry = "regions_unexplored:icy_heights"
+	hot_dry = "regions_unexplored:steppe"
+	neutral_neutral = "regions_unexplored:deciduous_forest"
+	icy_humid = "regions_unexplored:cold_boreal_forest"
+
+[-----------------PLATEAU_BIOMES_VARIANT--------------------]
+	cool_neutral = "regions_unexplored:maple_forest"
+	cool_wet = "regions_unexplored:boreal_forest"
+	cool_dry = "regions_unexplored:silver_birch_forest"
+	cool_humid = "regions_unexplored:golden_boreal_forest"
+	neutral_humid = "regions_unexplored:blackwood_forest"
+	warm_humid = "regions_unexplored:sparse_redwoods"
+	neutral_dry = "regions_unexplored:highland_fields"
+	hot_neutral = "regions_unexplored:rainforest"
+	neutral_wet = "regions_unexplored:pine_forest"
+	#warm_biomes
+	warm_arid = "regions_unexplored:deciduous_forest"
+	#hot_biomes
+	hot_arid = "regions_unexplored:steppe"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:highland_fields"
+	warm_neutral = "regions_unexplored:deciduous_forest"
+	#cool_biomes
+	cool_arid = "regions_unexplored:autumnal_maple_forest"
+	hot_humid = "regions_unexplored:rainforest"
+	#icy_biomes
+	icy_arid = "regions_unexplored:alpha_grove"
+	warm_dry = "regions_unexplored:deciduous_forest"
+	icy_neutral = "regions_unexplored:icy_heights"
+	warm_wet = "regions_unexplored:redwoods"
+	icy_wet = "regions_unexplored:icy_heights"
+	hot_wet = "regions_unexplored:old_growth_rainforest"
+	icy_dry = "regions_unexplored:icy_heights"
+	hot_dry = "regions_unexplored:steppe"
+	neutral_neutral = "regions_unexplored:deciduous_forest"
+	icy_humid = "regions_unexplored:spires"
+
+[-----------------SHATTERED_BIOMES--------------------]
+	cool_neutral = "regions_unexplored:towering_cliffs"
+	cool_wet = "regions_unexplored:towering_cliffs"
+	cool_dry = "regions_unexplored:towering_cliffs"
+	cool_humid = "regions_unexplored:towering_cliffs"
+	neutral_humid = "regions_unexplored:lush_hills"
+	warm_humid = "regions_unexplored:sparse_redwoods"
+	neutral_dry = "regions_unexplored:lush_hills"
+	hot_neutral = "regions_unexplored:saguaro_desert"
+	neutral_wet = "regions_unexplored:lush_hills"
+	#warm_biomes
+	warm_arid = "regions_unexplored:deciduous_forest"
+	#hot_biomes
+	hot_arid = "regions_unexplored:baobab_savanna"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:lush_hills"
+	warm_neutral = "regions_unexplored:prairie"
+	#cool_biomes
+	cool_arid = "regions_unexplored:towering_cliffs"
+	hot_humid = "regions_unexplored:rainforest"
+	#icy_biomes
+	icy_arid = "regions_unexplored:icy_heights"
+	warm_dry = "regions_unexplored:deciduous_forest"
+	icy_neutral = "regions_unexplored:icy_heights"
+	warm_wet = "regions_unexplored:sparse_redwoods"
+	icy_wet = "regions_unexplored:icy_heights"
+	hot_wet = "regions_unexplored:saguaro_desert"
+	icy_dry = "regions_unexplored:icy_heights"
+	hot_dry = "regions_unexplored:baobab_savanna"
+	neutral_neutral = "regions_unexplored:lush_hills"
+	icy_humid = "regions_unexplored:icy_heights"
+
+[-----------------SLOPE_BIOMES--------------------]
+	#slope_biomes
+	icy_slope_biome = "minecraft:snowy_slopes"
+	hot_slope_biome = "regions_unexplored:rainforest"
+	neutral_slope_biome = "regions_unexplored:pine_slopes"
+	#slope_biomes_variant
+	icy_slope_biome_variant = "regions_unexplored:cold_deciduous_forest"
+	neutral_slope_biome_variant = "regions_unexplored:pine_slopes"
+	warm_slope_biome_variant = "regions_unexplored:deciduous_forest"
+	cold_slope_biome = "regions_unexplored:pine_slopes"
+	cold_slope_biome_variant = "regions_unexplored:pine_slopes"
+	warm_slope_biome = "regions_unexplored:deciduous_forest"
+	hot_slope_biome_variant = "regions_unexplored:rainforest"
+
+[-----------------PEAK_BIOMES--------------------]
+	cold_peak_biome = "minecraft:jagged_peaks"
+	hot_peak_biome = "regions_unexplored:arid_mountains"
+	cold_peak_biome_variant = "regions_unexplored:mountains"
+	#peak_biomes
+	icy_peak_biome = "minecraft:frozen_peaks"
+	warm_peak_biome = "minecraft:stony_peaks"
+	warm_peak_biome_variant = "minecraft:stony_peaks"
+	neutral_peak_biome = "regions_unexplored:mountains"
+	neutral_peak_biome_variant = "regions_unexplored:mountains"
+	hot_peak_biome_variant = "regions_unexplored:arid_mountains"
+	#peak_biomes_variant
+	icy_peak_biome_variant = "minecraft:jagged_peaks"
+
+[-----------------RIVER_BIOMES--------------------]
+	cool_neutral = "regions_unexplored:cold_river"
+	cool_wet = "regions_unexplored:cold_river"
+	cool_dry = "regions_unexplored:cold_river"
+	cool_humid = "regions_unexplored:cold_river"
+	neutral_humid = "regions_unexplored:blackwood_forest"
+	warm_humid = "regions_unexplored:muddy_river"
+	neutral_dry = "regions_unexplored:muddy_river"
+	hot_neutral = "regions_unexplored:muddy_river"
+	neutral_wet = "regions_unexplored:muddy_river"
+	#warm_biomes
+	warm_arid = "regions_unexplored:muddy_river"
+	#hot_biomes
+	hot_arid = "regions_unexplored:muddy_river"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:muddy_river"
+	warm_neutral = "regions_unexplored:muddy_river"
+	#cool_biomes
+	cool_arid = "regions_unexplored:cold_river"
+	hot_humid = "regions_unexplored:muddy_river"
+	#icy_biomes
+	icy_arid = "minecraft:frozen_river"
+	warm_dry = "regions_unexplored:muddy_river"
+	icy_neutral = "minecraft:frozen_river"
+	warm_wet = "regions_unexplored:muddy_river"
+	icy_wet = "minecraft:frozen_river"
+	hot_wet = "regions_unexplored:muddy_river"
+	icy_dry = "minecraft:frozen_river"
+	hot_dry = "regions_unexplored:muddy_river"
+	neutral_neutral = "regions_unexplored:muddy_river"
+	icy_humid = "minecraft:frozen_river"
+
+[-----------------RIVER_BIOMES_VARIANT--------------------]
+	cool_neutral = "regions_unexplored:cold_river"
+	cool_wet = "regions_unexplored:cold_river"
+	cool_dry = "regions_unexplored:cold_river"
+	cool_humid = "regions_unexplored:cold_river"
+	neutral_humid = "regions_unexplored:blackwood_forest"
+	warm_humid = "regions_unexplored:muddy_river"
+	neutral_dry = "regions_unexplored:muddy_river"
+	hot_neutral = "regions_unexplored:muddy_river"
+	neutral_wet = "regions_unexplored:muddy_river"
+	#warm_biomes
+	warm_arid = "regions_unexplored:muddy_river"
+	#hot_biomes
+	hot_arid = "regions_unexplored:muddy_river"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:muddy_river"
+	warm_neutral = "regions_unexplored:muddy_river"
+	#cool_biomes
+	cool_arid = "regions_unexplored:cold_river"
+	hot_humid = "regions_unexplored:muddy_river"
+	#icy_biomes
+	icy_arid = "minecraft:frozen_river"
+	warm_dry = "regions_unexplored:muddy_river"
+	icy_neutral = "minecraft:frozen_river"
+	warm_wet = "regions_unexplored:muddy_river"
+	icy_wet = "minecraft:frozen_river"
+	hot_wet = "regions_unexplored:muddy_river"
+	icy_dry = "minecraft:frozen_river"
+	hot_dry = "regions_unexplored:muddy_river"
+	neutral_neutral = "regions_unexplored:muddy_river"
+	icy_humid = "minecraft:frozen_river"
+
+[-----------------SWAMP_BIOMES--------------------]
+	cool_neutral = "regions_unexplored:fen"
+	cool_wet = "regions_unexplored:fen"
+	cool_dry = "regions_unexplored:fen"
+	cool_humid = "regions_unexplored:fen"
+	neutral_humid = "regions_unexplored:giant_bayou"
+	warm_humid = "regions_unexplored:giant_bayou"
+	neutral_dry = "regions_unexplored:bayou"
+	hot_neutral = "regions_unexplored:tropics"
+	neutral_wet = "regions_unexplored:giant_bayou"
+	#warm_biomes
+	warm_arid = "regions_unexplored:flooded_plains"
+	#hot_biomes
+	hot_arid = "regions_unexplored:tropics"
+	#neutral_biomes
+	neutral_arid = "regions_unexplored:bayou"
+	warm_neutral = "regions_unexplored:flooded_plains"
+	#cool_biomes
+	cool_arid = "regions_unexplored:fen"
+	hot_humid = "regions_unexplored:fungal_fen"
+	#icy_biomes
+	icy_arid = "regions_unexplored:spires"
+	warm_dry = "regions_unexplored:flooded_plains"
+	icy_neutral = "regions_unexplored:spires"
+	warm_wet = "regions_unexplored:giant_bayou"
+	icy_wet = "regions_unexplored:spires"
+	hot_wet = "regions_unexplored:fungal_fen"
+	icy_dry = "regions_unexplored:spires"
+	hot_dry = "regions_unexplored:tropics"
+	neutral_neutral = "regions_unexplored:bayou"
+	icy_humid = "regions_unexplored:spires"
+
+[-----------------OCEAN_BIOMES--------------------]
+	deep_warm = "minecraft:deep_lukewarm_ocean"
+	deep_hot = "minecraft:warm_ocean"
+	warm = "minecraft:lukewarm_ocean"
+	deep_cool = "minecraft:deep_cold_ocean"
+	deep_neutral = "minecraft:deep_ocean"
+	#deep_oceans
+	deep_icy = "minecraft:deep_frozen_ocean"
+	cool = "minecraft:cold_ocean"
+	neutral = "minecraft:ocean"
+	hot = "minecraft:warm_ocean"
+	#oceans
+	icy = "minecraft:frozen_ocean"
+
+[-----------------SHORE_BIOMES--------------------]
+	cold_beach_biome = "regions_unexplored:gravel_beach"
+	warm_beach_biome = "regions_unexplored:grassy_beach"
+	#beach_biomes
+	icy_beach_biome = "minecraft:beach"
+	#stone_beach_biomes
+	cold_stone_beach_biome = "minecraft:stony_shore"
+	hot_stone_beach_biome = "regions_unexplored:chalk_cliffs"
+	neutral_beach_biome = "regions_unexplored:grassy_beach"
+	hot_beach_biome = "minecraft:beach"
+
+[-----------------UNDERGROUND_BIOMES--------------------]
+	cave_6_biome = "regions_unexplored:prismachasm"
+	cave_8_biome = "regions_unexplored:scorching_caves"
+	cave_5_biome = "regions_unexplored:lush_delta"
+	cave_3_biome = "minecraft:deep_dark"
+	cave_1_biome = "minecraft:lush_caves"
+	cave_4_biome = "regions_unexplored:bioshroom_caves"
+	cave_7_biome = "regions_unexplored:redstone_caves"
+	cave_2_biome = "minecraft:dripstone_caves"
+
+[-----------------OTHER_BIOMES--------------------]
+	island_biome = "regions_unexplored:smouldering_woodland"
+	shattered_cliff_biome = "regions_unexplored:towering_cliffs"
+

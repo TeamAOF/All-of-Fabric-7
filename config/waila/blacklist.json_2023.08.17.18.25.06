@@ -1,0 +1,26 @@
+{
+  "_comment": [
+    "On the SERVER, changes will be applied after the server is restarted",
+    "On the CLIENT, changes will be applied after player quit and rejoin a world"
+  ],
+  "blocks": [
+    "minecraft:barrier",
+    "minecraft:structure_void"
+  ],
+  "blockEntityTypes": [],
+  "entityTypes": [
+    "minecraft:area_effect_cloud",
+    "minecraft:experience_orb",
+    "minecraft:fireball",
+    "minecraft:firework_rocket",
+    "minecraft:snowball",
+    "minecraft:wither",
+    "minecraft:ender_dragon"
+  ],
+  "configVersion": 0,
+  "pluginHash": [
+    1510828157,
+    0,
+    1532117445
+  ]
+}
