@@ -100,7 +100,7 @@
         "text": [
           "${position} <gray>(${world})",
           "<yellow>${death_cause}",
-          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>"
         ]
       },
       "alt": {

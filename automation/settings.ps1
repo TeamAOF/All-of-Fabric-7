@@ -47,7 +47,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "[![](https://i.imgur.com/fT0iEaP.png)](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/CHANGELOG.md)"
+$CLIENT_CHANGELOG = "[![](https://i.imgur.com/gFssKRn.png)](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/CHANGELOG.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -58,7 +58,7 @@ $CLIENT_CHANGELOG = "[![](https://i.imgur.com/fT0iEaP.png)](https://github.com/T
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(9994)
+$GAME_VERSIONS = @(9990)
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "release"
@@ -81,7 +81,6 @@ $CLIENT_FILE_AUTHOR = "TeamAOF"
 
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 	"config",
-	"kubejs",
 	"shaderpacks",
 	"defaultconfigs")
 
@@ -116,7 +115,7 @@ $ENABLE_CLIENT_FILE_MODULE = $true
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.
 # Default: $true
-$ENABLE_MODPACK_UPLOADER_MODULE = $false
+$ENABLE_MODPACK_UPLOADER_MODULE = $true
 
 # Toggle server file feature on/off
 # Default: $true
