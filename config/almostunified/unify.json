@@ -1,14 +1,18 @@
 {
   "modPriorities": [
     "minecraft",
+    "modern_industrialization",
     "farmersdelight",
     "ae2",
     "techreborn",
     "ad_astra",
     "indrev",
-    "clutter",
+    "bewitchment",
+    "brewinandchewin",
     "croptopia",
-    "tinycoal"
+    "vinery",
+    "tinycoal",
+    "bakery"
   ],
   "stoneStrata": [
     "stone",
