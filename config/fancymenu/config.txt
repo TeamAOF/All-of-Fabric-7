@@ -34,7 +34,7 @@ S:customgameintroskiptext = '';
 [A minecraft restart is required after changing this value.]
 S:customwindowtitle = 'All of Fabric 7';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]

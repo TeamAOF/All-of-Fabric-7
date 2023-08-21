@@ -30,6 +30,11 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
   x = 86
@@ -319,7 +324,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = All of Fabric 7 - 0.1.1
+  source = All of Fabric 7 - 0.2.0
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -331,10 +336,5 @@ customization {
   y = -23
   alignment = left
   height = 11
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = hidebutton
 }
 
