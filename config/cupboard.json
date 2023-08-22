@@ -2,5 +2,9 @@
   "showCommandExecutionErrors": {
     "desc:": "Whether to display errors during command execution: default:true",
     "showCommandExecutionErrors": true
+  },
+  "debugChunkloadAttempts": {
+    "desc:": "Enables debug logging of chunks being forceloaded on serverthread by directly accessing an unloaded chunk, which stalls the server until the chunk finishes loading: default:false",
+    "debugChunkloadAttempts": false
   }
 }

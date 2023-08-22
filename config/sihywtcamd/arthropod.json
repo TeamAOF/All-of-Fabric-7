@@ -1,0 +1,12 @@
+{
+  "general": {
+    "noFallDamage": true,
+    "larvaeSpeedBonus": true
+  },
+  "spider": {
+    "baby": true,
+    "webProjectileGoal": false,
+    "caveSpiderJockey": false,
+    "caveSpiderNaturalSpawn": true
+  }
+}

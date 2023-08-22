@@ -1,0 +1,8 @@
+{
+  "wither": {
+    "increasedHealth": true,
+    "stormyWeather": true,
+    "explosion": true,
+    "skeletonsSpawn": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "badgeVisible": false,
+  "builtinServers": [
+    {
+      "name": "Europe Central",
+      "address": "aof7.yoosk.ovh",
+      "forced": false
+    }
+  ]
+}
