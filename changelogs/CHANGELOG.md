@@ -2,6 +2,24 @@
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.3.0.md)_
 
+### Added Mods
+
+  * [Anvil Repairing](https://www.curseforge.com/minecraft/mc-mods/anvil-repairing)
+  * [Async Locator](https://www.curseforge.com/minecraft/mc-mods/async-locator)
+  * [Besmirchment 2](https://www.curseforge.com/minecraft/mc-mods/besmirchment-2)
+  * [Bone Zone](https://www.curseforge.com/minecraft/mc-mods/bone-zone)
+  * [Create Fabric](https://www.curseforge.com/minecraft/mc-mods/create-fabric)
+  * [Create: Steam 'n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails)
+  * [Elytra Trims](https://www.curseforge.com/minecraft/mc-mods/elytra-trims)
+  * [Elytra Trims Extensions](https://www.curseforge.com/minecraft/mc-mods/elytra-trims-extensions)
+  * [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+  * [Nears [Fabric]](https://www.curseforge.com/minecraft/mc-mods/nears)
+  * [Playdate](https://www.curseforge.com/minecraft/mc-mods/playdate)
+
+### Removed Mods
+
+  * [Starlight (Fabric)](https://www.curseforge.com/minecraft/mc-mods/starlight)
+
 ### Bug Fixes
 
 - Crashing when right-clicking MI pipes.
