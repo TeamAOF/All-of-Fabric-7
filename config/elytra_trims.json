@@ -1,0 +1,16 @@
+{
+  "render": {
+    "color": "ALL",
+    "patterns": "ALL",
+    "trims": "ALL",
+    "cape": "ALL",
+    "glow": "ALL",
+    "global": "ALL"
+  },
+  "texture": {
+    "useBannerTextures": false,
+    "cropTrims": true,
+    "useDarkerTrim": false,
+    "showBannerIcon": true
+  }
+}

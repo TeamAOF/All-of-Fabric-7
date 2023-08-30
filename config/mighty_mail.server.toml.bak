@@ -1,0 +1,5 @@
+#The maximum amount of items that can be queued for delivery for a mail box
+mailboxInventoryRows = 1
+#The maximum amount of items that can be queued for delivery for a mail box
+mailQueueSize = 18
+

@@ -1,0 +1,64 @@
+
+#.
+#Miscellaneous settings
+[misc]
+	#.
+	#Coupler will require points to be on the same or adjacent track edge, this will prevent the coupler from working if there is any form of junction in between the two points.
+	strictCoupler = false
+	#.
+	#Allow controlling Brass Switches remotely when approaching them on a train
+	flipDistantSwitches = true
+	#.
+	#Max distance between targeted track and placed switch stand
+	#Range: 16 ~ 128
+	switchPlacementRange = 64
+
+#.
+#Semaphore settings
+[semaphores]
+	#.
+	#.
+	#Simplified semaphore placement (no upside-down placement)
+	simplifiedPlacement = true
+	#.
+	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
+	flipYellowOrder = false
+
+#.
+#Conductor settings
+[conductors]
+	#.
+	#.
+	#Conductor whistle is limited to the owner of a train
+	mustOwnBoundTrain = false
+	#.
+	#Maximum length of conductor vents
+	#Range: > 1
+	maxConductorVentLength = 64
+
+#.
+#Journeymap compat settings
+[journeymap]
+	#.
+	#.
+	#[in Ticks]
+	#Outside-of-render-distance train sync time
+	#Range: 10 ~ 600
+	farTrainSyncTicks = 200
+	#.
+	#[in Ticks]
+	#In-render-distance train sync time
+	#Range: 1 ~ 600
+	nearTrainSyncTicks = 5
+
+#.
+#Optimization settings (may be experimental)
+[optimization]
+	#.
+	#.
+	#Disable collisions between trains. May have significant performance impact if playing with many trains
+	disableTrainCollision = false
+	#.
+	#Optimizes belts placing items onto belts by skipping the calculation of an unused, but expensive, variable
+	optimizeFunnelBeltInteraction = false
+

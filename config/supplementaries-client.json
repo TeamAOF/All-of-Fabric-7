@@ -84,8 +84,8 @@
   },
   "particles": {
     "turn_particle": {
-      "initial_color": "2a77ea",
-      "fade_color": "32befa"
+      "initial_color": "#002A77EA",
+      "fade_color": "#0032BEFA"
     }
   },
   "general": {
@@ -126,7 +126,7 @@
     "slingshot": {
       "overlay": true,
       "stasis_block_outline": true,
-      "block_outline_color": "ffffff66",
+      "block_outline_color": "#FFFFFF66",
       "projectile_scale": 0.5
     },
     "quiver": {

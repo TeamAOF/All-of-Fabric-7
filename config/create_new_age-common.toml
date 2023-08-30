@@ -1,0 +1,32 @@
+#Responsible for how much energy is generated per 1 stress unit in a tick
+#Default value is supposed to be compatible with default configuration of Create: Crafts and Additions
+#Range: 0.0 ~ 1.7976931348623157E308
+suToEnergy = 0.029296875
+#How many coils can the carbon brushes collect energy from
+#Range: > 0
+maxCoils = 8
+#How many reactor rods can a fuel inserter or a heat vent have in a single direction
+#Range: > 0
+maxRodsInDirection = 32
+#Multiplier of wire conductivity
+#Range: 0.0 ~ 1.7976931348623157E308
+conductivityMultiplier = 1.0
+#Maximum depth of network pathfinding
+#Range: > 1
+maxPathfindingDepth = 32
+#Multiplier of energising speed
+#Range: 0.0 ~ 1.7976931348623157E308
+energiserSpeedMultiplier = 1.0
+#Multiplier for the temperature at which components overheat. Set to -1 to disable overheating.
+#Range: -1.0 ~ 1.7976931348623157E308
+overheatingMultiplier = 1.0
+#How much heat per tick a nuclear reactor rod generate.
+#Range: 0.0 ~ 1.7976931348623157E308
+ReactorRodHeat = 30.0
+#How much heat per tick a nuclear reactor rod looses above the 16000*overheatingMultiplier.
+#Range: 0.0 ~ 1.7976931348623157E308
+ReactorRodHeatLoss = 25.0
+#Multiplier for how much heat solar panels output.
+#Range: 0.0 ~ 1.7976931348623157E308
+solarPanelHeatMultiplier = 1.0
+

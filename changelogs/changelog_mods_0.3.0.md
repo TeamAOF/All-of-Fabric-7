@@ -1,0 +1,60 @@
+## All of Fabric 7 - 0.2.1 -> 0.3.0
+
+### Added
+
+  * [Anvil Repairing](https://www.curseforge.com/minecraft/mc-mods/anvil-repairing) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
+  * [Async Locator](https://www.curseforge.com/minecraft/mc-mods/async-locator) (by [bright_spark](https://www.curseforge.com/members/bright_spark/projects))
+  * [Besmirchment 2](https://www.curseforge.com/minecraft/mc-mods/besmirchment-2) (by [MrSterner_](https://www.curseforge.com/members/MrSterner_/projects))
+  * [Bone Zone](https://www.curseforge.com/minecraft/mc-mods/bone-zone) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
+  * [Create Fabric](https://www.curseforge.com/minecraft/mc-mods/create-fabric) (by [tropheusj](https://www.curseforge.com/members/tropheusj/projects))
+  * [Create: Steam 'n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails) (by [mattentosh](https://www.curseforge.com/members/mattentosh/projects))
+  * [Elytra Trims](https://www.curseforge.com/minecraft/mc-mods/elytra-trims) (by [KikuGie](https://www.curseforge.com/members/KikuGie/projects))
+  * [Elytra Trims Extensions](https://www.curseforge.com/minecraft/mc-mods/elytra-trims-extensions) (by [KikuGie](https://www.curseforge.com/members/KikuGie/projects))
+  * [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) (by [coderbot](https://www.curseforge.com/members/coderbot/projects))
+  * [Nears [Fabric]](https://www.curseforge.com/minecraft/mc-mods/nears) (by [DigitalPear_11](https://www.curseforge.com/members/DigitalPear_11/projects))
+  * [Playdate](https://www.curseforge.com/minecraft/mc-mods/playdate) (by [Frogipher](https://www.curseforge.com/members/Frogipher/projects))
+
+### Removed
+
+  * [Starlight (Fabric)](https://www.curseforge.com/minecraft/mc-mods/starlight) (by [Spottedstar](https://www.curseforge.com/members/Spottedstar/projects))
+
+### Changed
+
+  * [Ad-Astra-Giselle-Addon-fabric-1.20.1-5.5.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon/files/4712394) -> [Ad-Astra-Giselle-Addon-fabric-1.20.1-5.6.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon/files/4718920)
+  * [adventurez-1.4.18.jar](https://www.curseforge.com/minecraft/mc-mods/adventurez/files/4656247) -> [adventurez-1.4.19.jar](https://www.curseforge.com/minecraft/mc-mods/adventurez/files/4728085)
+  * [argonauts-fabric-1.20.1-1.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/argonauts/files/4709875) -> [argonauts-fabric-1.20.1-1.0.4.jar](https://www.curseforge.com/minecraft/mc-mods/argonauts/files/4724092)
+  * [athena-fabric-1.20.1-3.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/athena/files/4686261) -> [athena-fabric-1.20.1-3.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/athena/files/4718180)
+  * [betterlily-1.20-1.3.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/better-lily-pads/files/4646699) -> [betterlily-1.20-1.3.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/better-lily-pads/files/4719498)
+  * [cadmus-fabric-1.20.1-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/cadmus/files/4709854) -> [cadmus-fabric-1.20.1-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/cadmus/files/4718414)
+  * [cc-tweaked-1.20.1-fabric-1.107.0.jar](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked/files/4702295) -> [cc-tweaked-1.20.1-fabric-1.108.0.jar](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked/files/4726253)
+  * [ctov-3.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village/files/4674080) -> [ctov-3.3.4.jar](https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village/files/4729458)
+  * [entangled-1.3.15-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/entangled/files/4676278) -> [entangled-1.3.16-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/entangled/files/4720134)
+  * [fabric-language-kotlin-1.10.8+kotlin.1.9.0.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/4654791) -> [fabric-language-kotlin-1.10.10+kotlin.1.9.10.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/files/4719981)
+  * [framework-fabric-1.20.1-0.6.15.jar](https://www.curseforge.com/minecraft/mc-mods/framework-fabric/files/4717443) -> [framework-fabric-1.20.1-0.6.16.jar](https://www.curseforge.com/minecraft/mc-mods/framework-fabric/files/4718252)
+  * [ftb-library-fabric-2001.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric/files/4596510) -> [ftb-library-fabric-2001.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric/files/4720055)
+  * [heracles-fabric-1.20.1-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/heracles/files/4680797) -> [heracles-fabric-1.20.1-1.0.4.jar](https://www.curseforge.com/minecraft/mc-mods/heracles/files/4728656)
+  * [indium-1.0.25+mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/indium/files/4709808) -> [indium-1.0.21+mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/indium/files/4635978)
+  * [mcpitanlibarch-1.7.7-1.20.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch/files/4712231) -> [mcpitanlibarch-1.7.8-1.20.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch/files/4723149)
+  * [merequester-fabric-1.20.1-1.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/merequester/files/4665974) -> [merequester-fabric-1.20.1-1.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/merequester/files/4719291)
+  * [mighty_mail-fabric-1.20.1-1.0.8.jar](https://www.curseforge.com/minecraft/mc-mods/mighty-mail-fabric/files/4717024) -> [mighty_mail-fabric-1.20.1-1.0.12.jar](https://www.curseforge.com/minecraft/mc-mods/mighty-mail-fabric/files/4725551)
+  * [dummmmmmy-1.20-1.7.9-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm/files/4602102) -> [dummmmmmy-1.20-1.8.3-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm/files/4724733)
+  * [Modern-Industrialization-1.7.0-beta.jar](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization/files/4714459) -> [Modern-Industrialization-1.7.3.jar](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization/files/4721852)
+  * [modernfix-fabric-5.7.1+mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/4714461) -> [modernfix-fabric-5.7.2+mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/4728409)
+  * [moonlight-1.20-2.8.6-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/4715872) -> [moonlight-1.20-2.8.13-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/4728636)
+  * [perfectplushies-fabric-1.20.1-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/perfect-plushies/files/4710670) -> [perfectplushies-fabric-1.20.1-1.5.0.jar](https://www.curseforge.com/minecraft/mc-mods/perfect-plushies/files/4726417)
+  * [polymer-bundled-0.5.13+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/polymer/files/4715138) -> [polymer-bundled-0.5.14+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/polymer/files/4720826)
+  * [Powah-5.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/4638300) -> [Powah-5.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/4729363)
+  * [prometheus-fabric-1.20.1-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/prometheus/files/4685796) -> [prometheus-fabric-1.20.1-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/prometheus/files/4718500)
+  * [reeses_sodium_options-1.6.5+mc1.20.1-build.95.jar](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options/files/4717362) -> [reeses_sodium_options-1.6.3+mc1.20.1-build.92.jar](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options/files/4665660)
+  * [RegionsUnexploredFabric-0.4.1+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/regions-unexplored/files/4583966) -> [RegionsUnexploredFabric-0.5.1_02+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/regions-unexplored/files/4721508)
+  * [repurposed_structures-7.1.3+1.20.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric/files/4716360) -> [repurposed_structures-7.1.4+1.20.1-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric/files/4724787)
+  * [sodium-fabric-mc1.16.5-0.2.0+build.4.jar](https://www.curseforge.com/minecraft/mc-mods/sodium/files/3488820) -> [sodium-fabric-mc1.20-0.4.10+build.27.jar](https://www.curseforge.com/minecraft/mc-mods/sodium/files/4620563)
+  * [supermartijn642corelib-1.1.12b-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/4666040) -> [supermartijn642corelib-1.1.12c-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/4729619)
+  * [supplementaries-1.20-2.5.27-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4714555) -> [supplementaries-1.20-2.5.28-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4720017)
+  * [tesseract-1.0.35-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract/files/4628382) -> [tesseract-1.0.35a-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract/files/4720195)
+  * [tidal-towns-1.1.jar](https://www.curseforge.com/minecraft/mc-mods/tidal-towns/files/4693241) -> [tidal-towns-1.2.jar](https://www.curseforge.com/minecraft/mc-mods/tidal-towns/files/4723528)
+  * [tiered-1.2.8.jar](https://www.curseforge.com/minecraft/mc-mods/tieredz/files/4686489) -> [tiered-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/tieredz/files/4718604)
+  * [Trowel-1.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/trowel/files/4578276) -> [Trowel-1.2.0-1.20.jar](https://www.curseforge.com/minecraft/mc-mods/trowel/files/4728055)
+  * [utilitybelt-1.3.3+1.20.x.jar](https://www.curseforge.com/minecraft/mc-mods/utility-belt/files/4600746) -> [utilitybelt-1.3.5+1.20.x.jar](https://www.curseforge.com/minecraft/mc-mods/utility-belt/files/4719374)
+  * [wthit-fabric-8.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/wthit/files/4692041) -> [wthit-fabric-8.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/wthit/files/4727740)
+

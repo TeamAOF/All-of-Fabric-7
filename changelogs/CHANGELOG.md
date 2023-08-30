@@ -1,6 +1,19 @@
+### All of Fabric 7 | v0.3.0
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.3.0.md)_
+
+### Bug Fixes
+
+- Crashing when right-clicking MI pipes.
+- Crashing when using AE2's ponder.
+- Incompatibilities between Powah & Entangled.
+- Client crash when drawing a hatch or multiblock error highlight with MI.
+- Lag issues with looking up maps.
+---
+
 ### All of Fabric 7 | v0.2.1
 
-_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.1.0.md)_
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.2.1.md)_
 
 ### Bug Fixes
 
