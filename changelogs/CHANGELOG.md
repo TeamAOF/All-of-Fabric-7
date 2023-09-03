@@ -15,10 +15,15 @@ _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
   * [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
   * [Nears [Fabric]](https://www.curseforge.com/minecraft/mc-mods/nears)
   * [Playdate](https://www.curseforge.com/minecraft/mc-mods/playdate)
+  * [Polymorph](https://www.curseforge.com/minecraft/mc-mods/polymorph)
 
 ### Removed Mods
 
   * [Starlight (Fabric)](https://www.curseforge.com/minecraft/mc-mods/starlight)
+  
+### Changes/Improvements
+
+* You can now cycle recipes overriding eachother, this is temporary till KubeJS releases.
 
 ### Bug Fixes
 
