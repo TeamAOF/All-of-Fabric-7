@@ -33,7 +33,7 @@
 		compact_tooltips = true
 		# Which items should have a 3D model rendered in the tooltip.  If set to "equipment", the model will only be rendered for items with durability.
 		#Allowed Values: NONE, EQUIPMENT, ALL
-		render_item_model = "EQUIPMENT"
+		render_item_model = "NONE"
 		# The speed at which 3D models in tooltips will rotate.  Lower values rotate faster, set to 0 to disable rotation.
 		#Range: 0.0 ~ 50.0
 		model_rotation_speed = 12.0

@@ -1,3 +1,28 @@
+### All of Fabric 7 | v0.4.0
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.4.9.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.4.0.md)_
+
+### Added Mods
+
+  * [Mythic Upgrades](https://www.curseforge.com/minecraft/mc-mods/mythic-upgrades)
+  * [Nature's Spirit](https://www.curseforge.com/minecraft/mc-mods/natures-spirit)
+  * [Rechiseled: Create](https://www.curseforge.com/minecraft/mc-mods/rechiseled-create)
+  * [TriQue API](https://www.curseforge.com/minecraft/mc-mods/trique-api)
+  * [Warden Tools](https://www.curseforge.com/minecraft/mc-mods/warden-tools)
+
+### Removed Mods
+
+  * [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)
+  
+### Changes/Improvements
+
+* Removed Create button in Main Menu (AK).
+
+### Bug Fixes
+
+* Crashes when hovering gear/weapons.
+---
+
 ### All of Fabric 7 | v0.3.0
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.3.0.md)_
