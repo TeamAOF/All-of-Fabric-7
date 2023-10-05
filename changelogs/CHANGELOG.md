@@ -1,3 +1,59 @@
+### All of Fabric 7 | v0.5.0
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.0.md)_
+
+## World Resets are highly recommended for this update.
+
+### Added Mods
+
+  * [Accelerated Decay](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay)
+  * [Banilla Claws](https://www.curseforge.com/minecraft/mc-mods/banilla-claws)
+  * [Bank Storage](https://www.curseforge.com/minecraft/mc-mods/bank-storage)
+  * [Bygone Nether (Fabric)](https://www.curseforge.com/minecraft/mc-mods/bygone-nether-fabric)
+  * [CC:C Bridge](https://www.curseforge.com/minecraft/mc-mods/cccbridge)
+  * [Chef's Delight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/chefs-delight-fabric)
+  * [Convenient Decor](https://www.curseforge.com/minecraft/mc-mods/convenient-decor)
+  * [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition)
+  * [Create Jetpack](https://www.curseforge.com/minecraft/mc-mods/create-jetpack)
+  * [Create Slice & Dice](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
+  * [Create: Diesel Generators [Fabric]](https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators-fabric)
+  * [Ecospherical Expansion](https://www.curseforge.com/minecraft/mc-mods/ecospherical-expansion)
+  * [Glassential (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/glassential-fabric)
+  * [ImmediatelyFast](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast)
+  * [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+  * [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
+  * [Lookin' Sharp](https://www.curseforge.com/minecraft/mc-mods/lookin-sharp)
+  * [LootJS: KubeJS Addon](https://www.curseforge.com/minecraft/mc-mods/lootjs)
+  * [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows)
+  * [Mine Cells - Dead Cells Mod](https://www.curseforge.com/minecraft/mc-mods/minecells)
+  * [Modern Industrialization Sound Addon](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization-sound-addon)
+  * [Only Hammers [FORGE/FABRIC]](https://www.curseforge.com/minecraft/mc-mods/only-hammers-forge-fabric)
+  * [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)
+  * [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino)
+  * [The Bumblezone (Quilt/Fabric)](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-fabric)
+  * [WITS](https://www.curseforge.com/minecraft/mc-mods/wits)
+  * [YUNG's API (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric)
+  * [YUNG's Better Desert Temples (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-fabric)
+  * [YUNG's Better Dungeons (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-fabric)
+  * [YUNG's Better End Island (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-fabric)
+  * [YUNG's Better Jungle Temples (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-fabric)
+  * [YUNG's Better Mineshafts (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric)
+  * [YUNG's Better Ocean Monuments (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-fabric)
+  * [YUNG's Better Strongholds (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-fabric)
+  * [YUNG's Better Witch Huts (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-fabric)
+  * [YUNG's Bridges (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-fabric)
+  * [YUNG's Extras (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-extras-fabric)
+
+### Removed Mods
+
+  * [Connectivity[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/connectivity)
+  * [Loot Integrations[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/loot-integrations)
+  
+### Changes/Improvements
+
+* Ported over all AOF6 scripts, report issues if any (AK).
+---
+
 ### All of Fabric 7 | v0.4.0
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.4.0.md)_

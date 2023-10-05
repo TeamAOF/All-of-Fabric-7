@@ -1,13 +1,4 @@
-
 ["Server Configs"]
-	#forge:fuel tag compatibility
-	"forge:fuel tag compatibility" = true
-	#forge:ethanol tag compatibility
-	"forge:ethanol tag compatibility" = true
-	#forge:plantoil tag compatibility
-	"forge:plantoil tag compatibility" = true
-	#forge:biodiesel tag compatibility
-	"forge:biodiesel tag compatibility" = true
 	#Speed of Slow Fuel Type in RPM
 	"Speed of Slow Fuel Type" = 48.0
 	#Speed of Fast Fuel Type in RPM
@@ -16,4 +7,11 @@
 	"Strength of Weak Fuel Type" = 512.0
 	#Strength of Strong Fuel Type in su
 	"Strength of Strong Fuel Type" = 1024.0
-
+	#c:fuel tag compatibility
+	"c:fuel tag compatibility" = true
+	#c:ethanol tag compatibility
+	"c:ethanol tag compatibility" = true
+	#c:plantoil tag compatibility
+	"c:plantoil tag compatibility" = true
+	#c:biodiesel tag compatibility
+	"c:biodiesel tag compatibility" = true

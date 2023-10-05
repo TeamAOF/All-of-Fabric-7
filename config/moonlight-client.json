@@ -1,4 +1,6 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
-  "merge_dynamic_packs": true
+  "merge_dynamic_packs": true,
+  "lazy_map_upload": true,
+  "maps_mipmap": 3
 }

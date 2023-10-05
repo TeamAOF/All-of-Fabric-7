@@ -1,4 +1,3 @@
-
 #.
 #Miscellaneous settings
 [misc]
@@ -12,7 +11,6 @@
 	#Max distance between targeted track and placed switch stand
 	#Range: 16 ~ 128
 	switchPlacementRange = 64
-
 #.
 #Semaphore settings
 [semaphores]
@@ -23,7 +21,6 @@
 	#.
 	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
 	flipYellowOrder = false
-
 #.
 #Conductor settings
 [conductors]
@@ -35,7 +32,6 @@
 	#Maximum length of conductor vents
 	#Range: > 1
 	maxConductorVentLength = 64
-
 #.
 #Journeymap compat settings
 [journeymap]
@@ -50,7 +46,6 @@
 	#In-render-distance train sync time
 	#Range: 1 ~ 600
 	nearTrainSyncTicks = 5
-
 #.
 #Optimization settings (may be experimental)
 [optimization]
@@ -61,4 +56,3 @@
 	#.
 	#Optimizes belts placing items onto belts by skipping the calculation of an unused, but expensive, variable
 	optimizeFunnelBeltInteraction = false
-

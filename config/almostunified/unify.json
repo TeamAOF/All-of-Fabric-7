@@ -104,14 +104,15 @@
     "c:dough": "farmersdelight",
     "c:titanium_small_dusts": "modern_industrialization"
   },
+  "customTags": {},
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
   "ignoredTags": [
-    "minecraft:slabs",
     "c:quartz_blocks",
+    "minecraft:slabs",
     "minecraft:stairs"
   ],
   "ignoredItems": [],

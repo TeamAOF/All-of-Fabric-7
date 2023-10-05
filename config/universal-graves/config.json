@@ -36,7 +36,7 @@
     "max_shift_tries": 5,
     "max_shift_distance": 40,
     "generate_on_top_of_fluids": false,
-    "restore_replaced_block": false,
+    "create_gravestone_after_emptying": false,
     "restore_replaced_block_after_player_breaking": true,
     "cancel_creation_for_damage_types": {},
     "cancel_creation_for_ignored_attacker_types": {},
@@ -74,6 +74,7 @@
   },
   "ui": {
     "title": "<lang:'text.graves.players_grave':'${player}'>",
+    "admin_title": "<lang:'text.graves.admin_graves'>",
     "list_grave_icon": {
       "base": {
         "icon": "minecraft:chest",
@@ -87,6 +88,28 @@
         "icon": "minecraft:trapped_chest",
         "text": [
           "${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.not_protected'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      }
+    },
+    "admin_list_grave_icon": {
+      "base": {
+        "icon": "minecraft:chest",
+        "text": [
+          "<dark_gray>[<white>${player}</>]</> ${position} <gray>(${world})",
+          "<yellow>${death_cause}",
+          "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
+          "<blue><lang:'text.graves.protected_time':'<white>${protection_time}'>",
+          "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+        ]
+      },
+      "alt": {
+        "icon": "minecraft:trapped_chest",
+        "text": [
+          "<dark_gray>[<white>${player}</>]</> ${position} <gray>(${world})",
           "<yellow>${death_cause}",
           "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
           "<blue><lang:'text.graves.not_protected'>",

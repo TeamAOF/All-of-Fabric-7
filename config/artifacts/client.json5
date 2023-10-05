@@ -4,5 +4,12 @@
 	// Whether artifacts should have tooltips explaining their effects
 	"showTooltips": true,
 	// Whether mimics can use textures from Lootr or Quark
-	"useModdedMimicTextures": true
+	"useModdedMimicTextures": true,
+	// Display artifacts on cooldown next to the hotbar
+	"enableCooldownOverlay": false,
+	/* Location of the artifact cooldown gui element
+	   Distance from the hotbar measured in pixels
+	   Negative values place the element left of the hotbar
+	*/
+	"cooldownOverlayOffset": 10
 }

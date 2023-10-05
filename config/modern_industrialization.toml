@@ -14,3 +14,4 @@ enableDefaultOreGenTooltips = true
 datagenOnStartup = false
 loadRuntimeGeneratedResources = true
 removeIndustrialistTrades = false
+maxDistillationTowerHeight = 9

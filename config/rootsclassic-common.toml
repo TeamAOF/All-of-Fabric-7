@@ -1,4 +1,3 @@
-
 #Settings related to actual gameplay-affecting features
 [items]
 	#Old Roots will drop from tall grass with a 1/oldRootDropChance probability
@@ -19,7 +18,6 @@
 	#Berries will drop from oak leaves with a 1/berriesDropChance probability
 	#Range: 0 ~ 32767
 	berriesDropChance = 25
-
 #Settings related to actual gameplay-affecting features
 [magic]
 	#The number of additional uses each efficiency modifier gives
@@ -42,4 +40,3 @@
 	#Number of uses added by each efficiency level on a spell
 	#Range: 1 ~ 100
 	staffUsesEfficiency = 15
-
