@@ -5,7 +5,7 @@
         basicBlockChargerRange = 2
 
         # How much energy should the Basic Wireless Block Charger be able to store?
-        # Allowed range: 1000 ~ 1000000 - Default: 25000
+        # Allowed range: 1000 ~ 10000000 - Default: 25000
         basicBlockChargerCapacity = 25000
 
         # How much energy per tick per block should the Basic Wireless Block Charger transfer? 1 second = 20 ticks.
@@ -18,7 +18,7 @@
         advancedBlockChargerRange = 3
 
         # How much energy should the Advanced Wireless Block Charger be able to store?
-        # Allowed range: 1000 ~ 1000000 - Default: 100000
+        # Allowed range: 1000 ~ 10000000 - Default: 100000
         advancedBlockChargerCapacity = 100000
 
         # How much energy per tick per block should the Advanced Wireless Block Charger transfer? 1 second = 20 ticks.
@@ -31,7 +31,7 @@
         basicPlayerChargerRange = 4
 
         # How much energy should the Basic Wireless Player Charger be able to store?
-        # Allowed range: 1000 ~ 1000000 - Default: 25000
+        # Allowed range: 1000 ~ 10000000 - Default: 25000
         basicPlayerChargerCapacity = 25000
 
         # How much energy per tick per block should the Basic Wireless Player Charger transfer? 1 second = 20 ticks.
@@ -44,7 +44,7 @@
         advancedPlayerChargerRange = 6
 
         # How much energy should the Advanced Wireless Player Charger be able to store?
-        # Allowed range: 1000 ~ 1000000 - Default: 100000
+        # Allowed range: 1000 ~ 10000000 - Default: 100000
         advancedPlayerChargerCapacity = 100000
 
         # How much energy per tick per block should the Advanced Wireless Player Charger transfer? 1 second = 20 ticks.

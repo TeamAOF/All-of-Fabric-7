@@ -12,4 +12,3 @@ fusionType = "NORMAL"
 #The energy cost per second of fall flying if fusionType is UNISON and the chestplate uses energy.
 #Range: > 0
 energyCost = 1000
-

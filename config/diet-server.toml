@@ -23,4 +23,3 @@ foodOverrides = []
 generateGroupsForEmptyItems = true
 #If enabled, food group tooltips are hidden until player has eaten that type of item.
 hideTooltipsUntilEaten = false
-

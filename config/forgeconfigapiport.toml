@@ -11,4 +11,3 @@ recreateConfigsWhenParsingFails = true
 #Prevent server config files from being saved inside the current world directory. Instead, save them to the global config directory in .minecraft/config/.
 #This option effectively disables per world server configs, but helps a lot with avoiding user confusion.
 forceGlobalServerConfigs = true
-

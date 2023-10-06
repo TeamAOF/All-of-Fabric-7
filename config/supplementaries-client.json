@@ -129,6 +129,14 @@
       "block_outline_color": "#FFFFFF66",
       "projectile_scale": 0.5
     },
+    "altimeter": {
+      "click_action": true,
+      "extra_dimension_textures": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "texture_precision_multiplier": 1
+    },
     "quiver": {
       "armor_render_offset": -1.0,
       "render_mode": "THIGH",

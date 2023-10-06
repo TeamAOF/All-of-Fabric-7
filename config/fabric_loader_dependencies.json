@@ -790,11 +790,6 @@
       "-depends": {
         "ae2": ""
       }
-    },
-    "sodium": {
-      "+depends": {
-        "indium": "*"
-      }
     }
   }
 }

@@ -1,4 +1,3 @@
-
 [absorption]
 	#Render vanilla hearts
 	#Default: true
@@ -20,7 +19,6 @@
 	#All values are written as hexadecimal RGB color in '#RRGGBB' format
 	#Default: [#E1FA9B, #A0FFAF, #AAFFFA, #AACDFF, #D7B4FF, #FAA5FF, #FFB4B4, #FFAA7D, #D7F0FF, #EBFFFA]
 	colors = ["#E1FA9B", "#A0FFAF", "#AAFFFA", "#AACDFF", "#D7B4FF", "#FAA5FF", "#FFB4B4", "#FFAA7D", "#D7F0FF", "#EBFFFA"]
-
 [health]
 	#Render vanilla hearts
 	#Default: true
@@ -41,4 +39,3 @@
 	#All values are written as hexadecimal RGB color in '#RRGGBB' format
 	#Default: [#F06E14, #F5DC23, #2DB928, #1EAFBE, #7346E1, #FA7DEB, #EB375A, #FF8278, #AAFFFA, #EBEBFF]
 	colors = ["#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF"]
-

@@ -1,4 +1,5 @@
 {
+  "showApiLogs": true,
   "dandelionMoobloom": {
     "spawnEnabled": true,
     "weight": 10,
@@ -70,6 +71,27 @@
     "maxGroupSize": 4,
     "spawnBlocks": true,
     "damagePlayers": true
+  },
+  "cherryMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "azaleaMoobloom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "dripleafMoobloom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
   },
   "chorusMoobloom": {
     "spawnEnabled": true,

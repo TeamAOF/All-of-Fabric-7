@@ -1,13 +1,19 @@
 {
   "modPriorities": [
     "minecraft",
+    "modern_industrialization",
     "farmersdelight",
+    "create",
     "ae2",
     "techreborn",
     "ad_astra",
     "indrev",
+    "bewitchment",
+    "brewinandchewin",
     "croptopia",
-    "tinycoal"
+    "vinery",
+    "tinycoal",
+    "bakery"
   ],
   "stoneStrata": [
     "stone",
@@ -92,17 +98,21 @@
     "c:chromium_small_dusts": "modern_industrialization",
     "c:platinum_small_dusts": "modern_industrialization",
     "c:salt_dusts": "bewitchment",
-    "c:dough": "farmersdelight",
     "c:obsidian_plates": "techreborn",
     "c:obsidian_dusts": "techreborn",
     "c:amethyst_dusts": "hexcasting",
+    "c:dough": "farmersdelight",
     "c:titanium_small_dusts": "modern_industrialization"
   },
   "tagOwnerships": {},
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
   "ignoredTags": [
     "minecraft:slabs",
-    "minecraft:stairs",
-    "c:quartz_blocks"
+    "c:quartz_blocks",
+    "minecraft:stairs"
   ],
   "ignoredItems": [],
   "ignoredRecipeTypes": [

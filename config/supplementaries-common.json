@@ -224,6 +224,10 @@
       "only_works_in_curio": false,
       "quiver_pickup": true
     },
+    "slice_map": {
+      "enabled": true,
+      "range_multiplier": 0.25
+    },
     "bubble_blower": {
       "enabled": true,
       "stasis_cost": 5,
@@ -262,14 +266,19 @@
       "range_multiplier": 1.0,
       "charge_time": 20,
       "stasis_deceleration": 0.9625,
-      "unrestricted_enderman_intercept": true
+      "unrestricted_enderman_intercept": true,
+      "allow_splash_potions": false,
+      "allow_bombs": false,
+      "allow_fire_charges": false,
+      "allow_snowballs": false
     },
     "antique_ink": {
       "enabled": true,
       "cartographer_trades": true
     },
     "candy": true,
-    "stasis": true
+    "stasis": true,
+    "altimeter": true
   },
   "general": {
     "creative_tab": false,
@@ -341,7 +350,9 @@
     },
     "map_tweaks": {
       "random_adventurer_maps": true,
-      "block_map_markers": true
+      "block_map_markers": true,
+      "death_marker": "WITH_COMPASS",
+      "tinted_blocks_on_maps": true
     },
     "ceiling_banners": {
       "enabled": true

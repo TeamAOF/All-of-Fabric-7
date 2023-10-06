@@ -1,4 +1,3 @@
-
 # Legendary Tooltips Configuration Instructions
 #
 # *** READ THIS FIRST ***
@@ -15,7 +14,6 @@
 #   4. Optionally, border colors associated with custom borders can be set in the "colors" section.  The start color is the color at the top of the tooltip,
 #      and the end color is the bottom, with a smooth transition between.  Please read the information above the color section for specifics.
 [client]
-
 	[client.visual_options]
 		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
 		name_separator = true
@@ -37,7 +35,6 @@
 		# The speed at which 3D models in tooltips will rotate.  Lower values rotate faster, set to 0 to disable rotation.
 		#Range: 0.0 ~ 50.0
 		model_rotation_speed = 12.0
-
 	# Entry types:
 	#    Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
 	#    Item ID - Use item ID to match single items.  Must include mod name for modded items.  Examples: "minecraft:stick", "iron_ore", "spoiledeggs:spoiled_egg"
@@ -69,12 +66,10 @@
 		level15_entries = []
 		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
 		blacklist = []
-
 	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
 	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
 	[client.priorities]
 		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-
 	# The colors used for each tooltip, in this order: top border color, bottom border color, top background color, bottom background color.
 	# None of these colors are required, though any colors not specified will be replaced with the default tooltip colors.
 	#
@@ -117,4 +112,3 @@
 		level13_colors = ["auto", "auto", "auto", "auto"]
 		level14_colors = ["auto", "auto", "auto", "auto"]
 		level15_colors = ["auto", "auto", "auto", "auto"]
-

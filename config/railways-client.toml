@@ -1,10 +1,12 @@
-
 #.
 #Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
 [client]
 	#.
 	#Use a scanline shader when spying through a conductor
 	useConductorSpyShader = true
+	#.
+	#Disable the optifine warning screen [DANGER]: Using optifine With Steam 'n' Rails may cause issues and you will not get any support for optifine related issues.
+	disableOptifineNag = false
 	#.
 	#Whether to actually apply the dev cape (ignored for non-devs)
 	#This setting may require a relog to take effect
@@ -36,7 +38,6 @@
 		#Smoke texture quality
 		#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
 		smokeQuality = "HIGH"
-
 	#.
 	#Journeymap Settings
 	[client.journeymap]
@@ -50,4 +51,3 @@
 		#Journeymap train overlay old marker removal check time
 		#Range: 10 ~ 1200
 		removeObsoleteRate = 200
-
