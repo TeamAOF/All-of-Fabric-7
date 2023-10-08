@@ -1,3 +1,24 @@
+### All of Fabric 7 | v0.5.1
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.1.md)_
+
+### Removed Mods
+
+  * [Mooblooms](https://www.curseforge.com/minecraft/mc-mods/mooblooms) (Issues with mob limits on spawning)
+  * [Woods and Mires](https://www.curseforge.com/minecraft/mc-mods/woods-and-mires)
+  
+### Changes/Improvements
+
+* Missing kubejs folder.
+* MI Guide Book is no longer granted on respawn (AK).
+
+### Bug Fixes
+
+* Items in hand being invincible when in Mine Cells dimension.
+* Crashing on world creation.
+* Placing down certain MI machines would crash your game (AK).
+---
+
 ### All of Fabric 7 | v0.5.0
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.0.md)_

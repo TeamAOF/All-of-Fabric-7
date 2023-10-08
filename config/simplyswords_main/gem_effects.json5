@@ -18,5 +18,8 @@
 	"enableSpellshield": true,
 	"spellshieldChance": 15,
 	"enableSpellforged": true,
-	"enableSoulshock": true
+	"enableSoulshock": true,
+	"enableSpellStandard": true,
+	"enableWarStandard": true,
+	"enableDeception": true
 }
