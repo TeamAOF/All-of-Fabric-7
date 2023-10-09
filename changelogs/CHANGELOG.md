@@ -1,3 +1,27 @@
+### All of Fabric 7 | v0.5.2
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.2.md)_
+
+### Added
+
+  * [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound)
+  * [Enderman Overhaul](https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul)
+
+### Removed
+
+  * [Crafting Tweaks (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks-fabric)
+  
+### Changes/Improvements
+
+* Blacklisted Inventory Sorting in bank storage GUIs due to voiding issues.
+
+### Bug Fixes
+
+* Villages not spawning.
+* Shift key conflicting.
+* Missing hovered button textures for the main menu (AK). 
+---
+
 ### All of Fabric 7 | v0.5.1
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.1.md)_

@@ -1,0 +1,21 @@
+{
+    "allowSpawning": true,
+    "spawnBadlandsEnderman": true,
+    "spawnCaveEnderman": true,
+    "spawnCrimsonForestEnderman": true,
+    "spawnDarkOakEnderman": true,
+    "spawnDesertEnderman": true,
+    "spawnEndEnderman": true,
+    "spawnEndIslandsEnderman": true,
+    "spawnFlowerFieldsEnderman": true,
+    "spawnIceSpikesEnderman": true,
+    "spawnMushroomFieldsEnderman": true,
+    "spawnNetherWastesEnderman": true,
+    "spawnOceanEnderman": true,
+    "spawnSavannaEnderman": true,
+    "spawnSnowyEnderman": true,
+    "spawnSoulsandValleyEnderman": true,
+    "spawnSwampEnderman": true,
+    "spawnWarpedForestEnderman": true,
+    "spawnWindsweptHillsEnderman": true
+}

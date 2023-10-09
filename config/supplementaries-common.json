@@ -4,6 +4,7 @@
     "speaker_block": {
       "enabled": true,
       "narrator_enabled": true,
+      "max_text": 32,
       "range": 64
     },
     "bellows": {

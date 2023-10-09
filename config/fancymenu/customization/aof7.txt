@@ -59,6 +59,60 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 254
+  action = movebutton
+  y = 183
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 25
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/exit_button_hovered.png
+  backgroundnormal = config/fancymenu/assets/exit_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 86
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 194
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/button_hovered.png
+  backgroundnormal = config/fancymenu/assets/button.png
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
@@ -102,36 +156,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = mid-left
-  x = 254
-  action = movebutton
-  y = 183
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 25
-  action = resizebutton
-  height = 25
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/exit_button_hovered.png
-  backgroundnormal = config/fancymenu/assets/exit_button.png
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
   x = 142
@@ -159,30 +183,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/assets/languages_button_hovered.png
   backgroundnormal = config/fancymenu/assets/languages_button.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-left
-  x = 86
-  action = movebutton
-  y = 48
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 194
-  action = resizebutton
-  height = 25
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/assets/button_hovered.png
-  backgroundnormal = config/fancymenu/assets/button.png
 }
 
 customization {
@@ -283,7 +283,7 @@ customization {
   action = addbutton
   actionid = 2ac88b90-ee9c-4f12-88ee-0b6c48c3b8ea1691258192189
   y = 183
-  backgroundnormal = config/fancymenu/assets/discord_button_hovered.png
+  backgroundnormal = config/fancymenu/assets/discord_button.png
   height = 25
 }
 
@@ -324,7 +324,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = All of Fabric 7 - 0.5.1
+  source = All of Fabric 7 - 0.5.2
   text_border = 0
   case_mode = normal
   source_mode = direct
