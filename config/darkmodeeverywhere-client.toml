@@ -1,12 +1,19 @@
 #A list of class:method strings (render methods) that the dark shader will not be applied to.
 #Each string consists of the class and the method (or any substring) to block the dark shader.
 #For example, 'renderHunger' is sufficient to block 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (either will work).
-METHOD_SHADER_BLACKLIST = ["mezz.jei.common.render.FluidTankRenderer:drawTextureWithMasking", "mezz.jei.library.render.FluidTankRenderer:drawTextureWithMasking", "renderCrosshair", "m_93080_", "renderSky", "m_202423_", "renderHotbar", "m_93009_", "m_193837_", "setupOverlayRenderState", "net.minecraftforge.client.gui.overlay.ForgeGui", "renderFood", "renderExperienceBar", "m_93071_", "renderLogo", "m_280037_", "m_280118_", "net.minecraft.client.gui.Gui", "net.minecraft.src.C_3431_", "renderDirtBackground", "m_280039_", "m_280039_", "configured.client.screen.ListMenuScreen", "OnlineServerEntry:drawIcon", "OnlineServerEntry:m_99889_", "WorldSelectionList$WorldListEntry:render", "WorldSelectionList$WorldListEntry:m_6311_", "CubeMap:render", "CubeMap:m_108849_", "squeek.appleskin.client.HUDOverlayHandler", "shadows.packmenu.ExtendedMenuScreen"]
+METHOD_SHADER_BLACKLIST = ["mezz.jei.common.render.FluidTankRenderer:drawTextureWithMasking", "mezz.jei.library.render.FluidTankRenderer:drawTextureWithMasking", "renderCrosshair", "m_93080_", "renderSky", "m_202423_", "renderHotbar", "m_93009_", "m_193837_", "setupOverlayRenderState", "net.minecraftforge.client.gui.overlay.ForgeGui", "renderFood", "renderExperienceBar", "m_93071_", "renderLogo", "m_280037_", "m_280118_", "net.minecraft.client.gui.Gui", "net.minecraft.src.C_3431_", "renderDirtBackground", "m_280039_", "m_280039_", "configured.client.screen.ListMenuScreen", "OnlineServerEntry:drawIcon", "OnlineServerEntry:m_99889_", "WorldSelectionList$WorldListEntry:render", "WorldSelectionList$WorldListEntry:m_6311_", "CubeMap:render", "CubeMap:m_108849_", "squeek.appleskin.client.HUDOverlayHandler", "shadows.packmenu.ExtendedMenuScreen", "de.keksuccino.fancymenu.menu.fancy.menuhandler", "de.keksuccino.konkrete.gui.content.AdvancedButton", "net.minecraft.class_4264", "com.illusivesoulworks.cherishedworlds.client.favorites.IFavoritesViewer", "net.minecraft.class_528$class_4272", "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen", "com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BannerEntry", "me.axieum.mcmod.authme.api.gui.widget.AuthButtonWidget", "net.minecraft.class_4267$class_4270", "net.minecraft.class_521$class_4271", "journeymap.client.render.RenderWrapper", "me.shedaniel.rei.impl.client.gui.widget.entrylist.CachingEntryRenderer", "com.anthonyhilyard.iceberg.util.GuiHelper", "dzwdz.chat_heads.ChatHeads", "net.minecraft.class_4668$class_5942", "me.shedaniel.rei.impl.client.gui.widget.ConfigButtonWidget", "me.shedaniel.rei.impl.client.gui.widget.entrylist.PaginatedEntryListWidget", "net.fabricmc.fabric.impl.client.itemgroup.FabricCreativeGuiComponents", "earth.terrarium.heracles.client.screens.AbstractQuestScreen", "cameronwasnthere.strange.berries.client.BerrySicknessHudOverlay", "net.minecraft.class_485:method_18643", "net.mehvahdjukaar.jeed.common.EffectRenderer", "earth.terrarium.heracles.client.compat.rei.HearclesFavoriteEntry$1", "earth.terrarium.argonauts.client.compat.rei.PartyChatFavoriteEntry$1", "earth.terrarium.prometheus.client.compat.rei.HomeFavoriteEntry$1", "earth.terrarium.cadmus.client.compat.rei.MapFavoriteEntry$1", "earth.terrarium.argonauts.client.compat.rei.PartyManagementFavoriteEntry$1", "me.shedaniel.rei.plugin.client.favorites.TimeFavoriteEntry$2", "me.shedaniel.rei.plugin.client.favorites.WeatherFavoriteEntry$2"]
 #Enabling this config will (every 5 seconds) dump which methods were used to render GUIs that the dark shader was applied to
 #The dump will consist of a list of class:method strings, e.g. 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'
 #Use this feature to help find the render method strings of GUIs you would like to blacklist.
-METHOD_SHADER_DUMP = false
+METHOD_SHADER_DUMP = true
 
+["Inventory Button"]
+	#Pixels away from the left of the GUI in the x axis
+	#Range: > 0
+	X = 32
+	#Pixels away from the bottom of the GUI in the y axis
+	#Range: > 0
+	Y = 2
 ["Main Menu Button"]
 	#Enabled
 	SHOW = false
@@ -16,10 +23,3 @@ METHOD_SHADER_DUMP = false
 	#Pixels away from the bottom of the GUI in the y axis
 	#Range: > 0
 	MAIN_Y = 40
-["Inventory Button"]
-	#Pixels away from the left of the GUI in the x axis
-	#Range: > 0
-	X = 32
-	#Pixels away from the bottom of the GUI in the y axis
-	#Range: > 0
-	Y = 2
