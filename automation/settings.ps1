@@ -26,11 +26,11 @@ $MODPACK_NAME = "All of Fabric 7"
 $CLIENT_NAME = "All of Fabric 7"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.5.3"
+$MODPACK_VERSION = "0.5.4"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.5.2"
+$LAST_MODPACK_VERSION = "0.5.3"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
