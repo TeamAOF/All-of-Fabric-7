@@ -1,16 +1,34 @@
+### All of Fabric 7 | v0.5.3
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.3.md)_
+
+### Removed Mods
+
+  * [Armorful](https://www.curseforge.com/minecraft/mc-mods/armorful)
+
+### Changes/Improvements
+
+* Removed left-over MI custom machines from AOF6 (AK).
+* Disabled Menu Dev Mode (AK)
+
+### Bug Fixes
+
+* Crashing when placing down MI custom machines (AK).
+---
+
 ### All of Fabric 7 | v0.5.2
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.2.md)_
 
-### Added
+### Added Mods
 
   * [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound)
   * [Enderman Overhaul](https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul)
 
-### Removed
+### Removed Mods
 
   * [Crafting Tweaks (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks-fabric)
-  
+
 ### Changes/Improvements
 
 * Blacklisted Inventory Sorting in bank storage GUIs due to voiding issues.
