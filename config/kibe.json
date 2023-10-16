@@ -8,7 +8,7 @@
     "magnetRange": 8.0,
     "gliderUnbreakable": true,
     "gliderDurability": 36000,
-    "lassoDenyList": [],
+    "lassoDenyList": ["adventurez:void_shadow"],
     "maxRingsPerPlayer": 1
   },
   "chunkLoaderModule": {

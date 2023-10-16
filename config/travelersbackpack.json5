@@ -34,7 +34,7 @@
 		// Enables backpacks spawning in loot chests
 		"enableLoot": true,
 		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-		"spawnEntitiesWithBackpack": true,
+		"spawnEntitiesWithBackpack": false,
 		// List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
 		"possibleOverworldEntityTypes": [
 			"minecraft:zombie",
