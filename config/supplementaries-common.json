@@ -359,7 +359,7 @@
       "enabled": true
     },
     "placeable_books": {
-      "enabled": true,
+      "enabled": false,
       "book_power": 1.0,
       "enchanted_book_power": 1.334,
       "mixed_books": false
