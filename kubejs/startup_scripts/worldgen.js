@@ -8,7 +8,10 @@ const ORES_TO_REMOVE = [
     "techreborn:tin_ore", 
     "techreborn:deepslate_tin_ore", 
     "techreborn:deepslate_tungsten_ore", 
-    "techreborn:tungsten_ore"];
+    "techreborn:tungsten_ore",
+    "techreborn:deepslate_ruby_ore",
+    "techreborn:deepslate_sapphire_ore"
+];
 
 WorldgenEvents.remove(event => {
     event.removeOres(ores => {
