@@ -26,7 +26,7 @@
     },
     "enableRubyOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, ruby ores will generate in the world",
-      "value": true
+      "value": false
     },
     "enableSheldoniteOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, sheldonite ores will generate in the world",
@@ -58,7 +58,7 @@
     },
     "enableSapphireOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, sapphire ores will generate in the world",
-      "value": true
+      "value": false
     },
     "enableSilverOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, silver ores will generate in the world",

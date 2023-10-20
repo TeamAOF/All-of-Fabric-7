@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
         "item": "powah:uraninite_ore",
         "amount": 1,
         "probability": 0.08
-      },
+      }
       /*
       {
         "item": "mysticalagriculture:inferium_ore",
@@ -168,6 +168,16 @@ ServerEvents.recipes(event => {
         "amount": 1,
         "probability": 0.04
       },
+      {
+        "item": "mythicupgrades:ruby_ore",
+        "amount": 1,
+        "probability": 0.02
+      },
+      {
+        "item": "mythicupgrades:sapphire_ore",
+        "amount": 1,
+        "probability": 0.02
+      }
       /*
       {
         "item": "mysticalagriculture:soulium_ore",
@@ -219,16 +229,6 @@ ServerEvents.recipes(event => {
         "item": "minecraft:redstone_ore",
         "amount": 1,
         "probability": 0.2
-      },
-      {
-        "item": "techreborn:ruby_ore",
-        "amount": 1,
-        "probability": 0.02
-      },
-      {
-        "item": "techreborn:sapphire_ore",
-        "amount": 1,
-        "probability": 0.02
       },
       {
         "item": "create:zinc_ore",

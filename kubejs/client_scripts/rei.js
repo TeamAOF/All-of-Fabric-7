@@ -67,7 +67,9 @@ const DELETED_ITEMS = [
     'compressed:kelp_block_i',
     'compressed:kelp_block_ii',
     'compressed:kelp_block_iii',
-    'compressed:kelp_block_iv'
+    'compressed:kelp_block_iv',
+    "techreborn:deepslate_ruby_ore",
+    "techreborn:deepslate_sapphire_ore"
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
