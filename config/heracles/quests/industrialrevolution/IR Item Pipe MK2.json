@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Item Pipe MK1"
+  ],
+  "tasks": {
+    "74534788035362A2": {
+      "type": "heracles:item",
+      "item": "indrev:item_pipe_mk2"
+    }
+  },
+  "rewards": {
+    "0AA6FE219A0D25AA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:item_pipe_mk2",
+    "description": [
+      "<h2>Don't forget your servos</h2>",
+      "<hr/>",
+      "<task task=\"74534788035362A2\" quest=\"IR Item Pipe MK2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0AA6FE219A0D25AA\" quest=\"IR Item Pipe MK2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:item_pipe_mk2"
+    },
+    "subtitle": {
+      "text": "Don't forget your servos"
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -400,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Factory Components"
+  ],
+  "tasks": {
+    "66777FB617B6DED4": {
+      "type": "heracles:item",
+      "item": "indrev:compressor_factory_mk4"
+    }
+  },
+  "rewards": {
+    "138AF79E3F362F35": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 3
+      }
+    },
+    "65042EC0CA81A52C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:silver_plate",
+        "count": 3
+      }
+    },
+    "6DD320A876D4E29A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:compressor_factory_mk4",
+    "description": [
+      "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
+      "<hr/>",
+      "<task task=\"66777FB617B6DED4\" quest=\"IR Compressor Factory MK4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"138AF79E3F362F35\" quest=\"IR Compressor Factory MK4\"/>",
+      "<reward reward=\"65042EC0CA81A52C\" quest=\"IR Compressor Factory MK4\"/>",
+      "<reward reward=\"6DD320A876D4E29A\" quest=\"IR Compressor Factory MK4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:compressor_factory_mk4"
+    },
+    "subtitle": {
+      "text": "Factories are improved versions of machines and they can process 5 items at once."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          240,
+          -192
+        ]
+      }
+    }
+  }
+}

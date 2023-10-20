@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Tungstensteel Ingot",
+    "TR Heliumplasma"
+  ],
+  "tasks": {
+    "1EEF64DE5D9666C3": {
+      "type": "heracles:item",
+      "item": "techreborn:plasma_generator"
+    }
+  },
+  "rewards": {
+    "17E5828C89E519FE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:plasma_generator",
+    "description": [
+      "<h2>Produces energy from Heliumplasma.</h2>",
+      "<hr/>",
+      "<task task=\"1EEF64DE5D9666C3\" quest=\"TR Plasma Gen\"/>",
+      "<hr/>",
+      " It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy.",
+      "<br/>",
+      "8,192,000E/1000 mB",
+      "<hr/>",
+      "<reward reward=\"17E5828C89E519FE\" quest=\"TR Plasma Gen\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:plasma_generator"
+    },
+    "subtitle": {
+      "text": "Produces energy from Heliumplasma."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -64,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Isulated Copper Cable"
+  ],
+  "tasks": {
+    "39749739E5C2CF55": {
+      "type": "heracles:item",
+      "item": "techreborn:red_cell_battery"
+    }
+  },
+  "rewards": {
+    "1BC50B0115AABE8B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:red_cell_battery",
+    "description": [
+      "<h2>A portable battery used to charge items.</h2>",
+      "<hr/>",
+      "<task task=\"39749739E5C2CF55\" quest=\"TR Red Cell Battery\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1BC50B0115AABE8B\" quest=\"TR Red Cell Battery\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:red_cell_battery"
+    },
+    "subtitle": {
+      "text": "A portable battery used to charge items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -480,
+          160
+        ]
+      }
+    }
+  }
+}

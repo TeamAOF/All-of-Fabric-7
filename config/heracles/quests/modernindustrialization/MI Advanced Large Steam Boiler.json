@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Electronic Circuit"
+  ],
+  "tasks": {
+    "5A4042280D8835FB": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_large_steam_boiler"
+    }
+  },
+  "rewards": {
+    "47A6DDF0F4E11A37": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:advanced_large_steam_boiler",
+    "description": [
+      "<h2>A better and bigger Large Steam Boiler!</h2>",
+      "<hr/>",
+      "<task task=\"5A4042280D8835FB\" quest=\"MI Advanced Large Steam Boiler\"/>",
+      "<hr/>",
+      "This advanced version can produce up to 1024 mb/t of steam!",
+      "<hr/>",
+      "<reward reward=\"47A6DDF0F4E11A37\" quest=\"MI Advanced Large Steam Boiler\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_large_steam_boiler"
+    },
+    "subtitle": {
+      "text": "A better and bigger Large Steam Boiler!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    }
+  }
+}

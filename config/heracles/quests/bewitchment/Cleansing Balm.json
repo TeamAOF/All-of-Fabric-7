@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Witch Cauldron"
+  ],
+  "tasks": {
+    "3183D796C616263D": {
+      "type": "heracles:item",
+      "item": "bewitchment:cleansing_balm"
+    }
+  },
+  "rewards": {
+    "0679878AE22A82A9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:cleansing_balm",
+    "description": [
+      "<task task=\"3183D796C616263D\" quest=\"Cleansing Balm\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0679878AE22A82A9\" quest=\"Cleansing Balm\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:cleansing_balm"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    }
+  }
+}

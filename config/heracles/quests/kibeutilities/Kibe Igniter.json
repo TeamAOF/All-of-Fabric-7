@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Big Torch"
+  ],
+  "tasks": {
+    "3C9068E99A18D305": {
+      "type": "heracles:item",
+      "item": "kibe:igniter"
+    }
+  },
+  "rewards": {
+    "3DD090A7DBB25E48": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:igniter",
+    "description": [
+      "<task task=\"3C9068E99A18D305\" quest=\"Kibe Igniter\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3DD090A7DBB25E48\" quest=\"Kibe Igniter\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:igniter"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          48,
+          -160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Machine Block"
+  ],
+  "tasks": {
+    "2CA2353FB904C629": {
+      "type": "heracles:item",
+      "item": "indrev:solar_generator_mk1"
+    }
+  },
+  "rewards": {
+    "7E3DC1FFEEA94B68": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:solar_generator_mk1",
+    "description": [
+      "<h2>Will generate energy as long as the sunlight can reach it.</h2>",
+      "<hr/>",
+      "<task task=\"2CA2353FB904C629\" quest=\"IR Solar Gen MK1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7E3DC1FFEEA94B68\" quest=\"IR Solar Gen MK1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:solar_generator_mk1"
+    },
+    "subtitle": {
+      "text": "Will generate energy as long as the sunlight can reach it."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -304,
+          0
+        ]
+      }
+    }
+  }
+}

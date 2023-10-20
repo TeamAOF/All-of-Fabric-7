@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Croptopia Cooked Chicken"
+  ],
+  "tasks": {
+    "438D3B75874A7E4E": {
+      "type": "heracles:item",
+      "item": "croptopia:fried_chicken"
+    }
+  },
+  "rewards": {
+    "108D07EE8F399BEC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:fried_chicken",
+    "description": [
+      "<task task=\"438D3B75874A7E4E\" quest=\"Croptopia Fried Chicken\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"108D07EE8F399BEC\" quest=\"Croptopia Fried Chicken\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:fried_chicken"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          208
+        ]
+      }
+    }
+  }
+}

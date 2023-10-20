@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Chocolatier"
+  ],
+  "tasks": {
+    "7135D82B25C19185": {
+      "type": "heracles:item",
+      "item": "croptopia:chocolate"
+    }
+  },
+  "rewards": {
+    "5C8637E10C28A949": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:chocolate",
+    "description": [
+      "<task task=\"7135D82B25C19185\" quest=\"Croptopia Chocolate\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C8637E10C28A949\" quest=\"Croptopia Chocolate\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:chocolate"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -224,
+          368
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "148B208FE981E8FD": {
+      "title": "Chocolate covered Apples",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:dark_chocolate_covered_apple"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:milk_chocolate_covered_apple"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:white_chocolate_covered_apple"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "596E57E6AB93902C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Chocolate covered Apples",
+    "description": [
+      "<task task=\"148B208FE981E8FD\" quest=\"Chocolate covered Apples\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"596E57E6AB93902C\" quest=\"Chocolate covered Apples\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -400,
+          336
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Welcome to AoF7"
+  ],
+  "tasks": {
+    "1E78FE3CAE735910": {
+      "title": "Where to settle down?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "197C077CA5118D52": {
+      "type": "heracles:item",
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "§aWhere to settle down?",
+    "description": [
+      "<h2>If you truly love nature, you will find beauty everywhere.</h2>",
+      "<hr/>",
+      "<task task=\"1E78FE3CAE735910\" quest=\"Where to settle down\"/>",
+      "<hr/>",
+      "Dont feel like &&6running &&rthousands of blocks for that favorite biome of yours?",
+      "<br/>",
+      "The &&bNature's Compass &&rsaves your day!",
+      "<br/>",
+      "&&6Search for the biome of choice, &&rclap 3 times and start running!",
+      "<hr/>",
+      "<reward reward=\"197C077CA5118D52\" quest=\"Where to settle down\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "naturescompass:naturescompass"
+    },
+    "subtitle": {
+      "text": "If you truly love nature, you will find beauty everywhere."
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          160,
+          112
+        ]
+      }
+    }
+  }
+}

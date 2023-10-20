@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Basic Machine Frame"
+  ],
+  "tasks": {
+    "22206CF13738397A": {
+      "type": "heracles:item",
+      "item": "techreborn:extractor"
+    }
+  },
+  "rewards": {
+    "69DE7D3FE75A1A92": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:extractor",
+    "description": [
+      "<h2>Mainly used to extract rubber and dyes.</h2>",
+      "<hr/>",
+      "<task task=\"22206CF13738397A\" quest=\"TR Extractor\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"69DE7D3FE75A1A92\" quest=\"TR Extractor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:extractor"
+    },
+    "subtitle": {
+      "text": "Mainly used to extract rubber and dyes."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -480,
+          -48
+        ]
+      }
+    }
+  }
+}

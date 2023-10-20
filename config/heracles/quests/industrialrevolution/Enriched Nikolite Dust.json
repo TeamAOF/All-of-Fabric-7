@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR needs only the best diamonds",
+    "Nikolite Ingot"
+  ],
+  "tasks": {
+    "0C2E5913E46CCEE9": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "indrev:enriched_nikolite_dust"
+    }
+  },
+  "rewards": {
+    "70FE93467EB59E75": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:enriched_nikolite_dust",
+    "description": [
+      "<task task=\"0C2E5913E46CCEE9\" quest=\"Enriched Nikolite Dust\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"70FE93467EB59E75\" quest=\"Enriched Nikolite Dust\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:enriched_nikolite_dust"
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -32,
+          48
+        ]
+      }
+    }
+  }
+}

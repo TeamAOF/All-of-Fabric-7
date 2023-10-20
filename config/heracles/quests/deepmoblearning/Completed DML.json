@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Loot Fabricator",
+    "Data Model",
+    "Glitch Ingot",
+    "Any Data Model",
+    "Simulation Chamber",
+    "Matter Condenser",
+    "Trial Key",
+    "Trial Keystone",
+    "Soot Redstone",
+    "Deep Learner",
+    "DML Machine Casing"
+  ],
+  "tasks": {
+    "2F6B49B0F2C9ADEA": {
+      "title": "&bDeep Mob Learning 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1BD2F5AAB8F13744": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:dml"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "&bDeep Mob Learning 100%",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"2F6B49B0F2C9ADEA\" quest=\"Completed DML\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1BD2F5AAB8F13744\" quest=\"Completed DML\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -192,
+          -192
+        ]
+      }
+    }
+  }
+}

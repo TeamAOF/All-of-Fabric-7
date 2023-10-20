@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Factory Components"
+  ],
+  "tasks": {
+    "1790DABC3E5BFAEC": {
+      "type": "heracles:item",
+      "item": "indrev:pulverizer_factory_mk4"
+    }
+  },
+  "rewards": {
+    "298E39BB35B71199": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 3
+      }
+    },
+    "3D4C7471B2235326": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:silver_plate",
+        "count": 3
+      }
+    },
+    "12D9C4DC72A3768D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:pulverizer_factory_mk4",
+    "description": [
+      "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
+      "<hr/>",
+      "<task task=\"1790DABC3E5BFAEC\" quest=\"IR Pulverizer Factory MK4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"298E39BB35B71199\" quest=\"IR Pulverizer Factory MK4\"/>",
+      "<reward reward=\"3D4C7471B2235326\" quest=\"IR Pulverizer Factory MK4\"/>",
+      "<reward reward=\"12D9C4DC72A3768D\" quest=\"IR Pulverizer Factory MK4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:pulverizer_factory_mk4"
+    },
+    "subtitle": {
+      "text": "Factories are improved versions of machines and they can process 5 items at once."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          240,
+          -128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Energy Generation"
+  ],
+  "tasks": {
+    "29E65C4BDBDF7F65": {
+      "title": "Thermo Generator",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:thermo_generator_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "0C62EE01DB5CE5B5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Thermo Generator",
+    "description": [
+      "<h2>Bring on da Heat!</h2>",
+      "<hr/>",
+      "<task task=\"29E65C4BDBDF7F65\" quest=\"Any Thermo Generator\"/>",
+      "<hr/>",
+      "This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant.",
+      "<hr/>",
+      "<reward reward=\"0C62EE01DB5CE5B5\" quest=\"Any Thermo Generator\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Bring on da Heat!"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          0
+        ]
+      }
+    }
+  }
+}

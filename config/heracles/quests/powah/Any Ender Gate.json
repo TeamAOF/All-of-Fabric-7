@@ -1,0 +1,89 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Ender Core"
+  ],
+  "tasks": {
+    "2D1D8A371C3653DE": {
+      "title": "Ender Gate",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:ender_gate_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "5EC7F4DF91964C90": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Ender Gates",
+    "description": [
+      "<h2>Downloading...</h2>",
+      "<hr/>",
+      "<task task=\"2D1D8A371C3653DE\" quest=\"Any Ender Gate\"/>",
+      "<hr/>",
+      "The Ender gate is an item that allows you to tap into you ender network to input or output energy.",
+      "<br/>",
+      "Its cheaper than ender cells, making it better for transfer to your machines, but doesn't have an internal capacity so it will not increase your ender network's capacity",
+      "<hr/>",
+      "<reward reward=\"5EC7F4DF91964C90\" quest=\"Any Ender Gate\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Downloading..."
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          -112
+        ]
+      }
+    }
+  }
+}

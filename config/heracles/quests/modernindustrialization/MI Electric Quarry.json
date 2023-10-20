@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Electronic Circuit"
+  ],
+  "tasks": {
+    "1004292AA09E90E0": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electric_quarry"
+    },
+    "530C5BAAAE5874C2": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "modern_industrialization:steel_machine_casing"
+    },
+    "2CAD989D39D01AD6": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    "773643F90F9A7B82": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "minecraft:chain"
+    }
+  },
+  "rewards": {
+    "396BFBF0CD560873": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>The electric equivalent of the Steam Quarry.</h2>",
+      "<hr/>",
+      "<task task=\"1004292AA09E90E0\" quest=\"MI Electric Quarry\"/>",
+      "<task task=\"530C5BAAAE5874C2\" quest=\"MI Electric Quarry\"/>",
+      "<task task=\"2CAD989D39D01AD6\" quest=\"MI Electric Quarry\"/>",
+      "<task task=\"773643F90F9A7B82\" quest=\"MI Electric Quarry\"/>",
+      "<hr/>",
+      "Provide it with items and energy, and watch your resources GO BRRR!",
+      "<br/>",
+      "Its structure is exactly the same as the Steam Quarry's.",
+      "<hr/>",
+      "<reward reward=\"396BFBF0CD560873\" quest=\"MI Electric Quarry\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electric_quarry"
+    },
+    "subtitle": {
+      "text": "The electric equivalent of the Steam Quarry."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          160,
+          -112
+        ]
+      }
+    }
+  }
+}

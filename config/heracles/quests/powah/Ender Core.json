@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Any Energizing Rod"
+  ],
+  "tasks": {
+    "4DD0E201A56082AA": {
+      "type": "heracles:item",
+      "item": "powah:ender_core"
+    }
+  },
+  "rewards": {
+    "3FC9BE8BD8A05E10": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:ender_core",
+    "description": [
+      "<h2>Energy! Now on 5G</h2>",
+      "<hr/>",
+      "<task task=\"4DD0E201A56082AA\" quest=\"Ender Core\"/>",
+      "<hr/>",
+      "The ender core is the base of a frequency based wireless energy network. You can tap into the network or add energy to it using blocks made from this core",
+      "<hr/>",
+      "<reward reward=\"3FC9BE8BD8A05E10\" quest=\"Ender Core\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:ender_core"
+    },
+    "subtitle": {
+      "text": "Energy! Now on 5G"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Fusion Reactor"
+  ],
+  "tasks": {
+    "414FC59A3998C675": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:plasma_turbine"
+    },
+    "2B841E64FB2F9D5D": {
+      "type": "heracles:item",
+      "amount": 18,
+      "item": "modern_industrialization:iridium_machine_casing_pipe"
+    },
+    "553244F087ECF3CA": {
+      "type": "heracles:item",
+      "amount": 17,
+      "item": "modern_industrialization:plasma_handling_iridium_machine_casing"
+    }
+  },
+  "rewards": {
+    "17C119CDEA96BD44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/legendary",
+          "Name": "Modern Industrialization Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>Turns Helium Plasma into EU, at the rate of 100 kEU per millibucket.</h2>",
+      "<hr/>",
+      "<task task=\"414FC59A3998C675\" quest=\"MI Plasma Turbine\"/>",
+      "<task task=\"2B841E64FB2F9D5D\" quest=\"MI Plasma Turbine\"/>",
+      "<task task=\"553244F087ECF3CA\" quest=\"MI Plasma Turbine\"/>",
+      "<hr/>",
+      "Its maximum production rate is roughly 1 MEU/t.",
+      "<hr/>",
+      "<reward reward=\"17C119CDEA96BD44\" quest=\"MI Plasma Turbine\"/>"
+    ],
+    "subtitle": {
+      "text": "Turns Helium Plasma into EU, at the rate of 100 kEU per millibucket."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          880,
+          -48
+        ]
+      }
+    }
+  }
+}

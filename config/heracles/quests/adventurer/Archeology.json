@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {
+    "67902E2781D56FFF": {
+      "type": "heracles:item",
+      "item": "archeology:copper_brush"
+    }
+  },
+  "rewards": {
+    "621538A179E3AD6C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bone",
+        "count": 16
+      }
+    },
+    "38BBC521851C88B3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§dArcheology",
+    "description": [
+      "<h2>Know your prehistory.</h2>",
+      "<hr/>",
+      "<task task=\"67902E2781D56FFF\" quest=\"Archeology\"/>",
+      "<hr/>",
+      "&&bThe Archeology System &&6introduces the following&&r:",
+      "<br/>",
+      "&&bThe Copper Brush &&ris a new tool used for &&6excavating special blocks &&rfor getting loot.",
+      "<br/>",
+      "&&bBrushing Excavation Blocks: ",
+      "<br/>",
+      "Currently, there are two excavation blocks in the mod: &&bExcavation Dirt &&rand &&bGravel&&r.",
+      "<br/>",
+      "When fully brushed off, the block drops random loot based on where you found it and how oxidated it is.",
+      "<br/>",
+      "While &&6brushing&&r, you should &&6move your cursor &&rto stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!",
+      "<hr/>",
+      "<reward reward=\"621538A179E3AD6C\" quest=\"Archeology\"/>",
+      "<reward reward=\"38BBC521851C88B3\" quest=\"Archeology\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "archeology:copper_brush"
+    },
+    "subtitle": {
+      "text": "Know your prehistory."
+    },
+    "groups": {
+      "Adventurer": {
+        "position": [
+          -80,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Wireless Access Point"
+  ],
+  "tasks": {
+    "1CFC818DEC3E5B6C": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_terminal"
+    }
+  },
+  "rewards": {
+    "11FF7CC765FBADB7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:wireless_terminal",
+    "description": [
+      "<h2>Links up the WAT to the network.</h2>",
+      "<hr/>",
+      "<task task=\"1CFC818DEC3E5B6C\" quest=\"Wireless Terminal\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11FF7CC765FBADB7\" quest=\"Wireless Terminal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_terminal"
+    },
+    "subtitle": {
+      "text": "Links up the WAT to the network."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -176,
+          96
+        ]
+      }
+    }
+  }
+}

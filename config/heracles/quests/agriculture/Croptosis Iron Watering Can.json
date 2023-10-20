@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "346AF1543438BA37": {
+      "type": "heracles:item",
+      "item": "croptosis:iron_watering_can"
+    }
+  },
+  "rewards": {
+    "5E35F94DE3A702F8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptosis:iron_watering_can",
+    "description": [
+      "<task task=\"346AF1543438BA37\" quest=\"Croptosis Iron Watering Can\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5E35F94DE3A702F8\" quest=\"Croptosis Iron Watering Can\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptosis:iron_watering_can"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -112,
+          432
+        ]
+      }
+    }
+  }
+}

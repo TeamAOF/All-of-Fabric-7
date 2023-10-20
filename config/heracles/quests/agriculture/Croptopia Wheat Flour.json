@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "362E2C0F21ACAE54": {
+      "type": "heracles:item",
+      "item": "create:wheat_flour"
+    }
+  },
+  "rewards": {
+    "2EC786E13BA091A7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:wheat_flour",
+    "description": [
+      "<task task=\"362E2C0F21ACAE54\" quest=\"Croptopia Wheat Flour\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2EC786E13BA091A7\" quest=\"Croptopia Wheat Flour\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:wheat_flour"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          272
+        ]
+      }
+    }
+  }
+}

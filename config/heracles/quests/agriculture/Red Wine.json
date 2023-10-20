@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery Fermentation Barrel"
+  ],
+  "tasks": {
+    "5ADE29333EF060C4": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "vinery:chenet_wine"
+          },
+          {
+            "Count": 1,
+            "id": "vinery:king_danis_wine"
+          },
+          {
+            "Count": 1,
+            "id": "vinery:noir_wine"
+          },
+          {
+            "Count": 1,
+            "id": "vinery:bolvar_wine"
+          },
+          {
+            "Count": 1,
+            "id": "vinery:cherry_wine"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "7EACD7C6CB1C236B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Red Wine",
+    "description": [
+      "<task task=\"5ADE29333EF060C4\" quest=\"Red Wine\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7EACD7C6CB1C236B\" quest=\"Red Wine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          32,
+          656
+        ]
+      }
+    }
+  }
+}

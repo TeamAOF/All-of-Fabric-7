@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "7466D7F35E5D5ED0": {
+      "type": "heracles:item",
+      "item": "croptopia:doughnut"
+    }
+  },
+  "rewards": {
+    "75DF6C45CFF5BE00": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:doughnut",
+    "description": [
+      "<task task=\"7466D7F35E5D5ED0\" quest=\"Croptopia Doughnut\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"75DF6C45CFF5BE00\" quest=\"Croptopia Doughnut\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:doughnut"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          336,
+          480
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Machine Frame",
+    "TR Titanium Plate"
+  ],
+  "tasks": {
+    "TR Industrial Machine Frame": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_machine_frame"
+    }
+  },
+  "rewards": {
+    "0E47CB123A786C24": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_machine_frame",
+    "description": [
+      "<h2>A crafting ingredient used to build industrial machines.</h2>",
+      "<hr/>",
+      "<task task=\"TR Industrial Machine Frame\" quest=\"TR Industrial Machine Frame\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0E47CB123A786C24\" quest=\"TR Industrial Machine Frame\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_machine_frame"
+    },
+    "subtitle": {
+      "text": "A crafting ingredient used to build industrial machines."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -288,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "78AE4A2866D42033": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_pick"
+    },
+    "513C28B868CC07B7": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_shovel"
+    },
+    "0BEDB0B6192BABAB": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_axe"
+    },
+    "4868DD63695C6A9C": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_hoe"
+    }
+  },
+  "rewards": {
+    "2795C286B3F01E19": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§9Manasteel Tools",
+    "description": [
+      "<task task=\"78AE4A2866D42033\" quest=\"Manasteel Tools\"/>",
+      "<task task=\"513C28B868CC07B7\" quest=\"Manasteel Tools\"/>",
+      "<task task=\"0BEDB0B6192BABAB\" quest=\"Manasteel Tools\"/>",
+      "<task task=\"4868DD63695C6A9C\" quest=\"Manasteel Tools\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2795C286B3F01E19\" quest=\"Manasteel Tools\"/>"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    }
+  }
+}

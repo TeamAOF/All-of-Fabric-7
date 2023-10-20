@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "0791A7F3A31813FD": {
+      "type": "heracles:item",
+      "item": "farmersdelight:raw_pasta"
+    }
+  },
+  "rewards": {
+    "717F1E685218E7B1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:raw_pasta",
+    "description": [
+      "<task task=\"0791A7F3A31813FD\" quest=\"Farmers Delight Raw Pasta\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"717F1E685218E7B1\" quest=\"Farmers Delight Raw Pasta\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:raw_pasta"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -112,
+          208
+        ]
+      }
+    }
+  }
+}

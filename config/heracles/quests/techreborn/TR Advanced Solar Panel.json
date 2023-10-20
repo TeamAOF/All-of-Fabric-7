@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Basic Solar Panel"
+  ],
+  "tasks": {
+    "3FEB22D1714AB7C3": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_solar_panel"
+    }
+  },
+  "rewards": {
+    "73EFF9985B0F8227": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sunflower",
+        "count": 2
+      }
+    },
+    "262B3F2D34D38486": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:advanced_solar_panel",
+    "description": [
+      "<h2>Produces energy from sunlight.</h2>",
+      "<hr/>",
+      "<task task=\"3FEB22D1714AB7C3\" quest=\"TR Advanced Solar Panel\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"73EFF9985B0F8227\" quest=\"TR Advanced Solar Panel\"/>",
+      "<reward reward=\"262B3F2D34D38486\" quest=\"TR Advanced Solar Panel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_solar_panel"
+    },
+    "subtitle": {
+      "text": "Produces energy from sunlight."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -400,
+          -352
+        ]
+      }
+    }
+  }
+}

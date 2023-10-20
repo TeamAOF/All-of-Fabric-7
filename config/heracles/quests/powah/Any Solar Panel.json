@@ -1,0 +1,87 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Energy Generation"
+  ],
+  "tasks": {
+    "1D3ADC1945CD78B2": {
+      "title": "Solar Panel",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:solar_panel_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3ACC311027719B86": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Solar Panel",
+    "description": [
+      "<h2>Photosynthesis o/</h2>",
+      "<hr/>",
+      "<task task=\"1D3ADC1945CD78B2\" quest=\"Any Solar Panel\"/>",
+      "<hr/>",
+      "A simple sheet of metal that generates energy from the power of the sun.",
+      "<hr/>",
+      "<reward reward=\"3ACC311027719B86\" quest=\"Any Solar Panel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Photosynthesis o/"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -32,
+          0
+        ]
+      }
+    }
+  }
+}

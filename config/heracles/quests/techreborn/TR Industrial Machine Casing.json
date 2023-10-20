@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Data Storage Core",
+    "TR Advanced Machine Casing",
+    "TR Chromium Plate"
+  ],
+  "tasks": {
+    "0802F2E9884F9801": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_machine_casing"
+    }
+  },
+  "rewards": {
+    "4062A52C90A3C103": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_machine_casing",
+    "description": [
+      "<h2>Used to build multi-block machines.</h2>",
+      "<hr/>",
+      "<task task=\"0802F2E9884F9801\" quest=\"TR Industrial Machine Casing\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4062A52C90A3C103\" quest=\"TR Industrial Machine Casing\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_machine_casing"
+    },
+    "subtitle": {
+      "text": "Used to build multi-block machines."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -288,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Red Cell Battery",
+    "Sap and Rubber"
+  ],
+  "tasks": {
+    "330243D7A04EEB17": {
+      "type": "heracles:item",
+      "item": "techreborn:electric_treetap"
+    }
+  },
+  "rewards": {
+    "38D10FC3B27394DB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:electric_treetap",
+    "description": [
+      "<h2>An advanced version of Treetap used to collect Sap from Rubber Trees.</h2>",
+      "<hr/>",
+      "<task task=\"330243D7A04EEB17\" quest=\"TR Electric Treetap\"/>",
+      "<hr/>",
+      "It has 10k Energy storage.",
+      "<br/>",
+      "One can charge it using Battery Box. ",
+      "<br/>",
+      "One use of Electric Treetap will consume 50 Energy, so it can collect sap 200 times on one charge.",
+      "<hr/>",
+      "<reward reward=\"38D10FC3B27394DB\" quest=\"TR Electric Treetap\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:electric_treetap"
+    },
+    "subtitle": {
+      "text": "An advanced version of Treetap used to collect Sap from Rubber Trees."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -544,
+          176
+        ]
+      }
+    }
+  }
+}

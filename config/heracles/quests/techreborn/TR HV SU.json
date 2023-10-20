@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR MV SU"
+  ],
+  "tasks": {
+    "630730631B156192": {
+      "type": "heracles:item",
+      "item": "techreborn:high_voltage_su"
+    }
+  },
+  "rewards": {
+    "19E0AD0D5DB764AC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:high_voltage_su",
+    "description": [
+      "<h2>A battery block that stores energy and charges items.</h2>",
+      "<hr/>",
+      "<task task=\"630730631B156192\" quest=\"TR HV SU\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"19E0AD0D5DB764AC\" quest=\"TR HV SU\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:high_voltage_su"
+    },
+    "subtitle": {
+      "text": "A battery block that stores energy and charges items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "tasks": {
+    "3E45F701C61708E1": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3CC4D443B33915F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:guidebook"
+      }
+    }
+  },
+  "display": {
+    "title": "Modern Industrialization",
+    "description": [
+      "<h2>Technology for Newbies!</h2>",
+      "<hr/>",
+      "<task task=\"3E45F701C61708E1\" quest=\"Begin MI\"/>",
+      "<hr/>",
+      "Modern Industrialization offers:",
+      "<br/>",
+      "- Powerful Logistics Tools",
+      "Such as multipart items (Item, fluid and energy cables in the same block).",
+      "<br/>",
+      "- Resource Generation",
+      "Setup multiblock quarries for continuous resource generation.",
+      "<br/>",
+      "- Energy Production and Distribution",
+      "<br/>",
+      "> Use Steam and Oil processed into Diesel through Distillation, Nuclear Fission and eventually for the most persevering, Fusion to power your factory.",
+      "> Boost your energy transfer rates using higher voltages with layers of transformers.",
+      "<br/>",
+      "- Total Automation",
+      "Have machines generate and process all your resources will you're flying around the world with your Gravichest.",
+      "It's a long way there, can you do it?",
+      "<br/>",
+      "TIP: Hold the book in your main hand while hovering over a machine/multiblock for more info.",
+      "<hr/>",
+      "<reward reward=\"3CC4D443B33915F5\" quest=\"Begin MI\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:guidebook"
+    },
+    "subtitle": {
+      "text": "Technology for Newbies!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -480,
+          -48
+        ]
+      }
+    }
+  }
+}

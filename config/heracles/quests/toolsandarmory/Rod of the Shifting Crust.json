@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Botania Utils"
+  ],
+  "tasks": {
+    "5F10EB7947E7C1CB": {
+      "type": "heracles:item",
+      "item": "botania:exchange_rod"
+    }
+  },
+  "rewards": {
+    "2184A7B7B6E41891": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:exchange_rod",
+    "description": [
+      "<h2>Shift your block of choice.</h2>",
+      "<hr/>",
+      "<task task=\"5F10EB7947E7C1CB\" quest=\"Rod of the Shifting Crust\"/>",
+      "<hr/>",
+      "The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory.",
+      "<br/>",
+      "Other staffs listed in this chapter allow you to use mana to replace blocks with blocks generated with mana.",
+      "<hr/>",
+      "<reward reward=\"2184A7B7B6E41891\" quest=\"Rod of the Shifting Crust\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:exchange_rod"
+    },
+    "subtitle": {
+      "text": "Shift your block of choice."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          48,
+          -208
+        ]
+      }
+    }
+  }
+}

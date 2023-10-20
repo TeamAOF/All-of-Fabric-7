@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Obsidian Chest"
+  ],
+  "tasks": {
+    "29DEDBBF10195987": {
+      "type": "heracles:item",
+      "item": "ironchests:netherite_chest"
+    }
+  },
+  "rewards": {
+    "55B3A2B649CEF34A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ironchests:netherite_chest",
+    "description": [
+      "<task task=\"29DEDBBF10195987\" quest=\"Netherite Chest\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"55B3A2B649CEF34A\" quest=\"Netherite Chest\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ironchests:netherite_chest"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          160,
+          48
+        ]
+      }
+    }
+  }
+}

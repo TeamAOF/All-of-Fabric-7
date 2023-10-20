@@ -1,0 +1,112 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Item Pipe MK4",
+    "IR Cable MK3",
+    "IR Tier Upgrade MK2",
+    "IR Farming",
+    "IR Sawmill MK1",
+    "IR Fluid Pipe MK4",
+    "IR Item Pipe MK2",
+    "IR Fisher MK2",
+    "IR Drill Bottom",
+    "IR Recycler MK2",
+    "IR Fluid Pipe MK2",
+    "Circuit MK4",
+    "IR Fluid Pipe MK3",
+    "IR Pulverizer MK1",
+    "IR Solar Gen MK3",
+    "Enriched Nikolite Ingot",
+    "IR Servos",
+    "IR Pulverizer Factory MK4",
+    "IR Empty Enhancer",
+    "IR Tier Upgrade MK3",
+    "IR Factory Components",
+    "IR Electric Furnace Factory MK4",
+    "Configurability",
+    "Nikolite Ingot",
+    "IR Cable MK2",
+    "Welcome to the Revolution",
+    "IR Fisher MK3",
+    "IR Item Pipe MK1",
+    "Enriched Nikolite Dust",
+    "IR Charge Pad MK4",
+    "Charging the Core",
+    "IR Battery",
+    "IR Fisher MK4",
+    "IR Drain and Pump MK1",
+    "IR Cable MK1",
+    "Steel Plate from IR",
+    "Circuit MK1",
+    "IR Solid Infuser MK1",
+    "IR Compressor Factory MK4",
+    "IR Heat Gen MK4",
+    "IR Coal Gen MK1",
+    "IR Item Pipe MK3",
+    "Modular Core Activated",
+    "Poor Mans Compressor",
+    "IR Biomass Gen MK3",
+    "Nikolite Dust",
+    "IR Energy Reader",
+    "Circuit MK2",
+    "IR Solid Infuser Factory MK4",
+    "IR Solar Gen MK1",
+    "IR Ore Multiplication",
+    "IR Fluid Infuser MK1",
+    "IR Fluid Pipe MK3",
+    "Circuit MK3",
+    "IR Compressor MK1",
+    "IR Machine Block",
+    "IR needs only the best diamonds",
+    "IR Tier Upgrade MK4",
+    "IR Fluid Pipe MK1",
+    "IR Enhancers",
+    "Modular Workbench MK4"
+  ],
+  "tasks": {
+    "28FBE0DAB8D6BF8F": {
+      "title": "&bIndustrial Revolution 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "47349A13BACC591D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:indrev"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "&bIndustrial Revolution 100%",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"28FBE0DAB8D6BF8F\" quest=\"Complete IndRev\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"47349A13BACC591D\" quest=\"Complete IndRev\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -128,
+          -320
+        ]
+      }
+    }
+  }
+}

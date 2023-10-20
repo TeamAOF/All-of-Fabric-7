@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Weaponry"
+  ],
+  "tasks": {
+    "0B6D9A28B4A9B38C": {
+      "type": "heracles:item",
+      "item": "botania:terra_sword"
+    }
+  },
+  "rewards": {
+    "494D1269BAC85011": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/legendary",
+          "Name": "Magic Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:terra_sword",
+    "description": [
+      "<task task=\"0B6D9A28B4A9B38C\" quest=\"Terra Sword\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"494D1269BAC85011\" quest=\"Terra Sword\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:terra_sword"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          224,
+          80
+        ]
+      }
+    }
+  }
+}

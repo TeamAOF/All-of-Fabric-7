@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Automation is Key"
+  ],
+  "tasks": {
+    "2641A595A151CEC8": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_unit"
+    }
+  },
+  "rewards": {
+    "30BE24275F44F396": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:crafting_unit",
+    "description": [
+      "<h2>This particular block provides the CPU with no additional features, but can be used as a \"filler\" block.</h2>",
+      "<hr/>",
+      "<task task=\"2641A595A151CEC8\" quest=\"Crafting Unit\"/>",
+      "<hr/>",
+      "It is the base for crafting the other functional components of a crafting CPU.",
+      "<hr/>",
+      "<reward reward=\"30BE24275F44F396\" quest=\"Crafting Unit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_unit"
+    },
+    "subtitle": {
+      "text": "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          128,
+          -144
+        ]
+      }
+    }
+  }
+}

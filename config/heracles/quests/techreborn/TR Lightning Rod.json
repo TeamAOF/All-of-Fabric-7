@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Machine Casing"
+  ],
+  "tasks": {
+    "07EEECEC8A259761": {
+      "type": "heracles:item",
+      "item": "techreborn:lightning_rod"
+    }
+  },
+  "rewards": {
+    "6B9A47975C83B4D1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:lightning_rod",
+    "description": [
+      "<h2>A passive generator that produces energy from lightning strikes during thunderstorms.</h2>",
+      "<hr/>",
+      "<task task=\"07EEECEC8A259761\" quest=\"TR Lightning Rod\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B9A47975C83B4D1\" quest=\"TR Lightning Rod\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:lightning_rod"
+    },
+    "subtitle": {
+      "text": "A passive generator that produces energy from lightning strikes during thunderstorms."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -336,
+          0
+        ]
+      }
+    }
+  }
+}

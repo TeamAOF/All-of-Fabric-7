@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "tasks": {
+    "12EFACEEF2CB7BB2": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "rewards": {
+    "6672CBBA98D952AA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "powah:book"
+      }
+    },
+    "48B3296F55328CBE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "powah:wrench",
+        "count": 1,
+        "nbt": {
+          "PowahWrenchNBT": {}
+        }
+      }
+    },
+    "3D6B696EB3A61233": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:dielectric_paste",
+    "description": [
+      "<h2>Getting Started</h2>",
+      "<hr/>",
+      "<task task=\"12EFACEEF2CB7BB2\" quest=\"Dialectric Paste\"/>",
+      "<hr/>",
+      "Powah is a powerful tech mod that centers around transfering, storing and producing large amounts of Powah.",
+      "<br/>",
+      "Dielectric paste is the base for much of what you'll be working with, insulating your high power electrical equipment from your fingies",
+      "<hr/>",
+      "<reward reward=\"6672CBBA98D952AA\" quest=\"Dialectric Paste\"/>",
+      "<reward reward=\"48B3296F55328CBE\" quest=\"Dialectric Paste\"/>",
+      "<reward reward=\"3D6B696EB3A61233\" quest=\"Dialectric Paste\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_paste"
+    },
+    "subtitle": {
+      "text": "Getting Started"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -400,
+          0
+        ]
+      }
+    }
+  }
+}

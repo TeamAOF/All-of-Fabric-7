@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Witch Cauldron"
+  ],
+  "tasks": {
+    "6F651059DED11014": {
+      "type": "heracles:item",
+      "item": "bewitchment:heaven_extract"
+    }
+  },
+  "rewards": {
+    "4BD914AE009D5A45": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kibe:liquid_xp_bucket"
+      }
+    },
+    "37130F49FAD7BE89": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:heaven_extract",
+    "description": [
+      "<task task=\"6F651059DED11014\" quest=\"Heaven Extract\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4BD914AE009D5A45\" quest=\"Heaven Extract\"/>",
+      "<reward reward=\"37130F49FAD7BE89\" quest=\"Heaven Extract\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:heaven_extract"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          32,
+          128
+        ]
+      }
+    }
+  }
+}

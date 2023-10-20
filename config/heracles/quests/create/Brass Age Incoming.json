@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Lets Get Mechanical"
+  ],
+  "tasks": {
+    "09B2CD16CA964794": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner"
+    },
+    "6813CD3587C015C9": {
+      "type": "heracles:item",
+      "item": "create:basin"
+    }
+  },
+  "rewards": {
+    "05B9E07ECDB6CA33": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 8
+      }
+    },
+    "4DC3A930BA4B079E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Brass Age Incoming?",
+    "description": [
+      "<h2>I wonder how do we make Brass?</h2>",
+      "<hr/>",
+      "<task task=\"09B2CD16CA964794\" quest=\"Brass Age Incoming\"/>",
+      "<task task=\"6813CD3587C015C9\" quest=\"Brass Age Incoming\"/>",
+      "<hr/>",
+      "> It's simple really, kidnap a Blaze from the nether",
+      "> By the way, did you gear up the speed? Because Mixers need a certain speed to work.",
+      "<hr/>",
+      "<reward reward=\"05B9E07ECDB6CA33\" quest=\"Brass Age Incoming\"/>",
+      "<reward reward=\"4DC3A930BA4B079E\" quest=\"Brass Age Incoming\"/>"
+    ],
+    "subtitle": {
+      "text": "I wonder how do we make Brass?"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          16
+        ]
+      }
+    }
+  }
+}

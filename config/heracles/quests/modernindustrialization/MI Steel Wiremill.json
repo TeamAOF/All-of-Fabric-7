@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Steel Ingot"
+  ],
+  "tasks": {
+    "32FF28A50A8B3DD5": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_wiremill"
+    }
+  },
+  "rewards": {
+    "1E9D18D104CA30EC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:steel_wiremill",
+    "description": [
+      "<h2>It... Makes wires?</h2>",
+      "<hr/>",
+      "<task task=\"32FF28A50A8B3DD5\" quest=\"MI Steel Wiremill\"/>",
+      "<hr/>",
+      "Mix Coke Dust with Water in a mixer and you will get Raw Synthetic Oil, which you can burn in a Steam Blast Furnace to get Synthetic Oil.",
+      "<br/>",
+      "Mix it with paper and that gives you rubber sheets!",
+      "<br/>",
+      "Automating this process is strongly recommended! Note that paper can be made from wood using wood pulp.",
+      "<br/>",
+      "For the wires, you will need the Wiremill! Combine these wires with rubber sheets to get cables!",
+      "<hr/>",
+      "<reward reward=\"1E9D18D104CA30EC\" quest=\"MI Steel Wiremill\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_wiremill"
+    },
+    "subtitle": {
+      "text": "It... Makes wires?"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -80,
+          -48
+        ]
+      }
+    }
+  }
+}

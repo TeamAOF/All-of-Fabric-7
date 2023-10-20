@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Kanthal Coil"
+  ],
+  "tasks": {
+    "040031047A05E0AE": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_ingot"
+    }
+  },
+  "rewards": {
+    "03576868670405B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:titanium_ingot",
+    "description": [
+      "<task task=\"040031047A05E0AE\" quest=\"MI Titanium Ingot\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"03576868670405B7\" quest=\"MI Titanium Ingot\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_ingot"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          560,
+          -32
+        ]
+      }
+    }
+  }
+}

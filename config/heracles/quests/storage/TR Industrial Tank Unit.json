@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Tank Unit"
+  ],
+  "tasks": {
+    "41F08E4226C2B034": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_tank_unit"
+    }
+  },
+  "rewards": {
+    "7AFB9E67691BDBC8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_tank_unit",
+    "description": [
+      "<task task=\"41F08E4226C2B034\" quest=\"TR Industrial Tank Unit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7AFB9E67691BDBC8\" quest=\"TR Industrial Tank Unit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_tank_unit"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          288,
+          -48
+        ]
+      }
+    }
+  }
+}

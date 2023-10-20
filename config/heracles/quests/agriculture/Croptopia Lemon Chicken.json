@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Croptopia Cooked Chicken"
+  ],
+  "tasks": {
+    "0214F5242EEDE49A": {
+      "type": "heracles:item",
+      "item": "croptopia:lemon_chicken"
+    }
+  },
+  "rewards": {
+    "0C2646F734C1E4B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:lemon_chicken",
+    "description": [
+      "<task task=\"0214F5242EEDE49A\" quest=\"Croptopia Lemon Chicken\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0C2646F734C1E4B7\" quest=\"Croptopia Lemon Chicken\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:lemon_chicken"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          16,
+          192
+        ]
+      }
+    }
+  }
+}

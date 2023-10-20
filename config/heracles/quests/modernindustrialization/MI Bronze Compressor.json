@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Ingot"
+  ],
+  "tasks": {
+    "3F8C83D99FC1C002": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_compressor"
+    }
+  },
+  "rewards": {
+    "7001E0BE6F705515": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:bronze_compressor",
+    "description": [
+      "<h2>This is probably the first machine you will want to build!</h2>",
+      "<hr/>",
+      "<task task=\"3F8C83D99FC1C002\" quest=\"MI Bronze Compressor\"/>",
+      "<hr/>",
+      "The Compressor will turn ingots into plates at 1:1 ratio.",
+      "<br/>",
+      "It can also turn each double ingot into 2 plates.",
+      "<hr/>",
+      "<reward reward=\"7001E0BE6F705515\" quest=\"MI Bronze Compressor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_compressor"
+    },
+    "subtitle": {
+      "text": "This is probably the first machine you will want to build!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -304,
+          16
+        ]
+      }
+    }
+  }
+}

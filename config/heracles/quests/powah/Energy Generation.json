@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "3F96255BD6DC5A4B": {
+      "title": "Energy Generation",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Energy Generation",
+    "description": [
+      "<task task=\"3F96255BD6DC5A4B\" quest=\"Energy Generation\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    }
+  }
+}

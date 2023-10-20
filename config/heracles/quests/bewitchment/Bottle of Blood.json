@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Athame"
+  ],
+  "tasks": {
+    "6F360235F1EA98C6": {
+      "type": "heracles:item",
+      "item": "bewitchment:bottle_of_blood"
+    }
+  },
+  "rewards": {
+    "4931A83E80FD8148": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:bottle_of_blood",
+    "description": [
+      "<h2>Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand.</h2>",
+      "<hr/>",
+      "<task task=\"6F360235F1EA98C6\" quest=\"Bottle of Blood\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4931A83E80FD8148\" quest=\"Bottle of Blood\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:bottle_of_blood"
+    },
+    "subtitle": {
+      "text": "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          240,
+          128
+        ]
+      }
+    }
+  }
+}

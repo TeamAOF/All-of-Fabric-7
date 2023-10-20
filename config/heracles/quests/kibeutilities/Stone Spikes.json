@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "38230005D69B4184": {
+      "type": "heracles:item",
+      "item": "kibe:stone_spikes"
+    }
+  },
+  "rewards": {
+    "1B38C5C031F63DEF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:stone_spikes",
+    "description": [
+      "<task task=\"38230005D69B4184\" quest=\"Stone Spikes\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1B38C5C031F63DEF\" quest=\"Stone Spikes\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:stone_spikes"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          384,
+          -32
+        ]
+      }
+    }
+  }
+}

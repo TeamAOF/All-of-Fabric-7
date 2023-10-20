@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Automation is Key"
+  ],
+  "tasks": {
+    "5F3D81B7D3F27CA2": {
+      "type": "heracles:item",
+      "item": "ae2:interface"
+    }
+  },
+  "rewards": {
+    "0B4FDBCBAA5831A2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:interface",
+    "description": [
+      "<h2>Read ME Pattern Provider quest for more info.</h2>",
+      "<hr/>",
+      "<task task=\"5F3D81B7D3F27CA2\" quest=\"AE2 Interface\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B4FDBCBAA5831A2\" quest=\"AE2 Interface\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:interface"
+    },
+    "subtitle": {
+      "text": "Read ME Pattern Provider quest for more info."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          64,
+          -144
+        ]
+      }
+    }
+  }
+}

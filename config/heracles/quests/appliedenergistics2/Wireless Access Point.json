@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Biometric Card"
+  ],
+  "tasks": {
+    "4E38E22FE7B37FE6": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_access_point"
+    }
+  },
+  "rewards": {
+    "040F18CE77CA8AB1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:wireless_access_point",
+    "description": [
+      "<h2>Allows wireless access via a Wireless Terminal.</h2>",
+      "<hr/>",
+      "<task task=\"4E38E22FE7B37FE6\" quest=\"Wireless Access Point\"/>",
+      "<hr/>",
+      "Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.",
+      "<br/>",
+      "A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup.",
+      "<br/>",
+      "Requires a channel to be operational.",
+      "<hr/>",
+      "<reward reward=\"040F18CE77CA8AB1\" quest=\"Wireless Access Point\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_access_point"
+    },
+    "subtitle": {
+      "text": "Allows wireless access via a Wireless Terminal."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -176,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Welcome to AoF7"
+  ],
+  "tasks": {
+    "4EB555F43B761736": {
+      "title": "Carrot Mode",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6763E838B1A44FFB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:carrot",
+        "count": 3
+      }
+    }
+  },
+  "display": {
+    "title": "§6Carrot Mode",
+    "description": [
+      "<h2>Through eating diverse foods you unlock more hearts and unique effects.</h2>",
+      "<hr/>",
+      "<task task=\"4EB555F43B761736\" quest=\"Carrot Mode\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6763E838B1A44FFB\" quest=\"Carrot Mode\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:carrot"
+    },
+    "subtitle": {
+      "text": "Through eating diverse foods you unlock more hearts and unique effects."
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          208,
+          160
+        ]
+      }
+    }
+  }
+}

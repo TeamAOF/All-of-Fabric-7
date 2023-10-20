@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Quantum Circuit"
+  ],
+  "tasks": {
+    "4CD547671372F659": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_upgrade"
+    }
+  },
+  "rewards": {
+    "6B88385840BCFBA5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/legendary",
+          "Name": "Modern Industrialization Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:quantum_upgrade",
+    "description": [
+      "<h2>The most powerful machine upgrade ever. Have a look for yourself.</h2>",
+      "<hr/>",
+      "<task task=\"4CD547671372F659\" quest=\"MI Quantum Upgrade\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B88385840BCFBA5\" quest=\"MI Quantum Upgrade\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_upgrade"
+    },
+    "subtitle": {
+      "text": "The most powerful machine upgrade ever. Have a look for yourself."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          784,
+          -96
+        ]
+      }
+    }
+  }
+}

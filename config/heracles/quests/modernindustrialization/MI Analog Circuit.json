@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Steel Wiremill"
+  ],
+  "tasks": {
+    "33A196551A047E54": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "modern_industrialization:analog_circuit"
+    }
+  },
+  "rewards": {
+    "6F412718BD1E7E4B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§6The Electric Age!",
+    "description": [
+      "<h2>Basics of Electricity</h2>",
+      "<hr/>",
+      "<task task=\"33A196551A047E54\" quest=\"MI Analog Circuit\"/>",
+      "<hr/>",
+      "Electric machines work exactly the same as steam machines, except that they require electricity instead of steam and they progressively overclock recipes up to 32 EU/t.",
+      "<br/>",
+      "You can use REI to view the recipes for the electric version of the machines you are already familiar with.",
+      "<br/>",
+      "We strongly suggest that you automate Machine Hull, Analog Circuits, Motors, Pistons, Robot Arms and Conveyor Belts using Assemblers as soon as possible, that will make crafting electric machines basically free!",
+      "<hr/>",
+      "<reward reward=\"6F412718BD1E7E4B\" quest=\"MI Analog Circuit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "subtitle": {
+      "text": "Basics of Electricity"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -32,
+          -48
+        ]
+      }
+    }
+  }
+}

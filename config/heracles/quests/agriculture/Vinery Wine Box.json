@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery"
+  ],
+  "tasks": {
+    "61D6C29FA3CCD689": {
+      "type": "heracles:item",
+      "item": "vinery:wine_box"
+    }
+  },
+  "rewards": {
+    "58A90EC9B4F615AC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: vinery:wine_box",
+    "description": [
+      "<h2>Make your favorite wine of choice a decor.</h2>",
+      "<hr/>",
+      "<task task=\"61D6C29FA3CCD689\" quest=\"Vinery Wine Box\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"58A90EC9B4F615AC\" quest=\"Vinery Wine Box\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "vinery:wine_box"
+    },
+    "subtitle": {
+      "text": "Make your favorite wine of choice a decor."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          96,
+          576
+        ]
+      }
+    }
+  }
+}

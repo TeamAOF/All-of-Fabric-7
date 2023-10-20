@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Storage"
+  ],
+  "tasks": {
+    "00779B056A43DEEA": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_barrel"
+    }
+  },
+  "rewards": {
+    "44DDE4E812AD843B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:bronze_barrel",
+    "description": [
+      "<h2>Another storage drawer in disguise.</h2>",
+      "<hr/>",
+      "<task task=\"00779B056A43DEEA\" quest=\"MI Bronze Barrel\"/>",
+      "<hr/>",
+      "Bronze barrels can used to store and move 32 stacks of one item.",
+      "<br/>",
+      "Amount of stacks allowed increase for each tier of barrel.",
+      "<hr/>",
+      "<reward reward=\"44DDE4E812AD843B\" quest=\"MI Bronze Barrel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_barrel"
+    },
+    "subtitle": {
+      "text": "Another storage drawer in disguise."
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          368,
+          -112
+        ]
+      }
+    }
+  }
+}

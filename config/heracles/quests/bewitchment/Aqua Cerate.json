@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Witch Cauldron"
+  ],
+  "tasks": {
+    "769432E98298B4C8": {
+      "type": "heracles:item",
+      "item": "bewitchment:aqua_cerate"
+    }
+  },
+  "rewards": {
+    "3D990A46A273A9BA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:aqua_cerate",
+    "description": [
+      "<task task=\"769432E98298B4C8\" quest=\"Aqua Cerate\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3D990A46A273A9BA\" quest=\"Aqua Cerate\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:aqua_cerate"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -32,
+          32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Steam Blast Furnace"
+  ],
+  "tasks": {
+    "36962E06671E364F": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electronic_circuit"
+    }
+  },
+  "rewards": {
+    "73D52B92963F71FF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§bThe Midgame Age!",
+    "description": [
+      "<h2>Advanced Electricity!</h2>",
+      "<hr/>",
+      "<task task=\"36962E06671E364F\" quest=\"MI Electronic Circuit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"73D52B92963F71FF\" quest=\"MI Electronic Circuit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    "subtitle": {
+      "text": "Advanced Electricity!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          160,
+          -48
+        ]
+      }
+    }
+  }
+}

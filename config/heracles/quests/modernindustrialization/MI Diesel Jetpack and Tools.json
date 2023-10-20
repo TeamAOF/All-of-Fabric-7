@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Distillery"
+  ],
+  "tasks": {
+    "67C570594E13FA80": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diesel_mining_drill"
+    },
+    "7E63F544E1AF7DC1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diesel_chainsaw"
+    },
+    "13107B90179730F8": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diesel_jetpack"
+    }
+  },
+  "rewards": {
+    "005355ACD6B0E16C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§bDiesel Jetpack and Tools",
+    "description": [
+      "<task task=\"67C570594E13FA80\" quest=\"MI Diesel Jetpack and Tools\"/>",
+      "<task task=\"7E63F544E1AF7DC1\" quest=\"MI Diesel Jetpack and Tools\"/>",
+      "<task task=\"13107B90179730F8\" quest=\"MI Diesel Jetpack and Tools\"/>",
+      "<hr/>",
+      "- Jetpack go brrr... The more powerful the fuel, the faster the jetpack! We recommend Rubber Boots and a Rubber Helmet...",
+      "<br/>",
+      "Don't forget to activate it using the (V) keybind.",
+      "<br/>",
+      "- This Mining Drill can finally replace your Pickaxes and Shovels. Fill it with powerful fuel for the best speed!",
+      "<br/>",
+      "Toggle between Silk Touch and Fortune III with shift right-click.",
+      "<hr/>",
+      "<reward reward=\"005355ACD6B0E16C\" quest=\"MI Diesel Jetpack and Tools\"/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          272,
+          -208
+        ]
+      }
+    }
+  }
+}

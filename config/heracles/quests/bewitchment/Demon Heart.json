@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Crystal Ball",
+    "Chalk"
+  ],
+  "tasks": {
+    "0B6E7536EA8FC60D": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_heart"
+    }
+  },
+  "rewards": {
+    "2821962D0E9F1AE3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:demon_heart",
+    "description": [
+      "<task task=\"0B6E7536EA8FC60D\" quest=\"Demon Heart\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2821962D0E9F1AE3\" quest=\"Demon Heart\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_heart"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          368,
+          -64
+        ]
+      }
+    }
+  }
+}

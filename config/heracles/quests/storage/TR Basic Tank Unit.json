@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tech Reborn Storage"
+  ],
+  "tasks": {
+    "2D8DB2A4B2A7CCBE": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_tank_unit"
+    }
+  },
+  "rewards": {
+    "7F39C502358FD965": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:basic_tank_unit",
+    "description": [
+      "<h2>Right click with buckets or other tanks to transfer fluids.</h2>",
+      "<hr/>",
+      "<task task=\"2D8DB2A4B2A7CCBE\" quest=\"TR Basic Tank Unit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7F39C502358FD965\" quest=\"TR Basic Tank Unit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_tank_unit"
+    },
+    "subtitle": {
+      "text": "Right click with buckets or other tanks to transfer fluids."
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          288,
+          -112
+        ]
+      }
+    }
+  }
+}

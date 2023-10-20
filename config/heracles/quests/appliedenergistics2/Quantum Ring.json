@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Quantum Link"
+  ],
+  "tasks": {
+    "422C32A11B9803B4": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_ring"
+    }
+  },
+  "rewards": {
+    "63263DBFF0651EE0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:quantum_ring",
+    "description": [
+      "<h2>Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge.</h2>",
+      "<hr/>",
+      "<task task=\"422C32A11B9803B4\" quest=\"Quantum Ring\"/>",
+      "<hr/>",
+      "Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables.",
+      "<hr/>",
+      "<reward reward=\"63263DBFF0651EE0\" quest=\"Quantum Ring\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_ring"
+    },
+    "subtitle": {
+      "text": "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -240,
+          48
+        ]
+      }
+    }
+  }
+}

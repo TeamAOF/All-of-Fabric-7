@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kitchen Basics"
+  ],
+  "tasks": {
+    "04801BAC52C4D589": {
+      "title": "Chocolatier",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "30B43FEE57C05A9D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Chocolatier",
+    "description": [
+      "<h2>Complete Kitchen Basics to unlock.</h2>",
+      "<hr/>",
+      "<task task=\"04801BAC52C4D589\" quest=\"Chocolatier\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"30B43FEE57C05A9D\" quest=\"Chocolatier\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Complete Kitchen Basics to unlock."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -176,
+          336
+        ]
+      }
+    }
+  }
+}

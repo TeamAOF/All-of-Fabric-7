@@ -1,0 +1,131 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Furnace",
+    "MI Diesel Jetpack and Tools",
+    "MI Advanced Large Steam Boiler",
+    "MI Heat Exchanger",
+    "MI Bronze Mixer",
+    "MI Kanthal Coil",
+    "MI Quantum Upgrade",
+    "MI Steel Packer",
+    "MI Titanium Drill",
+    "MI Assembler",
+    "MI Advanced Upgrade",
+    "MI Aluminum Drill",
+    "MI Bronze Ingot",
+    "MI Digital Circuit",
+    "MI Fluid Pipe",
+    "MI Gold Drill",
+    "MI Electrolyzer",
+    "MI Coke-A-Cola Technici4n",
+    "MI Nuke",
+    "Hatchback",
+    "MI Implosion Compressor",
+    "MI Mixed Iridium Ingot",
+    "MI Bronze Boiler",
+    "MI Bronze Water Pump",
+    "MI Steel Drill",
+    "MI Gravichestplate",
+    "MI Stainless Steel Drill",
+    "MI Bronze Cutting Machine",
+    "MI Lignite Coal",
+    "MI Steel Wiremill",
+    "MI MV Steam Turbine",
+    "MI Large Steam Boiler",
+    "MI Polarizer",
+    "MI Item Pipe",
+    "MI Electronic Circuit",
+    "MI Blastproof Alloy Plate",
+    "MI Diesel Generator",
+    "MI Tin Cable",
+    "MI UU Matter Bucket",
+    "MI Stainless Steel Ingot",
+    "MI Steel Upgrade",
+    "Forge Hammer",
+    "MI Fusion Reactor",
+    "MI Titanium Ingot",
+    "MI Plasma Turbine",
+    "MI Steel Unpacker",
+    "MI Pressurizer",
+    "MI Steam Blast Furnace",
+    "MI Analog Circuit",
+    "MI HV Steam Turbine",
+    "MI Advanced Machine Hull and Turbo Upgrade",
+    "MI LV Energy Input Hatch",
+    "MI Bronze Drill",
+    "MI Nuclear Reactor",
+    "MI Fire Clay Bricks",
+    "MI Copper Drill",
+    "MI Singularity",
+    "MI Processing Unit",
+    "MI Highly Advanced Upgrade",
+    "MI Bronze Compressor",
+    "MI Coke it Up",
+    "MI Bronze Macerator",
+    "MI Steam Quarry",
+    "MI Distillation Tower",
+    "MI Fire Clay Brick",
+    "MI Electric Quarry",
+    "MI Super Conductor Cable",
+    "MI Distillery",
+    "MI Turbo Diesel Generator",
+    "MI Chemical Reactor",
+    "MI Wrench",
+    "MI Coke",
+    "MI Centrifuge",
+    "MI Oil Drilling Rig",
+    "MI Vacuum Freezer",
+    "MI Quantum Circuit",
+    "MI Raw Iridium",
+    "MI Steel Ingot",
+    "Begin MI",
+    "MI LV Steam Turbine"
+  ],
+  "tasks": {
+    "2D1861811D08F5C2": {
+      "title": "&dModern Industrialization 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "138CCD634C40063E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:modernindustrialization"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "&dModern Industrialization 100%",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"2D1861811D08F5C2\" quest=\"Complete MI\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"138CCD634C40063E\" quest=\"Complete MI\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          64,
+          -256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Battery"
+  ],
+  "tasks": {
+    "5A05A31972972B83": {
+      "type": "heracles:item",
+      "item": "indrev:heat_generator_mk4"
+    }
+  },
+  "rewards": {
+    "44EBF25DDD272F6A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:heat_generator_mk4",
+    "description": [
+      "<h2>Will consume lava inside it to generate energy. Pairs up well with the pump.</h2>",
+      "<hr/>",
+      "<task task=\"5A05A31972972B83\" quest=\"IR Heat Gen MK4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"44EBF25DDD272F6A\" quest=\"IR Heat Gen MK4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:heat_generator_mk4"
+    },
+    "subtitle": {
+      "text": "Will consume lava inside it to generate energy. Pairs up well with the pump."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -208,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "4864F7EAE005ED98": {
+      "title": "Peanutbutter Chocolates",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:peanut_butter_dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:peanut_butter_milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:peanut_butter_white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "0DBFC36CE7B13890": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Peanut Butter Chocolates",
+    "description": [
+      "<task task=\"4864F7EAE005ED98\" quest=\"Peanut Butter Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0DBFC36CE7B13890\" quest=\"Peanut Butter Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -352,
+          384
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Blocks as Far as the Eye Can See"
+  ],
+  "tasks": {
+    "6B877225D944D10B": {
+      "type": "heracles:item",
+      "item": "rechiseled:chisel"
+    }
+  },
+  "rewards": {
+    "0785B7A200D630A7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:crimson_planks",
+        "count": 64
+      }
+    },
+    "55ABFF044CB1B751": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:warped_planks",
+        "count": 64
+      }
+    },
+    "653EA95BCAD75619": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glowstone",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Rechiseled",
+    "description": [
+      "<h2>Rechiseled adds over 300+ decorative variants of vanilla blocks!</h2>",
+      "<hr/>",
+      "<task task=\"6B877225D944D10B\" quest=\"Rechiseled\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0785B7A200D630A7\" quest=\"Rechiseled\"/>",
+      "<reward reward=\"55ABFF044CB1B751\" quest=\"Rechiseled\"/>",
+      "<reward reward=\"653EA95BCAD75619\" quest=\"Rechiseled\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "rechiseled:chisel"
+    },
+    "subtitle": {
+      "text": "Rechiseled adds over 300+ decorative variants of vanilla blocks!"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          160,
+          -176
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Stone Witch Altar"
+  ],
+  "tasks": {
+    "693CE5B86EF9DA53": {
+      "type": "heracles:item",
+      "item": "bewitchment:crystal_ball"
+    }
+  },
+  "rewards": {
+    "3DA892D969F3279C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:crystal_ball",
+    "description": [
+      "<h2>Crystal Balls are common divination tools.</h2>",
+      "<hr/>",
+      "<task task=\"693CE5B86EF9DA53\" quest=\"Crystal Ball\"/>",
+      "<hr/>",
+      "When used, they will give the caster a fortune, at the cost of some ME drawn from a nearby Altar.",
+      "<br/>",
+      "Additionally, Crystal Balls may be used for scrying.",
+      "<br/>",
+      "When used with a Taglock, it will give precise information on the target.",
+      "<hr/>",
+      "<reward reward=\"3DA892D969F3279C\" quest=\"Crystal Ball\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:crystal_ball"
+    },
+    "subtitle": {
+      "text": "Crystal Balls are common divination tools."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    }
+  }
+}

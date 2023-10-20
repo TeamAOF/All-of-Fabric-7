@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "22F1EEBE89B61279": {
+      "type": "heracles:item",
+      "item": "croptopia:olive_oil"
+    }
+  },
+  "rewards": {
+    "6E0EA416CD0F2106": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:olive_oil",
+    "description": [
+      "<task task=\"22F1EEBE89B61279\" quest=\"Croptopia Olive Oil\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E0EA416CD0F2106\" quest=\"Croptopia Olive Oil\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:olive_oil"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -80,
+          368
+        ]
+      }
+    }
+  }
+}

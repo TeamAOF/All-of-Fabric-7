@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery"
+  ],
+  "tasks": {
+    "571400BC3D2B2843": {
+      "type": "heracles:item",
+      "item": "#vinery:grape"
+    }
+  },
+  "rewards": {
+    "39B15E6ADF8048C5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Grapes",
+    "description": [
+      "<h2>Gather your first grapes and grape seeds.</h2>",
+      "<hr/>",
+      "<task task=\"571400BC3D2B2843\" quest=\"Vinery Grape\"/>",
+      "<hr/>",
+      "If you cant find any a &&6Wandering Winemaker&&r will make visit from time to time maybe offering some seeds.",
+      "<br/>",
+      "&&bSeeds&&r can also rarely be found by cutting grass or in villages.",
+      "<hr/>",
+      "<reward reward=\"39B15E6ADF8048C5\" quest=\"Vinery Grape\"/>"
+    ],
+    "subtitle": {
+      "text": "Gather your first grapes and grape seeds."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          80,
+          496
+        ]
+      }
+    }
+  }
+}

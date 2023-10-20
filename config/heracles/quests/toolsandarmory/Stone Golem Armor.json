@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Armory"
+  ],
+  "tasks": {
+    "242FF6C3451B028C": {
+      "type": "heracles:item",
+      "item": "adventurez:stone_golem_helmet"
+    },
+    "37D480823CD0D258": {
+      "type": "heracles:item",
+      "item": "adventurez:stone_golem_chestplate"
+    },
+    "5CEB516D748B6A62": {
+      "type": "heracles:item",
+      "item": "adventurez:stone_golem_leggings"
+    },
+    "002E304BF1E3B275": {
+      "type": "heracles:item",
+      "item": "adventurez:stone_golem_boots"
+    }
+  },
+  "rewards": {
+    "177660FB4D8E2671": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§6Gilded Netherite",
+    "description": [
+      "<h2>More durable than the netherite set and has a full set ability.</h2>",
+      "<hr/>",
+      "<task task=\"242FF6C3451B028C\" quest=\"Stone Golem Armor\"/>",
+      "<task task=\"37D480823CD0D258\" quest=\"Stone Golem Armor\"/>",
+      "<task task=\"5CEB516D748B6A62\" quest=\"Stone Golem Armor\"/>",
+      "<task task=\"002E304BF1E3B275\" quest=\"Stone Golem Armor\"/>",
+      "<hr/>",
+      "The Gilded Netherite Armor is the upgraded netherite armor with a gilded netherite fragment.",
+      "<br/>",
+      "If the player wears all four parts of the armor, they'll be able to press default key “v” to activate the armor indicated by a glowing red layer on the armor.",
+      "<br/>",
+      "It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol.",
+      "<hr/>",
+      "<reward reward=\"177660FB4D8E2671\" quest=\"Stone Golem Armor\"/>"
+    ],
+    "subtitle": {
+      "text": "More durable than the netherite set and has a full set ability."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -208,
+          -80
+        ]
+      }
+    }
+  }
+}

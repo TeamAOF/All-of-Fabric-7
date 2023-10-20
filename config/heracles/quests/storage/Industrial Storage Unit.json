@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Advanced Storage Unit"
+  ],
+  "tasks": {
+    "012C6C1DF6C46F0F": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_storage_unit"
+    }
+  },
+  "rewards": {
+    "3116B64A5A85BD93": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_storage_unit",
+    "description": [
+      "<task task=\"012C6C1DF6C46F0F\" quest=\"Industrial Storage Unit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3116B64A5A85BD93\" quest=\"Industrial Storage Unit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_storage_unit"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          256,
+          -16
+        ]
+      }
+    }
+  }
+}

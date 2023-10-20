@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Automation is Key"
+  ],
+  "tasks": {
+    "3B28508C9447ACAC": {
+      "type": "heracles:item",
+      "item": "ae2:16k_crafting_storage"
+    }
+  },
+  "rewards": {
+    "332C3330F3C4B4EC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:16k_crafting_storage",
+    "description": [
+      "<h2>Provides 16,384 bytes of storage for crafting.</h2>",
+      "<hr/>",
+      "<task task=\"3B28508C9447ACAC\" quest=\"16K Crafting Storage\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"332C3330F3C4B4EC\" quest=\"16K Crafting Storage\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:16k_crafting_storage"
+    },
+    "subtitle": {
+      "text": "Provides 16,384 bytes of storage for crafting."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Lapotronic Orb"
+  ],
+  "tasks": {
+    "6925B87D2B040AA2": {
+      "type": "heracles:item",
+      "item": "techreborn:adjustable_su"
+    }
+  },
+  "rewards": {
+    "56CDDFDA1A86D305": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:adjustable_su",
+    "description": [
+      "<h2>A battery block that stores energy and charges items.</h2>",
+      "<hr/>",
+      "<task task=\"6925B87D2B040AA2\" quest=\"TR Adjustable SU\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"56CDDFDA1A86D305\" quest=\"TR Adjustable SU\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:adjustable_su"
+    },
+    "subtitle": {
+      "text": "A battery block that stores energy and charges items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          112,
+          0
+        ]
+      }
+    }
+  }
+}

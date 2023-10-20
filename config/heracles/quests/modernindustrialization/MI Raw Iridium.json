@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Titanium Ingot"
+  ],
+  "tasks": {
+    "7103DFB1F1EF3828": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:raw_iridium"
+    }
+  },
+  "rewards": {
+    "0BA9AA260BE18BAE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:raw_iridium",
+    "description": [
+      "<task task=\"7103DFB1F1EF3828\" quest=\"MI Raw Iridium\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0BA9AA260BE18BAE\" quest=\"MI Raw Iridium\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:raw_iridium"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          624,
+          -64
+        ]
+      }
+    }
+  }
+}

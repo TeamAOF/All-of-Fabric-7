@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Weaponry"
+  ],
+  "tasks": {
+    "3AFC4119E51084AA": {
+      "type": "heracles:item",
+      "item": "botania:elementium_sword"
+    }
+  },
+  "rewards": {
+    "2D75E74B635299E0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:elementium_sword",
+    "description": [
+      "<task task=\"3AFC4119E51084AA\" quest=\"Elementium Sword\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D75E74B635299E0\" quest=\"Elementium Sword\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:elementium_sword"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          192,
+          80
+        ]
+      }
+    }
+  }
+}

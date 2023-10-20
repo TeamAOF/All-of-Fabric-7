@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Delight Stove"
+  ],
+  "tasks": {
+    "30AC1D443725C929": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board"
+    }
+  },
+  "rewards": {
+    "7BAAB462E73F4BC3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:cutting_board",
+    "description": [
+      "<task task=\"30AC1D443725C929\" quest=\"Farmers Cutting Board\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7BAAB462E73F4BC3\" quest=\"Farmers Cutting Board\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cutting_board"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -256,
+          448
+        ]
+      }
+    }
+  }
+}

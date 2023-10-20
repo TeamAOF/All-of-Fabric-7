@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "6BD84ECACCA0532F": {
+      "title": "Make one of the following chocolates",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "2093038894F551F3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Chocolates",
+    "description": [
+      "<task task=\"6BD84ECACCA0532F\" quest=\"Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2093038894F551F3\" quest=\"Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -352,
+          288
+        ]
+      }
+    }
+  }
+}

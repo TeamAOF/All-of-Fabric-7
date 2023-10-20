@@ -1,0 +1,119 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Item Vault",
+    "Fan it Up",
+    "Andesite Alloy",
+    "Chocolate Glazed Berries",
+    "Track Station and Controls",
+    "Display Board",
+    "Encased Chain Drive",
+    "Chute",
+    "Item Drain",
+    "Smart Chute",
+    "Brass Funnel",
+    "Engineering Tools",
+    "Track Observer and Signal",
+    "Brass Casings",
+    "Lets Get Mechanical",
+    "Wand of Symmetry",
+    "Switch Observe and Contact",
+    "Mechanical Press",
+    "Measuring Tools",
+    "Contraptions",
+    "Latch Action",
+    "Brass Tunnel",
+    "Polished Rose Quartz",
+    "Create Fluid Tank",
+    "Extendo Grip",
+    "Springboard",
+    "Cogwheel",
+    "Voyage au centre de la Terre",
+    "Builders Tea",
+    "Display Link",
+    "Portable Storage Interface",
+    "Water Wheel",
+    "Shaft",
+    "Schematic and Quill",
+    "Sequenced Gearshift",
+    "Sweet Roll",
+    "Railway Casing",
+    "Toolboxes",
+    "Andesite Funnel",
+    "Rotation Speed Controller",
+    "Create Track",
+    "Obsidian Dust",
+    "Precision Mechanisms",
+    "Belt Connector",
+    "Andesite Tunnel",
+    "Crafting Blueprint",
+    "Windmills",
+    "Bar of Chocolate",
+    "Analog Lever",
+    "Blaze Cake",
+    "Pulse Extender and Repeater",
+    "Mechanical Crafters",
+    "Potato Cannon",
+    "Redstone Link",
+    "Nixie Tube",
+    "Brass Age Incoming",
+    "Fluid Transport",
+    "Gearboxes",
+    "Gantry",
+    "Deployer",
+    "Crushing Wheels",
+    "Honeyed Apple",
+    "Copper Casing",
+    "Schematic Cannon and Table",
+    "Steam Engine",
+    "Mechanical Arm",
+    "Haunted Bell",
+    "Attribute Filter"
+  ],
+  "tasks": {
+    "1D99A86B5CA32704": {
+      "title": "&6Create 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "264E15A6379D9F97": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:create"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "&6Create 100%",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"1D99A86B5CA32704\" quest=\"Complete Create\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"264E15A6379D9F97\" quest=\"Complete Create\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -192
+        ]
+      }
+    }
+  }
+}

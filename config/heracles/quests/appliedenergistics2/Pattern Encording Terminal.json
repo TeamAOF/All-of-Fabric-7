@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Crafting Terminal",
+    "Terminal"
+  ],
+  "tasks": {
+    "2A1935843BEBBF9F": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_encoding_terminal"
+    }
+  },
+  "rewards": {
+    "7C6A62A9D5588C0E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:pattern_encoding_terminal",
+    "description": [
+      "<h2>A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern.</h2>",
+      "<hr/>",
+      "<task task=\"2A1935843BEBBF9F\" quest=\"Pattern Encording Terminal\"/>",
+      "<hr/>",
+      "Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns.",
+      "<br/>",
+      "There are two modes for pattern encoding. Crafting Patterns, and Processing Patterns.",
+      "<br/>",
+      "Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. ",
+      "<br/>",
+      "To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns.",
+      "<hr/>",
+      "<reward reward=\"7C6A62A9D5588C0E\" quest=\"Pattern Encording Terminal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_encoding_terminal"
+    },
+    "subtitle": {
+      "text": "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -256,
+          -224
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Basic Machine Casing",
+    "TR Steel Plate"
+  ],
+  "tasks": {
+    "696BC8BD052CB0E4": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_casing"
+    }
+  },
+  "rewards": {
+    "12EA9BD640B4DC9A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:advanced_machine_casing",
+    "description": [
+      "<h2>Used to build multi-block machines.</h2>",
+      "<hr/>",
+      "<task task=\"696BC8BD052CB0E4\" quest=\"TR Advanced Machine Casing\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12EA9BD640B4DC9A\" quest=\"TR Advanced Machine Casing\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_casing"
+    },
+    "subtitle": {
+      "text": "Used to build multi-block machines."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -336,
+          -48
+        ]
+      }
+    }
+  }
+}

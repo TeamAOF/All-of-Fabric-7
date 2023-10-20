@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Dank 4"
+  ],
+  "tasks": {
+    "78E8E5FE38C585C4": {
+      "type": "heracles:item",
+      "item": "dankstorage:dank_5"
+    }
+  },
+  "rewards": {
+    "6E910A9942E4853F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Dank MK5",
+    "description": [
+      "<task task=\"78E8E5FE38C585C4\" quest=\"Dank 5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6E910A9942E4853F\" quest=\"Dank 5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dankstorage:dank_5"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    }
+  }
+}

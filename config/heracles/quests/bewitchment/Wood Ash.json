@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Athame"
+  ],
+  "tasks": {
+    "7B461B5FFCDEE357": {
+      "type": "heracles:item",
+      "item": "bewitchment:wood_ash"
+    }
+  },
+  "rewards": {
+    "5B19CA4F25A94842": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:wood_ash",
+    "description": [
+      "<h2>Created by putting Bark on a Campfire.</h2>",
+      "<hr/>",
+      "<task task=\"7B461B5FFCDEE357\" quest=\"Wood Ash\"/>",
+      "<hr/>",
+      "When thrown into a filled Witch Cauldron it will immediately empty it.",
+      "<hr/>",
+      "<reward reward=\"5B19CA4F25A94842\" quest=\"Wood Ash\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:wood_ash"
+    },
+    "subtitle": {
+      "text": "Created by putting Bark on a Campfire."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

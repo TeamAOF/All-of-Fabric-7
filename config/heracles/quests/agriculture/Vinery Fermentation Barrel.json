@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery"
+  ],
+  "tasks": {
+    "0897663BE35E577E": {
+      "type": "heracles:item",
+      "item": "vinery:fermentation_barrel"
+    }
+  },
+  "rewards": {
+    "4CF06BD12C69CFE5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: vinery:fermentation_barrel",
+    "description": [
+      "<h2>Used to age Grapejuice into Wine or Aples into Cider.</h2>",
+      "<hr/>",
+      "<task task=\"0897663BE35E577E\" quest=\"Vinery Fermentation Barrel\"/>",
+      "<hr/>",
+      "Filled &&bWinebottles&&r can be &&6refined&&r in a &&bBarrel&&r by using extra ingredients such as &&bSweetberries&&r, &&bHoney&&r and so on.",
+      "<br/>",
+      "Different sort of &&bGrapejuice&&r and ingredients result in different kinds of &&bWines&&r.",
+      "<hr/>",
+      "<reward reward=\"4CF06BD12C69CFE5\" quest=\"Vinery Fermentation Barrel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "vinery:fermentation_barrel"
+    },
+    "subtitle": {
+      "text": "Used to age Grapejuice into Wine or Aples into Cider."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          128,
+          592
+        ]
+      }
+    }
+  }
+}

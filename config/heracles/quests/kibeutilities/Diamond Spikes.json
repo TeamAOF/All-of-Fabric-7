@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "66567097A995AF54": {
+      "type": "heracles:item",
+      "item": "kibe:diamond_spikes"
+    }
+  },
+  "rewards": {
+    "39CDC7F35866775E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:diamond_spikes",
+    "description": [
+      "<task task=\"66567097A995AF54\" quest=\"Diamond Spikes\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"39CDC7F35866775E\" quest=\"Diamond Spikes\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:diamond_spikes"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          480,
+          -32
+        ]
+      }
+    }
+  }
+}

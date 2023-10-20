@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "41951260044C57ED": {
+      "title": "One of the following praline chocolates please.",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:praline_dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:praline_milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:praline_white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "20F15010745679E8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Praline Chocolates",
+    "description": [
+      "<task task=\"41951260044C57ED\" quest=\"Praline Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20F15010745679E8\" quest=\"Praline Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -288,
+          368
+        ]
+      }
+    }
+  }
+}

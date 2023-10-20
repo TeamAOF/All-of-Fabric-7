@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fluix Glass Cable"
+  ],
+  "tasks": {
+    "7AA503B6ABF481D7": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "ae2:quartz_growth_accelerator"
+    }
+  },
+  "rewards": {
+    "1EB59762D58C2812": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:quartz_growth_accelerator",
+    "description": [
+      "<h2>Used to accelerate crystal growth.</h2>",
+      "<hr/>",
+      "<task task=\"7AA503B6ABF481D7\" quest=\"Quartz Growth Accelerator\"/>",
+      "<hr/>",
+      "Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into building as many &&bCrystal Growth Accelerators&&r as you can.",
+      "<hr/>",
+      "<reward reward=\"1EB59762D58C2812\" quest=\"Quartz Growth Accelerator\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:quartz_growth_accelerator"
+    },
+    "subtitle": {
+      "text": "Used to accelerate crystal growth."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -64,
+          -320
+        ]
+      }
+    }
+  }
+}

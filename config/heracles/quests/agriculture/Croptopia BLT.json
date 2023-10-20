@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Croptopia Cooked Porkchop"
+  ],
+  "tasks": {
+    "477BE12C39AD854D": {
+      "type": "heracles:item",
+      "item": "croptopia:blt"
+    }
+  },
+  "rewards": {
+    "76EF72273D26153F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:blt",
+    "description": [
+      "<task task=\"477BE12C39AD854D\" quest=\"Croptopia BLT\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76EF72273D26153F\" quest=\"Croptopia BLT\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:blt"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          192,
+          368
+        ]
+      }
+    }
+  }
+}

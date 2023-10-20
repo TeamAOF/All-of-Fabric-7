@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "3B71D4720FA8282D": {
+      "type": "heracles:item",
+      "item": "croptopia:cooking_pot"
+    }
+  },
+  "rewards": {
+    "49BBC04706B79531": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:cooking_pot",
+    "description": [
+      "<task task=\"3B71D4720FA8282D\" quest=\"Croptopia Cooking Pot\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49BBC04706B79531\" quest=\"Croptopia Cooking Pot\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:cooking_pot"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -16,
+          400
+        ]
+      }
+    }
+  }
+}

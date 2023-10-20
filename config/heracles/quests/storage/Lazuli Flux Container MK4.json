@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Lazuli Flux Container MK3"
+  ],
+  "tasks": {
+    "46EBA4968DDC5066": {
+      "type": "heracles:item",
+      "item": "indrev:lazuli_flux_container_mk4"
+    }
+  },
+  "rewards": {
+    "0F1B6F6BF9A961B9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:lazuli_flux_container_mk4",
+    "description": [
+      "<task task=\"46EBA4968DDC5066\" quest=\"Lazuli Flux Container MK4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F1B6F6BF9A961B9\" quest=\"Lazuli Flux Container MK4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:lazuli_flux_container_mk4"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          448,
+          -16
+        ]
+      }
+    }
+  }
+}

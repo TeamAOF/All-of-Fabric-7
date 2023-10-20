@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Electronic Circuit"
+  ],
+  "tasks": {
+    "68D837AA6DE85D6F": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:centrifuge"
+    }
+  },
+  "rewards": {
+    "1C5B1860219126FC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:centrifuge",
+    "description": [
+      "<h2>Splits items by spinning them very fast.</h2>",
+      "<hr/>",
+      "<task task=\"68D837AA6DE85D6F\" quest=\"MI Centrifuge\"/>",
+      "<hr/>",
+      "You can use it to make carbon dust and unlock better recipes for steel and silicon.",
+      "<hr/>",
+      "<reward reward=\"1C5B1860219126FC\" quest=\"MI Centrifuge\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:centrifuge"
+    },
+    "subtitle": {
+      "text": "Splits items by spinning them very fast."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

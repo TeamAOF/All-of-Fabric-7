@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Electric Quarry"
+  ],
+  "tasks": {
+    "7B1FED6BDC3FB1FA": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:gold_drill"
+    }
+  },
+  "rewards": {
+    "03EB4768E657D802": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§6Gold Drill",
+    "description": [
+      "<h2>Used in the quarry. Check REI for outputs.</h2>",
+      "<hr/>",
+      "<task task=\"7B1FED6BDC3FB1FA\" quest=\"MI Gold Drill\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"03EB4768E657D802\" quest=\"MI Gold Drill\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:gold_drill"
+    },
+    "subtitle": {
+      "text": "Used in the quarry. Check REI for outputs."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          160,
+          -160
+        ]
+      }
+    }
+  }
+}

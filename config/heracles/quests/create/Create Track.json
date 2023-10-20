@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Deployer"
+  ],
+  "tasks": {
+    "1779510A85EEF6ED": {
+      "type": "heracles:item",
+      "item": "create:track"
+    }
+  },
+  "rewards": {
+    "594F6A3AA4E24010": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:track",
+    "description": [
+      "<task task=\"1779510A85EEF6ED\" quest=\"Create Track\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"594F6A3AA4E24010\" quest=\"Create Track\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:track"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          512,
+          16
+        ]
+      }
+    }
+  }
+}

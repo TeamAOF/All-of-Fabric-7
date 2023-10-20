@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Electronic Circuit"
+  ],
+  "tasks": {
+    "4405859846ECFE0E": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:chemical_reactor"
+    }
+  },
+  "rewards": {
+    "641199FDB7D87CF7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:chemical_reactor",
+    "description": [
+      "<h2>Can make items and fluids react with eachother.</h2>",
+      "<hr/>",
+      "<task task=\"4405859846ECFE0E\" quest=\"MI Chemical Reactor\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"641199FDB7D87CF7\" quest=\"MI Chemical Reactor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:chemical_reactor"
+    },
+    "subtitle": {
+      "text": "Can make items and fluids react with eachother."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          240,
+          -64
+        ]
+      }
+    }
+  }
+}

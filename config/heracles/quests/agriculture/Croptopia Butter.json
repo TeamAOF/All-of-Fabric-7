@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "7E35A6AE21505CA7": {
+      "type": "heracles:item",
+      "item": "croptopia:butter"
+    }
+  },
+  "rewards": {
+    "19A810E0AB1B57AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:butter",
+    "description": [
+      "<task task=\"7E35A6AE21505CA7\" quest=\"Croptopia Butter\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"19A810E0AB1B57AF\" quest=\"Croptopia Butter\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:butter"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          112,
+          304
+        ]
+      }
+    }
+  }
+}

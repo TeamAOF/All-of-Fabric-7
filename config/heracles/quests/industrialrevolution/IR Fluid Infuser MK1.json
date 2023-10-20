@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Machine Block"
+  ],
+  "tasks": {
+    "297F433AB752D7CF": {
+      "type": "heracles:item",
+      "item": "indrev:fluid_infuser_mk1"
+    }
+  },
+  "rewards": {
+    "35D35206DCBD8187": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:fluid_infuser_mk1",
+    "description": [
+      "<h2>Used for advanced infusing with fluids. Its main current use is for ore quadrupling.</h2>",
+      "<hr/>",
+      "<task task=\"297F433AB752D7CF\" quest=\"IR Fluid Infuser MK1\"/>",
+      "<hr/>",
+      "Can also be used to turn Sand into Clay and Concrete Powder into Concrete.",
+      "<hr/>",
+      "<reward reward=\"35D35206DCBD8187\" quest=\"IR Fluid Infuser MK1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:fluid_infuser_mk1"
+    },
+    "subtitle": {
+      "text": "Used for advanced infusing with fluids. Its main current use is for ore quadrupling."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -240,
+          96
+        ]
+      }
+    }
+  }
+}

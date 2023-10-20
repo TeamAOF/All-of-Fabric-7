@@ -1,0 +1,104 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Data Model"
+  ],
+  "tasks": {
+    "4A4F270C7B4CB954": {
+      "title": "Get a data model",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_illager",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_ocean",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_slimy",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_overworld",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_zombie",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_nether",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_skeleton",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_end",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "dml-refabricated:data_model_ghost",
+            "tag": {}
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "51A4345B62855F6F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Data Models",
+    "description": [
+      "<h2>Craft a Data Model of choice.</h2>",
+      "<hr/>",
+      "<task task=\"4A4F270C7B4CB954\" quest=\"Any Data Model\"/>",
+      "<hr/>",
+      "Data Models are chips where you will store the information of mobs you learn.",
+      "<hr/>",
+      "<reward reward=\"51A4345B62855F6F\" quest=\"Any Data Model\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Craft a Data Model of choice."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -256,
+          -80
+        ]
+      }
+    }
+  }
+}

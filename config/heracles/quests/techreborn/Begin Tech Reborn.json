@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "tasks": {
+    "3AE8A565D3BDC2FA": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "546044F7F2A2862B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "techreborn:manual"
+      }
+    }
+  },
+  "display": {
+    "title": "Tech Reborn",
+    "description": [
+      "<h2>Tech Reborn is a tech mod including tools and machines to gather resources, process materials, and progress through the mod.</h2>",
+      "<hr/>",
+      "<task task=\"3AE8A565D3BDC2FA\" quest=\"Begin Tech Reborn\"/>",
+      "<hr/>",
+      "You start from burning coal for energy to reacting different fluids in fusion reactor for generating energy",
+      "> Yes it does give a refined iron",
+      "<hr/>",
+      "<reward reward=\"546044F7F2A2862B\" quest=\"Begin Tech Reborn\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:manual"
+    },
+    "subtitle": {
+      "text": "Tech Reborn is a tech mod including tools and machines to gather resources, process materials, and progress through the mod."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -640,
+          96
+        ]
+      }
+    }
+  }
+}

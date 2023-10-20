@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Blastproof Alloy Plate"
+  ],
+  "tasks": {
+    "459C20F94BC31393": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:implosion_compressor"
+    },
+    "36704F63596BB959": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "modern_industrialization:blastproof_casing"
+    },
+    "1D26B3532226028F": {
+      "type": "heracles:item",
+      "amount": 17,
+      "item": "modern_industrialization:solid_titanium_machine_casing"
+    }
+  },
+  "rewards": {
+    "7CE4055A59833461": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>Using Industrial TNT, the Implosion Compressor is able to compress dust and ingots of the most resistant materials.</h2>",
+      "<hr/>",
+      "<task task=\"459C20F94BC31393\" quest=\"MI Implosion Compressor\"/>",
+      "<task task=\"36704F63596BB959\" quest=\"MI Implosion Compressor\"/>",
+      "<task task=\"1D26B3532226028F\" quest=\"MI Implosion Compressor\"/>",
+      "<hr/>",
+      "This includes Tungsten, Blastproof Alloy, Beryllium - these materials are very important for nuclear fission - and Diamonds at last!",
+      "<br/>",
+      "Hopefully you have learned to check every REI recipe by now, so you should easily find that Blastproof Mixed Ingots and Tungsten Nuggets can be made with a Compressor... until you have your first Implosion Compressor of course!",
+      "<hr/>",
+      "<reward reward=\"7CE4055A59833461\" quest=\"MI Implosion Compressor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:implosion_compressor"
+    },
+    "subtitle": {
+      "text": "Using Industrial TNT, the Implosion Compressor is able to compress dust and ingots of the most resistant materials."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          688,
+          -32
+        ]
+      }
+    }
+  }
+}

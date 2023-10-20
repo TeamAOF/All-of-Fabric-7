@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Chocolatier"
+  ],
+  "tasks": {
+    "45FBB667A3A59DDA": {
+      "type": "heracles:item",
+      "item": "cacao:manual_food_grinder"
+    }
+  },
+  "rewards": {
+    "5C67CB1649452A41": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: cacao:manual_food_grinder",
+    "description": [
+      "<task task=\"45FBB667A3A59DDA\" quest=\"Manual Food Grinder\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C67CB1649452A41\" quest=\"Manual Food Grinder\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cacao:manual_food_grinder"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -224,
+          288
+        ]
+      }
+    }
+  }
+}

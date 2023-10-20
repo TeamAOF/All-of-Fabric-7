@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Advanced Upgrade"
+  ],
+  "tasks": {
+    "5625CE2C5AF1194F": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:turbo_upgrade"
+    },
+    "08B66500C8E9F4CE": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "rewards": {
+    "0469FE91B8600125": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "More upgrades!",
+    "description": [
+      "<task task=\"5625CE2C5AF1194F\" quest=\"MI Advanced Machine Hull and Turbo Upgrade\"/>",
+      "<task task=\"08B66500C8E9F4CE\" quest=\"MI Advanced Machine Hull and Turbo Upgrade\"/>",
+      "<hr/>",
+      "- Overclock Upgrades",
+      "<br/>",
+      "You know that regular electric machines have an overclock capped at 32 EU/t, and electric multiblocks have an overclock capped at 128 EU/t?",
+      "<br/>",
+      "Right-click the machine or multiblock with some upgrades in your hand to increase its maximum overclock! Check REI for the exact amounts.",
+      "<br/>",
+      "- Machine Hull Upgrades",
+      "<br/>",
+      "Yes you can! Right-click a machine with an Advanced Machine Hull to change it to MV tier: it will now accept MV cable connections only.",
+      "<br/>",
+      "Right-click with a crowbar to remove the upgrade.",
+      "<hr/>",
+      "<reward reward=\"0469FE91B8600125\" quest=\"MI Advanced Machine Hull and Turbo Upgrade\"/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          368,
+          -208
+        ]
+      }
+    }
+  }
+}

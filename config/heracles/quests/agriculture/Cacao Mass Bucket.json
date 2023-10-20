@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Cacao Filter Cloth"
+  ],
+  "tasks": {
+    "1A6FAEB9E7262A9D": {
+      "type": "heracles:item",
+      "item": "cacao:cacao_mass_bucket"
+    }
+  },
+  "rewards": {
+    "7AA0EF4A758AEB57": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: cacao:cacao_mass_bucket",
+    "description": [
+      "<task task=\"1A6FAEB9E7262A9D\" quest=\"Cacao Mass Bucket\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7AA0EF4A758AEB57\" quest=\"Cacao Mass Bucket\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cacao:cacao_mass_bucket"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -304,
+          240
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "0F865A489248D0D1": {
+      "type": "heracles:item",
+      "item": "mininggadgets:mininggadget_simple"
+    },
+    "4A5FC96FD3773312": {
+      "type": "heracles:item",
+      "item": "mininggadgets:modificationtable"
+    }
+  },
+  "rewards": {
+    "4FF01C71882A7494": {
+      "type": "heracles:item",
+      "item": {
+        "id": "mininggadgets:upgrade_efficiency_1"
+      }
+    }
+  },
+  "display": {
+    "title": "Mining Gadgets",
+    "description": [
+      "<h2>A quick change of pace in mining.</h2>",
+      "<hr/>",
+      "<task task=\"0F865A489248D0D1\" quest=\"Mining Gadgets\"/>",
+      "<task task=\"4A5FC96FD3773312\" quest=\"Mining Gadgets\"/>",
+      "<hr/>",
+      "&&nThis mod offers the following:",
+      "<br/>",
+      "&&6- &&bUpgrades",
+      "Using the &&bModification Table &&ryou're able to apply a wide variety of different ugprades like &&6Fortune&&r, &&6Silk Touch&&r, &&6Magnet&&r, &&6Radius&&r, &&6Range&&r.",
+      "<hr/>",
+      "<reward reward=\"4FF01C71882A7494\" quest=\"Mining Gadgets\"/>"
+    ],
+    "subtitle": {
+      "text": "A quick change of pace in mining."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  }
+}

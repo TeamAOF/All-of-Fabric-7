@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fluid Transport"
+  ],
+  "tasks": {
+    "735486F36BD795C3": {
+      "type": "heracles:item",
+      "item": "create:builders_tea"
+    }
+  },
+  "rewards": {
+    "0403C09973EF08E3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:builders_tea",
+    "description": [
+      "<h2>It's tea time</h2>",
+      "<hr/>",
+      "<task task=\"735486F36BD795C3\" quest=\"Builders Tea\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0403C09973EF08E3\" quest=\"Builders Tea\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:builders_tea"
+    },
+    "subtitle": {
+      "text": "It's tea time"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "0EBC1A262BACB90E": {
+      "type": "heracles:item",
+      "item": "botania:terra_pick",
+      "nbt": {
+        "mana": 9999
+      }
+    },
+    "1B21CF9911521FE4": {
+      "type": "heracles:item",
+      "item": "botania:terra_axe"
+    }
+  },
+  "rewards": {
+    "1F58E0896CECAB48": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§aTools of Terra",
+    "description": [
+      "<task task=\"0EBC1A262BACB90E\" quest=\"Terra Tools\"/>",
+      "<task task=\"1B21CF9911521FE4\" quest=\"Terra Tools\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1F58E0896CECAB48\" quest=\"Terra Tools\"/>"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          0,
+          -80
+        ]
+      }
+    }
+  }
+}

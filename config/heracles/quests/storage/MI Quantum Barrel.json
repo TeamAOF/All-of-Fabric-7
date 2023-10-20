@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Titanium Barrel"
+  ],
+  "tasks": {
+    "01BCEFA7EAD4F9DB": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_barrel"
+    }
+  },
+  "rewards": {
+    "6856885AE5974BD5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:quantum_barrel",
+    "description": [
+      "<task task=\"01BCEFA7EAD4F9DB\" quest=\"MI Quantum Barrel\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6856885AE5974BD5\" quest=\"MI Quantum Barrel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_barrel"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          368,
+          48
+        ]
+      }
+    }
+  }
+}

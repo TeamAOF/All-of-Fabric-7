@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Solar Gen MK1"
+  ],
+  "tasks": {
+    "69D934CCE991022B": {
+      "type": "heracles:item",
+      "item": "indrev:solar_generator_mk3"
+    }
+  },
+  "rewards": {
+    "14A566B17F4B8DE1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Solar Generator MK3",
+    "description": [
+      "<h2>Will generate energy as long as the sunlight can reach it.</h2>",
+      "<hr/>",
+      "<task task=\"69D934CCE991022B\" quest=\"IR Solar Gen MK3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"14A566B17F4B8DE1\" quest=\"IR Solar Gen MK3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:solar_generator_mk3"
+    },
+    "subtitle": {
+      "text": "Will generate energy as long as the sunlight can reach it."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -352,
+          0
+        ]
+      }
+    }
+  }
+}

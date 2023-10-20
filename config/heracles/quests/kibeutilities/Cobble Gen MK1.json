@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "1482B0FA2EB22760": {
+      "type": "heracles:item",
+      "item": "kibe:cobblestone_generator_mk1"
+    }
+  },
+  "rewards": {
+    "40558B9BF8959136": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:cobblestone_generator_mk1",
+    "description": [
+      "<task task=\"1482B0FA2EB22760\" quest=\"Cobble Gen MK1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"40558B9BF8959136\" quest=\"Cobble Gen MK1\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:cobblestone_generator_mk1"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -64,
+          -32
+        ]
+      }
+    }
+  }
+}

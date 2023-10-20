@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Electronic Circuit"
+  ],
+  "tasks": {
+    "0F913A6A8D0D4AEA": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_circuit"
+    }
+  },
+  "rewards": {
+    "1EC549D37FBC4764": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:advanced_circuit",
+    "description": [
+      "<h2>Used in crafting the advanced machines, tools, and their component parts.</h2>",
+      "<hr/>",
+      "<task task=\"0F913A6A8D0D4AEA\" quest=\"TR Advanced Circuit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1EC549D37FBC4764\" quest=\"TR Advanced Circuit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_circuit"
+    },
+    "subtitle": {
+      "text": "Used in crafting the advanced machines, tools, and their component parts."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          96
+        ]
+      }
+    }
+  }
+}

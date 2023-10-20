@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "77961F4E08250EF7": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "ad_astra:cryo_fuel_bucket"
+    }
+  },
+  "rewards": {
+    "2E70087ECC461D73": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/epic",
+          "Name": "Ad Astra! Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Cryo Fuel",
+    "description": [
+      "<h2>Freezing Good Fuel</h2>",
+      "<hr/>",
+      "<task task=\"77961F4E08250EF7\" quest=\"Cryo-Fuel\"/>",
+      "<hr/>",
+      "Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice.",
+      "<br/>",
+      "While normal rocket fuel requires 3 buckets in order to successfully make it to your destination, you only need a 1 bucket of cryo fuel to make a successful space flight. Make sure you take 2, one for the trip and one for the way back!",
+      "<hr/>",
+      "<reward reward=\"2E70087ECC461D73\" quest=\"Cryo-Fuel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:cryo_fuel_bucket"
+    },
+    "subtitle": {
+      "text": "Freezing Good Fuel"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    }
+  }
+}

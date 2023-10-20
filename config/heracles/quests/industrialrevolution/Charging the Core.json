@@ -1,0 +1,76 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Modular Workbench MK4"
+  ],
+  "tasks": {
+    "14DD0067D573465C": {
+      "type": "heracles:item",
+      "item": "indrev:laser_emitter_mk4"
+    },
+    "4496671EA77E9495": {
+      "type": "heracles:item",
+      "item": "indrev:capsule"
+    },
+    "70BE041B9B65C2DF": {
+      "type": "heracles:item",
+      "item": "indrev:modular_core"
+    }
+  },
+  "rewards": {
+    "789B8EBA44137D09": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Charging the Core of Modularity",
+    "description": [
+      "<h2>The base for every modular tool.</h2>",
+      "<hr/>",
+      "<task task=\"14DD0067D573465C\" quest=\"Charging the Core\"/>",
+      "<task task=\"4496671EA77E9495\" quest=\"Charging the Core\"/>",
+      "<task task=\"70BE041B9B65C2DF\" quest=\"Charging the Core\"/>",
+      "<hr/>",
+      "To activate it, you'll need at least one Laser, one Capsule and a lot of stored energy (100M).",
+      "<br/>",
+      "The Capsule will hold your Core of Modularity during the process of activation.",
+      "<br/>",
+      "It will emit a redstone signal when it's finished.",
+      "<br/>",
+      "Laser Emitters should be placed facing the capsule with AN EXACT 3 BLOCKS DISTANCE. They store up to 2,5M LF and require a redstone signal to be toggled on.",
+      "<br/>",
+      "This process takes time but it goes faster for each laser emitter active.",
+      "<br/>",
+      "You must pay attention to these details to avoid problems:",
+      "<br/>",
+      "- Pointing the laser emitter to something other than the capsule or and empty capsule will result in explosion.",
+      "<br/>",
+      "- If the laser emitters run out of power during the process, all progress will be lost.",
+      "<br/>",
+      "- Make sure to turn off your laser emitters before retrieving the activated core.",
+      "<hr/>",
+      "<reward reward=\"789B8EBA44137D09\" quest=\"Charging the Core\"/>"
+    ],
+    "subtitle": {
+      "text": "The base for every modular tool."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    }
+  }
+}

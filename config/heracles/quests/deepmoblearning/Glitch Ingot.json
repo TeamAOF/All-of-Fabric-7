@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Trial Keystone"
+  ],
+  "tasks": {
+    "763F3B0C76A6CB16": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_ingot"
+    }
+  },
+  "rewards": {
+    "02388A14D1691B7B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:glitch_ingot",
+    "description": [
+      "<h2>Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot.</h2>",
+      "<hr/>",
+      "<task task=\"763F3B0C76A6CB16\" quest=\"Glitch Ingot\"/>",
+      "<hr/>",
+      "As I said before, you will be facing the System Glitch at your fight, but it is not alone!",
+      "<br/>",
+      "<br/>",
+      "Higher tiers will have bigger waves, and they will be called faster. So, pay attention to it.",
+      "<br/>",
+      "Sometimes the waves will be enemies even harder than the System Glitch itself.",
+      "<br/>",
+      "Those ingots alone are completely useless. But maybe if you combine with a piece of netherite armor you will get something useful. Try doing it in the Smithing Table.",
+      "<hr/>",
+      "<reward reward=\"02388A14D1691B7B\" quest=\"Glitch Ingot\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_ingot"
+    },
+    "subtitle": {
+      "text": "Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -64,
+          -80
+        ]
+      }
+    }
+  }
+}

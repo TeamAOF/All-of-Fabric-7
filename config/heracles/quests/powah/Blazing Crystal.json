@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Any Energizing Rod"
+  ],
+  "tasks": {
+    "5907F70C58C684D5": {
+      "type": "heracles:item",
+      "item": "powah:crystal_blazing"
+    }
+  },
+  "rewards": {
+    "2160D5AD476713DB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: powah:crystal_blazing",
+    "description": [
+      "<h2>Sizzle pop</h2>",
+      "<hr/>",
+      "<task task=\"5907F70C58C684D5\" quest=\"Blazing Crystal\"/>",
+      "<hr/>",
+      "Blazing crystals are made from a material you would never suspect: Blaze powder. Its used as the material for the blazing tier of machines",
+      "<hr/>",
+      "<reward reward=\"2160D5AD476713DB\" quest=\"Blazing Crystal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:crystal_blazing"
+    },
+    "subtitle": {
+      "text": "Sizzle pop"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -176,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "6DACDA252E01FFFE": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "piercingpaxels:wooden_paxel"
+          },
+          {
+            "Count": 1,
+            "id": "piercingpaxels:stone_paxel"
+          },
+          {
+            "Count": 1,
+            "id": "piercingpaxels:gold_paxel"
+          },
+          {
+            "Count": 1,
+            "id": "piercingpaxels:iron_paxel"
+          },
+          {
+            "Count": 1,
+            "id": "piercingpaxels:diamond_paxel"
+          },
+          {
+            "Count": 1,
+            "id": "piercingpaxels:netherite_paxel"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "176E6C862D9E4379": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Paxels",
+    "description": [
+      "<h2>All in One!</h2>",
+      "<hr/>",
+      "<task task=\"6DACDA252E01FFFE\" quest=\"Paxels\"/>",
+      "<hr/>",
+      "These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits.",
+      "<br/>",
+      "They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments.",
+      "<hr/>",
+      "<reward reward=\"176E6C862D9E4379\" quest=\"Paxels\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "All in One!"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    }
+  }
+}

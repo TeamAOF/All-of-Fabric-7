@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Titanium Ingot"
+  ],
+  "tasks": {
+    "6448D47D73DD3726": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_drill"
+    }
+  },
+  "rewards": {
+    "586C185E7626220E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:titanium_drill",
+    "description": [
+      "<h2>Used in the quarry. Check REI for outputs.</h2>",
+      "<hr/>",
+      "<task task=\"6448D47D73DD3726\" quest=\"MI Titanium Drill\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"586C185E7626220E\" quest=\"MI Titanium Drill\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_drill"
+    },
+    "subtitle": {
+      "text": "Used in the quarry. Check REI for outputs."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          624,
+          0
+        ]
+      }
+    }
+  }
+}

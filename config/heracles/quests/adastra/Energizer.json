@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "61DAE68312869B3F": {
+      "type": "heracles:item",
+      "item": "ad_astra:energizer"
+    }
+  },
+  "rewards": {
+    "0BF2CD27A0F486BA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/epic",
+          "Name": "Ad Astra! Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ad_astra:energizer",
+    "description": [
+      "<h2>Electrifying Elements</h2>",
+      "<hr/>",
+      "<task task=\"61DAE68312869B3F\" quest=\"Energizer\"/>",
+      "<hr/>",
+      "This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages.",
+      "<br/>",
+      "Right clicking with an item that stores energy places the item onto the Energizer to charge it.",
+      "<hr/>",
+      "<reward reward=\"0BF2CD27A0F486BA\" quest=\"Energizer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:energizer"
+    },
+    "subtitle": {
+      "text": "Electrifying Elements"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          240,
+          48
+        ]
+      }
+    }
+  }
+}

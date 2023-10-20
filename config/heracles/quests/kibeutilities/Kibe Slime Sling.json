@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Handy Dandy Utilities"
+  ],
+  "tasks": {
+    "50862BAF848E8B2B": {
+      "type": "heracles:item",
+      "item": "kibe:slime_sling"
+    }
+  },
+  "rewards": {
+    "303FED1AD57E48DB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:slime_sling",
+    "description": [
+      "<h2>Usable item that throws the player in the sky when charged while aiming at a block.</h2>",
+      "<hr/>",
+      "<task task=\"50862BAF848E8B2B\" quest=\"Kibe Slime Sling\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"303FED1AD57E48DB\" quest=\"Kibe Slime Sling\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:slime_sling"
+    },
+    "subtitle": {
+      "text": "Usable item that throws the player in the sky when charged while aiming at a block."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          272,
+          -160
+        ]
+      }
+    }
+  }
+}

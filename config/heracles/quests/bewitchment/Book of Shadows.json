@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "tasks": {
+    "30B4F2FED61C13F4": {
+      "type": "heracles:item",
+      "item": "bewitchment:book_of_shadows"
+    }
+  },
+  "rewards": {
+    "148678122C840FA1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:book_of_shadows",
+    "description": [
+      "<h2>An introduction to the world of witchcraft.</h2>",
+      "<hr/>",
+      "<task task=\"30B4F2FED61C13F4\" quest=\"Book of Shadows\"/>",
+      "<hr/>",
+      "Bewitchment offers pacts with powerful demons, the ability to become a vampire or werewolf, brew powerful potions, cast rituals, curse your enemies (or friends), and so much more.",
+      "<br/>",
+      "To get started, craft the Book of Shadows with a Book and a Mandrake Root, the seeds of which are dropped from grass.",
+      "<br/>",
+      "Feel lost? Check the book!",
+      "<hr/>",
+      "<reward reward=\"148678122C840FA1\" quest=\"Book of Shadows\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:book_of_shadows"
+    },
+    "subtitle": {
+      "text": "An introduction to the world of witchcraft."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          176,
+          64
+        ]
+      }
+    }
+  }
+}

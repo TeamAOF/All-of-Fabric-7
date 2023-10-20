@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Shaft"
+  ],
+  "tasks": {
+    "0F0AB8625378E24A": {
+      "type": "heracles:item",
+      "item": "create:gantry_carriage"
+    },
+    "6C7180AB943EC4BF": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:gantry_shaft"
+    }
+  },
+  "rewards": {
+    "065A398D3A8D98B2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<task task=\"0F0AB8625378E24A\" quest=\"Gantry\"/>",
+      "<task task=\"6C7180AB943EC4BF\" quest=\"Gantry\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"065A398D3A8D98B2\" quest=\"Gantry\"/>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          -112
+        ]
+      }
+    }
+  }
+}

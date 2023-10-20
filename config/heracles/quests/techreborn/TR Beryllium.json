@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Industrial Electrolyzer"
+  ],
+  "tasks": {
+    "3E0EE8BCEA3480F3": {
+      "type": "heracles:item",
+      "item": "techreborn:cell",
+      "nbt": {
+        "fluid": "techreborn:beryllium"
+      }
+    }
+  },
+  "rewards": {
+    "0965D2B85324DA75": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:cell",
+    "description": [
+      "<task task=\"3E0EE8BCEA3480F3\" quest=\"TR Beryllium\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0965D2B85324DA75\" quest=\"TR Beryllium\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:cell"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          192,
+          192
+        ]
+      }
+    }
+  }
+}

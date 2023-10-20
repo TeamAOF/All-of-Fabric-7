@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Delight Chicken Soup",
+    "Farmers Delight Noodle Soup",
+    "Farmers Delight Baked Cod Stew",
+    "Farmers Delight Fish Stew",
+    "Farmers Delight Beef Stew",
+    "Farmers Delight Vegetable Soup",
+    "Farmers Delight Pumpkin Soup"
+  ],
+  "tasks": {
+    "447C4FDE941FC01C": {
+      "title": "Soups",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "13011E945B7CC86D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Soups",
+    "description": [
+      "<h2>Good for when it's cold.. or anytime.</h2>",
+      "<hr/>",
+      "<task task=\"447C4FDE941FC01C\" quest=\"Soups\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"13011E945B7CC86D\" quest=\"Soups\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Good for when it's cold.. or anytime."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          288,
+          336
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "4877A20E85423EB9": {
+      "title": "Strawberry Cream Chocolates",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:strawberry_cream_dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:strawberry_cream_milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:strawberry_cream_white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "3BCA4387814BA155": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Strawberry Cream Chocolates",
+    "description": [
+      "<task task=\"4877A20E85423EB9\" quest=\"Strawberry Cream Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3BCA4387814BA155\" quest=\"Strawberry Cream Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -320,
+          288
+        ]
+      }
+    }
+  }
+}

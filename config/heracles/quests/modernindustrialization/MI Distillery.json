@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Oil Drilling Rig"
+  ],
+  "tasks": {
+    "25449DE629548BDF": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillery"
+    }
+  },
+  "rewards": {
+    "21FEB18A28B279DF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:distillery",
+    "description": [
+      "<h2>Will turn various fluids into their lighter parts.</h2>",
+      "<hr/>",
+      "<task task=\"25449DE629548BDF\" quest=\"MI Distillery\"/>",
+      "<hr/>",
+      "This will be very useful for Oil Processing.",
+      "<hr/>",
+      "<reward reward=\"21FEB18A28B279DF\" quest=\"MI Distillery\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillery"
+    },
+    "subtitle": {
+      "text": "Will turn various fluids into their lighter parts."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          304,
+          -128
+        ]
+      }
+    }
+  }
+}

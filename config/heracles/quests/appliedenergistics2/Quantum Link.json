@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Quantum Entangled Singularity"
+  ],
+  "tasks": {
+    "0DAFE1BDC893DE5F": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_link"
+    }
+  },
+  "rewards": {
+    "0C4F350123A5E240": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:quantum_link",
+    "description": [
+      "<h2>One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge.</h2>",
+      "<hr/>",
+      "<task task=\"0DAFE1BDC893DE5F\" quest=\"Quantum Link\"/>",
+      "<hr/>",
+      "This block doesn't connect to any cables and only registers as part of the network with the full bridge is made.",
+      "<br/>",
+      "This blocks inventory can only hold a single Quantum Entangled Singularity and is automation accessible.",
+      "<hr/>",
+      "<reward reward=\"0C4F350123A5E240\" quest=\"Quantum Link\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_link"
+    },
+    "subtitle": {
+      "text": "One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -240,
+          0
+        ]
+      }
+    }
+  }
+}

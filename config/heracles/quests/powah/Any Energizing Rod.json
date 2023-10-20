@@ -1,0 +1,90 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Capacitors"
+  ],
+  "tasks": {
+    "3A877A84B52510B5": {
+      "type": "heracles:item",
+      "item": "powah:energizing_orb"
+    },
+    "07D998F67B8E9745": {
+      "title": "Energizing Rod",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energizing_rod_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "189E7C1448EBEB75": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Energizing",
+    "description": [
+      "<h2>Light 'em up boys</h2>",
+      "<hr/>",
+      "<task task=\"3A877A84B52510B5\" quest=\"Any Energizing Rod\"/>",
+      "<task task=\"07D998F67B8E9745\" quest=\"Any Energizing Rod\"/>",
+      "<hr/>",
+      "The energizer is used to infuse 1 or more items with energy to create a new item",
+      "<br/>",
+      "Multiple infusers allow you to infuse the item(s) with energy faster and therefore craft faster, very useful when making items that require a large amount of infused energy",
+      "<hr/>",
+      "<reward reward=\"189E7C1448EBEB75\" quest=\"Any Energizing Rod\"/>"
+    ],
+    "subtitle": {
+      "text": "Light 'em up boys"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -240,
+          0
+        ]
+      }
+    }
+  }
+}

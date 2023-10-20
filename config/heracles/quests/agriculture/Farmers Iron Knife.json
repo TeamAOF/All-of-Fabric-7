@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Flint Knife"
+  ],
+  "tasks": {
+    "2555B919EFB696A0": {
+      "type": "heracles:item",
+      "item": "farmersdelight:iron_knife"
+    }
+  },
+  "rewards": {
+    "3EBA9D91E7016944": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:iron_knife",
+    "description": [
+      "<task task=\"2555B919EFB696A0\" quest=\"Farmers Iron Knife\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3EBA9D91E7016944\" quest=\"Farmers Iron Knife\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:iron_knife"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -256,
+          544
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Calorite",
+    "Jet Suit"
+  ],
+  "tasks": {
+    "32A03D8D447B4DE3": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_4_rocket"
+    }
+  },
+  "rewards": {
+    "4E618268B0A93696": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/legendary",
+          "Name": "Ad Astra! Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "To ... Beyond?",
+    "description": [
+      "<h2>Beyond the Milky Way</h2>",
+      "<hr/>",
+      "<task task=\"32A03D8D447B4DE3\" quest=\"Tier 4 Rocket\"/>",
+      "<hr/>",
+      "The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio",
+      "<hr/>",
+      "<reward reward=\"4E618268B0A93696\" quest=\"Tier 4 Rocket\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_4_rocket"
+    },
+    "subtitle": {
+      "text": "Beyond the Milky Way"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          384,
+          0
+        ]
+      }
+    }
+  }
+}

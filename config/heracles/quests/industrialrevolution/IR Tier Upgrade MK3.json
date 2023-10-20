@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Circuit MK3"
+  ],
+  "tasks": {
+    "67E4C8E1A578868E": {
+      "type": "heracles:item",
+      "item": "indrev:tier_upgrade_mk3"
+    }
+  },
+  "rewards": {
+    "3272E3642C6BAEB3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:tier_upgrade_mk3",
+    "description": [
+      "<h2>Upgrades MK2 machines to MK3.</h2>",
+      "<hr/>",
+      "<task task=\"67E4C8E1A578868E\" quest=\"IR Tier Upgrade MK3\"/>",
+      "<hr/>",
+      "These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it.",
+      "<hr/>",
+      "<reward reward=\"3272E3642C6BAEB3\" quest=\"IR Tier Upgrade MK3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:tier_upgrade_mk3"
+    },
+    "subtitle": {
+      "text": "Upgrades MK2 machines to MK3."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -32,
+          -192
+        ]
+      }
+    }
+  }
+}

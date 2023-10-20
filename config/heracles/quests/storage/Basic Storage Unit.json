@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Crude Storage Unit"
+  ],
+  "tasks": {
+    "332A6C8DE153FB8A": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_storage_unit"
+    }
+  },
+  "rewards": {
+    "700802785069C43C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:basic_storage_unit",
+    "description": [
+      "<task task=\"332A6C8DE153FB8A\" quest=\"Basic Storage Unit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"700802785069C43C\" quest=\"Basic Storage Unit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_storage_unit"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          256,
+          -80
+        ]
+      }
+    }
+  }
+}

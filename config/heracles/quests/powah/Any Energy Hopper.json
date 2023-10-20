@@ -1,0 +1,87 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Item Charging"
+  ],
+  "tasks": {
+    "3ACC4487665F8FCC": {
+      "title": "Energy Hopper",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_hopper_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "576EF2E667A51455": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Energy Hopper",
+    "description": [
+      "<h2>Sidecar Energy</h2>",
+      "<hr/>",
+      "<task task=\"3ACC4487665F8FCC\" quest=\"Any Energy Hopper\"/>",
+      "<hr/>",
+      "This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper",
+      "<hr/>",
+      "<reward reward=\"576EF2E667A51455\" quest=\"Any Energy Hopper\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Sidecar Energy"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -64,
+          -112
+        ]
+      }
+    }
+  }
+}

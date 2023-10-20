@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "tasks": {
+    "3A9ABB487CD82821": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:dragon_head"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:ender_dragon"
+      }
+    }
+  },
+  "rewards": {
+    "431C0986E611D988": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ender_dragon"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§3Are you worthy?",
+    "description": [
+      "<h2>Kill the Ender Dragon to unlock challenges.</h2>",
+      "<hr/>",
+      "<task task=\"3A9ABB487CD82821\" quest=\"Are you worthy\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"431C0986E611D988\" quest=\"Are you worthy\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_head"
+    },
+    "subtitle": {
+      "text": "Kill the Ender Dragon to unlock challenges."
+    },
+    "groups": {
+      "Challenges": {
+        "position": [
+          40,
+          320
+        ]
+      }
+    }
+  }
+}

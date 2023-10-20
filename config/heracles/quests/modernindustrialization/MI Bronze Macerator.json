@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Ingot"
+  ],
+  "tasks": {
+    "7799145BACA36D6A": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_macerator"
+    }
+  },
+  "rewards": {
+    "552FF114A2E605FB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:bronze_macerator",
+    "description": [
+      "<h2>Ore hemiquadrupling for the win!</h2>",
+      "<hr/>",
+      "<task task=\"7799145BACA36D6A\" quest=\"MI Bronze Macerator\"/>",
+      "<hr/>",
+      "The Macerator will turn 3 crushed dusts/raw ores into 4.5 dusts.",
+      "Make sure to not grind your precious gem ores",
+      "<br/>",
+      "It can also recycle all kinds of materials by turning them into dust.",
+      "<hr/>",
+      "<reward reward=\"552FF114A2E605FB\" quest=\"MI Bronze Macerator\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_macerator"
+    },
+    "subtitle": {
+      "text": "Ore hemiquadrupling for the win!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -304,
+          48
+        ]
+      }
+    }
+  }
+}

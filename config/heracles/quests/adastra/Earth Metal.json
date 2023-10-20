@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Astrodux"
+  ],
+  "tasks": {
+    "2CF8CFD14DD624D0": {
+      "type": "heracles:item",
+      "amount": 20,
+      "item": "modern_industrialization:steel_ingot"
+    }
+  },
+  "rewards": {
+    "68AC4A8CFA4392A5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/common",
+          "Name": "Ad Astra! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§8Earth Metal",
+    "description": [
+      "<h2>Yes, more steel</h2>",
+      "<hr/>",
+      "<task task=\"2CF8CFD14DD624D0\" quest=\"Earth Metal\"/>",
+      "<hr/>",
+      "Steel is the basis of your pre intragalactic technology. With it, you can make all of the equipment and rockets required to go to space.",
+      "<hr/>",
+      "<reward reward=\"68AC4A8CFA4392A5\" quest=\"Earth Metal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_ingot"
+    },
+    "subtitle": {
+      "text": "Yes, more steel"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -112,
+          0
+        ]
+      }
+    }
+  }
+}

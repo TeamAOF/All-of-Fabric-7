@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Deep Learner"
+  ],
+  "tasks": {
+    "1712246FD3D1B782": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:trial_key"
+    }
+  },
+  "rewards": {
+    "68922F15BA7974D2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:trial_key",
+    "description": [
+      "<h2>Challenge to a fight!</h2>",
+      "<hr/>",
+      "<task task=\"1712246FD3D1B782\" quest=\"Trial Key\"/>",
+      "<hr/>",
+      "Trial Keys are what you will be using to getting the attention of the System Glitch and challenging it to a fight.",
+      "<br/>",
+      "Now that you have a Trial Key, you should bound it to the category and tier you want to fight.",
+      "<br/>",
+      "Just put an unbound Trial Key in the crafting table next to a Data Model.",
+      "<br/>",
+      "All the data inside your Trial Model will be transferred to the Trial Key, and the Data Model well be gone.",
+      "<br/>",
+      "Pay attention to the tier and category of the Data Model you bind to the Key. Certain categories are harder than others, and high tiered trials can be very difficult.",
+      "<br/>",
+      "You may have noticed that your Trial Key also has a \"Affixes\" list. Those are special effects that can occur during the trial. Some of them may help you, some of them not.",
+      "<hr/>",
+      "<reward reward=\"68922F15BA7974D2\" quest=\"Trial Key\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:trial_key"
+    },
+    "subtitle": {
+      "text": "Challenge to a fight!"
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -160,
+          -80
+        ]
+      }
+    }
+  }
+}

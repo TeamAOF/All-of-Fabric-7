@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "tasks": {
+    "093B8ECB1B60CFD3": {
+      "title": "Machines to automate",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Machines to automate",
+    "description": [
+      "<h2>Use these various machines to do all kinds of things.</h2>",
+      "<hr/>",
+      "<task task=\"093B8ECB1B60CFD3\" quest=\"Kibe Big Torch\"/>",
+      "<hr/>",
+      "TIP: They are activated by redstone."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Use these various machines to do all kinds of things."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -16,
+          -160
+        ]
+      }
+    }
+  }
+}",
+      "<task task=\"679DE0A266DE5437\" quest=\"Kibe Big Torch\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"07B4594626EC18D8\" quest=\"Kibe Big Torch\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:big_torch"
+    },
+    "subtitle": {
+      "text": "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          272,
+          -208
+        ]
+      }
+    }
+  }
+}

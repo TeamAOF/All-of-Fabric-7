@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "77F4F6BBF4F8AF10": {
+      "title": "Tech Reborn",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tech Reborn",
+    "description": [
+      "<task task=\"77F4F6BBF4F8AF10\" quest=\"Tech Reborn Storage\"/>",
+      "<hr/>",
+      "Storage units are single item, mass storage devices with an inventory count on the face.",
+      "<br/>",
+      "Tank units store liquids.. that's about it.",
+      "<br/>",
+      "Battery Box, MFE, MFSU and Interdimensional SU are energy storage devices.",
+      "You can view their inventory and use the slot they have to charge devices."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          288,
+          -160
+        ]
+      }
+    }
+  }
+}

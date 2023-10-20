@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "DML Machine Casing"
+  ],
+  "tasks": {
+    "79866817A5588058": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:simulation_chamber"
+    }
+  },
+  "rewards": {
+    "2604E932DD35A4D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:simulation_chamber",
+    "description": [
+      "<h2>Now that you have some Data Models that are leveled up to at least Basic tier, we can move on to the good stuff.</h2>",
+      "<hr/>",
+      "<task task=\"79866817A5588058\" quest=\"Simulation Chamber\"/>",
+      "<hr/>",
+      "Provide the Simulation Chamber with energy and place some Polymer Clay in the top right slot that has an E in it.",
+      "<br/>",
+      "Now, you will have to put one of your Data Models into the Simulation Machine.",
+      "<br/>",
+      "Shift left click on a Data Model in your inventory to move it into the Simulation Chamber.",
+      "<br/>",
+      "Once the Simulation Chamber has a Data Model that is a minimum of Basic Tier, some polymer clay, and some energy, it will start running simulations.",
+      "<br/>",
+      "There are 4 types of ordinary matter: Overworldian Matter, Hellish Matter, Extraterrestrial Matter, and Twilight Matter.",
+      "<br/>",
+      "The matter that is produced by a simulation depends on the dimension from which the mob in the Data Model originates.",
+      "<br/>",
+      "For example, an Enderman Data Model produces Extraterrestrial Matter. Holding shift while hovering your mouse over a Data Model will tell you what kind of Data Model it is.",
+      "<hr/>",
+      "<reward reward=\"2604E932DD35A4D8\" quest=\"Simulation Chamber\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:simulation_chamber"
+    },
+    "subtitle": {
+      "text": "Now that you have some Data Models that are leveled up to at least Basic tier, we can move on to the good stuff."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -320,
+          16
+        ]
+      }
+    }
+  }
+}

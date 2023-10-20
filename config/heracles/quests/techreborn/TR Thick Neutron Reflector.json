@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Neutron Reflector",
+    "TR Beryllium"
+  ],
+  "tasks": {
+    "14540EDF2DE44CB4": {
+      "type": "heracles:item",
+      "item": "techreborn:thick_neutron_reflector"
+    }
+  },
+  "rewards": {
+    "6FEF0B0465AEE3CD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:thick_neutron_reflector",
+    "description": [
+      "<task task=\"14540EDF2DE44CB4\" quest=\"TR Thick Neutron Reflector\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6FEF0B0465AEE3CD\" quest=\"TR Thick Neutron Reflector\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:thick_neutron_reflector"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          192,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "79C7AC3F6ABEE10E": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_sensor"
+    }
+  },
+  "rewards": {
+    "0C75732A3206C570": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/epic",
+          "Name": "Ad Astra! Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ad_astra:oxygen_sensor",
+    "description": [
+      "<h2>Guess we'll never find the hydrogen</h2>",
+      "<hr/>",
+      "<task task=\"79C7AC3F6ABEE10E\" quest=\"Oxygen Sensor\"/>",
+      "<hr/>",
+      "A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working.",
+      "<hr/>",
+      "<reward reward=\"0C75732A3206C570\" quest=\"Oxygen Sensor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_sensor"
+    },
+    "subtitle": {
+      "text": "Guess we'll never find the hydrogen"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          208,
+          -32
+        ]
+      }
+    }
+  }
+}
