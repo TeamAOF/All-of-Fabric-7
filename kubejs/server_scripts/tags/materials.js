@@ -89,11 +89,69 @@ ServerEvents.tags('item', event => {
     event.add("c:plates", "modern_industrialization:gold_plate")
     event.add("c:plates", "modern_industrialization:copper_plate")
 
+
+    // Gems
+    event.add("c:rubies", "mythicupgrades:ruby")
+    event.add("c:rubies", "jewelry:ruby")
+    event.add("c:ruby_ores", "mythicupgrades:ruby_ore")
+
+    event.add("c:sapphires", "mythicupgrades:sapphire")
+    event.add("c:sapphires", "jewelry:sapphire")
+    event.add("c:sapphire_ores", "mythicupgrades:sapphire_ore")
+
+    event.add("c:topaz", "mythicupgrades:topaz")
+    event.add("c:topaz", "jewelry:topaz")
+
+    event.add("c:jade", "mythicupgrades:jade")
+    event.add("c:jade", "jewelry:jade")
+
     // Netherrack
     event.add("c:netherrack_dusts", "create:cinder_flour")
 
     // fix copper block dupe
     event.remove("c:copper_blocks", "minecraft:cut_copper")
+
+});
+
+ServerEvents.tags('block', event => {
+
+    // Geode Plus / AE2
+    const geodeplus_ae2 = [
+        "budding_nether_gold_nugget",
+        "budding_basalt_gold_nugget",
+        "budding_blackstone_gold_nugget",
+        "budding_lapis",
+        "budding_redstone",
+        "budding_emerald",
+        "budding_diamond",
+        "budding_deepslate_lapis",
+        "budding_deepslate_redstone",
+        "budding_deepslate_emerald",
+        "budding_deepslate_diamond",
+        "budding_sculk_lapis",
+        "budding_sculk_redstone",
+        "budding_sculk_emerald",
+        "budding_sculk_diamond",
+        "budding_nether_quartz",
+        "budding_basalt_quartz",
+        "budding_blackstone_quartz",
+        "budding_basalt_glowstone",
+        "budding_nether_glowstone",
+        "budding_basalt_glowstone",
+        "budding_blackstone_glowstone",
+        "budding_wrappist",
+        "budding_echo",
+        "budding_nether_ancient_debris",
+        "budding_basalt_ancient_debris",
+        "budding_blackstone_ancient_debris",
+        "budding_prismarine",
+        "budding_celestite",
+        "budding_pink_topaz"
+    ];
+
+    geodeplus_ae2.forEach((item) => {
+        event.add("ae2:growth_acceleratable", "geode_plus:" + item)
+    });
 
 
 });
