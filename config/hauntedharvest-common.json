@@ -1,0 +1,41 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "pumpkin_carving": {
+    "custom_carvings": true,
+    "pumpkin_carve_mode": "BOTH",
+    "jack_o_lantern_carve_mode": "NONE"
+  },
+  "halloween_season": {
+    "start_month": 10,
+    "start_day": 20,
+    "end_month": 11,
+    "end_day": 10
+  },
+  "mob_pumpkins_season": {
+    "wear_chance": 0.25,
+    "start_month": 10,
+    "start_day": 30,
+    "end_month": 10,
+    "end_day": 31
+  },
+  "trick_or_treating_time": {
+    "start_time": 12000,
+    "end_time": 0
+  },
+  "season_mod_compat": {
+    "enabled": false
+  },
+  "general": {
+    "creative_tab": false,
+    "custom_configured_screen": true
+  },
+  "features": {
+    "corn": true,
+    "grim_apple": true,
+    "paper_bag": true,
+    "popcorn": true,
+    "carved_pumpkin": true,
+    "splattered_egg": true,
+    "candy_corn": true
+  }
+}

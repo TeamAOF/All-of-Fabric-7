@@ -44,17 +44,6 @@
         "value": 2048
       }
     },
-    "dml-refabricated:zombie_friendly": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 16
-      }
-    },
     "obscure_api:dodge": {
       "enabled": false,
       "min": {
@@ -66,15 +55,15 @@
         "value": 100
       }
     },
-    "obscure_api:resilience": {
+    "spell_power:critical_chance": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
         "default": 100,
         "value": 100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "dml-refabricated:auto_extinguish": {
@@ -110,17 +99,6 @@
         "value": 512
       }
     },
-    "dml-refabricated:fly": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 16
-      }
-    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -132,17 +110,6 @@
         "value": 1024
       }
     },
-    "dml-refabricated:jump_boost": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 16
-      }
-    },
     "dml-refabricated:soul_vision": {
       "enabled": false,
       "min": {
@@ -152,17 +119,6 @@
       "max": {
         "default": 16,
         "value": 16
-      }
-    },
-    "tiered:generic.range_attack_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
       }
     },
     "creeperoverhaul:reach_distance": {
@@ -198,6 +154,17 @@
         "value": 16
       }
     },
+    "zenith_attributes:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "porting_lib:entity_gravity": {
       "enabled": false,
       "min": {
@@ -209,26 +176,26 @@
         "value": 8
       }
     },
-    "dml-refabricated:fire_immunity": {
+    "additionalentityattributes:magic_protection": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 16,
-        "value": 16
+        "default": 1024,
+        "value": 1024
       }
     },
-    "diet:natural_regeneration": {
+    "spell_power:critical_damage": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": 100,
+        "value": 100
       },
       "max": {
-        "default": 2,
-        "value": 2
+        "default": 1000,
+        "value": 1000
       }
     },
     "dml-refabricated:fall_immunity": {
@@ -242,26 +209,37 @@
         "value": 16
       }
     },
-    "obscure_api:healing_power": {
+    "additionalentityattributes:bonus_loot_count_rolls": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 100,
-        "value": 100
+        "default": 128,
+        "value": 128
       }
     },
-    "stepheightentityattribute:stepheight": {
+    "additionalentityattributes:lung_capacity": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": -40000,
+        "value": -40000
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 40000,
+        "value": 40000
+      }
+    },
+    "spell_power:frost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "dml-refabricated:depth_strider": {
@@ -297,15 +275,15 @@
         "value": 1
       }
     },
-    "minecraft:generic.attack_knockback": {
-      "enabled": true,
+    "zenith_attributes:dodge_chance": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 5,
-        "value": 1000000
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.armor_toughness": {
@@ -316,6 +294,468 @@
       },
       "max": {
         "default": 20,
+        "value": 1000000
+      }
+    },
+    "additionalentityattributes:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additionalentityattributes:water_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "zenith_attributes:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "dml-refabricated:endermen_proof_vision": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "zenith_attributes:overheal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "projectile_damage:generic": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "zenith_attributes:current_hp_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "zenith_attributes:draw_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 4,
+        "value": 4
+      }
+    },
+    "minecraft:generic.attack_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "tiered:generic.durable": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "spell_power:fire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "spell_power:haste": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "dml-refabricated:skeleton_friendly": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "additionalentityattributes:critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "minecraft:generic.flying_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "zenith_attributes:ghost_health": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "zenith_attributes:prot_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "zenith_attributes:prot_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 34,
+        "value": 34
+      }
+    },
+    "obscure_api:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "minecraft:generic.max_health": {
+      "enabled": true,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1000000
+      }
+    },
+    "dml-refabricated:rot_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "zenith_attributes:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "minecraft:horse.jump_strength": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "minecraft:generic.knockback_resistance": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "additionalentityattributes:dropped_experience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "zenith_attributes:life_steal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "zenith_attributes:arrow_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "dml-refabricated:zombie_friendly": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "spell_power:arcane": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "dml-refabricated:fly": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "dml-refabricated:jump_boost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "tiered:generic.range_attack_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "additionalentityattributes:lava_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "dml-refabricated:fire_immunity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "zenith_attributes:cold_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "diet:natural_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "obscure_api:healing_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "stepheightentityattribute:stepheight": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "minecraft:generic.attack_knockback": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
         "value": 1000000
       }
     },
@@ -352,17 +792,6 @@
         "value": 16
       }
     },
-    "obscure_api:accuracy": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "reach-entity-attributes:attack_range": {
       "enabled": false,
       "min": {
@@ -385,28 +814,6 @@
         "value": 16
       }
     },
-    "dml-refabricated:endermen_proof_vision": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 16
-      }
-    },
-    "reach-entity-attributes:reach": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "dml-refabricated:night_vision": {
       "enabled": false,
       "min": {
@@ -416,6 +823,17 @@
       "max": {
         "default": 16,
         "value": 16
+      }
+    },
+    "additionalentityattributes:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "dml-refabricated:unrotten_flesh": {
@@ -451,17 +869,6 @@
         "value": 100
       }
     },
-    "minecraft:generic.attack_speed": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "minecraft:generic.attack_damage": {
       "enabled": true,
       "min": {
@@ -473,17 +880,6 @@
         "value": 1000000
       }
     },
-    "tiered:generic.durable": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -493,17 +889,6 @@
       "max": {
         "default": 30,
         "value": 1000000
-      }
-    },
-    "dml-refabricated:skeleton_friendly": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 16,
-        "value": 16
       }
     },
     "dml-refabricated:plenty": {
@@ -550,6 +935,17 @@
         "value": 1024
       }
     },
+    "spell_power:lightning": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "dml-refabricated:teleport": {
       "enabled": false,
       "min": {
@@ -583,15 +979,26 @@
         "value": 16
       }
     },
-    "minecraft:generic.flying_speed": {
-      "enabled": true,
+    "spell_power:soul": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "zenith_attributes:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.movement_speed": {
@@ -605,48 +1012,48 @@
         "value": 1024
       }
     },
-    "obscure_api:critical_damage": {
+    "zenith_attributes:armor_pierce": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 100,
-        "value": 100
+        "default": 1000,
+        "value": 1000
       }
     },
-    "minecraft:generic.max_health": {
-      "enabled": true,
+    "zenith_attributes:crit_chance": {
+      "enabled": false,
       "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "additionalentityattributes:lava_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
         "default": 1,
         "value": 1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1000000
       }
     },
-    "dml-refabricated:rot_resistance": {
+    "additionalentityattributes:bonus_rare_loot_rolls": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 16,
-        "value": 16
-      }
-    },
-    "minecraft:horse.jump_strength": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 2
+        "default": 128,
+        "value": 128
       }
     },
     "dml-refabricated:feather_falling": {
@@ -660,15 +1067,15 @@
         "value": 16
       }
     },
-    "minecraft:generic.knockback_resistance": {
-      "enabled": true,
+    "spell_power:healing": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1,
-        "value": 1
+        "default": 2048,
+        "value": 2048
       }
     },
     "tiered:generic.dig_speed": {

@@ -69,7 +69,25 @@ const DELETED_ITEMS = [
     'compressed:kelp_block_iii',
     'compressed:kelp_block_iv',
     "techreborn:deepslate_ruby_ore",
-    "techreborn:deepslate_sapphire_ore"
+    "techreborn:deepslate_sapphire_ore",
+    'techreborn:sapphire_helmet',
+    'techreborn:sapphire_chestplate',
+    'techreborn:sapphire_leggings',
+    'techreborn:sapphire_boots',
+    'techreborn:sapphire_pickaxe',
+    'techreborn:sapphire_axe',
+    'techreborn:sapphire_hoe',
+    'techreborn:sapphire_sword',
+    'techreborn:sapphire_spade',
+    'techreborn:ruby_helmet',
+    'techreborn:ruby_chestplate',
+    'techreborn:ruby_leggings',
+    'techreborn:ruby_boots',
+    'techreborn:ruby_pickaxe',
+    'techreborn:ruby_axe',
+    'techreborn:ruby_hoe',
+    'techreborn:ruby_sword',
+    'techreborn:ruby_spade'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

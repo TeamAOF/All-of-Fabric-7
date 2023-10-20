@@ -1,0 +1,27 @@
+{
+  "biomes": {
+    "has_sugi_forest": true,
+    "has_eroded_river": true,
+    "has_marsh": true,
+    "has_bamboo_wetlands": true,
+    "has_wisteria_forest": true,
+    "has_redwood_forest": true,
+    "has_aspen_forest": true,
+    "has_maple": true,
+    "has_fir": true,
+    "has_cypress_fields": true,
+    "has_lively_dunes": true,
+    "has_drylands": true,
+    "has_white_cliffs": true
+  },
+  "region_weights": {
+    "terra_ferax_frequency": 3,
+    "terra_solaris_frequency": 3,
+    "terra_flava_frequency": 1,
+    "terra_laeta_frequency": 2
+  },
+  "misc_features": {
+    "deepslate_generator": true,
+    "calcite_generator": true
+  }
+}

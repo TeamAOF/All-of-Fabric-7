@@ -1,3 +1,104 @@
+### All of Fabric 7 | v0.6.0
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.0.md)_
+
+### Added Mods
+
+  * [AzureLib Armor](https://www.curseforge.com/minecraft/mc-mods/azurelib-armor)
+  * [BLAST 💣](https://www.curseforge.com/minecraft/mc-mods/blast)
+  * [Create Goggles (Create Plus)](https://www.curseforge.com/minecraft/mc-mods/create-goggles)
+  * [Create: Structures](https://www.curseforge.com/minecraft/mc-mods/create-structures)
+  * [FakerLib](https://www.curseforge.com/minecraft/mc-mods/fakerlib)
+  * [Gazebos (RPG Series)](https://www.curseforge.com/minecraft/mc-mods/gazebos)
+  * [Haunted Harvest](https://www.curseforge.com/minecraft/mc-mods/haunted-harvest)
+  * [Jewelry (RPG Series)](https://www.curseforge.com/minecraft/mc-mods/jewelry)
+  * [Mooblooms](https://www.curseforge.com/minecraft/mc-mods/mooblooms)
+  * [Necronomicon API](https://www.curseforge.com/minecraft/mc-mods/necronomicon)
+  * [playerAnimator](https://www.curseforge.com/minecraft/mc-mods/playeranimator)
+  * [Pling](https://www.curseforge.com/minecraft/mc-mods/pling)
+  * [Projectile Damage Attribute [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/projectile-damage-attribute)
+  * [Respite Creators [Fabric] (Create and Farmer's Respite Addon)](https://www.curseforge.com/minecraft/mc-mods/respite-creators-fabric)
+  * [Runes [Fabric]](https://www.curseforge.com/minecraft/mc-mods/rune-crafting)
+  * [Spell Engine](https://www.curseforge.com/minecraft/mc-mods/spell-engine)
+  * [Spell Power Attributes [Fabric]](https://www.curseforge.com/minecraft/mc-mods/spell-power)
+  * [Spooky Bats](https://www.curseforge.com/minecraft/mc-mods/spooky-bats)
+  * [Wizards (RPG Series)](https://www.curseforge.com/minecraft/mc-mods/wizards)
+  * [Zenith](https://www.curseforge.com/minecraft/mc-mods/zenith)
+  * [Zenith Attributes](https://www.curseforge.com/minecraft/mc-mods/zenith-attributes)
+
+### Removed Mods
+
+  * [Armor & damage scaling[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/armor-damage-scaling-forge-fabric)
+  * [TieredZ](https://www.curseforge.com/minecraft/mc-mods/tieredz) (Replaced by Zenith)
+
+### Changes/Improvements ⚙️
+
+* 🦇 SPOOKY BATS 🦇
+* 🍬 Trick or Treating 🍬
+* 🎃 Pumpkin Carving 🎃
+* 🏘️ Village Decorations 🏘️
+* A stats screen has been added to the inventory, click the swords button in the UI.
+* New and Improved rarity system when adventuring, found on weapons and gear.
+* Resummoned ender dragons now drops the egg.
+* Void Shadow can no longer be lassoed.
+* Filter checks for server console, this should result in less random spam being shown.
+* MI will no longer show a message when an update is available.
+* Entities will no longer spawn with Travelers Backpacks.
+* Void Shadow can now be respawned.
+* Waystones will now spawn in CTOV villages.
+* Rebalanced and added missing entries to the Mining Rig (Includes pretty much every ore).
+* Unified everything Ruby & Sapphire between Mythic Upgrades, Jewelry & Tech Reborn.
+* Moved Ruby & Sapphire ores to Gold Drill (Quarry).
+* Disabled placing books feature, fixing crashes.
+* Fuel (EU) will no longer show in tooltips.
+* TR variants of Ruby & Sapphire tools & gear has been removed.
+* Added a better ratio recipe for certus quartz dust in the TR Industrial Grinder.
+* Added recipes for all geode+ clusters in the MI macerator for better ratios & automation.
+* Geode Plus budding blocks can now be used with the AE2 Growth Accelerator.
+
+**Bosses Of Mass Destruction 👹**
+
+* Lich health has been increased. **(300 > 400)**
+* Lich damage has been increased. **(9 > 10)**
+* Obsidilith health has been increased. **(300 > 400)**
+* Obsidilith armor has been increased. **(14 > 16)**
+* Gauntlet health has been increased. **(250 > 350)**
+* Gauntlet armor has been increased. **(8 > 10)**
+* Void Blossom health has been increased. **(350 > 450)**
+* Void Blossom damage has been increased. **(12 > 15)**
+
+**Soul's Weapons ⚔️**
+
+* Decaying King health has been increased. **(500 > 600)**
+* Returning Knight health has been increased. **(400 > 500)**
+* Old Champion health has been increased. **(200 > 300)**
+* Frenzied Shade health has been increased. **(100 > 200)**
+* Chaos Monarch health has been increased. **(400 > 500)**
+* Fallen Icon health has been increased. **(500 > 600)**
+
+**Deep Mob Learning ⚗️**
+
+* Basic Tier Pristine chance has been lowered. **(5 > 4)**
+* Advanced Tier Pristine chance has been lowered. **(11 > 8)**
+* Superior Tier Pristine chance has been lowered. **(24 > 20)**
+* Self Aware Tier Pristine chance has been lowered. **(42 > 35)**
+* Overworld Energy Cost has been increased. **(100 > 300)**
+* Zombie Energy Cost has been increased. **(300 > 500)**
+* Skeleton Energy Cost has been increased. **(80 > 180)**
+* Slimy Energy Cost has been increased. **(160 > 360)**
+* Illager Energy Cost has been increased. **(412 > 612)**
+* Ocean Energy Cost has been increased. **(160 > 360)**
+* Ghost Energy Cost has been increased. **(372 > 572)**
+* Nether Energy Cost has been increased. **(300 > 500)**
+* End Energy Cost has been increased. **(512 > 712)**
+
+### Bug Fixes 🐛
+
+* Nature's Spirit biomes not generating on servers.
+* Not being able to sleep in coffins at daytime.
+* Missing Diesel Generators recipes.
+---
+
 ### All of Fabric 7 | v0.5.4
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.5.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.5.4.md)_

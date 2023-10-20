@@ -1,0 +1,122 @@
+{
+  "loot_tables": {
+    "minecraft:chests/bastion_treasure": [
+      "jewelry_tier_3"
+    ],
+    "minecraft:chests/woodland_mansion": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/end_city_treasure": [
+      "jewelry_tier_3"
+    ],
+    "minecraft:chests/abandoned_mineshaft": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/shipwreck_supply": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/underwater_ruin_big": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/nether_bridge": [
+      "jewelry_tier_2"
+    ],
+    "minecraft:chests/simple_dungeon": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/desert_pyramid": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/jungle_temple": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/ancient_city": [
+      "jewelry_tier_3"
+    ],
+    "minecraft:chests/stronghold_crossing": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/igloo_chest": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/bastion_other": [
+      "jewelry_tier_2"
+    ]
+  },
+  "item_groups": {
+    "jewelry_tier_2": {
+      "ids": [
+        "jewelry:netherite_ruby_ring",
+        "jewelry:netherite_topaz_ring",
+        "jewelry:netherite_citrine_ring",
+        "jewelry:netherite_jade_ring",
+        "jewelry:netherite_sapphire_ring",
+        "jewelry:netherite_tanzanite_ring",
+        "jewelry:netherite_ruby_necklace",
+        "jewelry:netherite_topaz_necklace",
+        "jewelry:netherite_citrine_necklace",
+        "jewelry:netherite_jade_necklace",
+        "jewelry:netherite_sapphire_necklace",
+        "jewelry:netherite_tanzanite_necklace"
+      ],
+      "chance": 0.2,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    },
+    "jewelry_tier_3": {
+      "ids": [
+        "jewelry:unique_attack_ring",
+        "jewelry:unique_attack_necklace",
+        "jewelry:unique_dex_ring",
+        "jewelry:unique_dex_necklace",
+        "jewelry:unique_tank_ring",
+        "jewelry:unique_tank_necklace",
+        "jewelry:unique_archer_ring",
+        "jewelry:unique_archer_necklace",
+        "jewelry:unique_arcane_ring",
+        "jewelry:unique_arcane_necklace",
+        "jewelry:unique_fire_ring",
+        "jewelry:unique_fire_necklace",
+        "jewelry:unique_frost_ring",
+        "jewelry:unique_frost_necklace",
+        "jewelry:unique_healing_ring",
+        "jewelry:unique_healing_necklace"
+      ],
+      "chance": 0.5,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    },
+    "jewelry_tier_0": {
+      "ids": [
+        "jewelry:copper_ring",
+        "jewelry:iron_ring",
+        "jewelry:gold_ring"
+      ],
+      "chance": 0.3,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    },
+    "jewelry_tier_1": {
+      "ids": [
+        "jewelry:ruby_ring",
+        "jewelry:topaz_ring",
+        "jewelry:citrine_ring",
+        "jewelry:jade_ring",
+        "jewelry:sapphire_ring",
+        "jewelry:tanzanite_ring",
+        "jewelry:ruby_necklace",
+        "jewelry:topaz_necklace",
+        "jewelry:citrine_necklace",
+        "jewelry:jade_necklace",
+        "jewelry:sapphire_necklace",
+        "jewelry:tanzanite_necklace"
+      ],
+      "chance": 0.2,
+      "bonus_roll_chance": 1.2,
+      "weight": 1
+    }
+  }
+}

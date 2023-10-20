@@ -1,0 +1,21 @@
+{
+	"holdToCastChannelled": true,
+	"holdToCastCharged": true,
+	"spellHotbar_1_defer": "USE_KEY",
+	"spellHotbar_2_defer": "HOTBAR_KEY_2",
+	"spellHotbar_3_defer": "HOTBAR_KEY_3",
+	"spellHotbar_4_defer": "HOTBAR_KEY_4",
+	"spellHotbar_5_defer": "HOTBAR_KEY_5",
+	"spellHotbar_6_defer": "HOTBAR_KEY_6",
+	"spellHotbar_7_defer": "HOTBAR_KEY_7",
+	"spellHotbar_8_defer": "HOTBAR_KEY_8",
+	"spellHotbar_9_defer": "HOTBAR_KEY_9",
+	"useKeyHighPriority": false,
+	"highlightTarget": true,
+	"stickyTarget": true,
+	"filterInvalidTargets": true,
+	"alwaysShowFullTooltip": false,
+	"showSpellBindingTooltip": true,
+	"showSpellCastErrors": true,
+	"shoulderSurfingAdaptiveWhileUse": true
+}

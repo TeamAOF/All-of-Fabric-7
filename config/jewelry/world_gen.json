@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structures": [
+        {
+          "id": "jewelry:village/desert/jewelry_shop",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structures": [
+        {
+          "id": "jewelry:village/savanna/jewelry_shop",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structures": [
+        {
+          "id": "jewelry:village/plains/jewelry_shop",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structures": [
+        {
+          "id": "jewelry:village/taiga/jewelry_shop",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structures": [
+        {
+          "id": "jewelry:village/snowy/jewelry_shop",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
