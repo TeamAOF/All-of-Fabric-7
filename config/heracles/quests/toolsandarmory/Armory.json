@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "3FC3E8AFB7E9B57D": {
+      "title": "Armory",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Armory",
+    "description": [
+      "<task task=\"3FC3E8AFB7E9B57D\" quest=\"Armory\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -224,
+          0
+        ]
+      }
+    }
+  }
+}

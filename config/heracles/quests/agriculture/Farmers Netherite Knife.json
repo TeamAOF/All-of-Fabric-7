@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Diamond Knife"
+  ],
+  "tasks": {
+    "2D741257B7F54522": {
+      "type": "heracles:item",
+      "item": "farmersdelight:netherite_knife"
+    }
+  },
+  "rewards": {
+    "5B501DD4E3E74E8D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:netherite_knife",
+    "description": [
+      "<task task=\"2D741257B7F54522\" quest=\"Farmers Netherite Knife\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5B501DD4E3E74E8D\" quest=\"Farmers Netherite Knife\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:netherite_knife"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -96,
+          608
+        ]
+      }
+    }
+  }
+}

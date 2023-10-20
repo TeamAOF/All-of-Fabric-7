@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Schematic and Quill"
+  ],
+  "tasks": {
+    "327E02A860C477B0": {
+      "type": "heracles:item",
+      "item": "create:schematicannon"
+    },
+    "269723EDD5279715": {
+      "type": "heracles:item",
+      "item": "create:schematic_table"
+    }
+  },
+  "rewards": {
+    "2E9490114C5D2520": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:gunpowder",
+        "count": 32
+      }
+    },
+    "2468D8DF9C39352C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 2,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>It's like litematica, but with a cannon</h2>",
+      "<hr/>",
+      "<task task=\"327E02A860C477B0\" quest=\"Schematic Cannon and Table\"/>",
+      "<task task=\"269723EDD5279715\" quest=\"Schematic Cannon and Table\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2E9490114C5D2520\" quest=\"Schematic Cannon and Table\"/>",
+      "<reward reward=\"2468D8DF9C39352C\" quest=\"Schematic Cannon and Table\"/>"
+    ],
+    "subtitle": {
+      "text": "It's like litematica, but with a cannon"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -192,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Botania Utils"
+  ],
+  "tasks": {
+    "07E070E14442B2D5": {
+      "type": "heracles:item",
+      "item": "botania:skydirt_rod"
+    }
+  },
+  "rewards": {
+    "0AA26F8BD37878A9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: botania:skydirt_rod",
+    "description": [
+      "<h2>Dirty Stick MK II</h2>",
+      "<hr/>",
+      "<task task=\"07E070E14442B2D5\" quest=\"Rod of the Land\"/>",
+      "<hr/>",
+      "This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost.",
+      "<hr/>",
+      "<reward reward=\"0AA26F8BD37878A9\" quest=\"Rod of the Land\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "botania:skydirt_rod"
+    },
+    "subtitle": {
+      "text": "Dirty Stick MK II"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -48,
+          -144
+        ]
+      }
+    }
+  }
+}

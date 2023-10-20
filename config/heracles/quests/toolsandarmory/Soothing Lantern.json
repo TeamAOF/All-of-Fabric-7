@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mysterious Enchanting"
+  ],
+  "tasks": {
+    "716C3716D26DAACE": {
+      "type": "heracles:item",
+      "item": "eldritch_mobs:soothing_lantern"
+    }
+  },
+  "rewards": {
+    "1682BA59A40B7BE0": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "686D428C7E96848E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: eldritch_mobs:soothing_lantern",
+    "description": [
+      "<h2>Prevents buffed mobs from spawning in a chunk when activated with redstone.</h2>",
+      "<hr/>",
+      "<task task=\"716C3716D26DAACE\" quest=\"Soothing Lantern\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1682BA59A40B7BE0\" quest=\"Soothing Lantern\"/>",
+      "<reward reward=\"686D428C7E96848E\" quest=\"Soothing Lantern\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "eldritch_mobs:soothing_lantern"
+    },
+    "subtitle": {
+      "text": "Prevents buffed mobs from spawning in a chunk when activated with redstone."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -224,
+          -128
+        ]
+      }
+    }
+  }
+}

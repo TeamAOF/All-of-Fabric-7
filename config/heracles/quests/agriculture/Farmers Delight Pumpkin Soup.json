@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "2D404FDB11C7C55E": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pumpkin_soup"
+    }
+  },
+  "rewards": {
+    "4A2097C3B30CB8FF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:pumpkin_soup",
+    "description": [
+      "<task task=\"2D404FDB11C7C55E\" quest=\"Farmers Delight Pumpkin Soup\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4A2097C3B30CB8FF\" quest=\"Farmers Delight Pumpkin Soup\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pumpkin_soup"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          256,
+          368
+        ]
+      }
+    }
+  }
+}

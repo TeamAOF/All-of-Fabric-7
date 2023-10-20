@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "7AB2C45EA0AEEC7D": {
+      "title": "Coconut Chocolates",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:coconut_dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:coconut_milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:coconut_white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "4F3E113CA3A466C1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Coconut Chocolates",
+    "description": [
+      "<task task=\"7AB2C45EA0AEEC7D\" quest=\"Coconut Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4F3E113CA3A466C1\" quest=\"Coconut Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -384,
+          368
+        ]
+      }
+    }
+  }
+}

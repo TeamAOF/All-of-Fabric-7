@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Forge Hammer"
+  ],
+  "tasks": {
+    "393032946BC049BC": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "modern_industrialization:bronze_ingot"
+    }
+  },
+  "rewards": {
+    "6F560B31D5CF1579": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§6Your First Bronze!",
+    "description": [
+      "<h2>Welcome to the Steam Age!</h2>",
+      "<hr/>",
+      "<task task=\"393032946BC049BC\" quest=\"MI Bronze Ingot\"/>",
+      "<hr/>",
+      "First, you need to make copper and tin (tiny) dusts by hammering copper and tin ingots (nuggets) in the forge hammer.",
+      "<br/>",
+      "You can then combine copper and tin (tiny) dusts to make bronze (tiny) dust.",
+      "<br/>",
+      "This process is more efficient in a Mixer.",
+      "<br/>",
+      "Always remember that 9 tiny dusts are one dust.",
+      "<br/>",
+      "Steam machines will accept inputs from any side, be it items, steam or another fluid. You can lock their slots by clicking on the lock in the interface. Locked slots only accept one type of item or fluid.",
+      "<br/>",
+      "Every machine has an output side, and you can enable auto-output from the interface.",
+      "<br/>",
+      "You can also reduce the maximum number of items in a slot by scrolling.",
+      "<hr/>",
+      "<reward reward=\"6F560B31D5CF1579\" quest=\"MI Bronze Ingot\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_ingot"
+    },
+    "subtitle": {
+      "text": "Welcome to the Steam Age!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -384,
+          -48
+        ]
+      }
+    }
+  }
+}

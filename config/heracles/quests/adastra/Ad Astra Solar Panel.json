@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "278C6932C7FA6742": {
+      "type": "heracles:item",
+      "item": "ad_astra:solar_panel"
+    }
+  },
+  "rewards": {
+    "7D61139A6347647C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/rare",
+          "Name": "Ad Astra! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ad_astra:solar_panel",
+    "description": [
+      "<h2>Photosynthe!... wait thats not right...</h2>",
+      "<hr/>",
+      "<task task=\"278C6932C7FA6742\" quest=\"Ad Astra Solar Panel\"/>",
+      "<hr/>",
+      "Once you have access to Desh, you're able to auotmate a few processes that make your life easier. One of those being energy generation.",
+      "<br/>",
+      "The Solar Panel generates energy when in sunlight. The amount it generates varies depending on the planet/moon's distance from the sun and how much fog covers that celestial body.",
+      "<hr/>",
+      "<reward reward=\"7D61139A6347647C\" quest=\"Ad Astra Solar Panel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:solar_panel"
+    },
+    "subtitle": {
+      "text": "Photosynthe!... wait thats not right..."
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          64,
+          -32
+        ]
+      }
+    }
+  }
+}

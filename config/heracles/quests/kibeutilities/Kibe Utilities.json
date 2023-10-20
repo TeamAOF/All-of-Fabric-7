@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe and Rings"
+  ],
+  "tasks": {
+    "3931534EE6E5F653": {
+      "title": "Kibe Utilities!",
+      "icon": {
+        "type": "heracles:item",
+        "item": "kibe:kibe"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1559FE2580894087": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Kibe Utilities!",
+    "description": [
+      "<h2>Bunch of random, and mostly unoriginal things but aswell useful utilities!</h2>",
+      "<hr/>",
+      "<task task=\"3931534EE6E5F653\" quest=\"Kibe Utilities\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1559FE2580894087\" quest=\"Kibe Utilities\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:kibe"
+    },
+    "subtitle": {
+      "text": "Bunch of random, and mostly unoriginal things but aswell useful utilities!"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          208,
+          -16
+        ]
+      }
+    }
+  }
+}

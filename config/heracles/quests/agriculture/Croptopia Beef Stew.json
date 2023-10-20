@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Croptopia Cooked Beef"
+  ],
+  "tasks": {
+    "2A03780155D63806": {
+      "type": "heracles:item",
+      "item": "croptopia:beef_stew"
+    }
+  },
+  "rewards": {
+    "042FB123FAA18733": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:beef_stew",
+    "description": [
+      "<task task=\"2A03780155D63806\" quest=\"Croptopia Beef Stew\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"042FB123FAA18733\" quest=\"Croptopia Beef Stew\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:beef_stew"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -16,
+          464
+        ]
+      }
+    }
+  }
+}

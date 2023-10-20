@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Ingot"
+  ],
+  "tasks": {
+    "1CCFC1ADFBB4F858": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_mixer"
+    }
+  },
+  "rewards": {
+    "3BF5F814E7572F46": {
+      "type": "heracles:item",
+      "item": {
+        "id": "farmersdelight:mixed_salad"
+      }
+    },
+    "14D7470722DF021C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:bronze_mixer",
+    "description": [
+      "<h2>The Mixer will help you mix dusts for a cheaper price.</h2>",
+      "<hr/>",
+      "<task task=\"1CCFC1ADFBB4F858\" quest=\"MI Bronze Mixer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3BF5F814E7572F46\" quest=\"MI Bronze Mixer\"/>",
+      "<reward reward=\"14D7470722DF021C\" quest=\"MI Bronze Mixer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_mixer"
+    },
+    "subtitle": {
+      "text": "The Mixer will help you mix dusts for a cheaper price."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -304,
+          -112
+        ]
+      }
+    }
+  }
+}

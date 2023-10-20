@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "40B111C90B0CB6C6": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:cogwheel"
+    },
+    "1787F1E83E6F1475": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:large_cogwheel"
+    }
+  },
+  "rewards": {
+    "3EDDE5E314AE3B7D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Cogwheels",
+    "description": [
+      "<h2>Cogs</h2>",
+      "<hr/>",
+      "<task task=\"40B111C90B0CB6C6\" quest=\"Cogwheel\"/>",
+      "<task task=\"1787F1E83E6F1475\" quest=\"Cogwheel\"/>",
+      "<hr/>",
+      "> Do you know how to gear up and gear down?",
+      "<hr/>",
+      "<reward reward=\"3EDDE5E314AE3B7D\" quest=\"Cogwheel\"/>"
+    ],
+    "subtitle": {
+      "text": "Cogs"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          -48
+        ]
+      }
+    }
+  }
+}

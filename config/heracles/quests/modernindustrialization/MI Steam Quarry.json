@@ -1,0 +1,75 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Steel Ingot"
+  ],
+  "tasks": {
+    "0B829B6C4987D67B": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steam_quarry"
+    },
+    "3FA8E3781E4BF9AE": {
+      "type": "heracles:item",
+      "amount": 13,
+      "item": "modern_industrialization:steel_machine_casing"
+    },
+    "4AEC4A5817CF1493": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    "05F5685C54F12B88": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "minecraft:chain"
+    }
+  },
+  "rewards": {
+    "21D56C8F919971F6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Infinite resources?",
+    "description": [
+      "<h2>So what does it do?</h2>",
+      "<hr/>",
+      "<task task=\"0B829B6C4987D67B\" quest=\"MI Steam Quarry\"/>",
+      "<task task=\"3FA8E3781E4BF9AE\" quest=\"MI Steam Quarry\"/>",
+      "<task task=\"4AEC4A5817CF1493\" quest=\"MI Steam Quarry\"/>",
+      "<task task=\"05F5685C54F12B88\" quest=\"MI Steam Quarry\"/>",
+      "<hr/>",
+      "The Steam Quarry is a steam multiblock machine that consumes bronze drills, uses them to dig deeper than the bedrock and gives you back some ores, as you can see in REI.",
+      "<br/>",
+      "It's recommended that you have multiple SBFs running before you attempt to build it because it requires a lot of steel.",
+      "<br/>",
+      "<hr/>",
+      "<reward reward=\"21D56C8F919971F6\" quest=\"MI Steam Quarry\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steam_quarry"
+    },
+    "subtitle": {
+      "text": "So what does it do?"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -128,
+          -112
+        ]
+      }
+    }
+  }
+}

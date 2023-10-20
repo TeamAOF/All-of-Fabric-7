@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "44A56AA0B6264AE9": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_distributor"
+    }
+  },
+  "rewards": {
+    "1C2A03C3DD8D7EBB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/rare",
+          "Name": "Ad Astra! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ad_astra:oxygen_distributor",
+    "description": [
+      "<h2>Seriously though, where's the Hydrogen???</h2>",
+      "<hr/>",
+      "<task task=\"44A56AA0B6264AE9\" quest=\"Oxygen Distributor\"/>",
+      "<hr/>",
+      "Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space.",
+      "<br/>",
+      "When supplied with enough oxygen in a completely closed environment, you can provide oxygen to said room, making the space livable to any living being (including you!).",
+      "<hr/>",
+      "<reward reward=\"1C2A03C3DD8D7EBB\" quest=\"Oxygen Distributor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_distributor"
+    },
+    "subtitle": {
+      "text": "Seriously though, where's the Hydrogen???"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    }
+  }
+}

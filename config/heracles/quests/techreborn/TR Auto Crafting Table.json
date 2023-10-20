@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "5A9264CF54AF6DA9": {
+      "type": "heracles:item",
+      "item": "techreborn:auto_crafting_table"
+    }
+  },
+  "rewards": {
+    "300BD8325DEA2432": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:auto_crafting_table",
+    "description": [
+      "<h2>A Crafting Table but.. Automated?</h2>",
+      "<hr/>",
+      "<task task=\"5A9264CF54AF6DA9\" quest=\"TR Auto Crafting Table\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"300BD8325DEA2432\" quest=\"TR Auto Crafting Table\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:auto_crafting_table"
+    },
+    "subtitle": {
+      "text": "A Crafting Table but.. Automated?"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -80,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery Grapevine Pot"
+  ],
+  "tasks": {
+    "595D01274BCBD948": {
+      "type": "heracles:item",
+      "item": "vinery:red_grapejuice_wine_bottle"
+    },
+    "00885C009B1D916D": {
+      "type": "heracles:item",
+      "item": "vinery:white_grapejuice_wine_bottle"
+    }
+  },
+  "rewards": {
+    "16F45EFDF4D46042": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Grapejuices",
+    "description": [
+      "<h2>Extract the Grapejuice from the Pot.</h2>",
+      "<hr/>",
+      "<task task=\"595D01274BCBD948\" quest=\"Vinery Red Grapejuice Wine Bottle\"/>",
+      "<task task=\"00885C009B1D916D\" quest=\"Vinery Red Grapejuice Wine Bottle\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"16F45EFDF4D46042\" quest=\"Vinery Red Grapejuice Wine Bottle\"/>"
+    ],
+    "subtitle": {
+      "text": "Extract the Grapejuice from the Pot."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          592
+        ]
+      }
+    }
+  }
+}

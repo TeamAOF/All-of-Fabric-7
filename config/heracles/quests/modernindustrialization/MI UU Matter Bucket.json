@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Singularity"
+  ],
+  "tasks": {
+    "15325EFF41DA3891": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:uu_matter_bucket"
+    }
+  },
+  "rewards": {
+    "727FD343F9AFD1D1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/legendary",
+          "Name": "Modern Industrialization Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:uu_matter_bucket",
+    "description": [
+      "<h2>UwU Matter</h2>",
+      "<hr/>",
+      "<task task=\"15325EFF41DA3891\" quest=\"MI UU Matter Bucket\"/>",
+      "<hr/>",
+      "With a suitable Electrolyzer setup and a Singularity, large amounts of energy can be turned through Quantum Hawnking Radiation,  into Universally Useable Matter also known as UU Matter, the very fabric of the universe.",
+      "<hr/>",
+      "<reward reward=\"727FD343F9AFD1D1\" quest=\"MI UU Matter Bucket\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:uu_matter_bucket"
+    },
+    "subtitle": {
+      "text": "UwU Matter"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          880,
+          -16
+        ]
+      }
+    }
+  }
+}

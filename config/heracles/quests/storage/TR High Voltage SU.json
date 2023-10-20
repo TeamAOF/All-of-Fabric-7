@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Medium Voltage SU"
+  ],
+  "tasks": {
+    "729C6F46550B4901": {
+      "type": "heracles:item",
+      "item": "techreborn:high_voltage_su"
+    }
+  },
+  "rewards": {
+    "5A504F6C577A5282": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:high_voltage_su",
+    "description": [
+      "<task task=\"729C6F46550B4901\" quest=\"TR High Voltage SU\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A504F6C577A5282\" quest=\"TR High Voltage SU\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:high_voltage_su"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          320,
+          -48
+        ]
+      }
+    }
+  }
+}

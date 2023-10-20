@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Bejeweled Backpack"
+  ],
+  "tasks": {
+    "4E1A42E3182CDC7B": {
+      "type": "heracles:item",
+      "item": "inmis:withered_backpack"
+    }
+  },
+  "rewards": {
+    "2555C9ED7CDC3908": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: inmis:withered_backpack",
+    "description": [
+      "<task task=\"4E1A42E3182CDC7B\" quest=\"Withered Backpack\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2555C9ED7CDC3908\" quest=\"Withered Backpack\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "inmis:withered_backpack"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          128,
+          16
+        ]
+      }
+    }
+  }
+}

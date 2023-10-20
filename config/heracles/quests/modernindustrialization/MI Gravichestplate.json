@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Super Conductor Cable"
+  ],
+  "tasks": {
+    "4AEAA8FA55EA9B82": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:gravichestplate"
+    }
+  },
+  "rewards": {
+    "0F3F2F64ADF73F89": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:gravichestplate",
+    "description": [
+      "<h2>Uses advanced superconductor technology to invert the gravitational field around the player wearing it.</h2>",
+      "<hr/>",
+      "<task task=\"4AEAA8FA55EA9B82\" quest=\"MI Gravichestplate\"/>",
+      "<hr/>",
+      "It uses EU, and can be charged by right-clicking a block that can output energy.",
+      "<br/>",
+      "Note that the current GSP technology grants fly and prevents fall damage, but it does not protected against other kinds of damage.",
+      "<hr/>",
+      "<reward reward=\"0F3F2F64ADF73F89\" quest=\"MI Gravichestplate\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:gravichestplate"
+    },
+    "subtitle": {
+      "text": "Uses advanced superconductor technology to invert the gravitational field around the player wearing it."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          736,
+          -80
+        ]
+      }
+    }
+  }
+}

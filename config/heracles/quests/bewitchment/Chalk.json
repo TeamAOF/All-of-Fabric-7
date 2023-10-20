@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Crystal Ball",
+    "Wood Ash"
+  ],
+  "tasks": {
+    "372B31C55E138C15": {
+      "type": "heracles:item",
+      "item": "bewitchment:chalk"
+    }
+  },
+  "rewards": {
+    "63432E061B2D2063": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:chalk",
+    "description": [
+      "<task task=\"372B31C55E138C15\" quest=\"Chalk\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"63432E061B2D2063\" quest=\"Chalk\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:chalk"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          304,
+          0
+        ]
+      }
+    }
+  }
+}

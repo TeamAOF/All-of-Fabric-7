@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "51A2D639CA7DAC1E": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fish_stew"
+    }
+  },
+  "rewards": {
+    "68DA3F74C974DCBF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:fish_stew",
+    "description": [
+      "<task task=\"51A2D639CA7DAC1E\" quest=\"Farmers Delight Fish Stew\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"68DA3F74C974DCBF\" quest=\"Farmers Delight Fish Stew\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fish_stew"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          256,
+          304
+        ]
+      }
+    }
+  }
+}

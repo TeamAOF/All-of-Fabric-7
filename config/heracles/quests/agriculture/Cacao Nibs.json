@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Cacao Mass Bucket"
+  ],
+  "tasks": {
+    "3AFC17ADC90E9960": {
+      "type": "heracles:item",
+      "item": "cacao:cacao_nibs"
+    }
+  },
+  "rewards": {
+    "1609312D3674F6C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: cacao:cacao_nibs",
+    "description": [
+      "<task task=\"3AFC17ADC90E9960\" quest=\"Cacao Nibs\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1609312D3674F6C2\" quest=\"Cacao Nibs\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cacao:cacao_nibs"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -352,
+          240
+        ]
+      }
+    }
+  }
+}

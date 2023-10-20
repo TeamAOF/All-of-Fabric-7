@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "5A1D040B9E5B9377": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove"
+    }
+  },
+  "rewards": {
+    "42AFA3EF9BCC28A4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:stove",
+    "description": [
+      "<task task=\"5A1D040B9E5B9377\" quest=\"Farmers Delight Stove\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"42AFA3EF9BCC28A4\" quest=\"Farmers Delight Stove\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -288,
+          416
+        ]
+      }
+    }
+  }
+}

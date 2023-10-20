@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Frayed Backpack"
+  ],
+  "tasks": {
+    "5378E80C9210322F": {
+      "type": "heracles:item",
+      "item": "inmis:plated_backpack"
+    }
+  },
+  "rewards": {
+    "6FECB84D7892EF98": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: inmis:plated_backpack",
+    "description": [
+      "<task task=\"5378E80C9210322F\" quest=\"Plated Backpack\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6FECB84D7892EF98\" quest=\"Plated Backpack\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "inmis:plated_backpack"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          128,
+          -80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "1B107852452FB3FE": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_mutton_chop"
+    }
+  },
+  "rewards": {
+    "322B9353D56BB031": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:pasta_with_mutton_chop",
+    "description": [
+      "<task task=\"1B107852452FB3FE\" quest=\"Farmers Delight Pasta with Mutton Chop\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"322B9353D56BB031\" quest=\"Farmers Delight Pasta with Mutton Chop\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_mutton_chop"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -176,
+          208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Poor Mans Compressor"
+  ],
+  "tasks": {
+    "0FFED7DEC1728D8A": {
+      "type": "heracles:item",
+      "item": "indrev:battery"
+    }
+  },
+  "rewards": {
+    "1ECC3DF4AADC805D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:battery",
+    "description": [
+      "<task task=\"0FFED7DEC1728D8A\" quest=\"IR Battery\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1ECC3DF4AADC805D\" quest=\"IR Battery\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:battery"
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -256,
+          -48
+        ]
+      }
+    }
+  }
+}

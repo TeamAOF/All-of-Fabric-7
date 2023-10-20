@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery Grape"
+  ],
+  "tasks": {
+    "195A16F63D6287F5": {
+      "type": "heracles:item",
+      "item": "vinery:grapevine_pot"
+    }
+  },
+  "rewards": {
+    "015B409E79788FFA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: vinery:grapevine_pot",
+    "description": [
+      "<h2>May the crushin begin!</h2>",
+      "<hr/>",
+      "<task task=\"195A16F63D6287F5\" quest=\"Vinery Grapevine Pot\"/>",
+      "<hr/>",
+      "After harvesting your first &&bGrapes&&r can either just eat them or put them into a &&bPot &&rand crush them by &&6jumping and walking&&r around in it.",
+      "<hr/>",
+      "<reward reward=\"015B409E79788FFA\" quest=\"Vinery Grapevine Pot\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "vinery:grapevine_pot"
+    },
+    "subtitle": {
+      "text": "May the crushin begin!"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          64,
+          544
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Ingot"
+  ],
+  "tasks": {
+    "217D2448551C324A": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:coke_oven"
+    },
+    "2418D8560CE16E75": {
+      "type": "heracles:item",
+      "amount": 21,
+      "item": "minecraft:bricks"
+    },
+    "1EC4B2642DBB8127": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_item_input_hatch"
+    },
+    "510058C68DBCD031": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_item_output_hatch"
+    },
+    "267A96FED5F44276": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_fluid_input_hatch"
+    },
+    "092B490D68ACEA49": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_fluid_output_hatch"
+    }
+  },
+  "rewards": {
+    "28752E436B412354": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>Coke-A Cola -Technici4n</h2>",
+      "<hr/>",
+      "<task task=\"217D2448551C324A\" quest=\"MI Coke-A-Cola Technici4n\"/>",
+      "<task task=\"2418D8560CE16E75\" quest=\"MI Coke-A-Cola Technici4n\"/>",
+      "<task task=\"1EC4B2642DBB8127\" quest=\"MI Coke-A-Cola Technici4n\"/>",
+      "<task task=\"510058C68DBCD031\" quest=\"MI Coke-A-Cola Technici4n\"/>",
+      "<task task=\"267A96FED5F44276\" quest=\"MI Coke-A-Cola Technici4n\"/>",
+      "<task task=\"092B490D68ACEA49\" quest=\"MI Coke-A-Cola Technici4n\"/>",
+      "<hr/>",
+      "The Coke Oven block here has the role of a Controller.",
+      "<br/>",
+      "Every multiblock is managed by a controller, but you usually cannot interact with the controller directly: all input and output goes through hatches.",
+      "<br/>",
+      "We need a fluid input because the coke oven is powered by steam, we need an item input for the coal and an output for the coke.",
+      "<br/>",
+      "If we forget one of the hatches, the coke oven will not be able to start!",
+      "<br/>",
+      "Hold a Wrench to see the missing blocks and the errors!",
+      "<br/>",
+      "You can also hold a Hatch to know where it can go.",
+      "<br/>",
+      "Once the Coke Oven says Shape Valid, fill the fluid input hatch with steam, put coal in the item input hatch and you're good to go!",
+      "<br/>",
+      "Coke will be very useful for steel, but it is also a powerful fuel.",
+      "<hr/>",
+      "<reward reward=\"28752E436B412354\" quest=\"MI Coke-A-Cola Technici4n\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:coke_oven"
+    },
+    "subtitle": {
+      "text": "Coke-A Cola -Technici4n"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -304,
+          -48
+        ]
+      }
+    }
+  }
+}

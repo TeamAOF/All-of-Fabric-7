@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tier 2 Rocket"
+  ],
+  "tasks": {
+    "275AD0703F620408": {
+      "type": "heracles:item",
+      "item": "ad_astra:ostrum_ingot"
+    }
+  },
+  "rewards": {
+    "250B49FA04316495": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/epic",
+          "Name": "Ad Astra! Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Mars Metal",
+    "description": [
+      "<h2>On goes Ostrum</h2>",
+      "<hr/>",
+      "<task task=\"275AD0703F620408\" quest=\"Ostrum\"/>",
+      "<hr/>",
+      "A new material exclusive to Mars that you'll need to progress from here is Ostrum. Gather plenty of it, you'll need it for your rocket and to upgrade much of your current machinery",
+      "<hr/>",
+      "<reward reward=\"250B49FA04316495\" quest=\"Ostrum\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:ostrum_ingot"
+    },
+    "subtitle": {
+      "text": "On goes Ostrum"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          169,
+          -1
+        ]
+      }
+    }
+  }
+}

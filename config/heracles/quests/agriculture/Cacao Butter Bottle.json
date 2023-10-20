@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Cacao Mass Bottle"
+  ],
+  "tasks": {
+    "4C892E2A6DB0EB17": {
+      "type": "heracles:item",
+      "item": "cacao:cacao_butter_bottle"
+    }
+  },
+  "rewards": {
+    "7E97497E8A79BAD0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: cacao:cacao_butter_bottle",
+    "description": [
+      "<task task=\"4C892E2A6DB0EB17\" quest=\"Cacao Butter Bottle\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7E97497E8A79BAD0\" quest=\"Cacao Butter Bottle\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cacao:cacao_butter_bottle"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -432,
+          288
+        ]
+      }
+    }
+  }
+}

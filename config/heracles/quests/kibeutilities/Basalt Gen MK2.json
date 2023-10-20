@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Basalt Gen MK1"
+  ],
+  "tasks": {
+    "7DCD9A3794551BF2": {
+      "type": "heracles:item",
+      "item": "kibe:basalt_generator_mk2"
+    }
+  },
+  "rewards": {
+    "511208EA923CAF9F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:basalt_generator_mk2",
+    "description": [
+      "<task task=\"7DCD9A3794551BF2\" quest=\"Basalt Gen MK2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"511208EA923CAF9F\" quest=\"Basalt Gen MK2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:basalt_generator_mk2"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          80,
+          -16
+        ]
+      }
+    }
+  }
+}

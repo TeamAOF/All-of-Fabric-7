@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "0E94C45C84C6B669": {
+      "title": "Mixed Nuts Chocolates",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:mixed_nuts_dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:mixed_nuts_milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:mixed_nuts_white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "1FF3C2D7752B7662": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Mixed Nuts Chocolates",
+    "description": [
+      "<task task=\"0E94C45C84C6B669\" quest=\"Mixed Nuts Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1FF3C2D7752B7662\" quest=\"Mixed Nuts Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -320,
+          384
+        ]
+      }
+    }
+  }
+}

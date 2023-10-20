@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "70F481780658F71B": {
+      "type": "heracles:item",
+      "item": "croptopia:pepper"
+    }
+  },
+  "rewards": {
+    "374466B550E696C6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:pepper",
+    "description": [
+      "<task task=\"70F481780658F71B\" quest=\"Croptopia Pepper\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"374466B550E696C6\" quest=\"Croptopia Pepper\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:pepper"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          112,
+          368
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "17271F13609136DA": {
+      "type": "heracles:item",
+      "item": "bewitchment:death_protection_poppet"
+    }
+  },
+  "rewards": {
+    "0DB8AA159811F50D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:death_protection_poppet",
+    "description": [
+      "<task task=\"17271F13609136DA\" quest=\"Death Protection Poppet\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0DB8AA159811F50D\" quest=\"Death Protection Poppet\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:death_protection_poppet"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          80,
+          -144
+        ]
+      }
+    }
+  }
+}

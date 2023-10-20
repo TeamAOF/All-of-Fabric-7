@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Earth Metal"
+  ],
+  "tasks": {
+    "31A7218BE3AFE490": {
+      "type": "heracles:item",
+      "amount": 12,
+      "item": "ad_astra:steel_cable"
+    }
+  },
+  "rewards": {
+    "4A41B355CCAF85B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/common",
+          "Name": "Ad Astra! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Surging Steel",
+    "description": [
+      "<h2>Zip Zap Steel</h2>",
+      "<hr/>",
+      "<task task=\"31A7218BE3AFE490\" quest=\"Steel Cable\"/>",
+      "<hr/>",
+      "Ad Astra adds 2 variants of an energy transfering cable and a fluid transfering pipe. The steel variant of the energy cable transfers 64 ⚡/t, which is more than enough to get started.",
+      "<br/>",
+      "The cables and pipes in Ad Astra are really neat. Not because I wrote the functionality, definitely not because of that. They're just cool okay. >:(",
+      "<br/>",
+      "- CodexAdrian",
+      "<hr/>",
+      "<reward reward=\"4A41B355CCAF85B7\" quest=\"Steel Cable\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:steel_cable"
+    },
+    "subtitle": {
+      "text": "Zip Zap Steel"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -80,
+          32
+        ]
+      }
+    }
+  }
+}

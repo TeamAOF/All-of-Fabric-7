@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "4A5DB934B15056F6": {
+      "type": "heracles:item",
+      "item": "bewitchment:vampiric_poppet"
+    }
+  },
+  "rewards": {
+    "630A27C7B1CA77DB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:vampiric_poppet",
+    "description": [
+      "<task task=\"4A5DB934B15056F6\" quest=\"Vamipiric Poppet\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"630A27C7B1CA77DB\" quest=\"Vamipiric Poppet\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:vampiric_poppet"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          32,
+          -176
+        ]
+      }
+    }
+  }
+}

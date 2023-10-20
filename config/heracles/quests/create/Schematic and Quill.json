@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Crafting Blueprint"
+  ],
+  "tasks": {
+    "7625AC75CF47A965": {
+      "type": "heracles:item",
+      "item": "create:schematic_and_quill"
+    }
+  },
+  "rewards": {
+    "3AE348CB80C51BFF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 2,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:schematic_and_quill",
+    "description": [
+      "<h2>I know you're doing it from a creative world first</h2>",
+      "<hr/>",
+      "<task task=\"7625AC75CF47A965\" quest=\"Schematic and Quill\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3AE348CB80C51BFF\" quest=\"Schematic and Quill\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:schematic_and_quill"
+    },
+    "subtitle": {
+      "text": "I know you're doing it from a creative world first"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -192,
+          16
+        ]
+      }
+    }
+  }
+}

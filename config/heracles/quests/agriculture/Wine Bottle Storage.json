@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery"
+  ],
+  "tasks": {
+    "30F2CD3AE7937413": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "vinery:wine_rack_1"
+          },
+          {
+            "Count": 1,
+            "id": "vinery:wine_rack_2"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "4AAB3900BBFEAEE8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Wine Bottle Storage",
+    "description": [
+      "<h2>Storage for Wine Bottles.</h2>",
+      "<hr/>",
+      "<task task=\"30F2CD3AE7937413\" quest=\"Wine Bottle Storage\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AAB3900BBFEAEE8\" quest=\"Wine Bottle Storage\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Storage for Wine Bottles."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          160,
+          576
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Extractor"
+  ],
+  "tasks": {
+    "0E3A7F048E5ED97B": {
+      "type": "heracles:item",
+      "item": "techreborn:wire_mill"
+    }
+  },
+  "rewards": {
+    "63672FC3387EEA78": {
+      "type": "heracles:item",
+      "item": {
+        "id": "techreborn:rubber",
+        "count": 2
+      }
+    },
+    "7B79D20D567D573F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:wire_mill",
+    "description": [
+      "<h2>Lets you make wires efficiently</h2>",
+      "<hr/>",
+      "<task task=\"0E3A7F048E5ED97B\" quest=\"TR Wire Mill\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"63672FC3387EEA78\" quest=\"TR Wire Mill\"/>",
+      "<reward reward=\"7B79D20D567D573F\" quest=\"TR Wire Mill\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:wire_mill"
+    },
+    "subtitle": {
+      "text": "Lets you make wires efficiently"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -544,
+          -48
+        ]
+      }
+    }
+  }
+}

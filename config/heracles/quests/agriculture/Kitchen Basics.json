@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Croptopia Food Press",
+    "Croptopia Coffee",
+    "Croptopia Cooking Pot",
+    "Croptopia Salt",
+    "Croptopia Olive Oil",
+    "Croptopia Pepper",
+    "Croptopia Noodle",
+    "Croptopia Mortar and Pestle",
+    "Croptopia Wheat Flour",
+    "Croptopia Green Onion",
+    "Croptopia Butter",
+    "Croptopia Frying Pan"
+  ],
+  "tasks": {
+    "29764768B3A9EEF6": {
+      "title": "Kitchen basics",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "33180E387FE3A052": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Kitchen Basics",
+    "description": [
+      "<h2>Complete your kitchen. Feed the world.</h2>",
+      "<hr/>",
+      "<task task=\"29764768B3A9EEF6\" quest=\"Kitchen Basics\"/>",
+      "<hr/>",
+      "Complete your kitchen to expand your culinary skills",
+      "<hr/>",
+      "<reward reward=\"33180E387FE3A052\" quest=\"Kitchen Basics\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Complete your kitchen. Feed the world."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          16,
+          336
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fuel Refinery",
+    "Launch Pad",
+    "Space Suit",
+    "Oxygen Loader",
+    "NASA Workbench",
+    "Earth Metal",
+    "Steel Cable"
+  ],
+  "tasks": {
+    "0F9A475DDBED7F70": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_1_rocket"
+    }
+  },
+  "rewards": {
+    "44F35E5939C02079": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/rare",
+          "Name": "Ad Astra! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "To the Moon!",
+    "description": [
+      "<h2>You're finally ready to go to space! </h2>",
+      "<hr/>",
+      "<task task=\"0F9A475DDBED7F70\" quest=\"Tier 1 Rocket\"/>",
+      "<hr/>",
+      "After gathering all the requisite materials, you're finally ready to go into space!",
+      "<br/>",
+      "Simply make a 3x3 square out of the launch pads and right click with your rocket to place it.",
+      "<br/>",
+      "Shift right click the rocket to open its GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu.",
+      "<hr/>",
+      "<reward reward=\"44F35E5939C02079\" quest=\"Tier 1 Rocket\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_1_rocket"
+    },
+    "subtitle": {
+      "text": "You're finally ready to go to space! "
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -48,
+          0
+        ]
+      }
+    }
+  }
+}

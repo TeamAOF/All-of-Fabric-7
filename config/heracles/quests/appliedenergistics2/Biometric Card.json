@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Security Station"
+  ],
+  "tasks": {
+    "21C4930537157E49": {
+      "type": "heracles:item",
+      "item": "ae2:biometric_card"
+    }
+  },
+  "rewards": {
+    "7365A36669E59540": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:biometric_card",
+    "description": [
+      "<task task=\"21C4930537157E49\" quest=\"Biometric Card\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7365A36669E59540\" quest=\"Biometric Card\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:biometric_card"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -176,
+          0
+        ]
+      }
+    }
+  }
+}

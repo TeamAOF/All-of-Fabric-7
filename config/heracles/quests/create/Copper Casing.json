@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mechanical Press"
+  ],
+  "tasks": {
+    "53FA98C8307C834A": {
+      "type": "heracles:item",
+      "item": "create:copper_casing"
+    }
+  },
+  "rewards": {
+    "1B6D434BF6BCF5A5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:copper_casing",
+    "description": [
+      "<h2>The start of your fluid journey</h2>",
+      "<hr/>",
+      "<task task=\"53FA98C8307C834A\" quest=\"Copper Casing\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1B6D434BF6BCF5A5\" quest=\"Copper Casing\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:copper_casing"
+    },
+    "subtitle": {
+      "text": "The start of your fluid journey"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          80
+        ]
+      }
+    }
+  }
+}

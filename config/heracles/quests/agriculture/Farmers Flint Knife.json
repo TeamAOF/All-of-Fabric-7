@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Cutting Board"
+  ],
+  "tasks": {
+    "23E5FACD3C83B36A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:flint_knife"
+    }
+  },
+  "rewards": {
+    "33FE8285D644321A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:flint_knife",
+    "description": [
+      "<task task=\"23E5FACD3C83B36A\" quest=\"Farmers Flint Knife\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"33FE8285D644321A\" quest=\"Farmers Flint Knife\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:flint_knife"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -256,
+          496
+        ]
+      }
+    }
+  }
+}

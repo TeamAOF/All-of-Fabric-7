@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "0FB2E00F0013C475": {
+      "title": "Industrial Revolution",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Industrial Revolution",
+    "description": [
+      "<h2>Let the energy revolutionize!</h2>",
+      "<hr/>",
+      "<task task=\"0FB2E00F0013C475\" quest=\"IR Energy Storage\"/>",
+      "<hr/>",
+      "An Indrevian version of an energy storage device."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Let the energy revolutionize!"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          448,
+          -160
+        ]
+      }
+    }
+  }
+}

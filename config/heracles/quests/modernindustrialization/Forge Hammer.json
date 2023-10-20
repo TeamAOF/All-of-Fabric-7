@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Begin MI"
+  ],
+  "tasks": {
+    "1B769C345EAF942C": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:forge_hammer"
+    }
+  },
+  "rewards": {
+    "32DCAC1EC2A27C87": {
+      "type": "heracles:item",
+      "item": {
+        "id": "modern_industrialization:iron_hammer",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Poor Man's Compressor",
+    "description": [
+      "<task task=\"1B769C345EAF942C\" quest=\"Forge Hammer\"/>",
+      "<hr/>",
+      "Before making bronze, we will need to create a Forge Hammer.",
+      "<br/>",
+      "You can put iron, copper and tin ore in the forge hammer and you will receive 2 raw ores per ore.",
+      "<br/>",
+      "You can increase this ratio by using a Hammer.",
+      "<br/>",
+      "The Hammer increases the ratio in the Forge Hammer and unlocks more recipes, at the cost of some durability",
+      "<hr/>",
+      "<reward reward=\"32DCAC1EC2A27C87\" quest=\"Forge Hammer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:forge_hammer"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -432,
+          -48
+        ]
+      }
+    }
+  }
+}

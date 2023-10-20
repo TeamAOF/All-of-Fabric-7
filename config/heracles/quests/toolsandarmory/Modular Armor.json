@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Armory"
+  ],
+  "tasks": {
+    "5E654EBB4577464B": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_helmet"
+    },
+    "3EC5A10FAA01134D": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_chest"
+    },
+    "163EF88F92507BF1": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_legs"
+    },
+    "0A1F047C42BCE9CC": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_boots"
+    }
+  },
+  "rewards": {
+    "4FACAFE5C8B57182": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Modular Armory",
+    "description": [
+      "<h2>Smash modules on it!</h2>",
+      "<hr/>",
+      "<task task=\"5E654EBB4577464B\" quest=\"Modular Armor\"/>",
+      "<task task=\"3EC5A10FAA01134D\" quest=\"Modular Armor\"/>",
+      "<task task=\"163EF88F92507BF1\" quest=\"Modular Armor\"/>",
+      "<task task=\"0A1F047C42BCE9CC\" quest=\"Modular Armor\"/>",
+      "<hr/>",
+      "The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!",
+      "<br/>",
+      "Notice that installing modules cost time and some energy!",
+      "<hr/>",
+      "<reward reward=\"4FACAFE5C8B57182\" quest=\"Modular Armor\"/>"
+    ],
+    "subtitle": {
+      "text": "Smash modules on it!"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -272,
+          -80
+        ]
+      }
+    }
+  }
+}

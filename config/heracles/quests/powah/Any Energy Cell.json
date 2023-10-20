@@ -1,0 +1,87 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Energy Storage"
+  ],
+  "tasks": {
+    "02FE38964253A488": {
+      "title": "Energy Cell",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_cell_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "039CAD1A22774986": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Energy Cells",
+    "description": [
+      "<h2>Big Box Storin'</h2>",
+      "<hr/>",
+      "<task task=\"02FE38964253A488\" quest=\"Any Energy Cell\"/>",
+      "<hr/>",
+      "Energy cells are a great way to store energy and redistribute it later when your machines need it most.",
+      "<hr/>",
+      "<reward reward=\"039CAD1A22774986\" quest=\"Any Energy Cell\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Big Box Storin'"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -448,
+          -64
+        ]
+      }
+    }
+  }
+}

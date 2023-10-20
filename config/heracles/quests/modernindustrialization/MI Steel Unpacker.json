@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Steel Ingot"
+  ],
+  "tasks": {
+    "58691A4447512CEE": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_unpacker"
+    }
+  },
+  "rewards": {
+    "2073E7B9271D4734": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:steel_unpacker",
+    "description": [
+      "<h2>A new machine only available in steel... Guess what it does.</h2>",
+      "<hr/>",
+      "<task task=\"58691A4447512CEE\" quest=\"MI Steel Unpacker\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2073E7B9271D4734\" quest=\"MI Steel Unpacker\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_unpacker"
+    },
+    "subtitle": {
+      "text": "A new machine only available in steel... Guess what it does."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -160,
+          -112
+        ]
+      }
+    }
+  }
+}

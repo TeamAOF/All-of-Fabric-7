@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "6CA5629377C7E780": {
+      "type": "heracles:item",
+      "item": "croptopia:chocolate_milkshake"
+    }
+  },
+  "rewards": {
+    "77977C6CD72E5901": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:chocolate_milkshake",
+    "description": [
+      "<task task=\"6CA5629377C7E780\" quest=\"Croptopia Chocolate Milkshake\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"77977C6CD72E5901\" quest=\"Croptopia Chocolate Milkshake\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:chocolate_milkshake"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          320,
+          448
+        ]
+      }
+    }
+  }
+}

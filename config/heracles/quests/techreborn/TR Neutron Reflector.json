@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Begin Tech Reborn",
+    "TR Coal Dust"
+  ],
+  "tasks": {
+    "63C31057EF1EDA2B": {
+      "type": "heracles:item",
+      "item": "techreborn:neutron_reflector"
+    }
+  },
+  "rewards": {
+    "6AEC3535DC8AC2AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:neutron_reflector",
+    "description": [
+      "<h2>Requires Coal Dust quest to unlock.</h2>",
+      "<hr/>",
+      "<task task=\"63C31057EF1EDA2B\" quest=\"TR Neutron Reflector\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6AEC3535DC8AC2AF\" quest=\"TR Neutron Reflector\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:neutron_reflector"
+    },
+    "subtitle": {
+      "text": "Requires Coal Dust quest to unlock."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          240,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "0513DA54B544E113": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fried_rice"
+    }
+  },
+  "rewards": {
+    "5BC29EE1788EEBC1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:fried_rice",
+    "description": [
+      "<task task=\"0513DA54B544E113\" quest=\"Farmers Delight Fried Rice\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5BC29EE1788EEBC1\" quest=\"Farmers Delight Fried Rice\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fried_rice"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -176,
+          272
+        ]
+      }
+    }
+  }
+}

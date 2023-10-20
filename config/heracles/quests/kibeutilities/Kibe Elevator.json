@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Handy Dandy Utilities"
+  ],
+  "tasks": {
+    "5E20F61EB482457C": {
+      "type": "heracles:item",
+      "item": "kibe:white_elevator"
+    }
+  },
+  "rewards": {
+    "05F4689E96A18A44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:white_elevator",
+    "description": [
+      "<h2>When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it.</h2>",
+      "<hr/>",
+      "<task task=\"5E20F61EB482457C\" quest=\"Kibe Elevator\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05F4689E96A18A44\" quest=\"Kibe Elevator\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:white_elevator"
+    },
+    "subtitle": {
+      "text": "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          144,
+          -208
+        ]
+      }
+    }
+  }
+}

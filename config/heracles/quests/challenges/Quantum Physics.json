@@ -1,0 +1,89 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Are you worthy"
+  ],
+  "tasks": {
+    "2C0CB64FEB3B5231": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_helmet"
+    },
+    "084F5D6F0CC6EA1B": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_chestplate"
+    },
+    "562636C5CC110A71": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_leggings"
+    },
+    "57330A353CA74D1C": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_boots"
+    },
+    "4A147AB84CC2EABE": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_sword"
+    },
+    "5C5E2952B74F3C83": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:replicator"
+    }
+  },
+  "rewards": {
+    "3AE3A57C68514949": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:quantum"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§dQuantum Physics",
+    "description": [
+      "<h2>Ethereal powers!</h2>",
+      "<hr/>",
+      "<task task=\"2C0CB64FEB3B5231\" quest=\"Quantum Physics\"/>",
+      "<task task=\"084F5D6F0CC6EA1B\" quest=\"Quantum Physics\"/>",
+      "<task task=\"562636C5CC110A71\" quest=\"Quantum Physics\"/>",
+      "<task task=\"57330A353CA74D1C\" quest=\"Quantum Physics\"/>",
+      "<task task=\"4A147AB84CC2EABE\" quest=\"Quantum Physics\"/>",
+      "<task task=\"5C5E2952B74F3C83\" quest=\"Quantum Physics\"/>",
+      "<hr/>",
+      "Craft &&reverything &&bquantum &&rand shape your own future&&r.",
+      "<br/>",
+      "It'll be a long journey, can you do it?",
+      "<br/>",
+      "- &&bQuantum Sword",
+      "Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it.",
+      "<br/>",
+      "- &&bQuantum Armor",
+      "Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken.",
+      "<br/>",
+      "- &&bThe Replicator",
+      "With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!",
+      "<hr/>",
+      "<reward reward=\"3AE3A57C68514949\" quest=\"Quantum Physics\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_upgrade"
+    },
+    "subtitle": {
+      "text": "Ethereal powers!"
+    },
+    "groups": {
+      "Challenges": {
+        "position": [
+          -72,
+          120
+        ]
+      }
+    }
+  }
+}

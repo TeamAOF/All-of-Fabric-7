@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "06CBBFF5AC7D4646": {
+      "type": "heracles:item",
+      "item": "itemfilters:item_group",
+      "nbt": {
+        "value": "harvest_scythes.scythes"
+      }
+    }
+  },
+  "rewards": {
+    "33D1AEEC6B2CD5AE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Scythes",
+    "description": [
+      "<h2>Harvest crops in a range!</h2>",
+      "<hr/>",
+      "<task task=\"06CBBFF5AC7D4646\" quest=\"Scythes\"/>",
+      "<hr/>",
+      "Right clicking with a scythe will harvest (and replant) nearby crops in a certain range based on the tool, if those crops are fully grown.",
+      "<br/>",
+      "Right clicking on dirt/grass turns it into farmland like a normal hoe.",
+      "<br/>",
+      "Some scythes will harvest in a circular shape, whilst others will harvest in a square shape, based on their tier.",
+      "<br/>",
+      "There is also a scythe-only enchant \"Crop Reaper\" that increases their range.",
+      "<hr/>",
+      "<reward reward=\"33D1AEEC6B2CD5AE\" quest=\"Scythes\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:item_group"
+    },
+    "subtitle": {
+      "text": "Harvest crops in a range!"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          64,
+          80
+        ]
+      }
+    }
+  }
+}

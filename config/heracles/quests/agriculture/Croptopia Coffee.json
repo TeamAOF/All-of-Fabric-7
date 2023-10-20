@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "7698D7F854E0BD43": {
+      "type": "heracles:item",
+      "item": "croptopia:coffee"
+    }
+  },
+  "rewards": {
+    "00401C5DE9E3BBE9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:coffee",
+    "description": [
+      "<task task=\"7698D7F854E0BD43\" quest=\"Croptopia Coffee\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"00401C5DE9E3BBE9\" quest=\"Croptopia Coffee\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:coffee"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          400
+        ]
+      }
+    }
+  }
+}

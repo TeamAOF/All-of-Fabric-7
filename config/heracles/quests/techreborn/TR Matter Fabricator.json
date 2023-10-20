@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Scrap",
+    "TR Lapotronic Orb Item",
+    "TR Industrial Machine Frame"
+  ],
+  "tasks": {
+    "41A767CEF823633B": {
+      "type": "heracles:item",
+      "item": "techreborn:matter_fabricator"
+    }
+  },
+  "rewards": {
+    "502D94C89D8EF078": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:matter_fabricator",
+    "description": [
+      "<h2>Requires Lapotronic Energy Orb and Industrial Machine Frame quests.</h2>",
+      "<hr/>",
+      "<task task=\"41A767CEF823633B\" quest=\"TR Matter Fabricator\"/>",
+      "<hr/>",
+      "Used to produce UU-Matter which in turn can be used to craft various vanilla items.",
+      "<br/>",
+      "Both Scrap and Scrap Boxes can be used in the Matter Fabricator. ",
+      "<br/>",
+      "The first one will give you 2% on the progress bar for producing a single piece of UU-Matter which means that to produce 1x UU-Matter, you will need 50x Scrap.",
+      "<hr/>",
+      "<reward reward=\"502D94C89D8EF078\" quest=\"TR Matter Fabricator\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:matter_fabricator"
+    },
+    "subtitle": {
+      "text": "Requires Lapotronic Energy Orb and Industrial Machine Frame quests."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -208,
+          -352
+        ]
+      }
+    }
+  }
+}

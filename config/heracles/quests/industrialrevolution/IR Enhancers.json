@@ -1,0 +1,76 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Empty Enhancer"
+  ],
+  "tasks": {
+    "056A302B4A42091A": {
+      "type": "heracles:item",
+      "item": "indrev:buffer_enhancer"
+    },
+    "6AA190C4346A526C": {
+      "type": "heracles:item",
+      "item": "indrev:speed_enhancer"
+    },
+    "0D800109FAF6E8CD": {
+      "type": "heracles:item",
+      "item": "indrev:blast_furnace_enhancer"
+    },
+    "7D6E4AA15A9FC4D7": {
+      "type": "heracles:item",
+      "item": "indrev:smoker_enhancer"
+    },
+    "2CC2B59693FA6602": {
+      "type": "heracles:item",
+      "item": "indrev:damage_enhancer"
+    }
+  },
+  "rewards": {
+    "6B858052DF67DC3E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Enhancers",
+    "description": [
+      "<h2>These upgrades will improve certain aspects of the machine like speed and energy usage.</h2>",
+      "<hr/>",
+      "<task task=\"056A302B4A42091A\" quest=\"IR Enhancers\"/>",
+      "<task task=\"6AA190C4346A526C\" quest=\"IR Enhancers\"/>",
+      "<task task=\"0D800109FAF6E8CD\" quest=\"IR Enhancers\"/>",
+      "<task task=\"7D6E4AA15A9FC4D7\" quest=\"IR Enhancers\"/>",
+      "<task task=\"2CC2B59693FA6602\" quest=\"IR Enhancers\"/>",
+      "<hr/>",
+      "Speed: will increase the machine's processing speed at cost of energy.",
+      "<br/>",
+      "Buffer: will increase the machine's internal energy capacity.",
+      "<br/>",
+      "Blasting: will make the Electric Furnace accept Blast Furnace recipes.",
+      "<br/>",
+      "Smoker: will make the Electric Furnace accept Smoker recipes.",
+      "<hr/>",
+      "<reward reward=\"6B858052DF67DC3E\" quest=\"IR Enhancers\"/>"
+    ],
+    "subtitle": {
+      "text": "These upgrades will improve certain aspects of the machine like speed and energy usage."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -400,
+          32
+        ]
+      }
+    }
+  }
+}

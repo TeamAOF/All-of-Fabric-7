@@ -1,0 +1,68 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "62A9D698CC370BEE": {
+      "type": "heracles:item",
+      "item": "itemfilters:mod",
+      "nbt": {
+        "value": "gag"
+      }
+    }
+  },
+  "rewards": {
+    "082DE961EAB1AF5A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "luggage:luggage"
+      }
+    }
+  },
+  "display": {
+    "title": "Gadgets Against Grind",
+    "description": [
+      "<h2>With a hint of laziness.</h2>",
+      "<hr/>",
+      "<task task=\"62A9D698CC370BEE\" quest=\"Gadgets Against The Grind\"/>",
+      "<hr/>",
+      "&&nThis mod offers the following items:",
+      "<br/>",
+      "&&6- &&bEscape Rope",
+      "A way to easily teleport your way out of caves.",
+      "<br/>",
+      "&&6- &&bEnergized Hearthstone",
+      "A way to teleport to your personal respawn anchor or bed (Hearthstone) or any set location in the world!",
+      "<br/>",
+      "&&6- &&bNo Soliciting! Sign",
+      "A way to block certain pesky intruders from spawning near you.",
+      "<br/>",
+      "&&6- &&bTemporal Pouch",
+      "A way to tick accelerate blocks, Time-in-a-Bottle style.",
+      "<br/>",
+      "&&6- &&bSacred Salt, Balm and Salve",
+      "A way to stop mobs from spawning near you temporarily, enabling you to mine in peace.",
+      "<br/>",
+      "&&6- &&bLabeling Tool",
+      "A way to rename your items on the go without consuming tons of experience.",
+      "<hr/>",
+      "<reward reward=\"082DE961EAB1AF5A\" quest=\"Gadgets Against The Grind\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:mod"
+    },
+    "subtitle": {
+      "text": "With a hint of laziness."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -96,
+          48
+        ]
+      }
+    }
+  }
+}

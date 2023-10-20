@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Fluid Pipe MK2"
+  ],
+  "tasks": {
+    "338A6D704171F6EC": {
+      "type": "heracles:item",
+      "item": "indrev:fluid_pipe_mk3"
+    }
+  },
+  "rewards": {
+    "791B97E8B46C3AB4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:fluid_pipe_mk3",
+    "description": [
+      "<task task=\"338A6D704171F6EC\" quest=\"IR Fluid Pipe MK3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"791B97E8B46C3AB4\" quest=\"IR Fluid Pipe MK3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:fluid_pipe_mk3"
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -448,
+          -112
+        ]
+      }
+    }
+  }
+}

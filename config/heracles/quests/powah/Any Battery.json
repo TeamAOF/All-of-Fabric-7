@@ -1,0 +1,94 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Energy Storage"
+  ],
+  "tasks": {
+    "7C11C6028FA55AD5": {
+      "title": "Battery",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:battery_starter",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "powah:battery_basic",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "powah:battery_hardened",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "powah:battery_blazing",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "powah:battery_niotic",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "powah:battery_spirited",
+            "tag": {}
+          },
+          {
+            "Count": 1,
+            "id": "powah:battery_nitro",
+            "tag": {}
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "65518AA5E8ECF7D0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Battery",
+    "description": [
+      "<h2>The power of the sun in the palm of my hand</h2>",
+      "<hr/>",
+      "<task task=\"7C11C6028FA55AD5\" quest=\"Any Battery\"/>",
+      "<hr/>",
+      "While there aren't many inventory items in Powah that require energy, the batteries from Powah are quite helpful in helping you power your tools from other mods, like Industrial Revolution or Tech Reborn.",
+      "<hr/>",
+      "<reward reward=\"65518AA5E8ECF7D0\" quest=\"Any Battery\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "The power of the sun in the palm of my hand"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -400,
+          -112
+        ]
+      }
+    }
+  }
+}

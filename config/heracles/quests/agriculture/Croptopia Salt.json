@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "0BEEEB3684C7E8AB": {
+      "type": "heracles:item",
+      "item": "croptopia:salt"
+    }
+  },
+  "rewards": {
+    "74E3F500D9766172": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:salt",
+    "description": [
+      "<task task=\"0BEEEB3684C7E8AB\" quest=\"Croptopia Salt\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"74E3F500D9766172\" quest=\"Croptopia Salt\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:salt"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -48,
+          384
+        ]
+      }
+    }
+  }
+}

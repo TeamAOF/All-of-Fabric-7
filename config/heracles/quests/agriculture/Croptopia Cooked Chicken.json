@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kitchen Basics"
+  ],
+  "tasks": {
+    "149B98622220A1B0": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "rewards": {
+    "24F48C1C335F53AF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: minecraft:cooked_chicken",
+    "description": [
+      "<h2>Tastes like everything.. or does everything taste like it?</h2>",
+      "<hr/>",
+      "<task task=\"149B98622220A1B0\" quest=\"Croptopia Cooked Chicken\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"24F48C1C335F53AF\" quest=\"Croptopia Cooked Chicken\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_chicken"
+    },
+    "subtitle": {
+      "text": "Tastes like everything.. or does everything taste like it?"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          16,
+          240
+        ]
+      }
+    }
+  }
+}

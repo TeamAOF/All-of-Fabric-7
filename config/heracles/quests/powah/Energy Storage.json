@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "2ABFE7FABC8CAD49": {
+      "title": "Energy Storage",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Energy Storage",
+    "description": [
+      "<h2>Zzzt Zzzt</h2>",
+      "<hr/>",
+      "<task task=\"2ABFE7FABC8CAD49\" quest=\"Energy Storage\"/>",
+      "<hr/>",
+      "Powah is quite a powerful mod that will quickly makes your machines full of power. You'll want to find a way to store energy both on the go and in your base to make a more effective setup."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Zzzt Zzzt"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -400,
+          -64
+        ]
+      }
+    }
+  }
+}

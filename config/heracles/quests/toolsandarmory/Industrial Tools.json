@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "6C643470AFDDBCA8": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_drill"
+    },
+    "53482D59ADAE2691": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_chainsaw"
+    },
+    "25E72AB0C71E8D5F": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_jackhammer"
+    }
+  },
+  "rewards": {
+    "7D6B7C6B76782BCC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Industrial Tools",
+    "description": [
+      "<task task=\"6C643470AFDDBCA8\" quest=\"Industrial Tools\"/>",
+      "<task task=\"53482D59ADAE2691\" quest=\"Industrial Tools\"/>",
+      "<task task=\"25E72AB0C71E8D5F\" quest=\"Industrial Tools\"/>",
+      "<hr/>",
+      "Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. ",
+      "<br/>",
+      "Industrial Chainsaw is a top tier chainsaw.  It has 1M Energy storage. Chainsaw could be used as a replacement for Diamond Axe and able to chop down whole tree at once. It will cost 150 Energy to break one block.",
+      "<br/>",
+      "Industrial Jackhammer is a top tier JackHammer.  It has 1M energy storage.  Industrial Jackhammer is capable of 3×3 and 5×5 AoE mining when set to active. It will cost 150 energy to break one block.",
+      "<hr/>",
+      "<reward reward=\"7D6B7C6B76782BCC\" quest=\"Industrial Tools\"/>"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          96,
+          16
+        ]
+      }
+    }
+  }
+}

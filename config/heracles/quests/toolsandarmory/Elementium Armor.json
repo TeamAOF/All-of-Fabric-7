@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Armory"
+  ],
+  "tasks": {
+    "6443CB4EA4556356": {
+      "type": "heracles:item",
+      "item": "botania:elementium_helmet"
+    },
+    "3F3830E0938CBB40": {
+      "type": "heracles:item",
+      "item": "botania:elementium_chestplate"
+    },
+    "3547154495AA785B": {
+      "type": "heracles:item",
+      "item": "botania:elementium_leggings"
+    },
+    "6ED55F2B0C34748D": {
+      "type": "heracles:item",
+      "item": "botania:elementium_boots"
+    }
+  },
+  "rewards": {
+    "754CE8CB0336E6D3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§dElementium Armory",
+    "description": [
+      "<h2>Made in the Portal to Alfheim.</h2>",
+      "<hr/>",
+      "<task task=\"6443CB4EA4556356\" quest=\"Elementium Armor\"/>",
+      "<task task=\"3F3830E0938CBB40\" quest=\"Elementium Armor\"/>",
+      "<task task=\"3547154495AA785B\" quest=\"Elementium Armor\"/>",
+      "<task task=\"6ED55F2B0C34748D\" quest=\"Elementium Armor\"/>",
+      "<hr/>",
+      "If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:",
+      "<br/>",
+      "> 10% decrease of the Mana cost on all Mana-using tools and rods,",
+      "<br/>",
+      "> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness.",
+      "<hr/>",
+      "<reward reward=\"754CE8CB0336E6D3\" quest=\"Elementium Armor\"/>"
+    ],
+    "subtitle": {
+      "text": "Made in the Portal to Alfheim."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -256,
+          80
+        ]
+      }
+    }
+  }
+}

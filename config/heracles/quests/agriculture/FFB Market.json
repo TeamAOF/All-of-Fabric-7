@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "tasks": {
+    "62B614931DDB6161": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:market"
+    }
+  },
+  "rewards": {
+    "52CF4CD08EC8C560": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmingforblockheads:market",
+    "description": [
+      "<h2>Your market of choice for seeds and crops.</h2>",
+      "<hr/>",
+      "<task task=\"62B614931DDB6161\" quest=\"FFB Market\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52CF4CD08EC8C560\" quest=\"FFB Market\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:market"
+    },
+    "subtitle": {
+      "text": "Your market of choice for seeds and crops."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -192,
+          480
+        ]
+      }
+    }
+  }
+}

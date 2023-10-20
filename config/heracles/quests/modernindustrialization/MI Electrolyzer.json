@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Electronic Circuit"
+  ],
+  "tasks": {
+    "4ECD4D66C0DAB6AC": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electrolyzer"
+    }
+  },
+  "rewards": {
+    "04DD0ADC4866C2BE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:electrolyzer",
+    "description": [
+      "<h2>Can split materials into their different parts using strong electric currents.</h2>",
+      "<hr/>",
+      "<task task=\"4ECD4D66C0DAB6AC\" quest=\"MI Electrolyzer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"04DD0ADC4866C2BE\" quest=\"MI Electrolyzer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electrolyzer"
+    },
+    "subtitle": {
+      "text": "Can split materials into their different parts using strong electric currents."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          240,
+          32
+        ]
+      }
+    }
+  }
+}

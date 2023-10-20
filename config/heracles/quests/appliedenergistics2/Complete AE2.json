@@ -1,0 +1,94 @@
+{
+  "settings": {},
+  "dependencies": [
+    "AE2 Drive",
+    "64K Crafting Storage",
+    "16K Crafting Storage",
+    "Item Storage Cell 16K",
+    "Pattern Encording Terminal",
+    "Quantum Link",
+    "Fluix Smart Dense Cable",
+    "Inscriber",
+    "Molecular Assembler",
+    "Export Bus",
+    "Wireless Terminal",
+    "ME P2P Tunnel",
+    "Quantum Entangled Singularity",
+    "Wireless Access Point",
+    "AE2 Interface",
+    "Item Storage Cell 64K",
+    "1K Crafting Storage",
+    "Security and Wireless",
+    "Charged Certus Quartz Crystal",
+    "Item Storage Cell 4K",
+    "Crafting Unit",
+    "Wireless Booster",
+    "Item Storage Cell 1K",
+    "Import Bus",
+    "Quantum Ring",
+    "Pattern Provider",
+    "4K Crafting Storage",
+    "Terminal",
+    "AE2 Controller",
+    "Crystals are the way",
+    "Storage Bus",
+    "Fluix Crystal",
+    "Memory Card",
+    "Biometric Card",
+    "Automation is Key",
+    "Storage and Transport",
+    "Fluix Smart Cable",
+    "Charger",
+    "Energy Acceptor",
+    "Quartz Growth Accelerator",
+    "Crafting Terminal",
+    "Security Station",
+    "Fluix Glass Cable"
+  ],
+  "tasks": {
+    "11F8FBAD482A9E3E": {
+      "title": "&9Applied &bEnergistics",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5F4AF240E4659BEF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ae2"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§9Applied §bEnergistics",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"11F8FBAD482A9E3E\" quest=\"Complete AE2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5F4AF240E4659BEF\" quest=\"Complete AE2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

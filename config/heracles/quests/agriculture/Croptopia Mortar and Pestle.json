@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "5ABFDDA4A799AA50": {
+      "type": "heracles:item",
+      "item": "croptopia:mortar_and_pestle"
+    }
+  },
+  "rewards": {
+    "1CCE2762441CD03A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:mortar_and_pestle",
+    "description": [
+      "<task task=\"5ABFDDA4A799AA50\" quest=\"Croptopia Mortar and Pestle\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1CCE2762441CD03A\" quest=\"Croptopia Mortar and Pestle\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:mortar_and_pestle"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -16,
+          272
+        ]
+      }
+    }
+  }
+}

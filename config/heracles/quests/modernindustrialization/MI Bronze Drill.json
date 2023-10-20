@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Hatchback"
+  ],
+  "tasks": {
+    "624F6E6D7A45923D": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "modern_industrialization:bronze_drill"
+    }
+  },
+  "rewards": {
+    "45565E85A3748F82": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Bronze drill",
+    "description": [
+      "<h2>Used in the quarry. Check REI for outputs.</h2>",
+      "<hr/>",
+      "<task task=\"624F6E6D7A45923D\" quest=\"MI Bronze Drill\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"45565E85A3748F82\" quest=\"MI Bronze Drill\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_drill"
+    },
+    "subtitle": {
+      "text": "Used in the quarry. Check REI for outputs."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -112,
+          -208
+        ]
+      }
+    }
+  }
+}

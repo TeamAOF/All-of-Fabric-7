@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Big Torch"
+  ],
+  "tasks": {
+    "255905463378A934": {
+      "type": "heracles:item",
+      "item": "kibe:dehumidifier"
+    }
+  },
+  "rewards": {
+    "20904478F7CE8181": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:dehumidifier",
+    "description": [
+      "<task task=\"255905463378A934\" quest=\"Kibe Dehumidifer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20904478F7CE8181\" quest=\"Kibe Dehumidifer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:dehumidifier"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -80,
+          -160
+        ]
+      }
+    }
+  }
+}

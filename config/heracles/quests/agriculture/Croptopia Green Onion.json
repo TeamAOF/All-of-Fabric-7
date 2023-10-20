@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "5EF171AFB4049ADE": {
+      "type": "heracles:item",
+      "item": "croptopia:greenonion"
+    }
+  },
+  "rewards": {
+    "168D9EAC2A7EC4D4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:greenonion",
+    "description": [
+      "<task task=\"5EF171AFB4049ADE\" quest=\"Croptopia Green Onion\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"168D9EAC2A7EC4D4\" quest=\"Croptopia Green Onion\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:greenonion"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          80,
+          288
+        ]
+      }
+    }
+  }
+}

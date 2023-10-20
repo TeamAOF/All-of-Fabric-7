@@ -1,0 +1,138 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Are you worthy"
+  ],
+  "tasks": {
+    "6E802DA4BECBA8FD": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "farmersdelight:steak_and_potatoes",
+      "collection": "MANUAL"
+    },
+    "220729A89B4CACBC": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "collection": "MANUAL"
+    },
+    "73CDF0DFBCE93D91": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "farmersdelight:grilled_salmon",
+      "collection": "MANUAL"
+    },
+    "776FA22E4BF48CA4": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "farmersdelight:stuffed_potato",
+      "collection": "MANUAL"
+    },
+    "116F0EAC536F98E0": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "farmersdelight:barbecue_stick",
+      "collection": "MANUAL"
+    },
+    "36AD733AEFC78B15": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "croptopia:fish_and_chips",
+      "collection": "MANUAL"
+    },
+    "71C16F3D34ABA15E": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "farmersdelight:dumplings",
+      "collection": "MANUAL"
+    },
+    "2E2A693C93C5A838": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "croptopia:tres_leche_cake",
+      "collection": "MANUAL"
+    },
+    "0881465B825D57BD": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "croptopia:trifle",
+      "collection": "MANUAL"
+    },
+    "12D4B1763C101794": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "croptopia:sticky_toffee_pudding",
+      "collection": "MANUAL"
+    },
+    "3B3A38AFCEE30AD1": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "croptopia:pumpkin_spice_latte",
+      "collection": "MANUAL"
+    },
+    "4B83D0C3A6B25CBC": {
+      "type": "heracles:item",
+      "amount": 2500,
+      "item": "croptopia:the_big_breakfast",
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "7D84DE2A7D4C2586": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:cooking"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§cHell's Kitchen",
+    "description": [
+      "<h2>So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers.</h2>",
+      "<hr/>",
+      "<task task=\"6E802DA4BECBA8FD\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"220729A89B4CACBC\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"73CDF0DFBCE93D91\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"776FA22E4BF48CA4\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"116F0EAC536F98E0\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"36AD733AEFC78B15\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"71C16F3D34ABA15E\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"2E2A693C93C5A838\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"0881465B825D57BD\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"12D4B1763C101794\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"3B3A38AFCEE30AD1\" quest=\"Hells Kitchen\"/>",
+      "<task task=\"4B83D0C3A6B25CBC\" quest=\"Hells Kitchen\"/>",
+      "<hr/>",
+      "&&6To submit items&&r, left click the &&bfood type&&r of choice and &&6hand in&&r.",
+      "<br/>",
+      "Recommended to make &&bWater Bottles &&rfrom &&6Croptopia &&rfor the recipes requiring it.",
+      "<br/>",
+      "&&bWater Bottles &&rcan be automated with a simple &&bDrain &&rfrom &&6Tech Reborn &&rand a &&bTank Unit &&rbelow it.",
+      "<br/>",
+      "Put buckets in said &&bTank Unit &&rand have them output into either a buffer or directly into &&bME&&r, craft these into &&bWater Bottles &&rfrom &&6Croptopia.",
+      "<hr/>",
+      "<reward reward=\"7D84DE2A7D4C2586\" quest=\"Hells Kitchen\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot"
+    },
+    "subtitle": {
+      "text": "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
+    },
+    "groups": {
+      "Challenges": {
+        "position": [
+          216,
+          120
+        ]
+      }
+    }
+  }
+}

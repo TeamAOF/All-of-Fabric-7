@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Carbon Plate",
+    "TR Advanced Alloy Plate"
+  ],
+  "tasks": {
+    "21CE3972D3F6DED3": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_frame"
+    }
+  },
+  "rewards": {
+    "1F04CB5CD8D854AE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:advanced_machine_frame",
+    "description": [
+      "<h2>A crafting ingredient used to build advanced machines.</h2>",
+      "<hr/>",
+      "<task task=\"21CE3972D3F6DED3\" quest=\"TR Advanced Machine Frame\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1F04CB5CD8D854AE\" quest=\"TR Advanced Machine Frame\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_frame"
+    },
+    "subtitle": {
+      "text": "A crafting ingredient used to build advanced machines."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -288,
+          -192
+        ]
+      }
+    }
+  }
+}

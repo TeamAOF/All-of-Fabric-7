@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "220C287EA8EA4D01": {
+      "type": "heracles:item",
+      "item": "farmersdelight:noodle_soup"
+    }
+  },
+  "rewards": {
+    "19719393DA92EC43": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:noodle_soup",
+    "description": [
+      "<task task=\"220C287EA8EA4D01\" quest=\"Farmers Delight Noodle Soup\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"19719393DA92EC43\" quest=\"Farmers Delight Noodle Soup\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:noodle_soup"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          240,
+          336
+        ]
+      }
+    }
+  }
+}

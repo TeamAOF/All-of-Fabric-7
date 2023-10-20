@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Digital Circuit"
+  ],
+  "tasks": {
+    "54C9073262B25D06": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillation_tower"
+    }
+  },
+  "rewards": {
+    "6BB49CCD899CE1BF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:distillation_tower",
+    "description": [
+      "<h2>Once you get some digital circuits going, make sure to build a Distillation Tower.</h2>",
+      "<hr/>",
+      "<task task=\"54C9073262B25D06\" quest=\"MI Distillation Tower\"/>",
+      "<hr/>",
+      "The Distillery only gives you one oil processing output, but the tower gives you ONE PER LAYER!",
+      "<br/>",
+      "To change the height of the Distillation Tower, right-click it with a screwdriver. This applies to other multiblocks with multiple shapes as well, such as the Kanthal tier EBF.",
+      "<hr/>",
+      "<reward reward=\"6BB49CCD899CE1BF\" quest=\"MI Distillation Tower\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillation_tower"
+    },
+    "subtitle": {
+      "text": "Once you get some digital circuits going, make sure to build a Distillation Tower."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          464,
+          -208
+        ]
+      }
+    }
+  }
+}

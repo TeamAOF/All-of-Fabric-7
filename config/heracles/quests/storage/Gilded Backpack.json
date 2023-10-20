@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Plated Backpack"
+  ],
+  "tasks": {
+    "4D0B7E2ED1BBA1DD": {
+      "type": "heracles:item",
+      "item": "inmis:gilded_backpack"
+    }
+  },
+  "rewards": {
+    "12B8A09A6983EBBC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: inmis:gilded_backpack",
+    "description": [
+      "<task task=\"4D0B7E2ED1BBA1DD\" quest=\"Gilded Backpack\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12B8A09A6983EBBC\" quest=\"Gilded Backpack\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "inmis:gilded_backpack"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          128,
+          -48
+        ]
+      }
+    }
+  }
+}

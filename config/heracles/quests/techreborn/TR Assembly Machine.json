@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "798D314ED3ACD680": {
+      "type": "heracles:item",
+      "item": "techreborn:assembly_machine"
+    }
+  },
+  "rewards": {
+    "5BB9285EC26330EE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:assembly_machine",
+    "description": [
+      "<h2>Used to assemble components out of ingredients.</h2>",
+      "<hr/>",
+      "<task task=\"798D314ED3ACD680\" quest=\"TR Assembly Machine\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5BB9285EC26330EE\" quest=\"TR Assembly Machine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:assembly_machine"
+    },
+    "subtitle": {
+      "text": "Used to assemble components out of ingredients."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -64,
+          96
+        ]
+      }
+    }
+  }
+}

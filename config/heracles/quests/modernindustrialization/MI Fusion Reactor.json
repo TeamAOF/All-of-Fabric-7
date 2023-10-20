@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Quantum Circuit"
+  ],
+  "tasks": {
+    "3F8F140654BCBDCA": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:fusion_reactor"
+    },
+    "0ED2032159A96066": {
+      "type": "heracles:item",
+      "amount": 40,
+      "item": "modern_industrialization:fusion_chamber"
+    },
+    "64AE82C5CFDBF6D2": {
+      "type": "heracles:item",
+      "amount": 203,
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    }
+  },
+  "rewards": {
+    "3250ACF1DEC619C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/legendary",
+          "Name": "Modern Industrialization Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>The Fusion Reactor is the ultimate energy source!</h2>",
+      "<hr/>",
+      "<task task=\"3F8F140654BCBDCA\" quest=\"MI Fusion Reactor\"/>",
+      "<task task=\"0ED2032159A96066\" quest=\"MI Fusion Reactor\"/>",
+      "<task task=\"64AE82C5CFDBF6D2\" quest=\"MI Fusion Reactor\"/>",
+      "<hr/>",
+      "It can combine Deuterium, Tritium, and/or Helium-3 into Helium Plasma, the most powerful fuel in the game!",
+      "<br/>",
+      "However, it requires a large amount of energy to ignite the reaction.",
+      "<hr/>",
+      "<reward reward=\"3250ACF1DEC619C2\" quest=\"MI Fusion Reactor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:fusion_reactor"
+    },
+    "subtitle": {
+      "text": "The Fusion Reactor is the ultimate energy source!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          832,
+          -48
+        ]
+      }
+    }
+  }
+}

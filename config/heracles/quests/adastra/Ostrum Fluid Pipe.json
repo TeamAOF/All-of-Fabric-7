@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "0BB137802A1EADAE": {
+      "type": "heracles:item",
+      "item": "ad_astra:ostrum_fluid_pipe"
+    }
+  },
+  "rewards": {
+    "10794B239A676B9B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/epic",
+          "Name": "Ad Astra! Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ad_astra:ostrum_fluid_pipe",
+    "description": [
+      "<h2>Overclocked Ostrum</h2>",
+      "<hr/>",
+      "<task task=\"0BB137802A1EADAE\" quest=\"Ostrum Fluid Pipe\"/>",
+      "<hr/>",
+      "The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate.",
+      "<hr/>",
+      "<reward reward=\"10794B239A676B9B\" quest=\"Ostrum Fluid Pipe\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:ostrum_fluid_pipe"
+    },
+    "subtitle": {
+      "text": "Overclocked Ostrum"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          208,
+          32
+        ]
+      }
+    }
+  }
+}

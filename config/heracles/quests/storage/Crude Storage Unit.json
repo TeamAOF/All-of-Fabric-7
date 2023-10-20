@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tech Reborn Storage"
+  ],
+  "tasks": {
+    "14EAC75C541EAC9F": {
+      "type": "heracles:item",
+      "item": "techreborn:crude_storage_unit"
+    }
+  },
+  "rewards": {
+    "2D4672D6BE065F13": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Crude Storage Unit",
+    "description": [
+      "<h2>Storage drawer in disguise.</h2>",
+      "<hr/>",
+      "<task task=\"14EAC75C541EAC9F\" quest=\"Crude Storage Unit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D4672D6BE065F13\" quest=\"Crude Storage Unit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:crude_storage_unit"
+    },
+    "subtitle": {
+      "text": "Storage drawer in disguise."
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          256,
+          -112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Stainless Steel Barrel"
+  ],
+  "tasks": {
+    "477D2F4E7B22493B": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_barrel"
+    }
+  },
+  "rewards": {
+    "17B951959802C1F7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:titanium_barrel",
+    "description": [
+      "<task task=\"477D2F4E7B22493B\" quest=\"MI Titanium Barrel\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"17B951959802C1F7\" quest=\"MI Titanium Barrel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_barrel"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          368,
+          16
+        ]
+      }
+    }
+  }
+}

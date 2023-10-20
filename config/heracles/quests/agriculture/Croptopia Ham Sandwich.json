@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Croptopia Cooked Porkchop"
+  ],
+  "tasks": {
+    "75D200E9D984A3D2": {
+      "type": "heracles:item",
+      "item": "croptopia:ham_sandwich"
+    }
+  },
+  "rewards": {
+    "3D25D54327A3F3D5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:ham_sandwich",
+    "description": [
+      "<task task=\"75D200E9D984A3D2\" quest=\"Croptopia Ham Sandwich\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3D25D54327A3F3D5\" quest=\"Croptopia Ham Sandwich\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:ham_sandwich"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          176,
+          304
+        ]
+      }
+    }
+  }
+}

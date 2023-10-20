@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Security and Wireless"
+  ],
+  "tasks": {
+    "6FDD185D41E3E494": {
+      "type": "heracles:item",
+      "item": "ae2:security_station"
+    }
+  },
+  "rewards": {
+    "08E65237A30C764B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:security_station",
+    "description": [
+      "<h2>Allows you to configure which users, and what permissions the users have with the ME System.</h2>",
+      "<hr/>",
+      "<task task=\"6FDD185D41E3E494\" quest=\"Security Station\"/>",
+      "<hr/>",
+      "By existing it enforces permissions on the usage of the system.",
+      "<br/>",
+      "The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal.",
+      "<br/>",
+      "If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security.",
+      "<br/>",
+      "The player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights.",
+      "<br/>",
+      "By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered.",
+      "<br/>",
+      "Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly.",
+      "<hr/>",
+      "<reward reward=\"08E65237A30C764B\" quest=\"Security Station\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:security_station"
+    },
+    "subtitle": {
+      "text": "Allows you to configure which users, and what permissions the users have with the ME System."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -176,
+          -48
+        ]
+      }
+    }
+  }
+}

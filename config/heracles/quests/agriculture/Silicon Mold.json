@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Chocolatier"
+  ],
+  "tasks": {
+    "69224B57D6B12ED6": {
+      "type": "heracles:item",
+      "item": "cacao:silicon_mold"
+    }
+  },
+  "rewards": {
+    "5413D1D085F10221": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: cacao:silicon_mold",
+    "description": [
+      "<task task=\"69224B57D6B12ED6\" quest=\"Silicon Mold\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5413D1D085F10221\" quest=\"Silicon Mold\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "cacao:silicon_mold"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -336,
+          336
+        ]
+      }
+    }
+  }
+}

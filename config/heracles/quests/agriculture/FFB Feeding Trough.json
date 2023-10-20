@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "tasks": {
+    "755F341295669BDC": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:feeding_trough"
+    }
+  },
+  "rewards": {
+    "514FA3C6117CB9DA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmingforblockheads:feeding_trough",
+    "description": [
+      "<h2>Auto-feeds nearby animals.</h2>",
+      "<hr/>",
+      "<task task=\"755F341295669BDC\" quest=\"FFB Feeding Trough\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"514FA3C6117CB9DA\" quest=\"FFB Feeding Trough\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:feeding_trough"
+    },
+    "subtitle": {
+      "text": "Auto-feeds nearby animals."
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -128,
+          480
+        ]
+      }
+    }
+  }
+}

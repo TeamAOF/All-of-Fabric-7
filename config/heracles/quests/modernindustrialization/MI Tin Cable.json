@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Analog Circuit"
+  ],
+  "tasks": {
+    "2E9730BA35730C4B": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:tin_cable"
+    }
+  },
+  "rewards": {
+    "1CB0BB6DD7CFCB9A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Energy Transfer",
+    "description": [
+      "<h2>Cable networks have limitations on the amount of energy they will pull into the network depending on tier.</h2>",
+      "<hr/>",
+      "<task task=\"2E9730BA35730C4B\" quest=\"MI Tin Cable\"/>",
+      "<hr/>",
+      "256 EU/t for LV cables, 1024 EU/t for MV cables and 8192 EU/t for HV cables.",
+      "<br/>",
+      "Because there is no output limit for the network and because cables have a small internal storage, an LV network can provide more than 256 EU/t for a short amount of time.",
+      "<br/>",
+      "Note however that single block electric machines will only connect to LV cables!",
+      "<br/>",
+      "To transfer more energy, you need to either create multiple pipe networks or use Transformers.",
+      "<br/>",
+      "As you would expect, an X to Y Transformer will connect to Y cables on its output side and to X cables on its 5 other sides.",
+      "<hr/>",
+      "<reward reward=\"1CB0BB6DD7CFCB9A\" quest=\"MI Tin Cable\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:tin_cable"
+    },
+    "subtitle": {
+      "text": "Cable networks have limitations on the amount of energy they will pull into the network depending on tier."
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -32,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Nuke"
+  ],
+  "tasks": {
+    "1A5C0F0D73190307": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:singularity"
+    }
+  },
+  "rewards": {
+    "63D55445EF5C055D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/legendary",
+          "Name": "Modern Industrialization Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:singularity",
+    "description": [
+      "<h2>What happens when scientists try to build a miniature black hole in their lab?</h2>",
+      "<hr/>",
+      "<task task=\"1A5C0F0D73190307\" quest=\"MI Singularity\"/>",
+      "<hr/>",
+      "The Singularity is the answer: this immensely powerful ball of matter has very useful quantum physics applications with the proper stabilizing materials.",
+      "<hr/>",
+      "<reward reward=\"63D55445EF5C055D\" quest=\"MI Singularity\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:singularity"
+    },
+    "subtitle": {
+      "text": "What happens when scientists try to build a miniature black hole in their lab?"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          832,
+          -16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "3615732C6A2C7334": {
+      "type": "heracles:item",
+      "item": "#advancednetherite:tiers/tools"
+    }
+  },
+  "rewards": {
+    "53F18A9AA229B505": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    },
+    "5042EEAE31068F62": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§cAdvanced Netherite",
+    "description": [
+      "<h2>Every Netherite tier has its own unique properties.</h2>",
+      "<hr/>",
+      "<task task=\"3615732C6A2C7334\" quest=\"Advanced Netherite\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"53F18A9AA229B505\" quest=\"Advanced Netherite\"/>",
+      "<reward reward=\"5042EEAE31068F62\" quest=\"Advanced Netherite\"/>"
+    ],
+    "subtitle": {
+      "text": "Every Netherite tier has its own unique properties."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -64,
+          80
+        ]
+      }
+    }
+  }
+}

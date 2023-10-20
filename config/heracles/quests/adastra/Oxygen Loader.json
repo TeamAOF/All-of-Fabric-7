@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Astrodux",
+    "Earth Metal"
+  ],
+  "tasks": {
+    "6BCCBA22565698C8": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_loader"
+    },
+    "3209CCD3E86EDD04": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "ad_astra:oxygen_bucket"
+    }
+  },
+  "rewards": {
+    "2D327DD48A310FE7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/common",
+          "Name": "Ad Astra! Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Oxygen Generation",
+    "description": [
+      "<h2>Where'd the Hydrogen go???</h2>",
+      "<hr/>",
+      "<task task=\"6BCCBA22565698C8\" quest=\"Oxygen Loader\"/>",
+      "<task task=\"3209CCD3E86EDD04\" quest=\"Oxygen Loader\"/>",
+      "<hr/>",
+      "Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader",
+      "<br/>",
+      "Each bucket of water creates 50 mb of oxygen, so you'll need alot of water to make sufficient oxygen to survive on other planets",
+      "<hr/>",
+      "<reward reward=\"2D327DD48A310FE7\" quest=\"Oxygen Loader\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_loader"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Where'd the Hydrogen go???"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -16,
+          32
+        ]
+      }
+    }
+  }
+}

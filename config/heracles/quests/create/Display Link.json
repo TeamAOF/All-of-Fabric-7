@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Brass Casings"
+  ],
+  "tasks": {
+    "641F6E4CED6FB5DC": {
+      "type": "heracles:item",
+      "item": "create:display_link"
+    }
+  },
+  "rewards": {
+    "1C786904BBBB6F0E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:display_link",
+    "description": [
+      "<task task=\"641F6E4CED6FB5DC\" quest=\"Display Link\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1C786904BBBB6F0E\" quest=\"Display Link\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:display_link"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          320,
+          -48
+        ]
+      }
+    }
+  }
+}

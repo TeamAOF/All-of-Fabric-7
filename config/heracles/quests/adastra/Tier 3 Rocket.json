@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Ostrum",
+    "Oxygen Sensor",
+    "Netherite Space Suit",
+    "Cryo-Freezer",
+    "Ostrum Fluid Pipe",
+    "Energizer",
+    "Cryo-Fuel"
+  ],
+  "tasks": {
+    "0ED147E69FC78915": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_3_rocket"
+    }
+  },
+  "rewards": {
+    "7F3BA25DD56FE746": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/legendary",
+          "Name": "Ad Astra! Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "To the Hotter Planets!",
+    "description": [
+      "<h2>Sizzling Space</h2>",
+      "<hr/>",
+      "<task task=\"0ED147E69FC78915\" quest=\"Tier 3 Rocket\"/>",
+      "<hr/>",
+      "You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket.",
+      "<br/>",
+      "Please note! Travel to the hotter planets requires a netherite space suit or fire resistance or you will burn up and die.",
+      "<hr/>",
+      "<reward reward=\"7F3BA25DD56FE746\" quest=\"Tier 3 Rocket\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_3_rocket"
+    },
+    "subtitle": {
+      "text": "Sizzling Space"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

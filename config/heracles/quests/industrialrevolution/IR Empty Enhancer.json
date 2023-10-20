@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Compressor MK1"
+  ],
+  "tasks": {
+    "52DD22CF4838D5B7": {
+      "type": "heracles:item",
+      "item": "indrev:empty_enhancer"
+    }
+  },
+  "rewards": {
+    "11BF0AB4A36E9625": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:empty_enhancer",
+    "description": [
+      "<h2>Upgrades can boost machines stats.</h2>",
+      "<hr/>",
+      "<task task=\"52DD22CF4838D5B7\" quest=\"IR Empty Enhancer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11BF0AB4A36E9625\" quest=\"IR Empty Enhancer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:empty_enhancer"
+    },
+    "subtitle": {
+      "text": "Upgrades can boost machines stats."
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -352,
+          32
+        ]
+      }
+    }
+  }
+}

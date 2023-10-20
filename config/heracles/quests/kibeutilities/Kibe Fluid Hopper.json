@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Big Torch"
+  ],
+  "tasks": {
+    "17E02EA331F7D7A6": {
+      "type": "heracles:item",
+      "item": "kibe:fluid_hopper"
+    }
+  },
+  "rewards": {
+    "692A6F3191014FCA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:fluid_hopper",
+    "description": [
+      "<h2>Exactly like vanilla Hoppers but that moves fluids instead of items.</h2>",
+      "<hr/>",
+      "<task task=\"17E02EA331F7D7A6\" quest=\"Kibe Fluid Hopper\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"692A6F3191014FCA\" quest=\"Kibe Fluid Hopper\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:fluid_hopper"
+    },
+    "subtitle": {
+      "text": "Exactly like vanilla Hoppers but that moves fluids instead of items."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -16,
+          -224
+        ]
+      }
+    }
+  }
+}

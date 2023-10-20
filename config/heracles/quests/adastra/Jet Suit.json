@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Calorite"
+  ],
+  "tasks": {
+    "0EE7478528103B2C": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_helmet"
+    },
+    "256E8056449A2DAA": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit"
+    },
+    "722D360EDCC43234": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_pants"
+    },
+    "33FB0FA0F5AF87A1": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_boots"
+    }
+  },
+  "rewards": {
+    "0A41D5F69105722E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/legendary",
+          "Name": "Ad Astra! Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Jet Suit",
+    "description": [
+      "<h2>Star command, do you read me??</h2>",
+      "<hr/>",
+      "<task task=\"0EE7478528103B2C\" quest=\"Jet Suit\"/>",
+      "<task task=\"256E8056449A2DAA\" quest=\"Jet Suit\"/>",
+      "<task task=\"722D360EDCC43234\" quest=\"Jet Suit\"/>",
+      "<task task=\"33FB0FA0F5AF87A1\" quest=\"Jet Suit\"/>",
+      "<hr/>",
+      "The most advanced version of the space suit, the Jet Suit offers even more protection than the netherite suit, while providing additional benefits, like a jetpack for flight.",
+      "<br/>",
+      "The Jet Suit must be charged in order to propell you into the air, and can be easily charged in the Energizer.",
+      "<hr/>",
+      "<reward reward=\"0A41D5F69105722E\" quest=\"Jet Suit\"/>"
+    ],
+    "subtitle": {
+      "text": "Star command, do you read me??"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          384,
+          -48
+        ]
+      }
+    }
+  }
+}

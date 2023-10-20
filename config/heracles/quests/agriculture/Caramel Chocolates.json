@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Silicon Mold"
+  ],
+  "tasks": {
+    "718A6342D32D08B3": {
+      "title": "Make one of the following caramel chocolates.",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "cacao:caramel_dark_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:caramel_milk_chocolate"
+          },
+          {
+            "Count": 1,
+            "id": "cacao:caramel_white_chocolate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "0333FB9EBB3237EE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Caramel Chocolates",
+    "description": [
+      "<task task=\"718A6342D32D08B3\" quest=\"Caramel Chocolates\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0333FB9EBB3237EE\" quest=\"Caramel Chocolates\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -288,
+          304
+        ]
+      }
+    }
+  }
+}

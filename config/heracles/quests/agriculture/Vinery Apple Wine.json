@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery Fermentation Barrel"
+  ],
+  "tasks": {
+    "6BCB473539F52F6D": {
+      "type": "heracles:item",
+      "item": "vinery:apple_wine"
+    }
+  },
+  "rewards": {
+    "524DACC864A900C4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: vinery:apple_wine",
+    "description": [
+      "<task task=\"6BCB473539F52F6D\" quest=\"Vinery Apple Wine\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"524DACC864A900C4\" quest=\"Vinery Apple Wine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "vinery:apple_wine"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          224,
+          656
+        ]
+      }
+    }
+  }
+}

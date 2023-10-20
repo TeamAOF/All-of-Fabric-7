@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Ingot"
+  ],
+  "tasks": {
+    "05C1EB3A2AEB99EF": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "modern_industrialization:bronze_cutting_machine"
+      },
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_cutting_machine"
+    }
+  },
+  "rewards": {
+    "4357A53DDE035679": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:bronze_cutting_machine",
+    "description": [
+      "<h2>Better cutting ratios!</h2>",
+      "<hr/>",
+      "<task task=\"05C1EB3A2AEB99EF\" quest=\"MI Bronze Cutting Machine\"/>",
+      "<hr/>",
+      "The Cutting Machine will give you better ratios for bolts, gears, rings and rods.",
+      "<br/>",
+      "It uses a little bit of lubricant every time.",
+      "<hr/>",
+      "<reward reward=\"4357A53DDE035679\" quest=\"MI Bronze Cutting Machine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_cutting_machine"
+    },
+    "subtitle": {
+      "text": "Better cutting ratios!"
+    },
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -304,
+          -144
+        ]
+      }
+    }
+  }
+}

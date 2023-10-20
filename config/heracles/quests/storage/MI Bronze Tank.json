@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Storage"
+  ],
+  "tasks": {
+    "0E647B945E58B453": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_tank"
+    }
+  },
+  "rewards": {
+    "5B399AB56686D38F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:bronze_tank",
+    "description": [
+      "<h2>Right-click with buckets or other tanks to transfer fluids.</h2>",
+      "<hr/>",
+      "<task task=\"0E647B945E58B453\" quest=\"MI Bronze Tank\"/>",
+      "<hr/>",
+      "Bronze Tanks can store up to 4 buckets each.",
+      "You can use that to interact with machines and can also be placed in the world.",
+      "<br/>",
+      "TIP: Tanks are stackable if containing the same fluid.",
+      "<hr/>",
+      "<reward reward=\"5B399AB56686D38F\" quest=\"MI Bronze Tank\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_tank"
+    },
+    "subtitle": {
+      "text": "Right-click with buckets or other tanks to transfer fluids."
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          400,
+          -112
+        ]
+      }
+    }
+  }
+}

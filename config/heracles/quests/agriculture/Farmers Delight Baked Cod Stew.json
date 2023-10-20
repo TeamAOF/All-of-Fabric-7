@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "3B7C4E95E20B48B4": {
+      "type": "heracles:item",
+      "item": "farmersdelight:baked_cod_stew"
+    }
+  },
+  "rewards": {
+    "12A05B56768D1A39": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:baked_cod_stew",
+    "description": [
+      "<task task=\"3B7C4E95E20B48B4\" quest=\"Farmers Delight Baked Cod Stew\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12A05B56768D1A39\" quest=\"Farmers Delight Baked Cod Stew\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:baked_cod_stew"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          320,
+          288
+        ]
+      }
+    }
+  }
+}

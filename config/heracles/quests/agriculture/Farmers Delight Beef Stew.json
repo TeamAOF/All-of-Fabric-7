@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "3D9F9D499E5CE19B": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beef_stew"
+    }
+  },
+  "rewards": {
+    "6B82A89AB4FB2CA7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:beef_stew",
+    "description": [
+      "<task task=\"3D9F9D499E5CE19B\" quest=\"Farmers Delight Beef Stew\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B82A89AB4FB2CA7\" quest=\"Farmers Delight Beef Stew\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beef_stew"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          320,
+          384
+        ]
+      }
+    }
+  }
+}

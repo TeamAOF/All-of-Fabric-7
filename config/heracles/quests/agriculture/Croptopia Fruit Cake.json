@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "0D044738FBBC376B": {
+      "type": "heracles:item",
+      "item": "croptopia:fruit_cake"
+    }
+  },
+  "rewards": {
+    "1377A7A1415AE2A1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: croptopia:fruit_cake",
+    "description": [
+      "<task task=\"0D044738FBBC376B\" quest=\"Croptopia Fruit Cake\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1377A7A1415AE2A1\" quest=\"Croptopia Fruit Cake\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "croptopia:fruit_cake"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          240,
+          480
+        ]
+      }
+    }
+  }
+}

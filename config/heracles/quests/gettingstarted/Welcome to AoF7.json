@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "tasks": {
+    "25B2DFAFD351900E": {
+      "title": "Welcome to All of Fabric 7",
+      "icon": {
+        "type": "heracles:item",
+        "item": "kubejs:aof7_logo"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "300CDF28987696BC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "inmis:baby_backpack",
+        "count": 1,
+        "nbt": {}
+      }
+    }
+  },
+  "display": {
+    "title": "§eWelcome to All of Fabric 7",
+    "description": [
+      "<h2>A Whole New World!</h2>",
+      "<hr/>",
+      "<task task=\"25B2DFAFD351900E\" quest=\"Welcome to AoF7\"/>",
+      "<hr/>",
+      "&&bThis chapter &&rwill &&6introduce &&ryou to the basics of the pack.",
+      "<br/>",
+      "&&eAll of Fabric 7 &&roffers the following:",
+      "<br/>",
+      "- &&bChallenges",
+      "- &&bLearning Mods",
+      "- &&bAdventuring",
+      "<br/>",
+      "&&6The adventures are ahead&&r!",
+      "<hr/>",
+      "<reward reward=\"300CDF28987696BC\" quest=\"Welcome to AoF7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:aof7_logo"
+    },
+    "subtitle": {
+      "text": "A Whole New World!"
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          240,
+          64
+        ]
+      }
+    }
+  }
+}

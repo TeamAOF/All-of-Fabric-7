@@ -1,0 +1,89 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Item Charging"
+  ],
+  "tasks": {
+    "5217531A148059EF": {
+      "title": "Energy Discharger",
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_starter"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_basic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_hardened"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_blazing"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_niotic"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_spirited"
+          },
+          {
+            "Count": 1,
+            "id": "powah:energy_discharger_nitro"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "765EC647D774674C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Energy Discharger",
+    "description": [
+      "<h2>Energy Draino</h2>",
+      "<hr/>",
+      "<task task=\"5217531A148059EF\" quest=\"Any Energy Discharger\"/>",
+      "<hr/>",
+      "This machine allows you to drain the energy found inside of any energy holding item that supports extraction.",
+      "<br/>",
+      "It'll store the energy in an internal buffer, and allows you to extract it to distribute into your nearby machines.",
+      "<hr/>",
+      "<reward reward=\"765EC647D774674C\" quest=\"Any Energy Discharger\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:or"
+    },
+    "subtitle": {
+      "text": "Energy Draino"
+    },
+    "groups": {
+      "Powah": {
+        "position": [
+          -112,
+          -64
+        ]
+      }
+    }
+  }
+}

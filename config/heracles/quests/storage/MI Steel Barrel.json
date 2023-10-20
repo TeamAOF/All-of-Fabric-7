@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "MI Bronze Barrel"
+  ],
+  "tasks": {
+    "31025F43DEF2146E": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_barrel"
+    }
+  },
+  "rewards": {
+    "039EF16C6D85EDF1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:steel_barrel",
+    "description": [
+      "<task task=\"31025F43DEF2146E\" quest=\"MI Steel Barrel\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"039EF16C6D85EDF1\" quest=\"MI Steel Barrel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_barrel"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          368,
+          -80
+        ]
+      }
+    }
+  }
+}

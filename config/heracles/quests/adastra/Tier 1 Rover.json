@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "7B576F4EBEB08269": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_1_rover"
+    }
+  },
+  "rewards": {
+    "3BE3FBA567414CC5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11763949,
+          "Loot": "aof:loot_bags/ad_astra/rare",
+          "Name": "Ad Astra! Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Space Rover",
+    "description": [
+      "<h2>Mark Rober Minecraft Mod when?</h2>",
+      "<hr/>",
+      "<task task=\"7B576F4EBEB08269\" quest=\"Tier 1 Rover\"/>",
+      "<hr/>",
+      "The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies.",
+      "<br/>",
+      "It requires fuel to run, and can accept 2 passengers; a driver and a passenger.",
+      "<hr/>",
+      "<reward reward=\"3BE3FBA567414CC5\" quest=\"Tier 1 Rover\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_1_rover"
+    },
+    "subtitle": {
+      "text": "Mark Rober Minecraft Mod when?"
+    },
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  }
+}

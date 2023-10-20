@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Cupronickel Heating Coil"
+  ],
+  "tasks": {
+    "684E519E525BE34C": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_blast_furnace"
+    }
+  },
+  "rewards": {
+    "0476FDF2824C1562": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_blast_furnace",
+    "description": [
+      "<h2>A multi-block machine used to smelt tough metals.</h2>",
+      "<hr/>",
+      "<task task=\"684E519E525BE34C\" quest=\"TR Industrial Blast Furnace\"/>",
+      "<hr/>",
+      "It has an input rate of 512 E/tick and an internal buffer for 40.000 E. ",
+      "<br/>",
+      "The smelting abilities depends on the casings used for the multi-block.",
+      "<br/>",
+      "The Blast Furnace requires a 3×4 multi-block with a hole in the center. The Multi-block can be built from different machine casings. Possible options are:",
+      "- Basic Machine Casing",
+      "- Advanced Machine Casing",
+      "- Industrial Machine Casing",
+      "<br/>",
+      "This will result in heat being produced inside the furnace and thus have the ability to smelt the toughest ores (this however depends on the type of casing used).",
+      "<hr/>",
+      "<reward reward=\"0476FDF2824C1562\" quest=\"TR Industrial Blast Furnace\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_blast_furnace"
+    },
+    "subtitle": {
+      "text": "A multi-block machine used to smelt tough metals."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          -96
+        ]
+      }
+    }
+  }
+}

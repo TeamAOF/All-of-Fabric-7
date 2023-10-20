@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "IR Fisher MK3"
+  ],
+  "tasks": {
+    "365BDA0295FF4F41": {
+      "type": "heracles:item",
+      "item": "indrev:fisher_mk4"
+    }
+  },
+  "rewards": {
+    "7B4F590CBD04DD6D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: indrev:fisher_mk4",
+    "description": [
+      "<task task=\"365BDA0295FF4F41\" quest=\"IR Fisher MK4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7B4F590CBD04DD6D\" quest=\"IR Fisher MK4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "indrev:fisher_mk4"
+    },
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -448,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Delight Rice Bag",
+    "Farmers Delight Cooked Rice",
+    "Farmers Delight Fried Rice",
+    "Farmers Delight Pasta with Mutton Chop",
+    "Farmers Delight Pasta with Meatballs",
+    "Farmers Delight Raw Pasta"
+  ],
+  "tasks": {
+    "622FFD90716D2A45": {
+      "title": "Grains",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "Grains": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Grains",
+    "description": [
+      "<task task=\"622FFD90716D2A45\" quest=\"Grains\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"Grains\" quest=\"Grains\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -144,
+          240
+        ]
+      }
+    }
+  }
+}

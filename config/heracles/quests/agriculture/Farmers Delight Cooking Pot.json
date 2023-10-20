@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Delight Stove"
+  ],
+  "tasks": {
+    "5B3FB7270A0C2AFF": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot"
+    }
+  },
+  "rewards": {
+    "644723AB63059CCC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:cooking_pot",
+    "description": [
+      "<task task=\"5B3FB7270A0C2AFF\" quest=\"Farmers Delight Cooking Pot\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"644723AB63059CCC\" quest=\"Farmers Delight Cooking Pot\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -288,
+          464
+        ]
+      }
+    }
+  }
+}

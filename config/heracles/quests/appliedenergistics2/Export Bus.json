@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Import Bus"
+  ],
+  "tasks": {
+    "3D82F453CBD0740A": {
+      "type": "heracles:item",
+      "item": "ae2:export_bus"
+    }
+  },
+  "rewards": {
+    "7BD6535BC687C272": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:export_bus",
+    "description": [
+      "<task task=\"3D82F453CBD0740A\" quest=\"Export Bus\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7BD6535BC687C272\" quest=\"Export Bus\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:export_bus"
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          80,
+          -288
+        ]
+      }
+    }
+  }
+}

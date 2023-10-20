@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "713E63D9B89E8134": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_soup"
+    }
+  },
+  "rewards": {
+    "6B88D4DA27D1A028": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:chicken_soup",
+    "description": [
+      "<task task=\"713E63D9B89E8134\" quest=\"Farmers Delight Chicken Soup\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B88D4DA27D1A028\" quest=\"Farmers Delight Chicken Soup\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_soup"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          336,
+          320
+        ]
+      }
+    }
+  }
+}

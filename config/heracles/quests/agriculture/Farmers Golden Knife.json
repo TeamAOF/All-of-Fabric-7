@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Farmers Iron Knife"
+  ],
+  "tasks": {
+    "75928169D7F17647": {
+      "type": "heracles:item",
+      "item": "farmersdelight:golden_knife"
+    }
+  },
+  "rewards": {
+    "11D233C3610496C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:golden_knife",
+    "description": [
+      "<task task=\"75928169D7F17647\" quest=\"Farmers Golden Knife\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11D233C3610496C2\" quest=\"Farmers Golden Knife\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:golden_knife"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -224,
+          592
+        ]
+      }
+    }
+  }
+}

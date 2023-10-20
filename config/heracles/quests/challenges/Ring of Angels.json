@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Are you worthy"
+  ],
+  "tasks": {
+    "64A0A716321AC14E": {
+      "type": "heracles:item",
+      "item": "kibe:angel_ring"
+    }
+  },
+  "rewards": {
+    "149036984D62AD6A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:angel_ring"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§eRing of Angels",
+    "description": [
+      "<h2>Creative flight at your disposal.</h2>",
+      "<hr/>",
+      "<task task=\"64A0A716321AC14E\" quest=\"Ring of Angels\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"149036984D62AD6A\" quest=\"Ring of Angels\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:angel_ring"
+    },
+    "subtitle": {
+      "text": "Creative flight at your disposal."
+    },
+    "groups": {
+      "Challenges": {
+        "position": [
+          72,
+          120
+        ]
+      }
+    }
+  }
+}

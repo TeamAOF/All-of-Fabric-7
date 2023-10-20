@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "0EE022EBDFCCF33F": {
+      "type": "heracles:item",
+      "item": "itemfilters:mod",
+      "nbt": {
+        "value": "vanilla-hammers"
+      }
+    }
+  },
+  "rewards": {
+    "5DDBA9198C176C31": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Hammers",
+    "description": [
+      "<h2>3x3 Mining on your doorstep.</h2>",
+      "<hr/>",
+      "<task task=\"0EE022EBDFCCF33F\" quest=\"Hammers\"/>",
+      "<hr/>",
+      "Craft any hammer to complete quest.",
+      "<hr/>",
+      "<reward reward=\"5DDBA9198C176C31\" quest=\"Hammers\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "itemfilters:mod"
+    },
+    "subtitle": {
+      "text": "3x3 Mining on your doorstep."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -32,
+          80
+        ]
+      }
+    }
+  }
+}

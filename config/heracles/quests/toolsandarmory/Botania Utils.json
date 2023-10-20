@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "7A35F0C8B2C0B1D1": {
+      "title": "Botania Utils",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Botania Utils",
+    "description": [
+      "<task task=\"7A35F0C8B2C0B1D1\" quest=\"Botania Utils\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -1,
+          -183
+        ]
+      }
+    }
+  }
+}

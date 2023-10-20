@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "tasks": {
+    "519F5355E13C0482": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_meatballs"
+    }
+  },
+  "rewards": {
+    "39CE16CA5528E8F6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: farmersdelight:pasta_with_meatballs",
+    "description": [
+      "<task task=\"519F5355E13C0482\" quest=\"Farmers Delight Pasta with Meatballs\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"39CE16CA5528E8F6\" quest=\"Farmers Delight Pasta with Meatballs\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_meatballs"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -144,
+          192
+        ]
+      }
+    }
+  }
+}
