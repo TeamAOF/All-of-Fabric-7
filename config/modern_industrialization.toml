@@ -1,7 +1,7 @@
 enableNoEmiMessage = true
 spawnWithGuideBook = true
 respawnWithGuideBook = false
-disableFuelTooltips = false
+disableFuelTooltips = true
 disableItemTagTooltips = false
 newVersionMessage = false
 enableHatchPlacementOverlay = true
