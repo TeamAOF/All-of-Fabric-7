@@ -2,6 +2,11 @@
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.1.md)_
 
+### Added Mods ✅
+
+  * [Roughly Enough Resources](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources)
+  * [TrimsEffects](https://www.curseforge.com/minecraft/mc-mods/trimseffects)
+
 ### Changes/Improvements ⚙️
 
 * Disabled spawning of BW Salt Ore.
