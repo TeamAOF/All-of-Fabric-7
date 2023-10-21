@@ -1,0 +1,14 @@
+{
+  "stripRadiusX": 48,
+  "stripRadiusZ": 48,
+  "stripStartY": 256,
+  "stripStopY": -64,
+  "replacementBlock": "minecraft:air",
+  "updateSettings": {
+    "notifyNeighbors": false,
+    "blockUpdate": true,
+    "noRender": false,
+    "renderMainThread": false,
+    "updateNeighbors": true
+  }
+}

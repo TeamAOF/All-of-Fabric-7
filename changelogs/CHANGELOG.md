@@ -1,3 +1,20 @@
+### All of Fabric 7 | v0.6.1
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.1.md)_
+
+### Changes/Improvements ⚙️
+
+* Disabled spawning of BW Salt Ore.
+
+### Bug Fixes 🐛
+
+* Zenith not working on servers.
+* Missing recipe for Silver Backpack.
+* Overlapping effect tooltips.
+* Duplication exploit for cabbage, now outputs cabbage leaf on cutting board.
+* Duplication exploit for copper.
+---
+
 ### All of Fabric 7 | v0.6.0
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.0.md)_
