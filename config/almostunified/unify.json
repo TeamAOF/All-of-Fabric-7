@@ -126,7 +126,13 @@
     "minecraft:slabs",
     "minecraft:stairs"
   ],
-  "ignoredItems": [],
+  "ignoredItems": [
+  "minecraft:copper_block",
+  "farmersdelight:cabbage",
+  "minecraft:waxed_copper_block",
+  "minecraft:raw_copper"
+],
+
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
