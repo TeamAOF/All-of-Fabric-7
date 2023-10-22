@@ -1,0 +1,10 @@
+{
+  "type": "hauntedharvest:farm_field",
+  "config": {
+    "crop": "corn",
+    "has_scarecrow": true,
+    "tries": 85,
+    "xz_spread": 4,
+    "y_spread": 1
+  }
+}
