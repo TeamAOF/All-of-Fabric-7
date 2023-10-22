@@ -45,7 +45,19 @@ const bw_fleece = [
 
 bw_fleece.forEach((item) => {
   event.add("bwplus:fleece", 'bwplus:' + item + "_witch_wool")
- })
+ });
+
+ const bw_wooden_chests = [
+  'juniper',
+  'cypress',
+  'elder',
+  'dragons_blood',
+];
+
+bw_wooden_chests.forEach((item) => {
+  event.add("c:wooden_chests", 'bewitchment:' + item + "_chest")
+  event.add("c:chests", 'bewitchment:' + item + "_chest")
+ });
 });
 
 ServerEvents.tags('block', event => {
