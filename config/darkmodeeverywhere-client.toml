@@ -8,14 +8,14 @@ METHOD_SHADER_BLACKLIST = ["mezz.jei.common.render.FluidTankRenderer:drawTexture
 METHOD_SHADER_DUMP = false
 
 ["Main Menu Button"]
-	#Enabled
-	SHOW = false
-	#Pixels away from the left of the GUI in the x axis
-	#Range: > 0
-	MAIN_X = 4
 	#Pixels away from the bottom of the GUI in the y axis
 	#Range: > 0
 	MAIN_Y = 40
+	#Pixels away from the left of the GUI in the x axis
+	#Range: > 0
+	MAIN_X = 4
+	#Enabled
+	SHOW = false
 ["Inventory Button"]
 	#Pixels away from the left of the GUI in the x axis
 	#Range: > 0

@@ -1,17 +1,17 @@
 ["Server Configs"]
 	#Speed of Slow Fuel Type in RPM
 	"Speed of Slow Fuel Type" = 48.0
-	#Speed of Fast Fuel Type in RPM
-	"Speed of Fast Fuel Type" = 96.0
-	#Strength of Weak Fuel Type in su
-	"Strength of Weak Fuel Type" = 512.0
 	#Strength of Strong Fuel Type in su
 	"Strength of Strong Fuel Type" = 1024.0
+	#Speed of Fast Fuel Type in RPM
+	"Speed of Fast Fuel Type" = 96.0
+	#c:biodiesel tag compatibility
+	"c:biodiesel tag compatibility" = true
+	#Strength of Weak Fuel Type in su
+	"Strength of Weak Fuel Type" = 512.0
 	#c:fuel tag compatibility
 	"c:fuel tag compatibility" = true
 	#c:ethanol tag compatibility
 	"c:ethanol tag compatibility" = true
 	#c:plantoil tag compatibility
 	"c:plantoil tag compatibility" = true
-	#c:biodiesel tag compatibility
-	"c:biodiesel tag compatibility" = true

@@ -2,36 +2,36 @@
 #Miscellaneous settings
 [misc]
 	#.
-	#Coupler will require points to be on the same or adjacent track edge, this will prevent the coupler from working if there is any form of junction in between the two points.
-	strictCoupler = false
+	#Max distance between targeted track and placed switch stand
+	#Range: 16 ~ 128
+	switchPlacementRange = 64
 	#.
 	#Allow controlling Brass Switches remotely when approaching them on a train
 	flipDistantSwitches = true
 	#.
-	#Max distance between targeted track and placed switch stand
-	#Range: 16 ~ 128
-	switchPlacementRange = 64
+	#Coupler will require points to be on the same or adjacent track edge, this will prevent the coupler from working if there is any form of junction in between the two points.
+	strictCoupler = false
 #.
 #Semaphore settings
 [semaphores]
 	#.
+	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
+	flipYellowOrder = false
+	#.
 	#.
 	#Simplified semaphore placement (no upside-down placement)
 	simplifiedPlacement = true
-	#.
-	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
-	flipYellowOrder = false
 #.
 #Conductor settings
 [conductors]
 	#.
-	#.
-	#Conductor whistle is limited to the owner of a train
-	mustOwnBoundTrain = false
-	#.
 	#Maximum length of conductor vents
 	#Range: > 1
 	maxConductorVentLength = 64
+	#.
+	#.
+	#Conductor whistle is limited to the owner of a train
+	mustOwnBoundTrain = false
 #.
 #Journeymap compat settings
 [journeymap]

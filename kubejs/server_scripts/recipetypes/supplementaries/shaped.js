@@ -16,39 +16,6 @@ ServerEvents.recipes(event => {
       id: 'supplementaries:timber_frame'
     },
 
-    // Doors / Trapdoors
-    {
-      output: '3x supplementaries:silver_door',
-      pattern: ['AA ', 'AA ', 'AA '],
-      key: {
-        A: '#c:silver_ingots'
-      },
-      id: 'supplementaries:silver_door'
-    },
-    {
-      output: '2x supplementaries:silver_trapdoor',
-      pattern: ['AAA', 'AAA'],
-      key: {
-        A: '#c:silver_ingots'
-      },
-      id: 'supplementaries:silver_trapdoor'
-    },
-    {
-      output: '3x supplementaries:lead_door',
-      pattern: ['AA ', 'AA ', 'AA '],
-      key: {
-        A: '#c:lead_ingots'
-      },
-      id: 'supplementaries:lead_door'
-    },
-    {
-      output: '2x supplementaries:lead_trapdoor',
-      pattern: ['AAA', 'AAA'],
-      key: {
-        A: '#c:lead_ingots'
-      },
-      id: 'supplementaries:lead_trapdoor'
-    },
     {
       output: 'supplementaries:jar_boat',
       pattern: ['AB '],
@@ -73,21 +40,10 @@ ServerEvents.recipes(event => {
       output: '2x supplementaries:stone_tile',
       pattern: ['AA'],
       key: {
-        A: 'minecraft:stone_bricks',
+        A: 'minecraft:stone_bricks'
       },
       id: 'supplementaries:stone_tile'
     },
-
-    // Flute
-    {
-      output: 'supplementaries:flute',
-      pattern: ['B', 'A', 'A'],
-      key: {
-        A: 'minecraft:bamboo',
-        B: 'chimes:bamboo_chimes',
-      },
-      id: 'supplementaries:flute'
-    }
   ];
 
   recipes.forEach((recipe) => {

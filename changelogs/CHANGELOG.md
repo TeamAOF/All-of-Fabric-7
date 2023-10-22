@@ -1,3 +1,34 @@
+### All of Fabric 7 | v0.6.2
+
+_Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.2.md)_
+
+### Added Mods ✅
+
+  * [Compressed Blocks for Fabric](https://www.curseforge.com/minecraft/mc-mods/compressed-blocks-for-fabric)
+  * [CreateFabric&REIBugFix](https://www.curseforge.com/minecraft/mc-mods/createfabricreibugfix)
+  * [Formations (Structure Library)](https://www.curseforge.com/minecraft/mc-mods/formations)
+  * [Formations Nether](https://www.curseforge.com/minecraft/mc-mods/formations-nether)
+  * [Lithium (Fabric)](https://www.curseforge.com/minecraft/mc-mods/lithium)
+  * [More Chests Variants (MCV)](https://www.curseforge.com/minecraft/mc-mods/more-chest-variants-lieonlion)
+
+### Removed Mods ❌
+
+  * [Spooky Bats](https://www.curseforge.com/minecraft/mc-mods/spooky-bats) (Spawning issues, no configs)
+
+### Changes/Improvements ⚙️
+
+* BIG re-balance of Powah, buffed everything.
+* Better server performance.
+* Hide croptopia knife in REI.
+
+### Bug Fixes 🐛
+
+* Opening an enchantment table would crash your client.
+* Bewitchment chests not being useable in recipes.
+* Recipe conflict between Item Shelf & Wood Plate.
+* Recipe conflict between Stone Tiles (Supplementaries & Blockus).
+---
+
 ### All of Fabric 7 | v0.6.1
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.1.md)_

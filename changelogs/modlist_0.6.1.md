@@ -122,7 +122,6 @@
   * [dusk-fabric-1.20.1-3.4.jar](https://www.curseforge.com/minecraft/mc-mods/dusk/files/4747365) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
   * [dyed-fabric-23w18a-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/dyed/files/4524249) (by [yurisuika](https://www.curseforge.com/members/yurisuika/projects))
   * [eco-1.20.1-2.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/ecospherical-expansion/files/4754921) (by [apothicono2](https://www.curseforge.com/members/apothicono2/projects))
-  * [EffectTooltips-Fabric-1.20.1-9.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/effect-tooltips/files/4714753) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
   * [elytraslot-fabric-6.3.0+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/elytra-slot/files/4598377) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
   * [elytratrims-1.4.1+1.20.jar](https://www.curseforge.com/minecraft/mc-mods/elytra-trims/files/4799805) (by [KikuGie](https://www.curseforge.com/members/KikuGie/projects))
   * [elytra-trims-extensions-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/elytra-trims-extensions/files/4721651) (by [KikuGie](https://www.curseforge.com/members/KikuGie/projects))
