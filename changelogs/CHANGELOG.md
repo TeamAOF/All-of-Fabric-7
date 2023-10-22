@@ -18,6 +18,7 @@ _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ### Changes/Improvements ⚙️
 
 * BIG re-balance of Powah, buffed everything.
+* Changed sugar cane max growth height **(255 > 5)**.
 * Better server performance.
 * Hide croptopia knife in REI.
 
