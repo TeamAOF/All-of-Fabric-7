@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:solar_panel_starter"
+      "item": "powah:solar_panel_basic"
     },
     "subtitle": {
       "text": "Photosynthesis o/"

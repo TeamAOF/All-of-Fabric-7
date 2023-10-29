@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:thermo_generator_starter"
+      "item": "powah:thermo_generator_basic"
     },
     "subtitle": {
       "text": "Bring on da Heat!"

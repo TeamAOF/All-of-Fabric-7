@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:energy_cell_starter"
+      "item": "powah:energy_cell_basic"
     },
     "subtitle": {
       "text": "Big Box Storin'"

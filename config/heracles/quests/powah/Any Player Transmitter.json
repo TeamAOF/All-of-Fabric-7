@@ -77,7 +77,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:player_transmitter_starter"
+      "item": "powah:player_transmitter_basic"
     },
     "subtitle": {
       "text": "Bluetooh could never"

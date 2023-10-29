@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:magmator_starter"
+      "item": "powah:magmator_basic"
     },
     "subtitle": {
       "text": "Fluid Flux"

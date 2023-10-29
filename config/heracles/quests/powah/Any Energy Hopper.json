@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:energy_hopper_starter"
+      "item": "powah:energy_hopper_basic"
     },
     "subtitle": {
       "text": "Sidecar Energy"

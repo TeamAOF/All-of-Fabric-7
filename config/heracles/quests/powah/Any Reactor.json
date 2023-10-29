@@ -78,7 +78,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:reactor_starter"
+      "item": "powah:reactor_basic"
     },
     "subtitle": {
       "text": "RADIOACTIVE RADIOACTIVE WOAHaaOAAh"

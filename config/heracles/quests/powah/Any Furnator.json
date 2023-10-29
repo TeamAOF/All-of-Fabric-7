@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:furnator_starter"
+      "item": "powah:furnator_basic"
     },
     "subtitle": {
       "text": "Haven't seen one of these before."

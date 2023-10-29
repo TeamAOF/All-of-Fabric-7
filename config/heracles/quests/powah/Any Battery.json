@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:battery_starter"
+      "item": "powah:battery_basic"
     },
     "subtitle": {
       "text": "The power of the sun in the palm of my hand"

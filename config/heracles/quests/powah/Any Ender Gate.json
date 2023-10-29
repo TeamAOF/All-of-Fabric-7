@@ -77,7 +77,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:ender_gate_starter"
+      "item": "powah:ender_gate_basic"
     },
     "subtitle": {
       "text": "Downloading..."

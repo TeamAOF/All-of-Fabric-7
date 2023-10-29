@@ -75,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:ender_cell_starter"
+      "item": "powah:ender_cell_basic"
     },
     "subtitle": {
       "text": "Call your Carrier"

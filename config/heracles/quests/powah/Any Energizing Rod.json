@@ -85,7 +85,7 @@
     },
     "icon": {
       "type": "heracles:item",
-      "item": "powah:energizing_rod_starter"
+      "item": "powah:energizing_rod_basic"
     },
     "groups": {
       "Powah": {

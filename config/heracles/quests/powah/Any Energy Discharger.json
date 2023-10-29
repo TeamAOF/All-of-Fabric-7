@@ -77,7 +77,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "powah:energy_discharger_starter"
+      "item": "powah:energy_discharger_basic"
     },
     "subtitle": {
       "text": "Energy Draino"
