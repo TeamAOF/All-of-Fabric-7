@@ -121,3 +121,5 @@ everbook/
 debug/
 
 usernamecache.json
+
+.DS_Store
