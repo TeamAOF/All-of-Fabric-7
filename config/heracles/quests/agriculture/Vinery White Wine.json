@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Vinery Fermentation Barrel"
+  ],
+  "tasks": {
+    "6064AB5B922ACC53": {
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dec528c762f11eeb31a96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:clark_wine"
+        },
+        "0dec52f0762f11eeb31a96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:mellohi_wine"
+        },
+        "0dec530e762f11eeb31a96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:solaris_wine"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "4C74A54C13751E10": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "White Wine",
+    "description": [
+      "<task task=\"6064AB5B922ACC53\" quest=\"Vinery Clark Wine\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4C74A54C13751E10\" quest=\"Vinery Clark Wine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "vinery:clark_wine"
+    },
+    "groups": {
+      "Agriculture": {
+        "position": [
+          96,
+          656
+        ]
+      }
+    }
+  }
+}
