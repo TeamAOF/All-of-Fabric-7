@@ -10,39 +10,44 @@
     },
     "07D998F67B8E9745": {
       "title": "Energizing Rod",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energizing_rod_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dbcc42c762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_starter"
+        },
+        "0dbcc472762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_basic"
+        },
+        "0dbcc490762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_hardened"
+        },
+        "0dbcc49a762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_blazing"
+        },
+        "0dbcc4cc762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_niotic"
+        },
+        "0dbcc508762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_spirited"
+        },
+        "0dbcc512762f11ee908896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energizing_rod_nitro"
+        }
       }
     }
   },
@@ -77,6 +82,10 @@
     ],
     "subtitle": {
       "text": "Light 'em up boys"
+    },
+    "icon": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_starter"
     },
     "groups": {
       "Powah": {

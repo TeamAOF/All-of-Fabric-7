@@ -6,39 +6,44 @@
   "tasks": {
     "1D3ADC1945CD78B2": {
       "title": "Solar Panel",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:solar_panel_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0db69be2762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_starter"
+        },
+        "0db69c28762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_basic"
+        },
+        "0db69c3c762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_hardened"
+        },
+        "0db69c50762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_blazing"
+        },
+        "0db69c78762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_niotic"
+        },
+        "0db69c82762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_spirited"
+        },
+        "0db69c96762f11eeb0f796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:solar_panel_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:solar_panel_starter"
     },
     "subtitle": {
       "text": "Photosynthesis o/"

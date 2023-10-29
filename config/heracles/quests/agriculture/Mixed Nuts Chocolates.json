@@ -6,23 +6,24 @@
   "tasks": {
     "0E94C45C84C6B669": {
       "title": "Mixed Nuts Chocolates",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:mixed_nuts_dark_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:mixed_nuts_milk_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:mixed_nuts_white_chocolate"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dd27808762f11eea74c96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:mixed_nuts_dark_chocolate"
+        },
+        "0dd27858762f11eea74c96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:mixed_nuts_milk_chocolate"
+        },
+        "0dd2786c762f11eea74c96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:mixed_nuts_white_chocolate"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:mixed_nuts_dark_chocolate"
     },
     "groups": {
       "Agriculture": {

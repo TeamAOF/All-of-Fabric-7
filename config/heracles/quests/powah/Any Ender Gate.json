@@ -6,39 +6,44 @@
   "tasks": {
     "2D1D8A371C3653DE": {
       "title": "Ender Gate",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:ender_gate_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dc30558762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_starter"
+        },
+        "0dc3059e762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_basic"
+        },
+        "0dc305b2762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_hardened"
+        },
+        "0dc305bc762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_blazing"
+        },
+        "0dc305e4762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_niotic"
+        },
+        "0dc305f8762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_spirited"
+        },
+        "0dc30616762f11eea3fd96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:ender_gate_nitro"
+        }
       }
     }
   },
@@ -72,7 +77,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:ender_gate_starter"
     },
     "subtitle": {
       "text": "Downloading..."

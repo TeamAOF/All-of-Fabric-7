@@ -6,23 +6,24 @@
   "tasks": {
     "41951260044C57ED": {
       "title": "One of the following praline chocolates please.",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:praline_dark_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:praline_milk_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:praline_white_chocolate"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0de62c68762f11ee987b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:praline_dark_chocolate"
+        },
+        "0de62ca4762f11ee987b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:praline_milk_chocolate"
+        },
+        "0de62cb8762f11ee987b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:praline_white_chocolate"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:praline_dark_chocolate"
     },
     "groups": {
       "Agriculture": {

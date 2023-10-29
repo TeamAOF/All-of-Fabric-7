@@ -6,46 +6,44 @@
   "tasks": {
     "7C11C6028FA55AD5": {
       "title": "Battery",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:battery_starter",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "powah:battery_basic",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "powah:battery_hardened",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "powah:battery_blazing",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "powah:battery_niotic",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "powah:battery_spirited",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "powah:battery_nitro",
-            "tag": {}
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0db06cf4762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_starter"
+        },
+        "0db06d30762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_basic"
+        },
+        "0db06d44762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_hardened"
+        },
+        "0db06d58762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_blazing"
+        },
+        "0db06d80762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_niotic"
+        },
+        "0db06d8a762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_spirited"
+        },
+        "0db06d9e762f11ee839396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:battery_nitro"
+        }
       }
     }
   },
@@ -77,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:battery_starter"
     },
     "subtitle": {
       "text": "The power of the sun in the palm of my hand"

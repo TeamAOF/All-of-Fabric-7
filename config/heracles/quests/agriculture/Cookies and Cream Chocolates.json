@@ -6,23 +6,24 @@
   "tasks": {
     "0E4BF8959E4A3E10": {
       "title": "Cookies and Cream Chocolates",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:cookie_cream_dark_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:cookie_cream_milk_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:cookie_cream_white_chocolate"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dd58c32762f11eebad296cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:cookie_cream_dark_chocolate"
+        },
+        "0dd58c6e762f11eebad296cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:cookie_cream_milk_chocolate"
+        },
+        "0dd58c82762f11eebad296cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:cookie_cream_white_chocolate"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:cookie_cream_dark_chocolate"
     },
     "groups": {
       "Agriculture": {

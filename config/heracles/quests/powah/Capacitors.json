@@ -6,19 +6,19 @@
   "tasks": {
     "244F4D657A724BD7": {
       "title": "Basic Capacitor",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:capacitor_basic_tiny"
-          },
-          {
-            "Count": 1,
-            "id": "powah:capacitor_basic"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0d9a8b96762f11eebe4796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:capacitor_basic_tiny"
+        },
+        "0d9a8c04762f11eebe4796cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:capacitor_basic"
+        }
       }
     }
   },
@@ -50,7 +50,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:capacitor_basic_tiny"
     },
     "subtitle": {
       "text": "I have to make how many of these!?"

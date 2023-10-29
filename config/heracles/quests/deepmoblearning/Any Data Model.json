@@ -6,56 +6,54 @@
   "tasks": {
     "4A4F270C7B4CB954": {
       "title": "Get a data model",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_illager",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_ocean",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_slimy",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_overworld",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_zombie",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_nether",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_skeleton",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_end",
-            "tag": {}
-          },
-          {
-            "Count": 1,
-            "id": "dml-refabricated:data_model_ghost",
-            "tag": {}
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0d9721cc762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_illager"
+        },
+        "0d972212762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_ocean"
+        },
+        "0d972230762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_slimy"
+        },
+        "0d97223a762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_overworld"
+        },
+        "0d97226c762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_zombie"
+        },
+        "0d972280762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_nether"
+        },
+        "0d97228a762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_skeleton"
+        },
+        "0d9722a8762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_end"
+        },
+        "0d9722c6762f11eea56b96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "dml-refabricated:data_model_ghost"
+        }
       }
     }
   },
@@ -87,7 +85,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "dml-refabricated:data_model_illager"
     },
     "subtitle": {
       "text": "Craft a Data Model of choice."

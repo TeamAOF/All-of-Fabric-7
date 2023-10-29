@@ -6,39 +6,44 @@
   "tasks": {
     "29E65C4BDBDF7F65": {
       "title": "Thermo Generator",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:thermo_generator_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0db37eda762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_starter"
+        },
+        "0db37f2a762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_basic"
+        },
+        "0db37f3e762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_hardened"
+        },
+        "0db37f52762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_blazing"
+        },
+        "0db37f84762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_niotic"
+        },
+        "0db37f98762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_spirited"
+        },
+        "0db37fa2762f11eea15e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:thermo_generator_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:thermo_generator_starter"
     },
     "subtitle": {
       "text": "Bring on da Heat!"

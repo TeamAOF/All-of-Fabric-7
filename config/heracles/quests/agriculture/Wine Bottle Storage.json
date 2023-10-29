@@ -5,19 +5,19 @@
   ],
   "tasks": {
     "30F2CD3AE7937413": {
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "vinery:wine_rack_1"
-          },
-          {
-            "Count": 1,
-            "id": "vinery:wine_rack_2"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0ddfba0e762f11ee90d196cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:wine_rack_1"
+        },
+        "0ddfba54762f11ee90d196cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:wine_rack_2"
+        }
       }
     }
   },
@@ -48,7 +48,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "vinery:wine_rack_1"
     },
     "subtitle": {
       "text": "Storage for Wine Bottles."

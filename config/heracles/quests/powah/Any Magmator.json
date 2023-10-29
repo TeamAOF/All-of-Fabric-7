@@ -6,39 +6,44 @@
   "tasks": {
     "3236CFA20A013269": {
       "title": "Magmator",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:magmator_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:magmator_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:magmator_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:magmator_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:magmator_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:magmator_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:magmator_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0da71988762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_starter"
+        },
+        "0da719e2762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_basic"
+        },
+        "0da719f6762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_hardened"
+        },
+        "0da71a0a762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_blazing"
+        },
+        "0da71a3c762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_niotic"
+        },
+        "0da71a50762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_spirited"
+        },
+        "0da71a64762f11eebfc996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:magmator_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:magmator_starter"
     },
     "subtitle": {
       "text": "Fluid Flux"

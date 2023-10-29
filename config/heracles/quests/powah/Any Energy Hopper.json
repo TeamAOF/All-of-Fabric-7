@@ -6,39 +6,44 @@
   "tasks": {
     "3ACC4487665F8FCC": {
       "title": "Energy Hopper",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_hopper_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0daa2a38762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_starter"
+        },
+        "0daa2a74762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_basic"
+        },
+        "0daa2a88762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_hardened"
+        },
+        "0daa2a92762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_blazing"
+        },
+        "0daa2aba762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_niotic"
+        },
+        "0daa2ace762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_spirited"
+        },
+        "0daa2af6762f11ee8d4496cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_hopper_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:energy_hopper_starter"
     },
     "subtitle": {
       "text": "Sidecar Energy"

@@ -7,40 +7,44 @@
   "tasks": {
     "32F11CA22D877230": {
       "title": "Reactor",
-      "type": "heracles:item",
-      "amount": 36,
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:reactor_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:reactor_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:reactor_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:reactor_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:reactor_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:reactor_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:reactor_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0db99dec762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_starter"
+        },
+        "0db99e32762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_basic"
+        },
+        "0db99e46762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_hardened"
+        },
+        "0db99e50762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_blazing"
+        },
+        "0db99e82762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_niotic"
+        },
+        "0db99ea0762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_spirited"
+        },
+        "0db99eaa762f11eebe3996cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:reactor_nitro"
+        }
       }
     }
   },
@@ -74,7 +78,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:reactor_starter"
     },
     "subtitle": {
       "text": "RADIOACTIVE RADIOACTIVE WOAHaaOAAh"

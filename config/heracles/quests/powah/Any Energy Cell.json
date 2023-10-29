@@ -6,39 +6,44 @@
   "tasks": {
     "02FE38964253A488": {
       "title": "Energy Cell",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cell_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0da40824762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_starter"
+        },
+        "0da40874762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_basic"
+        },
+        "0da40888762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_hardened"
+        },
+        "0da40892762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_blazing"
+        },
+        "0da408ba762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_niotic"
+        },
+        "0da408ce762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_spirited"
+        },
+        "0da408ec762f11ee996e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cell_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:energy_cell_starter"
     },
     "subtitle": {
       "text": "Big Box Storin'"

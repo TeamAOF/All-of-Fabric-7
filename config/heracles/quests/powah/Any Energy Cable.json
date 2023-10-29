@@ -6,39 +6,44 @@
   "tasks": {
     "4DC73CF40FA3BCAD": {
       "title": "Energy Cable",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:energy_cable_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dbff048762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_starter"
+        },
+        "0dbff08e762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_basic"
+        },
+        "0dbff0a2762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_hardened"
+        },
+        "0dbff0b6762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_blazing"
+        },
+        "0dbff0de762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_niotic"
+        },
+        "0dbff0f2762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_spirited"
+        },
+        "0dbff0fc762f11ee990e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:energy_cable_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:energy_cable_starter"
     },
     "subtitle": {
       "text": "YAMTAC (Yet another mod that adds cables)"

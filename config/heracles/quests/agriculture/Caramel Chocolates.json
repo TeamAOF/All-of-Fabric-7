@@ -6,23 +6,24 @@
   "tasks": {
     "718A6342D32D08B3": {
       "title": "Make one of the following caramel chocolates.",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:caramel_dark_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:caramel_milk_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:caramel_white_chocolate"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dd8a390762f11ee94f096cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:caramel_dark_chocolate"
+        },
+        "0dd8a3d6762f11ee94f096cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:caramel_milk_chocolate"
+        },
+        "0dd8a3f4762f11ee94f096cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:caramel_white_chocolate"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:caramel_dark_chocolate"
     },
     "groups": {
       "Agriculture": {

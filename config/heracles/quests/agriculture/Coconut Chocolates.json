@@ -6,23 +6,24 @@
   "tasks": {
     "7AB2C45EA0AEEC7D": {
       "title": "Coconut Chocolates",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:coconut_dark_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:coconut_milk_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:coconut_white_chocolate"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0de942fe762f11eebd5e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:coconut_dark_chocolate"
+        },
+        "0de9433a762f11eebd5e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:coconut_milk_chocolate"
+        },
+        "0de9434e762f11eebd5e96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:coconut_white_chocolate"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:coconut_dark_chocolate"
     },
     "groups": {
       "Agriculture": {

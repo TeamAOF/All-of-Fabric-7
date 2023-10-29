@@ -6,23 +6,24 @@
   "tasks": {
     "6BD84ECACCA0532F": {
       "title": "Make one of the following chocolates",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:dark_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:milk_chocolate"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:white_chocolate"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dc90fa2762f11ee9e8196cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:dark_chocolate"
+        },
+        "0dc90fe8762f11ee9e8196cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:milk_chocolate"
+        },
+        "0dc90ffc762f11ee9e8196cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:white_chocolate"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:dark_chocolate"
     },
     "groups": {
       "Agriculture": {

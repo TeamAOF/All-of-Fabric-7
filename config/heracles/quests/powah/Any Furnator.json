@@ -6,39 +6,44 @@
   "tasks": {
     "59EC736AD9AF7F8B": {
       "title": "Furnator",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:furnator_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:furnator_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:furnator_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:furnator_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:furnator_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:furnator_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:furnator_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0da0e536762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_starter"
+        },
+        "0da0e586762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_basic"
+        },
+        "0da0e59a762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_hardened"
+        },
+        "0da0e5ae762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_blazing"
+        },
+        "0da0e5e0762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_niotic"
+        },
+        "0da0e5ea762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_spirited"
+        },
+        "0da0e5fe762f11eea04896cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:furnator_nitro"
+        }
       }
     }
   },
@@ -70,7 +75,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:furnator_starter"
     },
     "subtitle": {
       "text": "Haven't seen one of these before."

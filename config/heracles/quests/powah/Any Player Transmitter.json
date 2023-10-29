@@ -6,39 +6,44 @@
   "tasks": {
     "6F978E3B646765B5": {
       "title": "Player Transmitter",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_starter"
-          },
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_basic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_hardened"
-          },
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_blazing"
-          },
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_niotic"
-          },
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_spirited"
-          },
-          {
-            "Count": 1,
-            "id": "powah:player_transmitter_nitro"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dad41e6762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_starter"
+        },
+        "0dad4236762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_basic"
+        },
+        "0dad4254762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_hardened"
+        },
+        "0dad425e762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_blazing"
+        },
+        "0dad4286762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_niotic"
+        },
+        "0dad429a762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_spirited"
+        },
+        "0dad42a4762f11eeb03f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "powah:player_transmitter_nitro"
+        }
       }
     }
   },
@@ -72,7 +77,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "powah:player_transmitter_starter"
     },
     "subtitle": {
       "text": "Bluetooh could never"

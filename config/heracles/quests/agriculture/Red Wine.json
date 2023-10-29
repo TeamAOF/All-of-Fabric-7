@@ -5,31 +5,34 @@
   ],
   "tasks": {
     "5ADE29333EF060C4": {
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "vinery:chenet_wine"
-          },
-          {
-            "Count": 1,
-            "id": "vinery:king_danis_wine"
-          },
-          {
-            "Count": 1,
-            "id": "vinery:noir_wine"
-          },
-          {
-            "Count": 1,
-            "id": "vinery:bolvar_wine"
-          },
-          {
-            "Count": 1,
-            "id": "vinery:cherry_wine"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0ddbc80e762f11ee9b6396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:chenet_wine"
+        },
+        "0ddbc85e762f11ee9b6396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:king_danis_wine"
+        },
+        "0ddbc87c762f11ee9b6396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:noir_wine"
+        },
+        "0ddbc890762f11ee9b6396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:bolvar_wine"
+        },
+        "0ddbc8c2762f11ee9b6396cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "vinery:cherry_wine"
+        }
       }
     }
   },
@@ -58,7 +61,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "vinery:chenet_wine"
     },
     "groups": {
       "Agriculture": {

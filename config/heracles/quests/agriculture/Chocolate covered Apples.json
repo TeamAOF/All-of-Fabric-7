@@ -6,23 +6,24 @@
   "tasks": {
     "148B208FE981E8FD": {
       "title": "Chocolate covered Apples",
-      "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "cacao:dark_chocolate_covered_apple"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:milk_chocolate_covered_apple"
-          },
-          {
-            "Count": 1,
-            "id": "cacao:white_chocolate_covered_apple"
-          }
-        ]
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0dcf5e02762f11eebd9596cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:dark_chocolate_covered_apple"
+        },
+        "0dcf5e48762f11eebd9596cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:milk_chocolate_covered_apple"
+        },
+        "0dcf5e5c762f11eebd9596cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "cacao:white_chocolate_covered_apple"
+        }
       }
     }
   },
@@ -51,7 +52,7 @@
     ],
     "icon": {
       "type": "heracles:item",
-      "item": "itemfilters:or"
+      "item": "cacao:dark_chocolate_covered_apple"
     },
     "groups": {
       "Agriculture": {
