@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:circuit_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "First near quantum level computer circuits"
     },

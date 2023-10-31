@@ -37,6 +37,7 @@
       "type": "heracles:item",
       "item": "indrev:modular_core_activated"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Industrial Revolution": {
         "position": [

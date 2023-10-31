@@ -40,6 +40,7 @@
       "type": "heracles:item",
       "item": "bewitchment:book_of_shadows"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "An introduction to the world of witchcraft."
     },

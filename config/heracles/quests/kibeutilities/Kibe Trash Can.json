@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:trash_can"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "It's a trashcan, nothing more to it."
     },

@@ -42,6 +42,7 @@
       "<hr/>",
       "<reward reward=\"7B3AA028EB162EEF\" quest=\"Configurability\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Quit screwing around and wrench it off"
     },

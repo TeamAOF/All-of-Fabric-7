@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:lv_transformer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Converts energy from Medium to Low tier."
     },

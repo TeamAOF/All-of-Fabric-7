@@ -49,6 +49,7 @@
       "<hr/>",
       "<reward reward=\"278A2E90AFCDB9A0\" quest=\"Poor Mans Compressor\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Craft a Forge Hammer from MI and make your first plates."
     },

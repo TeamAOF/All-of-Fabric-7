@@ -48,6 +48,7 @@
       "<hr/>",
       "<reward reward=\"0469FE91B8600125\" quest=\"MI Advanced Machine Hull and Turbo Upgrade\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Modern Industrialization": {
         "position": [

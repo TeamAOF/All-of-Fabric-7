@@ -70,6 +70,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:data_model"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "To get started with the mod you will need a Blank Data Model."
     },

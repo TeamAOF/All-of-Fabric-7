@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "kibe:cobblestone_generator_mk2"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Kibe Utilities": {
         "position": [

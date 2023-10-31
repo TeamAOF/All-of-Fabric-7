@@ -42,6 +42,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_tank"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Right-click with buckets or other tanks to transfer fluids."
     },

@@ -49,6 +49,7 @@
       "<hr/>",
       "<reward reward=\"0BB43D8E5DB6AD6F\" quest=\"TR Alternative Gens\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Power generation of choice."
     },

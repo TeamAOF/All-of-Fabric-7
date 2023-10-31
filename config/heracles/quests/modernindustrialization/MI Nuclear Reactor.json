@@ -72,6 +72,7 @@
       "<hr/>",
       "<reward reward=\"1FF91A9F296F1EA6\" quest=\"MI Nuclear Reactor\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A large multiblock whose purpose is to generate massive amounts of energy by consuming nuclear fuel."
     },

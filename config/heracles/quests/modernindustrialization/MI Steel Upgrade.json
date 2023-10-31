@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:steel_upgrade"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "To upgrade a bronze machine, craft a Steel Upgrade and apply it in a Smithing Table."
     },

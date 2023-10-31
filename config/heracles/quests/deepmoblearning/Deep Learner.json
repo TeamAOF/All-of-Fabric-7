@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:deep_learner"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Collect data about the mobs you want to learn."
     },

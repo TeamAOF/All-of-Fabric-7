@@ -50,6 +50,7 @@
       "<hr/>",
       "<reward reward=\"2FCDBB4BBCA0CABD\" quest=\"IR Ore Multiplication\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used in the process of tripling and quadrupling ore."
     },

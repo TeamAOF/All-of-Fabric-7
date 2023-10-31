@@ -51,6 +51,7 @@
       "type": "heracles:item",
       "item": "indrev:pump_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used to pump fluids placed in the world into fluid pipes and tanks."
     },

@@ -70,6 +70,7 @@
       "type": "heracles:item",
       "item": "kibe:entangled_tank"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Exactly like Entangled Chests but they store fluids instead."
     },

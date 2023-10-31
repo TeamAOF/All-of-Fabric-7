@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "techreborn:industrial_machine_frame"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A crafting ingredient used to build industrial machines."
     },

@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "techreborn:alarm"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Main purpose is to emit sound when given a red-stone signal."
     },

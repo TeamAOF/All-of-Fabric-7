@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:uu_matter_bucket"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "UwU Matter"
     },

@@ -37,6 +37,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:titanium_plate"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Tech Reborn": {
         "position": [

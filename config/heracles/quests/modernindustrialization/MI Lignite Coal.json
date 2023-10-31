@@ -33,6 +33,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:lignite_coal"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "It's brown coal. Great fuel to be used with the Steam Mining Drill."
     },

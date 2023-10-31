@@ -43,6 +43,7 @@
       "type": "heracles:item",
       "item": "techreborn:greenhouse_controller"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Harvest and replant crops in 9×9 area behind it."
     },

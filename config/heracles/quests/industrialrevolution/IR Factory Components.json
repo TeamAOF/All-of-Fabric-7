@@ -92,6 +92,7 @@
       "<reward reward=\"5696355503C2B666\" quest=\"IR Factory Components\"/>",
       "<reward reward=\"0D6E550E5B126A3D\" quest=\"IR Factory Components\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "You'll be able to visualize the block positions by right clicking a factory."
     },

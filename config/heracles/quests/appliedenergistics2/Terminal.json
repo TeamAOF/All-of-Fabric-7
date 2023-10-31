@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "ae2:terminal"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
     },

@@ -45,6 +45,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:steel_ingot"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The finest steel has to go through the hottest fire."
     },

@@ -46,6 +46,7 @@
       "<hr/>",
       "<reward reward=\"7E48E5130E230EB3\" quest=\"IR Drill Bottom\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "I have confidence in mining. I see exciting opportunities in it."
     },

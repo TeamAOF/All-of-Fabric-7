@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:distillery"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Will turn various fluids into their lighter parts."
     },

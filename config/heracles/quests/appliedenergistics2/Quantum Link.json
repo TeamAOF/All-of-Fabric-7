@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "ae2:quantum_link"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge."
     },

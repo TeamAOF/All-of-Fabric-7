@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:cursed_seeds"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Using Cursed Seeds on regular grass or dirt block will create Cursed Dirt, and can only spread 16 blocks from the center."
     },

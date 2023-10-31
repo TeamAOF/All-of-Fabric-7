@@ -47,6 +47,7 @@
       "type": "heracles:item",
       "item": "ae2:quantum_entangled_singularity"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Required to create a connection between to Quantum Network Bridges."
     },

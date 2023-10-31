@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:overclocker_upgrade"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Increases the speed of TR machines"
     },

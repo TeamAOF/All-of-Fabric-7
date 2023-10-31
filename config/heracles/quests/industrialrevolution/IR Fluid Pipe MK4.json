@@ -37,6 +37,7 @@
       "type": "heracles:item",
       "item": "indrev:fluid_pipe_mk4"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Industrial Revolution": {
         "position": [

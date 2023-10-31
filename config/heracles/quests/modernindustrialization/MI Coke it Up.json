@@ -50,6 +50,7 @@
       "<reward reward=\"5D4B74FC7E1B82E1\" quest=\"MI Coke it Up\"/>",
       "<reward reward=\"13869B898AB62912\" quest=\"MI Coke it Up\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Coke it Up!"
     },

@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "bewitchment:taglock"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
     },

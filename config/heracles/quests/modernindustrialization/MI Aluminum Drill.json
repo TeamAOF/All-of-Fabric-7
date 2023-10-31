@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:aluminum_drill"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used in the quarry. Check REI for outputs."
     },

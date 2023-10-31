@@ -52,6 +52,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:fire_clay_brick"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Dust into bricks!"
     },

@@ -40,6 +40,7 @@
       "type": "heracles:item",
       "item": "ad_astra:tier_4_rocket"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Beyond the Milky Way"
     },

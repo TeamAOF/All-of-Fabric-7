@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:mv_transformer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Converts energy from High to Medium tier. "
     },

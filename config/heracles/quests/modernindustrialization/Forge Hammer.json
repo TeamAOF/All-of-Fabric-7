@@ -37,6 +37,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:forge_hammer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Modern Industrialization": {
         "position": [

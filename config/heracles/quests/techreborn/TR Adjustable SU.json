@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:adjustable_su"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A battery block that stores energy and charges items."
     },

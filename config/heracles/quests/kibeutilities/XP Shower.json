@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:xp_shower"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Transforms the liquid XP from tanks behind it into experience orbs that players can absorb."
     },

@@ -52,6 +52,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_ingot"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Welcome to the Steam Age!"
     },

@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:trial_key"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Challenge to a fight!"
     },

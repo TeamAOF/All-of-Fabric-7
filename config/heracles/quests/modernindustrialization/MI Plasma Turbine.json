@@ -46,6 +46,7 @@
       "<hr/>",
       "<reward reward=\"17C119CDEA96BD44\" quest=\"MI Plasma Turbine\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Turns Helium Plasma into EU, at the rate of 100 kEU per millibucket."
     },

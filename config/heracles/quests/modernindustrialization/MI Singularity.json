@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:singularity"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "What happens when scientists try to build a miniature black hole in their lab?"
     },

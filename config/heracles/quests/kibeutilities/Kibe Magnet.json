@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:magnet"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "It does what a magnet does, magnetize items towards you."
     },

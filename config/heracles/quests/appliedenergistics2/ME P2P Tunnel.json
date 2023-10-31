@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "ae2:me_p2p_tunnel"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage."
     },

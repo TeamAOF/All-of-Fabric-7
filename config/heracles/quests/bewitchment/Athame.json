@@ -43,6 +43,7 @@
       "type": "heracles:item",
       "item": "bewitchment:athame"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Convenient tools for any witch."
     },

@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:xp_drain"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Will drain XP from a player and store it in a fluid container placed directly below it."
     },

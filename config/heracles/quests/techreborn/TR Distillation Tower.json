@@ -50,6 +50,7 @@
       "type": "heracles:item",
       "item": "techreborn:distillation_tower"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A multiblock machine that is used to crack oil into components."
     },

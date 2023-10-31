@@ -1,7 +1,7 @@
 {
   "settings": {},
   "dependencies": [
-    "Kibe Big Torch"
+    "Kibe Machines to Automate"
   ],
   "tasks": {
     "3343274513277EB6": {
@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:breaker"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible."
     },

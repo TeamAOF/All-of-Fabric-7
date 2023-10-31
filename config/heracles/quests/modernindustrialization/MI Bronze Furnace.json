@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_furnace"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The Furnace is... well... a Furnace."
     },

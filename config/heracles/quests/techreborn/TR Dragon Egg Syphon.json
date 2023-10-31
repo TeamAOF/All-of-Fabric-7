@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:dragon_egg_syphon"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A passive generator that produces energy from the Dragon Egg."
     },

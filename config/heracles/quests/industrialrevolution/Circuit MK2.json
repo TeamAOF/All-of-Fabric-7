@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:circuit_mk2"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "This helped indrev start their campaign for revolution."
     },

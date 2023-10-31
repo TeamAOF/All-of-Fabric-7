@@ -43,6 +43,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:vacuum_freezer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "You can check the base materials with REI, and the exact shape with a wrench!"
     },

@@ -62,6 +62,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:oil_drilling_rig"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A huge multiblock that can dig for Crude Oil under the bedrock using fluid pipes."
     },

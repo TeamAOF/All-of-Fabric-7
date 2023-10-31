@@ -74,6 +74,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:large_steam_boiler"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "An upgraded version of the smaller Bronze and Steel Boilers."
     },

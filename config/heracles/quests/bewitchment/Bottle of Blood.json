@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "bewitchment:bottle_of_blood"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
     },

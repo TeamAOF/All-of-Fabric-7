@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "ae2:16k_crafting_storage"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Provides 16,384 bytes of storage for crafting."
     },

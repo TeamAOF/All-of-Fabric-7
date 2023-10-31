@@ -43,6 +43,7 @@
       "type": "heracles:item",
       "item": "ae2:wireless_access_point"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Allows wireless access via a Wireless Terminal."
     },

@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_compressor"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "This is probably the first machine you will want to build!"
     },

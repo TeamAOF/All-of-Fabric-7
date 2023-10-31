@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:circuit_mk3"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Just when you thought it couldn't get better."
     },

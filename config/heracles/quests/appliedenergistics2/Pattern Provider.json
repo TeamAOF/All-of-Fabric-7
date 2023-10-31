@@ -47,6 +47,7 @@
       "type": "heracles:item",
       "item": "ae2:pattern_provider"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Recipes need to be encoded into patterns to be usable by crafting CPUs."
     },

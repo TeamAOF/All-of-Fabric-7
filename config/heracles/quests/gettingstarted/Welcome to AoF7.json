@@ -1,51 +1,47 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "25B2DFAFD351900E": {
-      "title": "Welcome to All of Fabric 7",
-      "icon": {
-        "type": "heracles:item",
-        "item": "kubejs:aof7_logo"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "300CDF28987696BC": {
-      "type": "heracles:item",
       "item": {
-        "id": "inmis:baby_backpack",
+        "id": "packedup:basicbackpack",
         "count": 1,
         "nbt": {}
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§eWelcome to All of Fabric 7",
+    "subtitle": {
+      "translate": "A Whole New World!"
+    },
     "description": [
-      "<h2>A Whole New World!</h2>",
+      "Ah.",
+      "Here you are.",
+      "<br/>",
+      "What /b/works/b/ will you craft here?",
+      "What /b/end/b/ do you seek?.",
+      "There are /d/many/d/.",
+      "<br/>",
+      "The highest written is known as --/e/Completionist/e/--.",
+      "<br/>",
+      "My soul’s purpose here is to light the way for seekers.",
+      "Questions?",
+      "You can ask.",
+      "<br/>",
+      "I may answer.",
+      "<br/>",
+      "**Welcome /6/All of Fabric 7/6/!**",
+      "<br/>",
       "<hr/>",
+      "<br/>",
       "<task task=\"25B2DFAFD351900E\" quest=\"Welcome to AoF7\"/>",
-      "<hr/>",
-      "&&bThis chapter &&rwill &&6introduce &&ryou to the basics of the pack.",
-      "<br/>",
-      "&&eAll of Fabric 7 &&roffers the following:",
-      "<br/>",
-      "- &&bChallenges",
-      "- &&bLearning Mods",
-      "- &&bAdventuring",
-      "<br/>",
-      "&&6The adventures are ahead&&r!",
-      "<hr/>",
       "<reward reward=\"300CDF28987696BC\" quest=\"Welcome to AoF7\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kubejs:aof7_logo"
-    },
-    "subtitle": {
-      "text": "A Whole New World!"
-    },
     "groups": {
       "Getting Started": {
         "position": [
@@ -53,6 +49,19 @@
           64
         ]
       }
+    },
+    "icon": {
+      "item": "kubejs:aof7_logo",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§eWelcome to All of Fabric 7"
     }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
   }
 }

@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "ae2:fluix_smart_dense_cable"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
     },

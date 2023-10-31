@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "techreborn:industrial_storage_unit"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Storage": {
         "position": [

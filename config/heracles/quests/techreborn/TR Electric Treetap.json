@@ -44,6 +44,7 @@
       "type": "heracles:item",
       "item": "techreborn:electric_treetap"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "An advanced version of Treetap used to collect Sap from Rubber Trees."
     },

@@ -1,7 +1,7 @@
 {
   "settings": {},
   "dependencies": [
-    "Kibe Big Torch"
+    "Kibe Machines to Automate"
   ],
   "tasks": {
     "17E02EA331F7D7A6": {
@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:fluid_hopper"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Exactly like vanilla Hoppers but that moves fluids instead of items."
     },

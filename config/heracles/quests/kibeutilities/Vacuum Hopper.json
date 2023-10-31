@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "kibe:vacuum_hopper"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Pulls nearby dropped items and experience orbs to their own inventory."
     },

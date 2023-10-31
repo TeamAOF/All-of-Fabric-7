@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:tank"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them."
     },

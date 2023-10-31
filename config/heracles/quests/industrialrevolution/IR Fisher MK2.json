@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:fisher_mk2"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A machine focused in fish farming, and it also supports enhancement upgrades."
     },

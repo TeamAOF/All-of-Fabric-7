@@ -55,6 +55,7 @@
       "<reward reward=\"54AF33022467EEBE\" quest=\"Hatchback\"/>",
       "<reward reward=\"4CF31744EC697161\" quest=\"Hatchback\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Hatchback!"
     },

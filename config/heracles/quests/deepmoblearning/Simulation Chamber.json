@@ -51,6 +51,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:simulation_chamber"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Now that you have some Data Models that are leveled up to at least Basic tier, we can move on to the good stuff."
     },

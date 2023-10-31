@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:heat_exchanger"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "You can use a Heat Exchanger to recover the HP water for another cycle."
     },

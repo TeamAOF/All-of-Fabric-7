@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:stainless_steel_ingot"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The next material you will want a large quantity of."
     },

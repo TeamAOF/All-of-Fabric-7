@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "techreborn:industrial_sawmill"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A multi-block wood processing machine."
     },

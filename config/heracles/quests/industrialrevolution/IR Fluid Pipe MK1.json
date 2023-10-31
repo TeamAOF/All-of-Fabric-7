@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:fluid_pipe_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Fluid pipes can be used to transfer fluids between tanks far apart."
     },

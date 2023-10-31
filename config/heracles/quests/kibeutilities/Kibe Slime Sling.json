@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:slime_sling"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Usable item that throws the player in the sky when charged while aiming at a block."
     },

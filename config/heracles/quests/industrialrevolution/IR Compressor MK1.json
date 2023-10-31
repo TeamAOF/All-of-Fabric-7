@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:compressor_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Mainly used for compressing ingots into plates."
     },

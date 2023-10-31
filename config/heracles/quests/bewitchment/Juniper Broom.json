@@ -68,6 +68,7 @@
       "type": "heracles:item",
       "item": "bewitchment:juniper_broom"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Brooms are magical devices commonly used by witches."
     },

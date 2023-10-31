@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "ad_astra:tier_1_rocket"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "You're finally ready to go to space! "
     },

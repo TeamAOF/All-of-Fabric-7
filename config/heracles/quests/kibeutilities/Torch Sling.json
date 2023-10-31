@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:torch_sling"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "It slings torches, pretty obvious."
     },

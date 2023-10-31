@@ -47,6 +47,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:assembler"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The first machine you'll want to make a lot of!"
     },

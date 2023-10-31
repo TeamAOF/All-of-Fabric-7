@@ -70,6 +70,7 @@
       "<hr/>",
       "<reward reward=\"3E53C278EB695099\" quest=\"IR Farming\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Note that it requires some items for it to function: (put them in the 2x2 square)"
     },

@@ -51,6 +51,7 @@
       "type": "heracles:item",
       "item": "dankstorage:dank_1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Miner's pickup tool of choice."
     },

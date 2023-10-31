@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:scrapboxinator"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A machine used to automate opening Scrap Boxes."
     },

@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "ae2:item_storage_cell_4k"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
     },

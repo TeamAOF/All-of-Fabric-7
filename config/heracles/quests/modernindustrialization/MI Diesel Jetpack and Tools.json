@@ -49,6 +49,7 @@
       "<hr/>",
       "<reward reward=\"005355ACD6B0E16C\" quest=\"MI Diesel Jetpack and Tools\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Modern Industrialization": {
         "position": [

@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "ae2:fluix_smart_cable"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "A smarter cable?"
     },

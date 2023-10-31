@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:solid_infuser_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Has the capability of mixing two ingredients into a different one."
     },

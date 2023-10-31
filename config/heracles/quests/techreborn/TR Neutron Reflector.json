@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "techreborn:neutron_reflector"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Requires Coal Dust quest to unlock."
     },

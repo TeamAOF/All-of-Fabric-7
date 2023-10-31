@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "techreborn:solid_canning_machine"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Lets you put items in cells"
     },

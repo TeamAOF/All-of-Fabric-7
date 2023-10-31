@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:empty_enhancer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Upgrades can boost machines stats."
     },

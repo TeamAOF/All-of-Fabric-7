@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "ae2:crafting_terminal"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
     },

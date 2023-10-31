@@ -48,6 +48,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:steam_mining_drill"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "You may want to consider making a Steam Mining Drill to obtain the ores directly without needing a Silk Touch pickaxe."
     },

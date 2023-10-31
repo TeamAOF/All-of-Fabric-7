@@ -52,6 +52,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:implosion_compressor"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Using Industrial TNT, the Implosion Compressor is able to compress dust and ingots of the most resistant materials."
     },

@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "ae2:crafting_unit"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
     },

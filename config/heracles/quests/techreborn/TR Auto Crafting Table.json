@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:auto_crafting_table"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A Crafting Table but.. Automated?"
     },

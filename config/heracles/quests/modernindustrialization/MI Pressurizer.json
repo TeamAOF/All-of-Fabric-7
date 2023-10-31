@@ -50,6 +50,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:pressurizer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A new multiblock made of titanium that can turn water into HP (high pressure) water, steam into HP steam, and the other way around."
     },

@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:diamond_dust"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "With a desire for the finest. Indrev tech needs only the best diamonds."
     },

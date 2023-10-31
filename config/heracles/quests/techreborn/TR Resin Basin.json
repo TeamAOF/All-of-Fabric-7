@@ -54,6 +54,7 @@
       "type": "heracles:item",
       "item": "techreborn:resin_basin"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "It lets you automatically collect sap from trees"
     },

@@ -58,6 +58,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:electric_quarry"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The electric equivalent of the Steam Quarry."
     },

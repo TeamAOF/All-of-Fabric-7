@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:energy_reader"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Tells you the current stored energy in machines and, in some machines, also tells the energy consumption per tick."
     },

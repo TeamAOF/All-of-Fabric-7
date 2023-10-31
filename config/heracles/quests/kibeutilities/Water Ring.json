@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:water_ring"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Gives an infinite Water Breathing status to the wearer."
     },

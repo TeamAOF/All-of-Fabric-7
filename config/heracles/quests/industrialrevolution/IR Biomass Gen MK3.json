@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:biomass_generator_mk3"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "This is probably what you are looking for in terms of energy creation."
     },

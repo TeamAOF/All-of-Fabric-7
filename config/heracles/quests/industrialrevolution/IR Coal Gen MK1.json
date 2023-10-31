@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:coal_generator_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Can use, not only coal, but anything a furnace can to generate energy."
     },

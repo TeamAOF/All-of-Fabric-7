@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:quantum_upgrade"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The most powerful machine upgrade ever. Have a look for yourself."
     },

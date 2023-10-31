@@ -43,6 +43,7 @@
       "type": "heracles:item",
       "item": "techreborn:wind_mill"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A passive generator that produces energy from wind."
     },

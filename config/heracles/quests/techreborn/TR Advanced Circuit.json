@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:advanced_circuit"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used in crafting the advanced machines, tools, and their component parts."
     },

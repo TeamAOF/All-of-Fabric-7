@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "techreborn:advanced_machine_casing"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used to build multi-block machines."
     },

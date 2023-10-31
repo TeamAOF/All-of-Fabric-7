@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "indrev:guide_book"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Choose the best. Choose INDREV!"
     },

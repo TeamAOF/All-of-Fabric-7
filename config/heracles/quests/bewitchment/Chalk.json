@@ -37,6 +37,7 @@
       "type": "heracles:item",
       "item": "bewitchment:chalk"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [

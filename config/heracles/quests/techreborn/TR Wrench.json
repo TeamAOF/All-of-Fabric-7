@@ -41,6 +41,7 @@
       "<hr/>",
       "<reward reward=\"6D82ED0B4253939D\" quest=\"TR Wrench\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used to rotate or dismantle machines."
     },

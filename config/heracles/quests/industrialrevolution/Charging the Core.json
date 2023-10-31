@@ -61,6 +61,7 @@
       "<hr/>",
       "<reward reward=\"789B8EBA44137D09\" quest=\"Charging the Core\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The base for every modular tool."
     },

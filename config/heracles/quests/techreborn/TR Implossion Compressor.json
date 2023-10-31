@@ -54,6 +54,7 @@
       "type": "heracles:item",
       "item": "techreborn:implosion_compressor"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Requires Advanced Circuit and Advanced Machine Casing"
     },

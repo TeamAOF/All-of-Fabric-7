@@ -47,6 +47,7 @@
       "type": "heracles:item",
       "item": "ad_astra:tier_2_rocket"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Beat Elon to it!"
     },

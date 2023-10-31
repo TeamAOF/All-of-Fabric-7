@@ -51,6 +51,7 @@
       "type": "heracles:item",
       "item": "techreborn:fusion_control_computer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Part of a multi-block generator that produces energy from various fluids."
     },

@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:distillation_tower"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Once you get some digital circuits going, make sure to build a Distillation Tower."
     },

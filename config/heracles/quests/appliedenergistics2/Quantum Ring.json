@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "ae2:quantum_ring"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
     },

@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "techreborn:compressor"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Requires Basic Machine Frame quest."
     },

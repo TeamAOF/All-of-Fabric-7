@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "ae2:pattern_encoding_terminal"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
     },

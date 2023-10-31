@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:fluid_infuser_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used for advanced infusing with fluids. Its main current use is for ore quadrupling."
     },

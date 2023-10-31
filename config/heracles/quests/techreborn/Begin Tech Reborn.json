@@ -29,6 +29,7 @@
       "type": "heracles:item",
       "item": "techreborn:manual"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Tech Reborn is a tech mod including tools and machines to gather resources, process materials, and progress through the mod."
     },

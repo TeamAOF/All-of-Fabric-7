@@ -97,6 +97,7 @@
       "type": "heracles:item",
       "item": "trofers:medium_pillar"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "subtitle": {
       "text": "Complete all quests to obtain the trophy!"
     },

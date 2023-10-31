@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:steel_packer"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A new machine only available in steel, can perform simple crafts for you."
     },

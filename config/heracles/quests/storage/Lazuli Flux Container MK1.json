@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "indrev:lazuli_flux_container_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Stores energy and charges items. "
     },

@@ -47,6 +47,7 @@
       "type": "heracles:item",
       "item": "ad_astra:tier_3_rocket"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Sizzling Space"
     },

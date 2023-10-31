@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:cursed_droplets"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Gathered from Wither Skeletons."
     },

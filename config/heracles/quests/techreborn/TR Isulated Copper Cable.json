@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:insulated_copper_cable"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Cables transfer energy across blocks."
     },

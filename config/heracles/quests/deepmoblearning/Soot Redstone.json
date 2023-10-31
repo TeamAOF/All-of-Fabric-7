@@ -22,6 +22,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:soot_redstone"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Rub your redstone on a block of coal."
     },

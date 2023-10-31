@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:slime_boots"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Wearable item that negates fall damage and makes the player bounce when hitting the floor with considerable speed."
     },

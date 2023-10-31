@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "indrev:pulverizer_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Mainly used for processing ores into two dusts."
     },

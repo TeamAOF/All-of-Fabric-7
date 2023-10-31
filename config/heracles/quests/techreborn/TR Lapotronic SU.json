@@ -44,6 +44,7 @@
       "<hr/>",
       "<reward reward=\"726CE2020788DEA7\" quest=\"TR Lapotronic SU\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A battery multi-block that stores energy and charges items. "
     },

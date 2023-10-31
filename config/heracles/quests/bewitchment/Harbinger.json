@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "bewitchment:harbinger"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
     },

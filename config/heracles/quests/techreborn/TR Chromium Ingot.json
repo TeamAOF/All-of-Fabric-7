@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:chromium_ingot"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Used in several late game crafting recipes."
     },

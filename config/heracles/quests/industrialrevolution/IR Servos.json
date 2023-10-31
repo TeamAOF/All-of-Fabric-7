@@ -55,6 +55,7 @@
       "<hr/>",
       "<reward reward=\"2782415DD5C958FC\" quest=\"IR Servos\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Item and fluid pipes require servos to function."
     },

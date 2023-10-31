@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:tier_upgrade_mk4"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Upgrades MK3 machines to MK4."
     },

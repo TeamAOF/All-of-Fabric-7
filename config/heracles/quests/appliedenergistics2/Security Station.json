@@ -49,6 +49,7 @@
       "type": "heracles:item",
       "item": "ae2:security_station"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Allows you to configure which users, and what permissions the users have with the ME System."
     },

@@ -62,6 +62,7 @@
       "type": "heracles:item",
       "item": "kibe:entangled_bucket"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Access the contents of your Entangled Tank directly in your inventory."
     },

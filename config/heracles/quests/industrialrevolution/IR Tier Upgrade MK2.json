@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "indrev:tier_upgrade_mk2"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Upgrades MK1 machines to MK2."
     },

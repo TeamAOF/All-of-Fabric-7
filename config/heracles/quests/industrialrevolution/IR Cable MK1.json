@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "indrev:cable_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Cables can be used to transfer power between machines far apart from each other."
     },

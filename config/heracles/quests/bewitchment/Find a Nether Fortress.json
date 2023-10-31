@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "minecraft:knowledge_book"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [

@@ -44,6 +44,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:analog_circuit"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "subtitle": {
       "text": "Basics of Electricity"
     },

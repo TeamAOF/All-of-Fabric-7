@@ -87,6 +87,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:data_model_illager"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Craft a Data Model of choice."
     },

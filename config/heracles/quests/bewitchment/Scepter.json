@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "bewitchment:scepter"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "This powerful relic is obtained by defeating Leonard."
     },

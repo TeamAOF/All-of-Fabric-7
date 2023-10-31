@@ -42,6 +42,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_macerator"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Ore hemiquadrupling for the win!"
     },

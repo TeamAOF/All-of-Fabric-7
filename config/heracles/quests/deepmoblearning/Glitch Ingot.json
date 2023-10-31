@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:glitch_ingot"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot."
     },

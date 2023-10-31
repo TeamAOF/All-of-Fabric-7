@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:uu_matter"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Made in the Matter Fabricator."
     },

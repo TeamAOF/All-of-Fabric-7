@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:advanced_large_steam_boiler"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A better and bigger Large Steam Boiler!"
     },

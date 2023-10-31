@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "indrev:item_pipe_mk1"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Item pipes can be used to transfer items between inventories far apart."
     },

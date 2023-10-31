@@ -51,6 +51,7 @@
       "type": "heracles:item",
       "item": "ae2:drive"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "A block designed to do one thing, store Storage Cells."
     },

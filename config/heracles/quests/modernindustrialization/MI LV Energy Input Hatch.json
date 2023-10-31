@@ -46,6 +46,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:lv_energy_input_hatch"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A Giant Inlet? "
     },

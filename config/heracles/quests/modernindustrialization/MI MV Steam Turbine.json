@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:mv_steam_turbine"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Modern Industrialization": {
         "position": [

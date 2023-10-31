@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:wither_proof_glass"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Cannot be destroyed by the wither boss."
     },

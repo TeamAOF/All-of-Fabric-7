@@ -48,6 +48,7 @@
       "type": "heracles:item",
       "item": "techreborn:industrial_blast_furnace"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A multi-block machine used to smelt tough metals."
     },

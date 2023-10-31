@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:magma_ring"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Gives an infinite Fire Resistance status to the wearer."
     },

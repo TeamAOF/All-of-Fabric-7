@@ -1,7 +1,7 @@
 {
   "settings": {},
   "dependencies": [
-    "Kibe Big Torch"
+    "Kibe Machines to Automate"
   ],
   "tasks": {
     "3C9068E99A18D305": {
@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "kibe:igniter"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Kibe Utilities": {
         "position": [

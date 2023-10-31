@@ -44,6 +44,7 @@
       "type": "heracles:item",
       "item": "bewitchment:witch_cauldron"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
     },

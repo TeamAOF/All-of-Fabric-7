@@ -23,6 +23,7 @@
       "type": "heracles:item",
       "item": "minecraft:green_wool"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Storage": {
         "position": [

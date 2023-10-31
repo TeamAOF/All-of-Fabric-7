@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:gravichestplate"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Uses advanced superconductor technology to invert the gravitational field around the player wearing it."
     },

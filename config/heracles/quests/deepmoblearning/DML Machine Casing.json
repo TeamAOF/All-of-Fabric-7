@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "dml-refabricated:machine_casing"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Craft a Soot Machine Casing."
     },

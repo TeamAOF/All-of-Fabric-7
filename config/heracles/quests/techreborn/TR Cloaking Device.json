@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "techreborn:cloaking_device"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Tech Reborn": {
         "position": [

@@ -56,6 +56,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:fluid_pipe"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "groups": {
       "Modern Industrialization": {
         "position": [

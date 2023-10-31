@@ -41,6 +41,7 @@
       "type": "heracles:item",
       "item": "bewitchment:horned_spear"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "subtitle": {
       "text": "This spear is the hunting weapon of Herne."
     },

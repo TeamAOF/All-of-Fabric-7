@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "ae2:charged_certus_quartz_crystal"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Use a powered Charger to charge Certus Quartz Crystal."
     },

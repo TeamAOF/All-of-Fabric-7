@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "techreborn:basic_tank_unit"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Right click with buckets or other tanks to transfer fluids."
     },

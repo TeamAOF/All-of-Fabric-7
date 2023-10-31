@@ -1,7 +1,7 @@
 {
   "settings": {},
   "dependencies": [
-    "Kibe Big Torch"
+    "Kibe Machines to Automate"
   ],
   "tasks": {
     "6B26491A205CD947": {
@@ -36,6 +36,7 @@
       "type": "heracles:item",
       "item": "kibe:drawbridge"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Kibe Utilities": {
         "position": [

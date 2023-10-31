@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:steel_unpacker"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A new machine only available in steel... Guess what it does."
     },

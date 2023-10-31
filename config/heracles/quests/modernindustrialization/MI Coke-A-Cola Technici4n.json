@@ -78,6 +78,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:coke_oven"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "Coke-A Cola -Technici4n"
     },

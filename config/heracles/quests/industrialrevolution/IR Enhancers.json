@@ -61,6 +61,7 @@
       "<hr/>",
       "<reward reward=\"6B858052DF67DC3E\" quest=\"IR Enhancers\"/>"
     ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "These upgrades will improve certain aspects of the machine like speed and energy usage."
     },

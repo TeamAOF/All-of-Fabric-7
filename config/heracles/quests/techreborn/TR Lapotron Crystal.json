@@ -39,6 +39,7 @@
       "type": "heracles:item",
       "item": "techreborn:lapotron_crystal"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "A portable battery used to charge items."
     },

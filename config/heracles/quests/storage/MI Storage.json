@@ -24,6 +24,7 @@
       "type": "heracles:item",
       "item": "minecraft:green_wool"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "subtitle": {
       "text": "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
     },

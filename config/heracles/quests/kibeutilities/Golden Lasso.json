@@ -38,6 +38,7 @@
       "type": "heracles:item",
       "item": "kibe:golden_lasso"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "subtitle": {
       "text": "Can only hold passive animals."
     },

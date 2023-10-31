@@ -70,6 +70,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:electric_blast_furnace"
     },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
     "subtitle": {
       "text": "The electric version of the Steam Blast Furnace."
     },
