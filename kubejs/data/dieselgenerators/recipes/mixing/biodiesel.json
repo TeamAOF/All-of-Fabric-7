@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "createaddition:seed_oil",
+      "amount": 81000
+    },
+    {
+      "fluid": "createaddition:bioethanol",
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createdieselgenerators:biodiesel",
+      "amount": 162000
+    }
+  ]
+}

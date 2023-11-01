@@ -1,6 +1,7 @@
 ServerEvents.recipes((event) => {
 
     const id = [
+        'create:mixing/plant_oil',
         'indrev:shapeless/steel_dust',
         'techreborn:crafting_table/solar_panel/ultimate_solar_panel_alt',
         'techreborn:crafting_table/solar_panel/industrial_solar_panel_alt',

@@ -1,5 +1,9 @@
 
 const DELETED_ITEMS = [
+    'createdieselgenerators:plant_oil',
+    'createdieselgenerators:ethanol',
+    'createdieselgenerators:plant_oil_bucket',
+    'createdieselgenerators:ethanol_bucket',
     'croptosis:fertilized_sand',
     'croptosis:fertilized_farmland',
     'croptosis:fertilized_dirt',
@@ -92,4 +96,11 @@ const DELETED_ITEMS = [
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
+});
+const DELETED_FLUIDS = [
+    'createdieselgenerators:plant_oil',
+    'createdieselgenerators:ethanol',
+];
+REIEvents.hide('fluid', (event) => {
+    DELETED_FLUIDS.forEach(id => event.hide(id));
 });
