@@ -2,31 +2,24 @@
     "providers": [
 		{
             "type": "bitmap",
-            "file": "aof:other/aof6_bannerA.png",
+            "file": "aof:other/aof7_a.png",
 			"ascent": 7,
             "height": 60,
             "chars": ["a"]
         },
         		{
             "type": "bitmap",
-            "file": "aof:other/aof6_bannerB.png",
+            "file": "aof:other/aof7_b.png",
 			"ascent": 7,
             "height": 60,
             "chars": ["b"]
         },
         {
             "type": "bitmap",
-            "file": "aof:other/aof6_bannerC.png",
+            "file": "aof:other/aof7_c.png",
 			"ascent": 7,
             "height": 60,
             "chars": ["c"]
-        },
-        {
-            "type": "bitmap",
-            "file": "aof:other/logo.png",
-			"ascent": 7,
-            "height": 60,
-            "chars": ["d"]
         },
 		{
             "type": "space",
