@@ -1,0 +1,19 @@
+{
+  "name": "bubble",
+  "disable": false,
+  "tier": 2,
+  "color": "c08dcf",
+  "armorPoints": 2,
+  "enchantability": 15,
+  "craftingMaterial": "minecraft:bubble_coral_block",
+  "rarity": 0,
+  "capacity": 2E6,
+  "usage": 833.0,
+  "speedVertical": 0.15,
+  "accelVertical": 0.10,
+  "speedSideways": 0.01,
+  "speedHoverDescend": 0.15,
+  "speedHover": 0,
+  "sprintSpeedMulti": 1,
+  "sprintFuelMulti": 2
+}
