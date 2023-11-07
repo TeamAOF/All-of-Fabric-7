@@ -1,11 +1,6 @@
 ServerEvents.recipes((event) => {
 
     const id = [
-        'iron-jetpacks:bubble_thruster',
-        'iron-jetpacks:steel_thruster',
-        'iron-jetpacks:electrum_thruster',
-        'iron-jetpacks:platinum_thruster',
-        'iron-jetpacks:netherite_thruster',
         'iron-jetpacks:bubble_capacitor',
         'iron-jetpacks:steel_capacitor',
         'iron-jetpacks:electrum_capacitor',
