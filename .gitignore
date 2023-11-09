@@ -120,6 +120,8 @@ everbook/
 
 debug/
 
+.DS_Store
+
 usernamecache.json
 
 modernfix/
