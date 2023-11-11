@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "a_map_how"
+  ],
+  "tasks": {
+    "factories_task": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "factories_reward_1": {
+      "item": {
+        "id": "modern_industrialization:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "factories_reward_2": {
+      "item": {
+        "id": "indrev:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "factories_reward_3": {
+      "item": {
+        "id": "techreborn:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Monopolizing resources?",
+      "<br></br>",
+      "I hope you don't plan on ruining this world. I understand it's entirely at your disposal and --this-- ||plane of existence|| is a clean slate, but I wouldn't get your hopes up. This domain is massive, about 3.6 billion kilometers covering the surface. Let alone the depth of about 128 meters measuring from sea level, but considering that spans the entire domain, the amount of resources to collect would be unfathomable. Plus adding in the multiple ||planes of existence|| originally hidden from your own physical one, I wish you luck.",
+      "<br></br>",
+      "Automate to your desire, to the point you no longer need to lift a finger and any food or machine will be made at your command. Anything is possible as long as you put your mind to it, I can promise you that."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:chemical_reactor",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Factories?"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

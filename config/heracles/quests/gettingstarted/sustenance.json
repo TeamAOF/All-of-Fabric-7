@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "a_map_how"
+  ],
+  "tasks": {
+    "sustenance_task": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "sustenance_reward": {
+      "item": {
+        "id": "croptopia:baked_crepes",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Sustenance",
+      "<br/>",
+      "With forests and plains of plants at your disposal, food will be no issue in the slightest. There is an absolutely massive range of different fruits, vegetables, grains, meats, and more to make --your-- favorite food; or find a new favoirte?",
+      "<br/>",
+      "I'll form a little to get you on your way so you don't starve your first few nights. I wish you could eat infinately."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "croptopia:baked_crepes",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sustenance"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "need_assistance"
+  ],
+  "tasks": {
+    "what_will_i_find_task": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "what_will_i_find_reward": {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# What will I find?",
+      "<br/>",
+      "The world is vast with many civilizations to stumble into; both ancient and thriving. Many tombs and graveyards housing the dead, ships floating in the clouds, and parts of space beyond lodged in the terrain. Even small camps and settlements within the caversns, dungeons filled with hostiles, and ||magical structures|| overflowing with ||color||.",
+      "<br/>",
+      "Your main focus at this point in time might be to locate a biome that --you-- want to settle in. For this, I advise you create a /a/Nature's Compass/a/. It will direct you to any biome you may desire.",
+      "<br/>",
+      "I would manifest a backpack for you, but my powers don't stretch that far. The most I can do right now is a few sections of leather to help you make the whole thing. Here, please use this wisely."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "naturescompass:naturescompass",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "What will I find?"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

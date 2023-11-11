@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    "arms_are_full"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Portable Mass",
+      "<br/>",
+      "In due time, a backpack will be a mere fraction of what you will be able to carry on hand. As you get stronger and develop more more, the capabilities you will reach will be mind bending. Power on, /b/Player/b/."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "bankstorage:bank_7",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Portable Mass"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": false
+  }
+}

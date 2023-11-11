@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "factories"
+  ],
+  "tasks": {
+    "replication_start_task": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Replication",
+      "<br/>",
+      "You will encounter plentiful difficulties in your attempt to raise a factory from the ground up. Milestones might seem apparent, even leaving the floor for the sky, but your end goal will turn you into a god. A gaurdian that will overlook this domain with infinite power at your fingertips. Will you make it there? Only time will tell."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          50,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:replicator",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Replication"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "need_assistance_task": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Assistance Needed!",
+      "<br/>",
+      "Running into a few problems are you? That's to be expected. I can offer a few tips to assist you but I'm not sure I'll be able to hold your hand through it.",
+      "<br/>",
+      "Because I have no hands."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "adventurez:handbook",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Need assistance?"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

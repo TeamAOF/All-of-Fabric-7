@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "need_assistance"
+  ],
+  "tasks": {
+    "arms_are_full_task": {
+      "item": "travelersbackpack:standard",
+      "type": "heracles:item_interaction"
+    }
+  },
+  "rewards": {
+    "arms_are_full_reward": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# My arms are full!",
+      "<br/>",
+      "I can see you're carrying a bit of weight with you right now. For some reason the backpacks in this word practically erase the weight and give you --way-- more room to carry things. The /b/Traveler's Backpack/b/ is the most multi-purpose backpack you can create.",
+      "<br/>",
+      "The /b/Traveler's Backpack/b/ that you will first craft can store up to 24 spaces, 9 of them being crafting spaces that can be temporarily occupied. The basic backpack also has two tanks that can hold fluids. The upgraded backpacks can hold extra tools you can easily access when needed.",
+      "<br/>",
+      "You can quick organize the items in your backpack with some buttons that show up in your vision when you're looking into it. It can sort, quick stack, and even transfer items to and from your main inventory.",
+      "<br/>",
+      "Don't forget, they're just tanks. If you --really-- wanted to, you could pump the fluids out with pipes. You could even do it with the items! What an odd thing, don't you think?"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "travelersbackpack:standard",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "My arms are full!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}
