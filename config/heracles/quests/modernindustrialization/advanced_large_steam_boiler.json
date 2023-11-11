@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "advanced_large_steam_boiler_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_large_steam_boiler",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "advanced_large_steam_boiler_rewa": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:coke_block",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Advanced Large Steam Boiler",
+      "<br/>",
+      "Upgrade those Large Steam Boilers already! This advanced version can quadruple the steam production to 1024 mb/t of steam at full temperature. It's a little taller so remember to use the wrench to see multiblock shape and block placement."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          740,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:advanced_large_steam_boiler",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Large Steam Boiler"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

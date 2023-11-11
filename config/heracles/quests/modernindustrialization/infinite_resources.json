@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "your_first_steel"
+  ],
+  "tasks": {
+    "infinite_resources_task_2": {
+      "type": "heracles:item",
+      "amount": 13,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:steel_machine_casing"
+    },
+    "infinite_resources_task_1": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:steam_quarry"
+    },
+    "infinite_resources_task_4": {
+      "type": "heracles:item",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:chain"
+    },
+    "infinite_resources_task_3": {
+      "type": "heracles:item",
+      "amount": 6,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:steel_machine_casing_pipe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Infinate Resources?",
+      "<br/>",
+      "Remember when I told you that you could build a quarry so that you'd never need to go mining for resources again? Well, this is the time! It wont get you --everything--, but it will get you a lot of the main ores. --Everything-- comes later.",
+      "<br/>",
+      "The /b/Steam Quarry/b/ is a steam multiblock machine that uses different drills that you install onto it to dig deeper than bedrock and retrieves ores straight from the below, whatever might be under there.",
+      "<br/>",
+      "You can check which ores this method will provide by checking REI. I recommend that you have multiple Steam Blast Furnaces running before you begin putting together the quarry because this will use a LOT of steel."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          450,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:steam_quarry",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infinite Resources?"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

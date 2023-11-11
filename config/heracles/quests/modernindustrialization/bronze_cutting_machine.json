@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "bronze_cutting_machine": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_cutting_machine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Bronze Cutting Machine",
+      "<br/>",
+      "A sleek bronze casing with a vicious spinning blade inside will give you even better cutting ratios than you ever experieced using your forge hammer--extra bolts, gears, rings, and rods!",
+      "<br/>",
+      "Just remember that you can't cut for free. This machine runs off steam and uses lubricant to make clean cuts without overheating. Lubricant can be produced inside of the mixer."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:bronze_cutting_machine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Cutting Machine"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

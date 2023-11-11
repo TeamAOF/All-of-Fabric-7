@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "chemical_reactor_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:chemical_reactor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "chemical_reactor_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:sulfuric_acid_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Chemical Reactor",
+      "<br/>",
+      "Say my name. ||Winston||? You're god damn right. The chemical reactor can be used as an enclosed machine to take advantage of the chemical reactions between subtstances in this world to make new things. The chemical reactor will encourage these reactions and keep them isolated so you won't be hurt or get sick from released fumes, liquids, or solids.",
+      "<br/>",
+      "Now, what do you say? Let's get cookin'."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          -17
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:chemical_reactor",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chemical Reactor"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

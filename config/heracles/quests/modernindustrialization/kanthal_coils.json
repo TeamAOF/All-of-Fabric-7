@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "stainless_steel"
+  ],
+  "tasks": {
+    "kanthal_coils_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:kanthal_coil",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "kanthal_coils_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:kanthal_coil",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Kanthal Coils",
+      "<br/>",
+      "/b/Kanthal Coil/b/s are a new type of coiling for your EBF, allowing for a higher power draw and the capability to generate even more heat. Be careful, don't want to get burned. Ouch!"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1037,
+          87
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:kanthal_coil",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kanthal Coils"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

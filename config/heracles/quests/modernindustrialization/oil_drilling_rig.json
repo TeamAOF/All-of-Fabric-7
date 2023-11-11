@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "oil_drilling_rig_task_4": {
+      "type": "heracles:item",
+      "item": "minecraft:chain",
+      "amount": 18,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    },
+    "oil_drilling_rig_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_machine_casing",
+      "amount": 38,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    },
+    "oil_drilling_rig_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_machine_casing_pipe",
+      "amount": 6,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    },
+    "oil_drilling_rig_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:oil_drilling_rig",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "oil_drilling_rig_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:crude_oil_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Oil Drilling Rig",
+      "<br/>",
+      "Sweet, sweet oil! Oil is a black flammable liquid that forms in the ground over a very, --very-- long time. Using a Drilling Rig, you can drill into the ground and extract this oil. Oil isn't the only thing that can be pumped from the floor though. Using different types of drills decides which fluid is mined for. Use your REI to see which drills mine for which fluids.",
+      "<br/>",
+      "P.S. Don't forget, this one is one of those multiblocks and a complex one at that. Use your wrench to show you how to build it!"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          -87
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:oil_drilling_rig",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Oil Drilling Rig"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "the_lategame_age"
+  ],
+  "tasks": {
+    "distillation_tower_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillation_tower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "distillation_tower_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:clean_stainless_steel_machine_casing",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Distillation Tower",
+      "<br/>",
+      "Remember when I said the /b/Distillery/b/ could only output one type of fluid per cycle? Well, this is your upgrade! You can choose how many layers you'd like to have, up to 9, and it'll output one fluid --per layer--! To choose which size you want to have the distillation tower set to, use the selector in the top left of it's screen. Happy Distilling!"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1055,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:distillation_tower",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Distillation Tower"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

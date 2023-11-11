@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "distillery"
+  ],
+  "tasks": {
+    "upgrades_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "upgrades_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:advanced_upgrade",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Upgrades",
+      "<br/>",
+      "Now that you can start your journey into the chemicals branching off from crude oil, you can produce upgrades for your machines! All of the electic machines you've used up until now have had a maximum overclock of 32 eu/t. Now, you can increase that maximum, depending on the tier of upgrade you use. Check your REI to see how much EU each upgrade raises."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          950,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:advanced_upgrade",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Upgrades"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

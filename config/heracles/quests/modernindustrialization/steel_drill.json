@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "electric_quarry"
+  ],
+  "tasks": {
+    "steel_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_drill",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "steel_drill_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_drill",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Steel Drill",
+      "<br/>",
+      "The /b/Steel Drill/b/ gives you the rest of the more commonly used ores that you'll need for further progression in your journey to total automation, but also in your journey of the world itself. Check your REI for all the possible outputs."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          757,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:steel_drill",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Drill"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "conveyer_belt",
+    "machine_hull",
+    "pistons",
+    "motors",
+    "robotic_arms"
+  ],
+  "tasks": {
+    "assembler_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "assembler_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Assembler",
+      "<br/>",
+      "Your first taste of true automation! This is also the first machine you'll want to make a lot of. The /b/Assembler/b/ allows you to automate almost all recipes related to the machines. Check your REI to see which recipes you are allowed to automate using the Assembler. You can setup up to 3 recipes in one assembler by using slot locking. Just remember that it will make as many as it can of the first recipe before it moves on to the next, so never put multiple high demand recipes into a single assembler."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          570,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:assembler",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Assembler"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}
