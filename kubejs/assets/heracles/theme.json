@@ -5,23 +5,24 @@
         "groupName": "#FFE7CE"
     },
     "questScreen": {
+        "taskTitle": "#611926",
+        "taskDescription": "#808080",
+        "taskProgress": "#FFFFFF",
+		"taskNestedTitle": "#A0A0A0",
+		"taskSubmit": "#D0D0D0",
+		"taskSubmitDisabled": "#707070",
+        "rewardTitle": "#611926",
+        "rewardDescription": "#D0D0D0",
+        "taskRewardStatusHeading": "#231A0E",
+        "summaryTitle": "231A0E",
+        "summaryProgress": "#1D5386",
+        "summaryDescription": "#696969",
         "tabButton": "#FFE7CE",
-        "tabButtonSelected": "#DDB92A",
-        "taskTitle": "#000000",
-        "taskDescription": "#4C4C4C",
-        "taskProgress": "#000000",
-        "rewardTitle": "#000000",
-        "rewardDescription": "#4C4C4C",
-        "summaryTitle": "#000000",
-        "summaryProgress": "#000000",
-        "summaryDescription": "#4C4C4C"
+        "tabButtonSelected": "#FFE7CE"
     },
-    "modals": {
-        "title": "#4C4C4C",
-        "rewardsAmount": "#4C4C4C"
-    },
-    "generic": {
-        "buttonActive": "#DDB92A",
-        "buttonInactive": "#DDB92A"
-    }
+    "toasts": {
+		"title": "#FFE7CE",
+		"claimedTitle": "#FADD8E",
+		"tutorialTitle": "#404040"
+	}
 }
