@@ -1,0 +1,27 @@
+{
+    "questsScreen": {
+        "headerTitle": "#611926",
+        "headerGroupsTitle": "#611926",
+        "groupName": "#FFE7CE"
+    },
+    "questScreen": {
+        "tabButton": "#FFE7CE",
+        "tabButtonSelected": "#DDB92A",
+        "taskTitle": "#000000",
+        "taskDescription": "#4C4C4C",
+        "taskProgress": "#000000",
+        "rewardTitle": "#000000",
+        "rewardDescription": "#4C4C4C",
+        "summaryTitle": "#000000",
+        "summaryProgress": "#000000",
+        "summaryDescription": "#4C4C4C"
+    },
+    "modals": {
+        "title": "#4C4C4C",
+        "rewardsAmount": "#4C4C4C"
+    },
+    "generic": {
+        "buttonActive": "#DDB92A",
+        "buttonInactive": "#DDB92A"
+    }
+}
