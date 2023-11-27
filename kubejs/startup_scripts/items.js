@@ -14,6 +14,8 @@ StartupEvents.registry('item', event => {
 	event.create('invisible_leggings', 'leggings').displayName('Invisible Leggings').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	event.create('invisible_boots', 'boots').displayName('Invisible Boots').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	// event.create('botania_fertilizer').displayName('Botania Fertilizer') //original bag texture from sukuro120 on planetminecraft
+	event.create('hyper_nitro_crystal').displayName('Hyper Nitro Crystal').glow(true).rarity('Epic') //texture originally from POWAH! mod
+	event.create('mother_of_all_pearls').displayName('Mother of all Pearls').rarity('Epic') //texture originally from BOMD mod
 });
 
 ItemEvents.armorTierRegistry(event => {
