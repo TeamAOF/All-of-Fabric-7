@@ -129,3 +129,5 @@ fancymenu_data/
 heracles_options.json
 
 defaultconfigs/
+
+.DS_Store
