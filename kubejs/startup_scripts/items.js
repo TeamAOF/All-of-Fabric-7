@@ -1,19 +1,19 @@
 StartupEvents.registry('item', event => {
 
-	event.create('aof6_logo').displayName('AOF6')
+	event.create('aof7_logo').displayName('AOF7')
 	event.create('completionist').displayName('Completionist Medal')
 	event.create('quester').displayName('All The Quests')
 	event.create('check').displayName('check mark')
-	event.create('croptopia_fertilizer').displayName('Croptopia Fertilizer') //original bag texture from sukuro120 on planetminecraft
-	event.create('empty_fertilizer_bag').displayName('Empty Fertilizer Bag') //original bag texture from sukuro120 on planetminecraft
-	event.create('glue').displayName('Glue')
-	event.create('croptopia_mulch').displayName('Croptopia Mulch') //original bag texture from sukuro120 on planetminecraft
+	// event.create('croptopia_fertilizer').displayName('Croptopia Fertilizer') //original bag texture from sukuro120 on planetminecraft
+	// event.create('empty_fertilizer_bag').displayName('Empty Fertilizer Bag') //original bag texture from sukuro120 on planetminecraft
+	// event.create('glue').displayName('Glue')
+	// event.create('croptopia_mulch').displayName('Croptopia Mulch') //original bag texture from sukuro120 on planetminecraft
 	event.create('invisible_ingot').displayName('Invisible Ingot').rarity('Common')
 	event.create('invisible_helmet', 'helmet').displayName('Invisible Helmet').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	event.create('invisible_chestplate', 'chestplate').displayName('Invisible Chestplate').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	event.create('invisible_leggings', 'leggings').displayName('Invisible Leggings').tier('invisible').tooltip('§6Works in cosmetic slots too!')
 	event.create('invisible_boots', 'boots').displayName('Invisible Boots').tier('invisible').tooltip('§6Works in cosmetic slots too!')
-	event.create('botania_fertilizer').displayName('Botania Fertilizer') //original bag texture from sukuro120 on planetminecraft
+	// event.create('botania_fertilizer').displayName('Botania Fertilizer') //original bag texture from sukuro120 on planetminecraft
 });
 
 ItemEvents.armorTierRegistry(event => {
