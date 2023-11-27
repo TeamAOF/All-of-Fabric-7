@@ -257,6 +257,7 @@ ServerEvents.tags('item', event => {
         'create:creative_blaze_cake',
         // 'wands:creative_wand',
         // 'hexcasting:creative_unlocker'
+	'the_bumblezone:honey_cocoon'
 
     ];
 
