@@ -20,7 +20,6 @@
   * [Fright's Delight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/frights-delight) (by [ChefMooon](https://www.curseforge.com/members/ChefMooon/projects))
   * [Go Fish (updated)](https://www.curseforge.com/minecraft/mc-mods/go-fish-updated) (by [AuKay](https://www.curseforge.com/members/AuKay/projects))
   * [Invocations (Spell Engine)](https://www.curseforge.com/minecraft/mc-mods/invocations-spell-engine) (by [cleannrooster](https://www.curseforge.com/members/cleannrooster/projects))
-  * [Iris & Oculus Flywheel Compat](https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat) (by [leon_mout](https://www.curseforge.com/members/leon_mout/projects))
   * [Load My F***ing Tags](https://www.curseforge.com/minecraft/mc-mods/lmft) (by [Blodhgrm](https://www.curseforge.com/members/Blodhgrm/projects))
   * [More Villagers [Fabric]](https://www.curseforge.com/minecraft/mc-mods/more-villagers-fabric) (by [SameDifferent](https://www.curseforge.com/members/SameDifferent/projects))
   * [Naturalist](https://www.curseforge.com/minecraft/mc-mods/naturalist) (by [Starfish_Studios](https://www.curseforge.com/members/Starfish_Studios/projects))

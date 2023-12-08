@@ -182,7 +182,6 @@
   * [indrev-1.16.5-BETA.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-revolution/files/4742613) (by [GabrielHOlv](https://www.curseforge.com/members/GabrielHOlv/projects))
   * [InventorySorter-1.9.0-1.20.jar](https://www.curseforge.com/minecraft/mc-mods/inventory-sorting/files/4597704) (by [Kyrptonaught](https://www.curseforge.com/members/Kyrptonaught/projects))
   * [invoke-0.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/invocations-spell-engine/files/4929376) (by [cleannrooster](https://www.curseforge.com/members/cleannrooster/projects))
-  * [iris-flywheel-compat-1.20.1-0.2.1.jar](https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat/files/4675789) (by [leon_mout](https://www.curseforge.com/members/leon_mout/projects))
   * [iron-jetpacks-0.4.7.jar](https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks-fabric/files/4594926) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
   * [ironchests-5.0.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/ironchests/files/4638050) (by [ThatGravyBoat](https://www.curseforge.com/members/ThatGravyBoat/projects))
   * [itemcollectors-1.1.8-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/item-collectors/files/4625330) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))

@@ -13,7 +13,8 @@ _Fabric Loader 0.15.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
   * [AzureLib](https://www.curseforge.com/minecraft/mc-mods/azurelib)
   * [Botania (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric)
   * [Building Wands](https://www.curseforge.com/minecraft/mc-mods/building-wands)
-  * [Create Big Cannons](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons)
+  * [Compost Bag](https://www.curseforge.com/minecraft/mc-mods/compost-bag)
+  * [Create Deco Fabric](https://www.curseforge.com/minecraft/mc-mods/create-deco-fabric)
   * [Create: Bells & Whistles](https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles)
   * [Ecologics](https://www.curseforge.com/minecraft/mc-mods/ecologics)
   * [Eldritch End](https://www.curseforge.com/minecraft/mc-mods/eldritch-end)
@@ -28,20 +29,27 @@ _Fabric Loader 0.15.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric
   * [Noisium](https://www.curseforge.com/minecraft/mc-mods/noisium)
   * [Polymorphic Energistics](https://www.curseforge.com/minecraft/mc-mods/polymorphic-energistics)
   * [Prominent Create](https://www.curseforge.com/minecraft/mc-mods/prominent-create)
+  * [Revelationary](https://www.curseforge.com/minecraft/mc-mods/revelationary)
+  * [Spectrum](https://www.curseforge.com/minecraft/mc-mods/spectrum)
   * [Sprinklerz](https://www.curseforge.com/minecraft/mc-mods/sprinklerz)
   * [Structure Pool API](https://www.curseforge.com/minecraft/mc-mods/structure-pool-api)
   * [Trofers](https://www.curseforge.com/minecraft/mc-mods/trofers)
   * [You're in Grave Danger](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger)
   * [Zephyr (Zenith - RPG Series compat)](https://www.curseforge.com/minecraft/mc-mods/zephyr)
 
+
 ### Removed Mods ❌
 
+  * [Brutal Bosses - Custom Bosses[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/brutal-bosses-dungeon) (Replaced by Apoth Bosses)
   * [Cinderscapes](https://www.curseforge.com/minecraft/mc-mods/cinderscapes) (Issues with End biomes generation)
+  * [Chat Toggle](https://www.curseforge.com/minecraft/mc-mods/chat-toggle) (Not needed anymore as we're not using FTB Quests)
   * [Elytra Trims](https://www.curseforge.com/minecraft/mc-mods/elytra-trims)
   * [Elytra Trims Extensions](https://www.curseforge.com/minecraft/mc-mods/elytra-trims-extensions)
   * [Haunted Harvest](https://www.curseforge.com/minecraft/mc-mods/haunted-harvest) (Halloween is over)
-  * [Polymer](https://www.curseforge.com/minecraft/mc-mods/polymer)
+  * [Polymer](https://www.curseforge.com/minecraft/mc-mods/polymer) (Not used anymore)
   * [Universal Graves](https://www.curseforge.com/minecraft/mc-mods/universal-graves) (Replaced by YIGD)
+  * [Fishing Aquatica](https://www.curseforge.com/minecraft/mc-mods/fishing-aquatica) (Replaced by Go Fish)
+  * [Lookin' Sharp](https://www.curseforge.com/minecraft/mc-mods/lookin-sharp) (Overlaps with other weapon mods)
 
 ### Changes/Improvements ⚙️
 
