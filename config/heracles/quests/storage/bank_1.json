@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "basic_storage"
+  ],
+  "tasks": {
+    "bank_1_task": {
+      "type": "heracles:item",
+      "item": "bankstorage:bank_1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bank_1_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:coal_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Bank 1",
+      "<br/>",
+      "The start of something powerful. The start of something so mind boggling extreme, it's hard to believe. This is the Bank 1. It's created with a single barrel, then surrounding it with 9 coal blocks, equaling about 13500 kilograms. These \"Banks\" are practically pocket dimensions where you can store your goodies. This first one holds 9 different types of items, but a whopping 256 of each item in each of the 9 slots. This is just the beginning!"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          0,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bankstorage:bank_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bank 1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

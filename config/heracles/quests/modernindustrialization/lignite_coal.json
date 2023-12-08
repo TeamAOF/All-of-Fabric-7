@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "steam_mining_drill"
+  ],
+  "tasks": {
+    "lignite_coal_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:lignite_coal",
+      "amount": 64,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lignite_coal_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:lignite_coal_block",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Lignite Coal",
+      "<br/>",
+      "  Lignite is a truly abundant fuel source that can be found in the world. It's pretty much coal, but brown. It has a lower carbon content despite burning the same amount as coal; created the same way too. This means you can keep your real coal for other projects or recipes and keep Lignite to fuel your /b/Steam Mining Drill/b/ instead.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:lignite_coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lignite Coal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

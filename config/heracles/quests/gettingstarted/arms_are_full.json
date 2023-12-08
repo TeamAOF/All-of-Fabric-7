@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "need_assistance"
+  ],
+  "tasks": {
+    "arms_are_full_task": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": "travelersbackpack:standard",
+      "title": "",
+      "type": "heracles:item_interaction"
+    }
+  },
+  "rewards": {
+    "arms_are_full_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 3,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  I can see you're carrying a bit of weight with you right now. For some reason the backpacks in this world practically alleviate that weight and give you --way-- more room to carry things. The --/b/Traveler's Backpack/b/-- is the most multi-purpose backpack you can create.",
+      "<br/>",
+      "  The --/b/Traveler's Backpack/b/-- that you will first craft can store up to 24 spaces. Nine of them can be used together as a crafting space, or merely occupied like the rest. It also has two tanks for holding fluids; these can be pumped to or from of when your pack is placed on the ground. Amazingly, you can also bucket fluids into or out of them while you still wearing the pack.",
+      "<br/>",
+      "  You can quickly organize the items in your backpack with some buttons that appear along the top edge when looking into it. These can be used to sort, quick stack, and even transfer items to and from your main inventory.",
+      "<br/>",
+      "  The upgraded backpacks increase storage space, tool slots, and tank volume. All tiers include a handy sleeping bag that you can roll out while the pack is set on the grown, provided there is enough space in front of it. Sleep away, if you can, the nightmares that haunt and /4/hunt/4/ in the dark of this world.",
+      "<br/>",
+      "<details summary=\"Special Traveler's Backpacks\">",
+      "Do look over the special varieties of --/b/Traveller's Backpacks/b/-- in REI. Some grant the wearer new or boosted faculties, while they all are stylish and sure to be a hit with all your friends and fellow guild members.",
+      "</details>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:standard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "My arms are full!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

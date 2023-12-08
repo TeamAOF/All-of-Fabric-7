@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "fire_clay"
+  ],
+  "tasks": {
+    "bronze_furnace_task": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_furnace"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Bronze Furnace",
+      "<br/>",
+      "  Smelting time! This is the bronze furnace and despite it being just as slow as your regular furnace, the difference is that this one uses --20-- time less fuel! Thank steam for being so efficient!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          300,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:bronze_furnace",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Furnace"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

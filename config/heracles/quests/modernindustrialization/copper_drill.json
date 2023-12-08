@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "steel_hatches"
+  ],
+  "tasks": {
+    "copper_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:copper_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Copper Drill",
+      "<br/>",
+      "  This is the /b/Copper Drill/b/. This will give you stones and dirts, mostly used as building materials. Check the outputs in REI and make sure you know that the drill has a chance of breaking, so don't just make one.",
+      "<br/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          415,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:copper_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

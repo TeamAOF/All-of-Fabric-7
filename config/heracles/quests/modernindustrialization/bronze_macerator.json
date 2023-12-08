@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "bronze_macerator_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_macerator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Bronze Macerator",
+      "<br/>",
+      "  Now you can hemiquadruple your ores! This means you'll have a 50% chance to extract an extra dust from your raw ore. You can also turn a full ore and extract a lot of raw ore from it using the macerator.",
+      "<br/>",
+      "  Being a macerator, you can throw some metal items in to recycle them back into dusts, good way to get a little bit out of an adventuring trip or an old tool.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_macerator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Macerator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

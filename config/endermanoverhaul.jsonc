@@ -1,4 +1,7 @@
 {
+    "allowPickingUpBlocks": true,
+    "friendlyEndermanTeleport": true,
+    "friendlyEndermanDespawn": true,
     "allowSpawning": true,
     "spawnBadlandsEnderman": true,
     "spawnCaveEnderman": true,
@@ -11,7 +14,7 @@
     "spawnIceSpikesEnderman": true,
     "spawnMushroomFieldsEnderman": true,
     "spawnNetherWastesEnderman": true,
-    "spawnOceanEnderman": true,
+    "spawnCoralEnderman": true,
     "spawnSavannaEnderman": true,
     "spawnSnowyEnderman": true,
     "spawnSoulsandValleyEnderman": true,

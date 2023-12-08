@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "titanium"
+  ],
+  "tasks": {
+    "titanium_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "titanium_drill_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:titanium_drill",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Titanium Drill",
+      "<br/>",
+      "  The drill that will push you into the far bounds of technology. Made of that super light yet strong titanium from before, you'll be able to power your reactors and enter the quantum age.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1187,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:titanium_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Titanium Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

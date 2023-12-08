@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "the_lategame_age",
+    "kanthal_coils"
+  ],
+  "tasks": {
+    "processing_unit_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:processing_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "procesing_unit_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:processing_unit_board",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Processing Unit",
+      "<br/>",
+      "  A super advanced processor to push the overclocking capabilities of your machine to it's limits and soon enough, something a bit more... /c/Nuclear/c/.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1037,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:processing_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Processing Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

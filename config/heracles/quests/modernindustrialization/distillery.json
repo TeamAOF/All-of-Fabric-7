@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "oil_drilling_rig"
+  ],
+  "tasks": {
+    "distillery_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillery",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "distillery_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steam_cracked_naphtha_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Distillery",
+      "<br/>",
+      "  With your new found crude oil, you need to refine it to use it. Currently it's pretty useless in an industrial sense. That's where the /b/Distillery/b/ comes into play! You can refine or --distill-- fluids into it's lighter parts. With this distillery you can only refine down to one fluid at a time. Just keep working, soon enough you'll be able to extract many fluids at once.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          915,
+          -87
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:distillery",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Distillery"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

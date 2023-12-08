@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "It Grows",
+    "welcome"
+  ],
+  "tasks": {
+    "a_map_how_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "a_map_how_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 15,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  This question I wont answer; 'tis a stupid question. Just take these manifestations of matter I might provide to you. Sometimes they won't be just matter but a mix of ||secret|| and ||moresecret||.",
+      "<br/>",
+      "  Ah, you can't understand that yet. Nevermind, carry on with good questions next time.",
+      "<br/>",
+      "<columns>",
+      "  <column>",
+      "    <br/>",
+      "    <item id=\"ad_astra:earth_globe\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "    <entity type=\"minecraft:villager\" tag=\"{VillagerData:{profession:nitwit}}\"> </entity>",
+      "  </column>",
+      "</columns>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          50,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:earth_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "A map how?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

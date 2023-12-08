@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "factories"
+  ],
+  "tasks": {
+    "replication_start_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "gs_replication_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 60,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## Replication",
+      "<br/>",
+      "  You will encounter plentiful difficulties in your attempt to raise a factory from the ground up. Milestones might seem apparent, even leaving the floor for the sky.",
+      "<br/>",
+      "  But... your end goal will turn you into a god--a gaurdian that will overlook this domain with infinite power at its fingertips. Will you make it there? Only time will tell.",
+      "<columns>",
+      "  <column>",
+      "<item id=\"modern_industrialization:replicator\" scale=\"4\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<item id=\"modern_industrialization:quantum_helmet\" scale=\"4\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<item id=\"modern_industrialization:quantum_sword\" scale=\"4\"> </item>",
+      "  </column>",
+      "</columns>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          50,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:replicator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Replication"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

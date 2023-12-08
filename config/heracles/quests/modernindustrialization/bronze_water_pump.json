@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "bronze_boiler"
+  ],
+  "tasks": {
+    "bronze_water_pump_task": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_water_pump"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Bronze Water Pump",
+      "<br/>",
+      "  Wondering about automatic water pumping are you? Good thing you can do nearly anything you want! A water pump will automatically collect water and transfer it to adjacent blocks. Make sure to place water sources surrounding the pump horizontally, give it steam, and it will start producing water for 1 EU/t.",
+      "<br/>",
+      "  The Bronze Water Pump will produce 1/8th bucket of water for every adjacent water source every 5 seconds, allowing for a maximum output of 1 bucket every 5 seconds.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          300,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:bronze_water_pump",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Water Pump"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

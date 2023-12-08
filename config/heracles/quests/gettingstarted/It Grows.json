@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "it grows task": {
+      "title": "It grows!",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "cherry sapling reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:cherry_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "sniffer egg reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sniffer_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "<br/>",
+      "<br/>",
+      "<columns>",
+      "  <column>",
+      "    <item id=\"minecraft:cherry_sapling\"  scale=\"4\"> </item>",
+      "  </column>",
+      "  <column>",
+      "    <br/>",
+      "    <br/>",
+      "    <entity type=\"minecraft:sniffer\"> </entity>",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<reward reward=\"cherry sapling reward\" quest=\"It Grows\"/>",
+      "<reward reward=\"sniffer egg reward\" quest=\"It Grows\"/>",
+      "<br/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cherry_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/cblossoms.png",
+    "title": {
+      "translate": "It Grows"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

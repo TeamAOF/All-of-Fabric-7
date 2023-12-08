@@ -14,6 +14,16 @@
      * Type: Integer
      */
     "timedoorAddWaitTime": 40,
+    // Whether or not the Tempad should allow interdimensional travel.
+    "allowInterdimensionalTravel": true,
+    // Whether or not the Tempad should allow exporting of locations onto Location Cards.
+    "allowExporting": true,
+    // Whether or not the Tempad should consume a cooldown when exporting a location.
+    "consumeCooldown": true,
+    // Whether or not the Tempad should allow teleporting to waystones.
+    "waystonesCompat": true,
+    // Whether or not the Tempad should allow teleporting to waystones from the Fabric version of Waystones by LordDeatHunter (fwaystones) (ignore on forge).
+    "fabricWaystonesCompat": true,
     /*
      * The amount of fuel that the timedoor will consume on opening of the timedoor.
      * Type: Integer

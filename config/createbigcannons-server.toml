@@ -1,0 +1,274 @@
+#.
+#These values affect the extent of cannon failure.
+[failure]
+	#.
+	#.
+	#If true, cannons cannot fail whatsoever. Equivalent to setting all the chances below to zero.
+	disableAllCannonFailure = false
+	#.
+	#Chance that a fired projectile will get stuck in a barrel after exceeding the squib ratio. 0 is 0%, 1 is 100%.
+	#Range: 0.0 ~ 1.0
+	squibChance = 0.25
+	#.
+	#Chance that a cannon will fail if a Powder Charge is ignited in a "barrel"-type cannon block. 0 is 0%, 1 is 100%.
+	#This chance can be affected by stronger and weaker charge blocks.
+	#Range: 0.0 ~ 1.0
+	barrelChargeBurstChance = 0.20000000298023224
+	#.
+	#How strong the explosion of a catastrophic failure is. Scaled by the amount of charges used in the shot.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	failureExplosionPower = 2.0
+	#.
+	#Chance that a cannon loaded with more Powder Charges that it can handle will fail. 0 is 0%, 1 is 100%.
+	#Range: 0.0 ~ 1.0
+	overloadBurstChance = 0.5
+	#.
+	#Chance that a load with gaps between the loaded Powder Charges will not completely combust. 0 is 0%, 1 is 100%.
+	#Range: 0.0 ~ 1.0
+	interruptedIgnitionChance = 0.33000001311302185
+#.
+#These values affect the characteristics of cannon munitions.
+[munitions]
+	#.
+	#.
+	#If an entity should be invulnerable for a while after being hit by a mod projectile.
+	invulnerableAfterProjectileHurt = false
+	#.
+	#How many Powder Charges a Mortar Stone can handle before breaking. Set to less than 0 to make Mortar Stones unbreakable.
+	#Range: -1.0 ~ 3.4028234663852886E38
+	maximumMortarStonePowderCharges = 2.0
+	#.
+	#If projectiles can bounce, ricochet, and be deflected.
+	projectilesCanBounce = true
+	#.
+	#How long the smoke cloud spawned by a Smoke Shell lasts for, in ticks. 1 second = 20 ticks.
+	#Range: > 1
+	smokeShellCloudDuration = 300
+	#.
+	#How large the smoke cloud spawned by a Smoke Shell is.
+	#Range: 1.0 ~ 20.0
+	smokeShellCloudSize = 10.0
+	#.
+	#The minimum velocity necessary to activate the penetration bonus, in meters per game tick. (1 m/gt = 20 m/s)
+	#Range: 0.0 ~ 3.4028234663852886E38
+	minimumVelocityForPenetrationBonus = 1.0
+	#.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	penetrationBonusScale = 0.10000000149011612
+	#.
+	#The extent to which cannon projectiles can damage surrounding blocks.
+	#All Damage - projectiles will destroy anything they hit, if applicable. Explosive projectiles will destroy blocks on detonation.
+	#No Explosive Damage - projectiles will destroy anything they hit, if applicable. Explosive projectiles will only harm entities on detonation.
+	#No Damage - projectiles will not destroy anything they hit, and will only deal entity damage. Explosive projectiles will only harm entities on detonation.
+	#Allowed Values: ALL_DAMAGE, NO_EXPLOSIVE_DAMAGE, NO_DAMAGE
+	damageRestriction = "ALL_DAMAGE"
+	#.
+	projectilesCanChunkload = true
+
+	#.
+	#Projectile Fuzes
+	[munitions.fuzes]
+		#.
+		#Chance that the Impact Fuze will detonate on hitting something. 0 is 0% (never), 1 is 100% (always).
+		#Range: 0.0 ~ 1.0
+		impactFuzeDetonationChance = 0.6700000166893005
+		#.
+		#How many blocks the Impact Fuze can hit before breaking. Set to -1 to never break.
+		#Range: > -1
+		impactFuzeDurability = 3
+		#.
+		#Time it takes for a proximity fuze to arm itself in ticks.
+		#(For reference, there are 20 ticks in 1 second.)
+		#After the fuze has been in the air for the specified arming time, it will detonate when it gets close enough to a block or entity.
+		#Range: > 0
+		proximityFuzeArmingTime = 20
+	#.
+	#Grouped Munitions
+	[munitions.groupedMunitions]
+		#.
+		#How much fluid in millibuckets (mB) a Fluid Shell can contain.
+		#Range: > 1
+		fluidShellCapacity = 2000
+		#.
+		#The amount of fluid in millibuckets (mB) required to spawn a Fluid Blob on Fluid Shell detonation.
+		#Any remaining fluid after spawning will be rounded up to one additional projectile.
+		#Range: > 25
+		millibucketsPerFluidBlob = 250
+		#.
+		#How much Fluid Blobs spread on release.
+		#Range: 0.009999999776482582 ~ 3.4028234663852886E38
+		fluidBlobSpread = 1.0
+		#.
+		#How many millibuckets (mB) of fluid in a Fluid Blob are required to increase its area of effect (AOE) by one block in each direction.
+		#Range: > 25
+		millibucketsPerAreaOfEffectRadius = 50
+		#.
+		#The chance of a fluid blob affecting a block in its area of effect (AOE). 0 is 0% (never), 1 is 100% (always).
+		#Range: 0.0 ~ 1.0
+		fluidBlobBlockEffectChance = 0.5
+	#.
+	#Propellant
+	[munitions.propellant]
+		#.
+		#The maximum amount of power a Big Cartridge can store.
+		#Range: 1 ~ 8
+		maxBigCartridgePower = 4
+	#.
+	#Deflection
+	[munitions.deflectChances]
+		#.
+		#The chance that a big cannon projectile deflects. 0 is 0% (never), 1 is 100% (always).
+		#Range: 0.0 ~ 1.0
+		bigCannonProjectileDeflectionChance = 0.8999999761581421
+		#.
+		#The chance that an autocannon projectile deflects. 0 is 0% (never), 1 is 100% (always).
+		#Range: 0.0 ~ 1.0
+		autocannonProjectileDeflectionChance = 0.20000000298023224
+	#.
+	#Autocannon Munitions
+	[munitions.autocannonMunitions]
+		#.
+		#Makes all shot autocannon projectiles tracers regardless if the item had a tracer tip applied. Emulates legacy behavior.
+		allAutocannonProjectilesAreTracers = false
+		#.
+		#How many autocannon rounds the Autocannon Ammo Container can store.
+		#Range: 1 ~ 128
+		autocannonAmmoContainerAutocannonRoundCapacity = 16
+		#.
+		#How many machine gun rounds the Autocannon Ammo Container can store.
+		#Range: 1 ~ 128
+		autocannonAmmoContainerMachineGunRoundCapacity = 64
+#.
+#These values affect the characteristics of cannon materials and cannon structures
+[cannons]
+	#.
+	#.
+	#Maximum length of cannons that can be built.
+	#Range: > 3
+	maxCannonLength = 64
+	#.
+	#How much each cannon barrel reduces the spread of a fired projectile passing through.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	barrelSpreadReduction = 1.0
+	#.
+	#Time when the Quickfiring Breech cannot be loaded by Mechanical Arms.
+	#Range: > 0
+	quickfiringBreechLoadingCooldown = 40
+	#.
+	#Time it takes for the Quickfiring Breech to fully open/close, during which it cannot be loaded.
+	#Range: > 0
+	quickfiringBreechOpeningCooldown = 5
+	#.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	bigCannonRecoilScale = 4.0
+	#.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	autocannonRecoilScale = 0.5
+
+	#.
+	#Loading Tools
+	[cannons.loadingTools]
+		#.
+		#If deployers can use loading tools.
+		deployersCanUseLoadingTools = false
+		#.
+		#How many blocks inside a cannon a Ram Rod can reach.
+		#Range: > 1
+		ramRodReach = 5
+		#.
+		#Maximum amount of munition blocks a Ram Rod can push.
+		#Range: > 1
+		ramRodStrength = 3
+		#.
+		#How many blocks inside a cannon a Worm can reach.
+		#Range: > 1
+		wormReach = 5
+		#.
+		#How many hunger/saturation points it takes to move one munition block a distance of one block using loading tools.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		loadingToolHungerConsumption = 2.5
+		#.
+		#How many ticks before a player can use a manual loading tool again. There are 20 ticks in 1 second.
+		#Range: > 0
+		loadingToolCooldown = 20
+	#.
+	#Cannon Carriages
+	[cannons.carriage]
+		#.
+		#How fast the carriage is, in blocks per tick.
+		#Range: 0.03999999910593033 ~ 1.0
+		carriageSpeed = 0.03999999910593033
+		#.
+		#How fast the carriage turns, in degrees per tick.
+		#Range: 0.10000000149011612 ~ 10.0
+		carriageTurnRate = 1.0
+		#.
+		cannonWeightAffectsCarriageSpeed = true
+	#.
+	#Drop Mortar
+	[cannons.dropMortar]
+		#.
+		#Time in ticks between inserting a munition into a drop mortar and the drop mortar firing it. There are 20 ticks in 1 second.
+		#Range: > 0
+		dropMortarDelay = 5
+		#.
+		#Length in ticks that the player has to wait for before inserting the same munition type into a drop mortar again. There are 20 ticks in 1 second.
+		#Range: > 0
+		dropMortarItemCooldown = 40
+	#.
+	#Display Link Info
+	[cannons.displayLink]
+		#.
+		shouldDisplayCannonRotation = true
+		#.
+		shouldDisplayContainedMunitions = true
+#.
+#These values affect various miscellaneous contraptions.
+[kinetics]
+	#.
+	#.
+	#Maximum length of cannon loaders that can be built.
+	#Range: > 3
+	maxLoaderLength = 64
+
+	[kinetics.stressValues]
+		#.
+		#These values affect the stress of Create Big Cannons' mechanical blocks.
+		[kinetics.stressValues.v2]
+			#.
+			#
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[kinetics.stressValues.v2.impact]
+				bronze_sliding_breech = 12.0
+				cannon_loader = 8.0
+				steel_screw_breech = 16.0
+				cannon_drill = 8.0
+				cast_iron_sliding_breech = 16.0
+				steel_sliding_breech = 32.0
+				nethersteel_screw_breech = 40.0
+				cannon_builder = 8.0
+#.
+#These values affect cannon crafting properties.
+[crafting]
+	#.
+	#.
+	#Maximum height of a single cannon cast that can be built.
+	#Range: > 1
+	maxCannonCastHeight = 32
+	#.
+	#Maximum length of a Cannon Drill that can be built.
+	#Range: > 1
+	maxCannonDrillLength = 32
+	#.
+	#Maximum length of a Cannon Builder that can be built.
+	#Range: > 1
+	maxCannonBuilderLength = 32
+	#.
+	#Maximum reach of a Cannon Builder.
+	#Range: > 2
+	maxCannonBuilderRange = 32
+	#.
+	#Time a built-up cannon block needs to be heated for until it transforms into its finished form.
+	#Range: > 0
+	builtUpCannonHeatingTime = 6000

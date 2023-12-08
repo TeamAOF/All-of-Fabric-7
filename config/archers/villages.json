@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structures": [
+        {
+          "id": "archers:village/desert/archery_range_large",
+          "weight": 5,
+          "limit": 1
+        },
+        {
+          "id": "archers:village/desert/archery_range_small",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structures": [
+        {
+          "id": "archers:village/savanna/archery_range_large",
+          "weight": 5,
+          "limit": 1
+        },
+        {
+          "id": "archers:village/savanna/archery_range_small",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structures": [
+        {
+          "id": "archers:village/plains/archery_range_large",
+          "weight": 5,
+          "limit": 1
+        },
+        {
+          "id": "archers:village/plains/archery_range_small",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structures": [
+        {
+          "id": "archers:village/taiga/archery_range_large",
+          "weight": 5,
+          "limit": 1
+        },
+        {
+          "id": "archers:village/taiga/archery_range_small",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structures": [
+        {
+          "id": "archers:village/snowy/archery_range_large",
+          "weight": 5,
+          "limit": 1
+        },
+        {
+          "id": "archers:village/snowy/archery_range_small",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    }
+  ]
+}

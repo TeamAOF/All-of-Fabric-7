@@ -1,0 +1,122 @@
+{
+  "dependencies": [
+    "the_electric_age"
+  ],
+  "tasks": {
+    "large_steam_boiler_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_plated_bricks",
+      "amount": 24,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "large_steam_boiler_task_4": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:heatproof_machine_casing",
+      "amount": 9,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "large_steam_boiler_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:large_steam_boiler",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "large_steam_boiler_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_machine_casing_pipe",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "large_steam_boiler_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:white_fluid_pipe",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Large Steam Boiler",
+      "<br/>",
+      "  Need a steamy upgrade? I know I do! The /b/Large Steam Boiler/b/ is an upgraded version of the smaller bronze and steel boilers. It uses fuel 8 times faster than the Furnace, but it produces 256 mb/t of steam when at max temperature. Make sure you don't forget to provide it water!",
+      "<br/>",
+      "  The main block you'll need is /b/Bronze Plated Bricks/b/, but you'll also need other blocks shown in your REI. The Large Steam Boiler is comprised of one layer of /b/Heatproof Machine Casings/b/ with layers of bronze plated bricks and pipe machine casings.",
+      "<br/>",
+      "  The Controller is on the second layer, on top of the heatproof machine casings. Don't forget you can use your wrench to show the shape of the multiblock and placement of the blocks needed for it. The required hatches must be placed on the bottom layer. You'll need a way to input water and a solid fuel, as well as a way to extract steam.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          587,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:large_steam_boiler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Large Steam Boiler"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

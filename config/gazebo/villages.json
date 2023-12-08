@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structures": [
+        {
+          "id": "gazebo:village/desert/gazebo",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structures": [
+        {
+          "id": "gazebo:village/savanna/gazebo",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structures": [
+        {
+          "id": "gazebo:village/plains/gazebo",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structures": [
+        {
+          "id": "gazebo:village/taiga/gazebo",
+          "weight": 3,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structures": [
+        {
+          "id": "gazebo:village/snowy/gazebo",
+          "weight": 5,
+          "limit": 1
+        }
+      ]
+    }
+  ]
+}

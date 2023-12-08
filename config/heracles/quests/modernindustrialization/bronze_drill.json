@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "steel_hatches"
+  ],
+  "tasks": {
+    "bronze_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Bronze Drill",
+      "<br/>",
+      "  This is the /b/Bronze Drill/b/. This will give you the main ores that you'll need to expand further. Check the outputs in REI and make sure you know that the drill has a chance of breaking, so don't just make 1.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          485,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

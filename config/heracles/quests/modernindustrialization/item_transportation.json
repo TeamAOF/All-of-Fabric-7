@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "your_first_steel"
+  ],
+  "tasks": {
+    "item_transportation_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:item_pipe",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "item_transportation_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:blue_dye",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Item Transportation",
+      "<br/>",
+      "  Item pipes work just about the same as fluid pipes, aside from they will transport items and is much more configurable. Just like fluid pipes, they will not connect to inventories by default, but you still can force a connection. If you right click a connection without a wrench, you'll see a filter.",
+      "<br/>",
+      "  This filter can be set to many different items at the same time and by default is set to whitelist. This means only items in the filter will be transported through the connection. Blacklist will disallow any items set to the filter to be transported through the connection.",
+      "<br/>",
+      "  Item pipes will insert items into higher priorities first, and transfer 16 items every 3 seconds.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          433,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:item_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Transportation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

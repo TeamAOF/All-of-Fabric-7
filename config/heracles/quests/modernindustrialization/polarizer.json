@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "lv_steam_turbine"
+  ],
+  "tasks": {
+    "polarizer_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:polarizer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "polarizer_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_rod_magnetic",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Polarizer",
+      "<br/>",
+      "  The /b/Polarizer/b/, well, polarizes stuff! What this means is that it's ||electrons|| are lined up and thus the metal you feed into it becomes magnetic. Polarized rods don't have the most uses, but using them for the automation of motors is perfect!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          655,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:polarizer",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Polarizer"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

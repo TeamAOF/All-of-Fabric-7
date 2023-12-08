@@ -1,0 +1,105 @@
+{
+  "dependencies": [
+    "titanium",
+    "the_lategame_age"
+  ],
+  "tasks": {
+    "pressurizer_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_machine_casing_pipe",
+      "amount": 9,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pressurizer_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:pressurizer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pressurizer_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:solid_titanium_machine_casing",
+      "amount": 10,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "pressurizer_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:air_intake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Pressurizer",
+      "<br/>",
+      "  This machine calls for a whole 'nother level of strength. Time to put that new titanium you've made to use. The /b/Pressurizer/b/ allows you to pressurize water into /b/HP, or high pressure, water/b/ and steam into /b/HP Steam/b/. It also works the other way around to depressurize the fluids. The pressurizer also allows you to collect liquid air via the /b/Air Intake/b/, plus it's much more efficient than the vacuum freezer.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1137,
+          -87
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:pressurizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pressurizer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

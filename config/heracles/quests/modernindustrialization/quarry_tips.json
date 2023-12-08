@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "steel_hatches"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Quarry Tips",
+      "<br/>",
+      "  Do you see those percents on each ore in the quarry outputs? Those are --individual-- percents. Each ore has it's own individual chance. If you place a bronze item output hatch, you'll only get one ore, but the chance that another ore is produced is still there, and thus it could be lost if there is no space for it. Place multiple item output hatches, preferably steel, to increase maximum possible outputs.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          450,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:street_sign",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quarry Tips"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

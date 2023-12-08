@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "need_assistance"
+  ],
+  "tasks": {
+    "what_will_i_find_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "what_will_i_find_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:leather",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  The world is vast with many civilizations you may stumble into: ancient or young, ceased or vital, surviving or thriving.",
+      "<br/>",
+      "  Many tombs and graveyards mark the lands and house the dead, airships of men and of aliens float in the clouds, and debris from space and beyond have fallen and lodged in the terrain. Even small camps and settlements are to be found within the caverns, and dungeons filled with hostiles, and ||magical structures|| overflowing with ||color|| can be found above and below the horizon.",
+      "<br/>",
+      "<columns template=\"90% 10%\">",
+      "  <column>",
+      "  Your main focus at this point in time might be to locate a biome that --you-- want to settle in. For this, I advise you create a /a/Nature's Compass/a/. It will direct you to any biome you may desire",
+      "  </column>",
+      "  <column>",
+      "<item id=\"naturescompass:naturescompass\" scale=\"2\"> </item>",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "  I would manifest a backpack for you, but my powers don't stretch that far. The most I can do right now is a few sections of leather to help you make the whole thing. Here, please use this small gift wisely.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "What will I find?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

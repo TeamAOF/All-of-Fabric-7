@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "basic_storage_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Basic Storage",
+      "<br/>",
+      "  If you're looking to carry around more things than you'd otherwise be able to carry, you can use different methods of portable item transportation! Backpacks are the go to, some are simple that just hold items and thats it. Some others have tanks and even a crafting unit built in! You're going to look --fancy-- with one of those!",
+      "<br/>",
+      "  Chests are also a pretty basic storage type. Wooden ones are going to be your base type, but plating them with different, ever increasing, tiers of resources somehow increases the storage capacity while keeping the actual chest the same size. I don't even understand how such a simple change can alter the fabric of space with such ease.",
+      "<br/>",
+      "  Barrels work exactly like the chests but, well, they're barrels! Sharper edges casually altering the fabric of space just by it's plating. Using either will get you to your desired storage space, just depends if it fits your building look.",
+      "<br/>",
+      "  Finally, Banks are something special. When I say special I mean they're cheap initially, but hold a lot of a few items. Each tier holds an --exponentially-- greater count of items at a --linear-- rate of item types being able to be held. These can be really expensive so I don't reccomend carrying them around as a normal backpack, but it totally has it's specific use cases.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -20,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:blank_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Storage"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

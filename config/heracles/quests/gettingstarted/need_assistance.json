@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "It Grows",
+    "welcome"
+  ],
+  "tasks": {
+    "need_assistance_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## Assistance Needed!",
+      "<br/>",
+      "Running into a few problems are you? That's to be expected. I can offer a few tips to assist you but I'm not sure I'll be able to hold your hand through it.",
+      "<br/>",
+      "Because I have no hands.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adventurez:handbook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Need assistance?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

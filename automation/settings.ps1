@@ -26,11 +26,11 @@ $MODPACK_NAME = "All of Fabric 7"
 $CLIENT_NAME = "All of Fabric 7"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.6.3"
+$MODPACK_VERSION = "1.0.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.6.2"
+$LAST_MODPACK_VERSION = "0.6.3"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -194,4 +194,4 @@ $SERVER_FILE_DISPLAY_NAME = "All of Fabric 7 Server - $MODPACK_VERSION"
 $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
-$FILES_TO_INCLUDE_IN_MODS_FOLDER = @()
+$FILES_TO_INCLUDE_IN_MODS_FOLDER = @("mods/iris-mc1.20.1-1.6.11.jar")

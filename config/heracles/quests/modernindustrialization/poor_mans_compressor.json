@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "modern_industrialization"
+  ],
+  "tasks": {
+    "poor_mans_compressor_task": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:forge_hammer"
+    }
+  },
+  "rewards": {
+    "poor_mans_compressor_reward": {
+      "item": {
+        "id": "modern_industrialization:iron_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## Poor Man's Compressor",
+      "<br/>",
+      "  Before you can even make bronze, you'll need to put together a --Forge Hammer--. It's pretty much a bigger anvil, but it's just got a flat top so you won't be able to use it as an anvil. Use it to make the basics such as plates and rods. Though, slamming the forge hammer with an ingot can be very inefficient and you'll get less out of your ingot due to damaged or chipped metal. If you make yourself one of the various hammers, you'll increase the efficiency and your output; AKA the ratio increases. Once you use a hammer, more formations of that ingot will open up to you. Be smart with your resources because that hammer won't last forever as its durability will eventually diminish till it breaks.",
+      "<br/>",
+      "  You can also use the forge hammer as a way of getting more raw ore out of your ore blocks. Again, using the hammer will give you more at the cost of durability.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:forge_hammer",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Poor Man's Compressor"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

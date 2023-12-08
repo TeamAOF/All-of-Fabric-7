@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "diamond_chest"
+  ],
+  "tasks": {
+    "obsidian_chest_task": {
+      "type": "heracles:item",
+      "item": "ironchests:obsidian_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "obsidian_chest_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Obsidian Chest",
+      "<br/>",
+      "Now, don't be dissapointed. This upgrade doesn't --necessarily-- increase the slot count, but since you're encasing it with obsidian, you're protecting it from explosions, like those pesky creepers! It's a pretty worth while upgrade to keep your items safe."
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          40,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:obsidian_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obsidian Chest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -59,5 +59,8 @@
 		"attack": 15.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000
+	},
+	"generalConfig": {
+		"tableOfElevationRadius": 3
 	}
 }

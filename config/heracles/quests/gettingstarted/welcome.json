@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "welcome_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "welcome_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  I go by ||Winstyl||.",
+      "<br/>",
+      "  I wish to assist you in availing yourself of this world and its considerable resources to achieve the loftiest of your dreams and ambitions.",
+      "<br/>",
+      "<columns template=\"90% 10%\">",
+      "  <column>",
+      "  Your journey towards --/e/Completionist/e/-- will encompass intricate and convoluted factories; manifold magics, alchemies, and bewitchments; resolute explorations in the faces of bounty and menace, spanning thousands of kilometers.",
+      "  </column>",
+      "  <column>",
+      "    <item id=\"kubejs:completionist\" scale=\"2\"> </item>",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "  And, with some measure of fortune and fortitude, erecting your --own-- settlement (ostentatious or unaffected?) where you can relax, tea in hand, imbibing the ambience of your preferred biome and relishing (or ruing?) the reach of your dominion.",
+      "<br/>",
+      "  However, preparations are in order.",
+      "<hr/>",
+      "<task task=\"\" quest=\"\" />",
+      "<reward reward=\"\" quest=\"\" />"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:filled_map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/cblossoms.png",
+    "title": {
+      "translate": "Let the Journey Begin "
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

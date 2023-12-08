@@ -16,7 +16,7 @@
     "dummy_decoy": false
   },
   "mobs_damage_numbers": {
-    "enabled": false,
-    "player_only": true
+    "damage_mode": "NONE",
+    "healing_mode": "NONE"
   }
 }

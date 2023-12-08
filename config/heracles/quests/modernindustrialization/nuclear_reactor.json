@@ -1,0 +1,121 @@
+{
+  "dependencies": [
+    "implosion_compressor"
+  ],
+  "tasks": {
+    "nuclear_reactor_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:nuclear_reactor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "nuclear_reactor_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:nuclear_alloy_machine_casing_pipe",
+      "amount": 27,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "nuclear_reactor_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:nuclear_casing",
+      "amount": 77,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "nuclear_reactor_rewrd_2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:small_heat_exchanger",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "nuclear_reactor_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:uranium_fuel_rod_quad",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Nuclear Reactor",
+      "<br/>",
+      "  Anyone call for /b/Nuclear Fission/b/? Well, it's here whether you like it or not! You'll finally be able to construct a /b/Nuclear Reactor/b/ that uses different types of fluid and fuel rods to produce various gaseous fuels, steam in massive quantities, and radioactive materials.",
+      "<br/>",
+      "  The /b/Nuclear Reactor/b/ is not for the faint of heart. You'll need to keep watch on the gauges for thermal and neutron interaction when constructing one of four different sized reactors. If you give up with developing your knowledge and patterns on the reactor, come back to me and I'll explain all about how it works. But for now, I wish you luck!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1287,
+          17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:nuclear_reactor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nuclear Reactor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

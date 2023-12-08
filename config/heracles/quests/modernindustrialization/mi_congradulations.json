@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "steel_packer",
+    "bronze_compressor",
+    "large_steam_boiler",
+    "bronze_cutting_machine",
+    "gold_drill",
+    "highly_advanced_upgrade",
+    "aluminum",
+    "upgrades",
+    "quarry_tips",
+    "hv_steam_turbine",
+    "distillation_tower",
+    "item_transportation",
+    "advanced_large_steam_boiler",
+    "titanium_drill",
+    "uu_matter_bucket",
+    "gravichestplate",
+    "mi_wrench",
+    "faster_machines",
+    "diesel_accessories",
+    "bronze_macerator",
+    "plasma_turbine",
+    "energy_transfer",
+    "lv_energy_input_hatch",
+    "lignite_coal",
+    "bronze_drill",
+    "assembler",
+    "steel_drill",
+    "tick",
+    "copper_drill",
+    "diesel_generator",
+    "bronze_mixer",
+    "heat_exchanger",
+    "give_up",
+    "quantum_upgrade",
+    "aluminum_drill",
+    "hull_upgrade",
+    "hv_diesel_generator",
+    "steel_unpacker"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Modern Industrialization Completion",
+      "<br/>",
+      "  Congratulations /b/Player/b/! You have reached total factory supremacy. Celebrate, you deserve it.",
+      "<br/>",
+      "  I believe you might just be advanced enough to understand my name. I am ||Winston||.",
+      "<br/>",
+      "  . . .",
+      "<br/>",
+      "  I guess not yet, eh?",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          -99,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:creative_storage_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Congradulations"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

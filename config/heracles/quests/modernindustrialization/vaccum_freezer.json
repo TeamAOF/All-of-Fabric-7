@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "vacuum_freezer_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:vacuum_freezer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "vacuum_freezer_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:blue_ice",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Vacuum Freezer",
+      "<br/>",
+      "  Enslave the Winter season in a supercooled aluminum frame. How does removing air cool something down? I'll give an example using water:",
+      "<br/>",
+      "  By evacuating the chamber, pressure drops below the boiling point; but the water then looses energy through boiling and evaporation, then freezes.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          87
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:vacuum_freezer",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vacuum Freezer"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

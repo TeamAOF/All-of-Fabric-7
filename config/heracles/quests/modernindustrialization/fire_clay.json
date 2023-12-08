@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "fire_clay_task": {
+      "type": "heracles:item",
+      "amount": 12,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:fire_clay_brick"
+    }
+  },
+  "rewards": {
+    "fire_clay_reward_1": {
+      "item": {
+        "id": "minecraft:clay_ball",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Fire Clay",
+      "<br/>",
+      "  Fire clay is a mixture of plain river clay and crushed brick as a tempering agent, then re-fired to harden it to make it withstand extreme temperatures. To make the crushed brick you can use your good ol' forge hammer and use it to break down plain bricks. You can also use other machines to make this process more efficient. ",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:fire_clay_brick",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fire Clay"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

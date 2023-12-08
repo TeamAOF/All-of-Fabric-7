@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "mi_wrench_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Wrench",
+      "<br/>",
+      "  This is no monkey wrench, but you better hope you can move like one in the future.",
+      "<br/>",
+      "  Using a wrench, you can rotate --almost-- any machine by right-clicking and pick up --almost-- any pipe, fluid or not.",
+      "<br/>",
+      "  You can shift-right-click on a machine to configure the output side. When you're holding the wrench, you can hover over any face of the machine and you'll get grid of sorts. Shift-rick-clicking on the middle square will set the output face to the side the grid is on. Doing so to the rectangles will place the output to the face 90 degrees relative to the corner elected to allow for configuration in hard to reach spaces. Finally the small squares in each corner will set the output to the opposite side of the grid.",
+      "<br/>",
+      "  Remember, you cannot break the machine using the wrench, it will destroy it and you wont get it back. Just use your trusty pickaxe instead.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wrench"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

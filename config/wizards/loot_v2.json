@@ -5,7 +5,7 @@
         "wizards:staff_wizard"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -18,7 +18,7 @@
         "wizards:staff_wizard"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "robes_tier_1": {
@@ -29,7 +29,7 @@
         "wizards:wizard_robe_feet"
       ],
       "chance": 0.25,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "robes_tier_2": {
@@ -48,7 +48,7 @@
         "wizards:frost_robe_feet"
       ],
       "chance": 0.5,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "wands_tier_1": {
@@ -58,7 +58,7 @@
         "wizards:wand_frost"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "staves_tier_2_enchanted": {
@@ -68,7 +68,7 @@
         "wizards:staff_frost"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -84,7 +84,7 @@
         "wizards:wizard_robe_feet"
       ],
       "chance": 0.25,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -97,7 +97,7 @@
         "wizards:wand_novice"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.0,
+      "bonus_roll": 0.2,
       "weight": 1
     },
     "robes_tier_2_enchanted": {
@@ -116,7 +116,7 @@
         "wizards:frost_robe_feet"
       ],
       "chance": 0.5,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -131,7 +131,7 @@
         "wizards:staff_frost"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll": 0.2,
       "weight": 1
     }
   },

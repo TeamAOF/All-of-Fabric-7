@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "the_electric_age"
+  ],
+  "tasks": {
+    "pistons_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:piston",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "pistons_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:piston",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Pistons",
+      "<br/>",
+      "  Metal punch! Pistons use rotational force to extend a rod out with a lot of possible force. This is very useful for compressing things, as well as packing things. You should automate these.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          500,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:piston",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pistons"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

@@ -1,3 +1,69 @@
+### All of Fabric 7 | v1.0.0 | 🧭 Quests & Adventures Update 🪙
+
+_Fabric Loader 0.15.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.0.md)_
+
+## DISCLAIMER: New worlds are highly recommended with this update. Nature's Spirit biome mod has been removed & Graves mod replaced.
+
+### Added Mods ✅
+
+  * [[Let's Do] NetherVinery](https://www.curseforge.com/minecraft/mc-mods/lets-do-nethervinery)
+  * [Another Furniture](https://www.curseforge.com/minecraft/mc-mods/another-furniture)
+  * [Applied Botanics Addon](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon)
+  * [Archers (RPG Series)](https://www.curseforge.com/minecraft/mc-mods/archers)
+  * [AzureLib](https://www.curseforge.com/minecraft/mc-mods/azurelib)
+  * [Botania (Fabric/Quilt)](https://www.curseforge.com/minecraft/mc-mods/botania-fabric)
+  * [Building Wands](https://www.curseforge.com/minecraft/mc-mods/building-wands)
+  * [Create Big Cannons](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons)
+  * [Create: Bells & Whistles](https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles)
+  * [Ecologics](https://www.curseforge.com/minecraft/mc-mods/ecologics)
+  * [Eldritch End](https://www.curseforge.com/minecraft/mc-mods/eldritch-end)
+  * [End's Phantasm](https://www.curseforge.com/minecraft/mc-mods/phantasm)
+  * [Fright's Delight [Fabric]](https://www.curseforge.com/minecraft/mc-mods/frights-delight)
+  * [Go Fish (updated)](https://www.curseforge.com/minecraft/mc-mods/go-fish-updated)
+  * [Invocations (Spell Engine)](https://www.curseforge.com/minecraft/mc-mods/invocations-spell-engine)
+  * [Load My F***ing Tags](https://www.curseforge.com/minecraft/mc-mods/lmft)
+  * [More Villagers [Fabric]](https://www.curseforge.com/minecraft/mc-mods/more-villagers-fabric)
+  * [Naturalist](https://www.curseforge.com/minecraft/mc-mods/naturalist)
+  * [NiftyCarts](https://www.curseforge.com/minecraft/mc-mods/niftycarts)
+  * [Noisium](https://www.curseforge.com/minecraft/mc-mods/noisium)
+  * [Polymorphic Energistics](https://www.curseforge.com/minecraft/mc-mods/polymorphic-energistics)
+  * [Prominent Create](https://www.curseforge.com/minecraft/mc-mods/prominent-create)
+  * [Sprinklerz](https://www.curseforge.com/minecraft/mc-mods/sprinklerz)
+  * [Structure Pool API](https://www.curseforge.com/minecraft/mc-mods/structure-pool-api)
+  * [Trofers](https://www.curseforge.com/minecraft/mc-mods/trofers)
+  * [You're in Grave Danger](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger)
+  * [Zephyr (Zenith - RPG Series compat)](https://www.curseforge.com/minecraft/mc-mods/zephyr)
+
+### Removed Mods ❌
+
+  * [Cinderscapes](https://www.curseforge.com/minecraft/mc-mods/cinderscapes) (Issues with End biomes generation)
+  * [Elytra Trims](https://www.curseforge.com/minecraft/mc-mods/elytra-trims)
+  * [Elytra Trims Extensions](https://www.curseforge.com/minecraft/mc-mods/elytra-trims-extensions)
+  * [Haunted Harvest](https://www.curseforge.com/minecraft/mc-mods/haunted-harvest) (Halloween is over)
+  * [Polymer](https://www.curseforge.com/minecraft/mc-mods/polymer)
+  * [Universal Graves](https://www.curseforge.com/minecraft/mc-mods/universal-graves) (Replaced by YIGD)
+
+### Changes/Improvements ⚙️
+
+* Updated Fabric loader to 15.0
+* Added Quests (Part 1), they'll be released in batches going forward, expect more to come very soon! Big thanks to Inno & SubordinalBlue for working on these!
+* New Corruption Mechanic.
+* Tons of new Wild Life & Loot to be discovered.
+* A lot of compat between exploration mods adding structures.
+* Added seeds/saplings to the FFB Market, including (Croptopia, Farmer's Delight, Bakery, Beachparty, Bewitchment, Farmer's Respite, Nature's Spirit & Regions Unexplored & many more).
+* Unified Seed Oil and Bio Ethanol fluids.
+* New Jetpack recipes.
+* New Angel Ring recipe
+* Zenith Flying charms has been disabled due to balancing.
+
+### Bug Fixes 🐛
+
+* Banks couldnt be extracted from.
+* Entity trying to ride hoglin corrupting the chunk.
+* REI searching/caching being VERY slow.
+* Missing loot tables on opening loot chests.
+---
+
 ### All of Fabric 7 | v0.6.3
 
 _Fabric Loader 0.14.22_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_0.6.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_0.6.3.md)_

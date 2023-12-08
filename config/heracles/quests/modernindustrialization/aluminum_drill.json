@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "oil_drilling_rig"
+  ],
+  "tasks": {
+    "aluminum_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:aluminum_drill",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aluminum_drill_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:aluminum_drill",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Aluminum Drill",
+      "<br/>",
+      "  The /b/Aluminum Drill/b/ allows you to drill for crude oil. It'll find pockets of oil in the ground and automatically pump it up through the drill and to the surface.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:aluminum_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Aluminum Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

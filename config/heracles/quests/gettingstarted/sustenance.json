@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "a_map_how"
+  ],
+  "tasks": {
+    "sustenance_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "sustenance_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:baked_crepes",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  With forests and plains of plants at your disposal, food will be no issue in the slightest. There is an absolutely massive range of different fruits, vegetables, grains, meats, and more to make --your-- favorite food.",
+      "<br/>",
+      "  Or perhaps you will find a new favorite?",
+      "<br/>",
+      "  I'll form a little to get you on your way so you don't starve your first few nights. I wish you could eat infinately.",
+      "<br/>",
+      "<item id=\"croptopia:baked_crepes\" scale=\"4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:baked_crepes",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Sustenance"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

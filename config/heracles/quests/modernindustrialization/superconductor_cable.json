@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "raw_iridium"
+  ],
+  "tasks": {
+    "superconductor_cable_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:superconductor_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "superconductor_cable_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:superconductor_cable",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Superconductor Cable",
+      "<br/>",
+      "  A cable capable of transferring enough energy for your entire factory, /b/10 times over/b/, within a single cable. This is /b/peak/b/ power transfer.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1237,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:superconductor_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Superconductor Cable"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

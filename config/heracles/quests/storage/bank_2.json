@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "bank_1"
+  ],
+  "tasks": {
+    "bank_2_task": {
+      "type": "heracles:item",
+      "item": "bankstorage:bank_2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bank_2_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Bank 2",
+      "<br/>",
+      "The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper, about 80100 kilograms worth. This brings your total storage to 18 different slots with each slot holding up to 1024 items in each."
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          0,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bankstorage:bank_2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bank 2"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

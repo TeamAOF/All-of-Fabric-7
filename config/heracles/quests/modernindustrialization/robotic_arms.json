@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "the_electric_age"
+  ],
+  "tasks": {
+    "robotic_arms_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:robot_arm",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "robotic_arms_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:robot_arm",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Robotic Arms",
+      "<br/>",
+      "  Beep Boop. Robotic arms are ways to automatically move things around within a machine. These can be very complex components and thus are made of steel to stay strong and prevent internal damage. You should automate these.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          605,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:robot_arm",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Robotic Arms"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

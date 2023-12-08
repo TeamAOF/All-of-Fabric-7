@@ -1,0 +1,5 @@
+#Server configuration settings for Ritchie's Projectile Library
+[server]
+	#The maximum amount of chunks forced to load during a single tick. Set to -1 to force load unlimited chunks.
+	#Range: > -1
+	maxChunksForceLoaded = 64

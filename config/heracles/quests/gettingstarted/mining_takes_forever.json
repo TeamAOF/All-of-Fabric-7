@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "need_assistance"
+  ],
+  "tasks": {
+    "mining_takes_forever_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  Breaking so many blocks take entirely too long? Fine, I'll tell you a little trick to break blocks so much quicker.",
+      "<br/>",
+      "  You know that grave symbol ( ` ) near your fingers, most likely not far from your left pinky? Well, if you concentrate really hard to press it while you mine, it'll break a lot of blocks! Be wary, because this shortens mining time but does not free your mining efforts of food or tool durability costs.",
+      "<br/>",
+      "  If you don't like this default symbol, you can always change it in your mind. When I first was amalgamated, this symbol and more were referred to as \"keybinds\". This one specifically is called --FTB Ultimine.--",
+      "<br/>",
+      "<item id=\"minecraft:diamond_pickaxe\" scale=\"4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Mining takes forver!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

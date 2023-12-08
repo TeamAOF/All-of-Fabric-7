@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "steam_blast_furnace"
+  ],
+  "tasks": {
+    "your_first_steel_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+			"<hr/>",
+      "# Your First Steel!",
+      "<br/>",
+      "  Darker and cooler than iron... Plus about 1000 times stronger. It's time to make some steel! Use that coal coke you produced earlier and crush it down to a pile of dust. Then, combine that with iron dust to get your /b/Uncooked Steel Dust/b/. Remember, using the mixer will increase your output.",
+      "<br/>",
+      "  Now, remember the finest steel has to go through the hottest fire; so we'll be using the steam blast furnace to reach the extreme temperatures required to melt down the powdered mixture and fuse them together.",
+      "<br/>",
+      "  Now that you have obtained steel, you can upgrade your bronze machines with /b/Steel Machine Upgrades/b/. Steel machines can process recipes up to 4 EU/t and will process recipes at twice the speed than normal as long as the energy usage doesn't go above 4 EU/t. With this higher roof of energy usage, you might be able to make new things now.",
+			"<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          450,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:steel_ingot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Your first steel!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

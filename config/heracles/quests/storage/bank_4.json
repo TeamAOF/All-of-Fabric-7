@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "bank_3"
+  ],
+  "tasks": {
+    "bank_4_task": {
+      "type": "heracles:item",
+      "item": "bankstorage:bank_4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bank_4_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Bank 3",
+      "<br/>",
+      "The Bank 3, made by taking your previous one and surrounding it by 9 blocks of gold, about 173880 kilograms worth. This brings your total storage to 36 different slots with each slot holding up to 16384 items in each."
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          0,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bankstorage:bank_4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bank 4"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

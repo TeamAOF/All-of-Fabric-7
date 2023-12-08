@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "poor_mans_compressor"
+  ],
+  "tasks": {
+    "your_first_bronze_task": {
+      "type": "heracles:item",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Your first bronze!",
+      "<br/>",
+      "  Time for that beautifully shining orange ingot? You'll need to grab some of the copper and tin dust you get from the forge hammer to make it. It's a simple mixture of 3:1 copper to tin in your crafting grid. Once you progress, you'll find a way to produce this mixture more efficiently since you're spilling some dust making it on hand.",
+      "<br/>",
+      "  Now that you're entering the steam age with this bronze, I'll give you some tips on the machines you'll be making. Remember that steam machines will accept inputs from any side, be it items, steam or another fluid. You can lock their slots by clicking on the padlock looking button in the interface. Locked slots will make sure the machine only accepts one type of item or fluid per slot.",
+      "<br/>",
+      "  Every machine has an output side as well, and you can enable auto-output from inside the interface. Using your trusty wrench you can adjust the output side with ease!",
+      "<br/>",
+      "  If you don't want so many items in the slots at a time, use that scroll wheel of yours to adjust the maximum number of items stored at a time.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:bronze_ingot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Your First Bronze"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "your_first_steel"
+  ],
+  "tasks": {
+    "steel_wiremill_task": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:steel_wiremill"
+    }
+  },
+  "rewards": {
+    "steel_wiremill_reward": {
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Steel Wiremill",
+      "<br/>",
+      "  Wire! Zap! Time to make your first wire; long strings of highly conductive metals for the transfer of electricity. You can combine these plain wires with your rubber sheets to make cables. Make sure you put enough rubber around those wires, don't want to get shocked!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          500,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:steel_wiremill",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Wiremill"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

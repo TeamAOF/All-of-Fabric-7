@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "rubber"
+  ],
+  "tasks": {
+    "the_electric_age_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:analog_circuit",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# The Electric Age!",
+      "<br/>",
+      "  Time for a --MAJOR-- upgrade! Electric machines work exactly the same as steam machines, except from the fact they require electricity to function instead of steam and they can progressively overclock recipes to up to 32 EU/t (for now).",
+      "<br/>",
+      "  You can use your REI to view the recipes for the electric versions of the machines you are already familiar with. The recipes are more complex and will require more specific machine oriented parts.",
+      "<br/>",
+      "  Your first main part will be the /b/Analog Circuits/b/. This will be the main circuit for the LV machines as well as the base for high tier circuits and machines. You should automate this as soon as possible.",
+      "<br/>",
+      "  I strongly suggest that you begin to automate parts as soon as you possibly can. I'll let you know which parts you should automate as we come across them. Doing so will make electric machines practically free as you wont need to manually craft any components by yourself!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          570,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:analog_circuit",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Electric Age!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

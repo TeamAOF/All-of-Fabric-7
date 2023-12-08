@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "bronze_furnace",
+    "coke",
+    "bronze_water_pump"
+  ],
+  "tasks": {
+    "steam_blast_furance_task_4": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_item_input_hatch"
+    },
+    "steam_blast_furance_task_3": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_fluid_input_hatch"
+    },
+    "steam_blast_furance_task_5": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:bronze_item_output_hatch"
+    },
+    "steam_blast_furance_task_2": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:steam_blast_furnace"
+    },
+    "steam_blast_furance_task_1": {
+      "type": "heracles:item",
+      "amount": 29,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:fire_clay_bricks"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Steam Blast Furnace",
+      "<br/>",
+      "  Your second multiblock: The Steam Blast Furnace! This one is nearly the same, with the only difference being it's one taller and uses Fire Clay Bricks instead of regular bricks.",
+      "<br/>",
+      "  Use the same trick with the wrench to show you the block placements and don't forget you'll need only 3 hatches this time. They're the same as the Coke Oven, without the fluid output hatch, not yet anyway!",
+      "<br/>",
+      "  You will use this steam blast furnace to make your first steel!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:steam_blast_furnace",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Blast Furance"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

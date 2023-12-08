@@ -1,0 +1,6 @@
+{
+  "power_enchantment_multiplier_per_level": 0.08,
+  "quick_charge_enchantment_multiplier_per_level": 0.1,
+  "serverside_crossbow_charging_tolerance": 0.95,
+  "enable_infinity_for_crossbows": true
+}

@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "titanium"
+  ],
+  "tasks": {
+    "raw_iridium_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:raw_iridium",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "raw_iridium_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:iridium_ore",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Raw Iridium",
+      "<br/>",
+      "  Processing the /b/Iridium Ore/b/ from your /b/Titanium Drills/b/, you can begin to produce iridium dust which will be needed for /b/Superconductor Dust/b/, a material capable of extraordinary power transfer and storage.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1187,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:raw_iridium",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Raw Iridium"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

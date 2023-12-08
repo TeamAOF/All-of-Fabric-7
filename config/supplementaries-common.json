@@ -58,7 +58,8 @@
       "enabled": true,
       "block_side_attachment": true,
       "slide_on_fall": true,
-      "rope_override": "supplementaries:rope"
+      "rope_override": "supplementaries:rope",
+      "horizontal_ropes": true
     },
     "jar": {
       "enabled": true,
@@ -148,7 +149,8 @@
     },
     "planter": {
       "enabled": true,
-      "broken_by_sapling": true
+      "broken_by_sapling": true,
+      "rich_soil_planter": true
     },
     "notice_board": {
       "enabled": true,
@@ -214,7 +216,8 @@
     "flower_box": true,
     "doormat": true,
     "flint_block": true,
-    "candle_holder": true
+    "candle_holder": true,
+    "hat_stand": true
   },
   "tools": {
     "quiver": {
@@ -271,7 +274,8 @@
       "allow_splash_potions": false,
       "allow_bombs": false,
       "allow_fire_charges": false,
-      "allow_snowballs": false
+      "allow_snowballs": false,
+      "allow_enderpearls": false
     },
     "antique_ink": {
       "enabled": true,
@@ -290,6 +294,9 @@
   },
   "tweaks": {
     "shulker_helmet": {
+      "enabled": true
+    },
+    "golden_apple_disenchant": {
       "enabled": true
     },
     "dye_blocks": {
@@ -351,6 +358,7 @@
     },
     "map_tweaks": {
       "random_adventurer_maps": true,
+      "random_adventurer_maps_select_random_structure": true,
       "block_map_markers": true,
       "death_marker": "WITH_COMPASS",
       "tinted_blocks_on_maps": true
@@ -359,6 +367,7 @@
       "enabled": true
     },
     "placeable_books": {
+      "written_books": true,
       "enabled": false,
       "book_power": 1.0,
       "enchanted_book_power": 1.334,

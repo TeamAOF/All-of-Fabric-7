@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "the_lategame_age"
+  ],
+  "tasks": {
+    "hv_diesel_general_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:hv_diesel_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hv_diesel_general_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:boosted_diesel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# HV Diesel Generator",
+      "<br/>",
+      "  The best single block diesel generator you can make. It'll output up to 1024 eu/t from any of the various fluids listed in your REI.",
+      "<br/>",
+      "  Now, this isn't the best generator that'll take fluid fuels. There's such thing as a /b/Large Diesel Generator/b/ which will ask for /b/Highly Advanced Machine Hulls/b/; though it's worth it when you hear it'll generate up to 16,384 eu/t!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1020,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:hv_diesel_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "HV Diesel Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

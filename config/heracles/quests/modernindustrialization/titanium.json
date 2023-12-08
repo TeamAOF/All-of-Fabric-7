@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "kanthal_coils"
+  ],
+  "tasks": {
+    "titanium_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "titanium_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:titanium_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Titanium",
+      "<br/>",
+      "  Forged in the heart of ||supernovas||, /b/Titanium/b/ has the highest strength to weight ratio. It's as strong as steel but weights 45% less making it extremely powerful for it's weight. It isn't magnetic, corrosive, nor does it conduct electricity so using it for parts of a machine can be extremely beneficial. It's pink color comes from ||I have no idea||.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1137,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:titanium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Titanium"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

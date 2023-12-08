@@ -10,6 +10,7 @@
 	"spellHotbar_7_defer": "HOTBAR_KEY_7",
 	"spellHotbar_8_defer": "HOTBAR_KEY_8",
 	"spellHotbar_9_defer": "HOTBAR_KEY_9",
+	"sneakingByPassSpellHotbar": false,
 	"useKeyHighPriority": false,
 	"highlightTarget": true,
 	"stickyTarget": true,

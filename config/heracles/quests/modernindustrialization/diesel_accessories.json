@@ -1,0 +1,109 @@
+{
+  "dependencies": [
+    "distillery"
+  ],
+  "tasks": {
+    "diesel_accessories_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diesel_mining_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "diesel_accessories_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diesel_jetpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "diesel_accessories_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diesel_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "diesel_accessories_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:boosted_diesel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Diesel Accessories",
+      "<br/>",
+      "  There's a few powerful diesel fueled tools and accessories that you can use to assist you in expanding your factory even more. Here there are:",
+      "<ul>",
+      "<li>First is a &&bDiesel Drill&&r, a huge upgrade from your old steam drill. The difference is, this one you can't use a 3x3 function anymore, but you can toggle between Silk Touch and Fortune III with a simple shift right-click. The more powerful the fuel in it, the faster it'll mine.</li>",
+      "<li>Second is a &&bDiesel Chainsaw&&r. The chainsaw has the exact same functionality as the drill, but instead it's for cutting down trees and the like to replace your axe.</li>",
+      "<li>Third is a &&bDiesel Jetpack&&r. Yes, you heard me right. A jetpack. The stronger the fuel in it the faster you'll fly. Use your \"V\" key to toggle the jetpack on and off. Let your wings free and fly with the power of technology! &&oAnd a bit of fuel...&&r</li>",
+      "</ul>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          880,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:diesel_mining_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diesel Accessories"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

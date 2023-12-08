@@ -71,6 +71,17 @@
       },
       "fast_signs": false
     },
+    "hat_stand": {
+      "swing_physics": {
+        "frequency": 1.5,
+        "collision_considers_entity_hitbox": true,
+        "collision_inertia": 1.5,
+        "collision_force": 15.0,
+        "min_angle": 0.0,
+        "max_angle": 54.99998,
+        "damping": 1.625
+      }
+    },
     "turn_table": {
       "turn_particles": true
     },
@@ -89,6 +100,7 @@
     }
   },
   "general": {
+    "no_optifine_warn_screen": false,
     "config_button": false,
     "tooltip_hints": true,
     "placeable_tooltips": true,

@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "superconductor_cable"
+  ],
+  "tasks": {
+    "gravichestplate_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:gravichestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Gravichestplate",
+      "<br/>",
+      "  1985 called from 2015, it wants it's anti-gravity technology back! The /b/Gravichestplate/b/ uses a superconductor cable coiled around a platinum core to produce a space altering field around the player, inverting the gravitational pull, enough so to lift a player off the floor. It's controlled by regulating the power to the coils facing in multiple directions. Since it affects the gravitational field, you wont take any fall damage, though due to the components that make up the /b/Gravichestplate/b/ being fragile and complex, it won't protect against other types of damage.",
+      "<br/>",
+      "  It uses EU (and a lot of it) to function, so it can be charged by right clicking a block that can output energy.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1287,
+          -52
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:gravichestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gravichestplate"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

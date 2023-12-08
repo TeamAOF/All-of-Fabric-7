@@ -6,6 +6,16 @@
         "minecraft": ""
       }
     },
+    "spectrum": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "createdeco": {
+      "-depends": {
+        "create": ""
+      }
+    },
     "create": {
       "-breaks": {
         "sodium": ""

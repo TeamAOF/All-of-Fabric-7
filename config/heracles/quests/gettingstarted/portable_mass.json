@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "arms_are_full"
+  ],
+  "tasks": {},
+  "rewards": {
+    "portable_mass_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 40,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "  In due time, a backpack's capaciousness will be a mere fraction of what you will be able to carry on hand with other means. As you get stronger and develop more and more, the capabilities you will reach will be mind bending.",
+      "<br/>",
+      "  Power on, /b/Player/b/.",
+      "<columns>",
+      "  <column>",
+      "    <item id=\"bankstorage:bank_5\" scale=\"4\"> </item>",
+      "  </column>",
+      "  <column>",
+      "    <item id=\"ae2:portable_item_cell_64k\" tag=\"{internalCurrentPower:2000.0d}\" scale=\"2\"> </item>",
+      "  </column>",
+      "</columns>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          99
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:portable_item_cell_256k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Portable Mass"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

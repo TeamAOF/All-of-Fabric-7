@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "mixed_iridium_ingot"
+  ],
+  "tasks": {
+    "the_endgame_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "the_endgame_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:quantum_circuit_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# The Endgame",
+      "<br/>",
+      "  The /b/Quantum Circuit/b/. The pinnacle of computing technology. The beginning to the most advanced machines you could possibly imagine. From here on out, there are no limits to your imagination.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1337,
+          -17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:quantum_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "the_endgame"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

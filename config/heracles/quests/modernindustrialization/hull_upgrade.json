@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "mv_steam_turbine"
+  ],
+  "tasks": {
+    "hull_upgrade": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hull_upgrade_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:advanced_machine_hull",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Hull Upgrades",
+      "<br/>",
+      "  Now that you're producing energy in the medium voltage tier, you'll need to make sure your machines can accept that new found power. Normally, cables wont even connect to machines if they aren't of the same tier. But, by placing an /b/Advanced Machine Hull/b/ (or higher tier) into the slot in the top right of the machine, you'll have upgraded the machine to the tier of power it associates with it. By default, electric machines are already at the /b/Basic Machine Hull/b/ tier and there is no need to put basic machine hulls into the slot. I'll show you which hulls are for which power tier.",
+      "<br/>",
+      "<ul>",
+      "<li>Advanced Machine Hulls are for Medium Voltage.</li>",
+      "<li>Turbo Machine Hulls are for High Voltage.</li>",
+      "<li>Highly Advanced Machine Hulls are for Extreme Voltage.</li>",
+      "<li>Quantum Machine Hulls are for Superconductor.</li>",
+      "</ul>",
+      "<br/>",
+      "  Make sure you check for which machines --actually-- need the upgrades so you aren't wasting resources on machines that don't really need the extra boost.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          880,
+          -52
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:advanced_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hull Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "WelcomeCheck": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "kubejs:aof7_logo",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "<br/>",
+      "Ah.",
+      "Here you are.",
+      "<br/>",
+      "What /b/works/b/ will you craft here?",
+      "What /b/end/b/ do you seek?",
+      "The are /6/many/6/.",
+      "<br/>",
+      "The highest end written is known as --/e/Completionist/e/--.",
+      "<br/>",
+      "My soul's purpose here is to light the way for seekers.",
+      "<br/>",
+      "Questions? You can ask.",
+      "<br/>",
+      "I may answer.",
+      "<br/>",
+      "<br/>",
+      "--Welcome!--",
+      "<br/>",
+      "Welcome to the seventh fold of the fabric of all reality.",
+      "<br/>",
+      "--Welcome to **&&dAll of Fabric 7&&r**!--",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<task task=\"WelcomeTask\" quest=\"Welcome!\" />"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:aof7_logo",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Welcome!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

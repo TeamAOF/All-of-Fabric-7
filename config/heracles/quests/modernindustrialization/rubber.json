@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "steel_wiremill"
+  ],
+  "tasks": {
+    "rubber_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:rubber_sheet",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "rubber_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:rubber_sheet",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Rubber",
+      "<br/>",
+      "  Flexible, non-conductive, and strong. Rubber will be a major part of every electric machine. You can produce it by mixing paper with either /b/Synthetic Oil/b/ or /b/Synthetic Rubber/b/. Mix the coke dust you made with water in a mixer to produce /b/Raw Synthetic Oil/b/. Use a steam blast furnace to produce these two fluids. /b/Synthetic Rubber/b/ is more difficult to obtain, but will yield more rubber per sheet of paper.",
+      "<br/>",
+      "  Remember that you'll need a --lot-- of rubber sheets in the long run, so you'll need to make them constantly. Note that you can use wood to grind down and turn into wood pulp which can then be turned into paper with a high output yield.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          535,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:rubber_sheet",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rubber"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

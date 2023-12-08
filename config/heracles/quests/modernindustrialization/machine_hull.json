@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "the_electric_age"
+  ],
+  "tasks": {
+    "machine_hull_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:basic_machine_hull",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "machine_hull_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:basic_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Machine Hulls",
+      "<br/>",
+      "  The electronic heart. Machine hulls contain the main electronics to allow machines to run. There are different tiers to machine hulls, each allowing you to upgrade your machines. The /b/Basic Machine Hull/b/ is the base of every machine that takes LV power. If you want your machine to accept MV power, you must upgrade it using an /b/Advanced Machine Hull/b/. You can do this by right clicking the machine with the upgraded hull in your hand or by placing it in the top right slot of the machine's GUI that seems to have a small isometric cube depiction. You can do the same with higher tier hulls as they will allow for higher tier power sources.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          570,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:basic_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Machine Hulls"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

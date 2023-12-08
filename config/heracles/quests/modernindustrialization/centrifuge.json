@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "centrifuge_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:centrifuge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "centrifuge_reward_2": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:raw_iron",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "centrifuge_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:ruby_dust",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Centrifuge",
+      "<br/>",
+      "  This is a new electric machine that uses centripetal force to separate mixtures and items made of multiple materials into separate items. In simple terms, it splits items by spinning them very fast. For example, you can use it to make carbon dust by centrifuging coal dust to unlock a better recipe for steel and silicon.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          17
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:centrifuge",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Centrifuge"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

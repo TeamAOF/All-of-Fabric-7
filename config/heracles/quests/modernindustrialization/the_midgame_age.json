@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "electric_blast_furnace"
+  ],
+  "tasks": {
+    "the_midgame_age_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "the_midgame_age_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# The Midgame Age!",
+      "<br/>",
+      "  Even more advanced electronics! These circuit boards are aluminum based and allow for more complex machinery.",
+      "<br/>",
+      "  I'd recommend automating the /b/Electronic Circuit/b/ as you'll need them for many of the MV upgrades as well as the new machines you'll be able to make.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          740,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:electronic_circuit",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Midgame Age!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

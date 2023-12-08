@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "nuke"
+  ],
+  "tasks": {
+    "singularity_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "singulrity_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:nuke",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Singularity",
+      "<br/>",
+      "  The /b/ultimate/b/ state of solid matter, compressed so tightly until it is a point of infinite density and gravity. Although, you can contain this to use it for various applications. You are holding... /b/Infinity/b/.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1387,
+          17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "singularity"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

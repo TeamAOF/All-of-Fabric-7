@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "electric_quarry"
+  ],
+  "tasks": {
+    "gold_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:gold_drill",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "gold_drill_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:gold_drill",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Gold Drill",
+      "<br/>",
+      "  The /b/Gold Drill/b/ produces ores and building blocks that you'd expect to find in the confines of the Nether Region.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          723,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:gold_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gold Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

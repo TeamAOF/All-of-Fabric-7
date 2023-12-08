@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structures": [
+        {
+          "id": "wizards:village/desert/wizard_tower",
+          "weight": 1,
+          "limit": 1
+        },
+        {
+          "id": "wizards:village/desert/wizard_tower_2",
+          "weight": 3,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structures": [
+        {
+          "id": "wizards:village/savanna/wizard_tower",
+          "weight": 3,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structures": [
+        {
+          "id": "wizards:village/plains/wizard_tower",
+          "weight": 3,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structures": [
+        {
+          "id": "wizards:village/taiga/wizard_tower",
+          "weight": 3,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structures": [
+        {
+          "id": "wizards:village/snowy/wizard_tower",
+          "weight": 1,
+          "limit": 1
+        },
+        {
+          "id": "wizards:village/snowy/wizard_tower_2",
+          "weight": 3,
+          "limit": 1
+        }
+      ]
+    }
+  ]
+}

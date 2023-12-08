@@ -1,0 +1,106 @@
+{
+  "dependencies": [
+    "polarizer"
+  ],
+  "tasks": {
+    "electric_blast_furnace_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:heatproof_machine_casing",
+      "amount": 17,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    },
+    "electric_blast_furnace": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electric_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    },
+    "electric_blast_furnace_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:cupronickel_coil",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "electric_blast_furnace_reward_2": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_item_output_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "electric_blast_furnace_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_item_input_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Electric Blast Furnace",
+      "<br/>",
+      "  Time to heat things up by a few notches? This is the electric version of the steam blast furnace. The /b/Electric Blast Furnace/b/ uses induction heating to produce extreme temperatures, unlocking a plethora of new recipes. Plus, it's overclock is bounded to 128 EU/t by default, just like other multiblock electric machines.",
+      "<br/>",
+      "  The /b/Electronic Blast Furnace/b/ or /b/EBF/b/ is made out of purely Heatproof Machine Casings and /b/Cupronickel Coils/b/. Use your wrench to see the mutliblock's shape and block placement. The controller is placed on the bottom layer and hatches and be placed on the top or bottom layer.",
+      "<br/>",
+      "  Don't forget to add an Energy Input Hatch(es) or the EBF won't have any energy to run! Start with a LV Energy Input Hatch and you can upgrade to higher tier Energy Input Hatches when you have the appropriate power tiers. Remember, the LV Energy Input Hatch will only connect to LV cables.",
+      "<br/>",
+      "  You'll also need item or fluid input hatches and item or fluid output hatches based off of the use case of the EBF. Check your REI for it's new recipes and choose hatches based off your needs.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          690,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:electric_blast_furnace",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electric Blast Furnace"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

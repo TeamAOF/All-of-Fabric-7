@@ -1,0 +1,157 @@
+{
+  "ranged_weapons": {
+    "archers:netherite_heavy_crossbow": {
+      "pull_time": 35,
+      "damage": 15.0
+    },
+    "archers:netherite_shortbow": {
+      "pull_time": 16,
+      "damage": 9.0
+    },
+    "archers:royal_longbow": {
+      "pull_time": 30,
+      "damage": 10.0
+    },
+    "archers:netherite_rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 9.5
+    },
+    "archers:heavy_crossbow": {
+      "pull_time": 35,
+      "damage": 13.0
+    },
+    "archers:netherite_longbow": {
+      "pull_time": 30,
+      "damage": 12.0
+    },
+    "archers:composite_longbow": {
+      "pull_time": 30,
+      "damage": 8.0
+    },
+    "archers:rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 8.5
+    },
+    "archers:mechanic_shortbow": {
+      "pull_time": 16,
+      "damage": 8.0
+    }
+  },
+  "melee_weapons": {
+    "golden_spear": {
+      "attack_damage": 3.0,
+      "attack_speed": -3.0,
+      "attributes": []
+    },
+    "diamond_spear": {
+      "attack_damage": 6.0,
+      "attack_speed": -3.0,
+      "attributes": []
+    },
+    "flint_spear": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "attributes": []
+    },
+    "netherite_spear": {
+      "attack_damage": 7.0,
+      "attack_speed": -3.0,
+      "attributes": []
+    },
+    "iron_spear": {
+      "attack_damage": 5.0,
+      "attack_speed": -3.0,
+      "attributes": []
+    }
+  },
+  "armor_sets": {
+    "archer_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.05,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "ranger_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 3,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "id": "projectile_damage:generic",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    }
+  }
+}

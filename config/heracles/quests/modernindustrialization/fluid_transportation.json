@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "fluid_transportation_task": {
+      "type": "heracles:item",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:fluid_pipe"
+    }
+  },
+  "rewards": {
+    "fluid_transportation_reward_1": {
+      "item": {
+        "id": "minecraft:red_dye",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Fluid Transportation",
+      "<br/>",
+      "  The pipes you'll create to transport the many liquids and gasses can only contain a single type of fluid at a time and they wont connect directly to empty pipes or containers and machines automatically, so make sure to use that wrench to configure them properly.",
+      "<br/>",
+      "  You can forcefully initiate a connection by right-clicking the center of the pipe with your wrench, or by right-clicking a block with a pipe in your hand; thought it won't consume the pipe, just connect it.",
+      "<br/>",
+      "  Every tick, the fluid pipe will attempt to evenly extract from all connected blocks and then attempt to insert that into all other connected blocks. ",
+      "<br/>",
+      "  Here's a few other tips you might enjoy, use them wisely and abuse them to your complete advantage: You can have up to 3 pipes in a single block for ultimate compact-ness! Luckily, pipes of different color will --never-- connect. Finally, right-clicking a pipe with a wrench will change the connection type and shift-right-clicking will drop the pipe.",
+      "<br/>",
+      "  Time for some spaghetti?",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          150,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:fluid_pipe",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Transportation"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "iron_chest"
+  ],
+  "tasks": {
+    "gold_chest_task": {
+      "type": "heracles:item",
+      "item": "ironchests:gold_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "gold_chest_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Gold Chest",
+      "<br/>",
+      "A whopping 66 items slots in a shiny gold chest! Now, be careful, it might blind you with how shiny this beautiful golden chest is. It may also be heavy considering the density of gold being so high; that's up to you to find out."
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          40,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:gold_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gold Chest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

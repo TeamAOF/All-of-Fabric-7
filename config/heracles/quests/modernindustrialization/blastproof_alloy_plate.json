@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "titanium",
+    "raw_iridium"
+  ],
+  "tasks": {
+    "blastproof_alloy_plate_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:blastproof_alloy_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "blastproof_alloy_plate_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:blastproof_alloy_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Blastproof Allow Plate",
+      "<br/>",
+      "  Created by compressing three of the strongest materials you've used in your journey up until now. /b/Tungsten/b/, a metal with an extremely high melting point and a density that cannot be beaten. /b/Titanium/b/, a corrosion resistant, strong yet light weight material. And /b/Stainless Steel/b/, rust resistant to the extreme. This is the strongest plate you will ever forge. ",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1187,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:blastproof_alloy_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blastproof Alloy Plate"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

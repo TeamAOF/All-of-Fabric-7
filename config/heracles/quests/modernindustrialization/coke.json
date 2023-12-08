@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "multiblock_controllers"
+  ],
+  "tasks": {
+    "coke_task_2": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:coke_dust"
+    },
+    "coke_task_1": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "modern_industrialization:coke"
+    }
+  },
+  "rewards": {
+    "coke_reward_1": {
+      "item": {
+        "id": "modern_industrialization:coke_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Coke",
+      "<br/>",
+      "  Once you have a stockpile of this super powered coal, you can start diverting away from you bronze machines. They're slow and such a bright orange; blinding to the eyes.",
+      "<br/>",
+      "  Making coal coke is just heating coal with the absence of oxygen. It doesn't allow it to burn and thus puts it through a destructive distillation process. Once you have it though, you'll be able to start working on steel and steel machines speeding up processing times at the cost of more steam being used.",
+      "<br/>",
+      "  You'll be aiming for the creation of a quarry soon so that it can dig for you. Imagine never needing to go mining for ores ever again!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          330,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:coke",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Coke"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

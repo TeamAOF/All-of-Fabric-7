@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "your_first_steel"
+  ],
+  "tasks": {
+    "steel_packer_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_packer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Steel Packer",
+      "<br/>",
+      "  A new machine! This one can only be made in steel, it really needs that extra strength. The packer can perform simple crafts for you. You can automate double ingots, pipes, many types of bricks, and more! Check your REI for more recipes.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          485,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steel_packer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Packer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

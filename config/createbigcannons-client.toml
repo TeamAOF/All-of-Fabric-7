@@ -1,0 +1,14 @@
+#.
+#Client-side config for Create Big Cannons.
+[client]
+	#.
+	#How cannon plumes display when a cannon is fired
+	#Off - No particles are spawned when firing a cannon. Least laggy option, but it may be harder to detect if a projectile has squibbed in the barrel (no smoke in "pop and no smoke".)
+	#Legacy - Cannons spawn vanilla particles (mostly campfire smoke) when firing. The classic look, but spawns many particles and may cause high lag.
+	#Default - Cannons spawn cannon smoke particles, designed to give a grand impression while keeping the spawned particle count low compared to Legacy.
+	#Allowed Values: OFF, LEGACY, DEFAULT
+	showCannonPlumes = "DEFAULT"
+	#.
+	#How many particles are in a Fluid Blob of any size.
+	#Range: 0 ~ 1000
+	fluidBlobParticleCount = 20

@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "vaccum_freezer"
+  ],
+  "tasks": {
+    "stainless_steel_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:stainless_steel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "stainless_steel_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:chromium_dust",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "stainless_steel_reward_2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:manganese_dust",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Stainless Steel",
+      "<br/>",
+      "  /b/Stainless Steel/b/ is just about as strong as regular steel, but stainless steel will never corrode, rust, or stain. This is the first metal that you can't just throw into a furnace and call it a day. You need to create it's dust from four ingredients: /b/Iron/b/, /b/Chromium/b/, /b/Manganese/b/, and /b/Nickel/b/. Then, after you heat it up to extreme temperatures in your EBF, you need to use the /b/Vacuum Freezer/b/ to cool down the red hot ingot to be useable. ",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          915,
+          87
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:stainless_steel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stainless Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

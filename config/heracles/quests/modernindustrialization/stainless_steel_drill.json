@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "centrifuge",
+    "stainless_steel",
+    "the_lategame_age"
+  ],
+  "tasks": {
+    "stainless_still_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:stainless_steel_drill",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "stainless_steel_drill_reward": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:stainless_steel_drill",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Stainless Steel Drill",
+      "<br/>",
+      "  The /b/Stainless Steel Drill/b/ is a new drill that can be used in --both-- the /b/Quarries/b/ and the /b/Oil Drilling Rig/b/. For the quarry, you'll obtain some new rare resources that will be extremely beneficial for the future. In the drilling rig, you'll be able to pump out /b/Shale Oil/b/ which can be distilled into /b/Helium/b/, /b/Sulfuric Crude Oil/b/, and /b/Sulfuric Naphtha/b/.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          915,
+          17
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:stainless_steel_drill",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stainless Steel Drill"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

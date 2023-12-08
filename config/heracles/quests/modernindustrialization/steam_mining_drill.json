@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "poor_mans_compressor"
+  ],
+  "tasks": {
+    "steam_mining_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steam_mining_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "steam_mining_drill_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "steam_mining_drill_reward_2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:coke",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Steam Mining Drill",
+      "<br/>",
+      "  I've got the perfect tool for you, it'll just take a bit of time to craft. It's a /b/Steam Mining Drill/b/! These can mine in a much larger space than regular ol' pickaxes can; 3x3 to be exact. Not only will you be able to mine more efficiently, but you'll be able to make beautiful tunnels with ease.",
+      "<br/>",
+      "  Want to know something cool? This drill --silk touches-- blocks as well! I know right? It's awesome! This way you'll get --way-- more bang for your buck when you pair it with the Forge Hammer since you can crush full ores instead of starting from raw ores.",
+      "<br/>",
+      "  One small... would you call it a downside? You need to power it. For some reason, the drill itself never actually breaks, but you'll need to feed it water and some type of burnable fuel; for example coal or lignite. Just right click the fuel items into your drill within your inventory to fill it up!",
+      "<br/>",
+      "  A tip for you: Carry around a water bucket. Not only will this allow you to negate fall damage if you're skilled enough, but also as a source of water to run your drill off of. For some reason, depending on the use case, this world's water sources are infinite; use this to your advantage.",
+      "<br/>",
+      "  A --second-- tip: Crouch to mine single blocks if you need! They'll still be in the silktouch form, but it wont do the 3x3, incase you need to mine blocks more delicately.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steam_mining_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Mining Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

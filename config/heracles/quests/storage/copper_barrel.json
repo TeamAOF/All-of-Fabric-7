@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "barrel"
+  ],
+  "tasks": {
+    "copper_barrel_task": {
+      "type": "heracles:item",
+      "item": "ironchests:copper_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "copper_barrel_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "# Copper Barrel",
+      "<br/>",
+      "The copper barrel is your first upgrade to the barrel tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by."
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -40,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:copper_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Barrel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

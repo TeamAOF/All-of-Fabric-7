@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "need_assistance"
+  ],
+  "tasks": {
+    "rei_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "rei_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 30,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## Too Much!",
+      "<br/>",
+      "  Yes, there is a lot to do, but I will let you in on a really helpful feature of this world. Look at your inventory; see the things to the left and right of it? You should see a bunch of items and blocks. That's your /b/Recipe Electronic Interface/b/ or as I will refer to it: **/b/REI/b/**. This is a massive database of everything in your world.",
+      "<br/>",
+      "  Your REI, using the electrical signals in your nervous system to power the knowledge center in your brain, displays recipes and uses for items, blocks, tools, armor, plants, foods, entities, structures, special procedues, and more. Use your REI to your advantage as it will be a huge help on your journey.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wormhole:advanced_target_device",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "REI?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

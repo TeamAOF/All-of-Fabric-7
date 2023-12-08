@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "a_map_how"
+  ],
+  "tasks": {
+    "reach_your_zenith_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "reach_your_zenith_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "zenith:chronicle"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## My Zenith?",
+      "<br/>",
+      "  That's right. Reach --your-- /d/zenith/d/. The mechanics of this world are so intricate but powerful to the point you can completely reinvent yourself. The number of /5/enchantments/5/ available is enourmous, allowing you to conquer the world.",
+      "<br/>",
+      "  Do your gardens look a little... short? Well just wait, cause /2/sugarcane/2/, /a/bamboo/a/ and /2/cactus/2/ will grow extremely tall! Limits are boring!",
+      "<br/>",
+      "<columns template=\"80% 20%\">",
+      "  <column>",
+      "  Brewing potions is a great way to get into the spirit of becoming powerful by the power of /b/alchemy/b/! Brew up a storm and have a potion for every day of the week!",
+      "  </column>",
+      "  <column>",
+      "      <item id=\"minecraft:brewing_stand\" scale=\"2\"> </item>",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "<columns template=\"20% 80%\">",
+      "  <column>",
+      "    <br/>",
+      "    <entity type=\"minecraft:wandering_trader\">",
+      "    </entity>",
+      "  </column>",
+      "  <column>",
+      "  Villages will bustle and hum, with so many professions for a villager to ply. They're not the only ones who love to trade. Look out for /3/wandering traders/3/, they might have something sepcial in store for you! Take advantage of this when progressing.",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "<columns template=\"80% 20%\">",
+      "  <column>",
+      "  You will spend hours... no, days... no, --months-- adventuring! The quality of /c/rewards/c/ you can obtain from some of the super strong /4/monsters/4/ that appear in the night will make it all worth it in the end.",
+      "  </column>",
+      "  <column>",
+      "    <entity type=\"soulsweapons:withered_demon\">",
+      "    </entity>",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "   You can upgrade these rewards with sockets and get special abilities on them. You can use /6/gems/6/ to further augment these --/9/affix/9/-- items. Watch your six, and your one through twelve because you won't know what lurks until it's already too late.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "zenith:chronicle"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Reach your Zenith!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

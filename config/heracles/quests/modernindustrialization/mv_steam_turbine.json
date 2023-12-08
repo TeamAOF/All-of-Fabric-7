@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "mv_steam_turbine_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:mv_steam_turbine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mv_steam_turbine_reward_1": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:lv_mv_transformer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mv_steam_turbine_reward_2": {
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:cupronickel_cable",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# MV Steam Turbine",
+      "<br/>",
+      "  Time for a major upgrade! Previously you've only been able to produce electricity at 32 eu/t per turbine using the LV Steam Turbine, but now you'll be able to make a maximum of 128 eu/t out of the brand new /b/MV Steam Turbine/b/! Aside from the increase in energy production four-fold, it acts just like the LV Steam Turbine.",
+      "<br/>",
+      "  One thing to keep in mind is that you wont be able to use the same cables as you were able to before. Now you'll need to use /b/Cupronickel/b/ or /b/Electrum/b/ cables to be able to transfer this new MV tier of power.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          -52
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:mv_steam_turbine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MV Steam Turbine"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

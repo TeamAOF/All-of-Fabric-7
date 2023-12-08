@@ -1,0 +1,14 @@
+{
+  "CopperFertDelay": 6000,
+  "CopperRadius": 2,
+  "IronFertDelay": 3000,
+  "IronRadius": 2,
+  "GoldFertDelay": 1500,
+  "GoldRadius": 3,
+  "DiamFertDelay": 1000,
+  "DiamondRadius": 3,
+  "NethFertDelay": 750,
+  "NetheriteRadius": 4,
+  "CeilingRange": 6,
+  "BoneMealEffect": true
+}

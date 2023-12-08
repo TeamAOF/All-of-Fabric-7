@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    "fluid_transportation"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# What's a tick?",
+      "<br/>",
+      " Calm down, calm down! A tick is the shortest amount of time that can be recorded. it's about a 20th of a second. the world runs off these \"ticks\" and you can use them to your advantage.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "supplementaries:clock_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "What's a tick?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

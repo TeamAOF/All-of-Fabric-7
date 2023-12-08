@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "a_map_how"
+  ],
+  "tasks": {
+    "magic_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "magic_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 20,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## You mentioned Magic?",
+      "<br/>",
+      "  Magic? That I did. The body and mind form a pathway to many abilities some consider to be unnatural. Most are ignorant about the existence of magic in this world, but once you recognize the methods of activation, power will be at your fingertips.",
+      "<br/>",
+      "  There are magics /6/sublime/6/, /4/arcane/4/, or even /d/profane/d/: Magics infused with the colors of the world; magics fueled by the potential energy stored deep within shards of amethyst; Mana-based magic that can transmute and create, take control of one's soul, or achieve near total invincibility.",
+      "<br/>",
+      "<item id=\"minecraft:light_blue_dye\" scale=\"4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Magic"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

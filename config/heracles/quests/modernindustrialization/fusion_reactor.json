@@ -1,0 +1,106 @@
+{
+  "dependencies": [
+    "the_endgame"
+  ],
+  "tasks": {
+    "fusion_reactor_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:fusion_reactor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fusion_reactor_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:highly_advanced_machine_hull",
+      "amount": 203,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fusion_reactor_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:fusion_chamber",
+      "amount": 40,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "fusion_reactor_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:helium_3_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Fusion Reactor",
+      "<br/>",
+      "  Did you have fun with /b/Nuclear Fission/b/? Well, it's time for /b/Nuclear Fusion/b/! Instead of splitting a heavy, unstable nucleus into two lighter nuclei, /b/fusion/b/ will combine together two light nuclei which in turn releases vast amounts of energy. This energy can be contained and used to produce /b/Helium Plasma/b/, an extremely energy dense fluid that can be used as the best power source in the world.",
+      "<br/>",
+      "  You can combine gaseous fuels such as /b/Deuterium/b/, /b/Tritium/b/ and/or /b/Helium-3/b/ to produce various combinations of Helium Plasma, Tritium, Deuterium, and Hydrogen. Keep in mind, this fusion takes a lot of energy to start going, but can produce much more as a result.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1387,
+          -17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:fusion_reactor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "fusion_reactor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

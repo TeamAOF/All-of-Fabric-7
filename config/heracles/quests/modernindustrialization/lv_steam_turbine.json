@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "the_electric_age"
+  ],
+  "tasks": {
+    "lv_steam_turbine_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:lv_steam_turbine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": "minecraft:air",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# LV Steam Turbine",
+      "<br/>",
+      "  This is your moment to produce true electricity using the steam you've been making up until now. The /b/LV Steam Turbine/b/ will convert every 1 mb of Steam into 1 EU of energy and will do this up to 32 times a tick, making a maximum energy production rate of 32 EU/t.",
+      "<br/>",
+      "  The /b/Steam Turbine/b/ will automatically send electricity to any machine connected directly to its output side. It will also only connect to cables placed on its output side.",
+      "<br/>",
+      "  The first one you'll make is of the Low Voltage tier. There are higher tier steam turbines, but you aren't quite there yet.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          620,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "modern_industrialization:lv_steam_turbine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Steam Turbine"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

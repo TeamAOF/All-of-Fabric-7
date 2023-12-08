@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "the_endgame"
+  ],
+  "tasks": {
+    "quantum_upgrade_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "quantum_upgrade_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Quantum Upgrade",
+      "<br/>",
+      "  Remember those \"ticks\" we talked about? How each one is a twentieth of a second? Well you've reached --that-- level of machine processing. Given enough power input, each machine recipe, no matter the machine, as long as it's electric, will only take a single tick.",
+      "<br/>",
+      "  Do be aware that the amount of power these machines can use will be immense, so use them wisely.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1337,
+          -52
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:quantum_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "quantum_upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

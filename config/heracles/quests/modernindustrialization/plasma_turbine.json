@@ -1,0 +1,106 @@
+{
+  "dependencies": [
+    "fusion_reactor"
+  ],
+  "tasks": {
+    "plasma_turbine_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:iridium_machine_casing_pipe",
+      "amount": 18,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "plasma_turbine_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:plasma_handling_iridium_machine_casing",
+      "amount": 17,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "plasma_turbine_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:plasma_turbine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "plasma_turbine_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:helium_plasma_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Plasma Turbine",
+      "<br/>",
+      "  --This-- is the ultimate generator. The /b/Plasma Turbine/b/ uses /b/Helium Plasma/b/ to produce energy, up to 1,049,000 EU/t. This is about 100,000 EU per millibucket of /b/Helium Plasma/b/, and a consumption rate of about 11 mb/t.",
+      "<br/>",
+      "  As long as you know how to care for your factory, you will --never-- need to worry about power ever again.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1437,
+          -17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:plasma_turbine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "plasma_turbine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

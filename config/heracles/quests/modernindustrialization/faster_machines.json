@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "your_first_steel"
+  ],
+  "tasks": {
+    "faster_machines_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_upgrade",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# Faster Machines?",
+      "<br/>",
+      "  As stated before, you can upgrade your bronze machines into steel machines. Create the /b/Steel Upgrade/b/ and install it onto any bronze machine using a crafting table or packer.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          467,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steel_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Faster Machines?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
