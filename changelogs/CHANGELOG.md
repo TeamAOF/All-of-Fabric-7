@@ -5,13 +5,15 @@ _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ### Changes/Improvements ⚙️
 
 * Downgraded Fabric Loader to 14.25 due to issues.
+* Added quests, claim map, and party chat buttons to inventory UI (REI).
 * Spectrum recipes will now hard-require Topaz variant from Spectrum itself, used to allow any variant from other mods.
 * Increased production chance of Sapphire Ore in Electric Quarry (2% > 4%)
 * Increased production chance of Ruby Ore in Electric Quarry (2% > 4%)
 
 ### Bug Fixes 🐛
 
-* Iron backpack task being faulty.
+* Iron backpack task type being incorrect.
+* Travelers Backpack quest task type being incorrect.
 * Mine Cells dimension crashing your game.
 * Strawberries not being unified, leaving certain bakery recipes not craftable.
 * Servers not loading.
