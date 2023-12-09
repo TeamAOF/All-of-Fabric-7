@@ -171,12 +171,12 @@ ServerEvents.recipes(event => {
       {
         "item": "mythicupgrades:ruby_ore",
         "amount": 1,
-        "probability": 0.02
+        "probability": 0.04
       },
       {
         "item": "mythicupgrades:sapphire_ore",
         "amount": 1,
-        "probability": 0.02
+        "probability": 0.04
       }
       /*
       {
