@@ -1,3 +1,22 @@
+### All of Fabric 7 | v1.0.1
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.1.md)_
+
+### Changes/Improvements ⚙️
+
+* Downgraded Fabric Loader to 14.25 due to issues.
+* Spectrum recipes will now hard-require Topaz variant from Spectrum itself, used to allow any variant from other mods.
+* Increased production chance of Sapphire Ore in Electric Quarry (2% > 4%)
+* Increased production chance of Ruby Ore in Electric Quarry (2% > 4%)
+
+### Bug Fixes 🐛
+
+* Iron backpack task being faulty.
+* Mine Cells dimension crashing your game.
+* Strawberries not being unified, leaving certain bakery recipes not craftable.
+* Servers not loading.
+---
+
 ### All of Fabric 7 | v1.0.0 | 🧭 Quests & Adventures Update 🪙
 
 _Fabric Loader 0.15.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.0.md)_

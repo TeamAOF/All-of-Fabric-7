@@ -6,8 +6,8 @@ modpack:
   
 install:
   mcVersion: 1.20.1
-  loaderVersion: 0.15.0
-  modpackUrl: https://media.forgecdn.net/files/4940/303/All+of+Fabric+7-1.0.0.zip
+  loaderVersion: 0.14.25
+  modpackUrl: https://media.forgecdn.net/files/4944/111/All+of+Fabric+7-1.0.1.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.jar
   
   ignoreFiles:
@@ -23,7 +23,7 @@ install:
     - "-mcversion"
     - "1.20.1"
     - "-loader"
-    - "0.15.0"
+    - "0.14.25"
   modpackFormat: curse
   
   formatSpecific:
