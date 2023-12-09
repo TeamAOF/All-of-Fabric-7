@@ -4,16 +4,18 @@
   ],
   "tasks": {
     "pu_iron": {
+      "type": "heracles:item",
+      "item": "packedup:ironbackpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "packedup:ironbackpack",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
-      },
-      "item": "minecraft:air",
-      "title": "",
-      "type": "heracles:item_interaction"
+      }
     }
   },
   "rewards": {
