@@ -40,9 +40,22 @@
       "text": ""
     },
     "description": [
-      "# Bank 2",
+      "---",
       "<br/>",
-      "The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper, about 80100 kilograms worth. This brings your total storage to 18 different slots with each slot holding up to 1024 items in each."
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "<br/>",
+      "## Bank 2",
+      "</column>",
+      "<column>",
+      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper, about 80100 kilograms worth. This brings your total storage to 18 different slots with each slot holding up to 1024 items in each.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

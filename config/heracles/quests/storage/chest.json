@@ -40,9 +40,22 @@
       "text": ""
     },
     "description": [
-      "# Basic Chests",
+      "---",
       "<br/>",
-      "Chests are going to most likely be your --first-- form of item storage. They just take a hand full of wood planks in a box shape and it'll store up to 27 types of items up to 64 items in a stack. They can be made out of many types of wood for different colors and designs, so check your REI to see which types you can make!"
+      "<columns>",
+      "<column>",
+      "# Basic Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"minecraft:chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "  Chests are going to most likely be your --first-- form of item storage. They just take a hand full of wood planks in a box shape and it'll store up to 27 types of items up to 64 items in a stack.",
+      "<br/>",
+      "   They can be made out of many types of wood for different colors and designs, so check your REI to see which types you can make!",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {
