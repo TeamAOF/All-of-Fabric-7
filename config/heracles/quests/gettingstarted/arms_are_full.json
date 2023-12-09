@@ -3,17 +3,19 @@
     "need_assistance"
   ],
   "tasks": {
-    "arms_are_full_task": {
+    "getatravpack": {
+      "type": "heracles:item",
+      "item": "travelersbackpack:standard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "item": "travelersbackpack:standard",
-      "title": "",
-      "type": "heracles:item_interaction"
+      }
     }
   },
   "rewards": {
