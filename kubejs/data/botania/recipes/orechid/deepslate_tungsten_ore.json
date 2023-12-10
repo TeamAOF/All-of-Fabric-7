@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:deepslate"
+  },
+  "output": {
+    "type": "block",
+    "block": "modern_industrialization:deepslate_tungsten_ore"
+  },
+  "weight": 133
+}
