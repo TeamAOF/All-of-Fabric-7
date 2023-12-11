@@ -81,7 +81,8 @@ ServerEvents.recipes((event) => {
         'modern_industrialization:quarry/gold',
         'modern_industrialization:quarry/steel',
         'modern_industrialization:quarry/titanium',
-        'techreborn:industrial_grinder/certus_quartz_ore'
+        'techreborn:industrial_grinder/certus_quartz_ore',
+        'modern_industrialization:materials/electrolyzer/uu_matter',
 
     ];
 
