@@ -40,9 +40,24 @@
       "text": ""
     },
     "description": [
-      "# Bank 3",
+      "---",
       "<br/>",
-      "The Bank 3, made by taking your previous one and surrounding it by 9 blocks of gold, about 173880 kilograms worth. This brings your total storage to 36 different slots with each slot holding up to 16384 items in each."
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "<br/>",
+      "## Bank 4",
+      "</column>",
+      "<column>",
+      "<item id=\"bankstorage:bank_4\" scale=\"4\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   The Bank 4, made by taking your previous one and surrounding it by 9 blocks of gold (~173,880 kg).",
+      "<br/>",
+      "  This brings your total storage to 36 different slots with each slot holding up to 16,384 items in each.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Iron Chest",
+      "---",
       "<br/>",
-      "Time for your second upgrade! This one brings the grand total of slots up to 56! That's a lot of items and we're not even half way to the final tier!"
+      "<columns>",
+      "<column>",
+      "## &&7Iron&&r Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:iron_chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   Time for your second upgrade! This one brings the grand total of slots up to 56! That's a lot of items and we're not even half way to the final tier!",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

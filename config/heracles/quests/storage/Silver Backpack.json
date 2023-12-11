@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Copper Backpack"
+    "Golden Backpack"
   ],
   "tasks": {
-    "pu_iron": {
+    "AgPackTask": {
       "type": "heracles:item",
-      "item": "packedup:ironbackpack",
+      "item": "packedup:silverbackpack",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "pu_iron_reward": {
+    "Reward4AgPack": {
       "title": "",
       "icon": {
         "item": {
@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_ingot",
+        "id": "modern_industrialization:silver_ingot",
         "count": 7
       },
       "type": "heracles:item"
@@ -46,14 +46,14 @@
       "<carousel-item>",
       "<columns template=\"50% 20% 30%\">",
       "  <column>",
-      "## Iron Backpack",
+      "## Silver Backpack",
       "  </column>",
       "  <column>",
       "<item id=\"packedup:ironbackpack\" scale=\"2\"> </item>",
       "  </column>",
       "  <column>",
       "<br/>",
-      "# &&7Fe&&r",
+      "# &&8Ag&&r",
       "  </column>",
       "</columns>",
       "<br/>",
@@ -61,50 +61,48 @@
       "<carousel-item>",
       "<columns template=\"50% 20% 30%\">",
       "  <column>",
-      "## Copper Backpack",
+      "## Gold Backpack",
       "  </column>",
       "  <column>",
       "<item id=\"packedup:copperbackpack\" scale=\"2\"> </item>",
       "  </column>",
       "  <column>",
       "<br/>",
-      "# &&6Cu&&r",
+      "# &&eAu&&r",
       "  </column>",
       "</columns>",
       "<br/>",
       "</carousel-item>",
       "</carousel>",
-      "   --Let's get metal.--",
+      "  --Well, isn't that precious?--",
       "<br/>",
-      "   You're making some progress now. You're experienced. You've been --mining--, baby!--*--",
+      "  Iron and copper are functional, yet... pedestrian.",
       "<br/>",
-      "   It's time to put some of your hard-earned, ore-iginal gains to practical use. &&7Iron&&r or &&6copper&&r fortify that flimsy plain backpack into something stronger and more capacious.",
+      "  And you?... you are no newb. Not any more. You're moving up in the world. It's time to treat yourself to just a bit of bling.",
       "<br/>",
-      "   &&7Iron&&r and &&6copper&&r backpacks both provide 36 slots of storage... 33% more than your personal inventory.--**--",
+      "  &&8Silver&&r and &&egold&&r backpacks both provide 45 slots of storage... 66% more than your personal inventory.--*--",
       "<br/>",
       "---",
-      "--*maybe--",
-      "<br/>",
-      "--**hotbar excluded--"
+      "--*Yes, again, excluding the hotbar.--"
     ],
     "groups": {
       "Storage": {
         "position": [
           -80,
-          -140
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "packedup:ironbackpack",
+        "id": "packedup:silverbackpack",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Iron Backpack"
+      "translate": "Silver Backpack"
     }
   },
   "settings": {
