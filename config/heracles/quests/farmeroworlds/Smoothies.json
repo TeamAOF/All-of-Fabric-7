@@ -1,0 +1,112 @@
+{
+  "dependencies": [
+    "Croptopia1"
+  ],
+  "tasks": {
+    "cs": {
+      "type": "heracles:item",
+      "item": "croptopia:banana_smoothie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cs1": {
+      "type": "heracles:item",
+      "item": "croptopia:kale_smoothie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cs0": {
+      "type": "heracles:item",
+      "item": "croptopia:strawberry_smoothie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cm": {
+      "type": "heracles:item",
+      "item": "croptopia:chocolate_milkshake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cs2": {
+      "type": "heracles:item",
+      "item": "croptopia:fruit_smoothie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/9/Smoothies/9/ and /4/milkshakes/4/ are refreshing summer drinks, they are like juices but require more ingredients and in return they are more nourishing"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -100,
+          250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:strawberry_smoothie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smoothies and Milkshakes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "dependencies": [
+    "Grapes"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These grapes can be found in jungles and it's subvariants",
+      " ",
+      " ",
+      "They can be planted on any wall or on a lattice for extra grapes and growth speed, the lattice must be on a wall"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          300,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:jungle_grapes_red",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Jungle Grapes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

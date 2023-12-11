@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "Utilities"
+  ],
+  "tasks": {
+    "vwb": {
+      "type": "heracles:item",
+      "item": "vinery:vinemaker_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vsh": {
+      "type": "heracles:item",
+      "item": "vinery:straw_hat",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vwl": {
+      "type": "heracles:item",
+      "item": "vinery:vinemaker_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vwc": {
+      "type": "heracles:item",
+      "item": "vinery:vinemaker_apron",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The winemaker armor allows to use bonemeal without consuming it at the cost of ocassionaly losing armor durability"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          200,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:vinemaker_leggings",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Winemaker Armor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
