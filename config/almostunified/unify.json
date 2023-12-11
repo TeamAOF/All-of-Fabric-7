@@ -132,7 +132,14 @@
   "farmersdelight:cabbage",
   "minecraft:waxed_copper_block",
   "minecraft:raw_copper",
-  "spectrum:topaz_shard"
+  "spectrum:topaz_shard",
+  "spectrum:blackslag_coal_ore",
+  "spectrum:blackslag_copper_ore",
+  "spectrum:blackslag_iron_ore",
+  "spectrum:blackslag_gold_ore",
+  "spectrum:blackslag_lapis_ore",
+  "spectrum:blackslag_diamond_ore",
+  "spectrum:blackslag_emerald_ore"
 ],
 
   "ignoredRecipeTypes": [
