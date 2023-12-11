@@ -107,7 +107,13 @@
       "clean_blacklist": [
         "minecraft:glazed_terracotta",
         "botania:mystical_flower"
-      ]
+      ],
+      "special_blocks": {
+        "#alexscaves:cave_paintings": "alexscaves:smooth_limestone",
+        "quark:dirty_glass": "minecraft:glass",
+        "minecraft:sticky_piston": "minecraft:piston",
+        "quark:dirty_glass_pane": "minecraft:glass_pane"
+      }
     },
     "present": {
       "enabled": true,

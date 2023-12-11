@@ -1,3 +1,37 @@
+### All of Fabric 7 | v1.0.2
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.2.md)_
+
+### Changes/Improvements ⚙️
+
+* Removed Everlasting & Eternal Beef drop from cows.
+* Added nearly every modded ore to Botania Orechid (Gronglegrowth)
+* Added descriptions and better formatting to Storage quest chapter (SubordinalBlue)
+* Added North America server to server list.
+* Formatted chat text to look a bit better.
+* Added Teleport Home button to Inventory UI.
+* Removed MI guidebook on first join.
+* Removed Zenith guidebook on first join.
+* Apple Skin food values no longer shows in tooltips (Would overlap with Legendary Tooltips).
+* Enabled small nether dungeons to spawn.
+* Quest Book is now given on first join.
+* Allow gravestones, waystones, enchantment tables, anvils & loot chests to be interacted with in claims.
+* Remove duplicate UU matter recipe.
+
+**Simply Swords ⚔️**
+
+* Runic Tablet chance in loot chests has been changed (2% > 1%).
+* Unique Weapons chance in loot chests has been changed (1% > 0.4%)
+
+### Bug Fixes 🐛
+
+* Blackslag variants of vanilla ores missing in recipes.
+* Packed UP backpacks not preserving NBT when upgraded.
+* Bamboo Horticulturist villager not spawning.
+* Structure set infinite loop issue that could happen with Better Jungle Temples.
+* Potential crash on server startups caused by waystones corrupted data.
+---
+
 ### All of Fabric 7 | v1.0.1
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.1.md)_
