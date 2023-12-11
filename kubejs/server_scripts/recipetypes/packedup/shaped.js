@@ -108,6 +108,11 @@ ServerEvents.recipes(event => {
   ];
 
   recipes.forEach((recipe) => {
-    event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+    event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id).modifyResult((grid, result) => {
+      let item =
+      grid.find(Item.of(recipe.key.C))
+      if(item.nbt == null) return result
+      return result.withNBT(item.nbt)
+    });
   });
 });
