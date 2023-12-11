@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Copper Barrel",
+      "---",
       "<br/>",
-      "The copper barrel is your first upgrade to the barrel tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by."
+      "<columns>",
+      "<column>",
+      "## Copper Barrel",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:copper_barrel\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "The copper barrel is your first upgrade to the barrel tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

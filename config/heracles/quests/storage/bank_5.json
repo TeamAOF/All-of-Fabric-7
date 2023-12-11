@@ -40,9 +40,22 @@
       "text": ""
     },
     "description": [
-      "# Bank 5",
+      "---",
       "<br/>",
-      "The Bank 5, made by taking your previous one and surrounding it by 9 blocks of emerald, about 24660 kilograms worth. This brings your total storage to 54 different slots with each slot holding up to 65536 items in each."
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "<br/>",
+      "## Bank 5",
+      "</column>",
+      "<column>",
+      "<item id=\"bankstorage:bank_5\" scale=\"4\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   The Bank 5, made by taking your previous one and surrounding it by 9 blocks of emerald, about 24660 kilograms worth. This brings your total storage to 54 different slots with each slot holding up to 65536 items in each.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

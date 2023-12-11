@@ -40,7 +40,27 @@
       "text": ""
     },
     "description": [
-      ""
+      "---",
+      "<br/>",
+      "<columns>",
+      "  <column>",
+      "## Basic Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:basicbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "  Your basic backpack. Light, functional, and in neutral tones that complement a diverse array of skins. What's not to love?",
+      "<br/>",
+      "   And it's cheap, too! Just five pieces of leather, two sticks, a bit of string, and a chest: BAAM! You've doubled your carrying capacity.",
+      "<br/>",
+      "   There's places to go, things to do, and stuff to ~~pinch, pilfer, and abscond with~~ collect, cherish, and oh so carefully tote about the world.",
+      "<br/>",
+      "   So off you go, you stylish rapscallion. Here's some leather—the rest of your outfit could use a little help.",
+      "<br/>",
+      "   --Oh dear. I said that last part out loud, didn't I?--",
+      "---"
     ],
     "groups": {
       "Storage": {

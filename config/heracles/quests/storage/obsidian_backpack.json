@@ -55,13 +55,39 @@
       "text": ""
     },
     "description": [
-      ""
+      "---",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "## &&5Obsidian&&r",
+      "</column>",
+      "<column>",
+      "<item id=\"packedup:obsidianbackpack\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "  --The pinnacle of packs*--",
+      "<br/>",
+      "  Born of lava and water.",
+      "<br/>",
+      "  To obtain even a single block obligates one to minor obsession--**--.",
+      "<br/>",
+      "  Congradulations! You can now carry seventy-two item stacks. --Seventy two-- stacks of booty, bulllion, belongings, and bric-a-brac. Blocks, bales, and bombs!",
+      "<br/>",
+      "  So get out there and... stay there. Don't come back.",
+      "<br/>",
+      "  For we are out of --Packed Up-- backpack upgrades.",
+      "<br/>",
+      "---",
+      "--*is it, really?--",
+      "<br/>",
+      "--**yes, we know about --Ultimine--. Shush now.--"
     ],
     "groups": {
       "Storage": {
         "position": [
           -80,
-          -60
+          20
         ]
       }
     },
