@@ -2,6 +2,11 @@
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.2.md)_
 
+### Added Mods ✅
+
+* [AOF: Emissive Ores](https://www.curseforge.com/minecraft/texture-packs/all-of-fabric-emissive-ores)
+* [EpheroLib](https://www.curseforge.com/minecraft/mc-mods/epherolib)
+
 ### Changes/Improvements ⚙️
 
 * Removed Everlasting & Eternal Beef drop from cows.
