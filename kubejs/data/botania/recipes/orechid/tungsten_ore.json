@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "modern_industrialization:tungsten_ore"
+  },
+  "weight": 1430
+}

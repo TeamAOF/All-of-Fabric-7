@@ -1,3 +1,63 @@
+### All of Fabric 7 | v1.0.2
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.2.md)_
+
+### Added Mods ✅
+
+* [AOF: Emissive Ores](https://www.curseforge.com/minecraft/texture-packs/all-of-fabric-emissive-ores)
+* [EpheroLib](https://www.curseforge.com/minecraft/mc-mods/epherolib)
+
+### Changes/Improvements ⚙️
+
+* Removed Everlasting & Eternal Beef drop from cows.
+* Added nearly every modded ore to Botania Orechid (Gronglegrowth)
+* Added descriptions and better formatting to Storage quest chapter (SubordinalBlue)
+* Added North America server to server list.
+* Formatted chat text to look a bit better.
+* Added Teleport Home button to Inventory UI.
+* Removed MI guidebook on first join.
+* Removed Zenith guidebook on first join.
+* Apple Skin food values no longer shows in tooltips (Would overlap with Legendary Tooltips).
+* Enabled small nether dungeons to spawn.
+* Quest Book is now given on first join.
+* Allow gravestones, waystones, enchantment tables, anvils & loot chests to be interacted with in claims.
+* Remove duplicate UU matter recipe.
+
+**Simply Swords ⚔️**
+
+* Runic Tablet chance in loot chests has been changed (2% > 1%).
+* Unique Weapons chance in loot chests has been changed (1% > 0.4%)
+
+### Bug Fixes 🐛
+
+* Blackslag variants of vanilla ores missing in recipes.
+* Packed UP backpacks not preserving NBT when upgraded.
+* Bamboo Horticulturist villager not spawning.
+* Structure set infinite loop issue that could happen with Better Jungle Temples.
+* Potential crash on server startups caused by waystones corrupted data.
+---
+
+### All of Fabric 7 | v1.0.1
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.1.md)_
+
+### Changes/Improvements ⚙️
+
+* Downgraded Fabric Loader to 14.25 due to issues.
+* Added quests, claim map, and party chat buttons to inventory UI (REI).
+* Spectrum recipes will now hard-require Topaz variant from Spectrum itself, used to allow any variant from other mods.
+* Increased production chance of Sapphire Ore in Electric Quarry (2% > 4%)
+* Increased production chance of Ruby Ore in Electric Quarry (2% > 4%)
+
+### Bug Fixes 🐛
+
+* Iron backpack task type being incorrect.
+* Travelers Backpack quest task type being incorrect.
+* Mine Cells dimension crashing your game.
+* Strawberries not being unified, leaving certain bakery recipes not craftable.
+* Servers not loading.
+---
+
 ### All of Fabric 7 | v1.0.0 | 🧭 Quests & Adventures Update 🪙
 
 _Fabric Loader 0.15.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.0.md)_

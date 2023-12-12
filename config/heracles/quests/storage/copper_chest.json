@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Copper Chest",
+      "---",
       "<br/>",
-      "The copper chest is your first upgrade to the chest tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by."
+      "<columns>",
+      "<column>",
+      "## &&6Copper&&r Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:copper_chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "  The copper chest is your first upgrade of the chest tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

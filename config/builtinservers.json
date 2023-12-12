@@ -5,6 +5,11 @@
       "name": "Europe Central",
       "address": "aof7.yoosk.ovh",
       "forced": false
+    },
+    {
+      "name": "North America",
+      "address": "nw.alloffabric.com",
+      "forced": false
     }
   ]
 }

@@ -1,0 +1,119 @@
+{
+  "dependencies": [
+    "Backpack"
+  ],
+  "tasks": {
+    "getCuPack": {
+      "type": "heracles:item",
+      "item": "packedup:copperbackpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "Reward4CuPack": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 7
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<br/>",
+      "<carousel>",
+      "<carousel-item>",
+      "<columns template=\"50% 20% 30%\">",
+      "  <column>",
+      "## Copper Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:copperbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<br/>",
+      "# &&6Cu&&r",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "</carousel-item>",
+      "<carousel-item>",
+      "<columns template=\"50% 20% 30%\">",
+      "  <column>",
+      "## Iron Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:ironbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<br/>",
+      "# &&7Fe&&r",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "</carousel-item>",
+      "</carousel>",
+      "   --Let's get metal.--",
+      "<br/>",
+      "   You're making some progress now. You're experienced. You've been --mining--, baby!--*--",
+      "<br/>",
+      "   It's time to put some of your hard-earned, ore-iginal gains to practical use. &&6Copper&&r or &&7iron&&r fortify that flimsy plain backpack into something stronger and more capacious.",
+      "<br/>",
+      "   &&6Copper&&r and &&7iron&&r backpacks both provide 36 slots of storage... 33% more than your personal inventory.--**--",
+      "<br/>",
+      "",
+      "<br/>",
+      "---",
+      "--*maybe--",
+      "<br/>",
+      "--**hotbar excluded--"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -80,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "packedup:copperbackpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

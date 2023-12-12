@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Obsidian Barrel",
+      "---",
       "<br/>",
-      "Now, don't be dissapointed. This upgrade doesn't --necessarily-- increase the slot count, but since you're encasing it with obsidian, you're protecting it from explosions, like those pesky creepers! It's a pretty worth while upgrade to keep your items safe."
+      "<columns>",
+      "<column>",
+      "## &&5Obsidian&&r Barrel",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:obsidian_barrel\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   Now, don't be dissapointed. This upgrade doesn't --necessarily-- increase the slot count, but since you're encasing it with obsidian, you're protecting it from explosions, like those pesky creepers! It's a pretty worth while upgrade to keep your items safe.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

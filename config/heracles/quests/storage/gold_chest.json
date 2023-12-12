@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Gold Chest",
+      "---",
       "<br/>",
-      "A whopping 66 items slots in a shiny gold chest! Now, be careful, it might blind you with how shiny this beautiful golden chest is. It may also be heavy considering the density of gold being so high; that's up to you to find out."
+      "<columns>",
+      "<column>",
+      "## &&eGold&&r Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:gold_chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   A whopping 66 items slots in a shiny gold chest! Now, be careful, it might blind you with how shiny this beautiful golden chest is. It may also be heavy considering the density of gold being so high; that's up to you to find out.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

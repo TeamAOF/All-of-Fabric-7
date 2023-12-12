@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Diamond Chest",
+      "---",
       "<br/>",
-      "Now you must be completely blind. --DIAMOND--! This is --diamond-- I say! Not only that, we're bumping it up to 72 slots total! That's a --lot--."
+      "<columns>",
+      "<column>",
+      "## &&bDiamond&&r Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:diamond_chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   Now you must be completely blind. --DIAMOND--! This is --diamond-- I say! Not only that, we're bumping it up to 72 slots total! That's a --lot--.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

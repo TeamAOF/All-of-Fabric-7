@@ -54,6 +54,7 @@
     "c:corn",
     "c:raw_bacon",
     "c:cooked_bacon",
+    "c:strawberries",
     "c:netherrack_dusts",
     "c:chromium_small_dusts",
     "c:titanium_small_dusts",
@@ -130,7 +131,15 @@
   "minecraft:copper_block",
   "farmersdelight:cabbage",
   "minecraft:waxed_copper_block",
-  "minecraft:raw_copper"
+  "minecraft:raw_copper",
+  "spectrum:topaz_shard",
+  "spectrum:blackslag_coal_ore",
+  "spectrum:blackslag_copper_ore",
+  "spectrum:blackslag_iron_ore",
+  "spectrum:blackslag_gold_ore",
+  "spectrum:blackslag_lapis_ore",
+  "spectrum:blackslag_diamond_ore",
+  "spectrum:blackslag_emerald_ore"
 ],
 
   "ignoredRecipeTypes": [

@@ -40,13 +40,56 @@
       "text": ""
     },
     "description": [
-      ""
+      "---",
+      "<br/>",
+      "<carousel>",
+      "<carousel-item>",
+      "<columns template=\"50% 20% 30%\">",
+      "  <column>",
+      "## Gold Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:copperbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<br/>",
+      "# &&eAu&&r",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "</carousel-item>",
+      "<carousel-item>",
+      "<columns template=\"50% 20% 30%\">",
+      "  <column>",
+      "## Silver Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:ironbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<br/>",
+      "# &&8Ag&&r",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "</carousel-item>",
+      "</carousel>",
+      "  --Well, isn't that precious?--",
+      "<br/>",
+      "  &&7Iron&&r and &&6copper&&r are functional, yet... pedestrian.",
+      "<br/>",
+      "  And you?... you are no newb. Not any more. You're moving up in the world. It's time to treat yourself to just a bit of bling.",
+      "<br/>",
+      "  &&eGold&&r and &&8silver&&r backpacks both provide 45 slots of storage... 66% more than your personal inventory.--*--",
+      "<br/>",
+      "---",
+      "--*Yes, again, excluding the hotbar.--"
     ],
     "groups": {
       "Storage": {
         "position": [
-          -80,
-          -140
+          -79,
+          -100
         ]
       }
     },
