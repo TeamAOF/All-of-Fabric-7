@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Netherite Chest",
+      "---",
       "<br/>",
-      "The final upgrade! 91 total slots --PLUS-- it's explosion proof? That sounds like a total steal, take my money! "
+      "<columns>",
+      "<column>",
+      "## Netherite Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:netherite_chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   The final upgrade! 91 total slots --PLUS-- it's explosion proof? That sounds like a total steal, take my money! ",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

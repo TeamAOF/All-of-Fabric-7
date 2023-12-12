@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "Grapevine Pot",
+    "Aging Barrel"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Every 16 days (384,000 ticks), your wine will gain an additional year of aging, and every five years, it will gain an additional level to its effect up to a maximum effect level of 5. You don't need to perform a special action with your wine to let it age; just leave it in your inventory, a chest, barrel, cabinet, etc."
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          330,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:cosmetic_clock_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wine ageing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

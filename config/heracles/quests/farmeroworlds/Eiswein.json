@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Wine ageing"
+  ],
+  "tasks": {
+    "ve": {
+      "type": "heracles:item",
+      "item": "vinery:eiswein",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Gives instant health"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          450,
+          -275
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:eiswein",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Eiswein"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -40,9 +40,20 @@
       "text": ""
     },
     "description": [
-      "# Gold Barrel",
+      "---",
       "<br/>",
-      "A whopping 66 items slots in a shiny gold plated barrel! Now, be careful, it might blind you with how shiny this beautiful golden plated barrel is. It may also be heavy considering the density of gold being so high; that's up to you to find out."
+      "<columns>",
+      "<column>",
+      "## &&eGold&&r Barrel",
+      "</column>",
+      "<column>",
+      "<item id=\"ironchests:gold_barrel\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "  A whopping 66 items slots in a shiny gold plated barrel! Now, be careful, it might blind you with how shiny this beautiful gold-plated barrel is. It may also be heavy considering the density of gold being so high; that's up to you to find out.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

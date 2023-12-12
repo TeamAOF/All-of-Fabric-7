@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Wine ageing"
+  ],
+  "tasks": {
+    "vmlw": {
+      "type": "heracles:item",
+      "item": "vinery:king_danis_wine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Provides a short really powerful instant health effect capable of fully healing you"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          450,
+          -245
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:king_danis_wine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Miss Lilitus Wine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

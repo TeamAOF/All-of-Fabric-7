@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Wine ageing"
+  ],
+  "tasks": {
+    "vmj": {
+      "type": "heracles:item",
+      "item": "vinery:bottle_mojang_noir",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Gives strength"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          360,
+          -275
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:bottle_mojang_noir",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Bottle of 'Mojang Noir'"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

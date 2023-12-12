@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Equipment"
+  ],
+  "tasks": {
+    "vwb": {
+      "type": "heracles:item",
+      "item": "vinery:wine_bottle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vgp": {
+      "type": "heracles:item",
+      "item": "vinery:grapevine_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The grapevine pot is used to turn grapes into grape juice, for this you right click the pot with grapes and then jump over them until they are liquid, you will also need to craft wine bottles to bottle the juice"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          315,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:grapevine_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grapevine Pot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

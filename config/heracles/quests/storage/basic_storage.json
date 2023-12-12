@@ -19,17 +19,21 @@
       "text": ""
     },
     "description": [
-      "<hr/>",
+      "---",
+      "<br/>",
       "# Basic Storage",
       "<br/>",
-      "  If you're looking to carry around more things than you'd otherwise be able to carry, you can use different methods of portable item transportation! Backpacks are the go to, some are simple that just hold items and thats it. Some others have tanks and even a crafting unit built in! You're going to look --fancy-- with one of those!",
+      "  If you're looking to carry around more things than you'd otherwise be able to carry, you can use different methods of portable item transportation.",
+      "<br/>",
+      "  Backpacks are the go-to option. --Packed Up-- backpacks simply hold items and thats it. --Traveller's-- backpacks have tanks and other features—they even a crafting unit built in! You're going to look --fancy-- with one of those!",
       "<br/>",
       "  Chests are also a pretty basic storage type. Wooden ones are going to be your base type, but plating them with different, ever increasing, tiers of resources somehow increases the storage capacity while keeping the actual chest the same size. I don't even understand how such a simple change can alter the fabric of space with such ease.",
       "<br/>",
       "  Barrels work exactly like the chests but, well, they're barrels! Sharper edges casually altering the fabric of space just by it's plating. Using either will get you to your desired storage space, just depends if it fits your building look.",
       "<br/>",
-      "  Finally, Banks are something special. When I say special I mean they're cheap initially, but hold a lot of a few items. Each tier holds an --exponentially-- greater count of items at a --linear-- rate of item types being able to be held. These can be really expensive so I don't reccomend carrying them around as a normal backpack, but it totally has it's specific use cases.",
-      "<hr/>"
+      "  Finally, Banks are something special. When I say special I mean they're cheap initially, but hold a lot of a few items. Each tier holds an --exponentially-- greater count of items at a --linearly-- greater count of possible item types. These can be really expensive so I don't recommend carrying them around as a normal backpack, but they totally have specific use cases.",
+      "<br/>",
+      "---"
     ],
     "groups": {
       "Storage": {

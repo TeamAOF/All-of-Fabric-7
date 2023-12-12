@@ -1,0 +1,129 @@
+{
+  "dependencies": [
+    "Croptopia1"
+  ],
+  "tasks": {
+    "pizza": {
+      "type": "heracles:item",
+      "item": "croptopia:pizza",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pizza4": {
+      "type": "heracles:item",
+      "item": "croptopia:cheese",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pizza3": {
+      "type": "heracles:item",
+      "item": "croptopia:anchovy_pizza",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pizza2": {
+      "type": "heracles:item",
+      "item": "croptopia:pineapple_pepperoni_pizza",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pizza1": {
+      "type": "heracles:item",
+      "item": "croptopia:cheese_pizza",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pizza0": {
+      "type": "heracles:item",
+      "item": "croptopia:supreme_pizza",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "One of the biggest parts of Italian culture and one of the most consumed foods worldwide, every country has mixed it's culture and ingredients with pizza to create new unique combinations",
+      " ",
+      " ",
+      "To cook these foods you will need cheese, if you are short on milk or find it annoying to carry so many buckets, you can transform 1 bucket of milk into 16 bottles with just 3 glass, this will allow you to cook 15 more foods with a single bucket of milk!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          125,
+          175
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:pizza",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pizzas"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

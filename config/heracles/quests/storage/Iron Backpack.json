@@ -1,19 +1,21 @@
 {
   "dependencies": [
-    "Backpack"
+    "Copper Backpack"
   ],
   "tasks": {
     "pu_iron": {
+      "type": "heracles:item",
+      "item": "packedup:ironbackpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
       "icon": {
         "item": {
-          "id": "packedup:ironbackpack",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
-      },
-      "item": "minecraft:air",
-      "title": "",
-      "type": "heracles:item_interaction"
+      }
     }
   },
   "rewards": {
@@ -38,13 +40,58 @@
       "text": ""
     },
     "description": [
-      ""
+      "---",
+      "<br/>",
+      "<carousel>",
+      "<carousel-item>",
+      "<columns template=\"50% 20% 30%\">",
+      "  <column>",
+      "## Iron Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:ironbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<br/>",
+      "# &&7Fe&&r",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "</carousel-item>",
+      "<carousel-item>",
+      "<columns template=\"50% 20% 30%\">",
+      "  <column>",
+      "## Copper Backpack",
+      "  </column>",
+      "  <column>",
+      "<item id=\"packedup:copperbackpack\" scale=\"2\"> </item>",
+      "  </column>",
+      "  <column>",
+      "<br/>",
+      "# &&6Cu&&r",
+      "  </column>",
+      "</columns>",
+      "<br/>",
+      "</carousel-item>",
+      "</carousel>",
+      "   --Let's get metal.--",
+      "<br/>",
+      "   You're making some progress now. You're experienced. You've been --mining--, baby!--*--",
+      "<br/>",
+      "   It's time to put some of your hard-earned, ore-iginal gains to practical use. &&7Iron&&r or &&6copper&&r fortify that flimsy plain backpack into something stronger and more capacious.",
+      "<br/>",
+      "   &&7Iron&&r and &&6copper&&r backpacks both provide 36 slots of storage... 33% more than your personal inventory.--**--",
+      "<br/>",
+      "---",
+      "--*maybe--",
+      "<br/>",
+      "--**hotbar excluded--"
     ],
     "groups": {
       "Storage": {
         "position": [
           -80,
-          -180
+          -140
         ]
       }
     },

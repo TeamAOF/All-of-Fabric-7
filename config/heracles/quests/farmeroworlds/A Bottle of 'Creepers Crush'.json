@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "Wine ageing"
+  ],
+  "tasks": {
+    "vcc": {
+      "type": "heracles:item",
+      "item": "vinery:creepers_crush",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It does what you cam expect, it makes you blow up like a supercharged creeper, the explosion can be survived with enough armor",
+      " ",
+      " ",
+      "(By signing this you are accepting responsability over all damages to yourself, to others and to any property)"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          330,
+          -275
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:creepers_crush",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Bottle of 'Creepers Crush'"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

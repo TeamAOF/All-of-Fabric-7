@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "Grapes"
+  ],
+  "tasks": {
+    "rg": {
+      "type": "heracles:item",
+      "item": "vinery:red_grape",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These grapes can be found in meadows, plains and sunflower plains",
+      " ",
+      " ",
+      "They can be planted anywhere or on a stem for extra grapes and growth speed",
+      " ",
+      " ",
+      "These grapes can also be bought in the market"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          300,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:red_grape",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Grapes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

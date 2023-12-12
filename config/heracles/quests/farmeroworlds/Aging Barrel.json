@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Equipment"
+  ],
+  "tasks": {
+    "vab": {
+      "type": "heracles:item",
+      "item": "vinery:fermentation_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The aging barrel is where wines are made, here you put grape juice, ingredients and a wine bottle to get a wine"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          350,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:fermentation_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Aging Barrel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
