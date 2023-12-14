@@ -90,6 +90,9 @@ ServerEvents.tags('item', event => {
     event.add("c:plates", "modern_industrialization:gold_plate")
     event.add("c:plates", "modern_industrialization:copper_plate")
 
+    // Create Deco
+    event.add("c:netherite_nuggets", 'createdeco:netherite_nugget')
+
 
     // Gems
     event.add("c:rubies", "mythicupgrades:ruby")
