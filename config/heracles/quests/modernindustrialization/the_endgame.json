@@ -63,7 +63,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "the_endgame"
+      "translate": "The Endgame"
     }
   },
   "settings": {
