@@ -83,6 +83,11 @@ ServerEvents.recipes((event) => {
         'modern_industrialization:quarry/titanium',
         'techreborn:industrial_grinder/certus_quartz_ore',
         'modern_industrialization:materials/electrolyzer/uu_matter',
+        'indrev:smelting/tungsten_ingot_from_ore',
+        'indrev:smelting/tungsten_ingot_from_smelting',
+        'indrev:blasting/tungsten_ingot_from_smelting',
+        'indrev:blasting/tungsten_ingot_from_raw_ores',
+        'indrev:blasting/tungsten_ingot_from_ore'
 
     ];
 
