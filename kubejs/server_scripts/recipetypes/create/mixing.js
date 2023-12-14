@@ -2,7 +2,6 @@ ServerEvents.recipes(event => {
 
     // Tree Fertilizer
 
-    /*
     event.custom({
         "type": "create:mixing",
         "ingredients": [
@@ -52,8 +51,8 @@ ServerEvents.recipes(event => {
             },
         ],
     })
-    */
 
+    /*
     // Glue
     event.custom({
         "type": "create:mixing",
@@ -82,4 +81,5 @@ ServerEvents.recipes(event => {
             },
         ],
     })
+    */
 })

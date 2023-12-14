@@ -3,7 +3,7 @@
     "the_electric_age"
   ],
   "tasks": {
-    "conveyer_belt_task": {
+    "conveyor_belt_task": {
       "type": "heracles:item",
       "item": "modern_industrialization:conveyor",
       "amount": 1,
@@ -16,7 +16,7 @@
     }
   },
   "rewards": {
-    "conveyer_belt_reward": {
+    "conveyor_belt_reward": {
       "title": "",
       "icon": {
         "item": "minecraft:air",
@@ -37,7 +37,7 @@
       "<hr/>",
       "# Conveyor Belts",
       "<br/>",
-      "  All aboard the item express! Conveyer belts are used to move items around within your machines. They use motors to turn and rubber sheets as a platform to move. You should automate these.",
+      "  All aboard the item express! Conveyor belts are used to move items around within your machines. They use motors to turn and rubber sheets as a platform to move. You should automate these.",
       "<hr/>"
     ],
     "groups": {
@@ -54,7 +54,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Conveyer Belts"
+      "translate": "Conveyor Belts"
     }
   },
   "settings": {
