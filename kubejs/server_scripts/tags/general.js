@@ -77,7 +77,7 @@ ServerEvents.tags('block', event => {
     'geode_plus:budding_prismarine',
     'geode_plus:budding_lapis',
     'geode_plus:budding_deepslate_lapis',
-    'geode_plus:budding_sculk_lapis,
+    'geode_plus:budding_sculk_lapis',
     'geode_plus:budding_redstone',
     'geode_plus:budding_deepslate_redstone',
     'geode_plus:budding_sculk_redstone',
