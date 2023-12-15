@@ -102,6 +102,10 @@ ServerEvents.tags('block', event => {
     'geode_plus:budding_wrappist',
     'geode_plus:budding_echo',
     'wardentools:budding_sculkhyst',
+    'ae2:flawless_budding_quartz',
+    'ae2:flawed_budding_quartz',
+    'ae2:chipped_budding_quartz',
+    'ae2:damaged_budding_quartz'
   ];
 
   budding_blocks.forEach((block) => {
