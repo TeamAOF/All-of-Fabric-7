@@ -88,7 +88,8 @@ ServerEvents.recipes((event) => {
         'indrev:blasting/tungsten_ingot_from_smelting',
         'indrev:blasting/tungsten_ingot_from_raw_ores',
         'indrev:blasting/tungsten_ingot_from_ore',
-        'ad_astra:recipes/iron_rod'
+        'ad_astra:recipes/iron_rod',
+        'regions_unexplored:raw_redstone_block'
 
     ];
 
