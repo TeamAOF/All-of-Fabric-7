@@ -93,7 +93,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "plasma_turbine"
+      "translate": "Plasma Turbine"
     }
   },
   "settings": {
