@@ -67,15 +67,45 @@ ServerEvents.tags('block', event => {
 
   // AE2 growth accelerator support for additional budding blocks
   const budding_blocks = [
-    'byg:budding_ametrine_ore',
-    'byg:budding_subzero_crystal',
-    'byg:budding_therium_crystal',
     'spectrum:budding_topaz',
     'spectrum:budding_citrine',
-    'spectrum:budding_onyx'
+    'spectrum:budding_onyx',
+    'spectrum:budding_moonstone',
+    'biomemakeover:budding_illunite',
+    'geode_plus:budding_pink_topaz',
+    'geode_plus:budding_celestite',
+    'geode_plus:budding_prismarine',
+    'geode_plus:budding_lapis',
+    'geode_plus:budding_deepslate_lapis',
+    'geode_plus:budding_sculk_lapis,
+    'geode_plus:budding_redstone',
+    'geode_plus:budding_deepslate_redstone',
+    'geode_plus:budding_sculk_redstone',
+    'geode_plus:budding_emerald',
+    'geode_plus:budding_deepslate_emerald',
+    'geode_plus:budding_sculk_emerald',
+    'geode_plus:budding_diamond',
+    'geode_plus:budding_deepslate_diamond',
+    'geode_plus:budding_sculk_diamond',
+    'geode_plus:budding_nether_quartz',
+    'geode_plus:budding_basalt_quartz',
+    'geode_plus:budding_blackstone_quartz',
+    'geode_plus:budding_nether_gold_nugget',
+    'geode_plus:budding_basalt_gold_nugget',
+    'geode_plus:budding_blackstone_gold_nugget',
+    'geode_plus:budding_nether_glowstone',
+    'geode_plus:budding_basalt_glowstone',
+    'geode_plus:budding_blackstone_glowstone',
+    'geode_plus:budding_nether_ancient_debris',
+    'geode_plus:budding_basalt_ancient_debris',
+    'geode_plus:budding_blackstone_ancient_debris',
+    'geode_plus:budding_wrappist',
+    'geode_plus:budding_echo',
+    'wardentools:budding_sculkhyst',
   ];
 
   budding_blocks.forEach((block) => {
-    event.add('c:budding_blocks', block)
+    event.add('c:budding_blocks', block),
+    event.add('coxinhautilities:unboxable', block)
   });
 });
