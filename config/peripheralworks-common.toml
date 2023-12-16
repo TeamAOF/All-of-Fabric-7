@@ -1,0 +1,131 @@
+[base]
+	#Determinates treshold for cooldown to be stored
+	#Range: > 0
+	cooldownTreshholdLevel = 100
+[plugins]
+	[plugins.Peripherals]
+		#Enables peripheralium hubs (regular one and netherite versions), which allows you to use many peripherals in one
+		enablePeripheraliumHubs = true
+		#Enables recipe registry
+		enableRecipeRegistry = true
+		#Enables statue workbench
+		enableStatueWorkbench = true
+		#Enables informative registry
+		enableInformativeRegistry = true
+		#Regulare amount of upgrades that can be installed on peripheralium hub
+		#Range: 1 ~ 64
+		peripheraliumHubUpgradeCount = 3
+		#Enables ultimate sensor
+		enableUltimateSensor = true
+		#Regulare amount of upgrades that can be installed on netherite peripheralium hub
+		#Range: 1 ~ 64
+		netheritePeripheraliumHubUpgradeCount = 7
+		#Max capacity for remote observer
+		#Range: 1 ~ 128
+		remoteObserverMaxCapacity = 8
+		#Enables item pedestal nbt reading
+		enableItemPedestal = true
+		#Max range for peripheral proxy
+		#Range: 1 ~ 128
+		peripheralProxyMaxRange = 16
+		#Enables universal scanner
+		enableUniversalScanner = true
+		#Reality forger max range for forging
+		#Range: 1 ~ 256
+		realityForgerMaxRange = 24
+		#Enables remote observer
+		enableRemoteObserver = true
+		#Enable reality forger
+		enableRealityForger = true
+		#Max quads amount for flexible statue, will be applied only for newest ones
+		#Range: > 64
+		flexibleStatueMaxQuads = 256
+		#Enables display pedestal
+		enableDisplayPedestal = true
+		#Enables entity link
+		enableEntityLink = true
+		#Max range for remote observer
+		#Range: 1 ~ 128
+		remoteObserverMaxRange = 16
+		#Enables map pedestal, for detail map information reading
+		enableMapPedestal = true
+		#Max capacity for peripheral proxy
+		#Range: 1 ~ 128
+		peripheralProxyMaxCapacity = 8
+	[plugins.specific]
+		#Enables integration for minecraft powered rail
+		enablePoweredRail = true
+		#Enables integration for minecraft beacon
+		enableBeacon = true
+		#Enables integration for minecraft lectern
+		enableLectern = true
+		#Enables integration for minecraft jukebox
+		enableJukebox = true
+		#Enables integration for minecraft note block
+		enableNoteBlock = true
+	[plugins.generic]
+		#Limits max fluid transfer per one operation
+		#Range: > 1
+		fluidStorageTransferLimit = 5305500
+		#Enables generic integration for inventory types of block entities
+		enableGenericInventory = true
+		#Limits max item transfer per one operation
+		#Range: > 1
+		itemStorageTransferLimit = 128
+		#Enables generic integration for item storages, that are not covered by inventory integration
+		enableGenericItemStorage = true
+		#Enables generic integration for fluid storages
+		enableGenericFluidStorage = true
+		#Enables generic integration for energy storages
+		enableGenericEnergyStorage = true
+[operations]
+	#Range: > 1
+	portableUniversalScanMaxCostRadius = 16
+	#Range: > 1000
+	stationaryUniversalScanCooldown = 1000
+	#Range: > 1
+	stationaryUniversalScanMaxFreeRadius = 24
+	#Range: > 1000
+	portableUniversalScanCooldown = 1000
+	#Range: > 1
+	portableUniversalScanMaxFreeRadius = 8
+	#Range: 0.1 ~ 1.7976931348623157E308
+	portableUniversalScanExtraBlockCost = 0.17
+	#Range: 0.1 ~ 1.7976931348623157E308
+	stationaryUniversalScanExtraBlockCost = 0.1
+	#Range: > 1000
+	inspectChunkCooldown = 10000
+	#Range: > 1000
+	updateMapCooldown = 60000
+	#Range: > 1000
+	extractMapCooldown = 10000
+	#Range: > 1
+	stationaryUniversalScanMaxCostRadius = 24
+[integrations]
+	[integrations.powah]
+		#Enables reactor integration
+		enableReactor = true
+		#Enables generators integration
+		enableGenerator = true
+		#Enabled energy integration
+		enableEnergy = true
+		#Enables redstone control integration
+		enableRedstoneControl = true
+		#Enables ender cell integration
+		enableEnderCell = true
+	[integrations.team_reborn_energy]
+		#Enables energy storage integration
+		enableEnergyStorage = true
+		#Controls how many energy required for one fuel point
+		#Range: > 1
+		energyToFuelRate = 50
+		#Enables turtle refueling with items with energy
+		enableTurtleRefuelWithEnergy = true
+	[integrations.additionallanterns]
+		#Enables lanterns integration
+		enableLanterns = true
+	[integrations.naturescompass]
+		#Enables usage of natures compass as pocket upgrade
+		enableNaturesCompassPocketUpgrade = true
+		#Enables usage of natures compass as turtle upgrade
+		enableNaturesCompassTurtleUpgrade = true
