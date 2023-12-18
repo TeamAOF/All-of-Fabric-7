@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "An Introduction"
+    "Tiki Bar"
   ],
   "tasks": {
-    "ld": {
+    "bpmc": {
+      "type": "heracles:item",
+      "item": "beachparty:melon_cocktail",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,7 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {},
@@ -21,29 +24,26 @@
       "text": ""
     },
     "description": [
-      "The/c/ Let's Do/c/ family of mods is a collection of mods centered around a specific thematic, they have unique ways of \"cooking\", special decorations, mobs and much more!"
+      "This drink gives 45 seconds of luck"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          0,
-          -190
+          130,
+          -170
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:straw_hat",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "beachparty:melon_cocktail",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Let's Do Mods"
+      "translate": "Melon Cocktail"
     }
   },
   "settings": {

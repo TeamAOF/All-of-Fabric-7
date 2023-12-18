@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "An Introduction"
+    "Beachparty"
   ],
   "tasks": {
-    "ld": {
+    "bpr": {
+      "type": "heracles:item",
+      "item": "beachparty:radio",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,7 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {},
@@ -21,29 +24,26 @@
       "text": ""
     },
     "description": [
-      "The/c/ Let's Do/c/ family of mods is a collection of mods centered around a specific thematic, they have unique ways of \"cooking\", special decorations, mobs and much more!"
+      "The radio will play cozy beach themed tunes, it can be turned on and off with right click and you can switch the music with the scrollwheel"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          0,
-          -190
+          -50,
+          -290
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:straw_hat",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "beachparty:radio",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Let's Do Mods"
+      "translate": "Radio"
     }
   },
   "settings": {

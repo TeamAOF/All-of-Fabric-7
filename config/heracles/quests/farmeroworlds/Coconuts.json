@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "An Introduction"
+    "Beachparty"
   ],
   "tasks": {
-    "ld": {
+    "bpc": {
+      "type": "heracles:item",
+      "item": "beachparty:coconut",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,21 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
+    },
+    "bpoc": {
+      "type": "heracles:item",
+      "item": "beachparty:coconut_open",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -21,29 +38,26 @@
       "text": ""
     },
     "description": [
-      "The/c/ Let's Do/c/ family of mods is a collection of mods centered around a specific thematic, they have unique ways of \"cooking\", special decorations, mobs and much more!"
+      "Coconuts grow from palm trees, to open them for your recipes you will have to throw a coconut against a wall, floor or even a friend"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          0,
-          -190
+          20,
+          -240
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:straw_hat",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "beachparty:coconut",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Let's Do Mods"
+      "translate": "Coconuts"
     }
   },
   "settings": {

@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "An Introduction"
+    "Beachparty"
   ],
   "tasks": {
-    "ld": {
+    "bppm": {
+      "type": "heracles:item",
+      "item": "beachparty:raw_pelican",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,21 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
+    },
+    "bpcpm": {
+      "type": "heracles:item",
+      "item": "beachparty:cooked_pelican",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -21,29 +38,26 @@
       "text": ""
     },
     "description": [
-      "The/c/ Let's Do/c/ family of mods is a collection of mods centered around a specific thematic, they have unique ways of \"cooking\", special decorations, mobs and much more!"
+      "Pelicans can be found on beaches, they can be bred with fish and will drop feathers and meat when killed"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          0,
-          -190
+          20,
+          -340
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:straw_hat",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "beachparty:pelican_spawn_egg",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Let's Do Mods"
+      "translate": "Pelicans"
     }
   },
   "settings": {
