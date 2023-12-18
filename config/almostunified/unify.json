@@ -16,7 +16,8 @@
     "hauntedharvest",
     "vinery",
     "tinycoal",
-    "bakery"
+    "bakery",
+    "createdeco"
   ],
   "stoneStrata": [
     "stone",
@@ -96,6 +97,7 @@
     "brass",
     "zinc",
     "amethyst",
+    "netherite",
     "zinc",
     "uranium",
     "tomato",

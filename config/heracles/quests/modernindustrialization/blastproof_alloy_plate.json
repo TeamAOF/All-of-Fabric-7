@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "titanium",
-    "raw_iridium"
+    "titanium"
   ],
   "tasks": {
     "blastproof_alloy_plate_task": {

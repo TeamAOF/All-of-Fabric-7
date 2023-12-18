@@ -1,3 +1,49 @@
+### All of Fabric 7 | v1.1.0 | Holidays Update 🎅
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.1.0.md)_
+
+### Added Mods ✅
+
+  * [Ducky Periphs](https://www.curseforge.com/minecraft/mc-mods/ducky-periphs)
+  * [Peripheralium](https://www.curseforge.com/minecraft/mc-mods/peripheralium)
+  * [Server Country Flags](https://www.curseforge.com/minecraft/mc-mods/server-country-flags)
+  * [UnlimitedPeripheralWorks](https://www.curseforge.com/minecraft/mc-mods/unlimitedperipheralworks)
+  * [Winterly](https://www.curseforge.com/minecraft/mc-mods/winterly)
+
+### Removed Mods ❌
+
+  * [Ecospherical Expansion](https://www.curseforge.com/minecraft/mc-mods/ecospherical-expansion) (Issues with world gen, didnt spawn correctly)
+
+### Changes/Improvements ⚙️
+
+* Touch-ups of ALL indrev machine textures (thanks rightus).
+* Added Tree Fertilizer recipe through Create Mixing.
+* Piercing Paxels changed to take use of pickaxe affixes instead of sword.
+* Removed smelting of tungsten in normal furnaces.
+* Umbrella artifact will now take use of shield affixes.
+* Added recipe for Putrid Wood.
+* Removed Obsidian Hammer.
+* Unified iron rods between MI & Ad Astra.
+* Removed shaped iron rod recipe.
+* Added spectrum ores to powder recipes through MI macerator.
+* Added MI packer recipes for Zinc, Desh, Ostrum, Calorite, Manasteel, Terrasteel, Elementium, Netherite Scrap, Industrial Iron, Diamond, Emerald, Hot Tungstensteel, Netherite, Refined Iron, Tungstensteel.
+* Changed all building wands recipes.
+* Removed simply swords book on first join.
+* Disabled wheel tweak feature by default due to issues with AE2 terminals (re-enable in the Mouse Tweaks config if you choose to).
+* Added unboxable tag to all budding blocks.
+
+### Bug Fixes 🐛
+
+* Quest typo fixes.
+* Enchanted Golden Apple shaped recipe being broken.
+* Vial of Expulsion recipe being broken.
+* Vial of Extraction recipe being broken.
+* Hellshelf, Seashelf & Sightshelf recipes being broken.
+* In-World Transformation of Sky Steel Ingots in lava deleting the items.
+* Dupe glitch with raw redstone block.
+* Portable mass quest having no task.
+---
+
 ### All of Fabric 7 | v1.0.2
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.0.2.md)_

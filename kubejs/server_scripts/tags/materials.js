@@ -64,6 +64,7 @@ ServerEvents.tags('item', event => {
     event.add("c:gold_rods", "modern_industrialization:gold_rod")
     event.add("c:rods/gold", "modern_industrialization:gold_rod")
     event.add("c:rods/iron", "modern_industrialization:iron_rod")
+    event.add("c:iron_rods", "modern_industrialization:iron_rod")
     event.add("c:dusts/diamond", "modern_industrialization:diamond_dust")
 
     event.add("c:chromium_small_dusts", "modern_industrialization:chromium_tiny_dust")
@@ -88,6 +89,9 @@ ServerEvents.tags('item', event => {
     event.add("c:plates", "modern_industrialization:iron_plate")
     event.add("c:plates", "modern_industrialization:gold_plate")
     event.add("c:plates", "modern_industrialization:copper_plate")
+
+    // Create Deco
+    event.add("c:netherite_nuggets", 'createdeco:netherite_nugget')
 
 
     // Gems
