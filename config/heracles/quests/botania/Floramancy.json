@@ -53,7 +53,7 @@
       "text": ""
     },
     "description": [
-      "  The art of botany holds power in this world, owing to a special breed of flower coming in sixteen colors whose petals are tuned to the mystic energy sleeping in the earth. With them, an experienced botanist can reshape that energy into new flowers and devices to aid them in a myriad of tasks, from the production of resources to special tools and equipment.",
+      "  The art of botany holds power in this world, owing to a special breed of **flower coming in sixteen colors** whose petals are tuned to the mystic energy sleeping in the earth. With them, an experienced botanist can reshape that energy into new flowers and devices to aid them in a myriad of tasks, from the **production of resources** to **special tools and equipment**.",
       "",
       "<columns>",
       "    <column>",
@@ -67,9 +67,9 @@
       "    </column>",
       "</columns>",
       "",
-      "  To begin on this floral path, you'll need to find some of these flowers. They occur in patches randomly around the world, in grassy areas.",
+      "  To begin on this floral path, you'll need to find some of these flowers. They occur in patches **randomly around the world**, in grassy areas.",
       "",
-      "  Exploration isn't the only way to obtain these flowers, if you prefer: a special floral fertilizer can be made from bone meal and dye, and will grow some mystical flowers when used on soil."
+      "  Exploration isn't the only way to obtain these flowers, if you prefer: a special **floral fertilizer** can be made from bone meal and dye, and will **grow some mystical flowers** when used on soil."
     ],
     "groups": {
       "Botania": {

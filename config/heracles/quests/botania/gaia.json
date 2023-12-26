@@ -24,11 +24,11 @@
       "text": ""
     },
     "description": [
-      "  Botanists near the end of their journey go through a trial with an avatar of the earth known as the Guardian of Gaia. This trial rewards them with a material so in tune with the world that items crafted with it are truly exceptional.",
+      "  Botanists near the end of their journey go through a trial with an avatar of the earth known as the **Guardian of Gaia**. This trial rewards them with a material so in tune with the world that items crafted with it are truly exceptional.",
       "",
       "<item id=\"botania:life_essence\" scale=\"2\"> </item>",
       "",
-      "  This trial is not easy, though. The Guardian of Gaia is a tough foe, so you'll need to prepare well.",
+      "  This trial is not easy, though. The Guardian of Gaia is a tough foe, so you'll need to **prepare well**.",
       "",
       "  The ritual for summoning this guardian is detailed in your Lexica."
     ],

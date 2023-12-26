@@ -80,7 +80,7 @@
       "    </column>",
       "</columns>",
       "",
-      "  The Daisy can affect the eight blocks directly next to it with its purifying essence. The process usually takes a minute. It can, however, be quickened by using overgrowth seeds to enchant the soil it is planted upon... assuming you have found such an elusive thing. Otherwise, you may want to make more than one."
+      "  The Daisy can affect the **eight blocks directly next to it** with its purifying essence. The process usually takes **a minute**. It can, however, be quickened by using **overgrowth seeds** to enchant the soil it is planted upon... assuming you have found such an elusive thing. Otherwise, you may want to make more than one."
     ],
     "groups": {
       "Botania": {

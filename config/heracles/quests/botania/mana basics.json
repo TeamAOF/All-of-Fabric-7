@@ -82,9 +82,9 @@
       "text": ""
     },
     "description": [
-      "  With the base resources secured, you can begin working with Mana, the natural energy of the earth these flowers are so tied to.",
+      "  With the base resources secured, you can begin working with **Mana**, the natural energy of the earth these flowers are so tied to.",
       "",
-      "  From Livingrock, you can carve a pool to store mana, and from Livingwood, an apparatus to spread it from place to place. Together, these form the basics of mana-related infrastructure. You'll, of course, also need a wand to bind the things together.",
+      "  From Livingrock, you can carve **a pool to store mana**, and from Livingwood, **an apparatus to spread it from place to place**. Together, these form the basics of mana-related infrastructure. You'll, of course, also need **a wand to bind the things together**.",
       "",
       "<columns template=\"30% 30% 50%\">",
       "    <column>",
@@ -98,13 +98,13 @@
       "    </column>",
       "</columns>",
       "",
-      "  But, storing and transferring mana is rather pointless without a way of obtaining that mana. To that end, you must again turn to the petal apothecary, and make one of two generating flora: Endoflames or Hydroangeas.",
+      "  But, storing and transferring mana is rather pointless without a way of obtaining that mana. To that end, you must again turn to the petal apothecary, and make one of two **generating flora**: Endoflames or Hydroangeas.",
       "",
-      "  The Hydroangeas is fairly straightforward. It drinks water blocks to produce mana. However, its simplicity also means it is very fragile. It decays within three days of being placed, leaving naught but a dead bush behind.",
+      "  The Hydroangeas is fairly straightforward. It drinks **water blocks** to produce mana. However, its simplicity also means it is **very fragile**. It decays within three days of being placed, leaving naught but a dead bush behind.",
       "",
       "<item id=\"botania:hydroangeas\" scale=\"2\"> </item>",
       "",
-      "  The Endoflame, on the other hand, is slightly more involved, but never decays. When a piece of fuel (anything that can heat a furnace) is dropped near it, the flower will burn that fuel, generating mana in the process. It can only handle fuels with a burn time of at most a block of coal coke; any more, and you're being inefficient and wasteful.",
+      "  The Endoflame, on the other hand, is slightly more involved, but never decays. When a piece of fuel (anything that can heat a furnace) is dropped near it, the flower will **burn that fuel**, generating mana in the process. It can only handle fuels with a burn time of **at most a block of coal coke**; any more, and you're being inefficient and wasteful.",
       "",
       "<item id=\"botania:endoflame\" scale=\"2\"> </item>"
     ],

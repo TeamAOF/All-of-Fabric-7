@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "botanical brewery": {
+      "type": "heracles:item",
+      "item": "botania:brewery",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a Brewery",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "managlass vials": {
+      "title": "Receive special bottles for your brews",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:vial",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Potions are all well and good, but magic tends to find ways to enhance them. Such is true with botany, as well.",
+      "",
+      "  The Botanical Brewery is a special apparatus carved from livingrock and charged with mana-conductive materials. It can produce **brews** that have **multiple doses** in one bottle, and in addition to that they are **faster to drink**. You may find them quite useful.",
+      "",
+      "  There are, additionally, a set of **complex brews**, with effects that only a botanist can produce. The brew of **Vanity's Emptiness**, for example, will prevent the night's monsters from coming into being around you.",
+      "",
+      "  The brews need not be bottled, either; most brews can be made into **incense**, which apply their effects around an area for **several hours**.",
+      "",
+      "  Do look in the Lexica Botania for a full list of brews and their effects.",
+      "<item id=\"botania:brewery\" scale=\"3\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:brewery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Floral Alchemy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
