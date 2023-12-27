@@ -2,7 +2,7 @@
 	"block": "botania:mana_pylon",
 	"stats": {
 		"maxEterna": 15,
-		"eterna": 7.5,
+		"eterna": 8,
 		"quanta": 0,
 		"arcana": 1.25,
 		"rectification": 0,
