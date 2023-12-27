@@ -2,7 +2,19 @@
   "dependencies": [
     "runecrafting"
   ],
-  "tasks": {},
+  "tasks": {
+    "placeholder checkmark": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
