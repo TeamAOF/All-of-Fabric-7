@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "mana basics"
+  ],
+  "tasks": {
+    "get a mana enchanter": {
+      "title": "Construct the Mana Enchanter",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "botania:main/enchanter_make"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "books": {
+      "title": "Receive a few blank books",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:book",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  With just basic mana resources, a botanist can tap into the magic of enchantments, creating a structure that **enchants items without consuming the books**.",
+      "",
+      "  For this structure, you'll need **17 obsidian, 10 mystical flowers, 6 mana pylons, and a block of lapis lazuli**. Instructions on building and use are within your Lexica Botania.",
+      "",
+      "  I must note, mana pylons themselves are capable of **enhancing regular enchanting tables**, as well, much more than ordinary bookshevles. You might find that useful.",
+      "<item id=\"botania:mana_pylon\" scale=\"3\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:enchanter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Botanical Enchanting"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

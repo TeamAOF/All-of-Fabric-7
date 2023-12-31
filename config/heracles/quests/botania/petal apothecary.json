@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "Floramancy"
+  ],
+  "tasks": {
+    "petal apothecary": {
+      "type": "heracles:item",
+      "item": "botania:apothecary_default",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Imbue a Basin",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pure daisy": {
+      "type": "heracles:item",
+      "item": "botania:pure_daisy",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a White Flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  The first task in a botanist's journey is also the most essential: plucking the petals off one of your flowers, and using its connection to the earth to imbue a stone basin with the ability to make new, magical flowers.",
+      "",
+      "  The **Petal Apothecary** must be filled with water in order to work. Then, simply drop the required combination of petals and other ingredients necessary, and finish it off with any seed.",
+      "",
+      "  Try making a flower out of **four white petals**. If you've been following your Lexica Botania, you would know this flower is the **Pure Daisy**, and is foundational to your next steps.",
+      "",
+      "<item id=\"botania:pure_daisy\" scale=\"3\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:apothecary_default",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Petal Apothecary"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
