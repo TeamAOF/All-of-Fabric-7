@@ -1,3 +1,16 @@
+### All of Fabric 7 | v1.2.2
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.2.md)_
+
+### Changes/Improvements ⚙️
+
+* Re-disable wheel tweak feature.
+
+### Bug Fixes 🐛
+
+* Crash when retrieving a grave containing a travelers backpack.
+---
+
 ### All of Fabric 7 | v1.2.1
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.1.md)_
