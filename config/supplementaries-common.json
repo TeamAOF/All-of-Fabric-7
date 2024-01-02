@@ -22,6 +22,7 @@
     },
     "enderman_head": {
       "enabled": true,
+      "drop_head": true,
       "ticks_to_increase_power": 15,
       "work_from_any_side": false
     },
@@ -99,8 +100,7 @@
     },
     "urn": {
       "enabled": true,
-      "critter_spawn_chance": 0.009999999776482582,
-      "cave_urns": true
+      "critter_spawn_chance": 0.009999999776482582
     },
     "soap": {
       "enabled": true,
@@ -121,7 +121,6 @@
     },
     "flax": {
       "enabled": true,
-      "wild_flax": true,
       "wandering_trader_trades": 2,
       "farmer_trades": 1
     },
@@ -170,8 +169,7 @@
     "ash": {
       "enabled": true,
       "ash_from_fire": true,
-      "rain_wash_ash": true,
-      "basalt_ash": true
+      "rain_wash_ash": true
     },
     "flag": {
       "enabled": true,
@@ -190,7 +188,6 @@
     "sign_post": {
       "enabled": true,
       "way_sign": {
-        "enabled": true,
         "show_distance_text": true
       }
     },
