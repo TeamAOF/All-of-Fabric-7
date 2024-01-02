@@ -1424,7 +1424,7 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('z_aof:compacting/ultra_compressed_mixed_Stone_ball')
+}).id('z_aof:compacting/ultra_compressed_mixed_stone_ball')
 
 event.custom({
     type: "create:compacting",

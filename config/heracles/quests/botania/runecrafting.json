@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "mana basics"
+  ],
+  "tasks": {
+    "get runic altar": {
+      "type": "heracles:item",
+      "item": "botania:runic_altar",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Carve and adorn an Altar",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "craft a rune": {
+      "title": "Craft a Rune",
+      "icon": {
+        "item": {
+          "id": "botania:rune_mana",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "botania:main/rune_pickup"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "mana rune": {
+      "title": "Receive a Mana Rune",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:rune_mana",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Stepping further into the art of floramancy requires harnessing Mana to create **runes**. The Runic Altar, a special table carved from livingrock and adorned with a mana-touched diamond, is capable of doing exactly this.",
+      "",
+      "  To use, drop the ingredients onto the altar and direct a mana spreader to send to it. When the table has taken in enough mana, sparks will appear, indicating you may now drop a piece of **livingrock** onto it and use your wand on it.",
+      "",
+      "  The four **elemental runes** all require mana powder, manasteel, and three items associated with their element. Next are the **seasonal runes**, made with two elemental runes, and four additional items representative of their season. Thirdly, the **sin runes**, made with two mana diamonds, and a combination of elemental and seasonal rune. Lastly, the **rune of mana** stands unique, requiring five manasteel ingots and a mana pearl.",
+      "",
+      "  These runes are used in the creation of new flowers, and are a key component in many pieces of equipment.",
+      "",
+      "<item id=\"botania:rune_mana\" scale=\"2\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:rune_mana",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Runecrafting"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

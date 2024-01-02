@@ -1,0 +1,138 @@
+{
+  "dependencies": [
+    "livingstuff"
+  ],
+  "tasks": {
+    "generating flower": {
+      "title": "Craft a Generating Flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "botania:main/generating_flower"
+      ],
+      "type": "heracles:advancement"
+    },
+    "wand of the forest": {
+      "title": "Craft a Wand",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "recipes": [
+        "botania:twig_wand"
+      ],
+      "type": "heracles:recipe"
+    },
+    "mana pool": {
+      "type": "heracles:item",
+      "item": "botania:mana_pool",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Carve a Pool from Livingrock",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "mana spreader": {
+      "type": "heracles:item",
+      "item": "botania:mana_spreader",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Carve a Spreader from Livingwood",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "manaseer monocle": {
+      "title": "Receive a helpful trinket",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:monocle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  With the base resources secured, you can begin working with **Mana**, the natural energy of the earth these flowers are so tied to.",
+      "",
+      "  From Livingrock, you can carve **a pool to store mana**, and from Livingwood, **an apparatus to spread it from place to place**. Together, these form the basics of mana-related infrastructure. You'll, of course, also need **a wand to bind the things together**.",
+      "",
+      "<columns template=\"30% 30% 50%\">",
+      "    <column>",
+      "        <item id=\"botania:mana_pool\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:mana_spreader\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:twig_wand\" scale=\"2\"> </item>",
+      "    </column>",
+      "</columns>",
+      "",
+      "  But, storing and transferring mana is rather pointless without a way of obtaining that mana. To that end, you must again turn to the petal apothecary, and make one of two **generating flora**: Endoflames or Hydroangeas.",
+      "",
+      "  The Hydroangeas is fairly straightforward. It drinks **water blocks** to produce mana. However, its simplicity also means it is **very fragile**. It decays within three days of being placed, leaving naught but a dead bush behind.",
+      "",
+      "<item id=\"botania:hydroangeas\" scale=\"2\"> </item>",
+      "",
+      "  The Endoflame, on the other hand, is slightly more involved, but never decays. When a piece of fuel (anything that can heat a furnace) is dropped near it, the flower will **burn that fuel**, generating mana in the process. It can only handle fuels with a burn time of **at most a block of coal coke**; any more, and you're being inefficient and wasteful.",
+      "",
+      "<item id=\"botania:endoflame\" scale=\"2\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_pearl",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basics of Mana"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

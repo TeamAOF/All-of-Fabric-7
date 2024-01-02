@@ -1,0 +1,11 @@
+{
+	"block": "botania:mana_pylon",
+	"stats": {
+		"maxEterna": 15,
+		"eterna": 8,
+		"quanta": 0,
+		"arcana": 1.25,
+		"rectification": 0,
+		"clues": 0
+	}
+}

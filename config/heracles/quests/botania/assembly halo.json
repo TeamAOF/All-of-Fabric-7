@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "mana basics"
+  ],
+  "tasks": {
+    "assembly halo": {
+      "type": "heracles:item",
+      "item": "botania:crafting_halo",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a wondrous Crafting Device",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Pocket crafting tables are well and good, but, you can attain something **better**.",
+      "",
+      "  The Assembly Halo features access to an ethereal crafting table, but in addition to that, you may **save up to 12 recipes**, allowing **quick crafting** should you have the materials. This can greatly hasten large assembly projects such as what you might require in your engineering pursuits.",
+      "",
+      "  It may also be upgraded into a Manufactory Halo, which will **automatically craft saved recipes** for you as soon as you have enough materials. That is quite the time saver.",
+      "",
+      "<columns>",
+      "    <column>",
+      "        <item id=\"botania:crafting_halo\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:auto_crafting_halo\" scale=\"2\"> </item>",
+      "    </column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -1,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:auto_crafting_halo",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Assemblage, Manufacture"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
