@@ -41,6 +41,16 @@ ServerEvents.recipes(event => {
     A: 'minecraft:gravel',
 },
   id: 'aof:flint'
+},
+
+{
+  output: 'kubejs:leather_wrapped_stick',
+  pattern: ['AB '],
+  key: {
+    A: 'minecraft:stick',
+    B: 'minecraft:leather',
+  },
+  id: 'aof:leather_wrapped_stick'
 }
 ];
 
