@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Equipment"
+  ],
+  "tasks": {
+    "vap": {
+      "type": "heracles:item",
+      "item": "vinery:wine_press",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vam": {
+      "type": "heracles:item",
+      "item": "vinery:apple_mash",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The apple press is used to get apple mash which is used to get some wines, it can also be used as a workstation to get a winemaker villager"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          385,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:wine_press",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Apple Press"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

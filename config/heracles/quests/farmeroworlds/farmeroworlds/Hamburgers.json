@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Croptopia1"
+  ],
+  "tasks": {
+    "ch0": {
+      "type": "heracles:item",
+      "item": "croptopia:cheeseburger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ch": {
+      "type": "heracles:item",
+      "item": "croptopia:hamburger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ch1": {
+      "type": "heracles:item",
+      "item": "croptopia:tofuburger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Possibly the most famous American food",
+      " ",
+      " ",
+      "(For legal reasons we won't consider them a sandwich)"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          100,
+          250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:hamburger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hamburgers"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

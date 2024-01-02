@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Beachparty"
+  ],
+  "tasks": {
+    "bpr": {
+      "type": "heracles:item",
+      "item": "beachparty:radio",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The radio will play cozy beach themed tunes, it can be turned on and off with right click and you can switch the music with the scrollwheel"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -50,
+          -290
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:radio",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Radio"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

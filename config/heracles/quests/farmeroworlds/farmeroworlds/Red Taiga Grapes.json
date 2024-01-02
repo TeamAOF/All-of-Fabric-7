@@ -1,0 +1,44 @@
+{
+  "dependencies": [
+    "Grapes"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These grapes can be found in taigas and it's subvariants",
+      " ",
+      " ",
+      "They can be planted on grass or on a stem for extra grapes and growth speed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          300,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:taiga_grapes_red",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Taiga Grapes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

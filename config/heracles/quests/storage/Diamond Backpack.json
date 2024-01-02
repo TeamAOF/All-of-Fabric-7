@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "Silver Backpack"
+  ],
+  "tasks": {
+    "pu_diamond": {
+      "type": "heracles:item",
+      "item": "packedup:diamondbackpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "pu_diamond_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "## &&bDiamond&&r",
+      "</column>",
+      "<column>",
+      "<item id=\"packedup:diamondbackpack\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "  At base, it's \"just\" an allotrope of carbon, the most abundant element in the earth's crust. Not even stable, really... just metastable.",
+      "<br/>",
+      "  But we know better. We've been down &&4&&othere&&r.",
+      "<br/>",
+      "  We've clawed our way through the fantastic and improbable geology of this world. The mundane and expected too. Seeking our fortune where darkness often hides danger. Seeking... &&b&&odiamond&&r.",
+      "<br/>",
+      "  &&bDiamond&&r backpacks are the largest single-tier jump in capacity. We've now reached 63 item slots of capacity. ",
+      "<br/>",
+      "  Oh, the riches you can carry on your back now!",
+      "<br/>",
+      "  Tally ho!",
+      "<br/>",
+      "---"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -80,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "packedup:diamondbackpack",
+        "count": 1,
+        "nbt": {}
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

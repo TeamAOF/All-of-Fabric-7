@@ -2,7 +2,19 @@
   "dependencies": [
     "arms_are_full"
   ],
-  "tasks": {},
+  "tasks": {
+    "portable_mass_task": {
+      "title": "Checkbox",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "portable_mass_reward": {
       "icon": {

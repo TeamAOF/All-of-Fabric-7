@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Beachparty"
+  ],
+  "tasks": {
+    "bptb": {
+      "type": "heracles:item",
+      "item": "beachparty:tiki_bar",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The first step to making cocktails and milkshakes is to get an authentic tiki bar"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          100,
+          -320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:tiki_bar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tiki Bar"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

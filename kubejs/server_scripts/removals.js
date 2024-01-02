@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
         'vinery:dough',
         'croptopia:shaped_bacon',
         'indrev:shapeless/copper_ingot_from_block',
-        // 'wands:stone_wand2',
+        'wands:stone_wand2',
         'techreborn:crafting_table/dust/chrome_dust_from_small',
         'techreborn:crafting_table/small_dust/chrome_small_dust_from_dust',
         'techreborn:blast_furnace/titanium_ingot_from_small_dust',
@@ -83,6 +83,13 @@ ServerEvents.recipes((event) => {
         'modern_industrialization:quarry/titanium',
         'techreborn:industrial_grinder/certus_quartz_ore',
         'modern_industrialization:materials/electrolyzer/uu_matter',
+        'indrev:smelting/tungsten_ingot_from_ore',
+        'indrev:smelting/tungsten_ingot_from_smelting',
+        'indrev:blasting/tungsten_ingot_from_smelting',
+        'indrev:blasting/tungsten_ingot_from_raw_ores',
+        'indrev:blasting/tungsten_ingot_from_ore',
+        'ad_astra:recipes/iron_rod',
+        'regions_unexplored:raw_redstone_block'
 
     ];
 
@@ -98,8 +105,6 @@ ServerEvents.recipes((event) => {
         // 'kibe:angel_ring',
         // 'kibe:light_ring',
         'chisel:chisel',
-        // 'vanilla-excavators:obsidian_excavator',
-        // 'vanilla-hammers:obsidian_hammer',
         'croptopia:bacon',
         'croptopia:cooked_bacon',
         'croptopia:knife',
@@ -150,6 +155,7 @@ ServerEvents.recipes((event) => {
         'techreborn:ruby_hoe',
         'techreborn:ruby_sword',
         'techreborn:ruby_spade',
+        'onlyhammers:obsidian_hammer',
     ];
 
     id.forEach((id) => {

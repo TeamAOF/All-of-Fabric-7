@@ -1,0 +1,112 @@
+{
+  "dependencies": [
+    "Croptopia1"
+  ],
+  "tasks": {
+    "pies2": {
+      "type": "heracles:item",
+      "item": "croptopia:pecan_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pies1": {
+      "type": "heracles:item",
+      "item": "croptopia:rhubarb_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pies0": {
+      "type": "heracles:item",
+      "item": "croptopia:cherry_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pies": {
+      "type": "heracles:item",
+      "item": "croptopia:apple_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pies3": {
+      "type": "heracles:item",
+      "item": "croptopia:banana_cream_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/c/Pies/c/ are some of the oldest foods in the world, a simple dough with a filling of choice, there is evidence of them existing all over the world and up to 4000 years ago!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          50,
+          250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:cherry_pie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pies"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

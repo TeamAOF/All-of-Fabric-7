@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "titanium",
-    "raw_iridium"
+    "titanium"
   ],
   "tasks": {
     "blastproof_alloy_plate_task": {
@@ -42,7 +41,7 @@
     },
     "description": [
       "<hr/>",
-      "# Blastproof Allow Plate",
+      "# Blast-proof Allow Plate",
       "<br/>",
       "  Created by compressing three of the strongest materials you've used in your journey up until now. /b/Tungsten/b/, a metal with an extremely high melting point and a density that cannot be beaten. /b/Titanium/b/, a corrosion resistant, strong yet light weight material. And /b/Stainless Steel/b/, rust resistant to the extreme. This is the strongest plate you will ever forge. ",
       "<hr/>"
@@ -64,7 +63,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blastproof Alloy Plate"
+      "translate": "Blast-proof Alloy Plate"
     }
   },
   "settings": {

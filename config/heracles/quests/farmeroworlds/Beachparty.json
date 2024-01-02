@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Let's Do Mods"
+  ],
+  "tasks": {
+    "bp": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Beachparty is a mod that improves beaches, adding palms, new mobs, new sand variations and many summer or beach related foods, mainly refreshing drinks or desserts for a hot summer day",
+      "<br/>",
+      "<br/>",
+      "The cocktails and the unopened coconuts can also serve as decorations since they can be placed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          0,
+          -290
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:palm_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Beachparty"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Mini Fridge"
+  ],
+  "tasks": {
+    "bpsi": {
+      "type": "heracles:item",
+      "item": "beachparty:icecream_sweetberries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          70,
+          -440
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:icecream_sweetberries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sweetberry Icecream"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

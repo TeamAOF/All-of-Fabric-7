@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Beachparty"
+  ],
+  "tasks": {
+    "bpc": {
+      "type": "heracles:item",
+      "item": "beachparty:coconut",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bpoc": {
+      "type": "heracles:item",
+      "item": "beachparty:coconut_open",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Coconuts grow from palm trees, to open them for your recipes you will have to throw a coconut against a wall, floor or even a friend"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          20,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:coconut",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Coconuts"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -202,6 +202,10 @@
       "enabled": true,
       "mason_trades": true
     },
+    "hat_stand": {
+      "enabled": true,
+      "unrestricted": false
+    },
     "lapis_bricks": true,
     "deepslate_lamp": true,
     "end_stone_lamp": true,
@@ -222,8 +226,7 @@
     "flower_box": true,
     "doormat": true,
     "flint_block": true,
-    "candle_holder": true,
-    "hat_stand": true
+    "candle_holder": true
   },
   "tools": {
     "quiver": {

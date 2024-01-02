@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Tiki Bar"
+  ],
+  "tasks": {
+    "bpsc": {
+      "type": "heracles:item",
+      "item": "beachparty:sweetberries_cocktail",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This drink will give you 45 seconds of absorption"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          130,
+          -290
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:sweetberries_cocktail",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sweetberry Cocktail"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

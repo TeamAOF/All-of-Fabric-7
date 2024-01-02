@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Tiki Bar"
+  ],
+  "tasks": {
+    "bphc": {
+      "type": "heracles:item",
+      "item": "beachparty:honey_cocktail",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This drink gives 45 seconds of haste and extra attack speed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          130,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:honey_cocktail",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Honey Cocktail"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

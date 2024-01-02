@@ -1,0 +1,114 @@
+{
+  "dependencies": [
+    "Diamond Backpack"
+  ],
+  "tasks": {
+    "pu_obsidian": {
+      "type": "heracles:item",
+      "item": "packedup:obsidianbackpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "pu_obsidian_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 7
+      },
+      "type": "heracles:item"
+    },
+    "pu_diamond_reward2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:silver_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "## &&5Obsidian&&r",
+      "</column>",
+      "<column>",
+      "<item id=\"packedup:obsidianbackpack\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "  --The pinnacle of packs*--",
+      "<br/>",
+      "  Born of lava and water.",
+      "<br/>",
+      "  To obtain even a single block obligates one to minor obsession--**--.",
+      "<br/>",
+      "  Congratulations! You can now carry 72 item stacks. --Seventy two-- stacks of booty, bullion, belongings, and bric-a-brac; also blocks, bales, and bombs!",
+      "<br/>",
+      "  So get out there and... stay there. Don't come back.",
+      "<br/>",
+      "  For we are out of --Packed Up-- backpack upgrades.",
+      "<br/>",
+      "---",
+      "--*is it, really?--",
+      "<br/>",
+      "--**yes, we know about --Ultimine--. Shush now.--"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -80,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "packedup:obsidianbackpack",
+        "count": 1,
+        "nbt": {}
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obsidian Backpack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
