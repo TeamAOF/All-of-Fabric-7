@@ -1424,7 +1424,7 @@ event.custom({
         }
     ],
     heatRequirement: 'superheated'
-}).id('z_aof:compacting/ultra_compressed_mixed_Stone_ball')
+}).id('z_aof:compacting/ultra_compressed_mixed_stone_ball')
 
 event.custom({
     type: "create:compacting",
@@ -2229,30 +2229,4 @@ event.custom({
     ],
     heatRequirement: 'heated'
 }).id('z_aof:compacting/bloodstone')
-
-event.custom({
-    type: "create:compacting",
-    ingredients: [
-        {
-            fluid: "minecraft:water",
-            amount: 40500
-        },
-        {
-            fluid: "minecraft:lava",
-            amount: 40500
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    results: [
-        {
-            item: ""
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    heatRequirement: 'heated'
-}).id('z_aof:compacting/')
 })

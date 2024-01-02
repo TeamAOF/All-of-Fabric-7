@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "terrasteel"
+  ],
+  "tasks": {
+    "open alfheim portal": {
+      "title": "Contact the Elves",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "botania:main/elf_portal_open"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  At this point, you should have sustainable mana generation. If you don't, you may wish to rectify that before moving on.",
+      "",
+      "  The resources from this world can only go so far in their abilities of mana manipulation. To truly advance, another world's resources are required.",
+      "",
+      "  With the terrasteel ingot you have just conjured, you may make an **Elven Gateway Core** and a pair of **Natura Pylons**. These, in addition to **two mana pools** and a handful of **livingwood logs** and **glowstone**, will allow for the construction of the **Alfheim Portal**, and thereby let you exchange knowledge and goods with elven botanists.",
+      "",
+      "  Upon opening the portal, the first thing you should do is **toss in your Lexica Botania**. After that, the elven resources are now yours to use.",
+      "",
+      "<columns>",
+      "    <column>",
+      "        <item id=\"botania:elementium_ingot\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:pixie_dust\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:dragonstone\" scale=\"2\"> </item>",
+      "    </column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:pixie_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Another World"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

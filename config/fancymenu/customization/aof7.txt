@@ -324,7 +324,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = All of Fabric 7 - 1.1.0
+  source = All of Fabric 7 - 1.2.1
   text_border = 0
   case_mode = normal
   source_mode = direct

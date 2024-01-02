@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "alfheim"
+  ],
+  "tasks": {
+    "guardian of gaia": {
+      "title": "Prove your worth",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "botania:main/gaia_guardian_kill"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Botanists near the end of their journey go through a trial with an avatar of the earth known as the **Guardian of Gaia**. This trial rewards them with a material so in tune with the world that items crafted with it are truly exceptional.",
+      "",
+      "<item id=\"botania:life_essence\" scale=\"2\"> </item>",
+      "",
+      "  This trial is not easy, though. The Guardian of Gaia is a tough foe, so you'll need to **prepare well**.",
+      "",
+      "  The ritual for summoning this guardian is detailed in your Lexica."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          200,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:life_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Worthy Challenge"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

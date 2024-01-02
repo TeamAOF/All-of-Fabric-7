@@ -11,6 +11,16 @@
         "fabricloader": ""
       }
     },
+    "auto-workstations": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "dungeons_arise_seven_seas": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
     "createdeco": {
       "-depends": {
         "create": ""

@@ -1,4 +1,4 @@
-## All of Fabric 7 - 1.2.1
+## All of Fabric 7 - 1.2.0
 
   * [accelerated-decay-fabric-3.0.1+mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay/files/4863305) (by [ErrorMikey](https://www.curseforge.com/members/ErrorMikey/projects))
   * [ad_astra-fabric-1.20.1-1.15.5.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/4894853) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))
@@ -162,7 +162,7 @@
   * [framework-fabric-1.20.1-0.6.16.jar](https://www.curseforge.com/minecraft/mc-mods/framework-fabric/files/4718252) (by [MrCrayfish](https://www.curseforge.com/members/MrCrayfish/projects))
   * [FriendlyFire-Fabric-1.20.1-18.0.5.jar](https://www.curseforge.com/minecraft/mc-mods/friendly-fire/files/4806211) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
   * [frightsdelight-1.20.1-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/frights-delight/files/4857179) (by [ChefMooon](https://www.curseforge.com/members/ChefMooon/projects))
-  * [FrogLegs-v2.0.0-1.20.1-Fabric.jar](https://www.curseforge.com/minecraft/mc-mods/froglegs/files/4917818) (by [purejoshmc](https://www.curseforge.com/members/purejoshmc/projects))
+  * [FrogLegs-v2.0.0-1.20.1-Fabric.jar](https://www.curseforge.com/minecraft/mc-mods/frog-legs-fabric-forge/files/4917818) (by [purejoshmc](https://www.curseforge.com/members/purejoshmc/projects))
   * [ftb-library-fabric-2001.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric/files/4864328) (by [FTB](https://www.curseforge.com/members/FTB/projects))
   * [ftb-ultimine-fabric-2001.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric/files/4597011) (by [FTB](https://www.curseforge.com/members/FTB/projects))
   * [fuelinfo-1.0.4+1.20.jar](https://www.curseforge.com/minecraft/mc-mods/fuel-info/files/4565453) (by [Luligabi12](https://www.curseforge.com/members/Luligabi12/projects))
@@ -341,7 +341,7 @@
   * [subterrestrial-fabric-1.20-2.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/subterrestrial/files/4574889) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))
   * [supermartijn642configlib-1.1.8a-fabric-mc1.20.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/files/4785838) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
   * [supermartijn642corelib-1.1.16-fabric-mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/4927074) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-  * [supplementaries-1.20-2.7.17-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4995506) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+  * [supplementaries-1.20-2.7.18-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/5001846) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
   * [TechReborn-5.8.7.jar](https://www.curseforge.com/minecraft/mc-mods/techreborn/files/4708962) (by [modmuss50](https://www.curseforge.com/members/modmuss50/projects))
   * [tempad-fabric-1.20.1-2.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/tempad/files/4972958) (by [terrariumearth](https://www.curseforge.com/members/terrariumearth/projects))
   * [TerraBlender-fabric-1.20.1-3.0.0.169.jar](https://www.curseforge.com/minecraft/mc-mods/terrablender-fabric/files/4647092) (by [TheAdubbz](https://www.curseforge.com/members/TheAdubbz/projects))

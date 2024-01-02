@@ -133,8 +133,11 @@
     "mob_head_shaders": true,
     "send_chat_on_death": true,
     "sign_text_color_multiplier": 1.2000000476837158,
-    "tinted_blocks_on_maps": true,
-    "tall_grass_color": true
+    "colored_maps": {
+      "tinted_blocks_on_maps": true,
+      "tall_grass_color": true,
+      "accurate_colors": false
+    }
   },
   "items": {
     "slingshot": {
