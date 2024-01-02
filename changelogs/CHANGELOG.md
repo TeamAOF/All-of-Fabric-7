@@ -1,3 +1,19 @@
+### All of Fabric 7 | v1.2.1
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.1.md)_
+
+### Changes/Improvements ⚙️
+
+* Blacklisted mega mana cells in the replicator.
+* The chisel now uses a Leather Wrapped Stick instead of an Iron Rod.
+
+### Bug Fixes 🐛
+
+* A ColorData crash caused by Supplementaries.
+* Missing items for the custom compacting recipes added in 1.2.0
+* Erroring recipe id due to uppercase letter.
+---
+
 ### All of Fabric 7 | v1.2.0
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.0.md)_
