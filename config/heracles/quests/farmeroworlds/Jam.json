@@ -1,0 +1,112 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bj": {
+      "type": "heracles:item",
+      "item": "bakery:jar",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bsj": {
+      "type": "heracles:item",
+      "item": "bakery:strawberry_jam",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bsj0": {
+      "type": "heracles:item",
+      "item": "bakery:sweetberry_jam",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "baj": {
+      "type": "heracles:item",
+      "item": "bakery:apple_jam",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bgj": {
+      "type": "heracles:item",
+      "item": "bakery:glowberry_jam",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Jams are made in the small cooking pot and require jars, both of them can be placed up to 3 times in the same place, jams are used for making pastries"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -75,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:jar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Jam"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
