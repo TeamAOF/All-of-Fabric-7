@@ -89,8 +89,20 @@ ServerEvents.recipes((event) => {
         'indrev:blasting/tungsten_ingot_from_raw_ores',
         'indrev:blasting/tungsten_ingot_from_ore',
         'ad_astra:recipes/iron_rod',
-        'regions_unexplored:raw_redstone_block'
-
+        'regions_unexplored:raw_redstone_block',
+        'modern_industrialization:compat/techreborn/macerator/minecraft_ender_pearl_to_techreborn_ender_pearl_dust',
+        'modern_industrialization:compat/indrev/macerator/_c_silver_ores_to_indrev_raw_silver',
+        'techreborn:smelting/silver_ingot_from_c_silver_ores_exported_mi_furnace',
+        'indrev:blasting/silver_ingot_from_ore',
+        'indrev:smelting/silver_ingot_from_ore',
+        'techreborn:crafting_table/storage_block/raw_raw_lead_storage_block',
+        'indrev:shaped/raw_lead_block',
+        'techreborn:crafting_table/raw/raw_lead_from_block',
+        'indrev:shapeless/raw_lead',
+        'techreborn:crafting_table/raw/raw_silver_from_block',
+        'indrev:shapeless/raw_silver',
+        'techreborn:crafting_table/storage_block/raw_raw_silver_storage_block',
+        'indrev:shaped/raw_silver_block'
     ];
 
     const output = [

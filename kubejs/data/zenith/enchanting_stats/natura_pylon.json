@@ -1,0 +1,11 @@
+{
+	"block": "botania:natura_pylon",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": 15,
+		"quanta": 0,
+		"arcana": 2.50,
+		"rectification": 0,
+		"clues": 0
+	}
+}
