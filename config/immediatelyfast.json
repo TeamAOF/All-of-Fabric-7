@@ -4,7 +4,7 @@
   "map_atlas_generation": true,
   "hud_batching": true,
   "fast_text_lookup": true,
-  "fast_buffer_upload": true,
+  "fast_buffer_upload": false,
   "fast_buffer_upload_size_mb": 256,
   "fast_buffer_upload_explicit_flush": true,
   "COSMETIC_INFO": "----- Cosmetic only config values below (Does not optimize anything) -----",
