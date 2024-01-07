@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Breads"
+  ],
+  "tasks": {
+    "bw": {
+      "type": "heracles:item",
+      "item": "bakery:waffle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "As surprising as it is waffles and pancakes are a type of bread, don't argue with me, ask the experts"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -215,
+          -310
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:waffle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Waffles"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

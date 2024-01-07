@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Nether Vinery"
+  ],
+  "tasks": {
+    "nvwg": {
+      "type": "heracles:item",
+      "item": "nethervinery:warped_grape",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The warped grape can be found near lava in warped forests, it can be planted in warped nylium or in a stem for better yields and faster growth"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          130,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "nethervinery:warped_grape",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Warped Grape"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bsd": {
+      "type": "heracles:item",
+      "item": "bakery:sweet_dough",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An essential ingredient for baking many pastries"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -75,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:sweet_dough",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sweet Dough"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bsgc0": {
+      "type": "heracles:item",
+      "item": "bakery:sweetberry_glazed_cookie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bsgc": {
+      "type": "heracles:item",
+      "item": "bakery:strawberry_glazed_cookie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcgc": {
+      "type": "heracles:item",
+      "item": "bakery:chocolate_glazed_cookie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of cookies, these can't be placed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -193,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:strawberry_glazed_cookie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cookies"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

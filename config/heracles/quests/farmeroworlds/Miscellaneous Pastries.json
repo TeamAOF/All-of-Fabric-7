@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bc": {
+      "type": "heracles:item",
+      "item": "bakery:croissant",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bjr": {
+      "type": "heracles:item",
+      "item": "bakery:jam_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A couple of pastries that can't be placed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -160,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:jam_roll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Miscellaneous Pastries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

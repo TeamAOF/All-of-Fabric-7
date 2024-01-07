@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "by": {
+      "type": "heracles:item",
+      "item": "bakery:yeast",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An essential ingredient for many pastries and also useful for making a more efficiente wheat dough recipe"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -105,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:yeast",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Yeast"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
