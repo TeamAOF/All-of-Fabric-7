@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of different types of bread, they can all be placed for decoration and even stacked"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -230,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Breads"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

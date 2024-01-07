@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bsc0": {
+      "type": "heracles:item",
+      "item": "bakery:sweetberry_cupcake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bac": {
+      "type": "heracles:item",
+      "item": "bakery:apple_cupcake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bsc": {
+      "type": "heracles:item",
+      "item": "bakery:strawberry_cupcake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of cupcakes, these can't be placed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -190,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:strawberry_cupcake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cupcakes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

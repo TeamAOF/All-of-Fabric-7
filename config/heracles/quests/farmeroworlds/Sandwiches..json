@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bs": {
+      "type": "heracles:item",
+      "item": "bakery:sandwich",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bvs": {
+      "type": "heracles:item",
+      "item": "bakery:vegetable_sandwich",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A couple of sandwiches, they can't be placed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -160,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:vegetable_sandwich",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sandwiches"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

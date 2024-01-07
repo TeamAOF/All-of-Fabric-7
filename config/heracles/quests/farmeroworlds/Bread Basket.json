@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Breads"
+  ],
+  "tasks": {
+    "bbb": {
+      "type": "heracles:item",
+      "item": "bakery:bread_crate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of different breads all in one place, they can be eaten straight from the basket"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -290,
+          -285
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:bread_crate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bread Basket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

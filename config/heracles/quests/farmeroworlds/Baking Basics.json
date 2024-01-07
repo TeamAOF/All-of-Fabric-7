@@ -1,0 +1,93 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bscp": {
+      "type": "heracles:item",
+      "item": "bakery:small_cooking_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bbs": {
+      "type": "heracles:item",
+      "item": "bakery:baker_station",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bbo": {
+      "type": "heracles:item",
+      "item": "bakery:brick_stove",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to start baking you will need to get a few a things",
+      "<br/>",
+      "<br/>",
+      "The brick oven will allow you to cook pastries and also functions as a source of heat for the small cooking pot, stoves work the same way but simply look different",
+      "<br/>",
+      "<br/>",
+      "The small cooking pot is mainly used for making jams and chocolate but also has a few other recipes, it requires heat from an oven or stove",
+      "<br/>",
+      "<br/>",
+      "The baking station is used for assembling pastries and cakes, by combining jams with some kind of dough or other pastry"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -75,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:small_cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Baking Basics"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
