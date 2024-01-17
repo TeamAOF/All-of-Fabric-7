@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Bakery"
+    "Farmer's Delight"
   ],
   "tasks": {
-    "bcb": {
+    "fdsc": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_box",
+      "item": "farmersdelight:sweet_berry_cookie",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bct": {
+    "fdgc": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_truffle",
+      "item": "farmersdelight:glow_berry_custard",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,23 @@
         "type": "heracles:item"
       }
     },
-    "bcs": {
+    "fdhc": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_jam",
+      "item": "farmersdelight:honey_cookie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdmp": {
+      "type": "heracles:item",
+      "item": "farmersdelight:melon_popsicle",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -52,26 +66,26 @@
       "text": ""
     },
     "description": [
-      "Chocolate truffles are quite versatile, they can be eaten, used to cook other things or used to make a chocolate box, the chocolate box can be used as a decoration and you can eat from it by just clicking"
+      "A collection of miscellaneous sweet foods"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -160,
-          -240
+          -340,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bakery:chocolate_truffle",
+        "id": "farmersdelight:honey_cookie",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chocolate Truffle"
+      "translate": "Other Sweet Foods"
     }
   },
   "settings": {

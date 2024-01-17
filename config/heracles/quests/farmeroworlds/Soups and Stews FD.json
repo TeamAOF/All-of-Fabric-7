@@ -1,0 +1,154 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fdbs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beef_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdbb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:bone_broth",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdcs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdvs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:vegetable_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdfs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fish_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdbcs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:baked_cod_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdns": {
+      "type": "heracles:item",
+      "item": "farmersdelight:noodle_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdps": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pumpkin_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Soups and stews are a variety of highly nourishing foods, always made in a bowl but don't worry you can carry up to 16 of them"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -415,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:fish_stew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soups and Stews FD"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

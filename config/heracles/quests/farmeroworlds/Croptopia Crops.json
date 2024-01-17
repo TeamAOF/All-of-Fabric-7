@@ -101,9 +101,9 @@
         "type": "heracles:item"
       }
     },
-    "cc44": {
+    "cc23": {
       "type": "heracles:item",
-      "item": "croptopia:kiwi",
+      "item": "croptopia:kale",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -115,9 +115,205 @@
         "type": "heracles:item"
       }
     },
-    "cc23": {
+    "cc31": {
       "type": "heracles:item",
-      "item": "croptopia:kale",
+      "item": "croptopia:raspberry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc32": {
+      "type": "heracles:item",
+      "item": "croptopia:rhubarb",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc30": {
+      "type": "heracles:item",
+      "item": "croptopia:radish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc19": {
+      "type": "heracles:item",
+      "item": "croptopia:grape",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc17": {
+      "type": "heracles:item",
+      "item": "croptopia:eggplant",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc18": {
+      "type": "heracles:item",
+      "item": "croptopia:elderberry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc15": {
+      "type": "heracles:item",
+      "item": "croptopia:cucumber",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc16": {
+      "type": "heracles:item",
+      "item": "croptopia:currant",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc13": {
+      "type": "heracles:item",
+      "item": "farmersrespite:coffee_beans",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc14": {
+      "type": "heracles:item",
+      "item": "croptopia:cranberry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc11": {
+      "type": "heracles:item",
+      "item": "croptopia:chile_pepper",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc12": {
+      "type": "heracles:item",
+      "item": "croptopia:corn",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc20": {
+      "type": "heracles:item",
+      "item": "croptopia:greenbean",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc21": {
+      "type": "heracles:item",
+      "item": "croptopia:greenonion",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc44": {
+      "type": "heracles:item",
+      "item": "croptopia:kiwi",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -157,20 +353,6 @@
         "type": "heracles:item"
       }
     },
-    "cc31": {
-      "type": "heracles:item",
-      "item": "croptopia:raspberry",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "cc0": {
       "type": "heracles:item",
       "item": "croptopia:asparagus",
@@ -199,20 +381,6 @@
         "type": "heracles:item"
       }
     },
-    "cc32": {
-      "type": "heracles:item",
-      "item": "croptopia:rhubarb",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "cc3": {
       "type": "heracles:item",
       "item": "croptopia:bellpepper",
@@ -230,20 +398,6 @@
     "cc2": {
       "type": "heracles:item",
       "item": "croptopia:barley",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cc30": {
-      "type": "heracles:item",
-      "item": "croptopia:radish",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -353,23 +507,9 @@
         "type": "heracles:item"
       }
     },
-    "cc19": {
+    "fdc": {
       "type": "heracles:item",
-      "item": "croptopia:grape",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cc17": {
-      "type": "heracles:item",
-      "item": "croptopia:eggplant",
+      "item": "farmersdelight:cabbage",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -395,51 +535,9 @@
         "type": "heracles:item"
       }
     },
-    "cc18": {
-      "type": "heracles:item",
-      "item": "croptopia:elderberry",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cc15": {
-      "type": "heracles:item",
-      "item": "croptopia:cucumber",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "cc37": {
       "type": "heracles:item",
       "item": "croptopia:squash",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cc16": {
-      "type": "heracles:item",
-      "item": "croptopia:currant",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -465,37 +563,9 @@
         "type": "heracles:item"
       }
     },
-    "cc13": {
-      "type": "heracles:item",
-      "item": "farmersrespite:coffee_beans",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "cc35": {
       "type": "heracles:item",
       "item": "croptopia:soybean",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cc14": {
-      "type": "heracles:item",
-      "item": "croptopia:cranberry",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -521,37 +591,9 @@
         "type": "heracles:item"
       }
     },
-    "cc11": {
-      "type": "heracles:item",
-      "item": "croptopia:chile_pepper",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "cc33": {
       "type": "heracles:item",
       "item": "croptopia:rutabaga",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cc12": {
-      "type": "heracles:item",
-      "item": "croptopia:corn",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -577,20 +619,6 @@
         "type": "heracles:item"
       }
     },
-    "cc20": {
-      "type": "heracles:item",
-      "item": "croptopia:greenbean",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "cc42": {
       "type": "heracles:item",
       "item": "croptopia:yam",
@@ -605,9 +633,9 @@
         "type": "heracles:item"
       }
     },
-    "cc21": {
+    "fdo": {
       "type": "heracles:item",
-      "item": "croptopia:greenonion",
+      "item": "farmersdelight:onion",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -650,6 +678,34 @@
     "cc41": {
       "type": "heracles:item",
       "item": "croptopia:turnip",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdr": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdt": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",

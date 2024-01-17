@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Bakery"
+    "Farmer's Delight"
   ],
   "tasks": {
-    "bcb": {
+    "fdmj": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_box",
+      "item": "farmersdelight:melon_juice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bct": {
+    "fdmb": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_truffle",
+      "item": "farmersdelight:milk_bottle",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,23 @@
         "type": "heracles:item"
       }
     },
-    "bcs": {
+    "fdhc": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_jam",
+      "item": "farmersdelight:hot_cocoa",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdac": {
+      "type": "heracles:item",
+      "item": "farmersdelight:apple_cider",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -52,26 +66,29 @@
       "text": ""
     },
     "description": [
-      "Chocolate truffles are quite versatile, they can be eaten, used to cook other things or used to make a chocolate box, the chocolate box can be used as a decoration and you can eat from it by just clicking"
+      "These drinks provides a minor buff, like some kind of simpler potion",
+      "<br/>",
+      "<br/>",
+      "Milk bottles allow to quadruple how much food you can make with a bucket of milk, while clearing an effect"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -160,
-          -240
+          -365,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bakery:chocolate_truffle",
+        "id": "farmersdelight:hot_cocoa",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chocolate Truffle"
+      "translate": "Drinks"
     }
   },
   "settings": {

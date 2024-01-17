@@ -1,0 +1,154 @@
+{
+  "dependencies": [
+    "Cooking Tools"
+  ],
+  "tasks": {
+    "fdrb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:bacon",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrmc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:mutton_chops",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdcl": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage_leaf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrcc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:chicken_cuts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrcs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cod_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrss": {
+      "type": "heracles:item",
+      "item": "farmersdelight:salmon_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdmb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:minced_beef",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdps": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pumpkin_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Tired of constantly waiting for crops and animals to grow for your recipes? Well in that case the cutting board can help you, the cutting board will allow to basically duplicate all meats and some vegetables, where before you only had 1 steak for your recipes now you can have 2 for free!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -325,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:minced_beef",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ingredient Duplication"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

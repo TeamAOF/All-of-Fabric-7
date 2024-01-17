@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Bakery"
+    "Farmer's Delight"
   ],
   "tasks": {
-    "bcb": {
+    "fdfs": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_box",
+      "item": "farmersdelight:fruit_salad",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bct": {
+    "fdns": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_truffle",
+      "item": "farmersdelight:nether_salad",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "bcs": {
+    "fdms": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_jam",
+      "item": "farmersdelight:mixed_salad",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -52,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "Chocolate truffles are quite versatile, they can be eaten, used to cook other things or used to make a chocolate box, the chocolate box can be used as a decoration and you can eat from it by just clicking"
+      "A few healthy food options"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -160,
-          -240
+          -390,
+          100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bakery:chocolate_truffle",
+        "id": "farmersdelight:mixed_salad",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chocolate Truffle"
+      "translate": "Salads FD"
     }
   },
   "settings": {

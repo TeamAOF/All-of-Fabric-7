@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Bakery"
+    "Feasts for a King"
   ],
   "tasks": {
-    "bcb": {
+    "fdsp": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_box",
+      "item": "farmersdelight:stuffed_pumpkin_block",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,23 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bct": {
+    "fdspb": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_truffle",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "bcs": {
-      "type": "heracles:item",
-      "item": "bakery:chocolate_jam",
+      "item": "farmersdelight:stuffed_pumpkin",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -52,26 +38,26 @@
       "text": ""
     },
     "description": [
-      "Chocolate truffles are quite versatile, they can be eaten, used to cook other things or used to make a chocolate box, the chocolate box can be used as a decoration and you can eat from it by just clicking"
+      "Can fill up to 4 bowls. must be made in a cooking pot"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -160,
-          -240
+          -440,
+          -85
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bakery:chocolate_truffle",
+        "id": "farmersdelight:stuffed_pumpkin_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chocolate Truffle"
+      "translate": "Stuffed Pumpkin"
     }
   },
   "settings": {

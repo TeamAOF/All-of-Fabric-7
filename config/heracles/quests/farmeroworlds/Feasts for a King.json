@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fdffk": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Farmer's Delight also adds a few foods that can only be placed down and picked with a bowl, they are highly nourishing"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -415,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:canvas_sign",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Feasts for a King"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

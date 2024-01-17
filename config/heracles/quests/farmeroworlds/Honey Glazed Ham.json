@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Bakery"
+    "Feasts for a King"
   ],
   "tasks": {
-    "bcb": {
+    "fdh": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_box",
+      "item": "farmersdelight:ham",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bct": {
+    "fdsh": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_truffle",
+      "item": "farmersdelight:smoked_ham",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,23 @@
         "type": "heracles:item"
       }
     },
-    "bcs": {
+    "fdhgh": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_jam",
+      "item": "farmersdelight:honey_glazed_ham_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdhghb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:honey_glazed_ham",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -52,26 +66,26 @@
       "text": ""
     },
     "description": [
-      "Chocolate truffles are quite versatile, they can be eaten, used to cook other things or used to make a chocolate box, the chocolate box can be used as a decoration and you can eat from it by just clicking"
+      "Can fill up to 4 bowls, ham is obtained by killing pigs or hoglins with a knife, it can only be cooked in a smoker"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -160,
-          -240
+          -415,
+          -85
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bakery:chocolate_truffle",
+        "id": "farmersdelight:honey_glazed_ham_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Chocolate Truffle"
+      "translate": "Honey Glazed Ham"
     }
   },
   "settings": {
