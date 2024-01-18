@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "Meats and Dragon Drops"
   ],
   "tasks": {
-    "ed": {
+    "edbm": {
       "title": "",
       "icon": {
         "item": {
@@ -21,35 +21,26 @@
       "text": ""
     },
     "description": [
-      "Ever found yourself starving in the End with nothing else to eat than annoying chorus fruit? Well now you will have a whole new --dimension-- of thing to eat, with multiple recipes both simple and powerful",
-      "<br/>",
-      "<br/>",
-      "You will also now have a new stove and a few new knives",
-      "<br/>",
-      "<br/>",
-      "You can also use Create to cook these foods"
+      "These foods must be placed down and must be picked up with a bowl to be eaten, they restore a lot of hunger and give many positive effects"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -540,
-          -40
+          -575,
+          -105
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ends_delight:dragon_tooth_knife",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "ends_delight:dragon_leg_with_sauce",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "End's Delight"
+      "translate": "Big Meals"
     }
   },
   "settings": {

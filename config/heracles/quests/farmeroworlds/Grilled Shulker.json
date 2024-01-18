@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "Big Meals"
   ],
   "tasks": {
-    "ed": {
+    "edgs": {
+      "type": "heracles:item",
+      "item": "ends_delight:grilled_shulker_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,21 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
+    },
+    "edgsp": {
+      "type": "heracles:item",
+      "item": "ends_delight:grilled_shulker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -21,35 +38,26 @@
       "text": ""
     },
     "description": [
-      "Ever found yourself starving in the End with nothing else to eat than annoying chorus fruit? Well now you will have a whole new --dimension-- of thing to eat, with multiple recipes both simple and powerful",
-      "<br/>",
-      "<br/>",
-      "You will also now have a new stove and a few new knives",
-      "<br/>",
-      "<br/>",
-      "You can also use Create to cook these foods"
+      "It provides 4 plates of grilled shulker, after the shulker is empty you can get the shulker shell back"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -540,
-          -40
+          -560,
+          -160
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ends_delight:dragon_tooth_knife",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "ends_delight:grilled_shulker_block",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "End's Delight"
+      "translate": "Grilled Shulker"
     }
   },
   "settings": {

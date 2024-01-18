@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "The Fish"
   ],
   "tasks": {
-    "ed": {
+    "ndlg": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:lava_glass",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,7 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {},
@@ -21,35 +24,26 @@
       "text": ""
     },
     "description": [
-      "Ever found yourself starving in the End with nothing else to eat than annoying chorus fruit? Well now you will have a whole new --dimension-- of thing to eat, with multiple recipes both simple and powerful",
-      "<br/>",
-      "<br/>",
-      "You will also now have a new stove and a few new knives",
-      "<br/>",
-      "<br/>",
-      "You can also use Create to cook these foods"
+      "Lava glass allows to completely see through lava, it will be useful for finding fish in the nether, ores under lava pools or to simply have a lava aquarium"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -540,
-          -40
+          -500,
+          75
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ends_delight:dragon_tooth_knife",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "netherdepthsupgrade:lava_glass",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "End's Delight"
+      "translate": "Lava Glass"
     }
   },
   "settings": {

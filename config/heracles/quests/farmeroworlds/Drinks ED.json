@@ -1,0 +1,112 @@
+{
+  "dependencies": [
+    "Crops and Plants"
+  ],
+  "tasks": {
+    "edcfmt": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_milk_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "eddbs": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_breath_soda",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcfw": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_wine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcft": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_flower_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edbt": {
+      "type": "heracles:item",
+      "item": "ends_delight:bubble_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of drinks made with End ingredients"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -610,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:dragon_breath_soda",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drinks ED"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

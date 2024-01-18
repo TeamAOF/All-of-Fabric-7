@@ -1,0 +1,185 @@
+{
+  "dependencies": [
+    "Crops and Plants"
+  ],
+  "tasks": {
+    "edcfp": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_flower_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcc": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_cookie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edes": {
+      "type": "heracles:item",
+      "item": "ends_delight:ender_sauce",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edems": {
+      "type": "heracles:item",
+      "item": "ends_delight:end_mixed_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "eddbcs": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_breath_and_chorus_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcfp1": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edsrc": {
+      "type": "heracles:item",
+      "item": "ends_delight:stuffed_rice_cake",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcfp0": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_popsicle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcfps": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_pie_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edas": {
+      "type": "heracles:item",
+      "item": "ends_delight:assorted_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This are recipes made mostly from chorus succulents and grains without using any of the meats",
+      "<br/>",
+      "<br/>",
+      "The chorus fruit pie can be placed and eaten from there or be cut on a cutting board"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -610,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:chorus_flower_pie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vegetarian Recipes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
