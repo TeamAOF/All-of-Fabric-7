@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "Kettle"
   ],
   "tasks": {
-    "fdcr": {
+    "frcc": {
       "type": "heracles:item",
-      "item": "farmersdelight:cooked_rice",
+      "item": "farmersrespite:coffee_cake",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdsr": {
+    "frrhp": {
       "type": "heracles:item",
-      "item": "farmersdelight:salmon_roll",
+      "item": "farmersrespite:rose_hip_pie",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fdkrs": {
+    "frccs": {
       "type": "heracles:item",
-      "item": "farmersdelight:kelp_roll_slice",
+      "item": "farmersrespite:coffee_cake_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,51 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "fdfr": {
+    "frrhps": {
       "type": "heracles:item",
-      "item": "farmersdelight:fried_rice",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdkr": {
-      "type": "heracles:item",
-      "item": "farmersdelight:kelp_roll",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdmr": {
-      "type": "heracles:item",
-      "item": "farmersdelight:mushroom_rice",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdcr0": {
-      "type": "heracles:item",
-      "item": "farmersdelight:cod_roll",
+      "item": "farmersrespite:rose_hip_pie_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -108,26 +66,26 @@
       "text": ""
     },
     "description": [
-      "Sushi and rice offer a great variety of possibilities in the cooking world and sushi wouldn't be what it is without rice!"
+      "These two foods can be placed down and eaten from there or be cut into slices on a cutting board"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -265,
-          100
+          -630,
+          -35
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:kelp_roll",
+        "id": "farmersrespite:coffee_cake",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sushi and Rice Dishes"
+      "translate": "Cake and Pie"
     }
   },
   "settings": {

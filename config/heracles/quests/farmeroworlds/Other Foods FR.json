@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "Kettle"
   ],
   "tasks": {
-    "fdsip": {
+    "frgtc": {
       "type": "heracles:item",
-      "item": "farmersdelight:squid_ink_pasta",
+      "item": "farmersrespite:green_tea_cookie",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdts": {
+    "frbc0": {
       "type": "heracles:item",
-      "item": "farmersdelight:tomato_sauce",
+      "item": "farmersrespite:black_cod",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fdrp": {
+    "frtc": {
       "type": "heracles:item",
-      "item": "farmersdelight:raw_pasta",
+      "item": "farmersrespite:tea_curry",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "fdwd": {
+    "frnws": {
       "type": "heracles:item",
-      "item": "farmersdelight:wheat_dough",
+      "item": "farmersrespite:nether_wart_sourdough",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,51 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "fdpwm": {
+    "frbc": {
       "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_meatballs",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdvn": {
-      "type": "heracles:item",
-      "item": "farmersdelight:vegetable_noodles",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdns": {
-      "type": "heracles:item",
-      "item": "farmersdelight:noodle_soup",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdpwmc": {
-      "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_mutton_chop",
+      "item": "farmersrespite:blazing_chili",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -122,32 +80,26 @@
       "text": ""
     },
     "description": [
-      "There are many ways to cook pasta, but first you will need the raw pasta, it can be made in many ways but cutting wheat dough with a knife on a cutting board is the most efficient way if you want to save ingredients",
-      "<br/>",
-      "<br/>",
-      "Wheat dough can also be made in multiple ways",
-      "<br/>",
-      "<br/>",
-      "You will also want to make some tomato sauce for the more traditional pasta"
+      "These are some foods made with ingredients used to make the teas and coffee"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -265,
-          50
+          -630,
+          35
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:raw_pasta",
+        "id": "farmersrespite:blazing_chili",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Pasta"
+      "translate": "Other Foods"
     }
   },
   "settings": {

@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "The Fish"
   ],
   "tasks": {
-    "fdsip": {
+    "ndscs": {
       "type": "heracles:item",
-      "item": "farmersdelight:squid_ink_pasta",
+      "item": "netherdepthsupgrade:searing_cod_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdts": {
+    "ndmcfs": {
       "type": "heracles:item",
-      "item": "farmersdelight:tomato_sauce",
+      "item": "netherdepthsupgrade:magmacubefish_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fdrp": {
+    "ndgs": {
       "type": "heracles:item",
-      "item": "farmersdelight:raw_pasta",
+      "item": "netherdepthsupgrade:glowdine_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "fdwd": {
+    "ndlps": {
       "type": "heracles:item",
-      "item": "farmersdelight:wheat_dough",
+      "item": "netherdepthsupgrade:lava_pufferfish_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "fdpwm": {
+    "ndbs": {
       "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_meatballs",
+      "item": "netherdepthsupgrade:blazefish_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -73,9 +73,9 @@
         "type": "heracles:item"
       }
     },
-    "fdvn": {
+    "ndss": {
       "type": "heracles:item",
-      "item": "farmersdelight:vegetable_noodles",
+      "item": "netherdepthsupgrade:soulsucker_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -87,23 +87,9 @@
         "type": "heracles:item"
       }
     },
-    "fdns": {
+    "ndos": {
       "type": "heracles:item",
-      "item": "farmersdelight:noodle_soup",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdpwmc": {
-      "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_mutton_chop",
+      "item": "netherdepthsupgrade:obsidianfish_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -122,32 +108,26 @@
       "text": ""
     },
     "description": [
-      "There are many ways to cook pasta, but first you will need the raw pasta, it can be made in many ways but cutting wheat dough with a knife on a cutting board is the most efficient way if you want to save ingredients",
-      "<br/>",
-      "<br/>",
-      "Wheat dough can also be made in multiple ways",
-      "<br/>",
-      "<br/>",
-      "You will also want to make some tomato sauce for the more traditional pasta"
+      "Slicing the fish in a cutting board allows to get more out of them and you will also need these slices for better recipes"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -265,
-          50
+          -580,
+          110
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:raw_pasta",
+        "id": "netherdepthsupgrade:searing_cod_slice",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Pasta"
+      "translate": "Fish Slices"
     }
   },
   "settings": {

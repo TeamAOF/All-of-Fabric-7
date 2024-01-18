@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "The Fish"
   ],
   "tasks": {
-    "fdsip": {
+    "ndgs": {
       "type": "heracles:item",
-      "item": "farmersdelight:squid_ink_pasta",
+      "item": "netherdepthsupgrade:grilled_soulsucker",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdts": {
+    "ndgb": {
       "type": "heracles:item",
-      "item": "farmersdelight:tomato_sauce",
+      "item": "netherdepthsupgrade:grilled_blazefish",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fdrp": {
+    "ndgg": {
       "type": "heracles:item",
-      "item": "farmersdelight:raw_pasta",
+      "item": "netherdepthsupgrade:grilled_glowdine",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "fdwd": {
+    "ndglp": {
       "type": "heracles:item",
-      "item": "farmersdelight:wheat_dough",
+      "item": "netherdepthsupgrade:grilled_lava_pufferfish",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "fdpwm": {
+    "ndgmcf": {
       "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_meatballs",
+      "item": "netherdepthsupgrade:grilled_magmacubefish",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -73,9 +73,9 @@
         "type": "heracles:item"
       }
     },
-    "fdvn": {
+    "ndgsc": {
       "type": "heracles:item",
-      "item": "farmersdelight:vegetable_noodles",
+      "item": "netherdepthsupgrade:grilled_searing_cod",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -87,23 +87,9 @@
         "type": "heracles:item"
       }
     },
-    "fdns": {
+    "ndgo": {
       "type": "heracles:item",
-      "item": "farmersdelight:noodle_soup",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdpwmc": {
-      "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_mutton_chop",
+      "item": "netherdepthsupgrade:grilled_obsidianfish",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -122,32 +108,26 @@
       "text": ""
     },
     "description": [
-      "There are many ways to cook pasta, but first you will need the raw pasta, it can be made in many ways but cutting wheat dough with a knife on a cutting board is the most efficient way if you want to save ingredients",
-      "<br/>",
-      "<br/>",
-      "Wheat dough can also be made in multiple ways",
-      "<br/>",
-      "<br/>",
-      "You will also want to make some tomato sauce for the more traditional pasta"
+      "Grilled fish dishes are a highly nourishing way of preparing your fish"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -265,
-          50
+          -540,
+          110
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:raw_pasta",
+        "id": "netherdepthsupgrade:grilled_searing_cod",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Pasta"
+      "translate": "Grilled Fish"
     }
   },
   "settings": {

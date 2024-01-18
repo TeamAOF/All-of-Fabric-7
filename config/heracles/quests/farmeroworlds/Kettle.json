@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "Farmer's Respite"
+  ],
+  "tasks": {
+    "frk": {
+      "type": "heracles:item",
+      "item": "farmersrespite:kettle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The kettle is your way to make all the drinks, some teas require filling it with water",
+      "<br/>",
+      "<br/>",
+      "The kettles must have a heat source under it, a stove will work perfectly for that"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -585,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersrespite:kettle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kettle"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

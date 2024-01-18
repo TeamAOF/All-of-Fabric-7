@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "The Fish"
   ],
   "tasks": {
-    "fdsip": {
+    "ndbbs": {
       "type": "heracles:item",
-      "item": "farmersdelight:squid_ink_pasta",
+      "item": "netherdepthsupgrade:baked_blazefish_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdts": {
+    "ndbss": {
       "type": "heracles:item",
-      "item": "farmersdelight:tomato_sauce",
+      "item": "netherdepthsupgrade:baked_soulsucker_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fdrp": {
+    "ndbscs": {
       "type": "heracles:item",
-      "item": "farmersdelight:raw_pasta",
+      "item": "netherdepthsupgrade:baked_searing_cod_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "fdwd": {
+    "ndbmcfs": {
       "type": "heracles:item",
-      "item": "farmersdelight:wheat_dough",
+      "item": "netherdepthsupgrade:baked_magmacubefish_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "fdpwm": {
+    "ndbgs": {
       "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_meatballs",
+      "item": "netherdepthsupgrade:baked_glowdine_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -73,9 +73,9 @@
         "type": "heracles:item"
       }
     },
-    "fdvn": {
+    "ndblps": {
       "type": "heracles:item",
-      "item": "farmersdelight:vegetable_noodles",
+      "item": "netherdepthsupgrade:baked_lava_pufferfish_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -87,23 +87,9 @@
         "type": "heracles:item"
       }
     },
-    "fdns": {
+    "ndbos": {
       "type": "heracles:item",
-      "item": "farmersdelight:noodle_soup",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdpwmc": {
-      "type": "heracles:item",
-      "item": "farmersdelight:pasta_with_mutton_chop",
+      "item": "netherdepthsupgrade:baked_obsidianfish_stew",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -122,32 +108,26 @@
       "text": ""
     },
     "description": [
-      "There are many ways to cook pasta, but first you will need the raw pasta, it can be made in many ways but cutting wheat dough with a knife on a cutting board is the most efficient way if you want to save ingredients",
-      "<br/>",
-      "<br/>",
-      "Wheat dough can also be made in multiple ways",
-      "<br/>",
-      "<br/>",
-      "You will also want to make some tomato sauce for the more traditional pasta"
+      "Baked fish stews are another highly nourishing way of preparing your fish, in this case they can only be made with a Create heated mixer"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -265,
-          50
+          -500,
+          110
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:raw_pasta",
+        "id": "netherdepthsupgrade:baked_searing_cod_stew",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Pasta"
+      "translate": "Baked Fish Stew"
     }
   },
   "settings": {
