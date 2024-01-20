@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Kettle"
+    "Mini Fridge"
   ],
   "tasks": {
-    "frgtc": {
+    "bpcs": {
       "type": "heracles:item",
-      "item": "farmersrespite:green_tea_cookie",
+      "item": "beachparty:chocolate_icecream",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc0": {
+    "bpss": {
       "type": "heracles:item",
-      "item": "farmersrespite:black_cod",
+      "item": "beachparty:sweetberry_icecream",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,37 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "frtc": {
+    "bpcs0": {
       "type": "heracles:item",
-      "item": "farmersrespite:tea_curry",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "frnws": {
-      "type": "heracles:item",
-      "item": "farmersrespite:nether_wart_sourdough",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "frbc": {
-      "type": "heracles:item",
-      "item": "farmersrespite:blazing_chili",
+      "item": "beachparty:coconut_icecream",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -80,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "These are some foods made with ingredients used to make the teas and coffee"
+      "Sundaes are made in the mini fridge by combining snow and a second ingredient"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -650,
-          50
+          130,
+          -380
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:blazing_chili",
+        "id": "beachparty:chocolate_icecream",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Other Foods"
+      "translate": "Sundae"
     }
   },
   "settings": {

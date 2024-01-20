@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Kettle"
+    "Cheese Making"
   ],
   "tasks": {
-    "frgtc": {
+    "bccp": {
       "type": "heracles:item",
-      "item": "farmersrespite:green_tea_cookie",
+      "item": "brewinandchewin:cheesy_pasta",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc0": {
+    "bcsp": {
       "type": "heracles:item",
-      "item": "farmersrespite:black_cod",
+      "item": "brewinandchewin:scarlet_pierogies",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "frtc": {
+    "bchl": {
       "type": "heracles:item",
-      "item": "farmersrespite:tea_curry",
+      "item": "brewinandchewin:horror_lasagna",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "frnws": {
+    "bcvo": {
       "type": "heracles:item",
-      "item": "farmersrespite:nether_wart_sourdough",
+      "item": "brewinandchewin:vegetable_omelet",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,23 @@
         "type": "heracles:item"
       }
     },
-    "frbc": {
+    "bchcs": {
       "type": "heracles:item",
-      "item": "farmersrespite:blazing_chili",
+      "item": "brewinandchewin:ham_and_cheese_sandwich",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bccos": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:creamy_onion_soup",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -80,26 +94,26 @@
       "text": ""
     },
     "description": [
-      "These are some foods made with ingredients used to make the teas and coffee"
+      "These are the foods that can be made with the 2 types of cheese but can't be placed down"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -650,
-          50
+          -775,
+          30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:blazing_chili",
+        "id": "brewinandchewin:horror_lasagna",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Other Foods"
+      "translate": "Other Foods BC"
     }
   },
   "settings": {

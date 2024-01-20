@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Kettle"
+    "Mini Fridge"
   ],
   "tasks": {
-    "frgtc": {
+    "bpcacp": {
       "type": "heracles:item",
-      "item": "farmersrespite:green_tea_cookie",
+      "item": "beachparty:icecream_cactus",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc0": {
+    "bpcp": {
       "type": "heracles:item",
-      "item": "farmersrespite:black_cod",
+      "item": "beachparty:icecream_coconut",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "frtc": {
+    "bpsic": {
       "type": "heracles:item",
-      "item": "farmersrespite:tea_curry",
+      "item": "beachparty:icecream_sweetberries",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "frnws": {
+    "bpcic": {
       "type": "heracles:item",
-      "item": "farmersrespite:nether_wart_sourdough",
+      "item": "beachparty:icecream_chocolate",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc": {
+    "bpmp": {
       "type": "heracles:item",
-      "item": "farmersrespite:blazing_chili",
+      "item": "beachparty:icecream_melon",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -80,26 +80,26 @@
       "text": ""
     },
     "description": [
-      "These are some foods made with ingredients used to make the teas and coffee"
+      "Popsicles and ice cream are made in the mini fridge with ice and a second ingredient"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -650,
-          50
+          70,
+          -380
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:blazing_chili",
+        "id": "beachparty:icecream_coconut",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Other Foods"
+      "translate": "Popsicles and Ice Cream"
     }
   },
   "settings": {

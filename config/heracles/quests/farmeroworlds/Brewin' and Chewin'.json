@@ -3,7 +3,7 @@
     "Farmer's Delight"
   ],
   "tasks": {
-    "fr": {
+    "bc": {
       "title": "",
       "icon": {
         "item": {
@@ -21,29 +21,29 @@
       "text": ""
     },
     "description": [
-      "Farmer's Respite is all about tea time, you'll be able to make multiples types of tea and a few treats to eat alongside it",
+      "Brewin' and Chewin' is all about fermenting drinks and food in a keg through a new unique fermentation system",
       "<br/>",
       "<br/>",
-      "This mod also has great Create compatibility so you can make your very own tea and cake assembling facility"
+      "You will be able to make new foods and drinks with some positive effects, but careful not to drink too much!"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
           -640,
-          15
+          -15
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:yellow_tea",
+        "id": "brewinandchewin:tankard",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Farmer's Respite"
+      "translate": "Brewin' and Chewin'"
     }
   },
   "settings": {

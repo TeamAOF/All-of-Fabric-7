@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "Brewin' and Chewin'"
+  ],
+  "tasks": {
+    "bck": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:keg",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The keg is where you will ferment all the new drinks and some foods, the keg has 5 temperatures, every recipe will require a specific one",
+      "<br/>",
+      "<br/>",
+      "/7/Normal/7/ is the default temperature when the keg is placed with nothing surrounding it",
+      "<br/>",
+      "<br/>",
+      "/6/Warm/6/ is achieved by placing hot blocks like magma blocks or lava around the keg in a 3x3x3 area with the keg being the center of the cube, /c/Hot/c/ is achieved by adding even more blocks around the keg",
+      "<br/>",
+      "<br/>",
+      "/b/Cold/b/ is achieved by placing cold blocks like snow or any kind of ice around the keg in a 3x3x3 area with the keg being the center of the cube, /1/Frigid/1/ is achieved by adding even more blocks around the keg",
+      "<br/>",
+      "<br/>",
+      "Biome temperature won't change the temperature of the keg but it will change how many blocks are needed to change the temperature, for example if you are in a desert you will need fewer hot blocks to make it warm but you will need more cold blocks to make it cold"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -685,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:keg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Keg"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Kettle"
+    "The Keg"
   ],
   "tasks": {
-    "frgtc": {
+    "bcfcw": {
       "type": "heracles:item",
-      "item": "farmersrespite:green_tea_cookie",
+      "item": "brewinandchewin:flaxen_cheese_wheel",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc0": {
+    "bcscw": {
       "type": "heracles:item",
-      "item": "farmersrespite:black_cod",
+      "item": "brewinandchewin:scarlet_cheese_wheel",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "frtc": {
+    "bcscws": {
       "type": "heracles:item",
-      "item": "farmersrespite:tea_curry",
+      "item": "brewinandchewin:scarlet_cheese_wedge",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,23 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "frnws": {
+    "bcfcws": {
       "type": "heracles:item",
-      "item": "farmersrespite:nether_wart_sourdough",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "frbc": {
-      "type": "heracles:item",
-      "item": "farmersrespite:blazing_chili",
+      "item": "brewinandchewin:flaxen_cheese_wedge",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -80,26 +66,29 @@
       "text": ""
     },
     "description": [
-      "These are some foods made with ingredients used to make the teas and coffee"
+      "With your new keg you will be able to do more than just drinks, now you can also make 2 new types of cheese, to make them you will need a warm keg, after the cheese is done it must be placed down for it to age, you will know when it's done ageing because it will change it's color, after that it can be cut with a knife or picked up for storage or cutting in a board",
+      "<br/>",
+      "<br/>",
+      "With your cheese now aged and cut you will now be able to start cooking"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -650,
-          50
+          -730,
+          -15
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:blazing_chili",
+        "id": "brewinandchewin:flaxen_cheese_wedge",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Other Foods"
+      "translate": "Cheese Making"
     }
   },
   "settings": {

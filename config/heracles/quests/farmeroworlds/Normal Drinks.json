@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Kettle"
+    "The Keg"
   ],
   "tasks": {
-    "frgtc": {
+    "bcb": {
       "type": "heracles:item",
-      "item": "farmersrespite:green_tea_cookie",
+      "item": "brewinandchewin:beer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc0": {
+    "bcsa": {
       "type": "heracles:item",
-      "item": "farmersrespite:black_cod",
+      "item": "brewinandchewin:strongroot_ale",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "frtc": {
+    "bcv": {
       "type": "heracles:item",
-      "item": "farmersrespite:tea_curry",
+      "item": "brewinandchewin:vodka",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "frnws": {
+    "bcrw": {
       "type": "heracles:item",
-      "item": "farmersrespite:nether_wart_sourdough",
+      "item": "brewinandchewin:rice_wine",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,37 @@
         "type": "heracles:item"
       }
     },
-    "frbc": {
+    "bck": {
       "type": "heracles:item",
-      "item": "farmersrespite:blazing_chili",
+      "item": "brewinandchewin:kombucha",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bceg": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:egg_grog",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcm": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:mead",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -80,26 +108,26 @@
       "text": ""
     },
     "description": [
-      "These are some foods made with ingredients used to make the teas and coffee"
+      "A collection of drinks made at a normal temperature"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -650,
-          50
+          -685,
+          -90
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:blazing_chili",
+        "id": "brewinandchewin:beer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Other Foods"
+      "translate": "Normal Drinks"
     }
   },
   "settings": {

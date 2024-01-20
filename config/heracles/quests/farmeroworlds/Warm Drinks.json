@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Kettle"
+    "The Keg"
   ],
   "tasks": {
-    "frgtc": {
+    "bcpj": {
       "type": "heracles:item",
-      "item": "farmersrespite:green_tea_cookie",
+      "item": "brewinandchewin:pale_jane",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "frbc0": {
+    "bcbm": {
       "type": "heracles:item",
-      "item": "farmersrespite:black_cod",
+      "item": "brewinandchewin:bloody_mary",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,37 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "frtc": {
+    "bcsr": {
       "type": "heracles:item",
-      "item": "farmersrespite:tea_curry",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "frnws": {
-      "type": "heracles:item",
-      "item": "farmersrespite:nether_wart_sourdough",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "frbc": {
-      "type": "heracles:item",
-      "item": "farmersrespite:blazing_chili",
+      "item": "brewinandchewin:saccharine_rum",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -80,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "These are some foods made with ingredients used to make the teas and coffee"
+      "A collection of drinks made with a warm keg"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -650,
-          50
+          -660,
+          -90
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:blazing_chili",
+        "id": "brewinandchewin:saccharine_rum",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Other Foods"
+      "translate": "Warm Drinks"
     }
   },
   "settings": {

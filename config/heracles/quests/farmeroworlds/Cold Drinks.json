@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "The Keg"
   ],
   "tasks": {
-    "fr": {
+    "bcsf": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:salty_folly",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,21 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
+    },
+    "bcgg": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:glittering_grenadine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -21,29 +38,26 @@
       "text": ""
     },
     "description": [
-      "Farmer's Respite is all about tea time, you'll be able to make multiples types of tea and a few treats to eat alongside it",
-      "<br/>",
-      "<br/>",
-      "This mod also has great Create compatibility so you can make your very own tea and cake assembling facility"
+      "A collection of drinks made with a cold keg"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -640,
-          15
+          -710,
+          -90
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:yellow_tea",
+        "id": "brewinandchewin:salty_folly",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Farmer's Respite"
+      "translate": "Cold Drinks"
     }
   },
   "settings": {
