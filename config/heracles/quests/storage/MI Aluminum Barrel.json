@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "MI Steel Barrel"
+  ],
+  "tasks": {
+    "MI Aluminum Barrel Task0": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:aluminum_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "MI Aluminum Barrel Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:aluminum_plate",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<columns template=\"30 40 30\">",
+      "<column valign=\"middle\">",
+      "<p align=\"right\" color=\"#88ffffff\">Bronze</p>",
+      "<p align=\"right\" color=\"#88ffffff\">Steel</p>",
+      "<p align=\"right\" background=\"2 #57b3d1\" color=\"white\">Aluminum</p>",
+      "<p align=\"right\" color=\"#88ffffff\">Stainless</p>",
+      "<p align=\"right\" color=\"#88ffffff\">Titanium</p>",
+      "<p align=\"right\" color=\"#88ffffff\" shadowed=\"true\">Quantum</p>",
+      "</column>",
+      "<column valign=\"middle\">",
+      "<br/>",
+      "<item id=\"modern_industrialization:aluminum_barrel\" scale=\"3\" background=\"4 ghostwhite\" border=\"2 black\"> </item>",
+      "<br/>",
+      "</column>",
+      "<column valign=\"middle\">",
+      "<h2 align=\"left\" background=\"2 ghostwhite\" border=\"1 black\" color=\"red\">MI</h2>",
+      "<br/>",
+      "<p align=\"left\" background=\"2 crimson\" color=\"white\">Barrel</p>",
+      "<p align=\"left\" color=\"lightgray\">Tank</p>",
+      "</column>",
+      "</columns>",
+      "<p align=\"center\" background=\"2 crimson\" color=\"white\">512 stacks</p>",
+      "",
+      "",
+      "--“England and America are two countries separated by the same language.”--",
+      "George Bernard Shaw*",
+      "",
+      "  Having opened a new level of energy production, aluminum is now available to you.",
+      "",
+      "  The good news: with aluminum one can build a stronger barrel or tank for less weight than with steel.",
+      "",
+      "  The bad news: you’re going to fill it with way more stuff anyhow.",
+      "",
+      "---",
+      "<component>{\"text\":\"* Let\\u2019s just call it Al. Okay, Betty?\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://quoteinvestigator.com/2016/04/03/common/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"https://quoteinvestigator.com/2016/04/03/common/\"}}</component>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          220,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:aluminum_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MI Aluminum Barrel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

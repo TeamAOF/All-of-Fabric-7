@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "chest"
+    "TR Industrial Tank Unit"
   ],
   "tasks": {
-    "copper_chest_task": {
+    "TR Quantum Tank Unit Task0": {
       "type": "heracles:item",
-      "item": "ironchests:copper_chest",
+      "item": "techreborn:quantum_tank_unit",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "copper_chest_reward": {
+    "TR Quantum Tank Unit Reward0": {
       "title": "",
       "icon": {
         "item": {
@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_ingot",
+        "id": "techreborn:industrial_machine_frame",
         "count": 1
       },
       "type": "heracles:item"
@@ -40,39 +40,39 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "## &&6Copper&&r Chest",
-      "</column>",
-      "<column>",
-      "<item id=\"ironchests:copper_chest\" scale=\"2\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The copper chest is your first upgrade of the chest tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by.",
-      "<br/>",
-      "---"
+      "<columns template=\"34 24 46\">",
+      "	<column>",
+      "		<p align=\"right\">TechReborn</p>",
+      "		<h2 align=\"right\">Tank Unit</h2>",
+      "	</column>",
+      "	<column valign=\"bottom\">",
+      "		<item id=\"techreborn:quantum_tank_unit\" scale=\"2\" align=\"right\" background=\"5 #88ba55d3\"></item>",
+      "		<p align=\"right\" italic=\"true\" background=\"2 #44ba55d3\" border=\"0 ba55d3\" color=\"#88ba55d3\"> Volume:</p>",
+      "	</column>",
+      "	<column valign=\"bottom\">",
+      "		<h2 align=\"left\" shadowed=\"true\" background=\"2 #44ba55d3\" color=\"#ba55d3\">Quantum</h2>",
+      "		<p align=\"left\" italic=\"true\" background=\"2 #88ba55d3\" color=\"black\"> 2,147,483,000 mB </p>",
+      "	</column>",
+      "</columns>"
     ],
     "groups": {
       "Storage": {
         "position": [
-          0,
-          -180
+          130,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ironchests:copper_chest",
+        "id": "techreborn:quantum_tank_unit",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Copper Chest"
+      "translate": "TR Quantum Tank Unit"
     }
   },
   "settings": {

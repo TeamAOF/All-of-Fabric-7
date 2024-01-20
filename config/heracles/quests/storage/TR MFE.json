@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "TR Battery Box"
+  ],
+  "tasks": {
+    "TR MFE Task0": {
+      "type": "heracles:item",
+      "item": "techreborn:medium_voltage_su",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "TR MFE Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "techreborn:energy_crystal",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<columns template=\"34 24 46\">",
+      "<column>",
+      "<p align=\"right\">TechReborn</p>",
+      "<h2 align=\"right\">Energy Store</h2>",
+      "</column>",
+      "<column valign=\"bottom\">",
+      "<item id=\"techreborn:medium_voltage_su\" scale=\"2\" align=\"right\" background=\"5 #aadc143c\"></item>",
+      "<p align=\"right\" italic=\"true\" background=\"2 #44dc143c\" border=\"0 dc143c\" color=\"#aadc143c\"> max:</p>",
+      "<p align=\"right\" italic=\"true\" background=\"2 #44dc143c\" border=\"0 dc143c\" color=\"#aadc143c\"> rate:</p>",
+      "</column>",
+      "<column valign=\"bottom\">",
+      "<h2 align=\"left\" shadowed=\"true\" background=\"2 #44dc143c\" color=\"#dc143c\">MFE</h2>",
+      "<p align=\"left\" italic=\"true\" background=\"2 #aadc143c\" color=\"black\"> 4M E</p>",
+      "<p align=\"left\" italic=\"true\" background=\"2 #aadc143c\" color=\"black\"> 128 E/t</p>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          170,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:medium_voltage_su",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "TR MFE"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

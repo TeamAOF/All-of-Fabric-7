@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "TR Advanced Tank Unit"
+  ],
+  "tasks": {
+    "TR Industrial Tank Unit Task0": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_tank_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "TR Industrial Tank Unit Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "techreborn:industrial_circuit",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<columns template=\"34 24 46\">",
+      "	<column>",
+      "		<p align=\"right\">TechReborn</p>",
+      "		<h2 align=\"right\">Tank Unit</h2>",
+      "	</column>",
+      "	<column valign=\"bottom\">",
+      "		<item id=\"techreborn:industrial_tank_unit\" scale=\"2\" align=\"right\" background=\"5 #8800ffff\"></item>",
+      "		<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> Volume:</p>",
+      "	</column>",
+      "	<column valign=\"bottom\">",
+      "		<h2 align=\"left\" shadowed=\"true\" background=\"2 #4400ffff\" color=\"#00ffff\">Industrial</h2>",
+      "		<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 1,024,000 mB </p>",
+      "	</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          130,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_tank_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "TR Industrial Tank Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

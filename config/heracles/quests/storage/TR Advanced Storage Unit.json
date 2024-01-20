@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "TR Basic Storage Unit"
+  ],
+  "tasks": {
+    "TR Advanced Storage Unit Task0": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_storage_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "TR Advanced Storage Unit Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "techreborn:basic_storage_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<columns template=\"34 24 46\">",
+      "	<column>",
+      "		<p align=\"right\">TechReborn</p>",
+      "		<h2 align=\"right\">Storage Unit</h2>",
+      "	</column>",
+      "	<column valign=\"bottom\">",
+      "		<item id=\"techreborn:advanced_storage_unit\" scale=\"2\" align=\"right\" background=\"5 #aadc143c\"></item>",
+      "		<p align=\"right\" italic=\"true\" background=\"2 #44dc143c\" border=\"0 dc143c\" color=\"#aadc143c\"> stacks:</p>",
+      "		<p align=\"right\" italic=\"true\" background=\"2 #44dc143c\" border=\"0 dc143c\" color=\"#aadc143c\"> items:</p>",
+      "	</column>",
+      "	<column valign=\"bottom\">",
+      "		<h2 align=\"left\" shadowed=\"true\" background=\"2 #44dc143c\" color=\"#dc143c\">Advanced</h2>",
+      "		<p align=\"left\" italic=\"true\" background=\"2 #aadc143c\" color=\"black\"> 512</p>",
+      "		<p align=\"left\" italic=\"true\" background=\"2 #aadc143c\" color=\"black\"> 32,768</p>",
+      "	</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          90,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:advanced_storage_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "TR Advanced Storage Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

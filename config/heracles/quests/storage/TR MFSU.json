@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "TR MFE"
+  ],
+  "tasks": {
+    "TR MFSU Task0": {
+      "type": "heracles:item",
+      "item": "techreborn:high_voltage_su",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "TR MFSU Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "techreborn:lapotron_crystal",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<columns template=\"34 24 46\">",
+      "<column>",
+      "<p align=\"right\">TechReborn</p>",
+      "<h2 align=\"right\">Energy Store</h2>",
+      "</column>",
+      "<column valign=\"bottom\">",
+      "<item id=\"techreborn:high_voltage_su\" scale=\"2\" align=\"right\" background=\"5 #8800ffff\"></item>",
+      "<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> max:</p>",
+      "<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> rate:</p>",
+      "</column>",
+      "<column valign=\"bottom\">",
+      "<h2 align=\"left\" shadowed=\"true\" background=\"2 #4400ffff\" color=\"#00ffff\">MFSU</h2>",
+      "<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 40M E</p>",
+      "<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 512 E/t</p>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          170,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:high_voltage_su",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "TR MFSU"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
