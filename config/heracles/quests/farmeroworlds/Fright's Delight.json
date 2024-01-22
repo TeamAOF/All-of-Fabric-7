@@ -3,7 +3,7 @@
     "Farmer's Delight"
   ],
   "tasks": {
-    "fr": {
+    "fd": {
       "title": "",
       "icon": {
         "item": {
@@ -21,29 +21,29 @@
       "text": ""
     },
     "description": [
-      "Farmer's Respite is all about tea time, you'll be able to make multiples types of tea and a few treats to eat alongside it",
+      "Tired of dealing with hostile mobs? Have an excess of their loot? Well now you can eat their remains out of pure spite! Certainly it can't be unhealthy, right?",
       "<br/>",
       "<br/>",
-      "This mod also has great Create compatibility so you can make your very own tea and cake assembling facility"
+      "You will also be able to use Create for these recipes"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -640,
-          15
+          -445,
+          40
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:yellow_tea",
+        "id": "minecraft:ghast_tear",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Farmer's Respite"
+      "translate": "Fright's Delight"
     }
   },
   "settings": {

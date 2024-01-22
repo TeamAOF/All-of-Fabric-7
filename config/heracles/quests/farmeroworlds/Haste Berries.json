@@ -1,9 +1,13 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "Berries Assemble"
   ],
   "tasks": {
-    "fr": {
+    "sbhb": {
+      "type": "heracles:item",
+      "item": "strangeberries:haste_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
@@ -11,8 +15,7 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "type": "heracles:check"
+      }
     }
   },
   "rewards": {},
@@ -21,29 +24,26 @@
       "text": ""
     },
     "description": [
-      "Farmer's Respite is all about tea time, you'll be able to make multiples types of tea and a few treats to eat alongside it",
-      "<br/>",
-      "<br/>",
-      "This mod also has great Create compatibility so you can make your very own tea and cake assembling facility"
+      "Found underground, grows on stone"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -640,
-          15
+          -325,
+          185
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersrespite:yellow_tea",
+        "id": "strangeberries:haste_berries",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Farmer's Respite"
+      "translate": "Haste Berries"
     }
   },
   "settings": {
