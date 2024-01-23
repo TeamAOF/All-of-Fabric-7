@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Croptopia1"
+    "Cooking for Blockheads"
   ],
   "tasks": {
-    "cf": {
+    "cfbct": {
       "type": "heracles:item",
-      "item": "croptopia:olive_oil",
+      "item": "cookingforblockheads:cooking_table",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "cf14": {
+    "cfbcj": {
       "type": "heracles:item",
-      "item": "croptopia:fish_and_chips",
+      "item": "cookingforblockheads:cow_jar",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "cf12": {
+    "cfbkc": {
       "type": "heracles:item",
-      "item": "croptopia:stir_fry",
+      "item": "cookingforblockheads:counter",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "cf13": {
+    "cfbpu": {
       "type": "heracles:item",
-      "item": "croptopia:egg_roll",
+      "item": "cookingforblockheads:preservation_chamber",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "cf0": {
+    "cfbkf": {
       "type": "heracles:item",
-      "item": "croptopia:kale_chips",
+      "item": "cookingforblockheads:white_kitchen_floor",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -73,9 +73,9 @@
         "type": "heracles:item"
       }
     },
-    "cf10": {
+    "cfbf": {
       "type": "heracles:item",
-      "item": "croptopia:butter",
+      "item": "cookingforblockheads:fridge",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -87,9 +87,9 @@
         "type": "heracles:item"
       }
     },
-    "cf11": {
+    "cfbs": {
       "type": "heracles:item",
-      "item": "croptopia:beef_stir_fry",
+      "item": "cookingforblockheads:sink",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -101,9 +101,9 @@
         "type": "heracles:item"
       }
     },
-    "cf2": {
+    "cfbt": {
       "type": "heracles:item",
-      "item": "croptopia:french_fries",
+      "item": "cookingforblockheads:toaster",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -115,9 +115,9 @@
         "type": "heracles:item"
       }
     },
-    "cf1": {
+    "cfbfu": {
       "type": "heracles:item",
-      "item": "croptopia:potato_chips",
+      "item": "cookingforblockheads:ice_unit",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -129,9 +129,9 @@
         "type": "heracles:item"
       }
     },
-    "cf4": {
+    "cfbo": {
       "type": "heracles:item",
-      "item": "croptopia:onion_rings",
+      "item": "cookingforblockheads:oven",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -143,79 +143,9 @@
         "type": "heracles:item"
       }
     },
-    "cf3": {
+    "cfbtr": {
       "type": "heracles:item",
-      "item": "croptopia:sweet_potato_fries",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cf6": {
-      "type": "heracles:item",
-      "item": "croptopia:deep_fried_shrimp",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cf5": {
-      "type": "heracles:item",
-      "item": "croptopia:fried_chicken",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cf8": {
-      "type": "heracles:item",
-      "item": "croptopia:dauphine_potatoes",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cf7": {
-      "type": "heracles:item",
-      "item": "croptopia:fried_calamari",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "cf9": {
-      "type": "heracles:item",
-      "item": "croptopia:hashed_brown",
+      "item": "cookingforblockheads:tool_rack",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -234,26 +164,45 @@
       "text": ""
     },
     "description": [
-      "It seems like the unhealthyness of food is directly proportional to it's tastyness"
+      "The multiblock kitchen is a collection of blocks that all serve a function, they should all be connected to each other to allow using all of them",
+      "<br/>",
+      "<br/>",
+      "The cooking table is the heart of your kitchen, it's where you place the cooking books and where you can see what can be made and then make the food",
+      "<br/>",
+      "The sink is a source of water for your recipes",
+      "<br/>",
+      "The kitchen counter is a storage for ingredients, what's inside of them can be used in the cooking table",
+      "<br/>",
+      "The tool rack is used for storing the cooking utensils necessary for many recipes and allowing the cooking table to use them",
+      "<br/>",
+      "The toaster allows to turn bread into toast for free, who would have thought?",
+      "<br/>",
+      "The cow in a jar is a very useful block, it provides milk for recipes and slowly generates infinite milk, to get one you must make a milk jar, make a cow stand on top of it and drop an anvil on it",
+      "<br/>",
+      "The fridge is a storage block that can be made 2 blocks tall, what is unique about it is that it can be upgraded to provide snow and ice and to not use the last item of a kind",
+      "<br/>",
+      "The kitchen floor is the traditional kind of floor found in a kitchen it also allows connecting things in opposite walls in a more subtle way",
+      "<br/>",
+      "The oven is a more efficient and stylish alternative to your old furnace, the oven allows cooking multiple items at once thus being faster and more fuel efficient, the cooking table will also cook things when you chose a recipe there"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          125,
-          200
+          -90,
+          -95
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "croptopia:olive_oil",
+        "id": "cookingforblockheads:cooking_table",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Fried Foods"
+      "translate": "Multiblock Kitchen"
     }
   },
   "settings": {

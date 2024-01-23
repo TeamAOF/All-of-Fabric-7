@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Berries Assemble"
+    "Farming for Blockheads"
   ],
   "tasks": {
-    "sbhb": {
+    "ffbm": {
       "type": "heracles:item",
-      "item": "strangeberries:haste_berries",
+      "item": "farmingforblockheads:market",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -24,26 +24,26 @@
       "text": ""
     },
     "description": [
-      "Found underground, grows on stone"
+      "A place for all your crop and tree needs, all sorts of seeds and saplings can be bought here for the low price of one emerald"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -325,
-          185
+          -20,
+          -135
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "strangeberries:haste_berries",
+        "id": "farmingforblockheads:market",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Haste Berries"
+      "translate": "Market"
     }
   },
   "settings": {

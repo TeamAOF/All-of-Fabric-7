@@ -1,13 +1,9 @@
 {
   "dependencies": [
-    "Berries Assemble"
+    "Cooking for Blockheads"
   ],
   "tasks": {
-    "sbhb": {
-      "type": "heracles:item",
-      "item": "strangeberries:haste_berries",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "ffb": {
       "title": "",
       "icon": {
         "item": {
@@ -15,7 +11,8 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {},
@@ -24,26 +21,26 @@
       "text": ""
     },
     "description": [
-      "Found underground, grows on stone"
+      "To cook one must first farm, these are a few utilities to help you gather ingredients for your cooking"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -325,
-          185
+          -35,
+          -110
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "strangeberries:haste_berries",
+        "id": "farmingforblockheads:green_fertilizer",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Haste Berries"
+      "translate": "Farming for Blockheads"
     }
   },
   "settings": {

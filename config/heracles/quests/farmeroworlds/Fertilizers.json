@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Feasts for a King"
+    "Farming for Blockheads"
   ],
   "tasks": {
-    "fdh": {
+    "ffbgf": {
       "type": "heracles:item",
-      "item": "farmersdelight:ham",
+      "item": "farmingforblockheads:green_fertilizer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdsh": {
+    "ffbyf": {
       "type": "heracles:item",
-      "item": "farmersdelight:smoked_ham",
+      "item": "farmingforblockheads:yellow_fertilizer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,23 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fdhgh": {
+    "ffbrf": {
       "type": "heracles:item",
-      "item": "farmersdelight:honey_glazed_ham_block",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdhghb": {
-      "type": "heracles:item",
-      "item": "farmersdelight:honey_glazed_ham",
+      "item": "farmingforblockheads:red_fertilizer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -66,26 +52,33 @@
       "text": ""
     },
     "description": [
-      "Can fill up to 4 bowls, ham is obtained by killing pigs or hoglins with a knife, it can only be cooked in a smoker"
+      "Fertilizers help your crops",
+      "<br/>",
+      "<br/>",
+      "/a/Green/a/ fertilizer makes crops give more produce than normal",
+      "<br/>",
+      "/c/Red/c/ fertilizer makes crops grow faster",
+      "<br/>",
+      "/e/Yellow/e/ fertilizer prevents crops from being destroyed when someone jumps in them, it can also be mixed with one of the other fertilizers"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -415,
-          -85
+          -50,
+          -135
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:honey_glazed_ham_block",
+        "id": "farmingforblockheads:red_fertilizer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Honey Glazed Ham"
+      "translate": "Fertilizers"
     }
   },
   "settings": {

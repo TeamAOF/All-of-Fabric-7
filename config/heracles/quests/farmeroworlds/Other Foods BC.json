@@ -31,20 +31,6 @@
         "type": "heracles:item"
       }
     },
-    "bchl": {
-      "type": "heracles:item",
-      "item": "brewinandchewin:horror_lasagna",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "bcvo": {
       "type": "heracles:item",
       "item": "brewinandchewin:vegetable_omelet",
@@ -76,6 +62,20 @@
     "bccos": {
       "type": "heracles:item",
       "item": "brewinandchewin:creamy_onion_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bchl": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:horror_lasagna",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -121,6 +121,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

@@ -1,0 +1,546 @@
+{
+  "dependencies": [
+    "An Introduction"
+  ],
+  "tasks": {
+    "bc": {
+      "type": "heracles:item",
+      "item": "blockus:beetroot_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cobc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:web_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gcc": {
+      "type": "heracles:item",
+      "item": "blockus:golden_carrot_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bonec": {
+      "type": "heracles:item",
+      "item": "frightsdelight:bone_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pmc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:phantom_crate",
+      "amount": 100,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gac": {
+      "type": "heracles:item",
+      "item": "blockus:golden_apple_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bo": {
+      "type": "heracles:item",
+      "item": "bakery:oat_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "sc": {
+      "type": "heracles:item",
+      "item": "blockus:salmon_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bche": {
+      "type": "heracles:item",
+      "item": "vinery:cherry_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bc2": {
+      "type": "heracles:item",
+      "item": "farmersdelight:beetroot_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "sec": {
+      "type": "heracles:item",
+      "item": "frightsdelight:spider_eye_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bs": {
+      "type": "heracles:item",
+      "item": "bakery:strawberry_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "wgc": {
+      "type": "heracles:item",
+      "item": "nethervinery:warped_grape_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc2": {
+      "type": "heracles:item",
+      "item": "farmersdelight:carrot_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "oc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:onion_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bpg": {
+      "type": "heracles:item",
+      "item": "vinery:red_grape_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "potc": {
+      "type": "heracles:item",
+      "item": "blockus:potato_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fsec": {
+      "type": "heracles:item",
+      "item": "frightsdelight:fermented_spider_eye_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pc2": {
+      "type": "heracles:item",
+      "item": "farmersdelight:potato_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cc": {
+      "type": "heracles:item",
+      "item": "blockus:cod_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rtc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:rotten_tomato_crate",
+      "amount": 100,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfc": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ac": {
+      "type": "heracles:item",
+      "item": "blockus:apple_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ppc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:poisonous_potato_crate",
+      "amount": 100,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "carrc": {
+      "type": "heracles:item",
+      "item": "blockus:carrot_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gbc": {
+      "type": "heracles:item",
+      "item": "blockus:glow_berries_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "tc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "tfc": {
+      "type": "heracles:item",
+      "item": "blockus:tropical_fish_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cabc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice_bag",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pc": {
+      "type": "heracles:item",
+      "item": "blockus:pufferfish_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bwg": {
+      "type": "heracles:item",
+      "item": "vinery:white_grape_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "sbc": {
+      "type": "heracles:item",
+      "item": "blockus:sweet_berries_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:flesh_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cgc": {
+      "type": "heracles:item",
+      "item": "nethervinery:crimson_grape_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ba": {
+      "type": "heracles:item",
+      "item": "vinery:apple_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Farming by hand is a thing of the past, for this challenge you will most likely want to find some way to automate farming, show everyone what a true farmer can achieve"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          35,
+          -115
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "blockus:sweet_berries_crate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Industrial Farming"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
