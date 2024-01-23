@@ -1,11 +1,25 @@
 {
   "dependencies": [
-    "Wine ageing"
+    "Farming for Blockheads"
   ],
   "tasks": {
-    "vcw": {
+    "ffbft": {
       "type": "heracles:item",
-      "item": "vinery:cherry_wine",
+      "item": "farmingforblockheads:feeding_trough",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ffben": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:chicken_nest",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -24,26 +38,28 @@
       "text": ""
     },
     "description": [
-      "Gives regeneration"
+      "Chicken nests are an easy way to collect eggs",
+      "<br/>",
+      "Feeding troughs are an easy way to breed animals"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          210,
-          -245
+          -35,
+          -160
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:cherry_wine",
+        "id": "farmingforblockheads:chicken_nest",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cherry Wine"
+      "translate": "Animal Husbandry"
     }
   },
   "settings": {

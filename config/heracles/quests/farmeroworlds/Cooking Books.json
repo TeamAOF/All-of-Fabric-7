@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Bakery"
+    "Cooking for Blockheads"
   ],
   "tasks": {
-    "bsgc0": {
+    "cfbcfb2": {
       "type": "heracles:item",
-      "item": "bakery:sweetberry_glazed_cookie",
+      "item": "cookingforblockheads:crafting_book",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bsgc": {
+    "cfbcfb1": {
       "type": "heracles:item",
-      "item": "bakery:strawberry_glazed_cookie",
+      "item": "cookingforblockheads:recipe_book",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "bcgc": {
+    "cfbcfb": {
       "type": "heracles:item",
-      "item": "bakery:chocolate_glazed_cookie",
+      "item": "cookingforblockheads:no_filter_edition",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -52,26 +52,35 @@
       "text": ""
     },
     "description": [
-      "A collection of cookies, these can't be placed"
+      "Cooking for Blockheads I allows to see what foods can be made with what ingredients you have",
+      "<br/>",
+      "<br/>",
+      "Cooking for blockheads II allows to see and craft what foods can be made with what ingredients you have",
+      "<br/>",
+      "<br/>",
+      "Cooking for blockheads allows to see all recipes and to craft those that you have ingredients for, it is the ultimate cooking book",
+      "<br/>",
+      "<br/>",
+      "The best use for these books is to place them on the cooking table, this will allow to see what can be made with every block of your kitchen and even cook those foods"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -193,
-          -240
+          -90,
+          -65
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bakery:strawberry_glazed_cookie",
+        "id": "cookingforblockheads:no_filter_edition",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cookies"
+      "translate": "Cooking Books"
     }
   },
   "settings": {

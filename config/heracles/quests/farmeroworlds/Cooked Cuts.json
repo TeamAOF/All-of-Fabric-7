@@ -3,48 +3,6 @@
     "Ingredient Duplication"
   ],
   "tasks": {
-    "fdccc": {
-      "type": "heracles:item",
-      "item": "farmersdelight:cooked_chicken_cuts",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdccs": {
-      "type": "heracles:item",
-      "item": "farmersdelight:cooked_cod_slice",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdcss": {
-      "type": "heracles:item",
-      "item": "farmersdelight:cooked_salmon_slice",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "fdcb": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_bacon",
@@ -76,6 +34,48 @@
     "fdcmc": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_mutton_chops",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdccc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_chicken_cuts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdccs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_cod_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdcss": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_salmon_slice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -121,6 +121,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

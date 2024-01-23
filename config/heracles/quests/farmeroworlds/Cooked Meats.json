@@ -3,20 +3,6 @@
     "Meats and Dragon Drops"
   ],
   "tasks": {
-    "edrdmc": {
-      "type": "heracles:item",
-      "item": "ends_delight:roasted_dragon_meat_cuts",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "edsdl": {
       "type": "heracles:item",
       "item": "ends_delight:smoked_dragon_leg",
@@ -86,6 +72,20 @@
         },
         "type": "heracles:item"
       }
+    },
+    "edrdmc": {
+      "type": "heracles:item",
+      "item": "ends_delight:roasted_dragon_meat_cuts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -124,6 +124,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

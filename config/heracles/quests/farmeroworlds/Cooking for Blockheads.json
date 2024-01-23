@@ -1,13 +1,9 @@
 {
   "dependencies": [
-    "Wine ageing"
+    "An Introduction"
   ],
   "tasks": {
-    "vcw": {
-      "type": "heracles:item",
-      "item": "vinery:cherry_wine",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "cfb": {
       "title": "",
       "icon": {
         "item": {
@@ -15,7 +11,8 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {},
@@ -24,26 +21,26 @@
       "text": ""
     },
     "description": [
-      "Gives regeneration"
+      "The journey of a professional chef isn't an easy one, these things will aid you in your cooking journey"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          210,
-          -245
+          -35,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:cherry_wine",
+        "id": "cookingforblockheads:recipe_book",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Cherry Wine"
+      "translate": "Cooking for Blockheads"
     }
   },
   "settings": {

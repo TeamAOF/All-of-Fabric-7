@@ -104,7 +104,7 @@
       "Farmer O' Worlds": {
         "position": [
           -105,
-          -130
+          -140
         ]
       }
     },
@@ -125,6 +125,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }
