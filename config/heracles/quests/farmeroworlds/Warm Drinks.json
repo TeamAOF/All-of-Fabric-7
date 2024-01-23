@@ -3,9 +3,9 @@
     "The Keg"
   ],
   "tasks": {
-    "bcpj": {
+    "bcbm": {
       "type": "heracles:item",
-      "item": "brewinandchewin:pale_jane",
+      "item": "brewinandchewin:bloody_mary",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bcbm": {
+    "bcpj": {
       "type": "heracles:item",
-      "item": "brewinandchewin:bloody_mary",
+      "item": "brewinandchewin:pale_jane",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -79,6 +79,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

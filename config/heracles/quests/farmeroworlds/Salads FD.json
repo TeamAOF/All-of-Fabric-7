@@ -3,6 +3,20 @@
     "Farmer's Delight"
   ],
   "tasks": {
+    "fdms": {
+      "type": "heracles:item",
+      "item": "farmersdelight:mixed_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "fdfs": {
       "type": "heracles:item",
       "item": "farmersdelight:fruit_salad",
@@ -20,20 +34,6 @@
     "fdns": {
       "type": "heracles:item",
       "item": "farmersdelight:nether_salad",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "fdms": {
-      "type": "heracles:item",
-      "item": "farmersdelight:mixed_salad",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -71,7 +71,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Salads FD"
+      "translate": "Salads"
     }
   },
   "settings": {
@@ -79,6 +79,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

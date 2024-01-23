@@ -20,9 +20,9 @@
         "type": "heracles:item"
       }
     },
-    "bpbh": {
+    "bpc": {
       "type": "heracles:item",
-      "item": "beachparty:beach_hat",
+      "item": "beachparty:crocs",
       "nbt": {
         "Damage": 0
       },
@@ -37,9 +37,26 @@
         "type": "heracles:item"
       }
     },
-    "bpc": {
+    "bpb": {
       "type": "heracles:item",
-      "item": "beachparty:crocs",
+      "item": "beachparty:bikini",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bpbh": {
+      "type": "heracles:item",
+      "item": "beachparty:beach_hat",
       "nbt": {
         "Damage": 0
       },
@@ -74,23 +91,6 @@
     "bpsw": {
       "type": "heracles:item",
       "item": "beachparty:swim_wings",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "bpb": {
-      "type": "heracles:item",
-      "item": "beachparty:bikini",
       "nbt": {
         "Damage": 0
       },
@@ -142,6 +142,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

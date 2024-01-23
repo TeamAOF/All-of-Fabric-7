@@ -141,7 +141,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Soups and Stews FD"
+      "translate": "Soups and Stews"
     }
   },
   "settings": {
@@ -149,6 +149,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }
