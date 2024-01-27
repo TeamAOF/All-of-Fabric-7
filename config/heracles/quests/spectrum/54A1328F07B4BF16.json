@@ -1,33 +1,50 @@
 {
-  "settings": {
-    "hidden": true
-  },
   "dependencies": [
     "723E1C665A781C52"
   ],
   "tasks": {
     "702FE6C32B80A53E": {
       "type": "heracles:item",
-      "item": "spectrum:blue_pigment"
+      "item": "spectrum:blue_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "5A66493F068AF4E8": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Magic Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: spectrum:blue_pigment",
+    "subtitle": {
+      "translate": "Safety"
+    },
     "description": [
       "<h2>Safety</h2>",
       "<hr/>",
@@ -36,13 +53,6 @@
       "<hr/>",
       "<reward reward=\"5A66493F068AF4E8\" quest=\"54A1328F07B4BF16\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "spectrum:blue_pigment"
-    },
-    "subtitle": {
-      "text": "Safety"
-    },
     "groups": {
       "Spectrum": {
         "position": [
@@ -50,6 +60,24 @@
           144
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:blue_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:blue_pigment"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
   }
 }
