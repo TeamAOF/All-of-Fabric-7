@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "3A53CED5C9ABC06B"
+  ],
+  "tasks": {
+    "36D473C7A3DA8BED": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:collect_quitoxic_reeds"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "22298DA3917D7B1B": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eSwamped"
+    },
+    "description": [
+      "<h2>&&eSwamped</h2>",
+      "<hr/>",
+      "<task task=\"36D473C7A3DA8BED\" quest=\"24C70DAB3F66ECB2\"/>",
+      "<hr/>",
+      "After constructing the &&bSpectrum Focus&&r, it has releaved &&ba plant&&r that was hidden from you. &&6Venture into the swamps and find it&&r!",
+      "<hr/>",
+      "<reward reward=\"22298DA3917D7B1B\" quest=\"24C70DAB3F66ECB2\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          144,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:quitoxic_reeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Toxic Reeds!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

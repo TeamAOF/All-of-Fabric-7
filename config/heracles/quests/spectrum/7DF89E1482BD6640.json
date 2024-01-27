@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "096D77E6F44B5D27"
+  ],
+  "tasks": {
+    "5D761BA4099F131F": {
+      "type": "heracles:item",
+      "item": "spectrum:lesser_potion_pendant"
+    }
+  },
+  "rewards": {
+    "2E55D0C92428E863": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Potioneering",
+    "description": [
+      "<h2>&&ePotent Pendant</h2>",
+      "<hr/>",
+      "<task task=\"5D761BA4099F131F\" quest=\"7DF89E1482BD6640\"/>",
+      "<hr/>",
+      "Can be &&6filled&&r in the &&bPotion Workshop&&r with one effect up to Level III. When worn, the Pendant constantly applies that effect.",
+      "<br/>",
+      "&&7&&oHow useful!&&r",
+      "<hr/>",
+      "<reward reward=\"2E55D0C92428E863\" quest=\"7DF89E1482BD6640\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:lesser_potion_pendant"
+    },
+    "subtitle": {
+      "text": "§ePotent Pendant"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          416,
+          192
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "6F43CAFE8DFC15D4"
+  ],
+  "tasks": {
+    "137C97DDFF7B6C75": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:enter_wireless_redstone_preservation_ruin"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "37116783B941E4D3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eShort Wired"
+    },
+    "description": [
+      "<h2>&&eShort Wired</h2>",
+      "<hr/>",
+      "<task task=\"137C97DDFF7B6C75\" quest=\"2E12C8D6A35B7405\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"37116783B941E4D3\" quest=\"2E12C8D6A35B7405\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          112,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bedrock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ruin #3"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

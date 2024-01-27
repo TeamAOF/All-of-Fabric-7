@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "013FC32A48DE8E39",
+    "2B9252657949C67E",
+    "782330BECD66EFD5",
+    "2B486D1AE4A59F73",
+    "723E1C665A781C52",
+    "1F17B62A67347D61",
+    "5008ED129CAE4EED",
+    "54A1328F07B4BF16",
+    "1FCEEFE4A3804DEF",
+    "4451D4AA7CB1BFF2",
+    "0777D896D81DEA4A",
+    "64CFFA9B0256E062"
+  ],
+  "tasks": {
+    "4D844E1A8EE700CD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:collect_all_basic_pigments_besides_brown"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "112EDB9BFCE2DEB9": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eBrown is weird, and needs something darker to create"
+    },
+    "description": [
+      "<h2>&&eBrown is weird, and needs something darker to create</h2>",
+      "<hr/>",
+      "<task task=\"4D844E1A8EE700CD\" quest=\"4C06D25DACB5536C\"/>",
+      "<hr/>",
+      "&&6Collect&&r 11 colors of &&bpigment&&r.",
+      "<br/>",
+      "Colored Trees can now be seen in the world, or you can craft the saplings.",
+      "<hr/>",
+      "<reward reward=\"112EDB9BFCE2DEB9\" quest=\"4C06D25DACB5536C\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          208,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:creative_ink_assortment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pigment from colored leaves"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

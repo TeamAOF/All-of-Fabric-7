@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "0A895BEB210EA39C",
+    "00CE2107C6C46BE1"
+  ],
+  "tasks": {
+    "5F72EAFC2DFD5EA3": {
+      "type": "heracles:item",
+      "item": "spectrumjetpacks:gemstone_jetpack"
+    }
+  },
+  "rewards": {
+    "4B0743F9466B8A02": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "I Dream of Flying",
+    "description": [
+      "<h2>&&eTo the Sky!</h2>",
+      "<hr/>",
+      "<task task=\"5F72EAFC2DFD5EA3\" quest=\"503381C10054E786\"/>",
+      "<hr/>",
+      "The &&bGemstone Jetpack&&r runs on purple Ink. You can &&6ascend&&r, you can &&6hover&&r, and if you sprint while it's active you'll be granted a massive &&6horizontal movement boost&&r.",
+      "<br/>",
+      "&&7&&oJust try not to run out of Ink while high above the ground.&&r",
+      "<hr/>",
+      "<reward reward=\"4B0743F9466B8A02\" quest=\"503381C10054E786\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrumjetpacks:gemstone_jetpack"
+    },
+    "subtitle": {
+      "text": "§eTo the Sky!"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          304,
+          192
+        ]
+      }
+    }
+  }
+}

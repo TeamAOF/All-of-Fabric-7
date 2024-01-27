@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "0F1F9332DAD957D0": {
+      "type": "heracles:item",
+      "item": "spectrum:magenta_pigment"
+    }
+  },
+  "rewards": {
+    "6AB6455A817BC717": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:magenta_pigment",
+    "description": [
+      "<h2>Time</h2>",
+      "<hr/>",
+      "<task task=\"0F1F9332DAD957D0\" quest=\"0777D896D81DEA4A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6AB6455A817BC717\" quest=\"0777D896D81DEA4A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:magenta_pigment"
+    },
+    "subtitle": {
+      "text": "Time"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          208
+        ]
+      }
+    }
+  }
+}

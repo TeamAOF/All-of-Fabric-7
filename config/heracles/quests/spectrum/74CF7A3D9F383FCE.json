@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "16AFA6ABBF50A54C"
+  ],
+  "tasks": {
+    "1297F806C14F7457": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/open_deeper_down_portal"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "00C4B5B0227CC783": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/legendary",
+          "Name": "Magic Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eOpen a Portal... Deeper Down"
+    },
+    "description": [
+      "<h2>&&eOpen a Portal... Deeper Down</h2>",
+      "<hr/>",
+      "<task task=\"1297F806C14F7457\" quest=\"74CF7A3D9F383FCE\"/>",
+      "<hr/>",
+      "Find out was lies beneath the once impenetrable Bedrock Floor",
+      "<hr/>",
+      "<reward reward=\"00C4B5B0227CC783\" quest=\"74CF7A3D9F383FCE\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          672,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bedrock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Abyssmal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

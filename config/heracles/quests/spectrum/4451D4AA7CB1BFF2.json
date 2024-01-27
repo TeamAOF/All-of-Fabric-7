@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "6CB63845CBBC2DF2": {
+      "type": "heracles:item",
+      "item": "spectrum:purple_pigment"
+    }
+  },
+  "rewards": {
+    "48C1624D5630437F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:purple_pigment",
+    "description": [
+      "<h2>Wisdom</h2>",
+      "<hr/>",
+      "<task task=\"6CB63845CBBC2DF2\" quest=\"4451D4AA7CB1BFF2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"48C1624D5630437F\" quest=\"4451D4AA7CB1BFF2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:purple_pigment"
+    },
+    "subtitle": {
+      "text": "Wisdom"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          240
+        ]
+      }
+    }
+  }
+}

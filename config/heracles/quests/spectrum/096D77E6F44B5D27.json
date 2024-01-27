@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "6ACFFCD1F7A32369"
+  ],
+  "tasks": {
+    "2C208478C426FD62": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "spectrum:midgame/brew_powerful_potion_in_potion_workshop"
+      ]
+    }
+  },
+  "rewards": {
+    "1AC3FCC19C2F9E71": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/legendary",
+          "Name": "Magic Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Pigment Potion Mastery",
+    "description": [
+      "<h2>&&ePleasant on the Finish</h2>",
+      "<hr/>",
+      "<task task=\"2C208478C426FD62\" quest=\"096D77E6F44B5D27\"/>",
+      "<hr/>",
+      "&&6Use&&r the &&bPotion Workshop&&r to craft a potion with a &&bLevel IV effect&&r.",
+      "<hr/>",
+      "<reward reward=\"1AC3FCC19C2F9E71\" quest=\"096D77E6F44B5D27\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:potion"
+    },
+    "subtitle": {
+      "text": "§ePleasant on the Finish"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          416,
+          144
+        ]
+      }
+    }
+  }
+}

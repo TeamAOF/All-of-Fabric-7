@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "3CE56A94BB668E9C": {
+      "type": "heracles:item",
+      "item": "spectrum:cyan_pigment"
+    }
+  },
+  "rewards": {
+    "3D3EE1547BB25AC9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:cyan_pigment",
+    "description": [
+      "<h2>Matter</h2>",
+      "<hr/>",
+      "<task task=\"3CE56A94BB668E9C\" quest=\"013FC32A48DE8E39\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3D3EE1547BB25AC9\" quest=\"013FC32A48DE8E39\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:cyan_pigment"
+    },
+    "subtitle": {
+      "text": "Matter"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          208
+        ]
+      }
+    }
+  }
+}

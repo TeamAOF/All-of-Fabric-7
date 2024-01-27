@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "2B9ADBDF75721934": {
+      "type": "heracles:item",
+      "item": "spectrum:lime_pigment"
+    }
+  },
+  "rewards": {
+    "4FE8B8DAED17C80F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:lime_pigment",
+    "description": [
+      "<h2>Happiness</h2>",
+      "<hr/>",
+      "<task task=\"2B9ADBDF75721934\" quest=\"64CFFA9B0256E062\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4FE8B8DAED17C80F\" quest=\"64CFFA9B0256E062\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:lime_pigment"
+    },
+    "subtitle": {
+      "text": "Happiness"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          80
+        ]
+      }
+    }
+  }
+}

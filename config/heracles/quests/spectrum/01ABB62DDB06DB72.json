@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "69700EE38D87B3AE"
+  ],
+  "tasks": {
+    "186E2D6E480931BB": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_all_cookbooks"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "7B61C5217AE7E732": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/legendary",
+          "Name": "Magic Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eFind all the Cook Books of the culture that is long gone"
+    },
+    "description": [
+      "<h2>&&eFind all the Cook Books of the culture that is long gone</h2>",
+      "<hr/>",
+      "<task task=\"186E2D6E480931BB\" quest=\"01ABB62DDB06DB72\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7B61C5217AE7E732\" quest=\"01ABB62DDB06DB72\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:imbrifer_cookbook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Yet Another's Requim"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

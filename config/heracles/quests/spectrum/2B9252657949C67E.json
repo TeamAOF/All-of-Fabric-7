@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "7BEE98CD23CC9844": {
+      "type": "heracles:item",
+      "item": "spectrum:pink_pigment"
+    }
+  },
+  "rewards": {
+    "28B3D25F541BBD97": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:pink_pigment",
+    "description": [
+      "<h2>Health</h2>",
+      "<hr/>",
+      "<task task=\"7BEE98CD23CC9844\" quest=\"2B9252657949C67E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"28B3D25F541BBD97\" quest=\"2B9252657949C67E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:pink_pigment"
+    },
+    "subtitle": {
+      "text": "Health"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          176
+        ]
+      }
+    }
+  }
+}

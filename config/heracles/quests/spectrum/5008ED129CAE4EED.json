@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "4D330581B9875B00": {
+      "type": "heracles:item",
+      "item": "spectrum:green_pigment"
+    }
+  },
+  "rewards": {
+    "06C131510E203E30": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:green_pigment",
+    "description": [
+      "<h2>Balance</h2>",
+      "<hr/>",
+      "<task task=\"4D330581B9875B00\" quest=\"5008ED129CAE4EED\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06C131510E203E30\" quest=\"5008ED129CAE4EED\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:green_pigment"
+    },
+    "subtitle": {
+      "text": "Balance"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          112
+        ]
+      }
+    }
+  }
+}

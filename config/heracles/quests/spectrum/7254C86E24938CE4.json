@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "07BA16929E2AC0E8"
+  ],
+  "tasks": {
+    "0BC2FB28046550B6": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "spectrum:lategame/enchant_exchanging_staff"
+      ]
+    }
+  },
+  "rewards": {
+    "46E5CB7910166CB8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/legendary",
+          "Name": "Magic Legendary Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "More than a Building Tool",
+    "description": [
+      "<h2>&&eCreate and Enchant an Exchanging Staff</h2>",
+      "<hr/>",
+      "<task task=\"0BC2FB28046550B6\" quest=\"7254C86E24938CE4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"46E5CB7910166CB8\" quest=\"7254C86E24938CE4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:knowledge_book"
+    },
+    "subtitle": {
+      "text": "§eCreate and Enchant an Exchanging Staff"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          960,
+          240
+        ]
+      }
+    }
+  }
+}

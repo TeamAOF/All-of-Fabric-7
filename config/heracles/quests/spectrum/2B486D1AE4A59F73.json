@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "00F3A6DC94F0AC91": {
+      "type": "heracles:item",
+      "item": "spectrum:red_pigment"
+    }
+  },
+  "rewards": {
+    "64C03B9BF9695EE7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:red_pigment",
+    "description": [
+      "<h2>Passion</h2>",
+      "<hr/>",
+      "<task task=\"00F3A6DC94F0AC91\" quest=\"2B486D1AE4A59F73\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"64C03B9BF9695EE7\" quest=\"2B486D1AE4A59F73\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:red_pigment"
+    },
+    "subtitle": {
+      "text": "Passion"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          144
+        ]
+      }
+    }
+  }
+}

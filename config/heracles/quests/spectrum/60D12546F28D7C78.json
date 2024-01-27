@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "5ADB895DCB77C6A8"
+  ],
+  "tasks": {},
+  "rewards": {
+    "5BCB70FB5725CA93": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eA Draining Experience"
+    },
+    "description": [
+      "<h2>&&eA Draining Experience</h2>",
+      "<hr/>",
+      "<task task=\"5B5C350FE5324090\" quest=\"60D12546F28D7C78\"/>",
+      "<hr/>",
+      "These &&btrinkets&&r are weak on their own, but when &&6filled with Ink&&r in your color picker, their benefits become much more noticeable.",
+      "<br/>",
+      "These offer extra &&6health&&r, further &&6reach distance&&r, and more &&6azure dike&&r shielding.",
+      "<br/>",
+      "&&7&&oYou'll need a lot of Ink to make them truly potent.&&r",
+      "<hr/>",
+      "<reward reward=\"5BCB70FB5725CA93\" quest=\"60D12546F28D7C78\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          400,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:fanciful_stone_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ink-powered Trinkets"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

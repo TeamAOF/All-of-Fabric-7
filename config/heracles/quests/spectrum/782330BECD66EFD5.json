@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "29882807DF613632": {
+      "type": "heracles:item",
+      "item": "spectrum:light_blue_pigment"
+    }
+  },
+  "rewards": {
+    "4AAA22D2513DDD5B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:light_blue_pigment",
+    "description": [
+      "<h2>Luck</h2>",
+      "<hr/>",
+      "<task task=\"29882807DF613632\" quest=\"782330BECD66EFD5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AAA22D2513DDD5B\" quest=\"782330BECD66EFD5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:light_blue_pigment"
+    },
+    "subtitle": {
+      "text": "Luck"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          176
+        ]
+      }
+    }
+  }
+}

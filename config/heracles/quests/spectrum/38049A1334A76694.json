@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "6F43CAFE8DFC15D4"
+  ],
+  "tasks": {
+    "0B60876EA0C8B079": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:enter_color_mixing_preservation_ruin"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "548BA8124FDEB174": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eMixed Up"
+    },
+    "description": [
+      "<h2>&&eMixed Up</h2>",
+      "<hr/>",
+      "<task task=\"0B60876EA0C8B079\" quest=\"38049A1334A76694\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"548BA8124FDEB174\" quest=\"38049A1334A76694\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          48,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:powder_chiseled_preservation_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ruin #1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

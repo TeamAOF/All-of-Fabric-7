@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "3F9C5EF2DEFCF732",
+    "07BA16929E2AC0E8"
+  ],
+  "tasks": {
+    "748030008665FA22": {
+      "type": "heracles:item",
+      "item": "spectrum:crystallarieum"
+    }
+  },
+  "rewards": {
+    "7D1E1277CD2BE984": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:crystallarieum",
+    "description": [
+      "<h2>&&eCraft the Crystallarieum</h2>",
+      "<hr/>",
+      "<task task=\"748030008665FA22\" quest=\"135B0DDDE09498A5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D1E1277CD2BE984\" quest=\"135B0DDDE09498A5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:crystallarieum"
+    },
+    "subtitle": {
+      "text": "§eCraft the Crystallarieum"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          912,
+          96
+        ]
+      }
+    }
+  }
+}

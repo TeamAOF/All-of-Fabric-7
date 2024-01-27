@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "1CE9634136FBB731": {
+      "type": "heracles:item",
+      "item": "spectrum:orange_pigment"
+    }
+  },
+  "rewards": {
+    "12BC61DFCACD499B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:orange_pigment",
+    "description": [
+      "<h2>Warmth</h2>",
+      "<hr/>",
+      "<task task=\"1CE9634136FBB731\" quest=\"1FCEEFE4A3804DEF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12BC61DFCACD499B\" quest=\"1FCEEFE4A3804DEF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:orange_pigment"
+    },
+    "subtitle": {
+      "text": "Warmth"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          112
+        ]
+      }
+    }
+  }
+}

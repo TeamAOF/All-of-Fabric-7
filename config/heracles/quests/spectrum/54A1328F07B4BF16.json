@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "702FE6C32B80A53E": {
+      "type": "heracles:item",
+      "item": "spectrum:blue_pigment"
+    }
+  },
+  "rewards": {
+    "5A66493F068AF4E8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: spectrum:blue_pigment",
+    "description": [
+      "<h2>Safety</h2>",
+      "<hr/>",
+      "<task task=\"702FE6C32B80A53E\" quest=\"54A1328F07B4BF16\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A66493F068AF4E8\" quest=\"54A1328F07B4BF16\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:blue_pigment"
+    },
+    "subtitle": {
+      "text": "Safety"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          144
+        ]
+      }
+    }
+  }
+}

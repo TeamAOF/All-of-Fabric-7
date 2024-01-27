@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "hidden": true
+  },
+  "dependencies": [
+    "777CED8399E65C29"
+  ],
+  "tasks": {
+    "3248FA069DECAD16": {
+      "type": "heracles:advancement",
+      "advancements": [
+        "spectrum:craft_using_pedestal"
+      ]
+    },
+    "2DB9FF21ECC79ABE": {
+      "type": "heracles:item",
+      "item": "spectrum:paintbrush"
+    }
+  },
+  "rewards": {
+    "4A96E58E413AD4AD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Artful Crafting",
+    "description": [
+      "<h2>&&eThe Power of Powders</h2>",
+      "<hr/>",
+      "<task task=\"3248FA069DECAD16\" quest=\"36258B9E1280A188\"/>",
+      "<task task=\"2DB9FF21ECC79ABE\" quest=\"36258B9E1280A188\"/>",
+      "<hr/>",
+      "Smashing! &&6Craft&&r anything that requires &&bgemstone powder&&r.",
+      "<br/>",
+      "Starting a craft requires either &&6right-clicking&&r with your &&bPaintbrush&&r, or applying a &&bredstone pulse&&r.",
+      "<hr/>",
+      "<reward reward=\"4A96E58E413AD4AD\" quest=\"36258B9E1280A188\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "spectrum:paintbrush"
+    },
+    "subtitle": {
+      "text": "§eThe Power of Powders"
+    },
+    "groups": {
+      "Spectrum": {
+        "position": [
+          16,
+          144
+        ]
+      }
+    }
+  }
+}
