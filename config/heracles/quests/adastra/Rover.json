@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "aar": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_1_rover",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aafb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The rover allows up to 2 people to quickly travel across other planets, it has it's own inventory and needs fuel to work"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          310,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:tier_1_rover",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rover"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Preparations"
+  ],
+  "tasks": {
+    "aas": {
+      "type": "heracles:item",
+      "item": "ad_astra:steel_ingot",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aas": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:steel_ingot",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "For building your rocket and other necessary equipment you will need plenty of steel, you will first need to develop other technologies to start producing it, once you can get a reliable supply of it you'll be able to start the next phase"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          50,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:steel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

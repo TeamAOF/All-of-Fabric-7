@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "Calorite"
+  ],
+  "tasks": {
+    "aajsp": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_pants",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aajsh": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aajs": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aajsb": {
+      "type": "heracles:item",
+      "item": "ad_astra:jet_suit_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "By combining your old netherite space suit and the newly discovered calorite you can finally fly by yourself, however the suit doesn't protect against falls so you must be careful"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          560,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:jet_suit",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Jet Suit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "aaos": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_sensor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The oxygen sensor is a simple way of knowing if there is oxygen in an area, if there is it will produce a redstone signal"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          380,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:oxygen_sensor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Oxygen Sensor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

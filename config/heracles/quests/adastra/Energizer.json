@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "aae": {
+      "type": "heracles:item",
+      "item": "ad_astra:energizer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The energizer serves multiple purposes, it can store energy, charge items and can be used to move power from one place to another"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          420,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:energizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energizer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

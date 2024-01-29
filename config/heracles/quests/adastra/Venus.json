@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "Visiting the Hot Planets"
+  ],
+  "tasks": {
+    "aav": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:",
+      "to": "ad_astra:venus",
+      "title": "Travel to Venus",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Heat is not the only issue here, given the planet's harsh atmosphere it is possible that it contains acid rain, if you encounter it, take cover"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          520,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:venus_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Venus"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

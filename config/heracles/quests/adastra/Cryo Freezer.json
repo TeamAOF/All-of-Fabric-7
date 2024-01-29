@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "aacfuel": {
+      "type": "heracles:item",
+      "item": "ad_astra:cryo_fuel_bucket",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aacf": {
+      "type": "heracles:item",
+      "item": "ad_astra:cryo_freezer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aacfb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:cryo_fuel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The cryo freezer allows to make renewable, more efficient fuel, with it you can finally give use to all those ice shards you have found and turn them into fuel, no longer must you worry about not bringing enough fuel, now you can make your own offworld, with this new fuel you will also need only 1 bucket to take off",
+      "<br/>",
+      "<br/>",
+      "Ice can also be used to make fuel but with much less efficiency"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          400,
+          -10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:cryo_freezer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cryo Freezer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

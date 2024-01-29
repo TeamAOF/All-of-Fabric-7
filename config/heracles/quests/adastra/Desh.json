@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Preparing for the Moon"
+  ],
+  "tasks": {
+    "aard": {
+      "type": "heracles:item",
+      "item": "ad_astra:desh_ingot",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:desh_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "After exploring the depths of the Moon for a while you noticed a new strange metal you've never seen before, desh, with it you can upgrade your rocket to reach new planets, build new machines and use it for other things"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          290,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:desh_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Desh"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

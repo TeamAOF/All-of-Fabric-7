@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "aaod": {
+      "type": "heracles:item",
+      "item": "ad_astra:oxygen_distributor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aasd": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:iron_sliding_door",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The oxygen distributor allows to fill a room with oxygen by using water and power, combined with a water pump and a solar panel you can now have your very own extraterrestrial home, just be careful to not have any holes in your base",
+      "<br/>",
+      "Sliding doors are useful to keep as much air in while still allowing you to leave the base"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          290,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:oxygen_distributor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Oxygen Distributor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

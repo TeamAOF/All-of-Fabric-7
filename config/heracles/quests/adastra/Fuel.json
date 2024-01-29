@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "The Rocket"
+  ],
+  "tasks": {
+    "aafr": {
+      "type": "heracles:item",
+      "item": "ad_astra:fuel_refinery",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aafb": {
+      "type": "heracles:item",
+      "item": "ad_astra:fuel_bucket",
+      "amount": 6,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aafb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The rocket needs fuel for takeoff, to get this fuel you must first search for oil wells in the ocean, once you find some oil bring back as much as you can",
+      "<br/>",
+      "<br/>",
+      "To turn the oil into fuel you will need the fuel refinery, it also needs power to work, the rocket will need at least 6 buckets of fuel, 3 to leave, 3 to come back",
+      "<br/>",
+      "<br/>",
+      "If you leave this world without enough fuel to come back then you better have some sort of magic gadget that can bring you back because you won't be able to return alive"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          200,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:fuel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fuel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

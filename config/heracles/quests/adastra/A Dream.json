@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "aa": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "aaa": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:astrodux",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Touching the stars, going to other planets, exploring the vast expanse of space, all dreams many of us have had at least at one point in time, but they need be dreams no longer, today, you start your journey to make them a reality"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          -30,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:astrodux",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Dream"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
