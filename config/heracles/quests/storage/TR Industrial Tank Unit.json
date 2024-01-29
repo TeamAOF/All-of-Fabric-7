@@ -40,20 +40,24 @@
       "text": ""
     },
     "description": [
+      "---",
+      "",
       "<columns template=\"34 24 46\">",
-      "	<column>",
-      "		<p align=\"right\">TechReborn</p>",
-      "		<h2 align=\"right\">Tank Unit</h2>",
-      "	</column>",
-      "	<column valign=\"bottom\">",
-      "		<item id=\"techreborn:industrial_tank_unit\" scale=\"2\" align=\"right\" background=\"5 #8800ffff\"></item>",
-      "		<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> Volume:</p>",
-      "	</column>",
-      "	<column valign=\"bottom\">",
-      "		<h2 align=\"left\" shadowed=\"true\" background=\"2 #4400ffff\" color=\"#00ffff\">Industrial</h2>",
-      "		<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 1,024,000 mB </p>",
-      "	</column>",
-      "</columns>"
+      "\t<column>",
+      "\t\t<p align=\"right\">TechReborn</p>",
+      "\t\t<h2 align=\"right\">Tank Unit</h2>",
+      "\t</column>",
+      "\t<column valign=\"bottom\">",
+      "\t\t<item id=\"techreborn:industrial_tank_unit\" scale=\"2\" align=\"right\" background=\"5 #8800ffff\"></item>",
+      "\t\t<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> Volume:</p>",
+      "\t</column>",
+      "\t<column valign=\"bottom\">",
+      "\t\t<h2 align=\"left\" shadowed=\"true\" background=\"2 #4400ffff\" color=\"#00ffff\">Industrial</h2>",
+      "\t\t<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 1,024,000 mB </p>",
+      "\t</column>",
+      "</columns>",
+      "",
+      "---"
     ],
     "groups": {
       "Storage": {

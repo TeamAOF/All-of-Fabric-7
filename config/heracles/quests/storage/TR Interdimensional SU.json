@@ -40,6 +40,8 @@
       "text": ""
     },
     "description": [
+      "---",
+      "",
       "<columns template=\"34 24 46\">",
       "<column>",
       "<p align=\"right\">TechReborn</p>",
@@ -55,7 +57,9 @@
       "<p align=\"left\" italic=\"true\" background=\"2 #88ba55d3\" color=\"black\"> 1G E</p>",
       "<p align=\"left\" italic=\"true\" background=\"2 #88ba55d3\" color=\"black\"> 8.1k E/t</p>",
       "</column>",
-      "</columns>"
+      "</columns>",
+      "",
+      "---"
     ],
     "groups": {
       "Storage": {
