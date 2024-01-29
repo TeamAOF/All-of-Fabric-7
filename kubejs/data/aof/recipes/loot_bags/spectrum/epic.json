@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Spectrum Epic Lootbag",
+  "color": "#ff8afb",
+  "rarity": "EPIC",
+  "output": {
+    "table": "aof:loot_bags/spectrum_epic"
+  }
+}

@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "7B460CDAA8B537AD": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -34,8 +34,8 @@
         "nbt": {
           "Type": "EPIC",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/epic",
-          "Name": "Magic Epic Lootbag"
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
         }
       },
       "type": "heracles:item"

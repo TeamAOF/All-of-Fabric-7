@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "44CA6849B90F539A": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -32,10 +32,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "RARE",
+          "Type": "EPIC",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
         }
       },
       "type": "heracles:item"

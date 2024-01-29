@@ -1,35 +1,50 @@
 {
-  "settings": {
-    "hidden": true
-  },
   "dependencies": [
     "07BA16929E2AC0E8"
   ],
   "tasks": {
     "0BC2FB28046550B6": {
-      "type": "heracles:advancement",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "advancements": [
         "spectrum:lategame/enchant_exchanging_staff"
-      ]
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
-    "46E5CB7910166CB8": {
-      "type": "heracles:item",
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/legendary",
-          "Name": "Magic Legendary Lootbag",
-          "Type": "LEGENDARY"
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "More than a Building Tool",
+    "subtitle": {
+      "translate": "§eCreate and Enchant an Exchanging Staff"
+    },
     "description": [
       "<h2>&&eCreate and Enchant an Exchanging Staff</h2>",
       "<hr/>",
@@ -38,13 +53,6 @@
       "<hr/>",
       "<reward reward=\"46E5CB7910166CB8\" quest=\"7254C86E24938CE4\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:knowledge_book"
-    },
-    "subtitle": {
-      "text": "§eCreate and Enchant an Exchanging Staff"
-    },
     "groups": {
       "Spectrum": {
         "position": [
@@ -52,6 +60,24 @@
           240
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:exchanging_staff",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "More than a Building Tool"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
   }
 }

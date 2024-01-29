@@ -1,14 +1,26 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "3FFA395CAB5C258F": {
       "type": "heracles:item",
-      "item": "spectrum:guidebook"
+      "item": "spectrum:guidebook",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
   "display": {
-    "title": "A Colorful World",
+    "subtitle": {
+      "translate": "The energies growing like roots, they sprout magic of nature overflowing 'til you discover what it's all about."
+    },
     "description": [
       "<h2>The energies growing like roots, they sprout magic of nature overflowing 'til you discover what it's all about.</h2>",
       "<hr/>",
@@ -24,13 +36,6 @@
       "<br/>",
       "To begin, find some &&bGemstone Geodes&&r."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "spectrum:guidebook"
-    },
-    "subtitle": {
-      "text": "The energies growing like roots, they sprout magic of nature overflowing 'til you discover what it's all about."
-    },
     "groups": {
       "Spectrum": {
         "position": [
@@ -38,6 +43,24 @@
           48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:guidebook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Colorful World"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

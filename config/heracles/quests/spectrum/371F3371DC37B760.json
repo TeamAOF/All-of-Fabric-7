@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "2C19D087E84E3392": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -46,10 +46,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "RARE",
+          "Type": "COMMON",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
         }
       },
       "type": "heracles:item"

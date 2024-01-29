@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "548BFAD6D0CC8479": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -48,8 +48,8 @@
         "nbt": {
           "Type": "RARE",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
         }
       },
       "type": "heracles:item"

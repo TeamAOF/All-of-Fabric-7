@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "6DB2EDFB73F846BC": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -32,10 +32,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "EPIC",
+          "Type": "UNCOMMON",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/epic",
-          "Name": "Magic Epic Lootbag"
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
         }
       },
       "type": "heracles:item"
@@ -50,7 +50,7 @@
       "<hr/>",
       "<task task=\"6D58C64A9CC63876\" quest=\"0F6E96D9C9F5EF35\"/>",
       "<hr/>",
-      "&&6Craft&&r and stand in &&bliquid crystal&&r.",
+      "&&6Craft&&r and stand in &&bliquid crystal&&r. Requires finding &&bMermaids Gems&&r in the ocean.",
       "<br/>",
       "This magical liquid has &&binteresting properties&&r when &&6mixed&&r with other liquids. &&7&&oWhat can you discover?&&r",
       "<hr/>",

@@ -77,7 +77,7 @@
     },
     "icon": {
       "item": {
-        "id": "spectrum:creative_ink_assortment",
+        "id": "spectrum:ink_assortment",
         "count": 1
       },
       "type": "heracles:item"

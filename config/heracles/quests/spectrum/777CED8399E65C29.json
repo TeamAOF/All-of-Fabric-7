@@ -34,7 +34,7 @@
       },
       "type": "heracles:item"
     },
-    "764AE19E0BBEE3A3": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -49,8 +49,8 @@
         "nbt": {
           "Type": "COMMON",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
         }
       },
       "type": "heracles:item"
