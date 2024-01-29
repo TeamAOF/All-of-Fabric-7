@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "3810D2BB4E6142CD": {
+      "type": "heracles:item",
+      "item": "spectrum:yellow_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Energy"
+    },
+    "description": [
+      "<h2>Energy</h2>",
+      "<hr/>",
+      "<task task=\"3810D2BB4E6142CD\" quest=\"1F17B62A67347D61\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"25E2ABEAD6271E54\" quest=\"1F17B62A67347D61\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:yellow_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:yellow_pigment"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

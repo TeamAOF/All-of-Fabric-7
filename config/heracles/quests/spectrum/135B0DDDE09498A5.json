@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "07BA16929E2AC0E8",
+    "3F9C5EF2DEFCF732"
+  ],
+  "tasks": {
+    "748030008665FA22": {
+      "type": "heracles:item",
+      "item": "spectrum:crystallarieum",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCraft the Crystallarieum"
+    },
+    "description": [
+      "<h2>&&eCraft the Crystallarieum</h2>",
+      "<hr/>",
+      "<task task=\"748030008665FA22\" quest=\"135B0DDDE09498A5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D1E1277CD2BE984\" quest=\"135B0DDDE09498A5\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          912,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:crystallarieum",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:crystallarieum"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

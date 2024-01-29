@@ -1,0 +1,114 @@
+{
+  "dependencies": [
+    "681C638B38019A73"
+  ],
+  "tasks": {
+    "4E7D74069D2ABD87": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:collect_all_basic_pigments"
+      ],
+      "type": "heracles:advancement"
+    },
+    "400484F31C800323": {
+      "type": "heracles:item",
+      "item": "spectrum:brown_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "1708662902975ECC": {
+      "type": "heracles:item",
+      "item": "spectrum:black_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Nature and Power"
+    },
+    "description": [
+      "<h2>Nature and Power</h2>",
+      "<hr/>",
+      "<task task=\"4E7D74069D2ABD87\" quest=\"7B50D9F39BF07C16\"/>",
+      "<task task=\"400484F31C800323\" quest=\"7B50D9F39BF07C16\"/>",
+      "<task task=\"1708662902975ECC\" quest=\"7B50D9F39BF07C16\"/>",
+      "<hr/>",
+      "With &&bOnyx&&r, the blackest of blacks, you can now &&6craft &&bBlack&&r and &&bBrown&&r saplings.",
+      "<hr/>",
+      "<reward reward=\"62928FEAA72E7B3D\" quest=\"7B50D9F39BF07C16\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          304,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:brown_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Black Creates Brown"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

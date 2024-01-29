@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "3DE03D1D2B4BC9D0"
+  ],
+  "tasks": {
+    "54AD4CAE26648E45": {
+      "type": "heracles:item",
+      "item": "spectrum:jade_jelly",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Turns out mistakes can be beneficial... sometimes"
+    },
+    "description": [
+      "<h2>Turns out mistakes can be beneficial... sometimes</h2>",
+      "<hr/>",
+      "<task task=\"54AD4CAE26648E45\" quest=\"1AD3C42442918E43\"/>",
+      "<hr/>",
+      "With the help of a &&bCinderhearth&&r, you can &&6smelt&&r this jelly into &&bjaramel&&r, and make all kinds of tasty treats.",
+      "<hr/>",
+      "<reward reward=\"1054087C01982D32\" quest=\"1AD3C42442918E43\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          512,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:jade_jelly",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sweet Rewards"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "117B54FCAF3A40B9"
+  ],
+  "tasks": {
+    "5C67C82C30066C6D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/create_budding_onyx"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eMy Best Bud"
+    },
+    "description": [
+      "<h2>&&eMy Best Bud</h2>",
+      "<hr/>",
+      "<task task=\"5C67C82C30066C6D\" quest=\"1699D14B24CE2883\"/>",
+      "<hr/>",
+      "Could've used this earlier, couldn't you?",
+      "<hr/>",
+      "<reward reward=\"3E323E3542703CDD\" quest=\"1699D14B24CE2883\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          608,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:budding_onyx",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Renewable Onyx"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

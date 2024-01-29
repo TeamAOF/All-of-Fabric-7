@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "0CF717072CD02B28"
+  ],
+  "tasks": {
+    "0C9DCFB386B1AF2A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/collect_midnight_chip"
+      ],
+      "type": "heracles:advancement"
+    },
+    "5D95C87884A46537": {
+      "type": "heracles:item",
+      "item": "spectrum:midnight_chip",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eThe Lesser Evil"
+    },
+    "description": [
+      "<h2>&&eThe Lesser Evil</h2>",
+      "<hr/>",
+      "<task task=\"0C9DCFB386B1AF2A\" quest=\"120A70EB61245315\"/>",
+      "<task task=\"5D95C87884A46537\" quest=\"120A70EB61245315\"/>",
+      "<hr/>",
+      "&&o&&7Hopefully you heeded the warnings.&&r",
+      "<br/>",
+      "The &&bMidnight Solution&&r seems &&6eager to devour&&r the life of anything that steps in it. Maybe you could use this to your advantage.",
+      "<br/>",
+      "What would happen if you &&6lured a mob into it&&r?",
+      "<hr/>",
+      "<reward reward=\"2CAADB08E10BEB07\" quest=\"120A70EB61245315\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          464,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:midnight_chip",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Midnight Chips"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

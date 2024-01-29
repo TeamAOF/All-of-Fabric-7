@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "22E2CD17FE2A8869"
+  ],
+  "tasks": {
+    "377EC45A387CF6A5": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/craft_moonstone_pedestal"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eUpgrade you Pigment Pedestal"
+    },
+    "description": [
+      "<h2>&&eUpgrade you Pigment Pedestal</h2>",
+      "<hr/>",
+      "<task task=\"377EC45A387CF6A5\" quest=\"085118625BB0EA90\"/>",
+      "<hr/>",
+      "Using a &&bMoonstone Shard&&r upgrade your Pigment Pedestal",
+      "<hr/>",
+      "<reward reward=\"0A64D12C79AA21C8\" quest=\"085118625BB0EA90\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:pedestal_moonstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Incandescence"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

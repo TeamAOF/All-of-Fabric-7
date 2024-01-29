@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "31FD82420EC61E94"
+  ],
+  "tasks": {
+    "09A4942BF3D556D2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_grayscale_pigments"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eFinish your collection of Pigments"
+    },
+    "description": [
+      "<h2>&&eFinish your collection of Pigments</h2>",
+      "<hr/>",
+      "<task task=\"09A4942BF3D556D2\" quest=\"0DC376CC3CB12C7E\"/>",
+      "<hr/>",
+      "Now that you can craft with &&bMoonstone Powder&&r you can finally create White and Grays.",
+      "<hr/>",
+      "<reward reward=\"2058DF9E2354A996\" quest=\"0DC376CC3CB12C7E\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          816,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:light_gray_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Four Shades of Gray"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

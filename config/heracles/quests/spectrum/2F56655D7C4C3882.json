@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "681C638B38019A73"
+  ],
+  "tasks": {
+    "0B7BF1DDF38D6FA6": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/collect_stratine"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eHeavy Load"
+    },
+    "description": [
+      "<h2>&&eHeavy Load</h2>",
+      "<hr/>",
+      "<task task=\"0B7BF1DDF38D6FA6\" quest=\"2F56655D7C4C3882\"/>",
+      "<hr/>",
+      "The Nether has more &&bsecrets&&r for you. Might not want to carry too much at once.",
+      "<hr/>",
+      "<reward reward=\"72620D10AC10D543\" quest=\"2F56655D7C4C3882\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          416,
+          49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:stratine_fragments",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "An Ore with Gravity"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

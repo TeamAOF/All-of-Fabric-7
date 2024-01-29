@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "631BD7F1DB0495DD"
+  ],
+  "tasks": {
+    "6036480B1FAA4CC8": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/find_excavation_site"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eStumple upon an Excavation Site"
+    },
+    "description": [
+      "<h2>&&eStumple upon an Excavation Site</h2>",
+      "<hr/>",
+      "<task task=\"6036480B1FAA4CC8\" quest=\"326BC4ED65D85897\"/>",
+      "<hr/>",
+      "Seems like Downstone was somewhat harvestable as attested by the machinery of these dig sites",
+      "<hr/>",
+      "<reward reward=\"613AFCC22FBFE8A4\" quest=\"326BC4ED65D85897\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          672,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:preservation_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Very Boring"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "120A70EB61245315"
+  ],
+  "tasks": {
+    "64BC2C12B83AF299": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/build_spirit_instiller_structure"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eThe Will of the Wisps"
+    },
+    "description": [
+      "<h2>&&eThe Will of the Wisps</h2>",
+      "<hr/>",
+      "<task task=\"64BC2C12B83AF299\" quest=\"1E1E5ECB2C1C95B9\"/>",
+      "<hr/>",
+      "&&6Craft&&r the &&bSpirit Instiller&&r and &&6construct&&r its structure.",
+      "<hr/>",
+      "<reward reward=\"1BFF7636005E2D71\" quest=\"1E1E5ECB2C1C95B9\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          512,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:spirit_instiller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Instilling Spirits"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "2AB88707D86F0506"
+  ],
+  "tasks": {
+    "0A9087BFACBDF44A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/craft_bottle_of_decay_away"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eBetter Safe than Sorry"
+    },
+    "description": [
+      "<h2>&&eBetter Safe than Sorry</h2>",
+      "<hr/>",
+      "<task task=\"0A9087BFACBDF44A\" quest=\"0FC449098A9EAD1D\"/>",
+      "<hr/>",
+      "&&bDecay Away&&r is specially crafted to deal with your... more destructive creations.",
+      "<br/>",
+      "Simply &&6apply&&r it onto a &&bcorrupted area&&r, and live in peace knowing something dangerous is no longer roaming the world.",
+      "<br/>",
+      "&&7&&oYou hope.&&r",
+      "<hr/>",
+      "<reward reward=\"691A52012654C688\" quest=\"0FC449098A9EAD1D\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          512,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bottle_of_decay_away",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Damage Insurance"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "326BC4ED65D85897"
+  ],
+  "tasks": {
+    "00F6EF46413C2AF5": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_downstone_fragments"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eFind Downstone Fragments"
+    },
+    "description": [
+      "<h2>&&eFind Downstone Fragments</h2>",
+      "<hr/>",
+      "<task task=\"00F6EF46413C2AF5\" quest=\"074A9E3BB501CFEB\"/>",
+      "<hr/>",
+      "Perhaps there are still resources to find in these dig sites",
+      "<hr/>",
+      "<reward reward=\"246140D85AFA7FCA\" quest=\"074A9E3BB501CFEB\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          672,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:downstone_fragments",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Massive Mechanisms"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

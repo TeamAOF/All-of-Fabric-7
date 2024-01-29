@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "2B9ADBDF75721934": {
+      "type": "heracles:item",
+      "item": "spectrum:lime_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Happiness"
+    },
+    "description": [
+      "<h2>Happiness</h2>",
+      "<hr/>",
+      "<task task=\"2B9ADBDF75721934\" quest=\"64CFFA9B0256E062\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4FE8B8DAED17C80F\" quest=\"64CFFA9B0256E062\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:lime_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:lime_pigment"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

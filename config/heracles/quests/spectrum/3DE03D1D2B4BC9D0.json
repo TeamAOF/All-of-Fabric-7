@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "1E1E5ECB2C1C95B9"
+  ],
+  "tasks": {
+    "662B39B5C47F5D6B": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/plant_jade_vines"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eLegacy of Times Long Past"
+    },
+    "description": [
+      "<h2>&&eLegacy of Times Long Past</h2>",
+      "<hr/>",
+      "<task task=\"662B39B5C47F5D6B\" quest=\"3DE03D1D2B4BC9D0\"/>",
+      "<hr/>",
+      "&&6Exploring ruins&&r, you can &&6find&&r and &&6revive&&r a &&bwondrous plant&&r.",
+      "<br/>",
+      "&&7&&oIt seems very fragile, though.&&r",
+      "<hr/>",
+      "<reward reward=\"5F3423DFF1EC3D26\" quest=\"3DE03D1D2B4BC9D0\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          512,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:germinated_jade_vine_bulb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ancient Nature"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

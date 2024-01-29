@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "26A045E41ED17C9D"
+  ],
+  "tasks": {
+    "76D46881C0D97EDD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_bismuth_crystal"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§ePerhaps the flakes can grow?"
+    },
+    "description": [
+      "<h2>&&ePerhaps the flakes can grow?</h2>",
+      "<hr/>",
+      "<task task=\"76D46881C0D97EDD\" quest=\"3F9C5EF2DEFCF732\"/>",
+      "<hr/>",
+      "&&bBismuth&&r seems to grow in proximity to other metals. Perhaps try placing it on a &&bBlock of Iron&&r? It may consume it for energy to grow",
+      "<hr/>",
+      "<reward reward=\"6694D2CDD6757F29\" quest=\"3F9C5EF2DEFCF732\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          864,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bismuth_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Primordial Dream"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "2E764AFD13AE3047"
+  ],
+  "tasks": {
+    "16979DBFFB2B1C59": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/break_spawner_with_resonance_tool"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eBreak a Mob Spawner with Resonance"
+    },
+    "description": [
+      "<h2>&&eBreak a Mob Spawner with Resonance</h2>",
+      "<hr/>",
+      "<task task=\"16979DBFFB2B1C59\" quest=\"4BD5F19B354B9027\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5EDF38F293F2816D\" quest=\"4BD5F19B354B9027\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          1008,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:spawner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Evil Within"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

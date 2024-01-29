@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "5843C381150D1251": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_prickly_bayleaf"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eShear a Prickly Bayleaf Plant"
+    },
+    "description": [
+      "<h2>&&eShear a Prickly Bayleaf Plant</h2>",
+      "<hr/>",
+      "<task task=\"5843C381150D1251\" quest=\"6A5C85C0D60E2D44\"/>",
+      "<hr/>",
+      "&&6Shear&&r a Leaf off of a &&bPrickly Bayleaf&&r plant. They smell amazing in stews, but aren't too great to eat raw.",
+      "<hr/>",
+      "<reward reward=\"76FBC4AD7D8ADF06\" quest=\"6A5C85C0D60E2D44\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:prickly_bayleaf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pain Flavored"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

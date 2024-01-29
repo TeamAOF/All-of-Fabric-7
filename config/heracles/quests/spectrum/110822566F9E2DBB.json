@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "120A70EB61245315"
+  ],
+  "tasks": {
+    "4E83BEE7E58FB233": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/craft_bottle_of_ruin"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eWhat Should Never Have Been"
+    },
+    "description": [
+      "<h2>&&eWhat Should Never Have Been</h2>",
+      "<hr/>",
+      "<task task=\"4E83BEE7E58FB233\" quest=\"110822566F9E2DBB\"/>",
+      "<hr/>",
+      "This is it, the perfection of your recipe. This one is ravenous, its hunger can only be sated by something even stronger than obsidian, something &&bunbreakable&&r.",
+      "<br/>",
+      "&&7&&oYou should definitely be careful with this stuff.&&r",
+      "<hr/>",
+      "<reward reward=\"79E208AEFE9FABF7\" quest=\"110822566F9E2DBB\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          464,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bottle_of_ruin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Experiment #3: §bRuin"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "5E0135DE9E0D30CE"
+  ],
+  "tasks": {
+    "463ECB502B605A11": {
+      "type": "heracles:item",
+      "item": "spectrum:bottle_of_fading",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5312C1B5091577AF": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:craft_bottle_of_fading"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eWhat Should Not Be"
+    },
+    "description": [
+      "<h2>&&eWhat Should Not Be</h2>",
+      "<hr/>",
+      "<task task=\"5312C1B5091577AF\" quest=\"1E161856A9975BCE\"/>",
+      "<task task=\"463ECB502B605A11\" quest=\"1E161856A9975BCE\"/>",
+      "<hr/>",
+      "Time to tinker with your new magical abilities by creating life!",
+      "<hr/>",
+      "<reward reward=\"67BCF8F7E174975B\" quest=\"1E161856A9975BCE\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          16,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bottle_of_fading",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Experiment #1: §bFading"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

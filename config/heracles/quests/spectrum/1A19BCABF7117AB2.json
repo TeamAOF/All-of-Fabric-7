@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "421BF4C4A342DD80",
+    "6A5C85C0D60E2D44",
+    "06937CA1C299031F",
+    "0291CC08A51C832E",
+    "53ACD1C086D4B1DA",
+    "074A9E3BB501CFEB",
+    "26A045E41ED17C9D"
+  ],
+  "tasks": {
+    "316909DDD20437A4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_dd_resources"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCollect all the resources in the Deeper Down"
+    },
+    "description": [
+      "<h2>&&eCollect all the resources in the Deeper Down</h2>",
+      "<hr/>",
+      "<task task=\"316909DDD20437A4\" quest=\"1A19BCABF7117AB2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52AFAAA2781D4147\" quest=\"1A19BCABF7117AB2\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          672,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:ivory_noxcap_stem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hoarder"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

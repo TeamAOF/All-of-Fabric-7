@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Spectrum Uncommon Lootbag",
+  "color": "#ff8afb",
+  "rarity": "UNCOMMON",
+  "output": {
+    "table": "aof:loot_bags/spectrum_uncommon"
+  }
+}

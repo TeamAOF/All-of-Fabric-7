@@ -1,0 +1,100 @@
+{
+  "dependencies": [
+    "24C70DAB3F66ECB2",
+    "2F56655D7C4C3882"
+  ],
+  "tasks": {
+    "5C5AD91BEF4B518D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/craft_bottle_of_failing"
+      ],
+      "type": "heracles:advancement"
+    },
+    "0FFB352C38FD02BB": {
+      "type": "heracles:item",
+      "item": "spectrum:bottle_of_failing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eWhat Must Not Be"
+    },
+    "description": [
+      "<h2>&&eWhat Must Not Be</h2>",
+      "<hr/>",
+      "<task task=\"5C5AD91BEF4B518D\" quest=\"678BCF3361AE5512\"/>",
+      "<task task=\"0FFB352C38FD02BB\" quest=\"678BCF3361AE5512\"/>",
+      "<hr/>",
+      "Your first experiment was a success. Now to make another!",
+      "<hr/>",
+      "<reward reward=\"025FDC872C9D5C96\" quest=\"678BCF3361AE5512\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          416,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bottle_of_failing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Experiment #2: §bFailing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

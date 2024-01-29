@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "1CE9634136FBB731": {
+      "type": "heracles:item",
+      "item": "spectrum:orange_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Warmth"
+    },
+    "description": [
+      "<h2>Warmth</h2>",
+      "<hr/>",
+      "<task task=\"1CE9634136FBB731\" quest=\"1FCEEFE4A3804DEF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"12BC61DFCACD499B\" quest=\"1FCEEFE4A3804DEF\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:orange_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:orange_pigment"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

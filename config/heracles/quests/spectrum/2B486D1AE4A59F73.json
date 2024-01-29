@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "00F3A6DC94F0AC91": {
+      "type": "heracles:item",
+      "item": "spectrum:red_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Passion"
+    },
+    "description": [
+      "<h2>Passion</h2>",
+      "<hr/>",
+      "<task task=\"00F3A6DC94F0AC91\" quest=\"2B486D1AE4A59F73\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"64C03B9BF9695EE7\" quest=\"2B486D1AE4A59F73\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          256,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:red_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:red_pigment"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

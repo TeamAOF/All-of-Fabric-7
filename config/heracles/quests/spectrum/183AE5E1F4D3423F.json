@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "2E764AFD13AE3047"
+  ],
+  "tasks": {
+    "2E1A7A6A6434BA74": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/break_budding_block_with_resonance_tool"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eBreak a Budding Block using Resonance"
+    },
+    "description": [
+      "<h2>&&eBreak a Budding Block using Resonance</h2>",
+      "<hr/>",
+      "<task task=\"2E1A7A6A6434BA74\" quest=\"183AE5E1F4D3423F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"65475261EDD96F0D\" quest=\"183AE5E1F4D3423F\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          1008,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:budding_moonstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Budding Friendship"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

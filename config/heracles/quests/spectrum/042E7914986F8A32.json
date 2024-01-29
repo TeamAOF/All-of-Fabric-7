@@ -1,0 +1,114 @@
+{
+  "dependencies": [
+    "6F9B2ECCE750C280"
+  ],
+  "tasks": {
+    "2D806F66A413BA80": {
+      "type": "heracles:item",
+      "item": "spectrum:topaz_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "2C0E639D000DB897": {
+      "type": "heracles:item",
+      "item": "spectrum:citrine_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "67803A2E0B44B9EA": {
+      "type": "heracles:item",
+      "item": "minecraft:amethyst_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eHow many are there?"
+    },
+    "description": [
+      "<h2>&&eHow many are there?</h2>",
+      "<hr/>",
+      "<task task=\"67803A2E0B44B9EA\" quest=\"042E7914986F8A32\"/>",
+      "<task task=\"2D806F66A413BA80\" quest=\"042E7914986F8A32\"/>",
+      "<task task=\"2C0E639D000DB897\" quest=\"042E7914986F8A32\"/>",
+      "<hr/>",
+      "&&6Find&&r all 3 types of &&bgemstone geodes&&r. Some are high, some are near the sea, and some are a bit deeper.",
+      "<hr/>",
+      "<reward reward=\"06A89E62DB34B6E7\" quest=\"042E7914986F8A32\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          80,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Geode Hunting!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

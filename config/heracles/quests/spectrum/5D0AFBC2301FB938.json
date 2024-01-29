@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "73120DB783503541"
+  ],
+  "tasks": {
+    "44921BFC6CD1269A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/create_malachite_tool"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCreate a Tool made out of Malachite"
+    },
+    "description": [
+      "<h2>&&eCreate a Tool made out of Malachite</h2>",
+      "<hr/>",
+      "<task task=\"44921BFC6CD1269A\" quest=\"5D0AFBC2301FB938\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"63AC2CB41368F0F8\" quest=\"5D0AFBC2301FB938\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          912,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:malachite_ultra_greatsword",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 4,
+              "id": "minecraft:sweeping"
+            }
+          ],
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Green Dream"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

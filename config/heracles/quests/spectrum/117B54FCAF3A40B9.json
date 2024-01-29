@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "3DE03D1D2B4BC9D0"
+  ],
+  "tasks": {
+    "6AD46CD52B099DC4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/harvest_moonstruck_nectar"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eWorld's Best Moonshine"
+    },
+    "description": [
+      "<h2>&&eWorld's Best Moonshine</h2>",
+      "<hr/>",
+      "<task task=\"6AD46CD52B099DC4\" quest=\"117B54FCAF3A40B9\"/>",
+      "<hr/>",
+      "When your &&bJade Vines&&r are fully grown, indicated by the petals being pink, you can &&6harvest them with glass bottles&&r to obtain this valuable nectar.",
+      "<hr/>",
+      "<reward reward=\"618CFDA87B846114\" quest=\"117B54FCAF3A40B9\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          560,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:moonstruck_nectar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Priceless Nectar"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

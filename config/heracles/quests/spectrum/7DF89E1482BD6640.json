@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "096D77E6F44B5D27"
+  ],
+  "tasks": {
+    "5D761BA4099F131F": {
+      "type": "heracles:item",
+      "item": "spectrum:lesser_potion_pendant",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§ePotent Pendant"
+    },
+    "description": [
+      "<h2>&&ePotent Pendant</h2>",
+      "<hr/>",
+      "<task task=\"5D761BA4099F131F\" quest=\"7DF89E1482BD6640\"/>",
+      "<hr/>",
+      "Can be &&6filled&&r in the &&bPotion Workshop&&r with one effect up to Level III. When worn, the Pendant constantly applies that effect.",
+      "<br/>",
+      "&&7&&oHow useful!&&r",
+      "<hr/>",
+      "<reward reward=\"2E55D0C92428E863\" quest=\"7DF89E1482BD6640\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          416,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:lesser_potion_pendant",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Potioneering"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

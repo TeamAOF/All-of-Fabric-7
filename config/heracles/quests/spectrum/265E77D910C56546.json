@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "371F3371DC37B760"
+  ],
+  "tasks": {
+    "68A98F4268DBD672": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:craft_colored_sapling"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eAll around Me are Familiar Aces"
+    },
+    "description": [
+      "<h2>&&eAll around Me are Familiar Aces</h2>",
+      "<hr/>",
+      "<task task=\"68A98F4268DBD672\" quest=\"265E77D910C56546\"/>",
+      "<hr/>",
+      "Here come the colors! &&6Craft&&r a &&bcolored sapling&&r.",
+      "<hr/>",
+      "<reward reward=\"7956E72271E260CF\" quest=\"265E77D910C56546\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          144,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:orange_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Colored Saplings"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

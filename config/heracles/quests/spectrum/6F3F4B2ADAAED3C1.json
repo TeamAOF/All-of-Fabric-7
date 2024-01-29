@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "49D9ECC98F3A5E05"
+  ],
+  "tasks": {
+    "5B20071AEC6735C0": {
+      "type": "heracles:item",
+      "item": "spectrum:onyx_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7D0EB9275BA39983": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:create_onyx_shard"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eBack in Black"
+    },
+    "description": [
+      "<h2>&&eBack in Black</h2>",
+      "<hr/>",
+      "<task task=\"7D0EB9275BA39983\" quest=\"6F3F4B2ADAAED3C1\"/>",
+      "<task task=\"5B20071AEC6735C0\" quest=\"6F3F4B2ADAAED3C1\"/>",
+      "<hr/>",
+      "&&6Fuse&&r your three gemstones together to create &&bOnyx&&r, the fourth gemstone.",
+      "<hr/>",
+      "<reward reward=\"73752FA727863338\" quest=\"6F3F4B2ADAAED3C1\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          272,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:onyx_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Fourth Gemstone"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

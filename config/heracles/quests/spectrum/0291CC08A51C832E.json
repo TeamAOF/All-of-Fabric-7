@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "27A08123022B2FAE": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_doombloom_seed"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCollect a Doombloom Seed"
+    },
+    "description": [
+      "<h2>&&eCollect a Doombloom Seed</h2>",
+      "<hr/>",
+      "<task task=\"27A08123022B2FAE\" quest=\"0291CC08A51C832E\"/>",
+      "<hr/>",
+      "A howling fire, explosions, death, and a seed or two.",
+      "A delicate Touch is required to break this plant without creating an explosion of fire.",
+      "<hr/>",
+      "<reward reward=\"062BC0875239FDC2\" quest=\"0291CC08A51C832E\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:doombloom_seed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Death Candle"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

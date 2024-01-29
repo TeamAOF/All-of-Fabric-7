@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "0A895BEB210EA39C"
+  ],
+  "tasks": {
+    "3083977D9E453EE2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/fill_ink_container"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eA New Form of Energy"
+    },
+    "description": [
+      "<h2>&&eA New Form of Energy</h2>",
+      "<hr/>",
+      "<task task=\"3083977D9E453EE2\" quest=\"5ADB895DCB77C6A8\"/>",
+      "<hr/>",
+      "&&6Fill&&r an &&bInk container&&r with your color picker. Ink can be created with a few different resources, but the best one is &&bPigment&&r.",
+      "<hr/>",
+      "<reward reward=\"35807A800E23B170\" quest=\"5ADB895DCB77C6A8\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          353,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:ink_flask",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "An Inky Situation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

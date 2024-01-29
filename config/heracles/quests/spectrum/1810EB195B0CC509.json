@@ -1,0 +1,101 @@
+{
+  "dependencies": [
+    "678BCF3361AE5512"
+  ],
+  "tasks": {
+    "7889167DE36DEF22": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/collect_neolith"
+      ],
+      "type": "heracles:advancement"
+    },
+    "36F3D11DD747FDEE": {
+      "type": "heracles:item",
+      "item": "spectrum:neolith",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eNon-Non-Amorphous"
+    },
+    "description": [
+      "<h2>&&eNon-Non-Amorphous</h2>",
+      "<hr/>",
+      "<task task=\"7889167DE36DEF22\" quest=\"1810EB195B0CC509\"/>",
+      "<task task=\"36F3D11DD747FDEE\" quest=\"1810EB195B0CC509\"/>",
+      "<hr/>",
+      "Your first Experiments were successful. But there has to be more...",
+      "<br/>",
+      "This &&bFailing&&r blob seems likely to be unsatisified with anything but the &&6hardest of materials&&r.",
+      "<hr/>",
+      "<reward reward=\"191913B9C60F6F4E\" quest=\"1810EB195B0CC509\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          464,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:neolith",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Neolithic"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

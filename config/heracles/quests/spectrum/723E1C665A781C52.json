@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "265E77D910C56546"
+  ],
+  "tasks": {
+    "279233226F0D7AB6": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:collect_pigment"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCollect Pure Pigment"
+    },
+    "description": [
+      "<h2>&&eCollect Pure Pigment</h2>",
+      "<hr/>",
+      "<task task=\"279233226F0D7AB6\" quest=\"723E1C665A781C52\"/>",
+      "<hr/>",
+      "&&6Break&&r the &&bleaves of a colored tree&&r to get the pure &&bpigment&&r you so desired. The leaves release their precious harvest only when &&6broken by you personally&&r.",
+      "<hr/>",
+      "<reward reward=\"221B6D885AFDCAA5\" quest=\"723E1C665A781C52\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          208,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:orange_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steal the Color of Leaves"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

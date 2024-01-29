@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "3E84D82AC7429CF4"
+  ],
+  "tasks": {
+    "3FED9D4DB0FCF454": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/remember_egg_laying_wooly_pig"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eOnce Only a Tale"
+    },
+    "description": [
+      "<h2>&&eOnce Only a Tale</h2>",
+      "<hr/>",
+      "<task task=\"3FED9D4DB0FCF454\" quest=\"6CAD13315766D55D\"/>",
+      "<hr/>",
+      "Time to create life for real!",
+      "<br/>",
+      "&&6Craft&&r and &&6manifest&&r the memory of an &&bEgg Laying Wooly Pig&&r. &&7&&oYou will probably want two of them.&&r",
+      "<hr/>",
+      "<reward reward=\"7B460CDAA8B537AD\" quest=\"6CAD13315766D55D\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          608,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:egg_laying_wooly_pig_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Combination Animal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

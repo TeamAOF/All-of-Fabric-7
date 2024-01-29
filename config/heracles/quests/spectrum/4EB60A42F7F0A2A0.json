@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "04022EAAA963A501"
+  ],
+  "tasks": {
+    "26C2D2173FCC1CC7": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/pluck_effulgent_feather"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eTheir Feathers look very pluckable"
+    },
+    "description": [
+      "<h2>&&eTheir Feathers look very pluckable</h2>",
+      "<hr/>",
+      "<task task=\"26C2D2173FCC1CC7\" quest=\"4EB60A42F7F0A2A0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"60039F8EFA0FB15B\" quest=\"4EB60A42F7F0A2A0\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          864,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:effulgent_feather",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "RUN"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

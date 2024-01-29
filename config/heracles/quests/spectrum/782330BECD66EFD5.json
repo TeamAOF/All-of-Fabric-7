@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "29882807DF613632": {
+      "type": "heracles:item",
+      "item": "spectrum:light_blue_pigment",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Luck"
+    },
+    "description": [
+      "<h2>Luck</h2>",
+      "<hr/>",
+      "<task task=\"29882807DF613632\" quest=\"782330BECD66EFD5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4AAA22D2513DDD5B\" quest=\"782330BECD66EFD5\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          160,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:light_blue_pigment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: spectrum:light_blue_pigment"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

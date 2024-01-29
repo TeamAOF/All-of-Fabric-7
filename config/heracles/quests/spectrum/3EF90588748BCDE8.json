@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "28CB44142633D257"
+  ],
+  "tasks": {
+    "7F62A84995E6AC3A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/get_azure_dike_charge"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eShield Up"
+    },
+    "description": [
+      "<h2>&&eShield Up</h2>",
+      "<hr/>",
+      "<task task=\"7F62A84995E6AC3A\" quest=\"3EF90588748BCDE8\"/>",
+      "<hr/>",
+      "The &&bazurite trinkets&&r give you a &&6shield&&r, protecting you from harm with comforting blue hues.",
+      "<hr/>",
+      "<reward reward=\"1DEF164611FE8B2A\" quest=\"3EF90588748BCDE8\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          608,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:azure_dike_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Protective Hues"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
