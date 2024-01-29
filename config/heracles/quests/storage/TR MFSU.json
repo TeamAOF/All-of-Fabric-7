@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "chest"
+    "TR MFE"
   ],
   "tasks": {
-    "copper_chest_task": {
+    "TR MFSU Task0": {
       "type": "heracles:item",
-      "item": "ironchests:copper_chest",
+      "item": "techreborn:high_voltage_su",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "copper_chest_reward": {
+    "TR MFSU Reward0": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_ingot",
-        "count": 1
+        "id": "techreborn:lapotron_crystal",
+        "count": 6
       },
       "type": "heracles:item"
     }
@@ -41,38 +41,44 @@
     },
     "description": [
       "---",
-      "<br/>",
-      "<columns>",
+      "",
+      "<columns template=\"34 24 46\">",
       "<column>",
-      "## &&6Copper&&r Chest",
+      "<p align=\"right\">TechReborn</p>",
+      "<h2 align=\"right\">Energy Store</h2>",
       "</column>",
-      "<column>",
-      "<item id=\"ironchests:copper_chest\" scale=\"2\"> </item>",
+      "<column valign=\"bottom\">",
+      "<item id=\"techreborn:high_voltage_su\" scale=\"2\" align=\"right\" background=\"5 #8800ffff\"></item>",
+      "<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> max:</p>",
+      "<p align=\"right\" italic=\"true\" background=\"2 #4400ffff\" border=\"0 00ffff\" color=\"#8800ffff\"> rate:</p>",
+      "</column>",
+      "<column valign=\"bottom\">",
+      "<h2 align=\"left\" shadowed=\"true\" background=\"2 #4400ffff\" color=\"#00ffff\">MFSU</h2>",
+      "<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 40M E</p>",
+      "<p align=\"left\" italic=\"true\" background=\"2 #8800ffff\" color=\"black\"> 512 E/t</p>",
       "</column>",
       "</columns>",
-      "<br/>",
-      "  The copper chest is your first upgrade of the chest tiers and this one has 36 slots for items now! Pretty big upgrade for how easy copper is to come by.",
-      "<br/>",
+      "",
       "---"
     ],
     "groups": {
       "Storage": {
         "position": [
-          0,
-          -180
+          170,
+          -100
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ironchests:copper_chest",
+        "id": "techreborn:high_voltage_su",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Copper Chest"
+      "translate": "TR MFSU"
     }
   },
   "settings": {

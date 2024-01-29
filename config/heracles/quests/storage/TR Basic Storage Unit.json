@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "TR Crude Storage Unit"
+  ],
+  "tasks": {
+    "TR Basic Storage Unit Task0": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_storage_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "TR Basic Storage Unit Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "techreborn:crude_storage_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<columns template=\"34 24 46\">",
+      "\t<column>",
+      "\t\t<p align=\"right\">TechReborn</p>",
+      "\t\t<h2 align=\"right\">Storage Unit</h2>",
+      "\t</column>",
+      "\t<column valign=\"bottom\">",
+      "\t\t<item id=\"techreborn:basic_storage_unit\" scale=\"2\" align=\"right\" background=\"5 #aa7cfc00\"></item>",
+      "\t\t<p align=\"right\" italic=\"true\" background=\"2 #447cfc00\" border=\"0 7cfc00\" color=\"#aa7cfc00\"> stacks:</p>",
+      "\t\t<p align=\"right\" italic=\"true\" background=\"2 #447cfc00\" border=\"0 7cfc00\" color=\"#aa7cfc00\"> items:</p>",
+      "\t</column>",
+      "\t<column valign=\"bottom\">",
+      "\t\t<h2 align=\"left\" shadowed=\"true\" background=\"2 #447cfc00\" color=\"#7cfc00\">Basic</h2>",
+      "\t\t<p align=\"left\" italic=\"true\" background=\"2 #aa7cfc00\" color=\"black\"> 128</p>",
+      "\t\t<p align=\"left\" italic=\"true\" background=\"2 #aa7cfc00\" color=\"black\"> 8,192</p>",
+      "\t</column>",
+      "</columns>",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          90,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:basic_storage_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "TR Basic Storage Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

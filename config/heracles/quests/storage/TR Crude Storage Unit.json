@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "Tech Reborn Storage"
+  ],
+  "tasks": {
+    "TR Crude Storage Unit Task0": {
+      "type": "heracles:item",
+      "item": "techreborn:crude_storage_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "TR Crude Storage Unit Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<columns template=\"34 24 46\">",
+      "\t<column>",
+      "\t\t<p align=\"right\">TechReborn</p>",
+      "\t\t<h2 align=\"right\">Storage Unit</h2>",
+      "\t</column>",
+      "\t<column valign=\"bottom\">",
+      "\t\t<item id=\"techreborn:crude_storage_unit\" scale=\"2\" align=\"right\" background=\"5 #88faf0e6\"></item>",
+      "\t\t<p align=\"right\" italic=\"true\" background=\"2 #44faf0e6\" border=\"0 faf0e6\" color=\"#88faf0e6\"> stacks:</p>",
+      "\t\t<p align=\"right\" italic=\"true\" background=\"2 #44faf0e6\" border=\"0 faf0e6\" color=\"#88faf0e6\"> items:</p>",
+      "\t</column>",
+      "\t<column valign=\"bottom\">",
+      "\t\t<h2 align=\"left\" shadowed=\"true\" background=\"2 #44faf0e6\" color=\"#faf0e6\">Crude</h2>",
+      "\t\t<p align=\"left\" italic=\"true\" background=\"2 #88faf0e6\" color=\"black\"> 32</p>",
+      "\t\t<p align=\"left\" italic=\"true\" background=\"2 #88faf0e6\" color=\"black\"> 2,048</p>",
+      "\t</column>",
+      "</columns>",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          90,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:crude_storage_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "TR Crude Storage Unit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

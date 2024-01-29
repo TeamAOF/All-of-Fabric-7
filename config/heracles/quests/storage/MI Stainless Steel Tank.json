@@ -1,0 +1,105 @@
+{
+  "dependencies": [
+    "MI Aluminum Tank"
+  ],
+  "tasks": {
+    "MI Stainless Steel Tank Task0": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:stainless_steel_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "MI Stainless Steel Tank Reward0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:stainless_steel_plate",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<columns template=\"30 40 30\">",
+      "<column valign=\"middle\">",
+      "<p align=\"right\" color=\"#88ffffff\">Bronze</p>",
+      "<p align=\"right\" color=\"#88ffffff\">Steel</p>",
+      "<p align=\"right\" color=\"#88ffffff\">Aluminum</p>",
+      "<p align=\"right\" background=\"2 #bcd3e3\" color=\"white\">Stainless</p>",
+      "<p align=\"right\" color=\"#88ffffff\">Titanium</p>",
+      "<p align=\"right\" color=\"#88ffffff\" shadowed=\"true\">Quantum</p>",
+      "</column>",
+      "<column valign=\"middle\">",
+      "<br/>",
+      "<item id=\"modern_industrialization:stainless_steel_tank\" scale=\"3\" background=\"4 ghostwhite\" border=\"2 black\"> </item>",
+      "<br/>",
+      "</column>",
+      "<column valign=\"middle\">",
+      "<h2 align=\"left\" background=\"2 ghostwhite\" border=\"1 black\" color=\"red\">MI</h2>",
+      "<br/>",
+      "<p align=\"left\" color=\"lightgray\">Barrel</p>",
+      "<p align=\"left\" background=\"2 crimson\" color=\"white\">Tank</p>",
+      "</column>",
+      "</columns>",
+      "<p align=\"center\" background=\"2 crimson\" color=\"white\">32,000 mB</p>",
+      "",
+      "",
+      "<p align=\"center\">Fee-fi-fo-fum,</p>",
+      "<p align=\"center\">I want ma’ Fe</p>",
+      "<p align=\"center\">All-oy-ed wit’</p>",
+      "<p align=\"center\">Chro-mi-um.</p>",
+      "",
+      "",
+      "---",
+      "<component>[\"\",{\"text\":\"¹ \"},{\"text\":\"Share\",\"underlined\":true,\"color\":\"#BCD3E3\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/6rkdm48\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"All of Fabric's Discord\"}},{\"text\":\" your own stainless steel poem or nursery rhyme!\"}]</component>",
+      "<component>[\"\",{\"text\":\"To properly get your \"},{\"text\":\"austenitic\",\"underlined\":true,\"color\":\"#BCD3E3\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://en.wikipedia.org/wiki/Austenitic_stainless_steel\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"https://en.wikipedia.org/wiki/Austenitic_stainless_steel\"}},{\"text\":\" groove on, include Nickel (Ni) and Manganese (Mn).\"}]</component>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          260,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:stainless_steel_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MI Stainless Steel Tank"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
