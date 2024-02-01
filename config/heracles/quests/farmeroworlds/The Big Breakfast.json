@@ -18,7 +18,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "bigbreak1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:eggplant_parmesan",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "bigbreak2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:the_big_breakfast",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

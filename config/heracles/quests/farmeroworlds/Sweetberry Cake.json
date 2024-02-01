@@ -32,7 +32,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "swca2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:wheat_dough",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "swca1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sweet_berries",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

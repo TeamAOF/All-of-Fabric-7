@@ -144,7 +144,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "juices2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:ice",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "juices1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:glass_bottle",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

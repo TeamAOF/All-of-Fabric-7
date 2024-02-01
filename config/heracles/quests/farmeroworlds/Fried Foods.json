@@ -228,7 +228,53 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "fried2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "fried3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:olive_oil",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "fried1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kibe:heater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

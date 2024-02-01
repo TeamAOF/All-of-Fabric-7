@@ -256,7 +256,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "hispanic1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:tortilla",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "hispanic2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:blackbean",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

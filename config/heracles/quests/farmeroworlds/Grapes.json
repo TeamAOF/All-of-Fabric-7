@@ -3,7 +3,21 @@
     "Vinery"
   ],
   "tasks": {},
-  "rewards": {},
+  "rewards": {
+    "1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

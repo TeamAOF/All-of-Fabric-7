@@ -144,7 +144,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "jam2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:grape",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "jam1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

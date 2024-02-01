@@ -46,7 +46,23 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "bakingbasics1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:cobblestone_stove",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

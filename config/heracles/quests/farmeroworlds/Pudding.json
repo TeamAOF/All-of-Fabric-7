@@ -32,7 +32,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "pudding2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:milk_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "pudding1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:strawberry_jam",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

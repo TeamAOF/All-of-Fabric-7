@@ -32,7 +32,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "mispastries1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:strawberry_jam",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "mispastries2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:yeast",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

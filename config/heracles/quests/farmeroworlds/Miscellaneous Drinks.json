@@ -102,7 +102,68 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "miscellaneous4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "miscellaneous3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:yeast",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "micellaneous1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:grape",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "micellaneous2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:glass_bottle",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

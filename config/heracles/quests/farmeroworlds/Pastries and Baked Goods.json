@@ -214,7 +214,53 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "psatries2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "pastries3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:chocolate",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "pastries1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:milk_bottle",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

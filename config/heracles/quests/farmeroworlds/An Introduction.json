@@ -13,7 +13,21 @@
       "type": "heracles:check"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "introduction1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "Become the greatest chef and farmer this world has ever seen!"

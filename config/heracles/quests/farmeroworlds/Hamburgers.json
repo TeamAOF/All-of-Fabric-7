@@ -46,7 +46,53 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "hamburger1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:minced_beef",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hamburgers3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "hamburgers2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:cheese",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

@@ -88,7 +88,53 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "pizza3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:wheat_dough",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "pizza2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:tomato",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "pizza1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:garlic",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

@@ -88,13 +88,46 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "salads2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bowl",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "salands1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:oak_leaves",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "Some of the healthiest foods in the world, good for losing weight and good cardiovascular health"
+      "Some of the healthiest foods in the world, good for losing weight and good cardiovascular health.",
+      "",
+      "Make sure you get the right /2/leaves/2/ though!"
     ],
     "groups": {
       "Farmer O' Worlds": {

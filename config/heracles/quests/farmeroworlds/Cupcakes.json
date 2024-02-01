@@ -46,7 +46,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "bakercupcakes1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:yeast",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "bakerycupcakes2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:strawberry",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

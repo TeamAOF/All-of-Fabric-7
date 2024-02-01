@@ -74,7 +74,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "bakeryjam2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "blockus:red_gingham_carpet",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "bakeryjam1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:jar",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

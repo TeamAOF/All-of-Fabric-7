@@ -32,7 +32,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "suhi1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:seagrass",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "sushi2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:rice",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

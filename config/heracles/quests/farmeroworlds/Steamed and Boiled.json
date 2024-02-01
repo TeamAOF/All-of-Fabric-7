@@ -144,7 +144,23 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "steamedboiled1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:water_bottle",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

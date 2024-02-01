@@ -172,7 +172,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "cookedfood1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:charcoal",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "cookedfoods2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:smoker",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

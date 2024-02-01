@@ -77,7 +77,38 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "bakingutitlies1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:iron_chair",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "bakingutilities2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:iron_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
