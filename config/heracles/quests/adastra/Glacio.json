@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "Calorite"
+  ],
+  "tasks": {
+    "aart4": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_4_rocket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aag": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:",
+      "to": "ad_astra:glacio",
+      "title": "Travel to Glacio",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With calorite you can improve your rocket to reach outside of the Solar System, your destination, Glacio",
+      "<br/>",
+      "Suprisingly, Glacio has oxygen so a space suit isn't necessary, it is a peaceful planet, rich in copper and ice shards, a perfect place for a little vacation"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          600,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:glacio_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glacio"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

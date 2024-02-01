@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "aasp": {
+      "type": "heracles:item",
+      "item": "ad_astra:solar_panel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aadc": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:desh_cable",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "If you wish to make oxygen while exploring other worlds now you can, the solar panel will generate power without needing anything else, however, it's power generation changes in every planet"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          320,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:solar_panel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panels"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

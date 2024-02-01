@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "The Keg"
+  ],
+  "tasks": {
+    "bcdn": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:dread_nog",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcsts": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:steel_toe_stout",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of drinks made with a frigid keg"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -735,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:steel_toe_stout",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Frigid Drinks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

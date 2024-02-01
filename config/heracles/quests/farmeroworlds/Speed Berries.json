@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbsb": {
+      "type": "heracles:item",
+      "item": "strangeberries:speed_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found in birch forests, old growth birch forests and forests",
+      "<br/>",
+      "Can be used to make a speed potion"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -349,
+          185
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:speed_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Speed Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

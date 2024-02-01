@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "The Keg"
+  ],
+  "tasks": {
+    "bcb": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:beer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcsa": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:strongroot_ale",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcv": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:vodka",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcrw": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:rice_wine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bck": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:kombucha",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bceg": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:egg_grog",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcm": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:mead",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of drinks made at a normal temperature"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -685,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:beer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Normal Drinks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

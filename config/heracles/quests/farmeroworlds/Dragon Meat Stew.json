@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Big Meals"
+  ],
+  "tasks": {
+    "eddms": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_meat_stew_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "eddmsb": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_meat_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It provides 4 bowls of dragon meat stew, after the egg is empty you can get the half dragon egg shell back"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -540,
+          -135
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:dragon_meat_stew_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dragon Meat Stew"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

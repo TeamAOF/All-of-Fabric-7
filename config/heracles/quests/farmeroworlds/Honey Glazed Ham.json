@@ -1,0 +1,98 @@
+{
+  "dependencies": [
+    "Feasts for a King"
+  ],
+  "tasks": {
+    "fdh": {
+      "type": "heracles:item",
+      "item": "farmersdelight:ham",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdsh": {
+      "type": "heracles:item",
+      "item": "farmersdelight:smoked_ham",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdhgh": {
+      "type": "heracles:item",
+      "item": "farmersdelight:honey_glazed_ham_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdhghb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:honey_glazed_ham",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Can fill up to 4 bowls, ham is obtained by killing pigs or hoglins with a knife, it can only be cooked in a smoker"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -415,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:honey_glazed_ham_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Honey Glazed Ham"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

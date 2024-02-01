@@ -1,0 +1,98 @@
+{
+  "dependencies": [
+    "Meats and Dragon Drops"
+  ],
+  "tasks": {
+    "edebs": {
+      "type": "heracles:item",
+      "item": "ends_delight:end_barbecue_stick",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edec": {
+      "type": "heracles:item",
+      "item": "ends_delight:ender_congee",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edsfsm": {
+      "type": "heracles:item",
+      "item": "ends_delight:stir_fried_shulker_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrds": {
+      "type": "heracles:item",
+      "item": "ends_delight:roasted_dragon_steak",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These are recipes that use the meats from the End, some require cooked meat others can be made with raw meat"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -505,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:roasted_dragon_steak",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Meat Recipes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

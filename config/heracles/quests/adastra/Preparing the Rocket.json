@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "Steel Plates"
+  ],
+  "tasks": {
+    "aanw": {
+      "type": "heracles:item",
+      "item": "ad_astra:nasa_workbench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aalp": {
+      "type": "heracles:item",
+      "item": "ad_astra:launch_pad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "No simple crafting table could ever build something as complex as a rocket, for this you will need the NASA workbench, with it you will be able to craft rockets",
+      "<br/>",
+      "<br/>",
+      "You will also need a launch pad from where the rocket will take off once it's ready"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          130,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:nasa_workbench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Preparing the Rocket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

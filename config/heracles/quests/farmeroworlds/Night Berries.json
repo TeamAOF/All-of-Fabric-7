@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbnb": {
+      "type": "heracles:item",
+      "item": "strangeberries:night_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found on dark forests",
+      "<br/>",
+      "Can only be harvested at night, walking on it during the day gives blindness, breaking it drops nothing",
+      "<br/>",
+      "Can be used to make night vision potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -253,
+          185
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:night_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Night Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "The Fish"
+  ],
+  "tasks": {
+    "ndscs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:searing_cod_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndmcfs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:magmacubefish_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:glowdine_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndlps": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:lava_pufferfish_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:blazefish_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndss": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:soulsucker_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndos": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:obsidianfish_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Slicing the fish in a cutting board allows to get more out of them and you will also need these slices for better recipes"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -580,
+          110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:searing_cod_slice",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fish Slices"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

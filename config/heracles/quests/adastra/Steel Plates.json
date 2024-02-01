@@ -1,0 +1,105 @@
+{
+  "dependencies": [
+    "Steel"
+  ],
+  "tasks": {
+    "aacg": {
+      "type": "heracles:item",
+      "item": "ad_astra:coal_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aasc": {
+      "type": "heracles:item",
+      "item": "ad_astra:steel_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aac": {
+      "type": "heracles:item",
+      "item": "ad_astra:compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aasp": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Steel alone won't get you to the Moon, you will need plates, for this task you will need to make a compressor, it will need power so you will also need a coal generator",
+      "<br/>",
+      "<br/>",
+      "To power the compressor you can simply put it next to the generator or use any kind of cable to connect them",
+      "<br/>",
+      "Steel Cables are a simple solution"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          90,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Plates and Power"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

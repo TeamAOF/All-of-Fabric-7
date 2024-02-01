@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "Ostrum"
+  ],
+  "tasks": {
+    "aansb": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aanss": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_suit",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aansh": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aansp": {
+      "type": "heracles:item",
+      "item": "ad_astra:netherite_space_pants",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Before you can travel to new planets you will need to make the netherite space suit, it will protect you from the scorching heat of Venus and Mercury, it also protects against fire and lava"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          440,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:netherite_space_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Space Suit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

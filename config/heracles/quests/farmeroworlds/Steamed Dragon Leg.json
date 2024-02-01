@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Big Meals"
+  ],
+  "tasks": {
+    "ededeb": {
+      "type": "heracles:item",
+      "item": "ends_delight:steamed_dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edsde": {
+      "type": "heracles:item",
+      "item": "ends_delight:steamed_dragon_egg_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It provides 4 bowls of steamed dragon egg, after the egg is empty you can get the half dragon egg shell back"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -590,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:steamed_dragon_egg_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steamed Dragon Leg"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

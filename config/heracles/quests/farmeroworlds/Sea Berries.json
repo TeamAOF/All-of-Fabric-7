@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbsb": {
+      "type": "heracles:item",
+      "item": "strangeberries:sea_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found underwater in oceans, cold oceans, rivers, deep oceans and deep cold oceans",
+      "<br/>",
+      "Can be used to make water breathing potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -325,
+          209
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:sea_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sea Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

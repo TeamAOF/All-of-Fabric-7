@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "The Fish"
+  ],
+  "tasks": {
+    "ndbbs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_blazefish_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbss": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_soulsucker_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbscs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_searing_cod_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbmcfs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_magmacubefish_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbgs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_glowdine_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndblps": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_lava_pufferfish_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbos": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:baked_obsidianfish_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Baked fish stews are another highly nourishing way of preparing your fish, in this case they can only be made with a Create heated mixer"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -500,
+          110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:baked_searing_cod_stew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Baked Fish Stew"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

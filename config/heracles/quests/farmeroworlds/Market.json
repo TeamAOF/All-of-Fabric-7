@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Farming for Blockheads"
+  ],
+  "tasks": {
+    "ffbm": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:market",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A place for all your crop and tree needs, all sorts of seeds and saplings can be bought here for the low price of one emerald"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -20,
+          -135
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:market",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Market"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

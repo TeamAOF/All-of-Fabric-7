@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Big Meals"
+  ],
+  "tasks": {
+    "edgs": {
+      "type": "heracles:item",
+      "item": "ends_delight:grilled_shulker_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edgsp": {
+      "type": "heracles:item",
+      "item": "ends_delight:grilled_shulker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It provides 4 plates of grilled shulker, after the shulker is empty you can get the shulker shell back"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -560,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:grilled_shulker_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grilled Shulker"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

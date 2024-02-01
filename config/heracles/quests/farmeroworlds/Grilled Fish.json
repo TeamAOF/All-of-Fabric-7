@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "The Fish"
+  ],
+  "tasks": {
+    "ndgs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_soulsucker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgb": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_blazefish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgg": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_glowdine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndglp": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_lava_pufferfish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgmcf": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_magmacubefish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgsc": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_searing_cod",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgo": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:grilled_obsidianfish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Grilled fish dishes are a highly nourishing way of preparing your fish"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -540,
+          110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:grilled_searing_cod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grilled Fish"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

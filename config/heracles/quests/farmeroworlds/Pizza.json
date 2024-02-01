@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Cheese Making"
+  ],
+  "tasks": {
+    "bcps": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:pizza_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcp": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:pizza",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The pizza can be placed down and you will be able to get slices of it without using a knife"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -775,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:pizza",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pizza"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

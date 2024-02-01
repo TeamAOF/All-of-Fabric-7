@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Nether Depths"
+  ],
+  "tasks": {
+    "ndls": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:lava_sponge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Lava sponges can be found in big clusters of them in the nether lava oceans, to dry them they must be placed under a block of water, once no longer wet they can be used to erase lava from an area"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -500,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:lava_sponge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lava Sponges"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

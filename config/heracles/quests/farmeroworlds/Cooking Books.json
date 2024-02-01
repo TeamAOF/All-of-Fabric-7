@@ -1,0 +1,93 @@
+{
+  "dependencies": [
+    "Cooking for Blockheads"
+  ],
+  "tasks": {
+    "cfbcfb2": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:crafting_book",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbcfb1": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:recipe_book",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbcfb": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:no_filter_edition",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Cooking for Blockheads I allows to see what foods can be made with what ingredients you have",
+      "<br/>",
+      "<br/>",
+      "Cooking for blockheads II allows to see and craft what foods can be made with what ingredients you have",
+      "<br/>",
+      "<br/>",
+      "Cooking for blockheads allows to see all recipes and to craft those that you have ingredients for, it is the ultimate cooking book",
+      "<br/>",
+      "<br/>",
+      "The best use for these books is to place them on the cooking table, this will allow to see what can be made with every block of your kitchen and even cook those foods"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -90,
+          -65
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:no_filter_edition",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cooking Books"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

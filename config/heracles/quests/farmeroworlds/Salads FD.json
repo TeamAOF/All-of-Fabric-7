@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fdms": {
+      "type": "heracles:item",
+      "item": "farmersdelight:mixed_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdfs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:fruit_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdns": {
+      "type": "heracles:item",
+      "item": "farmersdelight:nether_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A few healthy food options"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -390,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:mixed_salad",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Salads"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

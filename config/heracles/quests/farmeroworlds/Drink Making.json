@@ -1,0 +1,207 @@
+{
+  "dependencies": [
+    "Kettle"
+  ],
+  "tasks": {
+    "frpt": {
+      "type": "heracles:item",
+      "item": "farmersrespite:purulent_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frrht": {
+      "type": "heracles:item",
+      "item": "farmersrespite:rose_hip_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frgtl": {
+      "type": "heracles:item",
+      "item": "farmersrespite:green_tea_leaves",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frrh": {
+      "type": "heracles:item",
+      "item": "farmersrespite:rose_hips",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frytl": {
+      "type": "heracles:item",
+      "item": "farmersrespite:yellow_tea_leaves",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frc": {
+      "type": "heracles:item",
+      "item": "farmersrespite:coffee",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fryt": {
+      "type": "heracles:item",
+      "item": "farmersrespite:yellow_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frgt": {
+      "type": "heracles:item",
+      "item": "farmersrespite:green_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frbtl": {
+      "type": "heracles:item",
+      "item": "farmersrespite:black_tea_leaves",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdt": {
+      "type": "heracles:item",
+      "item": "farmersrespite:dandelion_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frbt": {
+      "type": "heracles:item",
+      "item": "farmersrespite:black_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "once you have a kettle you will be able to start making drinks in it, but there are a few ingredients you will need first",
+      "<br/>",
+      "<br/>",
+      "Tea leaves, they are one of the most important things, to obtain them you will need to find a wild tea bush, breaking it will give you tea seeds, with them you can plant your very own tea bush and it doesn't need to be on farmland",
+      "<br/>",
+      "The tea bush will slowly mature through the 3 different tea leaves, starting on green, then yellow and finally black, so if you want green and yellow leaves keep an eye on the tea bush since you can't go back once it has matured",
+      "<br/>",
+      "<br/>",
+      "Another ingredient is rose hips, these are obtained by cutting a rose on a cutting board",
+      "<br/>",
+      "<br/>",
+      "All drinks work as mini potions they can also have their duration extended or potency increased just like potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -685,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersrespite:green_tea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drink Making"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

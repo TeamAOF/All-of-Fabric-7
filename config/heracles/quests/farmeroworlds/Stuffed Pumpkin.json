@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Feasts for a King"
+  ],
+  "tasks": {
+    "fdsp": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stuffed_pumpkin_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdspb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stuffed_pumpkin",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Can fill up to 4 bowls. must be made in a cooking pot"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -440,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:stuffed_pumpkin_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stuffed Pumpkin"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

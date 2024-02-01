@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "End's Delight"
+  ],
+  "tasks": {
+    "edcs": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_succulent",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edepg": {
+      "type": "heracles:item",
+      "item": "ends_delight:ender_pearl_grain",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edcfg": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_grain",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "eddcf": {
+      "type": "heracles:item",
+      "item": "ends_delight:dried_chorus_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These are some of the more basic ingredients",
+      "<br/>",
+      "<br/>",
+      "Chorus succulents are a new plant that spawns in the End, it can be eaten or used for other recipes, it can be planted on end stone and can grow until having 4 bulbs, dropping 4 succulents when broken",
+      "<br/>",
+      "Chorus fruit grains are obtained by cutting chorus fruit on a cutting board, these can be eaten without causing a teleport or used as an ingredient",
+      "<br/>",
+      "Dried chorus flower is obtained by smelting chorus flower, it will be used as an ingredient",
+      "<br/>",
+      "Ender pearl grains are obtained by cutting an ender pearl in a cutting board, it will be used as an ingredient"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -575,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:chorus_succulent",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crops, Plants and Grains"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

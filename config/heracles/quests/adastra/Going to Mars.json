@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "aart2": {
+      "type": "heracles:item",
+      "item": "ad_astra:tier_2_rocket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aam": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:",
+      "to": "ad_astra:mars",
+      "title": "Travel to Mars",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Your old rocket isn't enough to get to Mars, but with the newly discovered desh you can make a better rocket that can reach the red planet"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          350,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:mars_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Going to Mars"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

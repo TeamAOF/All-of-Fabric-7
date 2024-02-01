@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "An Introduction"
+  ],
+  "tasks": {
+    "fd": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Farmer's Delight adds a vast variety of foods, many of them are highly nutritious, providing a lot of saturation, to cook these foods there are some new systems, mainly the cutting board and cooking pot",
+      "<br/>",
+      "<br/>",
+      "Farmer's Delight also has Create compatibility, you will be able to cook and cut food with it"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -325,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:iron_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Farmer's Delight"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

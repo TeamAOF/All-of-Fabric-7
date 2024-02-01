@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Feasts for a King"
+  ],
+  "tasks": {
+    "fdrc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:roast_chicken_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrcb": {
+      "type": "heracles:item",
+      "item": "farmersdelight:roast_chicken",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Can fill up to 4 bowls"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -465,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:roast_chicken_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Roast Chicken"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

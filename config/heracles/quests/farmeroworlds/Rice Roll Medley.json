@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Feasts for a King"
+  ],
+  "tasks": {
+    "fdrrm": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice_roll_medley_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Unlike the other foods, the rice roll medley doesnt require a bowl, it works more like a decoration, clicking on it will give back the sushi pieces one by one"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -365,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:rice_roll_medley_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rice Roll Medley"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

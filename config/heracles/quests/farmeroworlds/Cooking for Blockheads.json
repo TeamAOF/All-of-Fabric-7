@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "An Introduction"
+  ],
+  "tasks": {
+    "cfb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The journey of a professional chef isn't an easy one, these things will aid you in your cooking journey"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -35,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:recipe_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Cooking for Blockheads"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

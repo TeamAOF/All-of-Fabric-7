@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "A Dream"
+  ],
+  "tasks": {
+    "aap": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Going into space is no easy task, you will first need to make some preparations for the future rocket and for yourself"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          10,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Preparations"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "The Fish"
+  ],
+  "tasks": {
+    "ndlg": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:lava_glass",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Lava glass allows to completely see through lava, it will be useful for finding fish in the nether, ores under lava pools or to simply have a lava aquarium"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -500,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:lava_glass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lava Glass"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "dependencies": [
+    "Fright's Delight"
+  ],
+  "tasks": {
+    "frdgtpb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punchbowl_ghasttear",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsbpb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punchbowl_soul_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsep": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punch_spidereye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsepb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punchbowl_spidereye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdgtp": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punch_ghasttear",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdwbp": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punch_wither_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdwbpb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punchbowl_wither_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsbp": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punch_soul_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsac": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punch_slimeapple",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsacb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:punchbowl_slimeapple",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These drinks are pretty efficient way of using your ingredients, they can also be made into bowls which can be placed as decoration and can refill your bottles to get back the drink"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -446,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "frightsdelight:punch_soul_berry",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drinks and Bowls"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

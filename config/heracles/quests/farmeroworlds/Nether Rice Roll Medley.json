@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Warped Kelp Roll",
+    "Fish Rolls"
+  ],
+  "tasks": {
+    "ndnrrm": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:nether_rice_roll_medley_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A more aesthetic way to present your sushi"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -580,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:nether_rice_roll_medley_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nether Rice Roll Medley"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "The Keg"
+  ],
+  "tasks": {
+    "bcbm": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:bloody_mary",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcpj": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:pale_jane",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcsr": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:saccharine_rum",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of drinks made with a warm keg"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -660,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:saccharine_rum",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Warm Drinks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

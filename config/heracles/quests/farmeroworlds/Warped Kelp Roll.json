@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Nether Depths"
+  ],
+  "tasks": {
+    "ndwkr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:warped_kelp_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndwkrs": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:warped_kelp_roll_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A vegetarian alternative to fish rolls, it's made with warped kelp which can be found in the lava oceans of the nether, it can be cut into slices on a cutting board"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -580,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:warped_kelp_roll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Warped Kelp Roll"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

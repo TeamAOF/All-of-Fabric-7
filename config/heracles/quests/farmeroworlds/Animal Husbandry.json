@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Farming for Blockheads"
+  ],
+  "tasks": {
+    "ffbft": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:feeding_trough",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ffben": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:chicken_nest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Chicken nests are an easy way to collect eggs",
+      "<br/>",
+      "Feeding troughs are an easy way to breed animals"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -35,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:chicken_nest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Animal Husbandry"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

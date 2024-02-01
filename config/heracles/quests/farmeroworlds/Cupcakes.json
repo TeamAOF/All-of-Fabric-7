@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "bac": {
+    "bsc": {
       "type": "heracles:item",
-      "item": "bakery:apple_cupcake",
+      "item": "bakery:strawberry_cupcake",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "bsc": {
+    "bac": {
       "type": "heracles:item",
-      "item": "bakery:strawberry_cupcake",
+      "item": "bakery:apple_cupcake",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -79,6 +79,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

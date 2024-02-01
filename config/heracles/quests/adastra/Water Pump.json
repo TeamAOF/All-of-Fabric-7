@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "Desh"
+  ],
+  "tasks": {
+    "aawp": {
+      "type": "heracles:item",
+      "item": "ad_astra:water_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aadp": {
+      "type": "heracles:item",
+      "item": "ad_astra:desh_fluid_pipe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With the water pump you will be able to get easier infinite water outside of earth, just be careful that it doesn't freeze or evaporate, to avoid that you will need a room with oxygen",
+      "<br/>",
+      "<br/>",
+      "To move the water you can now make desh pipes"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          260,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:water_pump",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Water Pump"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

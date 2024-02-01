@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Oxygen",
+    "Fuel"
+  ],
+  "tasks": {
+    "aam": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:",
+      "to": "ad_astra:moon",
+      "title": "Travel to the Moon",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These are some tips before going to the Moon",
+      "<br/>",
+      "<br/>",
+      "1) Remember to fuel the rocket and to bring at least 3 buckets of fuel to come back, the rocket has it's own storage where to put things",
+      "<br/>",
+      "2) You will need to bring a launch pad to take off again and come back",
+      "<br/>",
+      "3) Bring plenty of oxygen and food",
+      "<br/>",
+      "4) Regular torches won't work, bring soul torches, glowstone or other methods of illumination",
+      "<br/>",
+      "5) Have plenty of space to bring back some lunar goodies",
+      "<br/>",
+      "<br/>",
+      "After this advise you are ready to go to the Moon"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          230,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:moon_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Preparing for the Moon"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

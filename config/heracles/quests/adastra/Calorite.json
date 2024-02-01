@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Venus"
+  ],
+  "tasks": {
+    "aaci": {
+      "type": "heracles:item",
+      "item": "ad_astra:calorite_ingot",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "aaci": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:calorite_ingot",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An incredible material, heat resistant, cold resistant, incredibly durable yet surprisingly light, it can certainly be used to upgrade your equipment"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          560,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:calorite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Calorite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

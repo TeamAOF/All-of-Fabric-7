@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fd": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Tired of dealing with hostile mobs? Have an excess of their loot? Well now you can eat their remains out of pure spite! Certainly it can't be unhealthy, right?",
+      "<br/>",
+      "<br/>",
+      "You will also be able to use Create for these recipes"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -445,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:ghast_tear",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Fright's Delight"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

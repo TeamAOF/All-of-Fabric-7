@@ -1,0 +1,129 @@
+{
+  "dependencies": [
+    "Meats and Dragon Drops"
+  ],
+  "tasks": {
+    "edsdl": {
+      "type": "heracles:item",
+      "item": "ends_delight:smoked_dragon_leg",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrdm": {
+      "type": "heracles:item",
+      "item": "ends_delight:roasted_dragon_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrsm": {
+      "type": "heracles:item",
+      "item": "ends_delight:roasted_shulker_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "eddem": {
+      "type": "heracles:item",
+      "item": "ends_delight:dried_endermite_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrsms": {
+      "type": "heracles:item",
+      "item": "ends_delight:roasted_shulker_meat_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrdmc": {
+      "type": "heracles:item",
+      "item": "ends_delight:roasted_dragon_meat_cuts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "All the meats can be cooked for some extra nourishment or to be used in different recipes",
+      "<br/>",
+      "<br/>",
+      "The smoked dragon leg and dried endermite meat can only be cooked in the smoker"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -505,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:roasted_dragon_meat",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cooked Meats"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

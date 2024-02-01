@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Cheese Making"
+  ],
+  "tasks": {
+    "bcq": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:quiche",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcqs": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:quiche_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The quiche can be placed down and eaten from there or cut with knife to get 4 slices of it"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -775,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:quiche",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quiche"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

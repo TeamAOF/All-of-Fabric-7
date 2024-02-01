@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Cooking for Blockheads"
+  ],
+  "tasks": {
+    "ffb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To cook one must first farm, these are a few utilities to help you gather ingredients for your cooking"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -35,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:green_fertilizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Farming for Blockheads"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

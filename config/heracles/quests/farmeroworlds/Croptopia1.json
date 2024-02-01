@@ -50,7 +50,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
       "translate": "Croptopia"
     }
@@ -60,6 +60,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

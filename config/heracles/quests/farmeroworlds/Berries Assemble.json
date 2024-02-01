@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "An Introduction"
+  ],
+  "tasks": {
+    "sb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Strange berries give a short effect and all have a different spawn locations, they can also be used to make potions",
+      "<br/>",
+      "But be careful with eating too many different berries or you will get berry sickness, berry sickness will quickly drain your saturation and hunger and prevent you from regaining food"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -265,
+          143
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:sweet_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Berries Assemble"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

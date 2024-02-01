@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "Fish Slices"
+  ],
+  "tasks": {
+    "ndscr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:searing_cod_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndmcfr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:magmacubefish_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndgr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:glowdine_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndlpr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:lava_pufferfish_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:blazefish_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndsr": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:soulsucker_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndor": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:obsidianfish_roll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Another simple alternative to fish slices, simply add rice for a bit extra nourishment"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -615,
+          95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:searing_cod_roll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fish Rolls"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

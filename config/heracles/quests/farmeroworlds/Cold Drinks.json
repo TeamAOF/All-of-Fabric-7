@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "The Keg"
+  ],
+  "tasks": {
+    "bcsf": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:salty_folly",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bcgg": {
+      "type": "heracles:item",
+      "item": "brewinandchewin:glittering_grenadine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of drinks made with a cold keg"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -710,
+          -90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:salty_folly",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cold Drinks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
