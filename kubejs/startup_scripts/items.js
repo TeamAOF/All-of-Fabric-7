@@ -16,6 +16,7 @@ StartupEvents.registry('item', event => {
 	// event.create('botania_fertilizer').displayName('Botania Fertilizer') //original bag texture from sukuro120 on planetminecraft
 	event.create('hyper_nitro_crystal').displayName('Hyper Nitro Crystal').glow(true).rarity('Epic') //texture originally from POWAH! mod
 	event.create('mother_of_all_pearls').displayName('Mother of all Pearls').rarity('Epic') //texture originally from BOMD mod
+	event.create('mixed_stone_ball').displayName('Mixed Stone Ball')
 	event.create('ultra_compressed_mixed_stone_ball').displayName('Ultra Compressed Mixed Stone Ball').rarity('Epic')
 	event.create('incomplete_chromatic_compound')
 	event.create('unrefined_chromatic_compound').displayName('Unrefined Chromatic Compound')
