@@ -4,15 +4,15 @@
     "2E12C8D6A35B7405",
     "1F655261AADEF7E9",
     "1AD3C42442918E43",
-    "60D12546F28D7C78",
     "4BD5F19B354B9027",
-    "55D9BA50B2741773",
+    "60D12546F28D7C78",
     "7254C86E24938CE4",
+    "55D9BA50B2741773",
     "58FE2DC83ADD005F",
-    "78ED7745488BC27E",
     "503381C10054E786",
-    "1699D14B24CE2883",
+    "78ED7745488BC27E",
     "074A9E3BB501CFEB",
+    "1699D14B24CE2883",
     "6CAD13315766D55D",
     "105C09C867052F3A",
     "7DF89E1482BD6640",
@@ -26,8 +26,8 @@
     "3469B3EDFFA6484E",
     "38049A1334A76694",
     "183AE5E1F4D3423F",
-    "093E8238C4E5B9DC",
-    "6D9E0A35748F36F8"
+    "6D9E0A35748F36F8",
+    "093E8238C4E5B9DC"
   ],
   "tasks": {
     "3D2AD6934C3585CF": {
@@ -43,7 +43,7 @@
     }
   },
   "rewards": {
-    "6F52B0A6DC1A772C": {
+    "trophy": {
       "title": "",
       "icon": {
         "item": {
@@ -96,7 +96,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
     "title": {
       "translate": "Spectrum 100%"
     }
