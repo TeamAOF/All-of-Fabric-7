@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:mana_ring\" scale=\"2\"> </item>",
+      "",
+      "<hr></hr>",
+      "",
+      "You can place a /b/Mana Tablet/b/ onto a Manasteel ring to make the Tablet wearable on your body instead of having it fill up a spot in your precious inventory. The /b/Band of Mana/b/ functions no different than a regular /b/Mana Tablet/b/, aside from being able to wear it in a special Trinket Slot."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          125,
+          33
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Band of Mana"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

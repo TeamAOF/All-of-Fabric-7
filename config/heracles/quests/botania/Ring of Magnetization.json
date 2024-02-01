@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:magnet_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:magnet_ring\" scale=\"2\"> </item>",
+      "",
+      "<hr></hr>",
+      "",
+      "A /9/Magnetizing Lens/9/ can be attached to a Manasteel ring to produce a /9/Ring of Magnetization/9/. This will attract nearby items by making them float toward the wearer. If you are sneaking or within range of a /6/Solegnolia/6/, the magnetization effect is temporarily disabled until you either stop sneaking or exit the range of the /6/Solegnolia/6/. If you need to drop an item for any reason, it wont start magnetizing that item for a few seconds to give the item time to do what it needs to do."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          100,
+          88
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:magnet_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ring of Magnetization"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

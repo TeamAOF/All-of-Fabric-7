@@ -1,0 +1,98 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:itemfinder",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:itemfinder\" scale=\"2\"> </item>",
+      "",
+      "<hr/>",
+      "",
+      "/2/The Spectator/2/ is a headband that allows you to perceive the world in an advanced way. If and when you hold an item, a colorful /4/v/4//6/i/6//e/s/e//2/u/2//1/a/1//5/l/5/ aid will be emit to allow for easy spotting.",
+      "",
+      "These emissions occur from:",
+      "<ul>",
+      "<li>",
+      "/c/Containers/c/ containing that time.",
+      "</li>",
+      "<li>",
+      "/c/Dropped/c/ items of that type.",
+      "</li>",
+      "<li>",
+      "/c/Mobs/c/ with that item equipped.",
+      "</li>",
+      "<li>",
+      "/c/Players/c/ with that item in their inventory.",
+      "</li>",
+      "<li>",
+      "/c/Villagers/c/ trading for that item.",
+      "</li>",
+      "</ul>",
+      "",
+      "When sneaking, all of the dropped items near the wearer will shine, regardless of the item being held."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          180,
+          88
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:itemfinder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Spectator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
