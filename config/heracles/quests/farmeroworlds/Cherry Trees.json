@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "bank_1"
+    "Trees"
   ],
   "tasks": {
-    "bank_2_task": {
+    "vc": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "vinery:cherry",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "1": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,23 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "vinery:cherry_sapling",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -40,43 +55,32 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "Cherry trees can be found in meadows, plains and sunflower plains, markets and winemaker villagers will also sell their saplings",
+      " ",
+      " ",
+      "Cherry trees have leaves which can be right clicked to get cherries which will be necessary for some wines",
+      " ",
+      " ",
+      "Cherry trees also have a unique wood that allows to make traditional decorations like fences and slabs and unique ones like tables and chairs"
     ],
     "groups": {
-      "Storage": {
+      "Farmer O' Worlds": {
         "position": [
-          40,
-          -180
+          400,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "vinery:cherry_sapling",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Cherry Trees"
     }
   },
   "settings": {
@@ -84,6 +88,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

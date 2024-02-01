@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "0F6E96D9C9F5EF35"
+  ],
+  "tasks": {
+    "42F25E8A341BEB26": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/build_enchanting_structure"
+      ],
+      "type": "heracles:advancement"
+    },
+    "4998B3D2CD622CA8": {
+      "type": "heracles:item",
+      "item": "spectrum:knowledge_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eNext Level Enchanting"
+    },
+    "description": [
+      "<h2>&&eNext Level Enchanting</h2>",
+      "<hr/>",
+      "<task task=\"42F25E8A341BEB26\" quest=\"5EA323A52C146DEA\"/>",
+      "<task task=\"4998B3D2CD622CA8\" quest=\"5EA323A52C146DEA\"/>",
+      "<hr/>",
+      "&&6Construct&&r the &&bEnchanter&&r. This structure allows you to &&6conveniently enchant&&r items, &&6copy enchanted books&&r, and offers many &&bunique enchantments&&r.",
+      "<hr/>",
+      "<reward reward=\"29B0F99101BE4DCD\" quest=\"5EA323A52C146DEA\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          369,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:enchanter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enchantments Aplenty"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "dependencies": [
+    "Fright's Delight"
+  ],
+  "tasks": {
+    "frdsa": {
+      "type": "heracles:item",
+      "item": "frightsdelight:apple_slime",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdrfs": {
+      "type": "heracles:item",
+      "item": "frightsdelight:soup_rotten_flesh",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdrfc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:cookie_flesh",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrcs": {
+      "type": "heracles:item",
+      "item": "frightsdelight:web_on_stick",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdmm": {
+      "type": "heracles:item",
+      "item": "frightsdelight:monster_mash",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdss": {
+      "type": "heracles:item",
+      "item": "frightsdelight:pasta_with_slimeballs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdses": {
+      "type": "heracles:item",
+      "item": "frightsdelight:soup_spider_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsec": {
+      "type": "heracles:item",
+      "item": "frightsdelight:cookie_spidereye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frduk": {
+      "type": "heracles:item",
+      "item": "frightsdelight:undead_kebab",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsbs": {
+      "type": "heracles:item",
+      "item": "frightsdelight:soup_slime",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsbc": {
+      "type": "heracles:item",
+      "item": "frightsdelight:cookie_soul_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:apple",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Most of these foods will have mild negative effects, mainly just hearing the cries of the dead, but don't worry they can just be ignored or you can eat or drink something made with berries which will make you immune to it"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -470,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "frightsdelight:apple_slime",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Foods"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

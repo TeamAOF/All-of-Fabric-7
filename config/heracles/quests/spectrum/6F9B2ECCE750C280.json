@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3FFA395CAB5C258F": {
+      "type": "heracles:item",
+      "item": "spectrum:guidebook",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "The energies growing like roots, they sprout magic of nature overflowing 'til you discover what it's all about."
+    },
+    "description": [
+      "<h2>The energies growing like roots, they sprout magic of nature overflowing 'til you discover what it's all about.</h2>",
+      "<hr/>",
+      "<task task=\"3FFA395CAB5C258F\" quest=\"6F9B2ECCE750C280\"/>",
+      "<hr/>",
+      "&&6Spectrum&&r is a story driven and exploration-based magic mod, focusing on the natural energies that flow in the world, represented in color.",
+      "<br/>",
+      "Trying not to give everything away at first glance, Spectrum uses &&6advancements&&r and an in-game manual, &&bColorful World&&r, to guide you through. If you are stuck, &&6check these&&r!",
+      "<br/>",
+      "These quests don't cover everything in Spectrum, but they touch on the main progression and some notable side content.",
+      "<br/>",
+      "Quests are hidden and will appear as you can complete them. ",
+      "<br/>",
+      "To begin, find some &&bGemstone Geodes&&r."
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          16,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:guidebook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Colorful World"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

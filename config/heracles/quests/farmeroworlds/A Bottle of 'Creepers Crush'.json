@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "bank_1"
+    "Wine ageing"
   ],
   "tasks": {
-    "bank_2_task": {
+    "vcc": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "vinery:creepers_crush",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "1": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "vinery:creepers_crush",
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -40,43 +40,29 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "It does what you cam expect, it makes you blow up like a supercharged creeper, the explosion can be survived with enough armor",
+      " ",
+      " ",
+      "(By signing this you are accepting responsability over all damages to yourself, to others and to any property)"
     ],
     "groups": {
-      "Storage": {
+      "Farmer O' Worlds": {
         "position": [
-          40,
-          -180
+          330,
+          -275
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "vinery:creepers_crush",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "A Bottle of 'Creepers Crush'"
     }
   },
   "settings": {
@@ -84,6 +70,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

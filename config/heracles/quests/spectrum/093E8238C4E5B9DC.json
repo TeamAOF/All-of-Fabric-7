@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "5ADB895DCB77C6A8"
+  ],
+  "tasks": {
+    "0F4EE339F426353F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/build_cinderhearth_structure"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eGoing Full Blast"
+    },
+    "description": [
+      "<h2>&&eGoing Full Blast</h2>",
+      "<hr/>",
+      "<task task=\"0F4EE339F426353F\" quest=\"093E8238C4E5B9DC\"/>",
+      "<hr/>",
+      "&&6Craft&&r the &&bCinderhearth&&r and &&6build&&r its structure. A blast furnace that runs on Ink, with additional benefits, and some special recipes.",
+      "<br/>",
+      "&&7&&oYou wanted ore doubling?&&r",
+      "<hr/>",
+      "<reward reward=\"1E08AC5ADAB83401\" quest=\"093E8238C4E5B9DC\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          401,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:cinderhearth",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "State-of-your-art Blasting"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

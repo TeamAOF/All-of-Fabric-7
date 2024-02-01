@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "363612FADF86B22F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_moonstone_shard"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eDiscover a Moonstone Geode"
+    },
+    "description": [
+      "<h2>&&eDiscover a Moonstone Geode</h2>",
+      "<hr/>",
+      "<task task=\"363612FADF86B22F\" quest=\"22E2CD17FE2A8869\"/>",
+      "<hr/>",
+      "Somewhere in the Deeper Down lies a pure Geode",
+      "<hr/>",
+      "<reward reward=\"5799426896D7A81D\" quest=\"22E2CD17FE2A8869\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          720,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:moonstone_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Brightest of Whites"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "bank_1"
+    "Nether Depths"
   ],
   "tasks": {
-    "bank_2_task": {
+    "ndls": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "netherdepthsupgrade:lava_sponge",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "1": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "netherdepthsupgrade:lava_sponge",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -40,43 +40,26 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "Lava sponges can be found in big clusters of them in the nether lava oceans, to dry them they must be placed under a block of water, once no longer wet they can be used to erase lava from an area"
     ],
     "groups": {
-      "Storage": {
+      "Farmer O' Worlds": {
         "position": [
-          40,
-          -180
+          -500,
+          50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "netherdepthsupgrade:lava_sponge",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Lava Sponges"
     }
   },
   "settings": {
@@ -84,6 +67,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

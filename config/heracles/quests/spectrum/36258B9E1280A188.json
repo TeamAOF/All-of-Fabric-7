@@ -1,0 +1,101 @@
+{
+  "dependencies": [
+    "777CED8399E65C29"
+  ],
+  "tasks": {
+    "3248FA069DECAD16": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:craft_using_pedestal"
+      ],
+      "type": "heracles:advancement"
+    },
+    "2DB9FF21ECC79ABE": {
+      "type": "heracles:item",
+      "item": "spectrum:paintbrush",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eThe Power of Powders"
+    },
+    "description": [
+      "<h2>&&eThe Power of Powders</h2>",
+      "<hr/>",
+      "<task task=\"3248FA069DECAD16\" quest=\"36258B9E1280A188\"/>",
+      "<task task=\"2DB9FF21ECC79ABE\" quest=\"36258B9E1280A188\"/>",
+      "<hr/>",
+      "Smashing! &&6Craft&&r anything that requires &&bgemstone powder&&r.",
+      "<br/>",
+      "Starting a craft requires either &&6right-clicking&&r with your &&bPaintbrush&&r, or applying a &&bredstone pulse&&r.",
+      "<hr/>",
+      "<reward reward=\"4A96E58E413AD4AD\" quest=\"36258B9E1280A188\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          16,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:paintbrush",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Artful Crafting"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

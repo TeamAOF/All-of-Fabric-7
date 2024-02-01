@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "6F43CAFE8DFC15D4"
+  ],
+  "tasks": {
+    "7C9EEA97A3823C23": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:enter_dike_gate_preservation_ruin"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "787A5F96344C7C46": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/epic",
+          "Name": "Magic Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eA Sturdy Dike"
+    },
+    "description": [
+      "<h2>&&eA Sturdy Dike</h2>",
+      "<hr/>",
+      "<task task=\"7C9EEA97A3823C23\" quest=\"1610C5C3629192DE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"787A5F96344C7C46\" quest=\"1610C5C3629192DE\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          80,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:dike_chiseled_preservation_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ruin #2"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbcfb": {
+      "type": "heracles:item",
+      "item": "strangeberries:crimson_fire_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found on crimson forests and on netherrack",
+      "<br/>",
+      "Careful harvesting the bush set you on fire, breaking it drops nothing",
+      "<br/>",
+      "Can be used to make fire resistance potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -229,
+          185
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:crimson_fire_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crimson Fire Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

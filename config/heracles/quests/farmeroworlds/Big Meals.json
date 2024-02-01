@@ -1,13 +1,9 @@
 {
   "dependencies": [
-    "bank_1"
+    "Meats and Dragon Drops"
   ],
   "tasks": {
-    "bank_2_task": {
-      "type": "heracles:item",
-      "item": "bankstorage:bank_2",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "edbm": {
       "title": "",
       "icon": {
         "item": {
@@ -15,11 +11,12 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "1": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +26,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "minecraft:bowl",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -40,43 +37,26 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "These foods must be placed down and must be picked up with a bowl to be eaten, they restore a lot of hunger and give many positive effects"
     ],
     "groups": {
-      "Storage": {
+      "Farmer O' Worlds": {
         "position": [
-          40,
-          -180
+          -575,
+          -105
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ends_delight:dragon_leg_with_sauce",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Big Meals"
     }
   },
   "settings": {
@@ -84,6 +64,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

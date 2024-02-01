@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "110822566F9E2DBB"
+  ],
+  "tasks": {
+    "6C1D187007F8798F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/break_decayed_bedrock"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eGroundbreaking"
+    },
+    "description": [
+      "<h2>&&eGroundbreaking</h2>",
+      "<hr/>",
+      "<task task=\"6C1D187007F8798F\" quest=\"16AFA6ABBF50A54C\"/>",
+      "<hr/>",
+      "&&7&&oUnbreakable? Really?&&r I wonder what is beneath?",
+      "<hr/>",
+      "<reward reward=\"28FB1BE46570B075\" quest=\"16AFA6ABBF50A54C\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          560,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bedrock_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Through the floor!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

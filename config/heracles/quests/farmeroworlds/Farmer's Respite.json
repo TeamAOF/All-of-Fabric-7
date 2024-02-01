@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fr": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Farmer's Respite is all about tea time, you'll be able to make multiples types of tea and a few treats to eat alongside it",
+      "<br/>",
+      "<br/>",
+      "This mod also has great Create compatibility so you can make your very own tea and cake assembling facility"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -640,
+          15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersrespite:yellow_tea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Farmer's Respite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

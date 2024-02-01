@@ -1,12 +1,26 @@
 {
   "dependencies": [
-    "bank_1"
+    "The Rocket"
   ],
   "tasks": {
-    "bank_2_task": {
+    "aafr": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "ad_astra:fuel_refinery",
       "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aafb": {
+      "type": "heracles:item",
+      "item": "ad_astra:fuel_bucket",
+      "amount": 6,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -19,7 +33,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "aafb": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +43,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "ad_astra:fuel_bucket",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -40,43 +54,32 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
+      "The rocket needs fuel for takeoff, to get this fuel you must first search for oil wells in the ocean, once you find some oil bring back as much as you can",
       "<br/>",
       "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
+      "To turn the oil into fuel you will need the fuel refinery, it also needs power to work, the rocket will need at least 6 buckets of fuel, 3 to leave, 3 to come back",
       "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
       "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "If you leave this world without enough fuel to come back then you better have some sort of magic gadget that can bring you back because you won't be able to return alive"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          200,
+          -80
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:fuel_bucket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Fuel"
     }
   },
   "settings": {

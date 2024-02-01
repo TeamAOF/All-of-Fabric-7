@@ -1,11 +1,25 @@
 {
   "dependencies": [
-    "bank_1"
+    "Desh"
   ],
   "tasks": {
-    "bank_2_task": {
+    "aawp": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "ad_astra:water_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aadp": {
+      "type": "heracles:item",
+      "item": "ad_astra:desh_fluid_pipe",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -18,65 +32,35 @@
       }
     }
   },
-  "rewards": {
-    "bank_2_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
+      "With the water pump you will be able to get easier infinite water outside of earth, just be careful that it doesn't freeze or evaporate, to avoid that you will need a room with oxygen",
       "<br/>",
       "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "To move the water you can now make desh pipes"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          260,
+          -90
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:water_pump",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Water Pump"
     }
   },
   "settings": {

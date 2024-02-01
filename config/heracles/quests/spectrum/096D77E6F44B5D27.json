@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "6ACFFCD1F7A32369"
+  ],
+  "tasks": {
+    "2C208478C426FD62": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/brew_powerful_potion_in_potion_workshop"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§ePleasant on the Finish"
+    },
+    "description": [
+      "<h2>&&ePleasant on the Finish</h2>",
+      "<hr/>",
+      "<task task=\"2C208478C426FD62\" quest=\"096D77E6F44B5D27\"/>",
+      "<hr/>",
+      "&&6Use&&r the &&bPotion Workshop&&r to craft a potion with a &&bLevel IV effect&&r.",
+      "<hr/>",
+      "<reward reward=\"1AC3FCC19C2F9E71\" quest=\"096D77E6F44B5D27\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          416,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pigment Potion Mastery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

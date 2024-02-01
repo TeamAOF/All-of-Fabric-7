@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "135B0DDDE09498A5"
+  ],
+  "tasks": {
+    "4D3488867594ABF7": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_pure_resource"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eGrow Pure Resource Clusters"
+    },
+    "description": [
+      "<h2>&&eGrow Pure Resource Clusters</h2>",
+      "<hr/>",
+      "<task task=\"4D3488867594ABF7\" quest=\"1F655261AADEF7E9\"/>",
+      "<hr/>",
+      "Use the Crystallarieum to grow all the things",
+      "<hr/>",
+      "<reward reward=\"50D9487451EE18BC\" quest=\"1F655261AADEF7E9\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          960,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:pure_iron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Same, but Different"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

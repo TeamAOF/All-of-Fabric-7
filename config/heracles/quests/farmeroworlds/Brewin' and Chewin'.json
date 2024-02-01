@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "bc": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Brewin' and Chewin' is all about fermenting drinks and food in a keg through a new unique fermentation system",
+      "<br/>",
+      "<br/>",
+      "You will be able to make new foods and drinks with some positive effects, but careful not to drink too much!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -640,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:tankard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Brewin' and Chewin'"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

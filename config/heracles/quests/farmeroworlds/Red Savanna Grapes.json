@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "bank_1"
+    "Grapes"
   ],
   "tasks": {
-    "bank_2_task": {
+    "rsg": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "vinery:savanna_grapes_red",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "1": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,23 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "vinery:savanna_grape_seeds_red",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -40,43 +55,32 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "These grapes can be found in savannas and it's subvariants",
+      " ",
+      " ",
+      "They can be planted anywhere or on a stem for extra grapes and growth speed",
+      " ",
+      " ",
+      "They require almost complete sunlight to be planted"
     ],
     "groups": {
-      "Storage": {
+      "Farmer O' Worlds": {
         "position": [
-          40,
-          -180
+          300,
+          30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "vinery:savanna_grapes_red",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Red Savanna Grapes"
     }
   },
   "settings": {
@@ -84,6 +88,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

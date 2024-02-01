@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "2C4FA979CF6E5A59": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/break_cracked_dragonbone"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCrack and Break Dragonbone"
+    },
+    "description": [
+      "<h2>&&eCrack and Break Dragonbone</h2>",
+      "<hr/>",
+      "<task task=\"2C4FA979CF6E5A59\" quest=\"53ACD1C086D4B1DA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C401AE70FCBF310\" quest=\"53ACD1C086D4B1DA\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:dragonbone_chunk",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Dragon Lies Bleeding"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

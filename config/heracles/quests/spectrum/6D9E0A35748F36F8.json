@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "723E1C665A781C52"
+  ],
+  "tasks": {
+    "2941453944F451AA": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:tap_titration_barrel"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCracking Open a Cold One"
+    },
+    "description": [
+      "<h2>&&eCracking Open a Cold One</h2>",
+      "<hr/>",
+      "<task task=\"2941453944F451AA\" quest=\"6D9E0A35748F36F8\"/>",
+      "<hr/>",
+      "&&6Tap&&r a &&bTitration Barrel&&r when it's ready and savor your rewards!",
+      "<br/>",
+      "&&bTitration Barrels&&r let you make many foods and drinks, some with very powerful effects.",
+      "<br/>",
+      "&&o&&7Recipes take real-life hours to process, and you can't tick-accelerate them. However, it tracks time passed even when your game is closed.&&r",
+      "<hr/>",
+      "<reward reward=\"385D7AFF4D12782D\" quest=\"6D9E0A35748F36F8\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          208,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:titration_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Painter's Distillery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "Vinery"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Grapes are your main ingredient to make wine, there are 4 types of grape, each with a red and white version, each grape has special properties when used in winemaking and requirements"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          350,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:red_grape_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grapes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

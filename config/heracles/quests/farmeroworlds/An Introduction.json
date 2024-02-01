@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "an introduction": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "introduction1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Become the greatest chef and farmer this world has ever seen!"
+    },
+    "description": [
+      "Welcome to the /2/Farmer O' Worlds/2/ chapter, here we are going to go over the hundreds of foods you can enjoy, how to cook them, how to obtain them and we are algo going to find out about some really neat decorations and utilities so you can build your very own farm, restaurant, kitchen, bakery or whatever you desire!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          0,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewinandchewin:pizza_slice",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "An Introduction"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

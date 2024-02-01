@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "38BEF83AFD8EA081"
+  ],
+  "tasks": {
+    "4E98909B28AD3C2D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/use_all_pedestal_upgrades"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eEnhance"
+    },
+    "description": [
+      "<h2>&&eEnhance</h2>",
+      "<hr/>",
+      "<task task=\"4E98909B28AD3C2D\" quest=\"55D9BA50B2741773\"/>",
+      "<hr/>",
+      "Several &&bupgrades&&r can be made for your constructs, which can make them &&6craft faster&&r, use &&6less materials&&r, and more.",
+      "<br/>",
+      "&&6Place&&r as many upgrades as possible onto your &&bPigment Pedestal structure&&r.",
+      "<hr/>",
+      "<reward reward=\"0F5B43D0C98CB8F3\" quest=\"55D9BA50B2741773\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          464,
+          -95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:upgrade_speed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fully Upgraded"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

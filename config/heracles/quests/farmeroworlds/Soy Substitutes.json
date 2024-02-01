@@ -1,0 +1,117 @@
+{
+  "dependencies": [
+    "Croptopia1"
+  ],
+  "tasks": {
+    "cs": {
+      "type": "heracles:item",
+      "item": "croptopia:soy_milk",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cs1": {
+      "type": "heracles:item",
+      "item": "croptopia:tofuburger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cs0": {
+      "type": "heracles:item",
+      "item": "croptopia:tofu_and_dumplings",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cs2": {
+      "type": "heracles:item",
+      "item": "croptopia:tofu",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "soysub1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:soybean",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Are you lactose intolerant? Vegan? Or simply find the constant mooing of cows annoying?",
+      " ",
+      " ",
+      "Then you are in luck, croptopia allows to replace milk and meat and many of it's recipes for soy milk and tofu, the days of dealing with cows and animals are over!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -125,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:tofu",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soy Substitutes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "dependencies": [
+    "Cooking for Blockheads"
+  ],
+  "tasks": {
+    "cfbct": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:cooking_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbcj": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:cow_jar",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbkc": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:counter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbpu": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:preservation_chamber",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbkf": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:white_kitchen_floor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbf": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:fridge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbs": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbt": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:toaster",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbfu": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:ice_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbo": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:oven",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cfbtr": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:tool_rack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "cookingforblockheads:counter",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "cookingforblockheads:cabinet",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "cookingforblockheads:black_kitchen_floor",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The multiblock kitchen is a collection of blocks that all serve a function, they should all be connected to each other to allow using all of them",
+      "<br/>",
+      "<br/>",
+      "The cooking table is the heart of your kitchen, it's where you place the cooking books and where you can see what can be made and then make the food",
+      "<br/>",
+      "The sink is a source of water for your recipes",
+      "<br/>",
+      "The kitchen counter is a storage for ingredients, what's inside of them can be used in the cooking table",
+      "<br/>",
+      "The tool rack is used for storing the cooking utensils necessary for many recipes and allowing the cooking table to use them",
+      "<br/>",
+      "The toaster allows to turn bread into toast for free, who would have thought?",
+      "<br/>",
+      "The cow in a jar is a very useful block, it provides milk for recipes and slowly generates infinite milk, to get one you must make a milk jar, make a cow stand on top of it and drop an anvil on it",
+      "<br/>",
+      "The fridge is a storage block that can be made 2 blocks tall, what is unique about it is that it can be upgraded to provide snow and ice and to not use the last item of a kind",
+      "<br/>",
+      "The kitchen floor is the traditional kind of floor found in a kitchen it also allows connecting things in opposite walls in a more subtle way",
+      "<br/>",
+      "The oven is a more efficient and stylish alternative to your old furnace, the oven allows cooking multiple items at once thus being faster and more fuel efficient, the cooking table will also cook things when you chose a recipe there"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -90,
+          -95
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:cooking_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Multiblock Kitchen"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "Fright's Delight"
+  ],
+  "tasks": {
+    "frdwb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:wither_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "frdsb": {
+      "type": "heracles:item",
+      "item": "frightsdelight:soul_berry",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "frightsdelight:soul_berry",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "frightsdelight:wither_berry",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are 2 new types of berries:",
+      "<br/>",
+      "<br/>",
+      "First soul berries, they are found in bastion chests in the Nether, to grow them plant them on soul sand or soul soil, they require a soul torch or soul fire near them to grow",
+      "<br/>",
+      "<br/>",
+      "Second wither berries, they have to be made, to make them you will need a fully grown soul berry bush, place a wither rose or wither skull next to it and block all light off, after a bit of time it will turn into a wither berry bush, the wither block and darkness will still be needed to keep growing"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -420,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "frightsdelight:soul_berry",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

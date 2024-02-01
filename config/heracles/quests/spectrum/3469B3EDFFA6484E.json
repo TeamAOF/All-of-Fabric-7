@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "4EB60A42F7F0A2A0",
+    "135B0DDDE09498A5"
+  ],
+  "tasks": {
+    "7A3E3067BC83786B": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/grow_bloodstone_in_crystallarieum"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eGrow Bloodstone"
+    },
+    "description": [
+      "<h2>&&eGrow Bloodstone</h2>",
+      "<hr/>",
+      "<task task=\"7A3E3067BC83786B\" quest=\"3469B3EDFFA6484E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"261B36A529ACAF50\" quest=\"3469B3EDFFA6484E\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          960,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:refined_bloodstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Strength of Will"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

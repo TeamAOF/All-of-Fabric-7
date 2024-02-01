@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "5D0AFBC2301FB938",
+    "36F0E27B93D491A1"
+  ],
+  "tasks": {
+    "1CC54F6D0C6DB852": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/create_glass_crest_tool"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eSocket a Malachite Tool with a Moonstone Core"
+    },
+    "description": [
+      "<h2>&&eSocket a Malachite Tool with a Moonstone Core</h2>",
+      "<hr/>",
+      "<task task=\"1CC54F6D0C6DB852\" quest=\"5B502145123A5A3B\"/>",
+      "<hr/>",
+      "This also requires the creation of &&bPure Resources",
+      "<hr/>",
+      "<reward reward=\"41C1830ACC41F845\" quest=\"5B502145123A5A3B\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          912,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:glass_crest_workstaff",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 4,
+              "id": "minecraft:fortune"
+            }
+          ],
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ink Powered"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

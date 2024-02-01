@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "bank_1"
+    "Preparing for the Moon"
   ],
   "tasks": {
-    "bank_2_task": {
+    "aard": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
-      "amount": 1,
+      "item": "ad_astra:desh_ingot",
+      "amount": 32,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "aard": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "ad_astra:desh_ingot",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -40,43 +40,26 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "After exploring the depths of the Moon for a while you noticed a new strange metal you've never seen before, desh, with it you can upgrade your rocket to reach new planets, build new machines and use it for other things"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          290,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:desh_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Desh"
     }
   },
   "settings": {

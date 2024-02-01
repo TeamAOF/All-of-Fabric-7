@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "11DBD80F85036455": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/reached_dd_floor"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eReach the Bottom of the Deeper Down"
+    },
+    "description": [
+      "<h2>&&eReach the Bottom of the Deeper Down</h2>",
+      "<hr/>",
+      "<task task=\"11DBD80F85036455\" quest=\"631BD7F1DB0495DD\"/>",
+      "<hr/>",
+      "Discover the Downstone floor. ",
+      "<hr/>",
+      "<reward reward=\"65446F314FEAC009\" quest=\"631BD7F1DB0495DD\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          672,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:downstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bedrock 2: Electric Boogaloo"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "bank_1"
+    "Preparations"
   ],
   "tasks": {
-    "bank_2_task": {
+    "aas": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
-      "amount": 1,
+      "item": "ad_astra:steel_ingot",
+      "amount": 32,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "aas": {
       "title": "",
       "icon": {
         "item": {
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "ad_astra:steel_ingot",
+        "count": 32
       },
       "type": "heracles:item"
     }
@@ -40,43 +40,26 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "For building your rocket and other necessary equipment you will need plenty of steel, you will first need to develop other technologies to start producing it, once you can get a reliable supply of it you'll be able to start the next phase"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          50,
+          -45
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:steel_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Steel"
     }
   },
   "settings": {

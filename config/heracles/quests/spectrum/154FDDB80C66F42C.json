@@ -1,0 +1,106 @@
+{
+  "dependencies": [
+    "1A19BCABF7117AB2",
+    "2E12C8D6A35B7405",
+    "1F655261AADEF7E9",
+    "1AD3C42442918E43",
+    "60D12546F28D7C78",
+    "4BD5F19B354B9027",
+    "55D9BA50B2741773",
+    "7254C86E24938CE4",
+    "58FE2DC83ADD005F",
+    "78ED7745488BC27E",
+    "503381C10054E786",
+    "1699D14B24CE2883",
+    "074A9E3BB501CFEB",
+    "6CAD13315766D55D",
+    "105C09C867052F3A",
+    "7DF89E1482BD6640",
+    "5B502145123A5A3B",
+    "1610C5C3629192DE",
+    "4059CD807EC64624",
+    "0FC449098A9EAD1D",
+    "3EF90588748BCDE8",
+    "00CE2107C6C46BE1",
+    "527E5EE02005FDC4",
+    "3469B3EDFFA6484E",
+    "38049A1334A76694",
+    "183AE5E1F4D3423F",
+    "093E8238C4E5B9DC",
+    "6D9E0A35748F36F8"
+  ],
+  "tasks": {
+    "3D2AD6934C3585CF": {
+      "title": "&bSpe&dctr&eum&r 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6F52B0A6DC1A772C": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:spectrum"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"3D2AD6934C3585CF\" quest=\"154FDDB80C66F42C\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6F52B0A6DC1A772C\" quest=\"154FDDB80C66F42C\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          320,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Spectrum 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

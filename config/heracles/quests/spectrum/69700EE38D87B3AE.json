@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "27FDE8EAF24848D2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/find_forgotten_city"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eEnter a Fortgotten City"
+    },
+    "description": [
+      "<h2>&&eEnter a Fortgotten City</h2>",
+      "<hr/>",
+      "<task task=\"27FDE8EAF24848D2\" quest=\"69700EE38D87B3AE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"233D215CEB7F6A1E\" quest=\"69700EE38D87B3AE\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          720,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:preservation_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Remnants of the Past"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

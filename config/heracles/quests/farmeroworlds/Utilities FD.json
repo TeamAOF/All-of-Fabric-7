@@ -1,0 +1,111 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fdrs": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rich_soil",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdr": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rope",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdsn": {
+      "type": "heracles:item",
+      "item": "farmersdelight:safety_net",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:rich_soil",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Farmer's Delight also adds a few optional utilities",
+      "<br/>",
+      "<br/>",
+      "Rich soil, a very useful block, it can be made into farmland that speeds up crop growth, to obtain rich soil you must first craft organic compost, then it must be placed in the world for it to slowly decompose into rich soil, having sunlight, water and decomposers like more rich soil and mushrooms touching the organic compost will speed up the process.",
+      "Rich soil also has another unique property, it allows planting mushrooms on it which will grow regardless of light into mushroom colonies.",
+      "These colonies can be obtained with shears to serve as decorations or can be sheared to obtain extra mushrooms for your cooking, breaking the colony will also give mushrooms but it will take longer for it to grow than simply shearing it",
+      "<br/>",
+      "<br/>",
+      "Rope works as a ladder that needs no other block, it can be used as a way to get into a treehouse or floating base without building an ugly pillar, it also has another functionality, placing ropes above a tomato allows the tomato to climb into the rope, there is no height limit to this so you can have the tallest tomato shrub ever seen!",
+      "<br/>",
+      "<br/>",
+      "The safety net is better looking alternative to water or slime blocks for stopping falls, they negate fall damage and make you bounce a bit, holding shift will make you take damage but not bounce"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -295,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:rich_soil_farmland",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Utilities"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

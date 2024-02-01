@@ -1,0 +1,237 @@
+{
+  "dependencies": [
+    "Nether Depths"
+  ],
+  "tasks": {
+    "ndg": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:glowdine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndfg": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:fortress_grouper",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndef": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:eyeball_fish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndss": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:soulsucker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndsc": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:searing_cod",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndmcf": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:magmacubefish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndwbf": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:wither_bonefish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndbf": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:bonefish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndlp": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:lava_pufferfish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndb": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:blazefish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ndof": {
+      "type": "heracles:item",
+      "item": "netherdepthsupgrade:obsidianfish",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "netherdepthsupgrade:lava_fishing_rod",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The most important part of our culinary interest is the fish, now we'll learn about everything that can be found in the lava oceans:",
+      "<br/>",
+      "Soul Sucker: Can be found in soul sand valleys, they can be converted into leather for a unique pair of boots",
+      "<br/>",
+      "Wither Bonefish: Can be found in soul sand valleys",
+      "<br/>",
+      "Bonefish: Can be find in nether wastes",
+      "<br/>",
+      "Searing Cod: Can be found in nether wastes",
+      "<br/>",
+      "Glowdine: Can be found in crimson forests",
+      "<br/>",
+      "Lava Pufferfish: Can be found in warped forests and can be used to make a lava vision potion or a wither potion, the chance of either is random",
+      "<br/>",
+      "Obsidianfish: Can be found in basalt deltas",
+      "<br/>",
+      "Magma Cube Fish: Can be found in basalt deltas",
+      "<br/>",
+      "Blazefish: Can be found in a new under lava structure, the fortress piece",
+      "<br/>",
+      "Fortress Grouper: Can be found in crimson forests, when combined with shears it will give plates for making lava glass, when eaten gives absorption",
+      "<br/>",
+      "Eyeball Fish: Can be found in crimson forests, when combined with shears it gives eyeball fish eyes used for making lava glass, when eaten gives night vision, can be used to make lava sight potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -540,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "netherdepthsupgrade:lava_pufferfish",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Fish"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

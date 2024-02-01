@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "7B36AEB600F0386F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/visit_all_deeper_down_biomes"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eVisit each of the biomes in the Deeper Down"
+    },
+    "description": [
+      "<h2>&&eVisit each of the biomes in the Deeper Down</h2>",
+      "<hr/>",
+      "<task task=\"7B36AEB600F0386F\" quest=\"527E5EE02005FDC4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5A287731B2848B84\" quest=\"527E5EE02005FDC4\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          720,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:polished_blackslag",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Biomes Below Bedrock"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

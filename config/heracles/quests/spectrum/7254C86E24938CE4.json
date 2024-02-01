@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "07BA16929E2AC0E8"
+  ],
+  "tasks": {
+    "0BC2FB28046550B6": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/enchant_exchanging_staff"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCreate and Enchant an Exchanging Staff"
+    },
+    "description": [
+      "<h2>&&eCreate and Enchant an Exchanging Staff</h2>",
+      "<hr/>",
+      "<task task=\"0BC2FB28046550B6\" quest=\"7254C86E24938CE4\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"46E5CB7910166CB8\" quest=\"7254C86E24938CE4\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          960,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:exchanging_staff",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "More than a Building Tool"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

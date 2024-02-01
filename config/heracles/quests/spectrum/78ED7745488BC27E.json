@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "38BEF83AFD8EA081"
+  ],
+  "tasks": {
+    "68CD0B7A81BC2CB3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/collect_gemstone_shard_using_crystal_apothecary"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eHaving a Break"
+    },
+    "description": [
+      "<h2>&&eHaving a Break</h2>",
+      "<hr/>",
+      "<task task=\"68CD0B7A81BC2CB3\" quest=\"78ED7745488BC27E\"/>",
+      "<hr/>",
+      "The &&bCrystal Apothecary&&r &&6harvests gemstones&&r for you. &&o&&7The chunks do not need to be loaded, either.&&r",
+      "<hr/>",
+      "<reward reward=\"5F4720F0C210C240\" quest=\"78ED7745488BC27E\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          512,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:crystal_apothecary",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gemstone Stockpiling"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

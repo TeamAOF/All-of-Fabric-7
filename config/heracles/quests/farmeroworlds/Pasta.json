@@ -1,0 +1,176 @@
+{
+  "dependencies": [
+    "Farmer's Delight"
+  ],
+  "tasks": {
+    "fdsip": {
+      "type": "heracles:item",
+      "item": "farmersdelight:squid_ink_pasta",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdts": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato_sauce",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdrp": {
+      "type": "heracles:item",
+      "item": "farmersdelight:raw_pasta",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdwd": {
+      "type": "heracles:item",
+      "item": "farmersdelight:wheat_dough",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdpwm": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_meatballs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdvn": {
+      "type": "heracles:item",
+      "item": "farmersdelight:vegetable_noodles",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdns": {
+      "type": "heracles:item",
+      "item": "farmersdelight:noodle_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fdpwmc": {
+      "type": "heracles:item",
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:wheat_dough",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are many ways to cook pasta, but first you will need the raw pasta, it can be made in many ways but cutting wheat dough with a knife on a cutting board is the most efficient way if you want to save ingredients",
+      "<br/>",
+      "<br/>",
+      "Wheat dough can also be made in multiple ways",
+      "<br/>",
+      "<br/>",
+      "You will also want to make some tomato sauce for the more traditional pasta"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -265,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:raw_pasta",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pasta"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

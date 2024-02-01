@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "042E7914986F8A32"
+  ],
+  "tasks": {
+    "489D435703F74E80": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:find_preservation_ruins"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eWhat came before"
+    },
+    "description": [
+      "<h2>&&eWhat came before</h2>",
+      "<hr/>",
+      "<task task=\"489D435703F74E80\" quest=\"6F43CAFE8DFC15D4\"/>",
+      "<hr/>",
+      "There are &&6three types&&r of strange &&bRuins&&r made out of unbreakable rock, around where the stone becomes deepslate. What secrets do they hold?",
+      "<br/>",
+      "If you can't figure out how to enter them now, best to &&6come back later&&r, with more tools at your disposal.",
+      "<hr/>",
+      "<reward reward=\"2128283B6A77323D\" quest=\"6F43CAFE8DFC15D4\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          80,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:preservation_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "An Impenetrable Fort"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

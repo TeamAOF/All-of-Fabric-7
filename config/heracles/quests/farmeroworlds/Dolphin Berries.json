@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbdb": {
+      "type": "heracles:item",
+      "item": "strangeberries:dolphin_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found underwater on warm oceans, lukewarm oceans and deep lukewarm oceans",
+      "<br/>",
+      "Can be fed to dolphins"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -301,
+          209
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:dolphin_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dolphin Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

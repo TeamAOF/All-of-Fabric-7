@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "042E7914986F8A32"
+  ],
+  "tasks": {
+    "5A0D90E9F122144F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:build_basic_pedestal_structure"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eFunneling Magic"
+    },
+    "description": [
+      "<h2>&&eFunneling Magic</h2>",
+      "<hr/>",
+      "<task task=\"5A0D90E9F122144F\" quest=\"3A53CED5C9ABC06B\"/>",
+      "<task task=\"4CBBB8A015AC79DB\" quest=\"3A53CED5C9ABC06B\"/>",
+      "<hr/>",
+      "&&6Upgrade&&r your &&bPigment Pedestal&&r by using all three shards you have collected thus far.",
+      "<br/>",
+      "To fully harness the powers of your improved &&bPigment Pedestal&&r you will need to &&6build&&r a structure that funnels the energy from gemstones to it. &&6Right-click&&r the &&bPedestal&&r to view a preview of the structure.",
+      "<hr/>",
+      "<reward reward=\"4C1428766B968017\" quest=\"3A53CED5C9ABC06B\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:notched_polished_basalt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Construct the Spectrum Focus"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

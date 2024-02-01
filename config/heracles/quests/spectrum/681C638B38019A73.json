@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "6F3F4B2ADAAED3C1"
+  ],
+  "tasks": {
+    "11534701EC58670B": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/build_advanced_pedestal_structure"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eOne more can't hurt, right?"
+    },
+    "description": [
+      "<h2>&&eOne more can't hurt, right?</h2>",
+      "<hr/>",
+      "<task task=\"11534701EC58670B\" quest=\"681C638B38019A73\"/>",
+      "<hr/>",
+      "&&6Upgrade&&r your &&bpedestal&&r using &&bOnyx&&r and then &&6construct&&r the Spectrum Temple.",
+      "<hr/>",
+      "<reward reward=\"2535BF76C6CB5D96\" quest=\"681C638B38019A73\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          336,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:chiseled_polished_basalt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Construct the Spectrum Temple"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "dependencies": [
+    "1E161856A9975BCE"
+  ],
+  "tasks": {
+    "7E085DAF14F17EF1": {
+      "type": "heracles:item",
+      "item": "spectrum:vegetal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "33D74A4188B867BE": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:collect_vegetal"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eOrganic Matter"
+    },
+    "description": [
+      "<h2>&&eOrganic Matter</h2>",
+      "<hr/>",
+      "<task task=\"33D74A4188B867BE\" quest=\"371F3371DC37B760\"/>",
+      "<task task=\"7E085DAF14F17EF1\" quest=\"371F3371DC37B760\"/>",
+      "<hr/>",
+      "Let your clump of microorganisms out and &&6place them food&&r. But what do they eat? Definitely &&bsomething organic&&r.",
+      "<br/>",
+      "In the leftovers, you can find a new resource.",
+      "<hr/>",
+      "<reward reward=\"2C19D087E84E3392\" quest=\"371F3371DC37B760\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          80,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:vegetal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Life must feed!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

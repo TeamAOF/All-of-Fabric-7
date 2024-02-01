@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "4481B249C18CCF9A"
+  ],
+  "tasks": {
+    "34795377F5276F77": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/build_complex_pedestal_structure"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eUpgrade your Pedestal Structure to its true potentional"
+    },
+    "description": [
+      "<h2>&&eUpgrade your Pedestal Structure to its true potentional</h2>",
+      "<hr/>",
+      "<task task=\"34795377F5276F77\" quest=\"31FD82420EC61E94\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"519B7E1DF69E9E62\" quest=\"31FD82420EC61E94\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          864,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:moonstone_basalt_lamp",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Construct the Spectrum Complex"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

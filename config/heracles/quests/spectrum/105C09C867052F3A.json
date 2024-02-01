@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "2E764AFD13AE3047"
+  ],
+  "tasks": {
+    "5EA77345EC534054": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/create_resonance_enchanted_book"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCraft a Resonance Book with the Enchanter"
+    },
+    "description": [
+      "<h2>&&eCraft a Resonance Book with the Enchanter</h2>",
+      "<hr/>",
+      "<task task=\"5EA77345EC534054\" quest=\"105C09C867052F3A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"60A0E37C079F5EEC\" quest=\"105C09C867052F3A\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          1008,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Better Vibrations"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

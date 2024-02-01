@@ -1,11 +1,12 @@
 {
   "dependencies": [
-    "bank_1"
+    "Warped Kelp Roll",
+    "Fish Rolls"
   ],
   "tasks": {
-    "bank_2_task": {
+    "ndnrrm": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "netherdepthsupgrade:nether_rice_roll_medley_block",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +20,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "1": {
       "title": "",
       "icon": {
         "item": {
@@ -29,7 +30,37 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
+        "id": "farmersdelight:rice",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bowl",
         "count": 1
       },
       "type": "heracles:item"
@@ -40,43 +71,26 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "A more aesthetic way to present your sushi"
     ],
     "groups": {
-      "Storage": {
+      "Farmer O' Worlds": {
         "position": [
-          40,
-          -180
+          -580,
+          75
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "netherdepthsupgrade:nether_rice_roll_medley_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Nether Rice Roll Medley"
     }
   },
   "settings": {
@@ -84,6 +98,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

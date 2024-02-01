@@ -1,0 +1,171 @@
+{
+  "dependencies": [
+    "End's Delight"
+  ],
+  "tasks": {
+    "eddt": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_tooth",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrdm": {
+      "type": "heracles:item",
+      "item": "ends_delight:raw_dragon_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edsms": {
+      "type": "heracles:item",
+      "item": "ends_delight:shulker_meat_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrem": {
+      "type": "heracles:item",
+      "item": "ends_delight:raw_ender_mite_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edsm": {
+      "type": "heracles:item",
+      "item": "ends_delight:shulker_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "eddl": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_leg",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "edrdmc": {
+      "type": "heracles:item",
+      "item": "ends_delight:raw_dragon_meat_cuts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ends_delight:dragon_leg",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These will be the tough ingredients to get, to get all of these drops you will need to kill the mobs with a Farmer's Delight or End's Delight knife, we recommend the netherite or dragon's tooth knife enchanted with sharpness and looting, only the final blow needs to be from a knife",
+      "<br/>",
+      "<br/>",
+      "Dragon tooth is used for making a strong knife or a non hatchable dragon egg which will be used for many recipes",
+      "<br/>",
+      "Shulker meat is used for many recipes",
+      "<br/>",
+      "Shulker meat slices are obtained by cutting shulker meat on a cutting board",
+      "<br/>",
+      "Dragon legs are used for some really nourishing recipes",
+      "<br/>",
+      "Raw dragon meat can be obtained by killing the dragon with a knife or by cutting a dragon leg on a cutting board",
+      "<br/>",
+      "Raw dragon meat cuts are obtained by cutting raw dragon meat on a cutting board",
+      "<br/>",
+      "Raw endermite meat is used for some recipes"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -540,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:dragon_leg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Meats and Dragon Drops"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

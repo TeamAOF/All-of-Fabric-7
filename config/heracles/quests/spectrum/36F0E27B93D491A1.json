@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "69700EE38D87B3AE"
+  ],
+  "tasks": {
+    "1B7B5EAD32A2C5E4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_moonstone_core"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eFind a Moonstone Core in one of the Underground Cities"
+    },
+    "description": [
+      "<h2>&&eFind a Moonstone Core in one of the Underground Cities</h2>",
+      "<hr/>",
+      "<task task=\"1B7B5EAD32A2C5E4\" quest=\"36F0E27B93D491A1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3AAC7C9C873D64A4\" quest=\"36F0E27B93D491A1\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          816,
+          336
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:moonstone_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bright Powerhouse"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

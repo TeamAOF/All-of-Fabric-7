@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "51CA679F448822BA": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_noxwood"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eStumble upon Noxwood"
+    },
+    "description": [
+      "<h2>&&eStumble upon Noxwood</h2>",
+      "<hr/>",
+      "<task task=\"51CA679F448822BA\" quest=\"418776D548B71C96\"/>",
+      "<hr/>",
+      "A Mushroom Tree found all across the &&bNoxshroom Forest&&r. They come in 4 different colors.",
+      "<hr/>",
+      "<reward reward=\"72B4101BF841FB2C\" quest=\"418776D548B71C96\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:slate_noxcap_stem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mushroom Trees?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

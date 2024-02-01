@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "31E2E37F848CECF7": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_bismuth"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCollect Bismuth"
+    },
+    "description": [
+      "<h2>&&eCollect Bismuth</h2>",
+      "<hr/>",
+      "<task task=\"31E2E37F848CECF7\" quest=\"26A045E41ED17C9D\"/>",
+      "<hr/>",
+      "A metal that shimmers in all the colors of the rainbow. Found in the &&bCrystal Gardens",
+      "<hr/>",
+      "<reward reward=\"37428BCDFDB2ADC4\" quest=\"26A045E41ED17C9D\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:small_bismuth_bud",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "50 Shades of Everything"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

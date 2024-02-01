@@ -1,11 +1,12 @@
 {
   "dependencies": [
-    "bank_1"
+    "07BA16929E2AC0E8",
+    "3F9C5EF2DEFCF732"
   ],
   "tasks": {
-    "bank_2_task": {
+    "748030008665FA22": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "spectrum:crystallarieum",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +20,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "lootbag": {
       "title": "",
       "icon": {
         "item": {
@@ -29,54 +30,48 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "§eCraft the Crystallarieum"
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "<h2>&&eCraft the Crystallarieum</h2>",
+      "<hr/>",
+      "<task task=\"748030008665FA22\" quest=\"135B0DDDE09498A5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7D1E1277CD2BE984\" quest=\"135B0DDDE09498A5\"/>"
     ],
     "groups": {
-      "Storage": {
+      "Spectrum": {
         "position": [
-          40,
-          -180
+          912,
+          96
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "spectrum:crystallarieum",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Acquire: spectrum:crystallarieum"
     }
   },
   "settings": {
@@ -84,6 +79,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

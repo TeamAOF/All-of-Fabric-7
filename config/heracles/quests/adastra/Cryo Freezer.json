@@ -1,11 +1,25 @@
 {
   "dependencies": [
-    "bank_1"
+    "Ostrum"
   ],
   "tasks": {
-    "bank_2_task": {
+    "aacfuel": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "ad_astra:cryo_fuel_bucket",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aacf": {
+      "type": "heracles:item",
+      "item": "ad_astra:cryo_freezer",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +33,7 @@
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "aacfb": {
       "title": "",
       "icon": {
         "item": {
@@ -29,7 +43,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
+        "id": "ad_astra:cryo_fuel_bucket",
         "count": 1
       },
       "type": "heracles:item"
@@ -40,43 +54,29 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
+      "The cryo freezer allows to make renewable, more efficient fuel, with it you can finally give use to all those ice shards you have found and turn them into fuel, no longer must you worry about not bringing enough fuel, now you can make your own offworld, with this new fuel you will also need only 1 bucket to take off",
       "<br/>",
       "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "Ice can also be used to make fuel but with much less efficiency"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          400,
+          -10
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:cryo_freezer",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Cryo Freezer"
     }
   },
   "settings": {

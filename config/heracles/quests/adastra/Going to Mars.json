@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "bank_1"
+    "Desh"
   ],
   "tasks": {
-    "bank_2_task": {
+    "aart2": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "ad_astra:tier_2_rocket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -16,11 +16,8 @@
         },
         "type": "heracles:item"
       }
-    }
-  },
-  "rewards": {
-    "bank_2_reward": {
-      "title": "",
+    },
+    "aam": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -28,55 +25,38 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
-      },
-      "type": "heracles:item"
+      "from": "minecraft:",
+      "to": "ad_astra:mars",
+      "title": "Travel to Mars",
+      "type": "heracles:changed_dimension"
     }
   },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "Your old rocket isn't enough to get to Mars, but with the newly discovered desh you can make a better rocket that can reach the red planet"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          350,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:mars_globe",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Going to Mars"
     }
   },
   "settings": {

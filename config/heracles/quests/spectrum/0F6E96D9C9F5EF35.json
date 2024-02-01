@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "681C638B38019A73"
+  ],
+  "tasks": {
+    "6D58C64A9CC63876": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/enter_liquid_crystal"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/uncommon",
+          "Name": "Spectrum Uncommon Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eLiquid Magic"
+    },
+    "description": [
+      "<h2>&&eLiquid Magic</h2>",
+      "<hr/>",
+      "<task task=\"6D58C64A9CC63876\" quest=\"0F6E96D9C9F5EF35\"/>",
+      "<hr/>",
+      "&&6Craft&&r and stand in &&bliquid crystal&&r. Requires finding &&bMermaids Gems&&r in the ocean.",
+      "<br/>",
+      "This magical liquid has &&binteresting properties&&r when &&6mixed&&r with other liquids. &&7&&oWhat can you discover?&&r",
+      "<hr/>",
+      "<reward reward=\"6DB2EDFB73F846BC\" quest=\"0F6E96D9C9F5EF35\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          368,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:liquid_crystal_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crystalline Waters"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

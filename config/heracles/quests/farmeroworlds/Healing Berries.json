@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbhb": {
+      "type": "heracles:item",
+      "item": "strangeberries:healing_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found in meadows, flower forests and cherry groves",
+      "<br/>",
+      "Must be harvested from fruitful berry bushes, walking on the bush restores health",
+      "<br/>",
+      "Can be used to make healing potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -229,
+          209
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:healing_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Healing Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

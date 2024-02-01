@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "31FD82420EC61E94"
+  ],
+  "tasks": {
+    "5108F32ACD5790CD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_malachite"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eFind Malachite in the Deeper Down"
+    },
+    "description": [
+      "<h2>&&eFind Malachite in the Deeper Down</h2>",
+      "<hr/>",
+      "<task task=\"5108F32ACD5790CD\" quest=\"73120DB783503541\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"39CD55544D4DA20A\" quest=\"73120DB783503541\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          864,
+          288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:blackslag_malachite_ore",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Mesmerizing Shade of Green"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

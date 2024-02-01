@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "06937CA1C299031F"
+  ],
+  "tasks": {
+    "1771AD7DF7491E3D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/strike_up_hummingstone_hymn"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eStrike a Hummingtone Hymn"
+    },
+    "description": [
+      "<h2>&&eStrike a Hummingtone Hymn</h2>",
+      "<hr/>",
+      "<task task=\"1771AD7DF7491E3D\" quest=\"044E7F9EC3D8C60C\"/>",
+      "<hr/>",
+      "With enough &&bHummingstone&&r reacting together maybe something will happen?",
+      "<hr/>",
+      "<reward reward=\"143C1D5EBCCAAED8\" quest=\"044E7F9EC3D8C60C\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          864,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:hummingstone_glass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Symphony"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

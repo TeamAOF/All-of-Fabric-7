@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "2AB88707D86F0506"
+  ],
+  "tasks": {
+    "7A826E0E7E0F7C87": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/create_refined_azurite"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eA Dream Come Blue"
+    },
+    "description": [
+      "<h2>&&eA Dream Come Blue</h2>",
+      "<hr/>",
+      "<task task=\"7A826E0E7E0F7C87\" quest=\"28CB44142633D257\"/>",
+      "<hr/>",
+      "&&6Refine&&r &&bAzurite&&r in the &&bFusion Shrine&&r.",
+      "<hr/>",
+      "<reward reward=\"44CA6849B90F539A\" quest=\"28CB44142633D257\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          560,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:refined_azurite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blueberry Ingots"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

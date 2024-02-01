@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbrb": {
+      "type": "heracles:item",
+      "item": "strangeberries:rotten_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found on taigas and snowy taigas",
+      "<br/>",
+      "Can be used to make berry sickness potions or fed to zombies and husks to give them permanent slowness"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -277,
+          209
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:rotten_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rotten Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

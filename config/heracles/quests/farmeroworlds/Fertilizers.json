@@ -1,0 +1,137 @@
+{
+  "dependencies": [
+    "Farming for Blockheads"
+  ],
+  "tasks": {
+    "ffbyf": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:yellow_fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ffbrf": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:red_fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ffbgf": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:green_fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmingforblockheads:green_fertilizer",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmingforblockheads:red_fertilizer",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmingforblockheads:yellow_fertilizer",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Fertilizers help your crops",
+      "<br/>",
+      "<br/>",
+      "/a/Green/a/ fertilizer makes crops give more produce than normal",
+      "<br/>",
+      "/c/Red/c/ fertilizer makes crops grow faster",
+      "<br/>",
+      "/e/Yellow/e/ fertilizer prevents crops from being destroyed when someone jumps in them, it can also be mixed with one of the other fertilizers"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -50,
+          -135
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:red_fertilizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fertilizers"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "1810EB195B0CC509"
+  ],
+  "tasks": {
+    "35C7CB50261B9E25": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/create_midnight_aberration"
+      ],
+      "type": "heracles:advancement"
+    },
+    "51EB982FCF00A934": {
+      "type": "heracles:item",
+      "item": "spectrum:midnight_aberration",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/rare",
+          "Name": "Spectrum Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eThe perfect Compound?"
+    },
+    "description": [
+      "<h2>&&eThe perfect Compound?</h2>",
+      "<hr/>",
+      "<task task=\"35C7CB50261B9E25\" quest=\"0CF717072CD02B28\"/>",
+      "<task task=\"51EB982FCF00A934\" quest=\"0CF717072CD02B28\"/>",
+      "<hr/>",
+      "&&6Fusing&&r &&ball the gemstones&&r you've gained so far.... &&o&&7What could possibly go wrong?&&r",
+      "<br/>",
+      "You may want to &&6reinforce&&r your &&bFusion Shrine&&r, or &&6attempt this recipe somewhere unimportant&&r. &&o&&7Probably.&&r",
+      "<br/>",
+      "&&o&&7There's nothing to worry about, right?&&r",
+      "<hr/>",
+      "<reward reward=\"548BFAD6D0CC8479\" quest=\"0CF717072CD02B28\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          464,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:midnight_aberration",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Failureproof Recipe"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

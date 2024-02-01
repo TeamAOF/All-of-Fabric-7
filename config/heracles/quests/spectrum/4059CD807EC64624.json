@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "135B0DDDE09498A5"
+  ],
+  "tasks": {
+    "08FBBA994A990B75": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/grow_bismuth_in_crystallarieum"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eGrow Bismuth using your new Crystallarieum"
+    },
+    "description": [
+      "<h2>&&eGrow Bismuth using your new Crystallarieum</h2>",
+      "<hr/>",
+      "<task task=\"08FBBA994A990B75\" quest=\"4059CD807EC64624\"/>",
+      "<hr/>",
+      "This is a much more reliable way to grow Bismuth",
+      "<hr/>",
+      "<reward reward=\"4F2D5F267895D2B5\" quest=\"4059CD807EC64624\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          960,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bismuth_cluster",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Solid Improvement"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

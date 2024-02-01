@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Let's Do Mods"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/d/Vinery/d/ is a mod centered around wine making, Vinery adds a great variety of grapes across different biomes, cherry trees and apple trees.",
+      " ",
+      " ",
+      "Cherry trees have their own unique wood with which you can craft many decorations, the mod also has many decoration blocks and not just related to wine making!",
+      " ",
+      " ",
+      "From time to time a wandering winemaker can visit your, he offers you grape seeds, juices and some other items to help you begin your winemaking journey",
+      " ",
+      " ",
+      "If waiting for a wandering winemaker is too annoying you can get your very own winemaker villager friend by giving him an apple press as a workstation",
+      " ",
+      " ",
+      "/d/Vinery/d/ also has Create integration, so you will be able to totally automate wine production and create your own wine factory"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          300,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:wine_bottle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Vinery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

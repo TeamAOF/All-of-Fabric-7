@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "74CF7A3D9F383FCE"
+  ],
+  "tasks": {
+    "26786333D1F6CC22": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_hummingstone"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCollect Hummingstone"
+    },
+    "description": [
+      "<h2>&&eCollect Hummingstone</h2>",
+      "<hr/>",
+      "<task task=\"26786333D1F6CC22\" quest=\"06937CA1C299031F\"/>",
+      "<hr/>",
+      "Hummingstone can be found in the &&bCrystal Gardens",
+      "<hr/>",
+      "<reward reward=\"7FA652263F3927A6\" quest=\"06937CA1C299031F\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          768,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:hummingstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Songbird"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

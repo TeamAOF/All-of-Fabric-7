@@ -1,0 +1,102 @@
+{
+  "dependencies": [
+    "6F9B2ECCE750C280"
+  ],
+  "tasks": {
+    "4D2C0E433C9185B6": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:place_pedestal"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "12C6CB96FD6FD2CD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:anvil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/common",
+          "Name": "Spectrum Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§e A new way to craft"
+    },
+    "description": [
+      "<h2>&&e A new way to craft</h2>",
+      "<hr/>",
+      "<task task=\"4D2C0E433C9185B6\" quest=\"777CED8399E65C29\"/>",
+      "<hr/>",
+      "&&6Craft&&r a &&bPigment Pedestal&&r using your gemstone of choice. With this, you can harness the power of the gemstones in your crafts.",
+      "<br/>",
+      "&&6Drop&&r your newly aquired &&banvil&&r on a gemstone! Perhaps it will become something useful?",
+      "<hr/>",
+      "<reward reward=\"12C6CB96FD6FD2CD\" quest=\"777CED8399E65C29\"/>",
+      "<reward reward=\"764AE19E0BBEE3A3\" quest=\"777CED8399E65C29\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          16,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:pedestal_basic_topaz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Craft any pigment pedestal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

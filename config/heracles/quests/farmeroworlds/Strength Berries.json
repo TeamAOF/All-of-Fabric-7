@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbsb": {
+      "type": "heracles:item",
+      "item": "strangeberries:strength_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found in taigas and snowy taigas",
+      "<br/>",
+      "Can be used to make strength potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -301,
+          185
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:strength_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Strength Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

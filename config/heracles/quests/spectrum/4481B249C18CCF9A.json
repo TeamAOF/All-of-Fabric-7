@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "085118625BB0EA90"
+  ],
+  "tasks": {
+    "77A62BC07A783079": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/build_complex_pedestal_structure_without_moonstone"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eSomething is still missing from your Structure"
+    },
+    "description": [
+      "<h2>&&eSomething is still missing from your Structure</h2>",
+      "<hr/>",
+      "<task task=\"77A62BC07A783079\" quest=\"4481B249C18CCF9A\"/>",
+      "<hr/>",
+      "Your Palace seems to be missing &&bMoonstone Chiseled Blocks&&r. Perhaps you can find some in the Cities you found below.",
+      "<hr/>",
+      "<reward reward=\"1DAD146EE321A4EA\" quest=\"4481B249C18CCF9A\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          816,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:moonstone_chiseled_calcite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Missing Puzzle Piece"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "1E1E5ECB2C1C95B9"
+  ],
+  "tasks": {
+    "016F031021A0B903": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:midgame/manifest_memory"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/epic",
+          "Name": "Spectrum Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eBack Again"
+    },
+    "description": [
+      "<h2>&&eBack Again</h2>",
+      "<hr/>",
+      "<task task=\"016F031021A0B903\" quest=\"3E84D82AC7429CF4\"/>",
+      "<hr/>",
+      "The &&bSpirit Instiller&&r can solidify the &&6memories&&r of slain creatures. Provide a &&bmob head&&r and that mob's &&bfavorite item&&r, and vegetal as a binding agent.",
+      "<br/>",
+      "When &&6placed&&r, a memory can take awhile to manifest. &&bSome blocks&&r can speed up the process, or stop it entirely. What could those be?",
+      "<br/>",
+      "&&7&&oDoesn't its appearance remind you of something...?&&r",
+      "<hr/>",
+      "<reward reward=\"4E73BF3DDAD8DF53\" quest=\"3E84D82AC7429CF4\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          560,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:memory",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "I Can Only Remember"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

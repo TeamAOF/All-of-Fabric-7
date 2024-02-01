@@ -1,13 +1,7 @@
 {
-  "dependencies": [
-    "bank_1"
-  ],
+  "dependencies": [],
   "tasks": {
-    "bank_2_task": {
-      "type": "heracles:item",
-      "item": "bankstorage:bank_2",
-      "amount": 1,
-      "collection": "AUTOMATIC",
+    "aa": {
       "title": "",
       "icon": {
         "item": {
@@ -15,11 +9,12 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "bank_2_reward": {
+    "aaa": {
       "title": "",
       "icon": {
         "item": {
@@ -29,7 +24,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
+        "id": "ad_astra:astrodux",
         "count": 1
       },
       "type": "heracles:item"
@@ -40,43 +35,26 @@
       "text": ""
     },
     "description": [
-      "---",
-      "<br/>",
-      "<columns>",
-      "<column>",
-      "<br/>",
-      "<br/>",
-      "## Bank 2",
-      "</column>",
-      "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
-      "</column>",
-      "</columns>",
-      "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 9 blocks of copper—about 80,100 kilograms worth.",
-      "<br/>",
-      "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
-      "<br/>",
-      "---"
+      "Touching the stars, going to other planets, exploring the vast expanse of space, all dreams many of us have had at least at one point in time, but they need be dreams no longer, today, you start your journey to make them a reality"
     ],
     "groups": {
-      "Storage": {
+      "Ad Astra": {
         "position": [
-          40,
-          -180
+          -30,
+          -45
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
+        "id": "ad_astra:astrodux",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "A Dream"
     }
   },
   "settings": {
