@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:goddess_charm",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:dirt",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:goddess_charm\" scale=\"2\"> </item>",
+      "",
+      "<hr/>",
+      "",
+      "The /d/Benevolent Goddess' Charm/d/ is a defensive trinket that, when worn, uses /b/Mana/b/ to prevent explosions in the wearer's vicinity from damaging any blocks in the world. But, just in case you run out of /b/Mana/b/ without realizing it, here's some extra dirt."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          180,
+          58
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:goddess_charm",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Benevolent Goddess' Charm"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:magnet_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:mining_ring\" scale=\"2\"> </item>",
+      "",
+      "<hr/>",
+      "",
+      "Time for a mining trip but don't want to be stuck mining a block for longer than is --absolutely-- necessary? Try out this /6/Ring of the Mantle/6/. It uses Mana to provide a /6/haste effect/6/ for it's wearer. A little Mana is still used when you aren't exactly mining, so keep that in mind so you don't run out."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          100,
+          118
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mining_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ring of the Mantle"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:mana_tablet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:aura_ring\" scale=\"2\"> </item>",
+      "",
+      "<hr></hr>",
+      "",
+      "The /9/Band of Aura/9/ is a variant of the /b/Band of Mana/b/; though instead of only storing Mana, it generates a slow trickle of it while it's equiped. That mana can then be automatically stored in any Mana-containing items in the inventory of the wearer. "
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          100,
+          58
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:aura_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Band of Aura"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

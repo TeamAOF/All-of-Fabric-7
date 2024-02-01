@@ -1,0 +1,95 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:third_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:third_eye\" scale=\"2\"> </item>",
+      "",
+      "<hr/>",
+      "",
+      "/c/The Third Eye/c/ is a sesory aid that uses /b/Mana/b/ to cause nearby mobs to glow, making them visible even through walls. Get ready to fight with more information than your enemy."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          180,
+          118
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:third_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Third Eye"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
