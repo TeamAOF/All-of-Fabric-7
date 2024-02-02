@@ -33,10 +33,10 @@
   },
   "slime_ball_effects": {
     "fall_damage_reduction": 0.25,
-    "knockback_increase": 0.25
+    "knockback_increase": 0.25,
+    "bounce": true
   },
   "coal_effects": {
-    "disable_effect_to_reduce_lag": false,
     "player_detection_radius": 5.0,
     "furnace_speed_increase": 1
   },
@@ -58,10 +58,36 @@
     "attack_damage": 0.5,
     "attack_speed": 0.3,
     "damage_reduction": 0.03,
-    "improve_vision": 0.25
+    "improve_vision": 0.25,
+    "apply_in_fixed_time": true
   },
   "platinum_effects": {
     "illagers_ignore": true,
     "pieces_for_illagers_ignore": 1
-  }
+  },
+  "enable_quartz": true,
+  "enable_iron": true,
+  "enable_netherite": true,
+  "enable_redstone": true,
+  "enable_copper": true,
+  "enable_gold": true,
+  "enable_emerald": true,
+  "enable_diamond": true,
+  "enable_lapis": true,
+  "enable_amethyst": true,
+  "enable_coal": true,
+  "enable_dragons_breath": true,
+  "enable_chorus_fruit": true,
+  "enable_echo_shard": true,
+  "enable_ender_pearl": true,
+  "enable_fire_charge": true,
+  "enable_glowstone_dust": true,
+  "enable_leather": true,
+  "enable_nether_brick": true,
+  "enable_prismarine_shard": true,
+  "enable_rabbit_hide": true,
+  "enable_slime_ball": true,
+  "enable_enchanted_golden_apple": true,
+  "enable_silver": true,
+  "enable_platinum": true
 }

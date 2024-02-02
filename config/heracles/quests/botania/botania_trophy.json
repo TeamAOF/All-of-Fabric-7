@@ -30,7 +30,7 @@
       "translate": "Complete all quests to obtain the trophy!"
     },
     "description": [
-      ""
+      "<h2>&&eComplete all quests to obtain the trophy!</h2>"
     ],
     "groups": {
       "Botania": {
@@ -58,7 +58,7 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
+    "unlockNotification": true,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,

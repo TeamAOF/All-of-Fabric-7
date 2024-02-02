@@ -1,14 +1,54 @@
-### All of Fabric 7 | v1.2.2
+### All of Fabric 7 | v1.3.0
 
-_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.2.md)_
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.0.md)_
+
+### Added Mods ✅
+
+* [[Let's Do] BloomingNature](https://www.curseforge.com/minecraft/mc-mods/bloomingnature)
+* [[Let's Do] HerbalBrews](https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews)
+* [[Let's Do] Meadow](https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow)
+* [FancyMenu](https://www.curseforge.com/minecraft/mc-mods/fancymenu)
+* [Fast Paintings](https://www.curseforge.com/minecraft/mc-mods/fast-paintings)
+* [Flat Bedrock (Forge / Fabric)](https://www.curseforge.com/minecraft/mc-mods/flat-bedrock)
+* [Gadgets Against Grind](https://www.curseforge.com/minecraft/mc-mods/gag)
+* [Let's Do Addon: Structures](https://www.curseforge.com/minecraft/mc-mods/lets-do-addon-structures)
+* [Melody](https://www.curseforge.com/minecraft/mc-mods/melody)
+* [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)
+* [Resourceful Lootbags](https://www.curseforge.com/minecraft/mc-mods/resourceful-lootbags)
+* [Sawmill](https://www.curseforge.com/minecraft/mc-mods/sawmill)
+* [Underground Bunkers](https://www.curseforge.com/minecraft/mc-mods/underground-bunkers)
+* [Unnamed Desert](https://www.curseforge.com/minecraft/mc-mods/unnamed-desert)
+
+### Removed Mods ❌
+
+* [Winterly](https://www.curseforge.com/minecraft/mc-mods/winterly)
 
 ### Changes/Improvements ⚙️
 
-* Re-disable wheel tweak feature.
+* ALL vanilla biomes have been revamped, now looks better than ever.
+* Quest Trophies are back! Currently only for Botania, Spectrum, Ad Astra & MI for now (AK).
+* Added the Ad Astra quest chapter. (elaniquilador01)
+* Added the Farmer O' Worlds quest chapter (elaniquilador01).
+* Added the Spectrum quest chapter (Trent).
+* Added more quests to Botania chapter (Inno).
+* New quests added to the storage chapter (SubordinalBlue).
+* Loot bags are back! Currently only for Spectrum quest chapter.
+* Re-enable placing books (Trent).
+* New tutorial quest screen (SubordinalBlue).
+* Increased number of mobs spawning in the Minecells dimension, 3-6 mobs will now spawn through most runes (Trent).
+* Added pressure plates and buttons to claim bypass (Trent).
+* New Granny's Sink recipe (AK).
+* Added qunatum gear & replicator quests to MI quest chapter (Inno).
+* Unified cheese towards Meadow (AK).
+* Added window icons (AK).
+* Added Team AOF member names to Zenith bosses (AK).
+* Better Archeology structures will now spawn in modded biomes.
+* Performance improvements.
 
 ### Bug Fixes 🐛
 
-* Crash when retrieving a grave containing a travelers backpack.
+* Botania wand quest not registering on task done (Inno).
+* Fixed a missing loot table. Preventing Ultimine from breaking item drops (Trent).
 ---
 
 ### All of Fabric 7 | v1.2.1

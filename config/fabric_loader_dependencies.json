@@ -11,12 +11,57 @@
         "fabricloader": ""
       }
     },
+    "indium": {
+      "-depends": {
+        "sodium": ""
+      }
+    },
     "auto-workstations": {
       "-depends": {
         "fabricloader": ""
       }
     },
     "dungeons_arise_seven_seas": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "bettertrims": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "fancymenu": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "konkrete": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "melody": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "immediatelyfast": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "simple-chunk-manager": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "geckolib": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
+    "underground_bunkers": {
       "-depends": {
         "fabricloader": ""
       }

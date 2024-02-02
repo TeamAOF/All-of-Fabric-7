@@ -1,0 +1,8 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
+  "general": {
+    "allow_non_blocks": true,
+    "allow_non_variant": true,
+    "mod_blacklist": []
+  }
+}

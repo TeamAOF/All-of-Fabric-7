@@ -58,7 +58,7 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
+    "unlockNotification": true,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,

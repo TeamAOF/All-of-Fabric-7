@@ -160,9 +160,17 @@
     "glowingDistance": 15
   },
   "extraFeatures": {
-    "customSoulboundEnchant": true,
+    "soulboundEnchant": {
+      "enabled": true,
+      "isTreasure": true,
+      "isAvailableForEnchantedBookOffer": true,
+      "isAvailableForRandomSelection": false
+    },
     "deathSightEnchant": {
       "enabled": false,
+      "isTreasure": true,
+      "isAvailableForEnchantedBookOffer": true,
+      "isAvailableForRandomSelection": false,
       "range": 64.0,
       "targets": "PLAYER_GRAVES"
     },
@@ -178,6 +186,11 @@
       "rebindable": false,
       "receiveOnRespawn": false,
       "clickFunction": "VIEW_CONTENTS"
+    },
+    "graveCompass": {
+      "receiveOnRespawn": false,
+      "consumeOnUse": true,
+      "deleteWhenUnlinked": true
     }
   }
 }
