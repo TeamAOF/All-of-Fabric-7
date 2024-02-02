@@ -7,7 +7,6 @@ _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * [[Let's Do] BloomingNature](https://www.curseforge.com/minecraft/mc-mods/bloomingnature)
 * [[Let's Do] HerbalBrews](https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews)
 * [[Let's Do] Meadow](https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow)
-* [FancyMenu](https://www.curseforge.com/minecraft/mc-mods/fancymenu)
 * [Fast Paintings](https://www.curseforge.com/minecraft/mc-mods/fast-paintings)
 * [Flat Bedrock (Forge / Fabric)](https://www.curseforge.com/minecraft/mc-mods/flat-bedrock)
 * [Gadgets Against Grind](https://www.curseforge.com/minecraft/mc-mods/gag)
