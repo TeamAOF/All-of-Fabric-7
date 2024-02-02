@@ -18,10 +18,6 @@
       "type": "heracles:advancement"
     },
     "wand of the forest": {
-      "type": "heracles:item",
-      "item": "botania:twig_wand",
-      "amount": 1,
-      "collection": "AUTOMATIC",
       "title": "Craft a Wand",
       "icon": {
         "item": {
@@ -29,7 +25,11 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "recipes": [
+        "botania:twig_wand"
+      ],
+      "type": "heracles:recipe"
     },
     "mana pool": {
       "type": "heracles:item",

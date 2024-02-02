@@ -1,0 +1,211 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "vinculotus": {
+      "type": "heracles:item",
+      "item": "botania:vinculotus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire an ender inhibiting flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pollidisiac": {
+      "type": "heracles:item",
+      "item": "botania:pollidisiac",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire an animal feeding flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "jiyuulia": {
+      "type": "heracles:item",
+      "item": "botania:jiyuulia",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a protective flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "dreadthorn": {
+      "type": "heracles:item",
+      "item": "botania:dreadthorn",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a butchering flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "tigerseye": {
+      "type": "heracles:item",
+      "item": "botania:tigerseye",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a catlike flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hyacidus": {
+      "type": "heracles:item",
+      "item": "botania:hyacidus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a toxic flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "medumone": {
+      "type": "heracles:item",
+      "item": "botania:medumone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire an ensnaring flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bellethorn": {
+      "type": "heracles:item",
+      "item": "botania:bellethorn",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a deadly flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "tangleberrie": {
+      "type": "heracles:item",
+      "item": "botania:tangleberrie",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire an entrapping flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "morsel": {
+      "title": "Receive a Manalicious Morsel",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:mana_cookie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  The flowers that deal with entities in some way can have a myriad of uses, aiding in animal husbandry and monster farming alike. If you're inventive enough, you might be able to put these flora to novel uses....",
+      "",
+      "  To begin our list, the sinister Bellethorne. When given Mana, this flower will **harm all entities nearby**.",
+      "<item id=\"botania:bellethorn\" scale=\"2\"></item>",
+      "",
+      "  Second, the Dreadthorne. This one works exactly like the Bellethorne, however, it will **only harm adult animals**.",
+      "<item id=\"botania:dreadthorn\" scale=\"2\"></item>",
+      "",
+      "  The Hyacidus flower **inflicts poison unto nearby entities** with Mana.",
+      "<item id=\"botania:hyacidus\" scale=\"2\"></item>",
+      "",
+      "  Next, the Jiyuulia, which uses Mana to sustain **a protective field around itself which mobs cannot enter**.",
+      "<item id=\"botania:jiyuulia\" scale=\"2\"></item>",
+      "",
+      "  The Medumone is capable of **bringing nearby mobs to a halt**, stopping them from moving.",
+      "<item id=\"botania:medumone\" scale=\"2\"></item>",
+      "",
+      "  The Pollidisiac uses Mana to **entice nearby animals to eat dropped food** items, allowing for automated animal breeding.",
+      "<item id=\"botania:pollidisiac\" scale=\"2\"></item>",
+      "",
+      "  The Tangleberrie is an inverse of the Jiyuulia; it uses Mana to sustain **an enclosure which mobs cannot leave**.",
+      "<item id=\"botania:tangleberrie\" scale=\"2\"></item>",
+      "",
+      "  The Tigerseye **prevents Creepers from exploding**.",
+      "<item id=\"botania:tigerseye\" scale=\"2\"></item>",
+      "",
+      "  Lastly, the Vinculotus **latches onto endermen** in a large range who are attempting to teleport, and forces them to end up **at the flower's position instead**.",
+      "<item id=\"botania:vinculotus\" scale=\"2\"></item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          25,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:vinculotus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Entity Manipulation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "dependencies": [
+    "petal apothecary"
+  ],
+  "tasks": {
+    "magenta": {
+      "type": "heracles:item",
+      "item": "botania:magenta_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "pink": {
+      "type": "heracles:item",
+      "item": "botania:pink_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "light_grey": {
+      "type": "heracles:item",
+      "item": "botania:light_gray_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "green": {
+      "type": "heracles:item",
+      "item": "botania:green_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "lime": {
+      "type": "heracles:item",
+      "item": "botania:lime_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "yellow": {
+      "type": "heracles:item",
+      "item": "botania:yellow_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "black": {
+      "type": "heracles:item",
+      "item": "botania:black_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "light_blue": {
+      "type": "heracles:item",
+      "item": "botania:light_blue_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brown": {
+      "type": "heracles:item",
+      "item": "botania:brown_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "cyan": {
+      "type": "heracles:item",
+      "item": "botania:cyan_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "grey": {
+      "type": "heracles:item",
+      "item": "botania:gray_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "orange": {
+      "type": "heracles:item",
+      "item": "botania:orange_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "red": {
+      "type": "heracles:item",
+      "item": "botania:red_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "white": {
+      "type": "heracles:item",
+      "item": "botania:white_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "blue": {
+      "type": "heracles:item",
+      "item": "botania:blue_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "purple": {
+      "type": "heracles:item",
+      "item": "botania:purple_mystical_flower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "fertilizer": {
+      "title": "Receive mystical Fertilizer",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:fertilizer",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Having **all sixteen varieties** of mystical flower at your disposal is a must if you wish to get anywhere in your exploration of botany. Some colors are used more than others, but even so, you will need every one eventually.",
+      "",
+      "  As the **petals can be crushed into dye** (more efficiently if you have studied the art of gemstones) and easily farmed, they might also be useful for your other endeavors. Speaking of farming, once you have progressed further, you can make the **Jaded Amaranthus** to grow the flowers for you.",
+      "",
+      "<item id=\"botania:jaded_amaranthus\" scale=\"4\"></item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:jaded_amaranthus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Garden of Rainbow"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

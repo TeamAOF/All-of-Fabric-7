@@ -1,0 +1,109 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "daffomill": {
+      "type": "heracles:item",
+      "item": "botania:daffomill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a flower for item movement",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hopperhock": {
+      "type": "heracles:item",
+      "item": "botania:hopperhock",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a flower for collection",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rannuncarpus": {
+      "type": "heracles:item",
+      "item": "botania:rannuncarpus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a flower for placement",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "frames": {
+      "title": "Receive a few Frames",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:item_frame",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  The automation of your generating flora would be quite challenging without some means of **item manipulation**, wouldn't it? Hence, a selection of functional flora which deal with items, and the transfer, collection, and placement thereof:",
+      "",
+      "  First, the Hopperhock. This flower, when placed adjacent to a container such as a chest, will **collect dropped items** within range into it. It can be filtered by placing a filled item frame on the container. It **doesn't require Mana**, but its **range is greatly expanded when provided**.",
+      "<item id=\"botania:hopperhock\" scale=\"2\"></item>",
+      "",
+      "  Second, the Daffomill. It simply **uses Mana to push items** in the direction it's facing, allowing for a form of item transport.",
+      "<item id=\"botania:daffomill\" scale=\"2\"></item>",
+      "",
+      "  Third, the Rannuncarpus. When an item is within its range, this flower will **try to place it** - if it can be placed - onto a specific block, specified by **placing it below the soil the Rannuncarpus is planted on**. It, like hopperhocks, **can be filtered** to only place certain items; place the filled frames onto that same block used to specify where it should place. This flower **does require Mana**.",
+      "<item id=\"botania:rannuncarpus\" scale=\"2\"></item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          75,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:hopperhock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Manipulation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

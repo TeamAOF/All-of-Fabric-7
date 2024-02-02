@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "exchanging rod": {
+      "type": "heracles:item",
+      "item": "botania:exchange_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a block-exchanging rod",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "divining rod": {
+      "type": "heracles:item",
+      "item": "botania:divining_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire an ore-finding rod",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mana tablet": {
+      "title": "Receive a portable repository for Mana",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:mana_tablet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Several rods carved from livingwood and affixed with runes and other focal items can be used to channel Mana directly by you. I won't mention all the rods - the Lexica does just fine a job on that - but I will note a small handful that may be **particularly** useful.",
+      "",
+      "  The Rod of the Plentiful Mantle uses Mana to **divine for nearby ores**. It is curiously fickle, as **the colors it displays change on each use**. Therefore, you can't accurately tell which ore in particular you've found, only that there is some.",
+      "",
+      "  The Rod of the Shifting Crust uses Mana to **exchange blocks for other blocks**. This surely comes in use when building.",
+      "",
+      "<columns>",
+      "    <column>",
+      "        <item id=\"botania:divining_rod\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:exchange_rod\" scale=\"2\"> </item>",
+      "    </column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          35,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:tornado_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Living Rods"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
