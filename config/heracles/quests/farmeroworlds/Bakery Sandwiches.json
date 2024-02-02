@@ -1,11 +1,25 @@
 {
   "dependencies": [
-    "Grapes"
+    "Bakery"
   ],
   "tasks": {
-    "wtg": {
+    "bs": {
       "type": "heracles:item",
-      "item": "vinery:taiga_grapes_white",
+      "item": "bakery:sandwich",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bvs": {
+      "type": "heracles:item",
+      "item": "bakery:vegetable_sandwich",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,7 +43,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "vinery:taiga_grape_seeds_white",
+        "id": "minecraft:carrot",
         "count": 4
       },
       "type": "heracles:item"
@@ -44,8 +58,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:bone_meal",
-        "count": 16
+        "id": "minecraft:cooked_mutton",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -55,29 +69,26 @@
       "text": ""
     },
     "description": [
-      "These grapes can be found in taigas and it's subvariants",
-      " ",
-      " ",
-      "They can be planted on grass or on a stem for extra grapes and growth speed"
+      "A couple of sandwiches, they can't be placed"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          400,
-          60
+          -160,
+          -240
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:taiga_grapes_white",
+        "id": "bakery:vegetable_sandwich",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "White Taiga Grapes"
+      "translate": "Sandwiches"
     }
   },
   "settings": {
