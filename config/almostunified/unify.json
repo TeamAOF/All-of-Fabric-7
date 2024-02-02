@@ -12,8 +12,8 @@
     "jewelry",
     "bewitchment",
     "brewinandchewin",
+    "meadow",
     "croptopia",
-    "hauntedharvest",
     "vinery",
     "tinycoal",
     "bakery",
@@ -53,6 +53,7 @@
     "c:doughs",
     "c:flour",
     "c:corn",
+    "c:cheese",
     "c:raw_bacon",
     "c:cooked_bacon",
     "c:strawberries",
@@ -141,7 +142,13 @@
   "spectrum:blackslag_gold_ore",
   "spectrum:blackslag_lapis_ore",
   "spectrum:blackslag_diamond_ore",
-  "spectrum:blackslag_emerald_ore"
+  "spectrum:blackslag_emerald_ore",
+  "meadow:piece_of_sheep_cheese",
+  "meadow:piece_of_grain_cheese",
+  "meadow:piece_of_amethyst_cheese",
+  "meadow:piece_of_buffalo_cheese",
+  "meadow:piece_of_goat_cheese",
+  "meadow:piece_of_warped_cheese"
 ],
 
   "ignoredRecipeTypes": [
