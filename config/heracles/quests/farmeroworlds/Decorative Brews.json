@@ -1,11 +1,25 @@
 {
   "dependencies": [
-    "Tiki Bar"
+    "Brewing Tools"
   ],
   "tasks": {
-    "bprd": {
+    "hb_hibiscus_tea": {
       "type": "heracles:item",
-      "item": "beachparty:refreshing_drink",
+      "item": "herbalbrews:hibiscus_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_milk_coffee": {
+      "type": "heracles:item",
+      "item": "herbalbrews:milk_coffee",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +33,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "hb_hibiscus_tea": {
       "title": "",
       "icon": {
         "item": {
@@ -29,12 +43,12 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:water_bucket",
-        "count": 2
+        "id": "herbalbrews:hibiscus_tea",
+        "count": 1
       },
       "type": "heracles:item"
     },
-    "2": {
+    "hb_milk_coffee": {
       "title": "",
       "icon": {
         "item": {
@@ -44,8 +58,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:sweet_berries",
-        "count": 2
+        "id": "herbalbrews:milk_coffee",
+        "count": 1
       },
       "type": "heracles:item"
     }
@@ -55,26 +69,26 @@
       "text": ""
     },
     "description": [
-      "A simple refreshing drink and a great way to make sweetberries more useful"
+      "They do the same as regular brews but can also be placed down as a decoration"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          100,
-          -200
+          -85,
+          -430
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:refreshing_drink",
+        "id": "herbalbrews:milk_coffee",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "A Refreshing Drink"
+      "translate": "Decorative Brews"
     }
   },
   "settings": {

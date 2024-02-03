@@ -1,11 +1,31 @@
 {
   "dependencies": [
-    "Tiki Bar"
+    "Herbal Brews"
   ],
   "tasks": {
-    "bprd": {
+    "hb_witch_hat": {
       "type": "heracles:item",
-      "item": "beachparty:refreshing_drink",
+      "item": "herbalbrews:witch_hat",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_top_hat": {
+      "type": "heracles:item",
+      "item": "herbalbrews:top_hat",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +39,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "hb_wool": {
       "title": "",
       "icon": {
         "item": {
@@ -29,23 +49,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:water_bucket",
-        "count": 2
-      },
-      "type": "heracles:item"
-    },
-    "2": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:sweet_berries",
-        "count": 2
+        "id": "minecraft:white_wool",
+        "count": 10
       },
       "type": "heracles:item"
     }
@@ -55,26 +60,29 @@
       "text": ""
     },
     "description": [
-      "A simple refreshing drink and a great way to make sweetberries more useful"
+      "Wether an evil swamp witch or a rich member of the royal court we all have one thing in common, we like to brew drinks"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          100,
-          -200
+          -45,
+          -365
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:refreshing_drink",
-        "count": 1
+        "id": "herbalbrews:top_hat",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "A Refreshing Drink"
+      "translate": "The Duality of Brewing"
     }
   },
   "settings": {

@@ -1,9 +1,9 @@
 {
   "dependencies": [
-    "A Dream"
+    "Let's Do Mods"
   ],
   "tasks": {
-    "aap": {
+    "herbal_brews": {
       "title": "",
       "icon": {
         "item": {
@@ -21,29 +21,29 @@
       "text": ""
     },
     "description": [
-      "Going into space is no easy task, you will first need to make some preparations for the future rocket and for yourself"
+      "Herbal Brews is all about brewing both delicious hot drinks and powerful potions worthy of a true witch",
+      "<br/>",
+      "<br/>",
+      "To make these new drinks you will first need to explore and find the necessary herbs, otherwise they would simply be called brews"
     ],
     "groups": {
-      "Ad Astra": {
+      "Farmer O' Worlds": {
         "position": [
-          10,
-          -50
+          -80,
+          -325
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ad_astra:hammer",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "herbalbrews:yerba_mate_tea",
+        "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Preparations"
+      "translate": "Herbal Brews"
     }
   },
   "settings": {

@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "The Rocket"
+    "The Herbal In Herbal Brews"
   ],
   "tasks": {
-    "aaol": {
+    "hb_dried_black_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:oxygen_loader",
+      "item": "herbalbrews:dried_black_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,12 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "aasp": {
+    "hb_dried_green_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:space_pants",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:dried_green_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -34,60 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "aasb": {
+    "hb_dried_oolong": {
       "type": "heracles:item",
-      "item": "ad_astra:space_boots",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aaot": {
-      "type": "heracles:item",
-      "item": "ad_astra:oxygen_tank",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aash": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_helmet",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aass": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_suit",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:dried_oolong_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -101,7 +47,7 @@
     }
   },
   "rewards": {
-    "aaot": {
+    "hb_dried_black_tea": {
       "title": "",
       "icon": {
         "item": {
@@ -111,8 +57,38 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "ad_astra:oxygen_tank",
-        "count": 1
+        "id": "herbalbrews:dried_black_tea",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_dried_oolong": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:dried_oolong_tea",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_dried_green_tea": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:dried_green_tea",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -122,32 +98,30 @@
       "text": ""
     },
     "description": [
-      "Oxygen is a basic part of life, unfortunately it isn't very abundant outside of this planet so you will need to prepare for this inconvenience",
+      "The green tea leaves can't be used for brewing yet, you must turn them into a green tea leaf block and place it somewhere for it to dry, after a while it will turn into a dried green tea leaf block, when broken you will get dried green tea",
       "<br/>",
+      "Dried green tea can be used to make tea or can be used to make other kinds of tea leaves, if made into a dried tea leaf block and left to dry again you will get dried black tea",
       "<br/>",
-      "The oxygen loader allows to turn water into oxygen, it also needs power to work",
-      "<br/>",
-      "<br/>",
-      "To be able to breath and survive the harsh extraterrestial enviroments you will need a space suit, the space suit can be filled with oxygen in the oxygen loader, you can also fill oxygen tanks and bring them with you, using them replenishes the space suit's oxygen, the suit also allows to breath underwater"
+      "Once you have both dried green and black tea they can be made into mixed tea leaf blocks, once these are dried you will get dried oolong"
     ],
     "groups": {
-      "Ad Astra": {
+      "Farmer O' Worlds": {
         "position": [
-          200,
-          -10
+          -80,
+          -400
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ad_astra:oxygen_tank",
+        "id": "herbalbrews:green_tea_leaf",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Oxygen"
+      "translate": "Preparing the Tea Leaves"
     }
   },
   "settings": {

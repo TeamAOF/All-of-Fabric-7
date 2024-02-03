@@ -1,11 +1,39 @@
 {
   "dependencies": [
-    "Tiki Bar"
+    "Herbal Brews"
   ],
   "tasks": {
-    "bprd": {
+    "hb_tea_kettle": {
       "type": "heracles:item",
-      "item": "beachparty:refreshing_drink",
+      "item": "herbalbrews:tea_kettle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_stove": {
+      "type": "heracles:item",
+      "item": "herbalbrews:stove",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_brewing_cauldron": {
+      "type": "heracles:item",
+      "item": "herbalbrews:cauldron",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +47,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "hb_iron": {
       "title": "",
       "icon": {
         "item": {
@@ -29,23 +57,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:water_bucket",
-        "count": 2
-      },
-      "type": "heracles:item"
-    },
-    "2": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:sweet_berries",
-        "count": 2
+        "id": "minecraft:iron_ingot",
+        "count": 10
       },
       "type": "heracles:item"
     }
@@ -55,26 +68,26 @@
       "text": ""
     },
     "description": [
-      "A simple refreshing drink and a great way to make sweetberries more useful"
+      "To brew the teas and coffee you will need a stove to heat a tea kettle, to make flasks you will need a brewing cauldron"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          100,
-          -200
+          -115,
+          -365
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:refreshing_drink",
+        "id": "herbalbrews:tea_kettle",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "A Refreshing Drink"
+      "translate": "Brewing Tools"
     }
   },
   "settings": {

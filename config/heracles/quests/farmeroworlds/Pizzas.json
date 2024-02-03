@@ -17,20 +17,6 @@
         "type": "heracles:item"
       }
     },
-    "pizza4": {
-      "type": "heracles:item",
-      "item": "croptopia:cheese",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "pizza3": {
       "type": "heracles:item",
       "item": "croptopia:anchovy_pizza",

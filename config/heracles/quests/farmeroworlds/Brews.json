@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "The Rocket"
+    "Brewing Tools"
   ],
   "tasks": {
-    "aaol": {
+    "hb_yerba_mate_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:oxygen_loader",
+      "item": "herbalbrews:yerba_mate_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,12 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "aasp": {
+    "hb_lavender_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:space_pants",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:lavender_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -34,12 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "aasb": {
+    "hb_oolong_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:space_boots",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:oolong_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -51,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "aaot": {
+    "hb_black_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:oxygen_tank",
+      "item": "herbalbrews:black_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -65,12 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "aash": {
+    "hb_coffee": {
       "type": "heracles:item",
-      "item": "ad_astra:space_helmet",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:coffee",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -82,12 +73,23 @@
         "type": "heracles:item"
       }
     },
-    "aass": {
+    "hb_green_tea": {
       "type": "heracles:item",
-      "item": "ad_astra:space_suit",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:green_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_rooibos_tea": {
+      "type": "heracles:item",
+      "item": "herbalbrews:rooibos_tea",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -101,7 +103,7 @@
     }
   },
   "rewards": {
-    "aaot": {
+    "hb_sugar": {
       "title": "",
       "icon": {
         "item": {
@@ -111,8 +113,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "ad_astra:oxygen_tank",
-        "count": 1
+        "id": "minecraft:sugar",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -122,32 +124,26 @@
       "text": ""
     },
     "description": [
-      "Oxygen is a basic part of life, unfortunately it isn't very abundant outside of this planet so you will need to prepare for this inconvenience",
-      "<br/>",
-      "<br/>",
-      "The oxygen loader allows to turn water into oxygen, it also needs power to work",
-      "<br/>",
-      "<br/>",
-      "To be able to breath and survive the harsh extraterrestial enviroments you will need a space suit, the space suit can be filled with oxygen in the oxygen loader, you can also fill oxygen tanks and bring them with you, using them replenishes the space suit's oxygen, the suit also allows to breath underwater"
+      "These are the brews made in a tea kettle, they give positive effects and some can be affect your nearby friends or pets"
     ],
     "groups": {
-      "Ad Astra": {
+      "Farmer O' Worlds": {
         "position": [
-          200,
-          -10
+          -115,
+          -430
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ad_astra:oxygen_tank",
+        "id": "herbalbrews:black_tea",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Oxygen"
+      "translate": "Brews"
     }
   },
   "settings": {

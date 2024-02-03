@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "The Rocket"
+    "Brewing Tools"
   ],
   "tasks": {
-    "aaol": {
+    "hb_big_damage_flask": {
       "type": "heracles:item",
-      "item": "ad_astra:oxygen_loader",
+      "item": "herbalbrews:damage_flask_big",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,12 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "aasp": {
+    "hb_big_armor_flask": {
       "type": "heracles:item",
-      "item": "ad_astra:space_pants",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:armor_flask_big",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -34,12 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "aasb": {
+    "hb_damage_flask": {
       "type": "heracles:item",
-      "item": "ad_astra:space_boots",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:damage_flask",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -51,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "aaot": {
+    "hb_armor_flask": {
       "type": "heracles:item",
-      "item": "ad_astra:oxygen_tank",
+      "item": "herbalbrews:armor_flask",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -65,12 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "aash": {
+    "hb_feral_flask": {
       "type": "heracles:item",
-      "item": "ad_astra:space_helmet",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:feral_flask",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -82,12 +73,9 @@
         "type": "heracles:item"
       }
     },
-    "aass": {
+    "hb_big_feral_flask": {
       "type": "heracles:item",
-      "item": "ad_astra:space_suit",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "herbalbrews:feral_flask_big",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -101,7 +89,7 @@
     }
   },
   "rewards": {
-    "aaot": {
+    "hb_glistering_melon": {
       "title": "",
       "icon": {
         "item": {
@@ -111,8 +99,23 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "ad_astra:oxygen_tank",
-        "count": 1
+        "id": "minecraft:glistering_melon_slice",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_redstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -122,32 +125,26 @@
       "text": ""
     },
     "description": [
-      "Oxygen is a basic part of life, unfortunately it isn't very abundant outside of this planet so you will need to prepare for this inconvenience",
-      "<br/>",
-      "<br/>",
-      "The oxygen loader allows to turn water into oxygen, it also needs power to work",
-      "<br/>",
-      "<br/>",
-      "To be able to breath and survive the harsh extraterrestial enviroments you will need a space suit, the space suit can be filled with oxygen in the oxygen loader, you can also fill oxygen tanks and bring them with you, using them replenishes the space suit's oxygen, the suit also allows to breath underwater"
+      "Flasks are like potions, they are made in the brewing cauldron"
     ],
     "groups": {
-      "Ad Astra": {
+      "Farmer O' Worlds": {
         "position": [
-          200,
-          -10
+          -145,
+          -430
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ad_astra:oxygen_tank",
+        "id": "herbalbrews:feral_flask_big",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Oxygen"
+      "translate": "Flasks"
     }
   },
   "settings": {
