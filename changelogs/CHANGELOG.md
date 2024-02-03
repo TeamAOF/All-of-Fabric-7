@@ -59,7 +59,7 @@ _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Increased number of mobs spawning in the Minecells dimension, 3-6 mobs will now spawn through most runes (Trent).
 * Added pressure plates and buttons to claim bypass (Trent).
 * New Granny's Sink recipe (AK).
-* Added qunatum gear & replicator quests to MI quest chapter (Inno).
+* Added quantum gear & replicator quests to MI quest chapter (Inno).
 * Unified cheese towards Meadow (AK).
 * Added window icons (AK).
 * Added Team AOF member names to Zenith bosses (AK).
