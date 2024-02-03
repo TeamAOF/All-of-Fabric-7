@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Let's Do Mods"
+  ],
+  "tasks": {
+    "herbal_brews": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Herbal Brews is all about brewing both delicious hot drinks and powerful potions worthy of a true witch",
+      "<br/>",
+      "<br/>",
+      "To make these new drinks you will first need to explore and find the necessary herbs, otherwise they would simply be called brews"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -80,
+          -325
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "herbalbrews:yerba_mate_tea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Herbal Brews"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
