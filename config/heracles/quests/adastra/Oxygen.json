@@ -34,6 +34,23 @@
         "type": "heracles:item"
       }
     },
+    "aasb": {
+      "type": "heracles:item",
+      "item": "ad_astra:space_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "aaot": {
       "type": "heracles:item",
       "item": "ad_astra:oxygen_tank",
@@ -51,23 +68,6 @@
     "aash": {
       "type": "heracles:item",
       "item": "ad_astra:space_helmet",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aasb": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_boots",
       "nbt": {
         "Damage": 0
       },

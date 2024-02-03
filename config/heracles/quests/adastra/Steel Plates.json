@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "aasc": {
+    "aac": {
       "type": "heracles:item",
-      "item": "ad_astra:steel_cable",
+      "item": "ad_astra:compressor",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "aac": {
+    "aasc": {
       "type": "heracles:item",
-      "item": "ad_astra:compressor",
+      "item": "ad_astra:steel_cable",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -79,7 +79,7 @@
       "Ad Astra": {
         "position": [
           90,
-          -45
+          -50
         ]
       }
     },
