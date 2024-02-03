@@ -353,6 +353,20 @@
         "type": "heracles:item"
       }
     },
+    "bag_green_tea": {
+      "type": "heracles:item",
+      "item": "herbalbrews:tea_leaf_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "gbc": {
       "type": "heracles:item",
       "item": "blockus:glow_berries_crate",
