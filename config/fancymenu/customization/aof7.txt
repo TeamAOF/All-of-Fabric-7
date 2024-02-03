@@ -127,7 +127,7 @@ element {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = All of Fabric 7 - 1.3.0
+  source = All of Fabric 7 - 1.3.1
   text_border = 0
   case_mode = normal
   source_mode = direct

@@ -1,3 +1,25 @@
+### All of Fabric 7 | v1.3.1
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.1.md)_
+
+### Changes/Improvements ⚙️
+
+* More botania quests, covering mostly flowers & some misc (Gronglegrowth).
+* Removed croptopia cheese from FOW quest chapter (elaniquilador01).
+* Herbal quests has been added to the FOW quest chapter (elaniquilador01).
+* Added colors to spectrum quest titles (Trent).
+
+### Bug Fixes 🐛
+
+* Chipped GUI issues.
+* Advancement tasks not being granted if task was unlocked after advancement was acquired (This mostly applies to the Spectrum quest chapter).
+* Incorrect lootbags on certain quests in Spectrum chapter (Trent).
+* Missplaced trophy rewards for Ad Astra (AK).
+* Quest trophies not being retrievable due to missing task (AK).
+* Wrong variant of steel ingot being used in the steel ingot quest in Ad Astra (elaniquilador01).
+* Typos in Spectrum quest chapter (AK).
+---
+
 ### All of Fabric 7 | v1.3.0
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.0.md)_
