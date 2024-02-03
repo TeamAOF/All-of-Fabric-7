@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "The Animals"
   ],
   "tasks": {
-    "fdcb": {
+    "meadow_sheep_milk": {
       "type": "heracles:item",
-      "item": "farmersdelight:cutting_board",
+      "item": "meadow:wooden_sheep_milk_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +17,9 @@
         "type": "heracles:item"
       }
     },
-    "fdcp": {
+    "meadow_milk": {
       "type": "heracles:item",
-      "item": "farmersdelight:cooking_pot",
+      "item": "meadow:wooden_milk_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +31,9 @@
         "type": "heracles:item"
       }
     },
-    "fds": {
+    "meadow_goat_milk": {
       "type": "heracles:item",
-      "item": "farmersdelight:stove",
+      "item": "meadow:wooden_goat_milk_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +45,9 @@
         "type": "heracles:item"
       }
     },
-    "fdk": {
+    "meadow_warped_milk": {
       "type": "heracles:item",
-      "item": "#c:tools/knives",
+      "item": "meadow:wooden_warped_milk_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,12 +59,9 @@
         "type": "heracles:item"
       }
     },
-    "fdskillet": {
+    "meadow_bison_milk": {
       "type": "heracles:item",
-      "item": "farmersdelight:skillet",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "meadow:wooden_buffalo_milk_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -78,7 +75,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "meadow_warped_milk": {
       "title": "",
       "icon": {
         "item": {
@@ -88,11 +85,38 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "farmersdelight:iron_knife",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "meadow:wooden_warped_milk_bucket",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "meadow_bear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:raw_bear_meat",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wooden_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wooden_bucket",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -102,46 +126,36 @@
       "text": ""
     },
     "description": [
-      "There are 3 main things for cooking",
+      "With the latest advanced technology in wooden buckets there is many new milks to collect",
       "<br/>",
+      "Cows give regular milk",
       "<br/>",
-      "First and most important, the cooking pot, here you will cook most foods, it requires a source of heat which can be a campfire, lava, fire or preferably a stove, the cooking pot also turns villagers into chefs, they sell already made food",
+      "Black and cream colored wooly cows and water buffalos give buffalo milk",
       "<br/>",
+      "Warped wooly cows give warped milk",
       "<br/>",
-      "The stove is safe and good looking source of heat for your stove and skillet",
+      "Sheep give sheep milk",
       "<br/>",
-      "<br/>",
-      "The skillet can be used as a weapon or for cooking, simply shift right click where you wish to place it, it will also require a source of heat and it allows to leave a stack of food in it that will slowly get cooked and then be dropped to the ground just like a campfire, the skillet also turns villagers into cooks, they sell meat cuts",
-      "<br/>",
-      "<br/>",
-      "The cutting board has many recipes and not just for food, it allows using a knife to cut something into something else, to double meats and fish or to obtain slices from the many cakes and pies.",
-      "The cutting board also has other recipes that use different tools, like stripping bark of a log with an axe, make sure to check REI for all possibilities",
-      "<br/>",
-      "<br/>",
-      "Knives can be used to cut things in the cutting board, they can also be used as a weapon although they aren't very strong, however, to obtain ham you will need to kill pigs or hoglins with a knife",
-      "Knives can also be made of many materials"
+      "Goats give goat milk"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -325,
-          -40
+          25,
+          -490
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:skillet",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "meadow:wooden_sheep_milk_bucket",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cooking Tools"
+      "translate": "Milk"
     }
   },
   "settings": {

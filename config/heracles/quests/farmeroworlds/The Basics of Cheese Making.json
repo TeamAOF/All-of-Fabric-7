@@ -1,11 +1,12 @@
 {
   "dependencies": [
-    "Beachparty"
+    "Artificial Milk?",
+    "Milk"
   ],
   "tasks": {
-    "bptb": {
+    "meadow_cheese_press": {
       "type": "heracles:item",
-      "item": "beachparty:tiki_bar",
+      "item": "meadow:cheese_form",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -18,49 +19,35 @@
       }
     }
   },
-  "rewards": {
-    "1": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "xptype": "POINTS",
-      "amount": 300,
-      "title": "",
-      "type": "heracles:xp"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "The first step to making cocktails and milkshakes is to get an authentic tiki bar",
+      "Now that you have the milk you will need a cheese press to turn it into cheese and you will need renet made in the cauldron",
       "<br/>",
       "<br/>",
-      "A tiki bar will also turn villagers into barkeepers, they will help you by selling cold refreshing ice and snow in the hot beach bar"
+      "The cheese press will turn villagers into cheesemakers, they will sell ingredients, cheeses and decorations to help you in your cheese making journey"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          130,
-          -320
+          -5,
+          -535
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:tiki_bar",
+        "id": "meadow:cheese_form",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tiki Bar"
+      "translate": "The Basics of Cheese Making"
     }
   },
   "settings": {

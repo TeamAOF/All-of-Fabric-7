@@ -1,0 +1,102 @@
+{
+  "dependencies": [
+    "The Basics of Cheese Making"
+  ],
+  "tasks": {
+    "meadow_cheese_rack": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_rack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_shelf": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:shelf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_chair": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:chair",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_table": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The cheese rack is a fancy way to store and display your cheese wheel, wether you have a shop, restaurant or simply want to show off!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -65,
+          -535
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:cheese_rack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cheese Storage"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "Meadow"
+  ],
+  "tasks": {
+    "meadow_meadow": {
+      "title": "Visit a meadow",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "biomes": "minecraft:meadow",
+      "type": "heracles:biome"
+    },
+    "meadow_wooden_bucket": {
+      "type": "heracles:item",
+      "item": "meadow:wooden_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_highland_cow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wooly_cow_spawn_egg",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "meadow_brown_bear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:brown_bear_spawn_egg",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are many animals to find, from them you can get milk, wool, leather and meat",
+      "<br/>",
+      "Not all animals have the same milk, to get their unique milk you'll need a traditional wooden bucket",
+      "<br/>",
+      "This is a list of the new animals and what they can give you:",
+      "1) Wooly cows: Can be found in meadows, forests and plains, they give buffalo milk and can be sheared for new types of wool",
+      "2) Warped wooly cow: Is the same a regular wooly cow but rarely spawns near nether portals in warped forests, they give warped milk and a new wool type",
+      "3) Water buffalos: They spawn in savannahs and give buffalo milk",
+      "4) Brown bears: They spawn rarely in forests and are hostile, they drop their meat"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          25,
+          -450
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:wooly_cow_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Animals"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,11 +1,14 @@
 {
   "dependencies": [
-    "Farmer's Delight"
+    "Meadow"
   ],
   "tasks": {
-    "fdcb": {
+    "meadow_watering_can": {
       "type": "heracles:item",
-      "item": "farmersdelight:cutting_board",
+      "item": "meadow:watering_can",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,9 +20,12 @@
         "type": "heracles:item"
       }
     },
-    "fdcp": {
+    "meadow_fur_chestplate": {
       "type": "heracles:item",
-      "item": "farmersdelight:cooking_pot",
+      "item": "meadow:fur_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -31,9 +37,9 @@
         "type": "heracles:item"
       }
     },
-    "fds": {
+    "meadow_climbing_rope": {
       "type": "heracles:item",
-      "item": "farmersdelight:stove",
+      "item": "meadow:climbing_rope_topmount",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -45,9 +51,12 @@
         "type": "heracles:item"
       }
     },
-    "fdk": {
+    "meadow_fur_helmet": {
       "type": "heracles:item",
-      "item": "#c:tools/knives",
+      "item": "meadow:fur_helmet",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -59,9 +68,26 @@
         "type": "heracles:item"
       }
     },
-    "fdskillet": {
+    "meadow_fur_boots": {
       "type": "heracles:item",
-      "item": "farmersdelight:skillet",
+      "item": "meadow:fur_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_leggins": {
+      "type": "heracles:item",
+      "item": "meadow:fur_leggings",
       "nbt": {
         "Damage": 0
       },
@@ -78,7 +104,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "meadow_climbing_rope": {
       "title": "",
       "icon": {
         "item": {
@@ -88,11 +114,38 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "farmersdelight:iron_knife",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "meadow:climbing_rope_topmount",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wheelbarrow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wheelbarrow",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_oil_lantern": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:oil_lantern",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -102,46 +155,33 @@
       "text": ""
     },
     "description": [
-      "There are 3 main things for cooking",
+      "A couple utilities to help you farm and explore",
       "<br/>",
       "<br/>",
-      "First and most important, the cooking pot, here you will cook most foods, it requires a source of heat which can be a campfire, lava, fire or preferably a stove, the cooking pot also turns villagers into chefs, they sell already made food",
+      "The watering can works like bone meal and only needs water",
       "<br/>",
+      "The climbing rope can be placed under blocks, it's 11 blocks tall and allows easily going up or down",
       "<br/>",
-      "The stove is safe and good looking source of heat for your stove and skillet",
-      "<br/>",
-      "<br/>",
-      "The skillet can be used as a weapon or for cooking, simply shift right click where you wish to place it, it will also require a source of heat and it allows to leave a stack of food in it that will slowly get cooked and then be dropped to the ground just like a campfire, the skillet also turns villagers into cooks, they sell meat cuts",
-      "<br/>",
-      "<br/>",
-      "The cutting board has many recipes and not just for food, it allows using a knife to cut something into something else, to double meats and fish or to obtain slices from the many cakes and pies.",
-      "The cutting board also has other recipes that use different tools, like stripping bark of a log with an axe, make sure to check REI for all possibilities",
-      "<br/>",
-      "<br/>",
-      "Knives can be used to cut things in the cutting board, they can also be used as a weapon although they aren't very strong, however, to obtain ham you will need to kill pigs or hoglins with a knife",
-      "Knives can also be made of many materials"
+      "The fur armor will make you harder to push, just like a bear"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -325,
-          -40
+          -35,
+          -420
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:skillet",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "meadow:climbing_rope_topmount",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cooking Tools"
+      "translate": "Meadows Utilities"
     }
   },
   "settings": {

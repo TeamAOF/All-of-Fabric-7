@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Beachparty"
+    "The Basics of Cheese Making"
   ],
   "tasks": {
-    "bptb": {
+    "meadow_grain_cheese_wheel": {
       "type": "heracles:item",
-      "item": "beachparty:tiki_bar",
+      "item": "meadow:grain_cheese_block",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,8 @@
     }
   },
   "rewards": {
-    "1": {
+    "meadow_wheat": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,10 +28,26 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
-      "amount": 300,
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "meadow_rennet": {
       "title": "",
-      "type": "heracles:xp"
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rennet",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,29 +55,26 @@
       "text": ""
     },
     "description": [
-      "The first step to making cocktails and milkshakes is to get an authentic tiki bar",
-      "<br/>",
-      "<br/>",
-      "A tiki bar will also turn villagers into barkeepers, they will help you by selling cold refreshing ice and snow in the hot beach bar"
+      "Shouldn't this be a dough?"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          130,
-          -320
+          -30,
+          -570
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:tiki_bar",
+        "id": "meadow:grain_cheese_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tiki Bar"
+      "translate": "Grain Cheese Wheel"
     }
   },
   "settings": {

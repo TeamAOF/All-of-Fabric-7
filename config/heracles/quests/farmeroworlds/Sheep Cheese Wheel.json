@@ -1,0 +1,177 @@
+{
+  "dependencies": [
+    "The Basics of Cheese Making"
+  ],
+  "tasks": {
+    "meadow_sheep_cheese_wheel": {
+      "type": "heracles:item",
+      "item": "meadow:sheep_cheese_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_wool3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:umbra_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wool4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:inky_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wool1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:patched_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wool2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rocky_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "meadow_rennet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rennet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wool": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:flecked_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wool5": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:warped_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "meadow_wool0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:highland_wool",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Wool, meat and now cheese? Is there something sheep can't do?"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -55,
+          -570
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:sheep_cheese_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sheep Cheese Wheel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
