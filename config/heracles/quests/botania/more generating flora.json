@@ -3,8 +3,94 @@
     "runecrafting"
   ],
   "tasks": {
-    "placeholder checkmark": {
-      "title": "",
+    "gourm": {
+      "type": "heracles:item",
+      "item": "botania:gourmaryllis",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a hungry flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "munchdew": {
+      "type": "heracles:item",
+      "item": "botania:munchdew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a herbivorous flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "entro": {
+      "type": "heracles:item",
+      "item": "botania:entropinnyum",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire an explosive flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rosa": {
+      "type": "heracles:item",
+      "item": "botania:rosa_arcana",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a knowledgeable flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "nar": {
+      "type": "heracles:item",
+      "item": "botania:narslimmus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a slimy flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "therma": {
+      "type": "heracles:item",
+      "item": "botania:thermalily",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a volatile flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "obedience stick": {
+      "title": "Receive a tool for binding flowers",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -12,10 +98,13 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "item": {
+        "id": "botania:obedience_stick",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
-  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
@@ -26,7 +115,7 @@
       "  The Entropinnyum generates mana when in proximity to a nearby **TNT explosion**. Any damage the explosion would cause is nullified, absorbed by the flower and transmuted into the mana you require.",
       "<item id=\"botania:entropinnyum\" scale=\"2\"> </item>",
       "",
-      "  The Gourmaryllis generates mana from food. However, you must feed it **a varied diet**, else it will be very displeased and generate only a trickle of mana in defiance. The more varied its diet, the more mana it produces.",
+      "  The Gourmaryllis generates mana from **food**. However, you must feed it **a varied diet**, else it will be very displeased and generate only a trickle of mana in defiance. The more varied its diet, the more mana it produces.",
       "<item id=\"botania:gourmaryllis\" scale=\"2\"> </item>",
       "",
       "  The Munchdew **eats leaves** to generate mana. When it is placed near leaf blocks, it will eat all it can find in return for rather a lot of mana - so much so, that it may be ill-advised to use this flower until you can obtain the resources with which to craft more powerful mana spreaders.",
@@ -38,7 +127,7 @@
       "  The Rosa Arcana produces mana from experiences and memories - **experience orbs** of slain creatures, or directly taking experience from people such as yourself standing close enough.",
       "<item id=\"botania:rosa_arcana\" scale=\"2\"> </item>",
       "",
-      "  Lastly, the Thermalily uses the volatile energy of **lava** to produce mana. It is, however, not as simple as it may seem: after absorbing a block of lava, the flower must cool down for a random time, which can be up to five minutes.",
+      "  Lastly, the Thermalily uses the volatile energy of **lava** to produce mana. It is, however, not as simple as it may seem: after absorbing a block of lava, the flower **must cool down** for a random time, which can be up to five minutes.",
       "<item id=\"botania:thermalily\" scale=\"2\"> </item>"
     ],
     "groups": {

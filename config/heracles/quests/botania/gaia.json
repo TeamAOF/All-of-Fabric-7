@@ -3,7 +3,11 @@
     "alfheim"
   ],
   "tasks": {
-    "guardian of gaia": {
+    "gaia spirit": {
+      "type": "heracles:item",
+      "item": "botania:life_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC",
       "title": "Prove your worth",
       "icon": {
         "item": {
@@ -11,11 +15,7 @@
           "count": 0
         },
         "type": "heracles:item"
-      },
-      "advancements": [
-        "botania:main/gaia_guardian_kill"
-      ],
-      "type": "heracles:advancement"
+      }
     }
   },
   "rewards": {},
