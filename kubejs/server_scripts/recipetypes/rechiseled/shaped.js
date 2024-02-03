@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
       pattern: [' A', 'B '],
       key: {
         A: 'minecraft:iron_ingot',
-        B: 'ad_astra:iron_rod',
+        B: 'kubejs:leather_wrapped_stick',
       },
       id: 'rechiseled:chisel'
     }

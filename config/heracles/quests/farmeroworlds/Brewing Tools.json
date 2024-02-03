@@ -1,0 +1,100 @@
+{
+  "dependencies": [
+    "Herbal Brews"
+  ],
+  "tasks": {
+    "hb_tea_kettle": {
+      "type": "heracles:item",
+      "item": "herbalbrews:tea_kettle",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_stove": {
+      "type": "heracles:item",
+      "item": "herbalbrews:stove",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_brewing_cauldron": {
+      "type": "heracles:item",
+      "item": "herbalbrews:cauldron",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hb_iron": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To brew the teas and coffee you will need a stove to heat a tea kettle, to make flasks you will need a brewing cauldron"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -115,
+          -365
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "herbalbrews:tea_kettle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brewing Tools"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

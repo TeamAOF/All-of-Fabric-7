@@ -13,7 +13,9 @@
 	"spell_cost_durability_allowed": true,
 	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
 	"projectiles_pass_thru_irrelevant_targets": true,
+	// Spell book creation level requirement
 	"spell_book_binding_level_requirement": 3,
+	// Spell book creation level cost
 	"spell_book_binding_level_cost": 1,
 	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
 	"add_spell_casting_to_swords": true,

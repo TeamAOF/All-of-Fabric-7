@@ -31,7 +31,7 @@
   ],
   "tasks": {
     "3D2AD6934C3585CF": {
-      "title": "&bSpe&dctr&eum&r 100%",
+      "title": "§bSpe§dctr§eum §b1§d0§e0§r%",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -79,7 +79,7 @@
     "groups": {
       "Spectrum": {
         "position": [
-          320,
+          321,
           -64
         ]
       }
@@ -87,13 +87,18 @@
     "icon": {
       "item": {
         "id": "trofers:medium_pillar",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:spectrum"
+          }
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Spectrum 100%"
+      "translate": "§bSpe§dctr§eum §b1§d0§e0§r%"
     }
   },
   "settings": {

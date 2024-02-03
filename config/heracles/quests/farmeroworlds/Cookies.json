@@ -73,7 +73,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -193,
+          -190,
           -240
         ]
       }
@@ -95,6 +95,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }

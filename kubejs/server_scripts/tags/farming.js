@@ -40,4 +40,8 @@ ServerEvents.tags('item', event => {
 
    // Strawberries
    event.add('c:strawberries', 'bakery:strawberry')
+
+   // Cheese
+   event.add('c:cheese', 'croptopia:cheese')
+   event.add('c:cheeses', 'meadow:piece_of_cheese')
 });

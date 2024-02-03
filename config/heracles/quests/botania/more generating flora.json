@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "placeholder checkmark": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Endoflames and hydroangeas are, ultimately, not very good at generating mana. Using Runes, however, you can make flowers with a stronger bond to nature, which are therefore better at generating - but also more involved to work with. I advise reading these flowers' Lexica entries for full detail.",
+      "",
+      "  The Entropinnyum generates mana when in proximity to a nearby **TNT explosion**. Any damage the explosion would cause is nullified, absorbed by the flower and transmuted into the mana you require.",
+      "<item id=\"botania:entropinnyum\" scale=\"2\"> </item>",
+      "",
+      "  The Gourmaryllis generates mana from food. However, you must feed it **a varied diet**, else it will be very displeased and generate only a trickle of mana in defiance. The more varied its diet, the more mana it produces.",
+      "<item id=\"botania:gourmaryllis\" scale=\"2\"> </item>",
+      "",
+      "  The Munchdew **eats leaves** to generate mana. When it is placed near leaf blocks, it will eat all it can find in return for rather a lot of mana - so much so, that it may be ill-advised to use this flower until you can obtain the resources with which to craft more powerful mana spreaders.",
+      "<item id=\"botania:munchdew\" scale=\"2\"> </item>",
+      "",
+      "  The Narslimmus utilizes the strange phenomenon of **slime chunks** to generate mana, granting some every time one of the creatures would spawn.",
+      "<item id=\"botania:narslimmus\" scale=\"2\"> </item>",
+      "",
+      "  The Rosa Arcana produces mana from experiences and memories - **experience orbs** of slain creatures, or directly taking experience from people such as yourself standing close enough.",
+      "<item id=\"botania:rosa_arcana\" scale=\"2\"> </item>",
+      "",
+      "  Lastly, the Thermalily uses the volatile energy of **lava** to produce mana. It is, however, not as simple as it may seem: after absorbing a block of lava, the flower must cool down for a random time, which can be up to five minutes.",
+      "<item id=\"botania:thermalily\" scale=\"2\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          50,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:munchdew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Mana Generation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

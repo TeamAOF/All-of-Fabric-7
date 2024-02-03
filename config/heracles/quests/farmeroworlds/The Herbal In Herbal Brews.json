@@ -1,0 +1,225 @@
+{
+  "dependencies": [
+    "Herbal Brews"
+  ],
+  "tasks": {
+    "hb_lavender_blossom": {
+      "type": "heracles:item",
+      "item": "herbalbrews:lavender_blossom",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_hibiscus": {
+      "type": "heracles:item",
+      "item": "herbalbrews:hibiscus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_rooibos_leaf": {
+      "type": "heracles:item",
+      "item": "herbalbrews:rooibos_leaf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_yerba_mate_leaf": {
+      "type": "heracles:item",
+      "item": "herbalbrews:yerba_mate_leaf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_green_tea_leaf": {
+      "type": "heracles:item",
+      "item": "herbalbrews:green_tea_leaf",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_coffee_beans": {
+      "type": "heracles:item",
+      "item": "herbalbrews:coffee_beans",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hb_lavender_blossom": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:lavender_blossom",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_hibiscus": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:hibiscus",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_tea_blossom": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:tea_blossom",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_rooibos_leaf": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:rooibos_leaf",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_yerba_mate_leaf": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:yerba_mate_leaf",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_coffee_beans": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:coffee_beans",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Theres is a few herbs you will need to get before starting, they can be found around the world:",
+      "<br/>",
+      "Coffee beans, rooibos leaves and yerba mate leaves are obtained from their wild counterparts, they can be eaten or planted",
+      "<br/>",
+      "Tea blossoms are obtained by breaking flowers with shears, they can be eaten or planted, once grown it can drop green tea leaves",
+      "<br/>",
+      "Lavender blossoms can be obtained by breaking lavender with shears, to get more lavender plants you must bone meal one",
+      "<br/>",
+      "Hibiscus can be farmed by using bone meal on an Hibiscus plant"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -80,
+          -365
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "herbalbrews:tea_blossom",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Herbal In Herbal Brews"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

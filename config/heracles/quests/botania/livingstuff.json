@@ -1,0 +1,112 @@
+{
+  "dependencies": [
+    "petal apothecary"
+  ],
+  "tasks": {
+    "livingwood": {
+      "type": "heracles:item",
+      "item": "botania:livingwood_log",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Purify eight Logs",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "livingrock": {
+      "type": "heracles:item",
+      "item": "botania:livingrock",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Purify eight Rocks",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "livingwood": {
+      "title": "Receive more Livingwood",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:livingwood_log",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "livingrock": {
+      "title": "Receive more Livingrock",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:livingrock",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  The Pure Daisy has the ability to make certain blocks around it livelier, purifying them into something new. The transformation of mundane wood and rock into their Living variant is just one application of this flower, albeit the most crucial.",
+      "",
+      "<columns>",
+      "    <column>",
+      "        <item id=\"botania:livingwood\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:livingrock\" scale=\"2\"> </item>",
+      "    </column>",
+      "</columns>",
+      "",
+      "  The Daisy can affect the **eight blocks directly next to it** with its purifying essence. The process usually takes **a minute**. It can, however, be quickened by using **overgrowth seeds** to enchant the soil it is planted upon... assuming you have found such an elusive thing. Otherwise, you may want to make more than one."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:stripped_livingwood_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lively and Pure"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

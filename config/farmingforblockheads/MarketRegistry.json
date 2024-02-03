@@ -95,6 +95,24 @@
       },
       {
          "output":{
+            "item":"ecologics:coconut_seedling"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:saplings"
+      },
+      {
+         "output":{
+            "item":"ecologics:walnut_sapling"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:saplings"
+      },
+      {
+         "output":{
             "item":"regions_unexplored:ashen_sapling"
          },
          "payment":{
@@ -465,6 +483,15 @@
       {
          "output":{
             "item":"bewitchment:mandrake_seeds"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"croptopia:soybean_seed"
          },
          "payment":{
             "item":"minecraft:emerald"

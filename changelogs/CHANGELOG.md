@@ -1,3 +1,101 @@
+### All of Fabric 7 | v1.3.0
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.0.md)_
+
+### Added Mods ✅
+
+* [BloomingNature](https://www.curseforge.com/minecraft/mc-mods/bloomingnature)
+* [HerbalBrews](https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews)
+* [Meadow](https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow)
+* [Fast Paintings](https://www.curseforge.com/minecraft/mc-mods/fast-paintings)
+* [Flat Bedrock (Forge / Fabric)](https://www.curseforge.com/minecraft/mc-mods/flat-bedrock)
+* [Gadgets Against Grind](https://www.curseforge.com/minecraft/mc-mods/gag)
+* [Let's Do Addon: Structures](https://www.curseforge.com/minecraft/mc-mods/lets-do-addon-structures)
+* [Melody](https://www.curseforge.com/minecraft/mc-mods/melody)
+* [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics)
+* [Resourceful Lootbags](https://www.curseforge.com/minecraft/mc-mods/resourceful-lootbags)
+* [Sawmill](https://www.curseforge.com/minecraft/mc-mods/sawmill)
+* [Underground Bunkers](https://www.curseforge.com/minecraft/mc-mods/underground-bunkers)
+* [Unnamed Desert](https://www.curseforge.com/minecraft/mc-mods/unnamed-desert)
+
+### Removed Mods ❌
+
+* [Winterly](https://www.curseforge.com/minecraft/mc-mods/winterly)
+
+### Changes/Improvements ⚙️
+
+* ALL vanilla biomes have been revamped, now looks better than ever.
+* Quest Trophies are back! Currently only for Botania, Spectrum, Ad Astra & MI for now (AK).
+* Added the Ad Astra quest chapter. (elaniquilador01)
+* Added the Farmer O' Worlds quest chapter (elaniquilador01).
+* Added the Spectrum quest chapter (Trent).
+* Added more quests to Botania chapter (Inno).
+* New quests added to the storage chapter (SubordinalBlue).
+* Loot bags are back! Currently only for Spectrum quest chapter.
+* Re-enable placing books (Trent).
+* New tutorial quest screen (SubordinalBlue).
+* Increased number of mobs spawning in the Minecells dimension, 3-6 mobs will now spawn through most runes (Trent).
+* Added pressure plates and buttons to claim bypass (Trent).
+* New Granny's Sink recipe (AK).
+* Added qunatum gear & replicator quests to MI quest chapter (Inno).
+* Unified cheese towards Meadow (AK).
+* Added window icons (AK).
+* Added Team AOF member names to Zenith bosses (AK).
+* Better Archeology structures will now spawn in modded biomes.
+* Performance improvements.
+
+### Bug Fixes 🐛
+
+* Botania wand quest not registering on task done (Inno).
+* Fixed a missing loot table. Preventing Ultimine from breaking item drops (Trent).
+---
+
+### All of Fabric 7 | v1.2.1
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.1.md)_
+
+### Changes/Improvements ⚙️
+
+* Blacklisted mega mana cells in the replicator.
+* The chisel now uses a Leather Wrapped Stick instead of an Iron Rod.
+
+### Bug Fixes 🐛
+
+* A ColorData crash caused by Supplementaries.
+* Missing items for the custom compacting recipes added in 1.2.0
+* Erroring recipe id due to uppercase letter.
+---
+
+### All of Fabric 7 | v1.2.0
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.2.0.md)_
+
+### Added Mods ✅
+
+  * [AE2 + Mouse Tweaks Fix](https://www.curseforge.com/minecraft/mc-mods/ae2-mousetweaks-fix)
+  * [Auto Workstations (Fabric)](https://www.curseforge.com/minecraft/mc-mods/auto-workstations-fabric)
+  * [Go Fish](https://www.curseforge.com/minecraft/mc-mods/go-fish)
+  * [Spectrum Jetpacks](https://www.curseforge.com/minecraft/mc-mods/spectrum-jetpacks)
+  * [When Dungeons Arise - Seven Seas](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise-seven-seas)
+  
+### Removed Mods ❌
+
+  * [Go Fish (updated)](https://www.curseforge.com/minecraft/mc-mods/go-fish-updated)
+
+### Changes/Improvements ⚙️
+
+* Botania quests, Part 1 (Gronglegrowth).
+* Botania mana pylons now have zenith enchanting stats (Gronglegrowth).
+* Re-enabled wheel tweak by default, it'll no longer be active in AE2 terminals (Unilock).
+* Many stone recipes through create compacting, should help with building (Inno).
+* Added soy bean seeds, walnut saplings & coconut seedlings to the market (Nitrofenix).
+
+### Bug Fixes 🐛
+
+* Data writer (ON) texture having a missed placed pixel.
+* Monazite ore missing in the mining rig (Inno).
+---
+
 ### All of Fabric 7 | v1.1.0 | Holidays Update 🎅
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.1.0.md)_

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "alfheim"
+  ],
+  "tasks": {
+    "orechid": {
+      "type": "heracles:item",
+      "item": "botania:orechid",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft an Orechid",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  Elven botanists know the secret of conjuring ores from mana. Now that you have their knowledge, you can do this, too.",
+      "",
+      "  The Orechid **uses mana to materialize ore** in nearby rock, though it is quite random. You can expect **rarer ores to appear less often**, though.",
+      "",
+      "  This flower **cannot generate all ores** - there are some ores the world seems to have deemed too precious to be conjured in this way, particularly those tied with a different, more colorful branch of magic, and those ores that necessitate elaborate quarry machines to dig up from ||somewhere||.",
+      "",
+      "  But, for most of your resource needs, **it will provide**.",
+      "",
+      "<item id=\"botania:orechid\" scale=\"3\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          150,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:orechid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Floral Quarry"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

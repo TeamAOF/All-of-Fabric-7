@@ -52,6 +52,51 @@ ServerEvents.recipes(event => {
         ],
     })
 
+    //unrefined chromatic compound
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: "minecraft:glowstone_dust"
+            },
+            {
+                item: "minecraft:glowstone_dust"
+            },
+            {
+                item: "minecraft:glowstone_dust"
+            },
+            {
+                item: "techreborn:obsidian_dust"
+            },
+            {
+                item: "techreborn:obsidian_dust"
+            },
+            {
+                item: "techreborn:obsidian_dust"
+            },
+            {
+                item: "create:polished_rose_quartz"
+            },
+            {
+                item: "create:experience_block"
+            },
+            {
+                item: "create:experience_block"
+            },
+            {
+                item: "create:experience_block"
+            },
+            {
+                item: "create:experience_block"
+            }
+        ],
+        results: [
+            {
+                item: "kubejs:unrefined_chromatic_compound"
+            }
+        ],
+        heatRequirement: 'superheated'
+    })
     /*
     // Glue
     event.custom({

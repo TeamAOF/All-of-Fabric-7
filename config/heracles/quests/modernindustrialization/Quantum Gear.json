@@ -1,0 +1,156 @@
+{
+  "dependencies": [
+    "quantum_upgrade"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_sword",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "4": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:quantum_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:quantum_circuit",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<columns template=\"33% 33% 33%\">",
+      "    <column>",
+      "        <item id=\"modern_industrialization:quantum_chestplate\" scale=\"3\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"modern_industrialization:quantum_sword\" scale=\"3\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"modern_industrialization:quantum_leggings\" scale=\"3\"> </item>",
+      "    </column>",
+      "</columns>",
+      "",
+      "",
+      "",
+      "<columns template=\"50% 50%\">",
+      "    <column>",
+      "        <item id=\"modern_industrialization:quantum_helmet\" scale=\"3\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"modern_industrialization:quantum_boots\" scale=\"3\"> </item>",
+      "    </column>",
+      "</columns>",
+      "",
+      "<hr/>",
+      "",
+      "You have reached the final step to invincibility. Armor infused with /5/Quantum/5/ technology to repel all physical and magical attacks. You cannot die, not even by a /6/God's Smite/6/. You can now fly freely without the need of electricity. This set of armor interacts directly with the quantum realm to alter space and time surrounding you. Theoretically, you sitll be stationary, and space will just be moving relative to you. --This-- is the power you wield.",
+      "",
+      "This sword can and will slice through anything in it's path. The edge of it's blade has the ability to /7/cleave/7/ through time and erase any entity you choose from /0/existence/0/. Use this power responsibly."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1387,
+          -52
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:quantum_sword",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quantum Gear"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

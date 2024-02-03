@@ -1,0 +1,157 @@
+{
+  "dependencies": [
+    "Brewing Tools"
+  ],
+  "tasks": {
+    "hb_big_damage_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:damage_flask_big",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_big_armor_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:armor_flask_big",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_damage_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:damage_flask",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_armor_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:armor_flask",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_feral_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:feral_flask",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_big_feral_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:feral_flask_big",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hb_glistering_melon": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:glistering_melon_slice",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_redstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Flasks are like potions, they are made in the brewing cauldron"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -145,
+          -430
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "herbalbrews:feral_flask_big",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flasks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

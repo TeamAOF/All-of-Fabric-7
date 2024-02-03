@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+		"#minecraft:presssure_plates",
+		"#minecraft:buttons",
 		"minecraft:crafting_table",
 		"minecraft:bell",
 		{
@@ -81,6 +83,14 @@
 		},
 		{
 			"id": "lootr:lootr_chest",
+			"required": false
+		},
+		{
+			"id": "lootr:lootr_trapped_chest",
+			"required": false
+		},
+		{
+			"id": "lootr:lootr_shulker",
 			"required": false
 		},
 		{

@@ -1,0 +1,101 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "acquire a mystical flower": {
+      "type": "heracles:item",
+      "item": "#botania:mystical_flowers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire a Mystical Flower",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lexica": {
+      "title": "Receive a book about Floramancy",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:lexicon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "flower pouch": {
+      "title": "Receive a bag to store flowers",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:flower_bag",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  The art of botany holds power in this world, owing to a special breed of **flower coming in sixteen colors** whose petals are tuned to the mystic energy sleeping in the earth. With them, an experienced botanist can reshape that energy into new flowers and devices to aid them in a myriad of tasks, from the **production of resources** to **special tools and equipment**.",
+      "",
+      "<columns>",
+      "    <column>",
+      "        <item id=\"botania:orechid\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:exchange_rod\" scale=\"2\"> </item>",
+      "    </column>",
+      "    <column>",
+      "        <item id=\"botania:terra_pick\" scale=\"2\"> </item>",
+      "    </column>",
+      "</columns>",
+      "",
+      "  To begin on this floral path, you'll need to find some of these flowers. They occur in patches **randomly around the world**, in grassy areas.",
+      "",
+      "  Exploration isn't the only way to obtain these flowers, if you prefer: a special **floral fertilizer** can be made from bone meal and dye, and will **grow some mystical flowers** when used on soil."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:lexicon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Floramancy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

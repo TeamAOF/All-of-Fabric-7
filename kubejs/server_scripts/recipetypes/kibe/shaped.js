@@ -16,6 +16,18 @@ ServerEvents.recipes(event => {
 
   const recipes = [
     {
+      output: 'coxinhautilities:grannys_sink',
+      pattern: ['ADA', 'BCB', 'BBB'],
+      key: {
+        A: 'minecraft:gray_concrete',
+        B: 'minecraft:white_concrete',
+        C: 'botania:rune_water',
+        D: 'travelersbackpack:hose'
+    },
+      id: 'coxinhautilities:grannys_sink'
+    },
+
+    {
       output: 'kibe:cooler',
       pattern: ['ADA', 'BCB', 'ABA'],
       key: {

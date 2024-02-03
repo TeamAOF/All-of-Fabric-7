@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "uu_matter_bucket"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:replicator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:uu_matter_bucket",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"modern_industrialization:replicator\" scale=\"4\"> </item>",
+      "",
+      "<hr/>",
+      "",
+      "You have reached /0/infinity/0/. You are not bound by what you can and cannot make any longer. Your capabilities are now near limitless. Use your /d/Universally Useable Matter/d/ to duplicate anything you desire; with one limits. Remember, matter cannot be created from nothing, so trying to duplicate a backpack full of items will be a fruitless endeavor. Other than that, you are free to do as you please. Use this new found power wisely."
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1484,
+          17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:replicator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Replicator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

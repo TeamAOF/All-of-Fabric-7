@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Trinkets"
+  ],
+  "tasks": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:cosmetic_botanist_emblem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:cosmetic_botanist_emblem\" scale=\"2\"> </item>",
+      "",
+      "<hr></hr>",
+      "",
+      "You've made it plenty far for a small /6/reward/6/. You've earned your very own /2/Botanist Emblem/2/. This is just one of many different cosmetic trinkets you can obtain. Deck yourself out with some new style!"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          140,
+          125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:cosmetic_botanist_emblem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Botania Emblem"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

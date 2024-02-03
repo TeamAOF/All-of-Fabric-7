@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "conjure terrasteel": {
+      "title": "Conjure Terrasteel",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "botania:main/terrasteel_pickup"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "mana cookie": {
+      "title": "Receive a nourishing morsel",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:mana_cookie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "  With Runes on hand, you can work towards a test of knowledge. Conjuring Terrasteel exemplifies understanding of the basic concepts of floramancy. It takes a lot of work, but enables you to craft some truly special equipment, and more.",
+      "",
+      "  I would **suggest**, instead of rushing straight to attempt this, to consider **exploring other generating flora** besides endoflames and hydroangeas, first, to more easily obtain the **monumental amount of mana** required.",
+      "",
+      "  Regardless of whether or not you heed my advice, terrasteel requires a **mana pearl, manasteel ingot, and mana diamond** be fused on a Terrestrial Agglomeration Plate, using **half a pool's worth of mana** to sustain the process - per **one ingot**.",
+      "",
+      "  Good luck.",
+      "<item id=\"botania:terrasteel_ingot\" scale=\"2\"> </item>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terrasteel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Test of Knowledge"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

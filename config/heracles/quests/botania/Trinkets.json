@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "runecrafting"
+  ],
+  "tasks": {
+    "1": {
+      "type": "heracles:item",
+      "item": "botania:bauble_box",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:cosmetic_tiny_potato_mask",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "",
+      "<item id=\"botania:bauble_box\" scale=\"2\"> </item>",
+      "",
+      "<hr></hr>",
+      "",
+      "There are a plethora of different trinkets you can create. Some do nothing but make you look /6/snazzy/6/ and others give you /1/enhanced/1/ abilities or /b/generate mana/b/. I'll introduce you to some of the important ones; then you can /2/explore/2/ the rest on your own. "
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          140,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:bauble_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Trinkets"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

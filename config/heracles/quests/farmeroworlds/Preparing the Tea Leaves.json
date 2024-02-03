@@ -1,0 +1,134 @@
+{
+  "dependencies": [
+    "The Herbal In Herbal Brews"
+  ],
+  "tasks": {
+    "hb_dried_black_tea": {
+      "type": "heracles:item",
+      "item": "herbalbrews:dried_black_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_dried_green_tea": {
+      "type": "heracles:item",
+      "item": "herbalbrews:dried_green_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_dried_oolong": {
+      "type": "heracles:item",
+      "item": "herbalbrews:dried_oolong_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "hb_dried_black_tea": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:dried_black_tea",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_dried_oolong": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:dried_oolong_tea",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "hb_dried_green_tea": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:dried_green_tea",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The green tea leaves can't be used for brewing yet, you must turn them into a green tea leaf block and place it somewhere for it to dry, after a while it will turn into a dried green tea leaf block, when broken you will get dried green tea",
+      "<br/>",
+      "Dried green tea can be used to make tea or can be used to make other kinds of tea leaves, if made into a dried tea leaf block and left to dry again you will get dried black tea",
+      "<br/>",
+      "Once you have both dried green and black tea they can be made into mixed tea leaf blocks, once these are dried you will get dried oolong"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -80,
+          -400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "herbalbrews:green_tea_leaf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Preparing the Tea Leaves"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

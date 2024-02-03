@@ -1,0 +1,37 @@
+{
+	"jadeConfig": {
+		"axe_poison_duration": 2.0,
+		"axe_poison_amplifier": 2,
+		"sword_poison_duration": 2.0,
+		"sword_poison_amplifier": 2,
+		"poisonous_thorns_poison_duration": 3.0,
+		"poisonous_thorns_amplifier": 0
+	},
+	"topazConfig": {
+		"item_mastery_amplifier": 1
+	},
+	"aquamarineConfig": {
+		"axe_freeze_duration": 1.25,
+		"sword_freeze_duration": 1.25
+	},
+	"sapphireConfig": {
+		"axe_percentage_damage_percent": 5,
+		"sword_percentage_damage_percent": 5,
+		"damage_deflection_amplifier": 2
+	},
+	"rubyConfig": {
+		"haste_pickaxe_amplifier": 0,
+		"haste_axe_amplifier": 0,
+		"haste_shovel_amplifier": 0,
+		"haste_sword_amplifier": 0,
+		"haste_hoe_amplifier": 0
+	},
+	"ametrineConfig": {
+		"ametrine_armor_speed_amplifier": 1,
+		"ametrine_armor_jump_boost_amplifier": 1,
+		"axe_levitation_duration": 0.5,
+		"axe_levitation_amplifier": 4,
+		"sword_levitation_duration": 0.5,
+		"sword_levitation_amplifier": 4
+	}
+}
