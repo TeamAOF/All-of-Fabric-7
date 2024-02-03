@@ -2,7 +2,19 @@
   "dependencies": [
     "5ADB895DCB77C6A8"
   ],
-  "tasks": {},
+  "tasks": {
+    "check_mark_powered_trinkets": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "lootbag": {
       "title": "",
