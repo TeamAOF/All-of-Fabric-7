@@ -4,7 +4,19 @@
     "Quantum Gear",
     "plasma_turbine"
   ],
-  "tasks": {},
+  "tasks": {
+    "mi_trophy": {
+      "title": "Modern Industrialization 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "trophy": {
       "title": "",

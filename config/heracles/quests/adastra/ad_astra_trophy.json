@@ -2,7 +2,19 @@
   "dependencies": [
     "Glacio"
   ],
-  "tasks": {},
+  "tasks": {
+    "ad_astra_trophy": {
+      "title": "Ad Astra 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "trophy": {
       "title": "",
