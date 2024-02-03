@@ -5,7 +5,7 @@
   "tasks": {
     "aas": {
       "type": "heracles:item",
-      "item": "ad_astra:steel_ingot",
+      "item": "modern_industrialization:steel_ingot",
       "amount": 32,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "ad_astra:steel_ingot",
+        "id": "modern_industrialization:steel_ingot",
         "count": 32
       },
       "type": "heracles:item"
@@ -46,7 +46,7 @@
       "Ad Astra": {
         "position": [
           50,
-          -45
+          -50
         ]
       }
     },
