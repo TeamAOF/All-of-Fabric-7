@@ -1,0 +1,135 @@
+{
+  "dependencies": [
+    "Meadow"
+  ],
+  "tasks": {
+    "meadow_tiled_stove_lid": {
+      "type": "heracles:item",
+      "item": "meadow:stove_tiles_lid",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cauldron": {
+      "type": "heracles:item",
+      "item": "meadow:cooking_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_frame": {
+      "type": "heracles:item",
+      "item": "meadow:frame",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_tiled_stove": {
+      "type": "heracles:item",
+      "item": "meadow:stove_tiles_wood",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_alpine_salt": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:alpine_salt",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
+    "meadow_bear_meat": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:raw_bear_meat",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The cauldron is a special way of cooking, it allows to make renet, a crafting ingredient for your future in cheese making, it can make alpine salt, saving you the trip to mine in a meadow, it allows making bear dishes and it can even quadruple how much food you get with some special recipes",
+      "<br/>",
+      "<br/>",
+      "To use the cauldron it needs a heat source, there is 2 ways to heat it, for your kitchen you can use a tiled stove with wood storage, for your outdoor kitchen you can make a frame",
+      "<br/>",
+      "<br/>",
+      "For regular smoking needs you can also get a tiled stove with lid, it won't heat the cauldron but it works like any other smoker"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -35,
+          -450
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cooking"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

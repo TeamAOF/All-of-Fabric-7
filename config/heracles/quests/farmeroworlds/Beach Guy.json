@@ -3,9 +3,9 @@
     "Beachparty"
   ],
   "tasks": {
-    "bptb": {
+    "beach_party_lounge_chair": {
       "type": "heracles:item",
-      "item": "beachparty:tiki_bar",
+      "item": "beachparty:lounge_chair",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,8 @@
     }
   },
   "rewards": {
-    "1": {
+    "beach_party_hammock": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,10 +28,26 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
-      "amount": 300,
+      "item": {
+        "id": "beachparty:hammock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "beach_party_lounge": {
       "title": "",
-      "type": "heracles:xp"
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "beachparty:beach_chair",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,29 +55,26 @@
       "text": ""
     },
     "description": [
-      "The first step to making cocktails and milkshakes is to get an authentic tiki bar",
-      "<br/>",
-      "<br/>",
-      "A tiki bar will also turn villagers into barkeepers, they will help you by selling cold refreshing ice and snow in the hot beach bar"
+      "A lounge chair is not only a cool decoration and a comfortable place to rest but it will also turn villagers into beach guys, they can be your beach buddies or sell you a couple of beach themed clothing items"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          130,
-          -320
+          50,
+          -370
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:tiki_bar",
+        "id": "beachparty:lounge_chair",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tiki Bar"
+      "translate": "Beach Guy"
     }
   },
   "settings": {

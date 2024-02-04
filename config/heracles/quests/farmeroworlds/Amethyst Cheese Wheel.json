@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Beachparty"
+    "The Basics of Cheese Making"
   ],
   "tasks": {
-    "bptb": {
+    "meadow_amethyst_cheese_wheel": {
       "type": "heracles:item",
-      "item": "beachparty:tiki_bar",
+      "item": "meadow:amethyst_cheese_block",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,8 @@
     }
   },
   "rewards": {
-    "1": {
+    "meadow_amethyst_crystal": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,10 +28,26 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "POINTS",
-      "amount": 300,
+      "item": {
+        "id": "minecraft:amethyst_cluster",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_rennet": {
       "title": "",
-      "type": "heracles:xp"
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rennet",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -38,29 +55,26 @@
       "text": ""
     },
     "description": [
-      "The first step to making cocktails and milkshakes is to get an authentic tiki bar",
-      "<br/>",
-      "<br/>",
-      "A tiki bar will also turn villagers into barkeepers, they will help you by selling cold refreshing ice and snow in the hot beach bar"
+      "You are not sure how good of an idea it is to eat a cheese full of crystals, maybe they are strawberry flavored"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          130,
-          -320
+          -5,
+          -570
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:tiki_bar",
+        "id": "meadow:amethyst_cheese_block",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Tiki Bar"
+      "translate": "Amethyst Cheese Wheel"
     }
   },
   "settings": {

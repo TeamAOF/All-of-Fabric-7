@@ -1,0 +1,116 @@
+{
+  "dependencies": [
+    "The Animals",
+    "Cooking"
+  ],
+  "tasks": {
+    "meadow_cooked_bear_meat": {
+      "type": "heracles:item",
+      "item": "meadow:cooked_bear_meat",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_bear_ham_cheese": {
+      "type": "heracles:item",
+      "item": "meadow:ham_cheese",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_roasted_bear_ham": {
+      "type": "heracles:item",
+      "item": "meadow:roasted_ham",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_baked_potato": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:baked_potato",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "meadow_bread": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With the newly found bear meat there is a couple things you can cook, the roasted bear ham can also be placed"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -5,
+          -490
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:roasted_ham",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bear Dishes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
