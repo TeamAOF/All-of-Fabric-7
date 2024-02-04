@@ -21,6 +21,11 @@
         "fabricloader": ""
       }
     },
+    "matchbooks": {
+      "-depends": {
+        "fabricloader": ""
+      }
+    },
     "dungeons_arise_seven_seas": {
       "-depends": {
         "fabricloader": ""
