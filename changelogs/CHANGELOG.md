@@ -2,12 +2,20 @@
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.1.md)_
 
+### Added Mods ✅
+
+  * [Lithostitched](https://www.curseforge.com/minecraft/mc-mods/lithostitched)
+  * [Megane](https://www.curseforge.com/minecraft/mc-mods/megane)
+
 ### Changes/Improvements ⚙️
 
 * More botania quests, covering mostly flowers & some misc (Gronglegrowth).
 * Removed croptopia cheese from FOW quest chapter (elaniquilador01).
 * Herbal quests has been added to the FOW quest chapter (elaniquilador01).
 * Added colors to spectrum quest titles (Trent).
+* Added herbal brews bag quest to FOW quest chapter (elaniquilador01).
+* Added mention of villager workstations to a few other quests (elaniquilador01).
+* Added Meadow quests (elaniquilador01).
 
 ### Bug Fixes 🐛
 
@@ -18,6 +26,9 @@ _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 * Quest trophies not being retrievable due to missing task (AK).
 * Wrong variant of steel ingot being used in the steel ingot quest in Ad Astra (elaniquilador01).
 * Typos in Spectrum quest chapter (AK).
+* Vinery quests not being accessible (elaniquilador01).
+* Ink-Powered Trinkets quest having no task to hand in (AK).
+* Server crashing when opening the sawmill GUI.
 ---
 
 ### All of Fabric 7 | v1.3.0
