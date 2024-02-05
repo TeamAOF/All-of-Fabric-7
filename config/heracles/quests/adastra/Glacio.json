@@ -3,6 +3,20 @@
     "Calorite"
   ],
   "tasks": {
+    "ad_astra_glacio_landing": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "ad_astra:interstellar"
+      ],
+      "type": "heracles:advancement"
+    },
     "aart4": {
       "type": "heracles:item",
       "item": "ad_astra:tier_4_rocket",
@@ -16,8 +30,11 @@
         },
         "type": "heracles:item"
       }
-    },
-    "aag": {
+    }
+  },
+  "rewards": {
+    "ad_astra_desh": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,13 +42,43 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:",
-      "to": "ad_astra:glacio",
-      "title": "Travel to Glacio",
-      "type": "heracles:changed_dimension"
+      "item": {
+        "id": "ad_astra:desh_ingot",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "ad_astra_calorite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:calorite_ingot",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "ad_astra_ostrum": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:ostrum_ingot",
+        "count": 32
+      },
+      "type": "heracles:item"
     }
   },
-  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""

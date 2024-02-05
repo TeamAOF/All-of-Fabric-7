@@ -4,7 +4,8 @@
     "Fuel"
   ],
   "tasks": {
-    "aam": {
+    "ad_astra_moon_landing": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -12,10 +13,10 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:",
-      "to": "ad_astra:moon",
-      "title": "Travel to the Moon",
-      "type": "heracles:changed_dimension"
+      "advancements": [
+        "ad_astra:moon"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {},

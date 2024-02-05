@@ -3,7 +3,8 @@
     "Visiting the Hot Planets"
   ],
   "tasks": {
-    "aav": {
+    "ad_astra_venus_landing": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -11,10 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:",
-      "to": "ad_astra:venus",
-      "title": "Travel to Venus",
-      "type": "heracles:changed_dimension"
+      "advancements": [
+        "ad_astra:venus"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {},
