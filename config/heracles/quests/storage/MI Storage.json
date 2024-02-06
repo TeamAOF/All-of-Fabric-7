@@ -1,6 +1,18 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "storage_MI": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
