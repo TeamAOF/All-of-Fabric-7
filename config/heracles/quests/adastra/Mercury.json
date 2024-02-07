@@ -3,7 +3,8 @@
     "Visiting the Hot Planets"
   ],
   "tasks": {
-    "aam": {
+    "ad_astra_mercury_landing": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -11,10 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:",
-      "to": "ad_astra:mercury",
-      "title": "Travel to Mercury",
-      "type": "heracles:changed_dimension"
+      "advancements": [
+        "ad_astra:mercury"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
