@@ -17,7 +17,8 @@
         "type": "heracles:item"
       }
     },
-    "aam": {
+    "ad_astra_mars_landing": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -25,10 +26,10 @@
         },
         "type": "heracles:item"
       },
-      "from": "minecraft:",
-      "to": "ad_astra:mars",
-      "title": "Travel to Mars",
-      "type": "heracles:changed_dimension"
+      "advancements": [
+        "ad_astra:mars"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {},
