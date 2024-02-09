@@ -3,6 +3,14 @@
   "general": {
     "allow_non_blocks": true,
     "allow_non_variant": true,
-    "mod_blacklist": []
+    "mod_blacklist": [],
+    "limit_planks_input_to_one": true,
+    "wider_gui": false,
+    "search_bar_mode": "AUTOMATIC",
+    "search_bar_threshold": 32,
+    "special_recipe_costs": {
+      "stairs": 1.0
+    },
+    "max_discount": 0.35
   }
 }

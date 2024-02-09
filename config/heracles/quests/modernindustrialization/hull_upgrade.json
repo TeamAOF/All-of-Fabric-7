@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "mv_steam_turbine"
+    "the_midgame_age"
   ],
   "tasks": {
     "hull_upgrade": {
@@ -58,8 +58,8 @@
     "groups": {
       "Modern Industrialization": {
         "position": [
-          880,
-          -52
+          840,
+          -53
         ]
       }
     },

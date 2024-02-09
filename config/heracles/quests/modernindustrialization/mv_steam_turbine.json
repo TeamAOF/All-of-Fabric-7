@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "the_midgame_age"
+    "hull_upgrade"
   ],
   "tasks": {
     "mv_steam_turbine_task": {
@@ -10,7 +10,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     }
@@ -19,7 +22,10 @@
     "mv_steam_turbine_reward_1": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
@@ -31,7 +37,10 @@
     "mv_steam_turbine_reward_2": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
@@ -57,13 +66,16 @@
     "groups": {
       "Modern Industrialization": {
         "position": [
-          840,
-          -52
+          880,
+          -53
         ]
       }
     },
     "icon": {
-      "item": "modern_industrialization:mv_steam_turbine",
+      "item": {
+        "id": "modern_industrialization:mv_steam_turbine",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -72,9 +84,10 @@
     }
   },
   "settings": {
-    "individual_progress": false,
-    "hidden": false,
     "unlockNotification": false,
-    "showDependencyArrow": true
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

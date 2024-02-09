@@ -1,3 +1,28 @@
+### All of Fabric 7 | v1.3.2
+
+_Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.2.md)_
+
+### Added Mods ✅
+
+* [Brewery](https://www.curseforge.com/minecraft/mc-mods/lets-do-brewery)
+* [Delightful Creators](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric)
+* [Hopo Better Ruined Portals](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals)
+
+### Changes/Improvements ⚙️
+
+* Powah has had a full on rebalance, check ya reactors! (AK).
+* Added Meadow & Blooming Nature saplings to the Market (AK).
+
+### Bug Fixes 🐛
+
+* Grapes quest missing task (elaniquilador01).
+* Wine Ageing quest missing task (elaniquilador01).
+* Dimension quests not completeing upon visiting them (elaniquilador01).
+* Missing tasks on storage quests (elaniquilador01).
+* Incorrect dependencies of Hull Upgrades & MV Steam Turbine quests, they've been switched around (AK).
+* Performance issues due to bad datapack implementations.
+---
+
 ### All of Fabric 7 | v1.3.1
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.1.md)_

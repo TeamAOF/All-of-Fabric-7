@@ -179,6 +179,7 @@
       "rebindable": true,
       "required": true,
       "receiveOnRespawn": true,
+      "obtainableFromGui": false,
       "targeting": "PLAYER_GRAVE"
     },
     "deathScroll": {
@@ -190,7 +191,9 @@
     "graveCompass": {
       "receiveOnRespawn": false,
       "consumeOnUse": true,
-      "deleteWhenUnlinked": true
+      "deleteWhenUnlinked": true,
+      "cloneRecoveryCompassWithGUI": false,
+      "pointToClosest": "DISABLED"
     }
   }
 }

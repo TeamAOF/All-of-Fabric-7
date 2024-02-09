@@ -35,5 +35,6 @@
 	"enableWaxweaver": true,
 	"enableHiveheart": true,
 	"enableStarsEdge": true,
-	"enableWickpiercer": true
+	"enableWickpiercer": true,
+	"enableTempest": true
 }
