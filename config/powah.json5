@@ -18,7 +18,7 @@
 		"lens_of_ender": true,
 		// List of fluids used in the Magmator.
 		"magmatic_fluids": {
-			"minecraft:lava": 10000,
+			"minecraft:lava": 10000
 		},
 		// List of coolant fluids used in the Reactor and the Thermo Generator.
 		"coolant_fluids": {
@@ -28,7 +28,7 @@
 		"heat_blocks": {
 			"minecraft:lava": 1000,
 			"minecraft:magma_block": 800,
-			"powah:blazing_crystal_block": 2800,
+			"powah:blazing_crystal_block": 2800
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 30,
@@ -118,14 +118,14 @@
 				"nitro": 2000000
 			},
 			"generation_rates": {
-                "starter": 175,
-                "basic": 1050,
-                "hardened": 2000,
-                "blazing": 5000,
-                "niotic": 12500,
-                "spirited": 50000,
-                "nitro": 200000
-            }
+				"starter": 175,
+				"basic": 1050,
+				"hardened": 2000,
+				"blazing": 5000,
+				"niotic": 12500,
+				"spirited": 50000,
+				"nitro": 200000
+			}
 		},
 		"solar_panels": {
 			"capacities": {
