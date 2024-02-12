@@ -6,7 +6,7 @@
     "bpcm0": {
       "type": "heracles:item",
       "item": "beachparty:chocolate_milkshake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bpsm": {
       "type": "heracles:item",
       "item": "beachparty:sweetberry_milkshake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "bpcm": {
       "type": "heracles:item",
       "item": "beachparty:coconut_milkshake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -103,7 +103,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          100,
+          150,
           -230
         ]
       }

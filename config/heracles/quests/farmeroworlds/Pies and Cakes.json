@@ -6,7 +6,7 @@
     "fdsc": {
       "type": "heracles:item",
       "item": "farmersdelight:sweet_berry_cheesecake",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdap": {
       "type": "heracles:item",
       "item": "farmersdelight:apple_pie",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdcp": {
       "type": "heracles:item",
       "item": "farmersdelight:chocolate_pie",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

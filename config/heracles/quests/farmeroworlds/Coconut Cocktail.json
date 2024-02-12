@@ -6,7 +6,7 @@
     "bpcc": {
       "type": "heracles:item",
       "item": "beachparty:coconut_cocktail",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -60,7 +60,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          160,
+          210,
           -320
         ]
       }

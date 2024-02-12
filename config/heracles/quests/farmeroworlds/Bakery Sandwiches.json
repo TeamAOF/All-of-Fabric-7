@@ -6,7 +6,7 @@
     "bs": {
       "type": "heracles:item",
       "item": "bakery:sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bvs": {
       "type": "heracles:item",
       "item": "bakery:vegetable_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

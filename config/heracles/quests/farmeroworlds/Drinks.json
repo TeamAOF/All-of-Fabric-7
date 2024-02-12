@@ -6,7 +6,7 @@
     "fdmj": {
       "type": "heracles:item",
       "item": "farmersdelight:melon_juice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdmb": {
       "type": "heracles:item",
       "item": "farmersdelight:milk_bottle",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdhc": {
       "type": "heracles:item",
       "item": "farmersdelight:hot_cocoa",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdac": {
       "type": "heracles:item",
       "item": "farmersdelight:apple_cider",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

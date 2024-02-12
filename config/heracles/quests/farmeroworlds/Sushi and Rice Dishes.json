@@ -6,7 +6,7 @@
     "fdcr": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_rice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdsr": {
       "type": "heracles:item",
       "item": "farmersdelight:salmon_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdkrs": {
       "type": "heracles:item",
       "item": "farmersdelight:kelp_roll_slice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdfr": {
       "type": "heracles:item",
       "item": "farmersdelight:fried_rice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdkr": {
       "type": "heracles:item",
       "item": "farmersdelight:kelp_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdmr": {
       "type": "heracles:item",
       "item": "farmersdelight:mushroom_rice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fdcr0": {
       "type": "heracles:item",
       "item": "farmersdelight:cod_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

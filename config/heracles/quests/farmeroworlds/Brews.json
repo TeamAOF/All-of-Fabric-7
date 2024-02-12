@@ -6,7 +6,7 @@
     "hb_yerba_mate_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:yerba_mate_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "hb_lavender_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:lavender_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "hb_oolong_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:oolong_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "hb_black_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:black_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "hb_coffee": {
       "type": "heracles:item",
       "item": "herbalbrews:coffee",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "hb_green_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:green_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "hb_rooibos_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:rooibos_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
