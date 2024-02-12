@@ -3,9 +3,9 @@
     "Utilities"
   ],
   "tasks": {
-    "vwb": {
+    "vinery_winemaker_boots": {
       "type": "heracles:item",
-      "item": "vinery:vinemaker_boots",
+      "item": "vinery:winemaker_boots",
       "nbt": {
         "Damage": 0
       },
@@ -20,43 +20,43 @@
         "type": "heracles:item"
       }
     },
-    "vsh": {
+    "vinery_winemaker_apron": {
+      "type": "heracles:item",
+      "item": "vinery:winemaker_apron",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vinery_winemaker_leggins": {
+      "type": "heracles:item",
+      "item": "vinery:winemaker_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "vinery_winemaker_hat": {
       "type": "heracles:item",
       "item": "vinery:straw_hat",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "vwl": {
-      "type": "heracles:item",
-      "item": "vinery:vinemaker_leggings",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "vwc": {
-      "type": "heracles:item",
-      "item": "vinery:vinemaker_apron",
       "nbt": {
         "Damage": 0
       },
@@ -106,7 +106,7 @@
     },
     "icon": {
       "item": {
-        "id": "vinery:vinemaker_leggings",
+        "id": "vinery:winemaker_leggings",
         "count": 1,
         "nbt": {
           "Damage": 0

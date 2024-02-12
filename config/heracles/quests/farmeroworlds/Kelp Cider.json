@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Water breathing and faster movement in water"
+      "Allows to walk on water, who needs boats anymore!"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          240,
+          290,
           -215
         ]
       }

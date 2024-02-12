@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Gives immunity to fire but not lava"
+      "Gives luck"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          210,
+          260,
           -275
         ]
       }

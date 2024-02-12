@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "Grapes"
+    "Utilities"
   ],
   "tasks": {
-    "rg": {
+    "vinery_basket": {
       "type": "heracles:item",
-      "item": "vinery:red_grape",
+      "item": "vinery:basket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "1": {
+    "vinery_storage_pot": {
       "title": "",
       "icon": {
         "item": {
@@ -29,23 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "vinery:red_grape_seeds",
-        "count": 4
-      },
-      "type": "heracles:item"
-    },
-    "2": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:bone_meal",
-        "count": 16
+        "id": "vinery:storage_pot",
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -55,32 +40,29 @@
       "text": ""
     },
     "description": [
-      "These grapes can be found in meadows, plains and sunflower plains",
+      "The basket works as a sort of mini shulker box, allowing you to carry your picnic anywhere",
       "<br/>",
       "<br/>",
-      "They can be planted anywhere or on a stem for extra grapes and growth speed",
-      "<br/>",
-      "<br/>",
-      "These grapes can also be bought in the market"
+      "They can be bought from winemaker villagers"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          300,
-          0
+          200,
+          120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:red_grape",
+        "id": "vinery:basket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Red Grapes"
+      "translate": "Basket"
     }
   },
   "settings": {

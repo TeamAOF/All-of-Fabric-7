@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Gives strength"
+      "Reinforces your skin making you more durable against damage"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          360,
+          410,
           -275
         ]
       }

@@ -3,9 +3,9 @@
     "Equipment"
   ],
   "tasks": {
-    "vap": {
+    "vinery_apple_press": {
       "type": "heracles:item",
-      "item": "vinery:wine_press",
+      "item": "vinery:apple_press",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,7 +17,7 @@
         "type": "heracles:item"
       }
     },
-    "vam": {
+    "vinery_apple_mash": {
       "type": "heracles:item",
       "item": "vinery:apple_mash",
       "amount": 1,
@@ -59,14 +59,14 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          385,
+          435,
           -140
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:wine_press",
+        "id": "vinery:apple_press",
         "count": 1
       },
       "type": "heracles:item"
