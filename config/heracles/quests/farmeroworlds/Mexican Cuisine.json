@@ -6,7 +6,7 @@
     "cm15": {
       "type": "heracles:item",
       "item": "croptopia:crema",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cm16": {
       "type": "heracles:item",
       "item": "croptopia:refried_beans",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cm13": {
       "type": "heracles:item",
       "item": "croptopia:stuffed_poblanos",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cm14": {
       "type": "heracles:item",
       "item": "croptopia:chili_relleno",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cm11": {
       "type": "heracles:item",
       "item": "croptopia:quesadilla",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cm12": {
       "type": "heracles:item",
       "item": "croptopia:horchata",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cm1": {
       "type": "heracles:item",
       "item": "croptopia:taco",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cm0": {
       "type": "heracles:item",
       "item": "croptopia:salsa",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "cm10": {
       "type": "heracles:item",
       "item": "croptopia:chimichanga",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "cm3": {
       "type": "heracles:item",
       "item": "croptopia:tostada",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -146,7 +146,7 @@
     "cm2": {
       "type": "heracles:item",
       "item": "croptopia:burrito",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -160,7 +160,7 @@
     "cm": {
       "type": "heracles:item",
       "item": "croptopia:tortilla",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -174,7 +174,7 @@
     "cm5": {
       "type": "heracles:item",
       "item": "croptopia:fajitas",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -188,7 +188,7 @@
     "cm4": {
       "type": "heracles:item",
       "item": "croptopia:carnitas",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -202,7 +202,7 @@
     "cm7": {
       "type": "heracles:item",
       "item": "croptopia:churros",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -216,7 +216,7 @@
     "cm6": {
       "type": "heracles:item",
       "item": "croptopia:enchilada",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -230,7 +230,7 @@
     "cm9": {
       "type": "heracles:item",
       "item": "croptopia:tres_leche_cake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -244,7 +244,7 @@
     "cm8": {
       "type": "heracles:item",
       "item": "croptopia:tamales",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

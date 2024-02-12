@@ -6,7 +6,7 @@
     "ca1": {
       "type": "heracles:item",
       "item": "croptopia:scrambled_eggs",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ca0": {
       "type": "heracles:item",
       "item": "croptopia:chicken_and_dumplings",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ca3": {
       "type": "heracles:item",
       "item": "croptopia:fried_chicken",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "ca2": {
       "type": "heracles:item",
       "item": "croptopia:lemon_chicken",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "ca5": {
       "type": "heracles:item",
       "item": "croptopia:cashew_chicken",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "ca4": {
       "type": "heracles:item",
       "item": "croptopia:chicken_and_rice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "ca6": {
       "type": "heracles:item",
       "item": "croptopia:sunny_side_eggs",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "ca": {
       "type": "heracles:item",
       "item": "croptopia:chicken_and_noodles",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -6,7 +6,7 @@
     "cs": {
       "type": "heracles:item",
       "item": "croptopia:banana_smoothie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cs1": {
       "type": "heracles:item",
       "item": "croptopia:kale_smoothie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cs0": {
       "type": "heracles:item",
       "item": "croptopia:strawberry_smoothie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cm": {
       "type": "heracles:item",
       "item": "croptopia:chocolate_milkshake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cs2": {
       "type": "heracles:item",
       "item": "croptopia:fruit_smoothie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

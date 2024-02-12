@@ -6,7 +6,7 @@
     "TBB": {
       "type": "heracles:item",
       "item": "croptopia:the_big_breakfast",
-      "amount": 1,
+      "amount": 32,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

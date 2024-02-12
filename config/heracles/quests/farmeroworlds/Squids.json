@@ -6,7 +6,7 @@
     "calamari": {
       "type": "heracles:item",
       "item": "croptopia:calamari",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "glowcalamari": {
       "type": "heracles:item",
       "item": "croptopia:glowing_calamari",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -74,7 +74,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          49,
+          50,
           75
         ]
       }

@@ -6,7 +6,7 @@
     "cinammon": {
       "type": "heracles:item",
       "item": "croptopia:cinnamon",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

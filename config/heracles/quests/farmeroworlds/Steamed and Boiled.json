@@ -6,7 +6,7 @@
     "cb0": {
       "type": "heracles:item",
       "item": "croptopia:steamed_broccoli",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cb1": {
       "type": "heracles:item",
       "item": "croptopia:steamed_green_beans",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cb4": {
       "type": "heracles:item",
       "item": "croptopia:steamed_clams",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cb3": {
       "type": "heracles:item",
       "item": "croptopia:steamed_crab",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cb6": {
       "type": "heracles:item",
       "item": "croptopia:oatmeal",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cb5": {
       "type": "heracles:item",
       "item": "croptopia:crab_legs",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cb8": {
       "type": "heracles:item",
       "item": "croptopia:buttered_green_beans",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cb7": {
       "type": "heracles:item",
       "item": "croptopia:cabbage_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "cb9": {
       "type": "heracles:item",
       "item": "croptopia:mashed_potatoes",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "cb": {
       "type": "heracles:item",
       "item": "croptopia:steamed_rice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -6,7 +6,7 @@
     "cs": {
       "type": "heracles:item",
       "item": "croptopia:sushi",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cs0": {
       "type": "heracles:item",
       "item": "croptopia:tuna_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

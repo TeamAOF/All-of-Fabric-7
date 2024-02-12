@@ -6,7 +6,7 @@
     "cs": {
       "type": "heracles:item",
       "item": "croptopia:cucumber_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cs1": {
       "type": "heracles:item",
       "item": "croptopia:leafy_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cs0": {
       "type": "heracles:item",
       "item": "croptopia:caesar_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cs3": {
       "type": "heracles:item",
       "item": "croptopia:veggie_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cs2": {
       "type": "heracles:item",
       "item": "croptopia:fruit_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cs4": {
       "type": "heracles:item",
       "item": "croptopia:beetroot_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
