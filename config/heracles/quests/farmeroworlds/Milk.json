@@ -75,21 +75,6 @@
     }
   },
   "rewards": {
-    "meadow_warped_milk": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "meadow:wooden_warped_milk_bucket",
-        "count": 6
-      },
-      "type": "heracles:item"
-    },
     "meadow_bear": {
       "title": "",
       "icon": {
@@ -102,6 +87,21 @@
       "item": {
         "id": "meadow:raw_bear_meat",
         "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "meadow_warped_milk": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wooden_warped_milk_bucket",
+        "count": 6
       },
       "type": "heracles:item"
     },
@@ -141,7 +141,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          25,
+          30,
           -490
         ]
       }
