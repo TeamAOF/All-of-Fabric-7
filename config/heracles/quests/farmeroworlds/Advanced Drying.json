@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Drying the Grains"
+  ],
+  "tasks": {
+    "brewery_copper_silo": {
+      "type": "heracles:item",
+      "item": "brewery:silo_copper",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A more industrial version of the regular old silo"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          140,
+          -490
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:silo_copper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Drying"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

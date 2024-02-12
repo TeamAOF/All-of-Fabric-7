@@ -1,0 +1,120 @@
+{
+  "dependencies": [
+    "Basic Crops"
+  ],
+  "tasks": {
+    "brewery_dried_wheat": {
+      "type": "heracles:item",
+      "item": "brewery:dried_wheat",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_wooden_silo": {
+      "type": "heracles:item",
+      "item": "brewery:silo_wood",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_dried_barley": {
+      "type": "heracles:item",
+      "item": "brewery:dried_barley",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_dried_corn": {
+      "type": "heracles:item",
+      "item": "brewery:dried_corn",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_wooden_silo": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:silo_wood",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now that you have the crops you will first have to dry them",
+      "<br/>",
+      "For this the wooden silo or the copper silo will be necessary",
+      "<br/>",
+      "The silos can be 1x1, 2x2 or 3x3 they can also be up to 9 blocks tall",
+      "<br/>",
+      "To dry the grains first open the silo's hatch with your empty hands, put the grains in, close the door, wait a bit and then open the hatch. the dried grains will spew out"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          140,
+          -460
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:silo_wood",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drying the Grains"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
