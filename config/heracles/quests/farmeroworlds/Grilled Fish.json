@@ -6,7 +6,7 @@
     "ndgs": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_soulsucker",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ndgb": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_blazefish",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ndgg": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_glowdine",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "ndglp": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_lava_pufferfish",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "ndgmcf": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_magmacubefish",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "ndgsc": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_searing_cod",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "ndgo": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:grilled_obsidianfish",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -1,13 +1,9 @@
 {
   "dependencies": [
-    "The Keg"
+    "Let's Do Mods"
   ],
   "tasks": {
-    "bcwd": {
-      "type": "heracles:item",
-      "item": "brewinandchewin:withering_dross",
-      "amount": 8,
-      "collection": "AUTOMATIC",
+    "brewery": {
       "title": "",
       "icon": {
         "item": {
@@ -15,25 +11,12 @@
           "count": 0
         },
         "type": "heracles:item"
-      }
-    },
-    "bcrr": {
-      "type": "heracles:item",
-      "item": "brewinandchewin:red_rum",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "1": {
+    "brewery_bench": {
       "title": "",
       "icon": {
         "item": {
@@ -43,12 +26,12 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:shroomlight",
-        "count": 1
+        "id": "brewery:bench",
+        "count": 10
       },
       "type": "heracles:item"
     },
-    "2": {
+    "brewery_table": {
       "title": "",
       "icon": {
         "item": {
@@ -58,8 +41,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:fermented_spider_eye",
-        "count": 1
+        "id": "brewery:table",
+        "count": 10
       },
       "type": "heracles:item"
     }
@@ -69,26 +52,29 @@
       "text": ""
     },
     "description": [
-      "A collection of drinks made with a hot keg"
+      "Brewery is all about brewing beer and whisky and making some delicious foods to be eaten alongside",
+      "<br/>",
+      "<br/>",
+      "To make these new drinks you will have to learn how to use a brand new and unique brewing system"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -635,
-          -90
+          80,
+          -430
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "brewinandchewin:red_rum",
+        "id": "brewery:beer_elemental_spawn_egg",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Hot Drinks"
+      "translate": "Brewery"
     }
   },
   "settings": {

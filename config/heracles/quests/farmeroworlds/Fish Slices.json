@@ -6,7 +6,7 @@
     "ndscs": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:searing_cod_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ndmcfs": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:magmacubefish_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ndgs": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:glowdine_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "ndlps": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:lava_pufferfish_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "ndbs": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:blazefish_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "ndss": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:soulsucker_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "ndos": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:obsidianfish_slice",
-      "amount": 1,
+      "amount": 4,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -6,7 +6,7 @@
     "ndwkr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:warped_kelp_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

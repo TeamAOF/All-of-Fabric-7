@@ -6,7 +6,7 @@
     "bcsf": {
       "type": "heracles:item",
       "item": "brewinandchewin:salty_folly",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bcgg": {
       "type": "heracles:item",
       "item": "brewinandchewin:glittering_grenadine",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
