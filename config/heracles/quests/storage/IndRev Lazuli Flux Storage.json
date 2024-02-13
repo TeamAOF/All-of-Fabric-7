@@ -19,6 +19,26 @@
       "text": ""
     },
     "description": [
+      "",
+      "   --Energy--: A quantity that denotes the ability to do work and is measured in a unit dimensioned:",
+      "",
+      "<columns>",
+      "<column></column>",
+      "<column background=\"2 black\" border=\"1 linen\">",
+      "<p align=\"center\" italic=\"true\">mass × distance²</p>",
+      "<hr/>",
+      "<p align=\"center\" italic=\"true\">time²</p>",
+      "</column>",
+      "<column></column>",
+      "</columns>",
+      "",
+      "  When measured against time¹, it is commonly referred to as power. In SI² units the joule is used for former and the watt (or j/s) for the latter.",
+      "",
+      "  However, neither of those James³ have made their imprint here, and energy goes by many names and units—",
+      "--lazuli flux-- being one.",
+      "",
+      "  **Industrial Revolution** has four tiers of energy storage. Which is right for you?",
+      "",
       "<carousel>",
       "<carousel-item>",
       "<columns template='7 85 8'>",
@@ -408,7 +428,13 @@
       "</column>",
       "</columns>",
       "</carousel-item>",
-      "</carousel>"
+      "</carousel>",
+      "---",
+      "¹ There are gnostics, called eccentric by some, mad by more, that speak of a dimension of time apart from our trusty and true --tick--. Whispers of a so-called “wall time”.  For your peace, I advise you to leave the metaphysics to philosophers. Mine, craft, live.",
+      "",
+      "² --Système international d'unités--",
+      "",
+      "³ James Prescott Joule and James Watt"
     ],
     "groups": {
       "Storage": {
