@@ -1,0 +1,39 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          0,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles_flipped.png",
+    "title": {
+      "translate": "Powah Energizing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

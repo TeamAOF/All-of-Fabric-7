@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Generating Powah"
+  ],
+  "tasks": {
+    "powah_solar_panel_task": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3ACC311027719B86": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Photosynthesis o/</h2>",
+      "<hr/>",
+      "<task task=\"1D3ADC1945CD78B2\" quest=\"Any Solar Panel\"/>",
+      "<hr/>",
+      "A simple sheet of metal that generates energy from the power of the sun.",
+      "<hr/>",
+      "<reward reward=\"3ACC311027719B86\" quest=\"Any Solar Panel\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          108
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:solar_panel_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "title": {
+      "translate": "Solar Panel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

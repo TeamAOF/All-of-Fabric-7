@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Niotic Crystal"
+  ],
+  "tasks": {
+    "151572FE22F1BD41": {
+      "type": "heracles:item",
+      "item": "powah:crystal_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "61F58E9782C28446": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:crystal_spirited",
+        "count": 5,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/epic",
+          "Name": "Powah! Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>I thought Spirits were blue</h2>",
+      "<hr/>",
+      "<task task=\"151572FE22F1BD41\" quest=\"Sprited Crystal\"/>",
+      "<hr/>",
+      "This resource uses emeralds, and is necessary for the Spirited level of machines",
+      "<hr/>",
+      "<reward reward=\"61F58E9782C28446\" quest=\"Sprited Crystal\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          48,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:crystal_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Spirited Crystal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

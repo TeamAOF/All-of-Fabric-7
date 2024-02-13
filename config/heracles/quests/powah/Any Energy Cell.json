@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Powah Here and There"
+  ],
+  "tasks": {
+    "powah_energy_cell_task": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "039CAD1A22774986": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Big Box Storin'</h2>",
+      "<hr/>",
+      "<task task=\"02FE38964253A488\" quest=\"Any Energy Cell\"/>",
+      "<hr/>",
+      "Energy cells are a great way to store energy and redistribute it later when your machines need it most.",
+      "<hr/>",
+      "<reward reward=\"039CAD1A22774986\" quest=\"Any Energy Cell\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          61,
+          67
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "Energy Cells"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

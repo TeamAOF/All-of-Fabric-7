@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "(dis)charging"
+  ],
+  "tasks": {
+    "player transmitter task": {
+      "type": "heracles:item",
+      "item": "powah:player_transmitter_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "powah player transmitter reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:player_transmitter_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Oddly, not for transmitting players"
+    },
+    "description": [
+      "<h2>Bluetooh could never</h2>",
+      "<hr/>",
+      "<task task=\"6F978E3B646765B5\" quest=\"Any Player Transmitter\"/>",
+      "<hr/>",
+      "The player transmitter is a useful block that emits energy and beams it straight into your hands.",
+      "<br/>",
+      "It wirelessly charges items in your armor slots or hand slots of a linked player.",
+      "<hr/>",
+      "<reward reward=\"11482DD40581C651\" quest=\"Any Player Transmitter\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          152,
+          -108
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:player_transmitter_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles_flipped.png",
+    "title": {
+      "translate": "Player Transmitter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

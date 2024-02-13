@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Ender Core"
+  ],
+  "tasks": {
+    "powah_ender_cell_task": {
+      "type": "heracles:item",
+      "item": "powah:ender_cell_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "76F183A92789C904": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Call your Carrier</h2>",
+      "<hr/>",
+      "<task task=\"2EC3E158BE82E999\" quest=\"Any Ender Cell\"/>",
+      "<hr/>",
+      "Ender Cells are part of an wireless network of energy. You can add ender cells to expand the capacity of your network.",
+      "<hr/>",
+      "<reward reward=\"76F183A92789C904\" quest=\"Any Ender Cell\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          74,
+          110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:ender_cell_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "Ender Cells"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

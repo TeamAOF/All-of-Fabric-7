@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Generating Powah"
+  ],
+  "tasks": {
+    "powah_reactor_task": {
+      "type": "heracles:item",
+      "item": "powah:reactor_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>RADIOACTIVE RADIOACTIVE WOAHaaOAAh</h2>",
+      "<hr/>",
+      "<task task=\"32F11CA22D877230\" quest=\"Any Reactor\"/>",
+      "<hr/>",
+      "Reactors are powerful generators that enable you to make varying amounts of energy from Uranite that you can find underground.",
+      "<br/>",
+      "You'll need 36 to form the multiblock. Rightclicking the ground with 36 reactor blocks will automatically form the reactor.",
+      "<hr/>",
+      "<reward reward=\"479A964FC6EB434D\" quest=\"Any Reactor\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -61,
+          84
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "title": {
+      "translate": "Reactors"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

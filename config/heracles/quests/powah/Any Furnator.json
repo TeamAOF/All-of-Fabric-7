@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Generating Powah"
+  ],
+  "tasks": {
+    "powah_furnator_task": {
+      "type": "heracles:item",
+      "item": "powah:furnator_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "4A94D0274ADE9199": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:air",
+        "count": 0,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Haven't seen one of these before.</h2>",
+      "<hr/>",
+      "<task task=\"59EC736AD9AF7F8B\" quest=\"Any Furnator\"/>",
+      "<hr/>",
+      "This extremely unique generator creates energy from burning item fuel.",
+      "<hr/>",
+      "<reward reward=\"4A94D0274ADE9199\" quest=\"Any Furnator\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -118,
+          41
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:furnator_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "title": {
+      "translate": "Furnator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

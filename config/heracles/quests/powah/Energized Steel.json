@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Dialectric Paste"
+  ],
+  "tasks": {
+    "147B469C5C23C57F": {
+      "type": "heracles:item",
+      "item": "powah:steel_energized",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "energized steel reward": {
+      "title": "Twice as nice",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:steel_energized",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "<task task=\"147B469C5C23C57F\" quest=\"Energized Steel\"/>",
+      "<br/>",
+      "## What alchemy is this?",
+      "<br/>",
+      "Chemistry designates “steel” an alloy of iron and carbon.",
+      "<br/>",
+      "Whatever this substance is...",
+      "<br/>",
+      "—a misnomer handed down through the ages?—",
+      "<br/>",
+      "—an enticing hue and a surfeit of echanting specular highlights—",
+      "<br/>",
+      "—forged in the radiance of the energizing orb—",
+      "<br/>",
+      "...it is indispensable to crafting early upgrades to your --Powah!-- equipment.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:steel_energized",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Energized Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

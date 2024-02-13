@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Caps and Dielectrics "
+  ],
+  "tasks": {
+    "dielectric casing task": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_casing",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "dielectric casing reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:dielectric_casing",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -120,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:dielectric_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles_flipped.png",
+    "title": {
+      "translate": "Dielectric Casing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Blazing Crystal"
+  ],
+  "tasks": {
+    "40F2DC6B69FD7D07": {
+      "type": "heracles:item",
+      "item": "powah:crystal_niotic",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2F4802C8A8F47A08": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:crystal_niotic",
+        "count": 4,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/epic",
+          "Name": "Powah! Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Blue Crystals :)</h2>",
+      "<hr/>",
+      "<task task=\"40F2DC6B69FD7D07\" quest=\"Niotic Crystal\"/>",
+      "<hr/>",
+      "Niotic crystals are made from Diamonds, and are a key component for the Niotic tier of machines",
+      "<hr/>",
+      "<reward reward=\"2F4802C8A8F47A08\" quest=\"Niotic Crystal\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          0,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:crystal_niotic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Niotic Crystal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

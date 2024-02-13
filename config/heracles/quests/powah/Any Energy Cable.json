@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "Powah Energizing"
+  ],
+  "tasks": {
+    "powah_energy_cable_task": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_starter",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "powah energy cable reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:energy_cable_basic",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>YAMTAC (Yet another mod that adds cables)</h2>",
+      "<hr/>",
+      "<task task=\"4DC73CF40FA3BCAD\" quest=\"Any Energy Cable\"/>",
+      "<hr/>",
+      "Powah cables help you transfer large amounts of energy to and from generators and machines.",
+      "<hr/>",
+      "<reward reward=\"7106F5020C92D855\" quest=\"Any Energy Cable\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -32,
+          -54
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cable_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles.png",
+    "title": {
+      "translate": "Energy Cables"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

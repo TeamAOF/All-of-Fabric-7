@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "(dis)charging"
+  ],
+  "tasks": {
+    "energy hopper task": {
+      "type": "heracles:item",
+      "item": "powah:energy_hopper_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "energy hopper reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:energy_hopper_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Sidecar Energy</h2>",
+      "<hr/>",
+      "<task task=\"3ACC4487665F8FCC\" quest=\"Any Energy Hopper\"/>",
+      "<hr/>",
+      "This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper",
+      "<hr/>",
+      "<reward reward=\"576EF2E667A51455\" quest=\"Any Energy Hopper\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          92,
+          -108
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_hopper_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles_flipped.png",
+    "title": {
+      "translate": "Energy Hopper"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

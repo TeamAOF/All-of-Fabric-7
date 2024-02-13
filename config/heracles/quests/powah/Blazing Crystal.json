@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Energized Steel"
+  ],
+  "tasks": {
+    "5907F70C58C684D5": {
+      "type": "heracles:item",
+      "item": "powah:crystal_blazing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2160D5AD476713DB": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:crystal_blazing",
+        "count": 3,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "<item id=\"powah:crystal_blazing\" scale=\"4\"/>",
+      "<hr/>",
+      "Blazing crystals are made from a material you would never suspect: Blaze powder. Its used as the material for the blazing tier of machines",
+      "<hr/>",
+      "<task task=\"5907F70C58C684D5\" quest=\"Blazing Crystal\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -48,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:crystal_blazing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Blazing Crystal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

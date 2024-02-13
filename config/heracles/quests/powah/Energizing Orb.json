@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Powah Energizing"
+  ],
+  "tasks": {
+    "energizing orb task": {
+      "type": "heracles:item",
+      "item": "powah:energizing_orb",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "energizing orb reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:energizing_rod_basic",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "<task task=\"energizing orb task\" quest=\"Energizing Orb\"/>",
+      "<br/>",
+      "profound stuff goes here"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          0,
+          -102
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles.png",
+    "title": {
+      "translate": "Energizing Orb"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Sprited Crystal"
+  ],
+  "tasks": {
+    "0FA248D18B3B6AB8": {
+      "type": "heracles:item",
+      "item": "powah:crystal_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6282C39A0E7F5D3D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:crystal_nitro",
+        "count": 6,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/legendary",
+          "Name": "Powah! Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Now only $2.99!</h2>",
+      "<hr/>",
+      "<task task=\"0FA248D18B3B6AB8\" quest=\"Nitro Crystal\"/>",
+      "<hr/>",
+      "Nitro crystals are materials required for the highest tier of machinery, Nitro, and are made with Nether Stars and redstone. If used properly they will also enable you to use animated emojis in chat.",
+      "<hr/>",
+      "<reward reward=\"6282C39A0E7F5D3D\" quest=\"Nitro Crystal\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          96,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:crystal_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Nitro Crystal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

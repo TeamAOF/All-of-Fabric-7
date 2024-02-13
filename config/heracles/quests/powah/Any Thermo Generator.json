@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "Generating Powah"
+  ],
+  "tasks": {
+    "powah_thermo_generator_task": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<h2>Bring on da Heat!</h2>",
+      "<hr/>",
+      "<task task=\"29E65C4BDBDF7F65\" quest=\"Any Thermo Generator\"/>",
+      "<hr/>",
+      "This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant.",
+      "<hr/>",
+      "<reward reward=\"0C62EE01DB5CE5B5\" quest=\"Any Thermo Generator\"/>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -131,
+          84
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:thermo_generator_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "title": {
+      "translate": "Thermo Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
