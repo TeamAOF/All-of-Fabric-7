@@ -1,6 +1,20 @@
 {
-  "dependencies": [],
-  "tasks": {},
+  "dependencies": [
+    "Dielectric Paste"
+  ],
+  "tasks": {
+    "Dielectrics and Capacitors Check": {
+      "title": "Dielectrics and Capacitors",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
@@ -31,9 +45,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

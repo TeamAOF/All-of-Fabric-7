@@ -4,26 +4,38 @@
   ],
   "tasks": {
     "powah_battery_task": {
-      "type": "heracles:composite",
       "amount": 1,
       "tasks": {
         "Starter Battery": {
-          "title": "Starter Battery",
           "type": "heracles:item",
-          "icon": "powah:battery_starter",
           "item": "powah:battery_starter",
           "amount": 1,
-          "collection": "AUTOMATIC"
+          "collection": "AUTOMATIC",
+          "title": "Starter Battery",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "Basic Battery": {
-          "title": "Basic Battery",
           "type": "heracles:item",
-          "icon": "powah:battery_basic",
           "item": "powah:battery_basic",
           "amount": 1,
-          "collection": "AUTOMATIC"
+          "collection": "AUTOMATIC",
+          "title": "Basic Battery",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         }
-      }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {
@@ -87,6 +99,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Powah Here and There"
+    "Dielectric Casing"
   ],
   "tasks": {
     "4DD0E201A56082AA": {
@@ -79,6 +79,6 @@
     "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

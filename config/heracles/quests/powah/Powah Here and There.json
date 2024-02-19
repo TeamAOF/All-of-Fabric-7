@@ -1,12 +1,28 @@
 {
-  "dependencies": [],
-  "tasks": {},
+  "dependencies": [
+    "Dielectric Paste"
+  ],
+  "tasks": {
+    "Powah Here and There Check": {
+      "title": "Powah Here and There",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Powah": {
         "position": [
@@ -29,9 +45,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }
