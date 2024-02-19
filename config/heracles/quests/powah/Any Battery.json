@@ -4,17 +4,25 @@
   ],
   "tasks": {
     "powah_battery_task": {
-      "type": "heracles:item",
-      "item": "powah:battery_starter",
+      "type": "heracles:composite",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "Starter Battery": {
+          "title": "Starter Battery",
+          "type": "heracles:item",
+          "icon": "powah:battery_starter",
+          "item": "powah:battery_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC"
         },
-        "type": "heracles:item"
+        "Basic Battery": {
+          "title": "Basic Battery",
+          "type": "heracles:item",
+          "icon": "powah:battery_basic",
+          "item": "powah:battery_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
       }
     }
   },
