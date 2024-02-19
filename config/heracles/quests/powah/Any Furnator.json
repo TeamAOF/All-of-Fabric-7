@@ -18,29 +18,7 @@
       }
     }
   },
-  "rewards": {
-    "4A94D0274ADE9199": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:air",
-        "count": 0,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 14731911,
-          "Loot": "aof:loot_bags/powah/common",
-          "Name": "Powah! Common Lootbag"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""

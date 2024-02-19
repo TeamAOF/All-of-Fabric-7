@@ -3,43 +3,23 @@
     "Powah Here and There"
   ],
   "tasks": {
-    "powah_battery_task": {
+    "Power Battery Task": {
+      "type": "heracles:item",
+      "item": "powah:battery_starter",
       "amount": 1,
-      "tasks": {
-        "Starter Battery": {
-          "type": "heracles:item",
-          "item": "powah:battery_starter",
-          "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "Starter Battery",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
         },
-        "Basic Battery": {
-          "type": "heracles:item",
-          "item": "powah:battery_basic",
-          "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "Basic Battery",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
-        }
-      },
-      "type": "heracles:composite"
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "65518AA5E8ECF7D0": {
+    "Powah Battery Reward": {
       "title": "",
       "icon": {
         "item": {
@@ -49,14 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:air",
-        "count": 0,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 14731911,
-          "Loot": "aof:loot_bags/powah/common",
-          "Name": "Powah! Common Lootbag"
-        }
+        "id": "powah:battery_basic",
+        "count": 2
       },
       "type": "heracles:item"
     }

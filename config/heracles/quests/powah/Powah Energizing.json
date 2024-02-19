@@ -34,8 +34,8 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:check",
-        "count": 1
+        "id": "minecraft:air",
+        "count": 0
       },
       "type": "heracles:item"
     },
