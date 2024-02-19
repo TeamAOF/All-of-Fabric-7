@@ -3,9 +3,9 @@
     "Wine ageing"
   ],
   "tasks": {
-    "vmlw": {
+    "vinery_miss_lilitus_wine": {
       "type": "heracles:item",
-      "item": "vinery:king_danis_wine",
+      "item": "vinery:lilitu_wine",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "vinery:king_danis_wine",
-        "count": 2
+        "id": "minecraft:air",
+        "count": 0
       },
       "type": "heracles:item"
     }
@@ -40,19 +40,19 @@
       "text": ""
     },
     "description": [
-      "Provides a short really powerful instant health effect capable of fully healing you"
+      "Touch someone and see the party begin!"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          450,
+          500,
           -245
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "vinery:king_danis_wine",
+        "id": "vinery:lilitu_wine",
         "count": 1
       },
       "type": "heracles:item"

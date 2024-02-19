@@ -3,9 +3,9 @@
     "Utilities"
   ],
   "tasks": {
-    "vgl": {
+    "grapevine_lattice": {
       "type": "heracles:item",
-      "item": "vinery:grapevine_lattice",
+      "item": "#vinery:lattice",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -40,7 +40,9 @@
       "text": ""
     },
     "description": [
-      "Grapevine lattices are placed on walls, they allow planting jungle grapes in them for faster growth and better grape yields"
+      "Grapevine lattices can be placed anywhere and will look different depending on if they are vertical or horizontal, they allow planting jungle grapes in them for faster growth and better grape yields",
+      "<br/>",
+      "Using an axe can remove or add the supports at the sides"
     ],
     "groups": {
       "Farmer O' Worlds": {
@@ -52,7 +54,7 @@
     },
     "icon": {
       "item": {
-        "id": "vinery:grapevine_lattice",
+        "id": "vinery:dark_oak_lattice",
         "count": 1
       },
       "type": "heracles:item"

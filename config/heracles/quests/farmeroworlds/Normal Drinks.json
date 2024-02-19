@@ -6,7 +6,7 @@
     "bcb": {
       "type": "heracles:item",
       "item": "brewinandchewin:beer",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bcsa": {
       "type": "heracles:item",
       "item": "brewinandchewin:strongroot_ale",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "bcv": {
       "type": "heracles:item",
       "item": "brewinandchewin:vodka",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "bcrw": {
       "type": "heracles:item",
       "item": "brewinandchewin:rice_wine",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "bck": {
       "type": "heracles:item",
       "item": "brewinandchewin:kombucha",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "bceg": {
       "type": "heracles:item",
       "item": "brewinandchewin:egg_grog",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "bcm": {
       "type": "heracles:item",
       "item": "brewinandchewin:mead",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

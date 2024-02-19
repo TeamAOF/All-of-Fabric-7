@@ -6,7 +6,7 @@
     "cd2": {
       "type": "heracles:item",
       "item": "croptopia:wine",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cd": {
       "type": "heracles:item",
       "item": "croptopia:tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cd1": {
       "type": "heracles:item",
       "item": "croptopia:beer",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cd4": {
       "type": "heracles:item",
       "item": "croptopia:rum",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cd3": {
       "type": "heracles:item",
       "item": "croptopia:mead",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cd5": {
       "type": "heracles:item",
       "item": "croptopia:pumpkin_spice_latte",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cd0": {
       "type": "heracles:item",
       "item": "croptopia:coffee",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

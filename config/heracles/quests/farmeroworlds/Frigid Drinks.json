@@ -6,7 +6,7 @@
     "bcdn": {
       "type": "heracles:item",
       "item": "brewinandchewin:dread_nog",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bcsts": {
       "type": "heracles:item",
       "item": "brewinandchewin:steel_toe_stout",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

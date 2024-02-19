@@ -3,6 +3,54 @@
     "Meadow"
   ],
   "tasks": {
+    "meadow_climbing_rope": {
+      "type": "heracles:item",
+      "item": "meadow:climbing_rope_topmount",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_helmet": {
+      "type": "heracles:item",
+      "item": "meadow:fur_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_leggins": {
+      "type": "heracles:item",
+      "item": "meadow:fur_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "meadow_watering_can": {
       "type": "heracles:item",
       "item": "meadow:watering_can",
@@ -37,37 +85,6 @@
         "type": "heracles:item"
       }
     },
-    "meadow_climbing_rope": {
-      "type": "heracles:item",
-      "item": "meadow:climbing_rope_topmount",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "meadow_fur_helmet": {
-      "type": "heracles:item",
-      "item": "meadow:fur_helmet",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "meadow_fur_boots": {
       "type": "heracles:item",
       "item": "meadow:fur_boots",
@@ -84,41 +101,9 @@
         },
         "type": "heracles:item"
       }
-    },
-    "meadow_fur_leggins": {
-      "type": "heracles:item",
-      "item": "meadow:fur_leggings",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
     }
   },
   "rewards": {
-    "meadow_climbing_rope": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "meadow:climbing_rope_topmount",
-        "count": 3
-      },
-      "type": "heracles:item"
-    },
     "meadow_wheelbarrow": {
       "title": "",
       "icon": {
@@ -148,6 +133,21 @@
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "meadow_climbing_rope": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:climbing_rope_topmount",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -167,7 +167,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -35,
+          -30,
           -420
         ]
       }

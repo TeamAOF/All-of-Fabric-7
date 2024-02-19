@@ -87,6 +87,20 @@
         "type": "heracles:item"
       }
     },
+    "bag_dried_wheat": {
+      "type": "heracles:item",
+      "item": "brewery:dried_wheat",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "bo": {
       "type": "heracles:item",
       "item": "bakery:oat_crate",
@@ -367,6 +381,20 @@
         "type": "heracles:item"
       }
     },
+    "bag_dried_corn": {
+      "type": "heracles:item",
+      "item": "brewery:dried_corn",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "gbc": {
       "type": "heracles:item",
       "item": "blockus:glow_berries_crate",
@@ -454,6 +482,20 @@
     "bwg": {
       "type": "heracles:item",
       "item": "vinery:white_grape_crate",
+      "amount": 1000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bag_dried_barley": {
+      "type": "heracles:item",
+      "item": "brewery:dried_barley",
       "amount": 1000,
       "collection": "MANUAL",
       "title": "",

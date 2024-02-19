@@ -6,7 +6,7 @@
     "pork4": {
       "type": "heracles:item",
       "item": "croptopia:pork_jerky",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "pork2": {
       "type": "heracles:item",
       "item": "croptopia:pork_and_beans",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "pork": {
       "type": "heracles:item",
       "item": "croptopia:pepperoni",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "pork0": {
       "type": "heracles:item",
       "item": "croptopia:sausage",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "pork1": {
       "type": "heracles:item",
       "item": "croptopia:ground_pork",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

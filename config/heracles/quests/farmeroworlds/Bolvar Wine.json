@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Increases attack speed and gives luck"
+      "Allows to walk on lava, walking on lava won't hurt you but jumping into it will set you on fire for a bit"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          450,
+          500,
           -215
         ]
       }

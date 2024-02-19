@@ -34,21 +34,6 @@
       },
       "type": "heracles:item"
     },
-    "meadow_chair": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "meadow:chair",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
     "meadow_table": {
       "title": "",
       "icon": {
@@ -60,6 +45,21 @@
       },
       "item": {
         "id": "meadow:table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_chair": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:chair",
         "count": 1
       },
       "type": "heracles:item"
@@ -75,7 +75,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -65,
+          -60,
           -535
         ]
       }

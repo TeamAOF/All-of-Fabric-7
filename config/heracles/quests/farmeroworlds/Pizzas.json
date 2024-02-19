@@ -6,7 +6,7 @@
     "pizza": {
       "type": "heracles:item",
       "item": "croptopia:pizza",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "pizza3": {
       "type": "heracles:item",
       "item": "croptopia:anchovy_pizza",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "pizza2": {
       "type": "heracles:item",
       "item": "croptopia:pineapple_pepperoni_pizza",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "pizza1": {
       "type": "heracles:item",
       "item": "croptopia:cheese_pizza",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "pizza0": {
       "type": "heracles:item",
       "item": "croptopia:supreme_pizza",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

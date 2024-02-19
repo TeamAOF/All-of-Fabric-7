@@ -6,7 +6,7 @@
     "fdhf": {
       "type": "heracles:item",
       "item": "farmersdelight:horse_feed",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fddf": {
       "type": "heracles:item",
       "item": "farmersdelight:dog_food",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

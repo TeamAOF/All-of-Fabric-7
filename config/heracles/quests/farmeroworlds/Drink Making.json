@@ -6,7 +6,7 @@
     "frpt": {
       "type": "heracles:item",
       "item": "farmersrespite:purulent_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "frrht": {
       "type": "heracles:item",
       "item": "farmersrespite:rose_hip_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "frc": {
       "type": "heracles:item",
       "item": "farmersrespite:coffee",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fryt": {
       "type": "heracles:item",
       "item": "farmersrespite:yellow_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "frgt": {
       "type": "heracles:item",
       "item": "farmersrespite:green_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "frdt": {
       "type": "heracles:item",
       "item": "farmersrespite:dandelion_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -146,7 +146,7 @@
     "frbt": {
       "type": "heracles:item",
       "item": "farmersrespite:black_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

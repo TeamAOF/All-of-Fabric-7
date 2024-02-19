@@ -6,7 +6,7 @@
     "meadow_grain_cheese_wheel": {
       "type": "heracles:item",
       "item": "meadow:grain_cheese_block",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -60,7 +60,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -30,
+          -25,
           -570
         ]
       }

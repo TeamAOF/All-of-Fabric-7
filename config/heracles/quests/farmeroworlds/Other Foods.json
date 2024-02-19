@@ -6,7 +6,7 @@
     "fdfe": {
       "type": "heracles:item",
       "item": "farmersdelight:fried_egg",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdsp": {
       "type": "heracles:item",
       "item": "farmersdelight:steak_and_potatoes",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdr": {
       "type": "heracles:item",
       "item": "farmersdelight:ratatouille",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdgs": {
       "type": "heracles:item",
       "item": "farmersdelight:grilled_salmon",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdrmc": {
       "type": "heracles:item",
       "item": "farmersdelight:roasted_mutton_chops",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdbbqs": {
       "type": "heracles:item",
       "item": "farmersdelight:barbecue_stick",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fdbe": {
       "type": "heracles:item",
       "item": "farmersdelight:bacon_and_eggs",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -139,7 +139,10 @@
       "text": ""
     },
     "description": [
-      "A collection of miscellaneous cooked foods"
+      "A collection of miscellaneous cooked foods",
+      "<br/>",
+      "<br/>",
+      "The fried egg must be cooked on the skillet"
     ],
     "groups": {
       "Farmer O' Worlds": {

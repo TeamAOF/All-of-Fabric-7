@@ -6,7 +6,7 @@
     "fdbs": {
       "type": "heracles:item",
       "item": "farmersdelight:beef_stew",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdbb": {
       "type": "heracles:item",
       "item": "farmersdelight:bone_broth",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdcs": {
       "type": "heracles:item",
       "item": "farmersdelight:chicken_soup",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdvs": {
       "type": "heracles:item",
       "item": "farmersdelight:vegetable_soup",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdfs": {
       "type": "heracles:item",
       "item": "farmersdelight:fish_stew",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdbcs": {
       "type": "heracles:item",
       "item": "farmersdelight:baked_cod_stew",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fdns": {
       "type": "heracles:item",
       "item": "farmersdelight:noodle_soup",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "fdps": {
       "type": "heracles:item",
       "item": "farmersdelight:pumpkin_soup",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

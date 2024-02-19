@@ -6,7 +6,7 @@
     "bc": {
       "type": "heracles:item",
       "item": "bakery:croissant",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bjr": {
       "type": "heracles:item",
       "item": "bakery:jam_roll",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

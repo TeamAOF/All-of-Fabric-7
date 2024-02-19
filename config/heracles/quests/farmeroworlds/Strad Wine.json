@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Resistance and absorption"
+      "Makes you more resistant to damage and harder to push around"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          270,
+          320,
           -215
         ]
       }

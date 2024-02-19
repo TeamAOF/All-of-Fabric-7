@@ -6,7 +6,7 @@
     "ct2": {
       "type": "heracles:item",
       "item": "croptopia:ajvar_toast",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ct": {
       "type": "heracles:item",
       "item": "croptopia:toast",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ct1": {
       "type": "heracles:item",
       "item": "croptopia:toast_with_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "ct4": {
       "type": "heracles:item",
       "item": "croptopia:toast_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "ct3": {
       "type": "heracles:item",
       "item": "croptopia:avocado_toast",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "ct0": {
       "type": "heracles:item",
       "item": "croptopia:buttered_toast",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

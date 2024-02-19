@@ -6,7 +6,7 @@
     "cf4": {
       "type": "heracles:item",
       "item": "croptopia:roe",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cf3": {
       "type": "heracles:item",
       "item": "croptopia:oyster",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cf6": {
       "type": "heracles:item",
       "item": "croptopia:tuna",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cf": {
       "type": "heracles:item",
       "item": "croptopia:anchovy",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cf5": {
       "type": "heracles:item",
       "item": "croptopia:shrimp",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cf7": {
       "type": "heracles:item",
       "item": "croptopia:sea_lettuce",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cf0": {
       "type": "heracles:item",
       "item": "croptopia:clam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cf2": {
       "type": "heracles:item",
       "item": "croptopia:crab",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -156,7 +156,10 @@
       "text": ""
     },
     "description": [
-      "/a/Croptopia/a/ also adds a few new items to the oceans that can be obtained by fishing, these items will only drop from a player fishing and can't be obtained by the Indrev fisher"
+      "/a/Croptopia/a/ also adds a few new items to the oceans that can be obtained by fishing, these items will only drop from a player fishing and can't be obtained by the Indrev fisher",
+      "<br/>",
+      "<br/>",
+      "Roe can only be obtained by killing fish, the big catch enchantment can help fish alive fish for that"
     ],
     "groups": {
       "Farmer O' Worlds": {

@@ -6,7 +6,7 @@
     "fdcb": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_bacon",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdbp": {
       "type": "heracles:item",
       "item": "farmersdelight:beef_patty",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdcmc": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_mutton_chops",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdccc": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_chicken_cuts",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdccs": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_cod_slice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdcss": {
       "type": "heracles:item",
       "item": "farmersdelight:cooked_salmon_slice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

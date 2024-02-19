@@ -6,7 +6,7 @@
     "ci": {
       "type": "heracles:item",
       "item": "croptopia:mango_ice_cream",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ci1": {
       "type": "heracles:item",
       "item": "croptopia:strawberry_ice_cream",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ci0": {
       "type": "heracles:item",
       "item": "croptopia:pecan_ice_cream",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "ci3": {
       "type": "heracles:item",
       "item": "croptopia:rum_raisin_ice_cream",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "ci2": {
       "type": "heracles:item",
       "item": "croptopia:vanilla_ice_cream",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "ci4": {
       "type": "heracles:item",
       "item": "croptopia:chocolate_ice_cream",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "Basic Crops"
+  ],
+  "tasks": {
+    "brewery_rope": {
+      "type": "heracles:item",
+      "item": "brewery:rope",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_rope": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:rope",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Rope is a very useful thing",
+      "<br/>",
+      "First of all it can be used as an improved farming method for hops, if you make a row of farmland you can place fences at both sides and hang a rope between them at least 3 blocks over the farmland, this will allow hops to grow over the hanging ropes that will appear",
+      "<br/>",
+      "The main rope can be walked on so you can make a bridge that would make any safety inspector shiver or block the entrance to some place by hanging a rope in front of it"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          110,
+          -490
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:rope",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rope"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

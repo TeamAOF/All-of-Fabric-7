@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Gives instant health"
+      "Gives absorption"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          330,
+          380,
           -245
         ]
       }

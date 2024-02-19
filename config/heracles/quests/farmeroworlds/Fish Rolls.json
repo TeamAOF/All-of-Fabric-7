@@ -6,7 +6,7 @@
     "ndscr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:searing_cod_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ndmcfr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:magmacubefish_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ndgr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:glowdine_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "ndlpr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:lava_pufferfish_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "ndbr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:blazefish_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "ndsr": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:soulsucker_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "ndor": {
       "type": "heracles:item",
       "item": "netherdepthsupgrade:obsidianfish_roll",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

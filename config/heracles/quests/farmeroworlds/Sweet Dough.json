@@ -6,7 +6,7 @@
     "bsd": {
       "type": "heracles:item",
       "item": "bakery:sweet_dough",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

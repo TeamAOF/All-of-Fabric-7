@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Brewery"
+  ],
+  "tasks": {
+    "brewery_big_barrel": {
+      "type": "heracles:item",
+      "item": "brewery:barrel_main",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_big_barrel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:barrel_main",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Just a big cool looking barrel"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          110,
+          -400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:barrel_main",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Big Bertha"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

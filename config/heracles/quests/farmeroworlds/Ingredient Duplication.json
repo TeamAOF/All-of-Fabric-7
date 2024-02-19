@@ -6,7 +6,7 @@
     "fdrb": {
       "type": "heracles:item",
       "item": "farmersdelight:bacon",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdrmc": {
       "type": "heracles:item",
       "item": "farmersdelight:mutton_chops",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdcl": {
       "type": "heracles:item",
       "item": "farmersdelight:cabbage_leaf",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdrcc": {
       "type": "heracles:item",
       "item": "farmersdelight:chicken_cuts",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdrcs": {
       "type": "heracles:item",
       "item": "farmersdelight:cod_slice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdrss": {
       "type": "heracles:item",
       "item": "farmersdelight:salmon_slice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fdmb": {
       "type": "heracles:item",
       "item": "farmersdelight:minced_beef",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "fdps": {
       "type": "heracles:item",
       "item": "farmersdelight:pumpkin_slice",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

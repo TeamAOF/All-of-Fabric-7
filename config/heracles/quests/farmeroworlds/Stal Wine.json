@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Increased max health and improved regeneration"
+      "Increased max health"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          210,
+          260,
           -215
         ]
       }
