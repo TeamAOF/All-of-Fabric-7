@@ -50,6 +50,18 @@
       },
       "type": "heracles:item"
     },
+    "aof:spectrum/epic": {
+      "title": "Dude! This will be EPIC",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "aof:lootbags/spectrum_epic",
+      "type": "heracles:loottable"
+    },
     "6672CBBA98D952AA": {
       "title": "",
       "icon": {
