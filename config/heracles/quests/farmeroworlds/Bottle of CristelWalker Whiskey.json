@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Brewing"
+    "Advanced Brewing"
   ],
   "tasks": {
     "brewery_cristelwalker": {
@@ -46,7 +46,7 @@
       "Farmer O' Worlds": {
         "position": [
           315,
-          -430
+          -520
         ]
       }
     },

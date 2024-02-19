@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Brewing"
+    "Advanced Brewing"
   ],
   "tasks": {
     "brewery_carrasconlabel": {
@@ -48,7 +48,7 @@
       "Farmer O' Worlds": {
         "position": [
           225,
-          -430
+          -520
         ]
       }
     },

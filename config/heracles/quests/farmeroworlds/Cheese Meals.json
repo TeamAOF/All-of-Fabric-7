@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "Drying the Grains"
+    "The Basics of Cheese Making"
   ],
   "tasks": {
-    "brewing_beer_mug": {
+    "meadow_cheesecake": {
       "type": "heracles:item",
-      "item": "brewery:beer_mug",
-      "amount": 4,
+      "item": "meadow:cheesecake",
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -17,10 +17,52 @@
         "type": "heracles:item"
       }
     },
-    "brewery_brewingstation": {
+    "meadow_cheese_stick": {
       "type": "heracles:item",
-      "item": "brewery:wooden_brewingstation",
-      "amount": 1,
+      "item": "meadow:cheese_stick",
+      "amount": 60,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_tart": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_tart",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_sandwich": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_sandwich",
+      "amount": 36,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_roll": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_roll",
+      "amount": 48,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -33,7 +75,7 @@
     }
   },
   "rewards": {
-    "brewery_breathalyzer": {
+    "meadow_cheese": {
       "title": "",
       "icon": {
         "item": {
@@ -43,52 +85,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "brewery:breathalyzer",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
-    "brewery_hops": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "brewery:hops",
-        "count": 8
-      },
-      "type": "heracles:item"
-    },
-    "brewery_water_bucket": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:water_bucket",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
-    "brewery_coal": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:coal",
+        "id": "meadow:piece_of_cheese",
         "count": 8
       },
       "type": "heracles:item"
@@ -99,35 +96,28 @@
       "text": ""
     },
     "description": [
-      "The regular brewingstation is a 2x2 piece of equipment that will allow you to make beers",
+      "While eating cheese alone is already good you can also make more elaborate foods with it",
       "<br/>",
-      "To use it first fill the brewing kettle with water, then place the ingredients for the desired drink, the put coal in the stove side of the brewingstation",
-      "<br/>",
-      "The brewingstation will begin making your drink but be careful, things can go wrong, like needing more fuel, removing water, fixing the temperature, etc, and you will have to fix it, if you don't, a beer elemental will spawn and attack you",
-      "<br/>",
-      "After all of this, no matter if a beer elemental spawned or not, you will have your drink, simply use a beer mug to get it",
-      "<br/>",
-      "<br/>",
-      "Once you have your drinks be careful with drinking too much or you will get drunk!"
+      "The cheesecake and cheese tart can also be used as a decoration"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          170,
-          -460
+          60,
+          -535
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "brewery:wooden_brewingstation",
+        "id": "meadow:cheese_sandwich",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Brewing"
+      "translate": "Cheese Meals"
     }
   },
   "settings": {

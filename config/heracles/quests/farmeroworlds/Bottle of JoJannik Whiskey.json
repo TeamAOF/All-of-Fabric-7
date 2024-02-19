@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Brewing"
+    "Advanced Brewing"
   ],
   "tasks": {
     "brewery_jojannik": {
@@ -46,7 +46,7 @@
       "Farmer O' Worlds": {
         "position": [
           285,
-          -430
+          -520
         ]
       }
     },

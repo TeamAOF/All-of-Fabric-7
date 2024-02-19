@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Brewing"
+    "Advanced Brewing"
   ],
   "tasks": {
     "brewery_maggoallan": {
@@ -48,7 +48,7 @@
       "Farmer O' Worlds": {
         "position": [
           195,
-          -430
+          -520
         ]
       }
     },
