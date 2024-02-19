@@ -46,13 +46,13 @@
       "text": ""
     },
     "description": [
-      "<h2>Energy! Now on 5G</h2>",
-      "<hr/>",
-      "<task task=\"4DD0E201A56082AA\" quest=\"Ender Core\"/>",
-      "<hr/>",
-      "The ender core is the base of a frequency based wireless energy network. You can tap into the network or add energy to it using blocks made from this core",
-      "<hr/>",
-      "<reward reward=\"3FC9BE8BD8A05E10\" quest=\"Ender Core\"/>"
+      "---",
+      "",
+      "## Energy! Now on 5G",
+      "",
+      "  The ender core is the base of a frequency based wireless energy network. You can tap into the network or add energy to it using blocks made from this core",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

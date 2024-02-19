@@ -40,10 +40,10 @@
       "text": ""
     },
     "description": [
-      "<hr/>",
-      "<task task=\"energizing orb task\" quest=\"Energizing Orb\"/>",
-      "<br/>",
-      "profound stuff goes here"
+      "---",
+      "",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

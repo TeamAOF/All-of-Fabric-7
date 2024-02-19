@@ -40,23 +40,23 @@
       "text": ""
     },
     "description": [
-      "<hr/>",
-      "<task task=\"147B469C5C23C57F\" quest=\"Energized Steel\"/>",
-      "<br/>",
+      "---",
+      "",
       "## What alchemy is this?",
-      "<br/>",
+      "",
       "Chemistry designates “steel” an alloy of iron and carbon.",
       "<br/>",
-      "Whatever this substance is...",
-      "<br/>",
-      "—a misnomer handed down through the ages?—",
-      "<br/>",
-      "—an enticing hue and a surfeit of echanting specular highlights—",
-      "<br/>",
-      "—forged in the radiance of the energizing orb—",
-      "<br/>",
-      "...it is indispensable to crafting early upgrades to your --Powah!-- equipment.",
-      "<hr/>"
+      "  Whatever this substance is...",
+      "",
+      "    ...a misnomer handed down through the ages?",
+      "",
+      "    ...an enticing hue and a surfeit of echanting specular highlights?",
+      "",
+      "   ....forged in the radiance of the energizing orb? (<-)",
+      "",
+      "  ...it is indispensable to crafting early upgrades to your --Powah!-- equipment.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

@@ -46,13 +46,13 @@
       "text": ""
     },
     "description": [
-      "<h2>Haven't seen one of these before.</h2>",
-      "<hr/>",
-      "<task task=\"59EC736AD9AF7F8B\" quest=\"Any Furnator\"/>",
-      "<hr/>",
-      "This extremely unique generator creates energy from burning item fuel.",
-      "<hr/>",
-      "<reward reward=\"4A94D0274ADE9199\" quest=\"Any Furnator\"/>"
+      "---",
+      "",
+      "## Haven't seen one of these before.",
+      "",
+      "  This extremely unique generator creates energy from burning item fuel.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

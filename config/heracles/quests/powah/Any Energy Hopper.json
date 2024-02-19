@@ -40,13 +40,13 @@
       "text": ""
     },
     "description": [
-      "<h2>Sidecar Energy</h2>",
-      "<hr/>",
-      "<task task=\"3ACC4487665F8FCC\" quest=\"Any Energy Hopper\"/>",
-      "<hr/>",
-      "This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper",
-      "<hr/>",
-      "<reward reward=\"576EF2E667A51455\" quest=\"Any Energy Hopper\"/>"
+      "---",
+      "",
+      "## Sidecar Energy",
+      "",
+      "  This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

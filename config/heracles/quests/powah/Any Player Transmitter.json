@@ -40,15 +40,15 @@
       "translate": "Oddly, not for transmitting players"
     },
     "description": [
-      "<h2>Bluetooh could never</h2>",
-      "<hr/>",
-      "<task task=\"6F978E3B646765B5\" quest=\"Any Player Transmitter\"/>",
-      "<hr/>",
-      "The player transmitter is a useful block that emits energy and beams it straight into your hands.",
-      "<br/>",
-      "It wirelessly charges items in your armor slots or hand slots of a linked player.",
-      "<hr/>",
-      "<reward reward=\"11482DD40581C651\" quest=\"Any Player Transmitter\"/>"
+      "---",
+      "",
+      "## Bluetooh could never",
+      "",
+      "  The player transmitter is a useful block that emits energy and beams it straight into your hands.",
+      "",
+      "  It wirelessly charges items in your armor slots or hand slots of a linked player.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

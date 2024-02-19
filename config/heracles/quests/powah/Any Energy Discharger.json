@@ -40,15 +40,15 @@
       "text": ""
     },
     "description": [
-      "<h2>Energy Draino</h2>",
-      "<hr/>",
-      "<task task=\"5217531A148059EF\" quest=\"Any Energy Discharger\"/>",
-      "<hr/>",
-      "This machine allows you to drain the energy found inside of any energy holding item that supports extraction.",
-      "<br/>",
-      "It'll store the energy in an internal buffer, and allows you to extract it to distribute into your nearby machines.",
-      "<hr/>",
-      "<reward reward=\"765EC647D774674C\" quest=\"Any Energy Discharger\"/>"
+      "---",
+      "",
+      "## Energy Draino",
+      "",
+      "  This machine allows you to drain the energy found inside of any energy holding item that supports extraction.",
+      "",
+      "  It'll store the energy in an internal buffer, and allows you to extract it to distribute into your nearby machines.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

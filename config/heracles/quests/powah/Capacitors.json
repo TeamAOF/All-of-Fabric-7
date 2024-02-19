@@ -61,8 +61,7 @@
       "text": ""
     },
     "description": [
-      "<img src=\"powah:textures/item/capacitor_basic.png\" width=\"32\" height=\"32\"/>",
-      "Foo"
+      "<item id=\"powah:capacitor_basic\" scale=\"4\" />"
     ],
     "groups": {
       "Powah": {

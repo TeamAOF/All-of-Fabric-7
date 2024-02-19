@@ -24,13 +24,13 @@
       "text": ""
     },
     "description": [
-      "<h2>Bring on da Heat!</h2>",
-      "<hr/>",
-      "<task task=\"29E65C4BDBDF7F65\" quest=\"Any Thermo Generator\"/>",
-      "<hr/>",
-      "This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant.",
-      "<hr/>",
-      "<reward reward=\"0C62EE01DB5CE5B5\" quest=\"Any Thermo Generator\"/>"
+      "---",
+      "",
+      "## Bring on da Heat!",
+      "",
+      "  This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

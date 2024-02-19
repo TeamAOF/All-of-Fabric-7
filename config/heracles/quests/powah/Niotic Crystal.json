@@ -46,13 +46,13 @@
       "text": ""
     },
     "description": [
-      "<h2>Blue Crystals :)</h2>",
-      "<hr/>",
-      "<task task=\"40F2DC6B69FD7D07\" quest=\"Niotic Crystal\"/>",
-      "<hr/>",
-      "Niotic crystals are made from Diamonds, and are a key component for the Niotic tier of machines",
-      "<hr/>",
-      "<reward reward=\"2F4802C8A8F47A08\" quest=\"Niotic Crystal\"/>"
+      "---",
+      "",
+      "## Blue Crystals :)",
+      "",
+      "  Niotic crystals are made from Diamonds, and are a key component for the Niotic tier of machines",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

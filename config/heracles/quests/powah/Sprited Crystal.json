@@ -46,13 +46,13 @@
       "text": ""
     },
     "description": [
-      "<h2>I thought Spirits were blue</h2>",
-      "<hr/>",
-      "<task task=\"151572FE22F1BD41\" quest=\"Sprited Crystal\"/>",
-      "<hr/>",
-      "This resource uses emeralds, and is necessary for the Spirited level of machines",
-      "<hr/>",
-      "<reward reward=\"61F58E9782C28446\" quest=\"Sprited Crystal\"/>"
+      "---",
+      "",
+      "## I thought Spirits were blue",
+      "",
+      "  This resource uses emeralds, and is necessary for the Spirited level of machines",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

@@ -46,13 +46,13 @@
       "text": ""
     },
     "description": [
-      "<h2>Now only $2.99!</h2>",
-      "<hr/>",
-      "<task task=\"0FA248D18B3B6AB8\" quest=\"Nitro Crystal\"/>",
-      "<hr/>",
-      "Nitro crystals are materials required for the highest tier of machinery, Nitro, and are made with Nether Stars and redstone. If used properly they will also enable you to use animated emojis in chat.",
-      "<hr/>",
-      "<reward reward=\"6282C39A0E7F5D3D\" quest=\"Nitro Crystal\"/>"
+      "---",
+      "",
+      "## Now only $2.99!",
+      "",
+      "  Nitro crystals are materials required for the highest tier of machinery, Nitro, and are made with Nether Stars and redstone. If used properly they will also enable you to use animated emojis in chat.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

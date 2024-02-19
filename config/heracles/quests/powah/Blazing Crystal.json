@@ -46,13 +46,13 @@
       "text": ""
     },
     "description": [
-      "<hr/>",
+      "---",
+      "",
       "<item id=\"powah:crystal_blazing\" scale=\"4\"/>",
-      "<hr/>",
-      "Blazing crystals are made from a material you would never suspect: Blaze powder. Its used as the material for the blazing tier of machines",
-      "<hr/>",
-      "<task task=\"5907F70C58C684D5\" quest=\"Blazing Crystal\"/>",
-      "<hr/>"
+      "",
+      "  Blazing crystals are made from a material you would never suspect: Blaze powder. Its used as the material for the blazing tier of --Powah!-- machines and equipment.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

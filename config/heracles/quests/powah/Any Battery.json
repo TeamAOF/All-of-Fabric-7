@@ -66,13 +66,13 @@
       "text": ""
     },
     "description": [
-      "<h2>The power of the sun in the palm of my hand</h2>",
-      "<hr/>",
-      "<task task=\"7C11C6028FA55AD5\" quest=\"Any Battery\"/>",
-      "<hr/>",
-      "While there aren't many inventory items in Powah that require energy, the batteries from Powah are quite helpful in helping you power your tools from other mods, like Industrial Revolution or Tech Reborn.",
-      "<hr/>",
-      "<reward reward=\"65518AA5E8ECF7D0\" quest=\"Any Battery\"/>"
+      "---",
+      "",
+      "## The power of the sun in the palm of my hand",
+      "",
+      "  While there aren't many inventory items in Powah that require energy, the batteries from Powah are quite helpful in helping you power your tools from other mods, like Industrial Revolution or Tech Reborn.",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {

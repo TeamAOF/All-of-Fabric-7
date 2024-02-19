@@ -46,15 +46,15 @@
       "text": ""
     },
     "description": [
-      "<h2>Downloading...</h2>",
-      "<hr/>",
-      "<task task=\"2D1D8A371C3653DE\" quest=\"Any Ender Gate\"/>",
-      "<hr/>",
-      "The Ender gate is an item that allows you to tap into you ender network to input or output energy.",
-      "<br/>",
-      "Its cheaper than ender cells, making it better for transfer to your machines, but doesn't have an internal capacity so it will not increase your ender network's capacity",
-      "<hr/>",
-      "<reward reward=\"5EC7F4DF91964C90\" quest=\"Any Ender Gate\"/>"
+      "---",
+      "",
+      "## Downloading...",
+      "",
+      "  The Ender gate is an item that allows you to tap into you ender network to input or output energy.",
+      "",
+      "  Its cheaper than ender cells, making it better for transfer to your machines, but doesn't have an internal capacity so it will not increase your ender network's capacity",
+      "",
+      "---"
     ],
     "groups": {
       "Powah": {
