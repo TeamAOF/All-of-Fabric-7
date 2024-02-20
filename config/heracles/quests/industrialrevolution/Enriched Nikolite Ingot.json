@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Enriched Nikolite Dust"
+  ],
+  "tasks": {
+    "Enriched Nikolite Ingot": {
+      "type": "heracles:item",
+      "item": "indrev:enriched_nikolite_ingot",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2F78EABB9CDE6439": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:enriched_nikolite_ingot",
+        "count": 2,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"Enriched Nikolite Ingot\" quest=\"Enriched Nikolite Ingot\"/>",
+      "<hr/>",
+      "The pinnacle of nikolite refinement, the best machinery can be made with this.",
+      "<hr/>",
+      "<reward reward=\"2F78EABB9CDE6439\" quest=\"Enriched Nikolite Ingot\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          32,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:enriched_nikolite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enriched Nikolite Ingot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

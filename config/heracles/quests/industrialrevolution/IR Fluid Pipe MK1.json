@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "IR Servos"
+  ],
+  "tasks": {
+    "3D0B6ABE07C06658": {
+      "type": "heracles:item",
+      "item": "indrev:fluid_pipe_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "03D83DCD6EDF3D49": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:fluid_pipe_mk1",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Fluid pipes can be used to transfer fluids between tanks far apart."
+    },
+    "description": [
+      "<h2>Fluid pipes can be used to transfer fluids between tanks far apart.</h2>",
+      "<hr/>",
+      "<task task=\"3D0B6ABE07C06658\" quest=\"IR Fluid Pipe MK1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"03D83DCD6EDF3D49\" quest=\"IR Fluid Pipe MK1\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -352,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:fluid_pipe_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Pipe MK1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

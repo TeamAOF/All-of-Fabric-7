@@ -1,0 +1,146 @@
+{
+  "dependencies": [
+    "Modular Chestplate",
+    "Modular Helmet",
+    "IR Battery",
+    "IR Charge Pad MK4",
+    "Nikolite Ingot",
+    "IR Enhancers",
+    "IR Factory Components",
+    "IR Electric Furnace Factory MK4",
+    "Modular Workbench MK4",
+    "IR Ore Multiplication",
+    "Wither Proof Obsidian",
+    "IR Item Pipe MK2",
+    "Poor Mans Compressor",
+    "IR Item Pipe MK3",
+    "Modular Boots",
+    "IR Item Pipe MK4",
+    "IR Heat Gen MK4",
+    "IR Item Pipe MK1",
+    "Circuit MK1",
+    "Circuit MK2",
+    "Circuit MK3",
+    "Circuit MK4",
+    "Welcome to the Revolution",
+    "IR Farming",
+    "IR Servos",
+    "IR Solid Infuser MK1",
+    "Modular Leggings",
+    "IR Energy Reader",
+    "IR Fluid Infuser MK1",
+    "IR Drain and Pump MK1",
+    "Steel Plate from IR",
+    "IR Biomass Gen MK3",
+    "IR Pulverizer Factory MK4",
+    "IR Solid Infuser Factory MK4",
+    "IR Cable MK4",
+    "IR Cable MK3",
+    "IR Compressor MK1",
+    "IR Cable MK2",
+    "IR Compressor Factory MK4",
+    "IR Cable MK1",
+    "IR Fluid Pipe MK1",
+    "IR Fluid Pipe MK2",
+    "IR Machine Block",
+    "Modular Mining Drill",
+    "Enriched Nikolite Ingot",
+    "Configurability",
+    "IR Fluid Pipe MK3",
+    "IR Fluid Pipe MK4",
+    "IR Drill Bottom",
+    "IR needs only the best diamonds",
+    "IR Pulverizer MK1",
+    "IR Coal Gen MK1",
+    "Charging the Core",
+    "Nikolite Dust",
+    "IR Recycler MK2",
+    "IR Empty Enhancer",
+    "Enriched Nikolite Dust",
+    "Modular Core Activated",
+    "IR Fisher MK4",
+    "Gamer Axe",
+    "IR Fisher MK3",
+    "IR Fisher MK2",
+    "IR Sawmill MK1",
+    "IR Solar Gen MK3",
+    "IR Solar Gen MK1",
+    "IR Tier Upgrade MK2",
+    "IR Tier Upgrade MK4",
+    "IR Tier Upgrade MK3"
+  ],
+  "tasks": {
+    "28FBE0DAB8D6BF8F": {
+      "title": "&bIndustrial Revolution 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "47349A13BACC591D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:indrev"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"28FBE0DAB8D6BF8F\" quest=\"Complete IndRev\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"47349A13BACC591D\" quest=\"Complete IndRev\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -128,
+          -320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Industrial Revolution 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

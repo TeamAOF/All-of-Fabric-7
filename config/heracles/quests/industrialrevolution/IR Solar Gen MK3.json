@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "IR Solar Gen MK1"
+  ],
+  "tasks": {
+    "69D934CCE991022B": {
+      "type": "heracles:item",
+      "item": "indrev:solar_generator_mk3",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "14A566B17F4B8DE1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:solar_generator_mk3",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Will generate energy as long as the sunlight can reach it."
+    },
+    "description": [
+      "<h2>Will generate energy as long as the sunlight can reach it.</h2>",
+      "<hr/>",
+      "<task task=\"69D934CCE991022B\" quest=\"IR Solar Gen MK3\"/>",
+      "<hr/>",
+      "An improved version of the regular solar generator.",
+      "<hr/>",
+      "<reward reward=\"14A566B17F4B8DE1\" quest=\"IR Solar Gen MK3\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -352,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:solar_generator_mk3",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Generator MK3"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

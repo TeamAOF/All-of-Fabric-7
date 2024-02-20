@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "IR Recycler MK2"
+  ],
+  "tasks": {
+    "79C357A391B887D6": {
+      "type": "heracles:item",
+      "item": "indrev:biomass_generator_mk3",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3FEA619A9B299655": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:biomass",
+        "count": 8,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This is probably what you are looking for in terms of energy creation."
+    },
+    "description": [
+      "<h2>This is probably what you are looking for in terms of energy creation.</h2>",
+      "<hr/>",
+      "<task task=\"79C357A391B887D6\" quest=\"IR Biomass Gen MK3\"/>",
+      "<hr/>",
+      "Will burn biomass to generate energy at a significant rate, a simple crop farm can keep your energy system fed with no problems.",
+      "<hr/>",
+      "<reward reward=\"3FEA619A9B299655\" quest=\"IR Biomass Gen MK3\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:biomass_generator_mk3",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Biomass Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
