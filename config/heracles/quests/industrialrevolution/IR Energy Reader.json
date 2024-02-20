@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "Circuit MK1"
+  ],
+  "tasks": {
+    "32475889E503F43A": {
+      "type": "heracles:item",
+      "item": "indrev:energy_reader",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "06C0F4DB51EB6ABC": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:battery",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Tells you the current stored energy in machines and, in some machines, also tells the energy consumption per tick."
+    },
+    "description": [
+      "<h2>Tells you the current stored energy in machines and, in some machines, also tells the energy consumption per tick.</h2>",
+      "<hr/>",
+      "<task task=\"32475889E503F43A\" quest=\"IR Energy Reader\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"06C0F4DB51EB6ABC\" quest=\"IR Energy Reader\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -176,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:energy_reader",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Reader"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

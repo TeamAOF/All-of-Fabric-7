@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Circuit MK4"
+  ],
+  "tasks": {
+    "0D4A3AF2AE73BE76": {
+      "type": "heracles:item",
+      "item": "indrev:tier_upgrade_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "07F13B3B745111E0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:circuit_mk4",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrades MK3 machines to MK4."
+    },
+    "description": [
+      "<h2>Upgrades MK3 machines to MK4.</h2>",
+      "<hr/>",
+      "<task task=\"0D4A3AF2AE73BE76\" quest=\"IR Tier Upgrade MK4\"/>",
+      "<hr/>",
+      "These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it.",
+      "<hr/>",
+      "<reward reward=\"07F13B3B745111E0\" quest=\"IR Tier Upgrade MK4\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          0,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:tier_upgrade_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MK4 Machine Upgrade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

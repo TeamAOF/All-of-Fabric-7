@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Circuit MK4"
+  ],
+  "tasks": {
+    "76A9AC313BDD324B": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_plate",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "37847037A012D05C": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 4,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"76A9AC313BDD324B\" quest=\"Steel Plate from IR\"/>",
+      "<hr/>",
+      "Steel plates are necessary for the best machines.",
+      "<hr/>",
+      "<reward reward=\"37847037A012D05C\" quest=\"Steel Plate from IR\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          96,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Plates"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "IR Ore Multiplication"
+  ],
+  "tasks": {
+    "indrev_wither_proof_obsidian": {
+      "type": "heracles:item",
+      "item": "indrev:wither_proof_obsidian",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "wither_obsidian_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:wither_proof_obsidian",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"indrev_wither_proof_obsidian\" quest=\"Wither Proof Obsidian\"/>",
+      "<hr/>",
+      "Now that you can melt iron into a liquid you can reinforce obsidian to be wither proof, this will reduce the risk of any accidents.",
+      "<hr/>",
+      "<reward reward=\"wither_obsidian_reward\" quest=\"Wither Proof Obsidian\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          64,
+          -275
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:wither_proof_obsidian",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wither Proof Obsidian"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

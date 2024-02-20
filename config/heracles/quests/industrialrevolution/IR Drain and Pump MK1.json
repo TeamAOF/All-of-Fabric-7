@@ -1,0 +1,109 @@
+{
+  "dependencies": [
+    "Circuit MK1"
+  ],
+  "tasks": {
+    "6DA81FA2745A4BFE": {
+      "type": "heracles:item",
+      "item": "indrev:pump_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "425233ED2C940E6D": {
+      "type": "heracles:item",
+      "item": "indrev:drain_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "19808F09D6FE3E09": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:tank",
+        "count": 4,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to pump fluids placed in the world into fluid pipes and tanks."
+    },
+    "description": [
+      "<h2>Used to pump fluids placed in the world into fluid pipes and tanks.</h2>",
+      "<hr/>",
+      "<task task=\"6DA81FA2745A4BFE\" quest=\"IR Drain and Pump MK1\"/>",
+      "<task task=\"425233ED2C940E6D\" quest=\"IR Drain and Pump MK1\"/>",
+      "<hr/>",
+      "Usage: You must input energy from the top and take the fluid from the side it is facing.",
+      "<br/>",
+      "After receiving energy, it will drop down a pipe looking for fluids to pump.",
+      "<br/>",
+      "There is no hard limit, except for the fluid's physics.",
+      "<br/>",
+      "As long as there is fluid touching the pump's pipe, source or not, it will look for a source block to pump.",
+      "<br/>",
+      "This means it can be used to drain lava lakes from the Nether.",
+      "<br/>",
+      "The drain is like a reverse pump it will absorb fluid above itself which can then be piped into a tank, it makes for a really simple infinite water setup.",
+      "<hr/>",
+      "<reward reward=\"19808F09D6FE3E09\" quest=\"IR Drain and Pump MK1\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -144,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:pump_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pumping"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

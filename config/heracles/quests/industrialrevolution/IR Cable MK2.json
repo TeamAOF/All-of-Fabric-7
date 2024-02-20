@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "IR Cable MK1"
+  ],
+  "tasks": {
+    "57EABDF07EE79675": {
+      "type": "heracles:item",
+      "item": "indrev:cable_mk2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "07707A91F2F393DF": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:cable_mk2",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"57EABDF07EE79675\" quest=\"IR Cable MK2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"07707A91F2F393DF\" quest=\"IR Cable MK2\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -400,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:cable_mk2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cable MK2"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

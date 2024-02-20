@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "IR Solid Infuser MK1"
+  ],
+  "tasks": {
+    "7A11B4D7826DE872": {
+      "type": "heracles:item",
+      "item": "indrev:nikolite_ingot",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "16F4C873564D448B": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:nikolite_ingot",
+        "count": 4,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7A11B4D7826DE872\" quest=\"Nikolite Ingot\"/>",
+      "<hr/>",
+      "Nikolite ingots are a slightly more refined version of nikolite, with it MK2 upgrades are now available.",
+      "<hr/>",
+      "<reward reward=\"16F4C873564D448B\" quest=\"Nikolite Ingot\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -96,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:nikolite_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nikolite Ingot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

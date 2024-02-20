@@ -1,0 +1,152 @@
+{
+  "dependencies": [
+    "IR Machine Block"
+  ],
+  "tasks": {
+    "26E28715D93D8084": {
+      "type": "heracles:item",
+      "item": "indrev:rancher_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7FB3E7F7BD760904": {
+      "type": "heracles:item",
+      "item": "indrev:farmer_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "69782A1D5B774112": {
+      "type": "heracles:item",
+      "item": "indrev:slaughter_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "786D0D6A0CA678EB": {
+      "type": "heracles:item",
+      "item": "indrev:chopper_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3E53C278EB695099": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:machine_block",
+        "count": 4,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Note that it requires some items for it to function: (put them in the 2x2 square)"
+    },
+    "description": [
+      "<h2>Note that it requires some items for it to function: (put them in the 2x2 square)</h2>",
+      "<hr/>",
+      "<task task=\"786D0D6A0CA678EB\" quest=\"IR Farming\"/>",
+      "<task task=\"7FB3E7F7BD760904\" quest=\"IR Farming\"/>",
+      "<task task=\"69782A1D5B774112\" quest=\"IR Farming\"/>",
+      "<task task=\"26E28715D93D8084\" quest=\"IR Farming\"/>",
+      "<hr/>",
+      "Chopper is a machine focused in automating wood farming, and it also supports enhancement upgrades.",
+      "<br/>",
+      "> Axe: if present in the inventory, will retrieve any wood and leaves in range (leaves will not consume durability)",
+      "<br/>",
+      "> Sapling: if present in the inventory, will be planted in every block possible inside its range.",
+      "<br/>",
+      "> Bone meal: will be applied to any saplings inside its range.",
+      "<br/>",
+      "Farmer is a machine focused in crop farming, and it also supports enhancement upgrades.",
+      "<br/>",
+      "> Seeds: if present will be planted in the farmer's range. Note that it will try to match a crop and its seeds so you can use multiple crops.",
+      "<br/>",
+      "> Bone meal: if present, will fertilize any crops possible within range.",
+      "<br/>",
+      "Rancher is a machine focused in automating animal farming, and it also supports enhancement upgrades.",
+      "<br/>",
+      "> Sword: if present in the inventory, will kill animals if there are more than 7 in its range.",
+      "<br/>",
+      "> Wheat/Seed/Carrot: if present in the inventory, will be fed to the respective animals in its range.",
+      "<br/>",
+      "Bucket: if present in the inventory, will collect milk from cows.",
+      "<hr/>",
+      "<reward reward=\"3E53C278EB695099\" quest=\"IR Farming\"/>"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -304,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "piercingpaxels:iron_paxel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Farming"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
