@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "Clotted Cream",
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "fresh_chocolate": {
+      "type": "heracles:item",
+      "item": "spectrum:fresh_chocolate",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "fresh_chocolate_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:fresh_chocolate",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A delicious little treat but can also be used for other foods"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -475,
+          -330
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:fresh_chocolate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fresh Chocolate"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

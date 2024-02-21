@@ -1,0 +1,214 @@
+{
+  "dependencies": [
+    "Jade Ingredients"
+  ],
+  "tasks": {
+    "weeping_tart": {
+      "type": "heracles:item",
+      "item": "spectrum:weeping_tart",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "salted_trifle": {
+      "type": "heracles:item",
+      "item": "spectrum:salted_jaramel_trifle",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "ashen_tart": {
+      "type": "heracles:item",
+      "item": "spectrum:ashen_tart",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "whispy_tart": {
+      "type": "heracles:item",
+      "item": "spectrum:whispy_tart",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "jaramel_tart": {
+      "type": "heracles:item",
+      "item": "spectrum:jaramel_tart",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "salted_jaramel_tart": {
+      "type": "heracles:item",
+      "item": "spectrum:salted_jaramel_tart",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "puff_tart": {
+      "type": "heracles:item",
+      "item": "spectrum:puff_tart",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "trifle": {
+      "type": "heracles:item",
+      "item": "spectrum:jaramel_trifle",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "monster_trifle": {
+      "type": "heracles:item",
+      "item": "spectrum:monster_trifle",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "jaramel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:jaramel",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "milk": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:milk_bottle",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "egg": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:egg",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These pastries give short helpful effects depending on the topping used"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -395,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:whispy_tart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tarts and Trifles"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "dependencies": [
+    "01ABB62DDB06DB72",
+    "Titration Barrel Recipes",
+    "Deep Dark Ingredients",
+    "Spectrum"
+  ],
+  "tasks": {
+    "cream_pastry": {
+      "type": "heracles:item",
+      "item": "spectrum:cream_pastry",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rabbit_cream_pie": {
+      "type": "heracles:item",
+      "item": "spectrum:rabbit_cream_pie",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "peach_jam": {
+      "type": "heracles:item",
+      "item": "spectrum:peach_jam",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "slushslide": {
+      "type": "heracles:item",
+      "item": "spectrum:slushslide",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "berliner": {
+      "type": "heracles:item",
+      "item": "spectrum:berliner",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "fresh_chocolate": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:fresh_chocolate",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "clotted_cream": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:clotted_cream",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The second volume in a collection of recipes for the average, everyday person, this volume focuses on desserts and sweets"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -605,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:melochites_cookbook_vol_2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Melochites Cookbook Vol 2"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

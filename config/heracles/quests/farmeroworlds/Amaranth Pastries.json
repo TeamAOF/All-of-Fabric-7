@@ -1,0 +1,144 @@
+{
+  "dependencies": [
+    "00CE2107C6C46BE1",
+    "Amaranth"
+  ],
+  "tasks": {
+    "amaranth_lucky_rolls": {
+      "type": "heracles:item",
+      "item": "spectrum:lucky_roll",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "amaranth_honey_pastry": {
+      "type": "heracles:item",
+      "item": "spectrum:honey_pastry",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "amaranth_scone": {
+      "type": "heracles:item",
+      "item": "spectrum:scone",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "amaranth_star_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:star_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "amaranth_pot_pie": {
+      "type": "heracles:item",
+      "item": "spectrum:triple_meat_pot_pie",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "amaranth_pastries_reward1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:egg",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "amaranth_pastries_reward2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:amaranth_grains",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With the newly discovered grains new recipes have been unlocked at the pedestal"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -555,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:triple_meat_pot_pie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Amaranth Pastries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "COMPLETED"
+  }
+}

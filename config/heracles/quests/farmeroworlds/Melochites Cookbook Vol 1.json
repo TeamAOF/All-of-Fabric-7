@@ -1,0 +1,161 @@
+{
+  "dependencies": [
+    "01ABB62DDB06DB72",
+    "Titration Barrel Recipes",
+    "Deep Dark Ingredients",
+    "Spectrum"
+  ],
+  "tasks": {
+    "banyash": {
+      "type": "heracles:item",
+      "item": "spectrum:banyash",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meatloaf": {
+      "type": "heracles:item",
+      "item": "spectrum:meatloaf",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hare_roast": {
+      "type": "heracles:item",
+      "item": "spectrum:hare_roast",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "surstromming": {
+      "type": "heracles:item",
+      "item": "spectrum:surstromming",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meatloaf_sandwich": {
+      "type": "heracles:item",
+      "item": "spectrum:meatloaf_sandwich",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "crawfish": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:crawfish",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "clotted_cream": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:clotted_cream",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "raw_lizard": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:lizard_meat",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The first volume in a collection of recipes for the average, everyday person, this volume focuses on main dishes mainly made of meat and fish"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -605,
+          -290
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:melochites_cookbook_vol_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Melochites Cookbook Vol 1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

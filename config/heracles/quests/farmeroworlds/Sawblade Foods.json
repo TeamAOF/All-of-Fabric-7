@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "Deep Dark Ingredients",
+    "53ACD1C086D4B1DA"
+  ],
+  "tasks": {
+    "triple_meat_pot_stew": {
+      "type": "heracles:item",
+      "item": "spectrum:triple_meat_pot_stew",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "wyrmscale_jelly": {
+      "type": "heracles:item",
+      "item": "spectrum:dragonbone_broth",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These annoying flowers can still prove of some use if cooked in the right way"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -360,
+          -305
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:sawblade_holly_berry",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sawblade Foods"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

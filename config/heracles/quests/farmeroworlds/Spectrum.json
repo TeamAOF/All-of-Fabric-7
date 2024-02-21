@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "6F9B2ECCE750C280"
+  ],
+  "tasks": {
+    "fow_spectrum": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Color magic can do more than amazing gadgets and rituals, it can also be used to cook a whole new world of foods",
+      "<br/>",
+      "As you progress on Spectrum new recipes and quests will be uncovered"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -475,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:guidebook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Spectrum"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

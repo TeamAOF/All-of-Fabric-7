@@ -1,0 +1,158 @@
+{
+  "dependencies": [
+    "22E2CD17FE2A8869",
+    "Spectrum"
+  ],
+  "tasks": {
+    "citrine_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:citrine_rock_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "onyx_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:onyx_rock_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "amethyst_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:amethyst_rock_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "topaz_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:topaz_rock_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "moonstone_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:moonstone_rock_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "rock_candy": {
+      "type": "heracles:item",
+      "item": "spectrum:rock_candy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "sugar": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "liquid_crystal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:liquid_crystal_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These candies give short boosts of positive effects, the gemstone powder used will determine the effect"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -435,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:moonstone_rock_candy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rock Candy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

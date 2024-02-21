@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "1F655261AADEF7E9",
+    "Spectrum"
+  ],
+  "tasks": {
+    "enchanted_golden_carrot": {
+      "type": "heracles:item",
+      "item": "spectrum:enchanted_golden_carrot",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "egc_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:enchanted_golden_carrot",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "\"Can we have enchanted golden apples?\"",
+      "<br/>",
+      "\"We have enchanted golden apples at home\"",
+      "<br/>",
+      "Enchanted golden apples at home:"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -515,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:enchanted_golden_carrot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enchanted Golden Carrots"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

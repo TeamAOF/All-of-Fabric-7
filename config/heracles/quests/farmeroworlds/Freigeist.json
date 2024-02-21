@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "0F6E96D9C9F5EF35",
+    "Blood Orchid",
+    "6F3F4B2ADAAED3C1",
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "freigeist": {
+      "type": "heracles:item",
+      "item": "spectrum:freigeist",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "freigeist_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:stratine_gem",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Ascend into the heavens, but at what cost?"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -395,
+          -370
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:freigeist",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Freigeist"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
