@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "Jade Ingredients",
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "jade_wine": {
+      "type": "heracles:item",
+      "item": "spectrum:jade_wine",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "jade_wine_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:germinated_jade_vine_bulb",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "jade_wine_reward2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:jade_vine_petals",
+        "count": 12
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Extra bulbs or petals speed fermentation, moonstruck nectar can be used to sweeten it"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -515,
+          -370
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:jade_wine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Jade Wine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

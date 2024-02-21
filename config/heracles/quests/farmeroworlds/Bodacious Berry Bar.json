@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Clotted Cream",
+    "Fresh Chocolate",
+    "Spectrum"
+  ],
+  "tasks": {
+    "bodacious_berry_bar": {
+      "type": "heracles:item",
+      "item": "spectrum:bodacious_berry_bar",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bodacious_berry_bar_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:bodacious_berry_bar",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The ultimate chocolate bar"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -475,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:bodacious_berry_bar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bodacious Berry Bar"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "dependencies": [
+    "421BF4C4A342DD80",
+    "6A5C85C0D60E2D44",
+    "Spectrum"
+  ],
+  "tasks": {
+    "sawblade_holly_berry": {
+      "type": "heracles:item",
+      "item": "spectrum:sawblade_holly_berry",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "myceylon": {
+      "type": "heracles:item",
+      "item": "spectrum:myceylon",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "glass_peach": {
+      "type": "heracles:item",
+      "item": "spectrum:glass_peach",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "prickly_bayleaf": {
+      "type": "heracles:item",
+      "item": "spectrum:prickly_bayleaf",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "aloe": {
+      "type": "heracles:item",
+      "item": "spectrum:aloe_leaf",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "lizard_meat": {
+      "type": "heracles:item",
+      "item": "spectrum:lizard_meat",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "chestnut": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:chestnut_noxshroom",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "lizard_meat": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:lizard_meat",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A whole new world of unique ingredients has opened to you deep below",
+      "<br/>",
+      "A small tip for lizard meat, they live inside certain rock formations in pyrite biomes, they are vicious but maybe some sweet meat can convince them not to eat you?"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -395,
+          -290
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:aloe_leaf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Deep Dark Ingredients"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

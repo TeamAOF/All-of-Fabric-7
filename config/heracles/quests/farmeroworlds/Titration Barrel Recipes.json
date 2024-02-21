@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "6D9E0A35748F36F8",
+    "Spectrum"
+  ],
+  "tasks": {
+    "fow_barrel": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are dozens of foods and drinks that can be made in the titration barrel, simply put the ingredients in and seal with the planks of a colored tree",
+      "<br/>",
+      "The recipes take real life hours so make multiple barrels to cook everything at once"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -475,
+          -290
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:titration_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Titration Barrel Recipes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
