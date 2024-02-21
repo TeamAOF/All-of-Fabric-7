@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "00CE2107C6C46BE1",
+    "Spectrum"
+  ],
+  "tasks": {
+    "fow_amaranth": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:collect_amaranth"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "fow_amaranth_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:amaranth_grains",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Amaranth, an ancient plant somehow still alive as if no time has passed, you can plant it to get more grains, with them many new recipes are now available to you"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -515,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:amaranth_grains",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Amaranth"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

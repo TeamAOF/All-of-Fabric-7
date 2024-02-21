@@ -1,0 +1,104 @@
+{
+  "dependencies": [
+    "Jade Ingredients",
+    "6ACFFCD1F7A32369",
+    "Clotted Cream",
+    "Fresh Chocolate",
+    "Spectrum"
+  ],
+  "tasks": {
+    "jelly_tea": {
+      "type": "heracles:item",
+      "item": "spectrum:glistering_jelly_tea",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "restorative_tea": {
+      "type": "heracles:item",
+      "item": "spectrum:restoration_tea",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hot_chocolate": {
+      "type": "heracles:item",
+      "item": "spectrum:hot_chocolate",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mermaids_gem": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:mermaids_gem",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Your new potion workshop isn't used just for potions, it can also make some drinks"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -515,
+          -210
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:glistering_jelly_tea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tea and Chocolate"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

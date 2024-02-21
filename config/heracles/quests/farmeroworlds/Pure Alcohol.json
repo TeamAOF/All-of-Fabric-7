@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "pure_alcohol": {
+      "type": "heracles:item",
+      "item": "spectrum:pure_alcohol",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "pure_alcohol_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:enchanted_golden_apple",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You know this isn't meant for consumption? Right?"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -435,
+          -370
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:pure_alcohol",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pure Alcohol"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
