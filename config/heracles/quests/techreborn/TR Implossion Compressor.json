@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Machine Frame",
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "4B8E24B498553034": {
+      "type": "heracles:item",
+      "item": "techreborn:implosion_compressor"
+    }
+  },
+  "rewards": {
+    "37C5541E50D1637C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:implosion_compressor",
+    "description": [
+      "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
+      "<hr/>",
+      "<task task=\"4B8E24B498553034\" quest=\"TR Implossion Compressor\"/>",
+      "<hr/>",
+      "Uses the raw power of TNT to make items.",
+      "<br/>",
+      "It is a multi-block machine with 64k energy buffer and 64 Et input rate.",
+      "<br/>",
+      "The Implosion Compressor multi-block has 3 layers:",
+      "<br/>",
+      "The first layer contains 9x Advanced Machine Casing.",
+      "<br/>",
+      "The second layer containts have 8x Advanced Machine Casing with a hole in the centre.",
+      "<br/>",
+      "The third layer is the same as the first layer.",
+      "<br/>",
+      "Put the Implosion Compressor on the top and provide some energy to it.",
+      "<br/>",
+      "Check REI for usages.",
+      "<hr/>",
+      "<reward reward=\"37C5541E50D1637C\" quest=\"TR Implossion Compressor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:implosion_compressor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Requires Advanced Circuit and Advanced Machine Casing"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    }
+  }
+}

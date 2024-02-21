@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Industrial Circuit",
+    "TR Energy Crystal"
+  ],
+  "tasks": {
+    "5F5321382D130FEE": {
+      "type": "heracles:item",
+      "item": "techreborn:lapotron_crystal"
+    }
+  },
+  "rewards": {
+    "66F52C7FA3B55643": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:lapotron_crystal",
+    "description": [
+      "<h2>A portable battery used to charge items.</h2>",
+      "<hr/>",
+      "<task task=\"5F5321382D130FEE\" quest=\"TR Lapotron Crystal\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"66F52C7FA3B55643\" quest=\"TR Lapotron Crystal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:lapotron_crystal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "A portable battery used to charge items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    }
+  }
+}

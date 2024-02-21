@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Compressor"
+  ],
+  "tasks": {
+    "52D80A7455E84CD0": {
+      "type": "heracles:item",
+      "item": "techreborn:recycler"
+    },
+    "1F93FFF43FB3D3AA": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "rewards": {
+    "0ABE388E881B1D70": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>Converts any item you put into it into Scrap with a 1 in 6 chance to do so.</h2>",
+      "<hr/>",
+      "<task task=\"52D80A7455E84CD0\" quest=\"TR Recycler\"/>",
+      "<task task=\"1F93FFF43FB3D3AA\" quest=\"TR Recycler\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0ABE388E881B1D70\" quest=\"TR Recycler\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:scrapboxinator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Converts any item you put into it into Scrap with a 1 in 6 chance to do so."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -128,
+          -240
+        ]
+      }
+    }
+  }
+}

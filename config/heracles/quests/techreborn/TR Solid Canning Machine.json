@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Basic Machine Frame"
+  ],
+  "tasks": {
+    "38BBB88A75EE8CE6": {
+      "type": "heracles:item",
+      "item": "techreborn:solid_canning_machine"
+    }
+  },
+  "rewards": {
+    "6A47EFC488B6A545": {
+      "type": "heracles:item",
+      "item": {
+        "id": "techreborn:compressed_plantball"
+      }
+    },
+    "120BD0D100BD0285": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:solid_canning_machine",
+    "description": [
+      "<h2>Lets you put items in cells</h2>",
+      "<hr/>",
+      "<task task=\"38BBB88A75EE8CE6\" quest=\"TR Solid Canning Machine\"/>",
+      "<hr/>",
+      "Usefull if you want to go bio-fuel way",
+      "<hr/>",
+      "<reward reward=\"6A47EFC488B6A545\" quest=\"TR Solid Canning Machine\"/>",
+      "<reward reward=\"120BD0D100BD0285\" quest=\"TR Solid Canning Machine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:solid_canning_machine"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Lets you put items in cells"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -464,
+          -112
+        ]
+      }
+    }
+  }
+}

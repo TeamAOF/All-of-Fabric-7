@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Electronic Circuit"
+  ],
+  "tasks": {
+    "2FAE9FB5822A811F": {
+      "type": "heracles:item",
+      "item": "techreborn:overclocker_upgrade"
+    }
+  },
+  "rewards": {
+    "4881E2C5527A9553": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:overclocker_upgrade",
+    "description": [
+      "<h2>Increases the speed of TR machines</h2>",
+      "<hr/>",
+      "<task task=\"2FAE9FB5822A811F\" quest=\"TR Overclocker Upgrade\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4881E2C5527A9553\" quest=\"TR Overclocker Upgrade\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:overclocker_upgrade"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Increases the speed of TR machines"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -432,
+          160
+        ]
+      }
+    }
+  }
+}

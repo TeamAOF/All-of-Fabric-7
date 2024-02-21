@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Refined Iron Ingot"
+  ],
+  "tasks": {
+    "3CDA28D204483620": {
+      "type": "heracles:item",
+      "item": "techreborn:alarm"
+    }
+  },
+  "rewards": {
+    "20A06AADE98CDC98": {
+      "type": "heracles:item",
+      "item": {
+        "id": "vanilla-hammers:stone_hammer",
+        "count": 1
+      }
+    },
+    "7B014F52554B0474": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:alarm",
+    "description": [
+      "<h2>Main purpose is to emit sound when given a red-stone signal.</h2>",
+      "<hr/>",
+      "<task task=\"3CDA28D204483620\" quest=\"TR Alarm\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"20A06AADE98CDC98\" quest=\"TR Alarm\"/>",
+      "<reward reward=\"7B014F52554B0474\" quest=\"TR Alarm\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:alarm"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Main purpose is to emit sound when given a red-stone signal."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -576,
+          48
+        ]
+      }
+    }
+  }
+}

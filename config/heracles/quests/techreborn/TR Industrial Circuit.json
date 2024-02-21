@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Assembly Machine"
+  ],
+  "tasks": {
+    "661A7BC5F492DE02": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_circuit"
+    }
+  },
+  "rewards": {
+    "266538E533D52FA4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_circuit",
+    "description": [
+      "<task task=\"661A7BC5F492DE02\" quest=\"TR Industrial Circuit\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"266538E533D52FA4\" quest=\"TR Industrial Circuit\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_circuit"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          0,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Distillation Tower",
+    "TR Auto Crafting Table",
+    "TR Chromium Plate",
+    "TR Industrial Solar Panel",
+    "TR Iridium Neutron Reflector",
+    "TR Gas Turbine",
+    "TR Iron Furnace",
+    "TR Industrial Electrolyzer",
+    "TR HV Transformer",
+    "TR MV Transformer",
+    "TR Ultimate Solar Panel",
+    "TR Drain",
+    "TR Chemical Reactor",
+    "TR Wind Mill",
+    "TR Vacuum Freezer",
+    "TR Chromium Ingot",
+    "TR Advanced Solar Panel",
+    "TR Energy Flow Chip",
+    "TR Basic Machine Frame",
+    "TR Adjustable SU",
+    "TR Matter Fabricator",
+    "TR Rolling Machine",
+    "TR Nichrome Heating Coil",
+    "TR Basic Machine Casing",
+    "TR Synthetic Redstone Crystal",
+    "TR Superconductor",
+    "TR Carbon Fiber",
+    "TR Wrench",
+    "TR Industrial Machine Casing",
+    "TR Cupronickel Heating Coil",
+    "TR Solid Canning Machine",
+    "TR Neutron Reflector",
+    "TR MV SU",
+    "TR Alloy Smelter",
+    "TR Lithium Ion Battery",
+    "Sap and Rubber",
+    "TR Magnalium Plate",
+    "TR Quantum Solar Panel",
+    "TR Beryllium",
+    "TR Overclocker Upgrade",
+    "TR Solid Feul Gen",
+    "TR Lightning Rod",
+    "TR Thick Neutron Reflector",
+    "Begin Tech Reborn",
+    "TR Steel Ingot",
+    "TR Data Storage Core",
+    "TR Isulated Copper Cable",
+    "Refined Iron Ingot",
+    "TR Greenhouse Controller",
+    "TR Lamp Incandescent",
+    "TR Advanced Circuit",
+    "TR Interdimensional SU",
+    "TR Coal Dust",
+    "TR Industrial Sawmill",
+    "TR Data Storage Chip",
+    "TR Scrap",
+    "TR Industrial Centrifuge",
+    "TR Scrapboxinator",
+    "TR Energy Crystal",
+    "TR Titanium Plate",
+    "TR Bronze Ingot",
+    "TR Fusion Coil",
+    "TR Advanced Machine Frame",
+    "TR Recycler",
+    "TR Grinder",
+    "TR Alarm",
+    "TR UU Matter",
+    "TR Steel Plate",
+    "TR Electric Furnace",
+    "TR HV SU",
+    "TR Advanced Alloy Plate",
+    "TR Silicon Plate",
+    "TR Fusion Control Computer",
+    "TR Resin Basin",
+    "TR Compressor",
+    "TR Lapotronic Orb",
+    "TR Basic Solar Panel",
+    "TR LV Transformer",
+    "TR Industrial Machine Frame",
+    "TR Industrial Grinder",
+    "TR Red Cell Battery",
+    "TR Scrap Box",
+    "TR Industrial Blast Furnace",
+    "TR Heliumplasma",
+    "TR Advanced Machine Casing",
+    "TR Implossion Compressor",
+    "TR Titanium Ingot",
+    "TR Plasma Gen",
+    "TR Iridium Alloy Plate",
+    "TR Diesel Gen",
+    "TR Carbon Plate",
+    "TR Electronic Circuit",
+    "TR Fluid Replicator",
+    "TR Superconductor Cable",
+    "TR Lapotronic SU",
+    "TR Cloaking Device",
+    "TR Assembly Machine",
+    "TR Dragon Egg Syphon",
+    "TR Alternative Gens",
+    "TR Extractor",
+    "TR Industrial Circuit",
+    "TR Electric Treetap",
+    "TR Tungstensteel Ingot",
+    "TR Lapotron Crystal",
+    "TR Wire Mill"
+  ],
+  "tasks": {
+    "38B384A7D8B930F4": {
+      "title": "&aTech Reborn 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5451CF4C756F3AD0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:techreborn"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§9Tech Reborn 100%",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "<hr/>",
+      "<task task=\"38B384A7D8B930F4\" quest=\"Complete Tech Reborn\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5451CF4C756F3AD0\" quest=\"Complete Tech Reborn\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          64,
+          -256
+        ]
+      }
+    }
+  }
+}

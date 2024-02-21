@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Energy Crystal"
+  ],
+  "tasks": {
+    "2519247526465D45": {
+      "type": "heracles:item",
+      "item": "techreborn:medium_voltage_su"
+    }
+  },
+  "rewards": {
+    "05F60EF26870C9A1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:medium_voltage_su",
+    "description": [
+      "<h2>A battery block that stores energy and charges items.</h2>",
+      "<hr/>",
+      "<task task=\"2519247526465D45\" quest=\"TR MV SU\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05F60EF26870C9A1\" quest=\"TR MV SU\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:medium_voltage_su"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "A battery block that stores energy and charges items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          48,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "5DDBCC5EC0F926CB": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_grinder"
+    }
+  },
+  "rewards": {
+    "6F74BDFC9D676A45": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:industrial_grinder",
+    "description": [
+      "<h2>A multi-block machine that allows better grinding of items.</h2>",
+      "<hr/>",
+      "<task task=\"5DDBCC5EC0F926CB\" quest=\"TR Industrial Grinder\"/>",
+      "<hr/>",
+      "The Industrial Grinder multi-block has 3 layers:",
+      "<br/>",
+      "The first layer consists of 9x Basic Machine Casing.",
+      "<br/>",
+      "The second layer consists of 8x Advanced Machine Casing will central hole filled with water.",
+      "<br/>",
+      "The third layer again contains 9x Basic Machine Casing.",
+      "<br/>",
+      "Attach the Industrial Grinder to the middle layer centre and connect it to a power source.",
+      "<br/>",
+      "Check REI for usages. Press the U keybind while hovering over the machine.",
+      "<hr/>",
+      "<reward reward=\"6F74BDFC9D676A45\" quest=\"TR Industrial Grinder\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_grinder"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "A multi-block machine that allows better grinding of items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -208,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "2B2EF74A9FEE0407": {
+      "type": "heracles:item",
+      "item": "techreborn:vacuum_freezer"
+    }
+  },
+  "rewards": {
+    "67C2999977F284C6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:vacuum_freezer",
+    "description": [
+      "<h2>A multi-block that can be used to craft items.</h2>",
+      "<hr/>",
+      "<task task=\"2B2EF74A9FEE0407\" quest=\"TR Vacuum Freezer\"/>",
+      "<hr/>",
+      "Has a button in the gui that can be used to show a Hologram that can help when placing the blocks.",
+      "<br/>",
+      "Note the blocks are under the vacuum freezer",
+      "<hr/>",
+      "<reward reward=\"67C2999977F284C6\" quest=\"TR Vacuum Freezer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:vacuum_freezer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "A multi-block that can be used to craft items."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Matter Fabricator"
+  ],
+  "tasks": {
+    "6025592EFF18B643": {
+      "type": "heracles:item",
+      "item": "techreborn:uu_matter"
+    }
+  },
+  "rewards": {
+    "46E794C55915CD63": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:uu_matter",
+    "description": [
+      "<h2>Made in the Matter Fabricator.</h2>",
+      "<hr/>",
+      "<task task=\"6025592EFF18B643\" quest=\"TR UU Matter\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"46E794C55915CD63\" quest=\"TR UU Matter\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:uu_matter"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Made in the Matter Fabricator."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -208,
+          -448
+        ]
+      }
+    }
+  }
+}

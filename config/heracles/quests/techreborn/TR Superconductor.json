@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Energy Flow Chip",
+    "TR Iridium Alloy Plate"
+  ],
+  "tasks": {
+    "7AD68B49A5DF06C5": {
+      "type": "heracles:item",
+      "item": "techreborn:superconductor"
+    }
+  },
+  "rewards": {
+    "099A0AEFE9B15A80": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:superconductor",
+    "description": [
+      "<task task=\"7AD68B49A5DF06C5\" quest=\"TR Superconductor\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"099A0AEFE9B15A80\" quest=\"TR Superconductor\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:superconductor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          96,
+          96
+        ]
+      }
+    }
+  }
+}

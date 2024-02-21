@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Nichrome Heating Coil Item",
+    "TR Superconductor",
+    "TR Iridium Neutron Reflector"
+  ],
+  "tasks": {
+    "3BC493B596B1CF53": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "techreborn:fusion_coil"
+    }
+  },
+  "rewards": {
+    "49A315B27D1038EC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:fusion_coil",
+    "description": [
+      "<task task=\"3BC493B596B1CF53\" quest=\"TR Fusion Coil\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"49A315B27D1038EC\" quest=\"TR Fusion Coil\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:fusion_coil"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          96,
+          144
+        ]
+      }
+    }
+  }
+}

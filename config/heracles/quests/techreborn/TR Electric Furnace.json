@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Electronic Circuit"
+  ],
+  "tasks": {
+    "67549940FC735CCB": {
+      "type": "heracles:item",
+      "item": "techreborn:electric_furnace"
+    }
+  },
+  "rewards": {
+    "7BE4757FD9082E73": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:porkchop"
+      }
+    },
+    "2FE4DE3593B741F7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:electric_furnace",
+    "description": [
+      "<h2>A machine that behaves like a Furnace, and consumes Energy instead of fuel.</h2>",
+      "<hr/>",
+      "<task task=\"67549940FC735CCB\" quest=\"TR Electric Furnace\"/>",
+      "<hr/>",
+      "To be exact, using a single piece of coal in a coal generator and 4x Overclock upgrades it lets you smelt 222 items.",
+      "<hr/>",
+      "<reward reward=\"7BE4757FD9082E73\" quest=\"TR Electric Furnace\"/>",
+      "<reward reward=\"2FE4DE3593B741F7\" quest=\"TR Electric Furnace\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:electric_furnace"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "A machine that behaves like a Furnace, and consumes Energy instead of fuel."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -384,
+          160
+        ]
+      }
+    }
+  }
+}

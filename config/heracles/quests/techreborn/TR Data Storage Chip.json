@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit",
+    "TR Data Storage Core"
+  ],
+  "tasks": {
+    "14E4CC657A935F79": {
+      "type": "heracles:item",
+      "item": "techreborn:data_storage_chip"
+    }
+  },
+  "rewards": {
+    "2614154DE8E21959": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:data_storage_chip",
+    "description": [
+      "<task task=\"14E4CC657A935F79\" quest=\"TR Data Storage Chip\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2614154DE8E21959\" quest=\"TR Data Storage Chip\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:data_storage_chip"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -224,
+          48
+        ]
+      }
+    }
+  }
+}

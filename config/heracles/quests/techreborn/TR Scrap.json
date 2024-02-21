@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Recycler"
+  ],
+  "tasks": {
+    "79FC49ED8506DD41": {
+      "type": "heracles:item",
+      "item": "techreborn:scrap"
+    }
+  },
+  "rewards": {
+    "6178B470126C805B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:scrap",
+    "description": [
+      "<h2>Made using a Recycler.</h2>",
+      "<hr/>",
+      "<task task=\"79FC49ED8506DD41\" quest=\"TR Scrap\"/>",
+      "<hr/>",
+      "You can put any items into it and with 1 in 6 chance you will have scrap produced. ",
+      "<br/>",
+      "Scrap could be crafted into Scrap Boxes or used directly in Matter Fabricator to produce UU-Matter.",
+      "<hr/>",
+      "<reward reward=\"6178B470126C805B\" quest=\"TR Scrap\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:scrap"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Made using a Recycler."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -208,
+          -304
+        ]
+      }
+    }
+  }
+}

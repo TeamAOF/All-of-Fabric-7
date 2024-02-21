@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Compressor",
+    "TR Carbon Fiber"
+  ],
+  "tasks": {
+    "1A23F77BB3A41C40": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:carbon_plate"
+    }
+  },
+  "rewards": {
+    "5456B44DA6A9FFDA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:carbon_plate",
+    "description": [
+      "<task task=\"1A23F77BB3A41C40\" quest=\"TR Carbon Plate\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5456B44DA6A9FFDA\" quest=\"TR Carbon Plate\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:carbon_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -288,
+          -240
+        ]
+      }
+    }
+  }
+}

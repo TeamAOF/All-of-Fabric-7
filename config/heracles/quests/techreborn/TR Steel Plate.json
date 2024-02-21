@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Steel Ingot"
+  ],
+  "tasks": {
+    "398FE5821788EA84": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_plate"
+    }
+  },
+  "rewards": {
+    "15FE8AFEFAFB4058": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:steel_plate",
+    "description": [
+      "<task task=\"398FE5821788EA84\" quest=\"TR Steel Plate\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"15FE8AFEFAFB4058\" quest=\"TR Steel Plate\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -240,
+          -96
+        ]
+      }
+    }
+  }
+}

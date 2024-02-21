@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Basic Machine Frame"
+  ],
+  "tasks": {
+    "06B78021AEB3A7A4": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_casing"
+    }
+  },
+  "rewards": {
+    "7CFAE1940B5CA53C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:basic_machine_casing",
+    "description": [
+      "<h2>Used to build multi-block machines.</h2>",
+      "<hr/>",
+      "<task task=\"06B78021AEB3A7A4\" quest=\"TR Basic Machine Casing\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7CFAE1940B5CA53C\" quest=\"TR Basic Machine Casing\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_casing"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Used to build multi-block machines."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -384,
+          -48
+        ]
+      }
+    }
+  }
+}

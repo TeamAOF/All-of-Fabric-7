@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Coal Dust"
+  ],
+  "tasks": {
+    "01BC807BD6E5920B": {
+      "type": "heracles:item",
+      "item": "techreborn:carbon_fiber"
+    }
+  },
+  "rewards": {
+    "6D6CEAB5D41A2077": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:carbon_fiber",
+    "description": [
+      "<h2>Used in crafting Carbon mesh.</h2>",
+      "<hr/>",
+      "<task task=\"01BC807BD6E5920B\" quest=\"TR Carbon Fiber\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6D6CEAB5D41A2077\" quest=\"TR Carbon Fiber\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:carbon_fiber"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Used in crafting Carbon mesh."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -304,
+          -304
+        ]
+      }
+    }
+  }
+}

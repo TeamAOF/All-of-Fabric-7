@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Solid Feul Gen",
+    "TR Coal Dust"
+  ],
+  "tasks": {
+    "1603F6AFE305FDFA": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_solar_panel"
+    }
+  },
+  "rewards": {
+    "219242ED3E210ECE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sunflower"
+      }
+    },
+    "2C352AC78F3A3934": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:basic_solar_panel",
+    "description": [
+      "<h2>Produces energy from sunlight.</h2>",
+      "<hr/>",
+      "<task task=\"1603F6AFE305FDFA\" quest=\"TR Basic Solar Panel\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"219242ED3E210ECE\" quest=\"TR Basic Solar Panel\"/>",
+      "<reward reward=\"2C352AC78F3A3934\" quest=\"TR Basic Solar Panel\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_solar_panel"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Produces energy from sunlight."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -400,
+          -304
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Rolling Machine",
+    "TR Chromium Ingot"
+  ],
+  "tasks": {
+    "TR Nichrome Heating Coil Item": {
+      "type": "heracles:item",
+      "item": "techreborn:nichrome_heating_coil"
+    }
+  },
+  "rewards": {
+    "37AD081EBFBF907A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:nichrome_heating_coil",
+    "description": [
+      "<task task=\"TR Nichrome Heating Coil Item\" quest=\"TR Nichrome Heating Coil\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"37AD081EBFBF907A\" quest=\"TR Nichrome Heating Coil\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:nichrome_heating_coil"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -192,
+          0
+        ]
+      }
+    }
+  }
+}

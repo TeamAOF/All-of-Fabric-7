@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Electronic Circuit"
+  ],
+  "tasks": {
+    "0492C08143ECC6A0": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_frame"
+    }
+  },
+  "rewards": {
+    "5FD3F1A871ACA957": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:basic_machine_frame",
+    "description": [
+      "<h2>Used to build basic machines.</h2>",
+      "<hr/>",
+      "<task task=\"0492C08143ECC6A0\" quest=\"TR Basic Machine Frame\"/>",
+      "<hr/>",
+      "NOTE: Before having access to a Compressor, you'll need to use the Forge Hammer from MI to craft plates of said kind.",
+      "<hr/>",
+      "<reward reward=\"5FD3F1A871ACA957\" quest=\"TR Basic Machine Frame\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_frame"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Used to build basic machines."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -432,
+          -48
+        ]
+      }
+    }
+  }
+}

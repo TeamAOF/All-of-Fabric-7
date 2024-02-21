@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR MV Transformer"
+  ],
+  "tasks": {
+    "5626555AE3596C5E": {
+      "type": "heracles:item",
+      "item": "techreborn:hv_transformer"
+    }
+  },
+  "rewards": {
+    "5D56CC330D53CE6F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:hv_transformer",
+    "description": [
+      "<h2>Converts energy from Extreme to High tier.</h2>",
+      "<hr/>",
+      "<task task=\"5626555AE3596C5E\" quest=\"TR HV Transformer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5D56CC330D53CE6F\" quest=\"TR HV Transformer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:hv_transformer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "subtitle": {
+      "text": "Converts energy from Extreme to High tier."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -464,
+          -400
+        ]
+      }
+    }
+  }
+}
