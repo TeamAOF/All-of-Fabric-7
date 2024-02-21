@@ -1,6 +1,22 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "Get Beer": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {"Variant":"beer"},
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Beer",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

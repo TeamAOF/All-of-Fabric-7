@@ -1,6 +1,22 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "Get Enchanted Apple Cider": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {"Variant":"enchanted_apple_cider"},
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Enchanted Apple Cider",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

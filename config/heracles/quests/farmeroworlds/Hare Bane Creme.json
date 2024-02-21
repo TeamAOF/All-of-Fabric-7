@@ -1,6 +1,22 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "Get Hare Bane Creme": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {"Variant":"hare_bane_creme"},
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Hare Bane Creme",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

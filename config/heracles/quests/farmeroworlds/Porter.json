@@ -1,6 +1,22 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "Get Porter": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {"Variant":"porter"},
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Porter",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

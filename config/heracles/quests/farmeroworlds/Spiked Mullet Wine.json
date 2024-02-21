@@ -1,6 +1,22 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "Get Spiked Mullet Wine": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {"Variant":"spiked_mullet_wine"},
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Spiked Mullet Wine",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

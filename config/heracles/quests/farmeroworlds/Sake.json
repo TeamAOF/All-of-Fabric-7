@@ -1,12 +1,30 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "Get Sake": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+			"nbt": {"Variant":"sake"},
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Sake",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
