@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "3DE03D1D2B4BC9D0",
+    "Spectrum"
+  ],
+  "tasks": {
+    "fow_jaramel": {
+      "type": "heracles:item",
+      "item": "spectrum:jaramel",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fow_jade_petals": {
+      "type": "heracles:item",
+      "item": "spectrum:jade_vine_petals",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fow_jade_jelly": {
+      "type": "heracles:item",
+      "item": "spectrum:jade_jelly",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fow_moonstruck_nectar": {
+      "type": "heracles:item",
+      "item": "spectrum:moonstruck_nectar",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With your new jade plant you can now get some very useful new ingredients"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -435,
+          -250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:jade_jelly",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Jade Ingredients"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

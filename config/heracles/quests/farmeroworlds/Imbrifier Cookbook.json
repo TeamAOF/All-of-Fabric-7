@@ -1,0 +1,161 @@
+{
+  "dependencies": [
+    "01ABB62DDB06DB72",
+    "Titration Barrel Recipes",
+    "Deep Dark Ingredients",
+    "Spectrum"
+  ],
+  "tasks": {
+    "aqua_regia": {
+      "type": "heracles:item",
+      "item": "spectrum:aqua_regia",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "mellow_shallot_soup": {
+      "type": "heracles:item",
+      "item": "spectrum:mellow_shallot_soup",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "fish_cake": {
+      "type": "heracles:item",
+      "item": "spectrum:fishcake",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "crawfish_cocktail": {
+      "type": "heracles:item",
+      "item": "spectrum:crawfish_cocktail",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bagnun": {
+      "type": "heracles:item",
+      "item": "spectrum:bagnun",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "crawfish": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:crawfish",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "jadeite_petal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:jadeite_petals",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "jadeite_lotus": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:jadeite_lotus_bulb",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of some of the most prestigious recipes of the forgotten civilization of the Deep Dark"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -605,
+          -350
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:imbrifer_cookbook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Imbrifier Cookbook"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

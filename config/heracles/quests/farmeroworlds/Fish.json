@@ -1,0 +1,98 @@
+{
+  "dependencies": [
+    "0F6E96D9C9F5EF35",
+    "Spectrum"
+  ],
+  "tasks": {
+    "crawfish": {
+      "type": "heracles:item",
+      "item": "spectrum:crawfish",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "koi": {
+      "type": "heracles:item",
+      "item": "spectrum:koi",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "fishing_rod": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:lagoon_rod",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 3,
+              "id": "minecraft:lure"
+            }
+          ],
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Crawfish: Considered by many to be a water roach, must live in a filthy place",
+      "<br/>",
+      "Koi: Such a regal fish must live somewhere delicate and unique"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -435,
+          -210
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:koi",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fish"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}
