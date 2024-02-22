@@ -1,49 +1,55 @@
 {
-  "settings": {},
   "dependencies": [
     "Adventures and Mysteries"
   ],
   "tasks": {
     "4B47C614D6F2C796": {
       "icon": {
-        "type": "heracles:item",
-        "item": "the_bumblezone:bee_queen_spawn_egg"
+        "item": {
+          "id": "the_bumblezone:bee_queen_spawn_egg",
+          "count": 1
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:changed_dimension",
       "from": "minecraft:overworld",
-      "to": "the_bumblezone:the_bumblezone"
+      "to": "the_bumblezone:the_bumblezone",
+      "title": "",
+      "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "265BD5CE05DD0429": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§eThe Bumblezone",
+    "subtitle": {
+      "translate": "Throw an Enderpearl at a Bee Nest? I now see yellow."
+    },
     "description": [
       "<h2>Throw an Enderpearl at a Bee Nest? I now see yellow.</h2>",
       "---",
       "&&6You can also make yourself &&r(riding a mob or vehicle) or have any mob &&6enter the dimension &&rby using a &&bPiston &&rto push the player or mob into a &&bBeehive &&ror &&bBee Nest &&rblock!",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "the_bumblezone:bee_queen_spawn_egg"
-    },
-    "subtitle": {
-      "text": "Throw an Enderpearl at a Bee Nest? I now see yellow."
-    },
     "groups": {
       "Adventurer": {
         "position": [
@@ -51,6 +57,24 @@
           64
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "the_bumblezone:bee_queen_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§eThe Bumblezone"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

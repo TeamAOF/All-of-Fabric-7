@@ -1,58 +1,66 @@
 {
-  "settings": {},
   "dependencies": [
     "Adventures and Mysteries"
   ],
-  "tasks": {
-    "2E15906644124214": {
-      "icon": {
-        "type": "heracles:item",
-        "item": "fwaystones:waystone"
-      },
-      "type": "heracles:item",
-      "item": "itemfilters:mod",
-      "nbt": {
-        "value": "fwaystones"
-      }
-    }
-  },
+  "tasks": {},
   "rewards": {
     "6137857F9A944F31": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 5889627,
           "Loot": "aof:loot_bags/misc/agriculturist",
-          "Name": "Agriculturist Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Agriculturist Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§3Waystones",
+    "subtitle": {
+      "translate": "Discover your first Waystone, can be found in villages."
+    },
     "description": [
       "<h2>Discover your first Waystone, can be found in villages.</h2>",
       "---",
       "&&6You can break &&rthe &&bWaystones &&rand use them for creative ways of teleportation.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "fwaystones:waystone"
-    },
-    "subtitle": {
-      "text": "Discover your first Waystone, can be found in villages."
-    },
     "groups": {
       "Adventurer": {
         "position": [
-          -48,
-          -80
+          -64,
+          -64
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "fwaystones:waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§3Waystones"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
