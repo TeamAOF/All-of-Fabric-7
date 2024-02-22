@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Grinder"
+  ],
+  "tasks": {
+    "15C28B8C2859DECC": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:coal_dust"
+    }
+  },
+  "rewards": {
+    "4581A0F0A4384603": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:coal_dust",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:coal_dust"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -352,
+          -304
+        ]
+      }
+    }
+  }
+}

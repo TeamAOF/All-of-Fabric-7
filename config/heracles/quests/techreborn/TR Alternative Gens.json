@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "TR Solid Feul Gen"
+  ],
+  "tasks": {
+    "4D2987EA2A31952D": {
+      "type": "heracles:item",
+      "item": "techreborn:water_mill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "13856D410604CC05": {
+      "type": "heracles:item",
+      "item": "techreborn:semi_fluid_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7A558E88E4132647": {
+      "type": "heracles:item",
+      "item": "techreborn:thermal_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0BB43D8E5DB6AD6F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Power generation of choice."
+    },
+    "description": [
+      "<h2>Power generation of choice.</h2>",
+      "---",
+      "The Thermal Generator produces energy from lava. It has an internal Tank that can hold 10k mB (10 Buckets or Cells) of lava which is consumed as it is converted to energy.",
+      "",
+      "The Water Mill is a passive generator that produces energy from water.",
+      "",
+      "The Semifluid Generator produces energy from various fluids. It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy.",
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -480,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:thermal_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alternative Generators"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

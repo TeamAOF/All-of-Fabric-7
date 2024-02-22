@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Industrial Blast Furnace"
+  ],
+  "tasks": {
+    "7A11C43617A63850": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_ingot"
+    }
+  },
+  "rewards": {
+    "00851C908A4C63E3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:steel_ingot",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -192,
+          -96
+        ]
+      }
+    }
+  }
+}

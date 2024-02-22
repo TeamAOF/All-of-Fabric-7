@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Basic Machine Frame"
+  ],
+  "tasks": {
+    "17F4F43262189636": {
+      "type": "heracles:item",
+      "item": "techreborn:solid_fuel_generator"
+    }
+  },
+  "rewards": {
+    "46EDE253B7061413": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal_block"
+      }
+    },
+    "337B47D9AD769ECA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Generating Power",
+    "description": [
+      "<h2>The most basic power generator in the mod and produces energy by burning coal or wood.</h2>",
+      "---",
+      "It will power adjacent blocks or remote blocks using cables.",
+      "",
+      "It is also used as an ingredient for more advanced machines. ",
+      "",
+      "It will not consume fuel if there is not enough room to store the produced energy (e.g. It will pause burning the fuel until there is room for another tick worth of energy).",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:solid_fuel_generator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "The most basic power generator in the mod and produces energy by burning coal or wood."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -432,
+          -256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Chemical Reactor"
+  ],
+  "tasks": {
+    "529A500572A84DED": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "techreborn:synthetic_redstone_crystal"
+    }
+  },
+  "rewards": {
+    "3606000DD8046551": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:synthetic_redstone_crystal",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:synthetic_redstone_crystal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -48,
+          -16
+        ]
+      }
+    }
+  }
+}

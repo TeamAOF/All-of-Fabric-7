@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Industrial Electrolyzer",
+    "TR Industrial Centrifuge"
+  ],
+  "tasks": {
+    "6156252BBC27D3D4": {
+      "type": "heracles:item",
+      "item": "techreborn:distillation_tower"
+    }
+  },
+  "rewards": {
+    "4106CF47A72C0463": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:distillation_tower",
+    "description": [
+      "<h2>A multiblock machine that is used to crack oil into components.</h2>",
+      "---",
+      "Distillation tower requires 3x3x4 multi-block with hallow in the center.",
+      "",
+      "First layer is made of 9xBasic Machine Casing.",
+      "",
+      "Second layer is made of 8xIndustrial Machine Casing.",
+      "",
+      "Third layer is made of 8xBasic Machine Casing.",
+      "",
+      "Top Layer is made of 9xIndustrial Machine Casing.",
+      "",
+      "Attach machine to the bottom center block and power it.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:distillation_tower"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "A multiblock machine that is used to crack oil into components."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          240,
+          240
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "TR Scrapboxinator"
+  ],
+  "tasks": {
+    "13F6E59856871982": {
+      "type": "heracles:item",
+      "item": "techreborn:scrap_box",
+      "amount": 64,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "63C4457C5AF8F7A9": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Crafted using nine scrap in a crafting table."
+    },
+    "description": [
+      "<h2>Crafted using nine scrap in a crafting table.</h2>",
+      "---",
+      "When used, it will present the player with a random item.",
+      "",
+      "It can also be placed in a Scrapbox-inator to perform this process automatically.",
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -112,
+          -304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:scrap_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:scrap_box"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

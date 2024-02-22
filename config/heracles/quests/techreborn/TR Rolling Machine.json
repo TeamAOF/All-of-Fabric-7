@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "52BD71FC339CBA98": {
+      "type": "heracles:item",
+      "item": "techreborn:rolling_machine"
+    }
+  },
+  "rewards": {
+    "5E1C89A4936C9C4C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:pumpkin_pie"
+      }
+    },
+    "7E328D4BD067919E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:rolling_machine",
+    "description": [
+      "<h2>Used to produce various coils, and vanilla items such as rails and carts.</h2>",
+      "---",
+      "> Can be slot locked",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:rolling_machine"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Used to produce various coils, and vanilla items such as rails and carts."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Refined Iron Ingot"
+  ],
+  "tasks": {
+    "491ED2AD681AF639": {
+      "type": "heracles:item",
+      "item": "techreborn:iron_furnace"
+    }
+  },
+  "rewards": {
+    "3BEFCBADC876AF1C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:iron_furnace",
+    "description": [
+      "<h2>Works much like a traditional furnace, except that it is 56.25% more efficient with the fuel you use.</h2>",
+      "---",
+      "Can auto input and output.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:iron_furnace"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Works much like a traditional furnace, except that it is 56.25% more efficient with the fuel you use."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -544,
+          48
+        ]
+      }
+    }
+  }
+}
