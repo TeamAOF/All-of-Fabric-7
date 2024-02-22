@@ -4,6 +4,7 @@ Farmer O' Worlds
 Botania
 Spectrum
 Ad Astra
+Deep Mob Learning
 Tech Reborn
 Industrial Revolution
 Modern Industrialization
