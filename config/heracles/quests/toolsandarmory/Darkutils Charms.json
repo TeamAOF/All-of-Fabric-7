@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Tools"
   ],
   "tasks": {
     "06063381E1AB7D20": {
       "type": "heracles:item",
-      "item": "#darkutils:charms"
+      "item": "#darkutils:charms",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "5D4924DED53FF093": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Charms",
+    "subtitle": {
+      "translate": "A practice or expression believed to have magic powers."
+    },
     "description": [
       "<h2>A practice or expression believed to have magic powers.</h2>",
       "---",
@@ -40,9 +59,6 @@
       "All charms can be worn as trinkets.",
       "---"
     ],
-    "subtitle": {
-      "text": "A practice or expression believed to have magic powers."
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
@@ -50,6 +66,21 @@
           -16
         ]
       }
+    },
+    "icon": {
+      "item": "#darkutils:charms",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charms"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

@@ -1,38 +1,67 @@
 {
-  "settings": {},
   "dependencies": [
     "Tools"
   ],
   "tasks": {
+    "1B21CF9911521FE4": {
+      "type": "heracles:item",
+      "item": "botania:terra_axe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "0EBC1A262BACB90E": {
       "type": "heracles:item",
       "item": "botania:terra_pick",
       "nbt": {
         "mana": 9999
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
       }
-    },
-    "1B21CF9911521FE4": {
-      "type": "heracles:item",
-      "item": "botania:terra_axe"
     }
   },
   "rewards": {
     "1F58E0896CECAB48": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§aTools of Terra",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
@@ -43,6 +72,27 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terra_pick",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§aTools of Terra"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

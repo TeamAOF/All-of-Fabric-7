@@ -1,43 +1,92 @@
 {
-  "settings": {},
   "dependencies": [
     "Armory"
   ],
   "tasks": {
-    "5E654EBB4577464B": {
-      "type": "heracles:item",
-      "item": "indrev:modular_armor_helmet"
-    },
     "3EC5A10FAA01134D": {
       "type": "heracles:item",
-      "item": "indrev:modular_armor_chest"
+      "item": "indrev:modular_armor_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "163EF88F92507BF1": {
       "type": "heracles:item",
-      "item": "indrev:modular_armor_legs"
+      "item": "indrev:modular_armor_legs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "0A1F047C42BCE9CC": {
       "type": "heracles:item",
-      "item": "indrev:modular_armor_boots"
+      "item": "indrev:modular_armor_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5E654EBB4577464B": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "4FACAFE5C8B57182": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 8090608,
           "Loot": "aof:loot_bags/ind_rev/rare",
-          "Name": "Industrial Revolution Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Industrial Revolution Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Modular Armory",
+    "subtitle": {
+      "translate": "Smash modules on it!"
+    },
     "description": [
       "<h2>Smash modules on it!</h2>",
       "---",
@@ -46,9 +95,6 @@
       "Notice that installing modules cost time and some energy!",
       "---"
     ],
-    "subtitle": {
-      "text": "Smash modules on it!"
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
@@ -56,6 +102,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:modular_armor_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Armory"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

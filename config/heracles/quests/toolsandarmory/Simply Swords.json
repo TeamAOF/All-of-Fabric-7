@@ -1,34 +1,35 @@
 {
-  "settings": {},
   "dependencies": [
     "Weaponry"
   ],
-  "tasks": {
-    "01910DCC48E5EAC7": {
-      "type": "heracles:item",
-      "item": "itemfilters:mod",
-      "nbt": {
-        "value": "simplyswords"
-      }
-    }
-  },
+  "tasks": {},
   "rewards": {
     "1D7FC305AA8EEA7A": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§6Simply Swords",
+    "subtitle": {
+      "translate": "Songs of War!"
+    },
     "description": [
       "<h2>Songs of War!</h2>",
       "---",
@@ -41,13 +42,6 @@
       "&&6Complete this quest by obtaining anything from Simply Swords.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "itemfilters:mod"
-    },
-    "subtitle": {
-      "text": "Songs of War!"
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
@@ -55,6 +49,27 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "simplyswords:stormbringer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Simply Swords"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

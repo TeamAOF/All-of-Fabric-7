@@ -1,39 +1,78 @@
 {
-  "settings": {},
   "dependencies": [
     "Tools"
   ],
   "tasks": {
     "6C643470AFDDBCA8": {
       "type": "heracles:item",
-      "item": "techreborn:industrial_drill"
+      "item": "techreborn:industrial_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "53482D59ADAE2691": {
       "type": "heracles:item",
-      "item": "techreborn:industrial_chainsaw"
+      "item": "techreborn:industrial_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "25E72AB0C71E8D5F": {
       "type": "heracles:item",
-      "item": "techreborn:industrial_jackhammer"
+      "item": "techreborn:industrial_jackhammer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "7D6B7C6B76782BCC": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Industrial Tools",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---",
       "Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. ",
@@ -50,6 +89,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_chainsaw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Industrial Tools"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

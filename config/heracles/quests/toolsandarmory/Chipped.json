@@ -1,76 +1,168 @@
 {
-  "settings": {},
   "dependencies": [
     "Blocks as Far as the Eye Can See"
   ],
   "tasks": {
-    "4C5194D4711FB366": {
+    "47030C28F6FE2AFC": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench"
-    },
-    "7A50F12A3184DC0C": {
-      "type": "heracles:item",
-      "item": "chipped:glassblower"
-    },
-    "65658F8D7D833492": {
-      "type": "heracles:item",
-      "item": "chipped:carpenters_table"
-    },
-    "6A906A81EDACB027": {
-      "type": "heracles:item",
-      "item": "chipped:loom_table"
+      "item": "chipped:alchemy_bench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "16DF97732538F4F7": {
       "type": "heracles:item",
-      "item": "chipped:mason_table"
+      "item": "chipped:mason_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "47030C28F6FE2AFC": {
+    "4C5194D4711FB366": {
       "type": "heracles:item",
-      "item": "chipped:alchemy_bench"
+      "item": "chipped:botanist_workbench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "65658F8D7D833492": {
+      "type": "heracles:item",
+      "item": "chipped:carpenters_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7A50F12A3184DC0C": {
+      "type": "heracles:item",
+      "item": "chipped:glassblower",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "5068B74B183F6031": {
       "type": "heracles:item",
-      "item": "chipped:tinkering_table"
+      "item": "chipped:tinkering_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6A906A81EDACB027": {
+      "type": "heracles:item",
+      "item": "chipped:loom_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "62C9EB7CD0E9793D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 2,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 5889627,
           "Loot": "aof:loot_bags/misc/agriculturist",
-          "Name": "Agriculturist Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Agriculturist Lootbag"
         }
-      }
-    },
-    "762E2B8CDC0E0967": {
-      "type": "heracles:item",
-      "item": {
-        "id": "minecraft:amethyst_shard",
-        "count": 3
-      }
+      },
+      "type": "heracles:item"
     },
     "1AA08DD43F50EB66": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:emerald",
         "count": 8
-      }
+      },
+      "type": "heracles:item"
+    },
+    "762E2B8CDC0E0967": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Chipped",
+    "subtitle": {
+      "translate": "Dictionary of Blocks!"
+    },
     "description": [
       "<h2>Dictionary of Blocks!</h2>",
       "---"
     ],
-    "subtitle": {
-      "text": "Dictionary of Blocks!"
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
@@ -78,6 +170,24 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "chipped:loom_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chipped"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

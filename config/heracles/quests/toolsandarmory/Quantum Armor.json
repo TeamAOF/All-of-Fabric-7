@@ -1,43 +1,92 @@
 {
-  "settings": {},
   "dependencies": [
     "Armory"
   ],
   "tasks": {
+    "023266797B14E0A6": {
+      "type": "heracles:item",
+      "item": "techreborn:quantum_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "6D0C751FE61EBB13": {
       "type": "heracles:item",
-      "item": "techreborn:quantum_helmet"
-    },
-    "5FF7FA5541A4D3DB": {
-      "type": "heracles:item",
-      "item": "techreborn:quantum_chestplate"
+      "item": "techreborn:quantum_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "2A3C59AD2A03D23F": {
       "type": "heracles:item",
-      "item": "techreborn:quantum_leggings"
+      "item": "techreborn:quantum_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "023266797B14E0A6": {
+    "5FF7FA5541A4D3DB": {
       "type": "heracles:item",
-      "item": "techreborn:quantum_boots"
+      "item": "techreborn:quantum_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "1D9E0D416C3BF409": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§bQuantum Armory",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
@@ -48,6 +97,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:quantum_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§bQuantum Armory"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

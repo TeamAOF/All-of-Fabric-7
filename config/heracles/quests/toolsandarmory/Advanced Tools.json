@@ -1,39 +1,78 @@
 {
-  "settings": {},
   "dependencies": [
     "Tools"
   ],
   "tasks": {
     "0C330A4FB95CF932": {
       "type": "heracles:item",
-      "item": "techreborn:advanced_drill"
-    },
-    "3F481DAC528F0A17": {
-      "type": "heracles:item",
-      "item": "techreborn:advanced_chainsaw"
+      "item": "techreborn:advanced_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "0ADB3F49D2FA16CF": {
       "type": "heracles:item",
-      "item": "techreborn:advanced_jackhammer"
+      "item": "techreborn:advanced_jackhammer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "3F481DAC528F0A17": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "611ADE0A36B53A8D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/rare",
-          "Name": "Tech Reborn Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Tech Reborn Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Advanced Tools",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---",
       "Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel.",
@@ -50,6 +89,24 @@
           -16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:advanced_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Tools"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

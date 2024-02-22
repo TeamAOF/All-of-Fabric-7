@@ -1,43 +1,35 @@
 {
-  "settings": {},
   "dependencies": [
     "Armory"
   ],
-  "tasks": {
-    "242FF6C3451B028C": {
-      "type": "heracles:item",
-      "item": "adventurez:stone_golem_helmet"
-    },
-    "37D480823CD0D258": {
-      "type": "heracles:item",
-      "item": "adventurez:stone_golem_chestplate"
-    },
-    "5CEB516D748B6A62": {
-      "type": "heracles:item",
-      "item": "adventurez:stone_golem_leggings"
-    },
-    "002E304BF1E3B275": {
-      "type": "heracles:item",
-      "item": "adventurez:stone_golem_boots"
-    }
-  },
+  "tasks": {},
   "rewards": {
     "177660FB4D8E2671": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§6Gilded Netherite",
+    "subtitle": {
+      "translate": "More durable than the netherite set and has a full set ability."
+    },
     "description": [
       "<h2>More durable than the netherite set and has a full set ability.</h2>",
       "---",
@@ -48,9 +40,6 @@
       "It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol.",
       "---"
     ],
-    "subtitle": {
-      "text": "More durable than the netherite set and has a full set ability."
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
@@ -58,6 +47,27 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "adventurez:gilded_netherite_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Gilded Netherite"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

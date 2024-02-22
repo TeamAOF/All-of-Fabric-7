@@ -1,39 +1,78 @@
 {
-  "settings": {},
   "dependencies": [
     "Tools"
   ],
   "tasks": {
+    "7DEF9B9A6932266D": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_jackhammer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "54835ABF40DD9BCE": {
       "type": "heracles:item",
-      "item": "techreborn:basic_drill"
+      "item": "techreborn:basic_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "67349C80C2672091": {
       "type": "heracles:item",
-      "item": "techreborn:basic_chainsaw"
-    },
-    "7DEF9B9A6932266D": {
-      "type": "heracles:item",
-      "item": "techreborn:basic_jackhammer"
+      "item": "techreborn:basic_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "31C7CBA37B9D3432": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/common",
-          "Name": "Tech Reborn Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Tech Reborn Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Basic Tools",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---",
       "Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block.",
@@ -50,6 +89,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:basic_jackhammer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Tools"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

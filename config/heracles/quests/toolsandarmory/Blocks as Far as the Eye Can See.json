@@ -1,26 +1,28 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "2468CAEE0E3DFE45": {
       "title": "Block Variations",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Block Variations",
+    "subtitle": {
+      "translate": "Blocks as far as the eye can see!"
+    },
     "description": [
       "<h2>Blocks as far as the eye can see!</h2>",
       "---",
       "There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "subtitle": {
-      "text": "Blocks as far as the eye can see!"
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
@@ -28,6 +30,24 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Block Variations"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
