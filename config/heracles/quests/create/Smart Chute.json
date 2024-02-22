@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Attribute Filter"
+  ],
+  "tasks": {
+    "2A3ACB440D93F24D": {
+      "type": "heracles:item",
+      "item": "create:smart_chute"
+    }
+  },
+  "rewards": {
+    "077DE0792FB90191": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:smart_chute",
+    "description": [
+      "<h2>I choose what I suck and blow</h2>",
+      "<hr/>",
+      "<task task=\"2A3ACB440D93F24D\" quest=\"Smart Chute\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"077DE0792FB90191\" quest=\"Smart Chute\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:smart_chute"
+    },
+    "subtitle": {
+      "text": "I choose what I suck and blow"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          256
+        ]
+      }
+    }
+  }
+}

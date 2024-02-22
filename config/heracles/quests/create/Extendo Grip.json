@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mechanical Crafters"
+  ],
+  "tasks": {
+    "6886E9FB38FC363D": {
+      "type": "heracles:item",
+      "item": "create:extendo_grip"
+    }
+  },
+  "rewards": {
+    "6F0CA1CB40339EA2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:extendo_grip",
+    "description": [
+      "<h2>Also try Terraria!</h2>",
+      "<hr/>",
+      "<task task=\"6886E9FB38FC363D\" quest=\"Extendo Grip\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6F0CA1CB40339EA2\" quest=\"Extendo Grip\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:extendo_grip"
+    },
+    "subtitle": {
+      "text": "Also try Terraria!"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          304,
+          128
+        ]
+      }
+    }
+  }
+}

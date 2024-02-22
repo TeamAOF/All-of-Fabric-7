@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Polished Rose Quartz"
+  ],
+  "tasks": {
+    "755D0B78024267FC": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    }
+  },
+  "rewards": {
+    "5BC2720763573A21": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:brass_hand"
+      }
+    },
+    "7458CBBA5DDC4FC2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:deployer",
+    "description": [
+      "<h2>Poke</h2>",
+      "<hr/>",
+      "<task task=\"755D0B78024267FC\" quest=\"Deployer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5BC2720763573A21\" quest=\"Deployer\"/>",
+      "<reward reward=\"7458CBBA5DDC4FC2\" quest=\"Deployer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:deployer"
+    },
+    "subtitle": {
+      "text": "Poke"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          16
+        ]
+      }
+    }
+  }
+}

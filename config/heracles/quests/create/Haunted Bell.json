@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fan it Up"
+  ],
+  "tasks": {
+    "43168C6D8B02F900": {
+      "type": "heracles:item",
+      "item": "create:haunted_bell"
+    }
+  },
+  "rewards": {
+    "02B4529C59249460": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:torch",
+        "count": 64
+      }
+    },
+    "171ACD486F3F96C0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:haunted_bell",
+    "description": [
+      "<h2>This is why the creeper blew up your chests</h2>",
+      "<hr/>",
+      "<task task=\"43168C6D8B02F900\" quest=\"Haunted Bell\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"02B4529C59249460\" quest=\"Haunted Bell\"/>",
+      "<reward reward=\"171ACD486F3F96C0\" quest=\"Haunted Bell\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:haunted_bell"
+    },
+    "subtitle": {
+      "text": "This is why the creeper blew up your chests"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          -112
+        ]
+      }
+    }
+  }
+}

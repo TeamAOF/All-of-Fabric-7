@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "2D938D2D18443AF2": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press"
+    }
+  },
+  "rewards": {
+    "179FDF0BD3CBD5FB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:mechanical_press",
+    "description": [
+      "<h2>Press goes Bonk</h2>",
+      "<hr/>",
+      "<task task=\"2D938D2D18443AF2\" quest=\"Mechanical Press\"/>",
+      "<hr/>",
+      "> If getting andesite alloy is the first step, then getting plates is the next.",
+      "> Craft a Mechanical Press and use the hand crank given to you from the previous quest and bonk some iron",
+      "<hr/>",
+      "<reward reward=\"179FDF0BD3CBD5FB\" quest=\"Mechanical Press\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press"
+    },
+    "subtitle": {
+      "text": "Press goes Bonk"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          16
+        ]
+      }
+    }
+  }
+}

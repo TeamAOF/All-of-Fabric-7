@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mechanical Press"
+  ],
+  "tasks": {
+    "75A99982ED1EA91D": {
+      "type": "heracles:item",
+      "item": "create:wrench"
+    },
+    "74DCBAF28E4DC3F2": {
+      "type": "heracles:item",
+      "item": "create:goggles"
+    }
+  },
+  "rewards": {
+    "6DD793EEBBED087C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Engineering Tools",
+    "description": [
+      "<h2>Why does every mod have a wrench?</h2>",
+      "<hr/>",
+      "<task task=\"75A99982ED1EA91D\" quest=\"Engineering Tools\"/>",
+      "<task task=\"74DCBAF28E4DC3F2\" quest=\"Engineering Tools\"/>",
+      "<hr/>",
+      "The wrench can be used to rotate your Create Machines while the Goggles can be used to view the stress units and other helpful tooltips on your contraptions.",
+      "As an added Bonus, here's a refund of your gold and some more.",
+      "<hr/>",
+      "<reward reward=\"6DD793EEBBED087C\" quest=\"Engineering Tools\"/>"
+    ],
+    "subtitle": {
+      "text": "Why does every mod have a wrench?"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          16
+        ]
+      }
+    }
+  }
+}

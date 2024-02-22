@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Create Fluid Tank"
+  ],
+  "tasks": {
+    "4F57647E2D2E0B6A": {
+      "type": "heracles:item",
+      "item": "create:steam_engine"
+    }
+  },
+  "rewards": {
+    "3C468264516F9D2C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:steam_whistle"
+      }
+    },
+    "7DC01EB5C711EA9D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:lever"
+      }
+    },
+    "6014202EB5B75F80": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:steam_engine",
+    "description": [
+      "<h2>Endgame Rotational Force</h2>",
+      "<hr/>",
+      "<task task=\"4F57647E2D2E0B6A\" quest=\"Steam Engine\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3C468264516F9D2C\" quest=\"Steam Engine\"/>",
+      "<reward reward=\"7DC01EB5C711EA9D\" quest=\"Steam Engine\"/>",
+      "<reward reward=\"6014202EB5B75F80\" quest=\"Steam Engine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:steam_engine"
+    },
+    "subtitle": {
+      "text": "Endgame Rotational Force"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          160
+        ]
+      }
+    }
+  }
+}
