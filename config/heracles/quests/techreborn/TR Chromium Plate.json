@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: modern_industrialization:chromium_plate",
     "description": [
-      "<task task=\"3CBC183433CE6829\" quest=\"TR Chromium Plate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"140B825962A9F18D\" quest=\"TR Chromium Plate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

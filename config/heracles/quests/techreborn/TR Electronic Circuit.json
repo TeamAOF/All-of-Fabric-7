@@ -29,11 +29,7 @@
     "title": "Acquire: techreborn:electronic_circuit",
     "description": [
       "<h2>A part used in crafting the basic machines, tools, and their component parts.</h2>",
-      "<hr/>",
-      "<task task=\"4C79921177EFADDC\" quest=\"TR Electronic Circuit\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2C254166FFEA3949\" quest=\"TR Electronic Circuit\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

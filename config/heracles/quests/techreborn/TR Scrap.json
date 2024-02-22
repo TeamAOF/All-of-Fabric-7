@@ -28,14 +28,11 @@
     "title": "Acquire: techreborn:scrap",
     "description": [
       "<h2>Made using a Recycler.</h2>",
-      "<hr/>",
-      "<task task=\"79FC49ED8506DD41\" quest=\"TR Scrap\"/>",
-      "<hr/>",
+      "---",
       "You can put any items into it and with 1 in 6 chance you will have scrap produced. ",
-      "<br/>",
+      "",
       "Scrap could be crafted into Scrap Boxes or used directly in Matter Fabricator to produce UU-Matter.",
-      "<hr/>",
-      "<reward reward=\"6178B470126C805B\" quest=\"TR Scrap\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

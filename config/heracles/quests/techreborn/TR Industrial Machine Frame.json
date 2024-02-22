@@ -29,11 +29,7 @@
     "title": "Acquire: techreborn:industrial_machine_frame",
     "description": [
       "<h2>A crafting ingredient used to build industrial machines.</h2>",
-      "<hr/>",
-      "<task task=\"TR Industrial Machine Frame\" quest=\"TR Industrial Machine Frame\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0E47CB123A786C24\" quest=\"TR Industrial Machine Frame\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

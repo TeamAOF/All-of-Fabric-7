@@ -48,11 +48,7 @@
     },
     "description": [
       "<h2>Requires Coal Dust quest to unlock.</h2>",
-      "<hr/>",
-      "<task task=\"63C31057EF1EDA2B\" quest=\"TR Neutron Reflector\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6AEC3535DC8AC2AF\" quest=\"TR Neutron Reflector\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

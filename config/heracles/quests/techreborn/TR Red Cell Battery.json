@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:red_cell_battery",
     "description": [
       "<h2>A portable battery used to charge items.</h2>",
-      "<hr/>",
-      "<task task=\"39749739E5C2CF55\" quest=\"TR Red Cell Battery\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1BC50B0115AABE8B\" quest=\"TR Red Cell Battery\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

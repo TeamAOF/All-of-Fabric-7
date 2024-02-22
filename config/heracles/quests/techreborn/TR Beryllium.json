@@ -30,10 +30,7 @@
   "display": {
     "title": "Acquire: techreborn:cell",
     "description": [
-      "<task task=\"3E0EE8BCEA3480F3\" quest=\"TR Beryllium\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0965D2B85324DA75\" quest=\"TR Beryllium\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -28,14 +28,11 @@
     "title": "Acquire: techreborn:vacuum_freezer",
     "description": [
       "<h2>A multi-block that can be used to craft items.</h2>",
-      "<hr/>",
-      "<task task=\"2B2EF74A9FEE0407\" quest=\"TR Vacuum Freezer\"/>",
-      "<hr/>",
+      "---",
       "Has a button in the gui that can be used to show a Hologram that can help when placing the blocks.",
-      "<br/>",
+      "",
       "Note the blocks are under the vacuum freezer",
-      "<hr/>",
-      "<reward reward=\"67C2999977F284C6\" quest=\"TR Vacuum Freezer\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

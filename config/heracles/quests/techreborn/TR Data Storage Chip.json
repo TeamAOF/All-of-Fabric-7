@@ -28,10 +28,7 @@
   "display": {
     "title": "Acquire: techreborn:data_storage_chip",
     "description": [
-      "<task task=\"14E4CC657A935F79\" quest=\"TR Data Storage Chip\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2614154DE8E21959\" quest=\"TR Data Storage Chip\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

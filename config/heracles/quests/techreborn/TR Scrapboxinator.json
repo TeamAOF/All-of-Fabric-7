@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:scrapboxinator",
     "description": [
       "<h2>A machine used to automate opening Scrap Boxes.</h2>",
-      "<hr/>",
-      "<task task=\"6455685BE29E200F\" quest=\"TR Scrapboxinator\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3E46BEE5C3894672\" quest=\"TR Scrapboxinator\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

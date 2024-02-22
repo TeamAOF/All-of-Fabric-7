@@ -32,12 +32,7 @@
   "display": {
     "description": [
       "<h2>Converts any item you put into it into Scrap with a 1 in 6 chance to do so.</h2>",
-      "<hr/>",
-      "<task task=\"52D80A7455E84CD0\" quest=\"TR Recycler\"/>",
-      "<task task=\"1F93FFF43FB3D3AA\" quest=\"TR Recycler\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0ABE388E881B1D70\" quest=\"TR Recycler\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

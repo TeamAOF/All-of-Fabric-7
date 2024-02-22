@@ -28,12 +28,9 @@
     "title": "Acquire: techreborn:basic_machine_frame",
     "description": [
       "<h2>Used to build basic machines.</h2>",
-      "<hr/>",
-      "<task task=\"0492C08143ECC6A0\" quest=\"TR Basic Machine Frame\"/>",
-      "<hr/>",
+      "---",
       "NOTE: Before having access to a Compressor, you'll need to use the Forge Hammer from MI to craft plates of said kind.",
-      "<hr/>",
-      "<reward reward=\"5FD3F1A871ACA957\" quest=\"TR Basic Machine Frame\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

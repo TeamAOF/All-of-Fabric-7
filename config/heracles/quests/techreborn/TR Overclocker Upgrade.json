@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:overclocker_upgrade",
     "description": [
       "<h2>Increases the speed of TR machines</h2>",
-      "<hr/>",
-      "<task task=\"2FAE9FB5822A811F\" quest=\"TR Overclocker Upgrade\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4881E2C5527A9553\" quest=\"TR Overclocker Upgrade\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

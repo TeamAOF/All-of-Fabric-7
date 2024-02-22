@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:lv_transformer",
     "description": [
       "<h2>Converts energy from Medium to Low tier.</h2>",
-      "<hr/>",
-      "<task task=\"7BE1D7C88749145D\" quest=\"TR LV Transformer\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"16D5570CCFE6D1A9\" quest=\"TR LV Transformer\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: modern_industrialization:silicon_plate",
     "description": [
-      "<task task=\"2F11B86F34EBE189\" quest=\"TR Silicon Plate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"37D18A2470C370DC\" quest=\"TR Silicon Plate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

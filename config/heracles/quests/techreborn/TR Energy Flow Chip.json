@@ -28,10 +28,7 @@
   "display": {
     "title": "Acquire: techreborn:energy_flow_chip",
     "description": [
-      "<task task=\"778AE7FC798AC67E\" quest=\"TR Energy Flow Chip\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2E289113F9E35F77\" quest=\"TR Energy Flow Chip\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

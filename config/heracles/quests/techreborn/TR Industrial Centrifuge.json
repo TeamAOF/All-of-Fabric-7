@@ -48,12 +48,9 @@
     },
     "description": [
       "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
-      "<hr/>",
-      "<task task=\"0968DE59EBE1A042\" quest=\"TR Industrial Centrifuge\"/>",
-      "<hr/>",
+      "---",
       "Used to produce Fluids and Dusts from various items.",
-      "<hr/>",
-      "<reward reward=\"399DA4FB8F4A9D2E\" quest=\"TR Industrial Centrifuge\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

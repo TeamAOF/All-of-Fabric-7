@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:uu_matter",
     "description": [
       "<h2>Made in the Matter Fabricator.</h2>",
-      "<hr/>",
-      "<task task=\"6025592EFF18B643\" quest=\"TR UU Matter\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"46E794C55915CD63\" quest=\"TR UU Matter\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

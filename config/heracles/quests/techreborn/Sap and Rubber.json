@@ -44,17 +44,11 @@
   "display": {
     "description": [
       "<h2>Used to extract sap from rubber trees.</h2>",
-      "<hr/>",
-      "<task task=\"3C2F99001860B9E8\" quest=\"Sap and Rubber\"/>",
-      "<task task=\"492D0F0F4BAA3931\" quest=\"Sap and Rubber\"/>",
-      "<task task=\"68E17F6E8980B879\" quest=\"Sap and Rubber\"/>",
-      "<hr/>",
+      "---",
       "The Sap is placed into the inventory of the player that is using it.",
-      "<br/>",
+      "",
       "Its durability lasts 20 uses before it is destroyed.",
-      "<hr/>",
-      "<reward reward=\"1370B40BF917925A\" quest=\"Sap and Rubber\"/>",
-      "<reward reward=\"66137520279AFCB1\" quest=\"Sap and Rubber\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

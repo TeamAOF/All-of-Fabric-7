@@ -36,12 +36,7 @@
     "title": "Acquire: techreborn:quantum_solar_panel",
     "description": [
       "<h2>Produces energy from sunlight.</h2>",
-      "<hr/>",
-      "<task task=\"1DBAEB455FF1FD4C\" quest=\"TR Quantum Solar Panel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3CD5446E7C5919B9\" quest=\"TR Quantum Solar Panel\"/>",
-      "<reward reward=\"1A300DFFE902CD75\" quest=\"TR Quantum Solar Panel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

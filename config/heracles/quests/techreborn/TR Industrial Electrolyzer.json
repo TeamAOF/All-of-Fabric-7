@@ -48,12 +48,9 @@
     },
     "description": [
       "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
-      "<hr/>",
-      "<task task=\"307D2D572A30E77D\" quest=\"TR Industrial Electrolyzer\"/>",
-      "<hr/>",
+      "---",
       "Used to produce Fluids and Dusts from different items.",
-      "<hr/>",
-      "<reward reward=\"13B92E8E61D1F85D\" quest=\"TR Industrial Electrolyzer\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

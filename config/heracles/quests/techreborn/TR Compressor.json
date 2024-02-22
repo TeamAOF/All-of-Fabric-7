@@ -28,12 +28,9 @@
     "title": "Acquire: techreborn:compressor",
     "description": [
       "<h2>Requires Basic Machine Frame quest.</h2>",
-      "<hr/>",
-      "<task task=\"53E96D1C408AFBF5\" quest=\"TR Compressor\"/>",
-      "<hr/>",
+      "---",
       "Used to more efficiently craft plates.",
-      "<hr/>",
-      "<reward reward=\"5E4303FF78C704F5\" quest=\"TR Compressor\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: modern_industrialization:steel_ingot",
     "description": [
-      "<task task=\"7A11C43617A63850\" quest=\"TR Steel Ingot\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"00851C908A4C63E3\" quest=\"TR Steel Ingot\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

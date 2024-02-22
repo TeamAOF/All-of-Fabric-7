@@ -34,17 +34,13 @@
     "title": "Generating Power",
     "description": [
       "<h2>The most basic power generator in the mod and produces energy by burning coal or wood.</h2>",
-      "<hr/>",
-      "<task task=\"17F4F43262189636\" quest=\"TR Solid Feul Gen\"/>",
-      "<hr/>",
+      "---",
       "It will power adjacent blocks or remote blocks using cables.",
-      "<br/>",
+      "",
       "It is also used as an ingredient for more advanced machines. ",
-      "<br/>",
+      "",
       "It will not consume fuel if there is not enough room to store the produced energy (e.g. It will pause burning the fuel until there is room for another tick worth of energy).",
-      "<hr/>",
-      "<reward reward=\"46EDE253B7061413\" quest=\"TR Solid Feul Gen\"/>",
-      "<reward reward=\"337B47D9AD769ECA\" quest=\"TR Solid Feul Gen\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

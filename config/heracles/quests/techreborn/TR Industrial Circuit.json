@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:industrial_circuit",
     "description": [
-      "<task task=\"661A7BC5F492DE02\" quest=\"TR Industrial Circuit\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"266538E533D52FA4\" quest=\"TR Industrial Circuit\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -29,11 +29,7 @@
     "title": "Acquire: techreborn:lapotronic_orb",
     "description": [
       "<h2>A portable battery used to charge items.</h2>",
-      "<hr/>",
-      "<task task=\"TR Lapotronic Orb Item\" quest=\"TR Lapotronic Orb\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5378182B0F04B24A\" quest=\"TR Lapotronic Orb\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

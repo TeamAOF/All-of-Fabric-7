@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:lithium_ion_battery",
     "description": [
       "<h2>Requires Assembling Machine</h2>",
-      "<hr/>",
-      "<task task=\"55D46876F5CBFA23\" quest=\"TR Lithium Ion Battery\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3798EFE6EB301D28\" quest=\"TR Lithium Ion Battery\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -29,11 +29,7 @@
     "title": "Acquire: techreborn:advanced_machine_casing",
     "description": [
       "<h2>Used to build multi-block machines.</h2>",
-      "<hr/>",
-      "<task task=\"696BC8BD052CB0E4\" quest=\"TR Advanced Machine Casing\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"12EA9BD640B4DC9A\" quest=\"TR Advanced Machine Casing\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

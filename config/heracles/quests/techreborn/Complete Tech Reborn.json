@@ -147,11 +147,7 @@
     },
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
-      "<hr/>",
-      "<task task=\"38B384A7D8B930F4\" quest=\"Complete Tech Reborn\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5451CF4C756F3AD0\" quest=\"Complete Tech Reborn\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

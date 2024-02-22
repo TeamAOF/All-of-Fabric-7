@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:iridium_neutron_reflector",
     "description": [
-      "<task task=\"26C6BD42221F592C\" quest=\"TR Iridium Neutron Reflector\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4751598D164EC3C6\" quest=\"TR Iridium Neutron Reflector\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

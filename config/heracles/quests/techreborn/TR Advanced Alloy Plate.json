@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:advanced_alloy_plate",
     "description": [
-      "<task task=\"3C45671BBF04B568\" quest=\"TR Advanced Alloy Plate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"7EBF744766EF29EF\" quest=\"TR Advanced Alloy Plate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

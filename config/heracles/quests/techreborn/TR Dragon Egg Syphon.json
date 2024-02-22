@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:dragon_egg_syphon",
     "description": [
       "<h2>A passive generator that produces energy from the Dragon Egg.</h2>",
-      "<hr/>",
-      "<task task=\"45D48F0B7EB2B0A6\" quest=\"TR Dragon Egg Syphon\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2C76DB345C5D48BD\" quest=\"TR Dragon Egg Syphon\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

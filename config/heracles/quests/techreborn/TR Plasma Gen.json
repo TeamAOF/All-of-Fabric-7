@@ -29,14 +29,11 @@
     "title": "Acquire: techreborn:plasma_generator",
     "description": [
       "<h2>Produces energy from Heliumplasma.</h2>",
-      "<hr/>",
-      "<task task=\"1EEF64DE5D9666C3\" quest=\"TR Plasma Gen\"/>",
-      "<hr/>",
+      "---",
       " It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy.",
-      "<br/>",
+      "",
       "8,192,000E/1000 mB",
-      "<hr/>",
-      "<reward reward=\"17E5828C89E519FE\" quest=\"TR Plasma Gen\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

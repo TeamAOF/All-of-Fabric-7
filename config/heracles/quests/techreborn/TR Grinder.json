@@ -35,14 +35,10 @@
     "title": "Acquire: techreborn:grinder",
     "description": [
       "<h2>Grind some stuffs</h2>",
-      "<hr/>",
-      "<task task=\"085CC7F6D9F9E3F0\" quest=\"TR Grinder\"/>",
-      "<hr/>",
+      "---",
       "> It can make gravel from cobblestone",
       "> And sand from gravel ",
-      "<hr/>",
-      "<reward reward=\"79476464C79EA0E1\" quest=\"TR Grinder\"/>",
-      "<reward reward=\"0F2A152628C42BC2\" quest=\"TR Grinder\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

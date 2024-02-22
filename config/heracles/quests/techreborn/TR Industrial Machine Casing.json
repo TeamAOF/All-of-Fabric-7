@@ -30,11 +30,7 @@
     "title": "Acquire: techreborn:industrial_machine_casing",
     "description": [
       "<h2>Used to build multi-block machines.</h2>",
-      "<hr/>",
-      "<task task=\"0802F2E9884F9801\" quest=\"TR Industrial Machine Casing\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4062A52C90A3C103\" quest=\"TR Industrial Machine Casing\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

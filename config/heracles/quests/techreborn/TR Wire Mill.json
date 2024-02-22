@@ -35,12 +35,7 @@
     "title": "Acquire: techreborn:wire_mill",
     "description": [
       "<h2>Lets you make wires efficiently</h2>",
-      "<hr/>",
-      "<task task=\"0E3A7F048E5ED97B\" quest=\"TR Wire Mill\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"63672FC3387EEA78\" quest=\"TR Wire Mill\"/>",
-      "<reward reward=\"7B79D20D567D573F\" quest=\"TR Wire Mill\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

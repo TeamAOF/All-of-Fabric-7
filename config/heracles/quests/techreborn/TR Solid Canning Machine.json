@@ -34,13 +34,9 @@
     "title": "Acquire: techreborn:solid_canning_machine",
     "description": [
       "<h2>Lets you put items in cells</h2>",
-      "<hr/>",
-      "<task task=\"38BBB88A75EE8CE6\" quest=\"TR Solid Canning Machine\"/>",
-      "<hr/>",
+      "---",
       "Usefull if you want to go bio-fuel way",
-      "<hr/>",
-      "<reward reward=\"6A47EFC488B6A545\" quest=\"TR Solid Canning Machine\"/>",
-      "<reward reward=\"120BD0D100BD0285\" quest=\"TR Solid Canning Machine\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

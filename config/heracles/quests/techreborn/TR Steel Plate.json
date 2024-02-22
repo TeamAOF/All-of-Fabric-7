@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: modern_industrialization:steel_plate",
     "description": [
-      "<task task=\"398FE5821788EA84\" quest=\"TR Steel Plate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"15FE8AFEFAFB4058\" quest=\"TR Steel Plate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

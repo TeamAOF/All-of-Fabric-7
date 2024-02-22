@@ -28,16 +28,13 @@
     "title": "Greenhouse Controller",
     "description": [
       "<h2>Harvest and replant crops in 9×9 area behind it.</h2>",
-      "<hr/>",
-      "<task task=\"31E873A44F34D7BC\" quest=\"TR Greenhouse Controller\"/>",
-      "<hr/>",
+      "---",
       "Place the Greenhouse Controller on the ground, provide energy and put some crops behind it.",
-      "<br/>",
+      "",
       "Standard Minecraft requirements applies to crops, like watered and tilled dirt for wheat or nearby water for sugar cane.",
-      "<br/>",
+      "",
       "Powered lamps above crops will speed-up growth.",
-      "<hr/>",
-      "<reward reward=\"3240270006E81C1F\" quest=\"TR Greenhouse Controller\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

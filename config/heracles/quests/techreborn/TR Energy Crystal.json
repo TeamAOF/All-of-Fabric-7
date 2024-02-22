@@ -29,11 +29,7 @@
     "title": "Acquire: techreborn:energy_crystal",
     "description": [
       "<h2>Middle tier of portable energy storage.</h2>",
-      "<hr/>",
-      "<task task=\"19050C53906F7734\" quest=\"TR Energy Crystal\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"79BE9DBAA7F36275\" quest=\"TR Energy Crystal\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

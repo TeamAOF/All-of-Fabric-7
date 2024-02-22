@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:insulated_copper_cable",
     "description": [
       "<h2>Cables transfer energy across blocks.</h2>",
-      "<hr/>",
-      "<task task=\"5253D479C5CBDA1A\" quest=\"TR Isulated Copper Cable\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0590E4EE69D058CE\" quest=\"TR Isulated Copper Cable\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

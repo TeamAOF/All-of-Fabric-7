@@ -40,15 +40,10 @@
     "title": "Acquire: techreborn:resin_basin",
     "description": [
       "<h2>It lets you automatically collect sap from trees</h2>",
-      "<hr/>",
-      "<task task=\"42B06030439B3BDC\" quest=\"TR Resin Basin\"/>",
-      "<hr/>",
+      "---",
       "> To automate, place a hopper or pipes under it.",
       "> Make sure the tree has a sap spot.",
-      "<hr/>",
-      "<reward reward=\"5A4F27CA9254320E\" quest=\"TR Resin Basin\"/>",
-      "<reward reward=\"4201C9EF964ABE68\" quest=\"TR Resin Basin\"/>",
-      "<reward reward=\"46EFAB6A4F27DD98\" quest=\"TR Resin Basin\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

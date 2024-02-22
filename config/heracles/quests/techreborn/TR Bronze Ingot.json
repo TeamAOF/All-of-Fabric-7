@@ -28,11 +28,7 @@
     "title": "Acquire: modern_industrialization:bronze_ingot",
     "description": [
       "<h2>An alloy used to craft several recipes.</h2>",
-      "<hr/>",
-      "<task task=\"70145374DD14DF78\" quest=\"TR Bronze Ingot\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"499D931029364AC9\" quest=\"TR Bronze Ingot\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

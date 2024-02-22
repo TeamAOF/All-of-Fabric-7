@@ -61,15 +61,11 @@
     },
     "description": [
       "<h2>Used to rotate or dismantle machines.</h2>",
-      "<hr/>",
-      "<task task=\"53A0C1A3C2FA7F67\" quest=\"TR Wrench\"/>",
-      "<task task=\"32611199AE14E864\" quest=\"TR Wrench\"/>",
-      "<hr/>",
+      "---",
       "Many machines require the wrench to safely dismantle, and even where they don't, the wrench is faster and often offers distinct advantages, like preserving power levels and contents.",
-      "<br/>",
+      "",
       "Right-click to rotate machine. Sneak right-click to dismantle.",
-      "<hr/>",
-      "<reward reward=\"6D82ED0B4253939D\" quest=\"TR Wrench\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

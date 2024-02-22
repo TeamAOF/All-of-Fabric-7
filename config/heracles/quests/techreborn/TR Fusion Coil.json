@@ -30,10 +30,7 @@
   "display": {
     "title": "Acquire: techreborn:fusion_coil",
     "description": [
-      "<task task=\"3BC493B596B1CF53\" quest=\"TR Fusion Coil\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"49A315B27D1038EC\" quest=\"TR Fusion Coil\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

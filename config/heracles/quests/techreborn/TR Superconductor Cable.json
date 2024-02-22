@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:superconductor_cable",
     "description": [
-      "<task task=\"6704AF85FB921573\" quest=\"TR Superconductor Cable\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4D57CDFB90CDFCB8\" quest=\"TR Superconductor Cable\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

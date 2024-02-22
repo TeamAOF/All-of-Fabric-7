@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:data_storage_core",
     "description": [
-      "<task task=\"5C4B2AF02256AD7B\" quest=\"TR Data Storage Core\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"77BA2CDD5E6BC946\" quest=\"TR Data Storage Core\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

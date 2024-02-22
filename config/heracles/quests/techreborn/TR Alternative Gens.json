@@ -75,18 +75,13 @@
     },
     "description": [
       "<h2>Power generation of choice.</h2>",
-      "<hr/>",
-      "<task task=\"7A558E88E4132647\" quest=\"TR Alternative Gens\"/>",
-      "<task task=\"4D2987EA2A31952D\" quest=\"TR Alternative Gens\"/>",
-      "<task task=\"13856D410604CC05\" quest=\"TR Alternative Gens\"/>",
-      "<hr/>",
+      "---",
       "The Thermal Generator produces energy from lava. It has an internal Tank that can hold 10k mB (10 Buckets or Cells) of lava which is consumed as it is converted to energy.",
-      "<br/>",
+      "",
       "The Water Mill is a passive generator that produces energy from water.",
-      "<br/>",
+      "",
       "The Semifluid Generator produces energy from various fluids. It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy.",
-      "<hr/>",
-      "<reward reward=\"0BB43D8E5DB6AD6F\" quest=\"TR Alternative Gens\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

@@ -47,14 +47,11 @@
     },
     "description": [
       "<h2>Crafted using nine scrap in a crafting table.</h2>",
-      "<hr/>",
-      "<task task=\"13F6E59856871982\" quest=\"TR Scrap Box\"/>",
-      "<hr/>",
+      "---",
       "When used, it will present the player with a random item.",
-      "<br/>",
+      "",
       "It can also be placed in a Scrapbox-inator to perform this process automatically.",
-      "<hr/>",
-      "<reward reward=\"63C4457C5AF8F7A9\" quest=\"TR Scrap Box\"/>"
+      "---"
     ],
     "groups": {
       "Tech Reborn": {

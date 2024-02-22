@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:lamp_incandescent",
     "description": [
-      "<task task=\"3F6957D32FF5EDC4\" quest=\"TR Lamp Incandescent\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"289B05BBBD6EC4AE\" quest=\"TR Lamp Incandescent\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

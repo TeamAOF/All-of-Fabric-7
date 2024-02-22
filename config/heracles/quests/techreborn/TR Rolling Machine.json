@@ -34,13 +34,9 @@
     "title": "Acquire: techreborn:rolling_machine",
     "description": [
       "<h2>Used to produce various coils, and vanilla items such as rails and carts.</h2>",
-      "<hr/>",
-      "<task task=\"52BD71FC339CBA98\" quest=\"TR Rolling Machine\"/>",
-      "<hr/>",
+      "---",
       "> Can be slot locked",
-      "<hr/>",
-      "<reward reward=\"5E1C89A4936C9C4C\" quest=\"TR Rolling Machine\"/>",
-      "<reward reward=\"7E328D4BD067919E\" quest=\"TR Rolling Machine\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

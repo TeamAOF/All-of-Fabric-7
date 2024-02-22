@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:tungstensteel_ingot",
     "description": [
-      "<task task=\"346B3EA16496606D\" quest=\"TR Tungstensteel Ingot\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1E36B59DE83D5476\" quest=\"TR Tungstensteel Ingot\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

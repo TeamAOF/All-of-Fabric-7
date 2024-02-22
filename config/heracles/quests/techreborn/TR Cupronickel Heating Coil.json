@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:cupronickel_heating_coil",
     "description": [
-      "<task task=\"1BA0F153578E7903\" quest=\"TR Cupronickel Heating Coil\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"24FFAA7A6FEBCD7E\" quest=\"TR Cupronickel Heating Coil\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

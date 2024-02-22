@@ -28,18 +28,15 @@
     "title": "Acquire: techreborn:diesel_generator",
     "description": [
       "<h2>Produces energy from various fluids.</h2>",
-      "<hr/>",
-      "<task task=\"734F4480F0BA71B9\" quest=\"TR Diesel Gen\"/>",
-      "<hr/>",
+      "---",
       "It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy.",
-      "<br/>",
+      "",
       "Fuels (per 1000 mB):",
       "- Nitrofuel = 24,000E",
       "- Nitrocoal Fuel = 48,000E",
       "- Diesel = 128,000E",
       "- Nitro Diesel = 400,000E",
-      "<hr/>",
-      "<reward reward=\"7A8068A350404177\" quest=\"TR Diesel Gen\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:adjustable_su",
     "description": [
       "<h2>A battery block that stores energy and charges items.</h2>",
-      "<hr/>",
-      "<task task=\"6925B87D2B040AA2\" quest=\"TR Adjustable SU\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"56CDDFDA1A86D305\" quest=\"TR Adjustable SU\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

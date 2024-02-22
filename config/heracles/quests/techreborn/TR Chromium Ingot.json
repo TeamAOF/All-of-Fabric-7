@@ -28,11 +28,7 @@
     "title": "Acquire: modern_industrialization:chromium_ingot",
     "description": [
       "<h2>Used in several late game crafting recipes.</h2>",
-      "<hr/>",
-      "<task task=\"49B6E05F1768F7F0\" quest=\"TR Chromium Ingot\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"150F91A588FA514D\" quest=\"TR Chromium Ingot\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -35,12 +35,7 @@
     "title": "Acquire: techreborn:industrial_solar_panel",
     "description": [
       "<h2>Produces energy from sunlight.</h2>",
-      "<hr/>",
-      "<task task=\"6596DA16576E85D2\" quest=\"TR Industrial Solar Panel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"7D164386AD271EFF\" quest=\"TR Industrial Solar Panel\"/>",
-      "<reward reward=\"2C557BBF2D88AA20\" quest=\"TR Industrial Solar Panel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

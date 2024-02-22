@@ -29,16 +29,13 @@
     "title": "Acquire: techreborn:electric_treetap",
     "description": [
       "<h2>An advanced version of Treetap used to collect Sap from Rubber Trees.</h2>",
-      "<hr/>",
-      "<task task=\"330243D7A04EEB17\" quest=\"TR Electric Treetap\"/>",
-      "<hr/>",
+      "---",
       "It has 10k Energy storage.",
-      "<br/>",
+      "",
       "One can charge it using Battery Box. ",
-      "<br/>",
+      "",
       "One use of Electric Treetap will consume 50 Energy, so it can collect sap 200 times on one charge.",
-      "<hr/>",
-      "<reward reward=\"38D10FC3B27394DB\" quest=\"TR Electric Treetap\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

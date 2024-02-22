@@ -30,10 +30,7 @@
   "display": {
     "title": "Acquire: techreborn:cell",
     "description": [
-      "<task task=\"0B0EE94525B3DF2E\" quest=\"TR Heliumplasma\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3543DA35D40E9A5D\" quest=\"TR Heliumplasma\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

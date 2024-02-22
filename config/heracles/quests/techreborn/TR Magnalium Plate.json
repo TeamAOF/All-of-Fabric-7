@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:magnalium_plate",
     "description": [
-      "<task task=\"0977B8D889B55A08\" quest=\"TR Magnalium Plate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"175DEA5D9D53D522\" quest=\"TR Magnalium Plate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

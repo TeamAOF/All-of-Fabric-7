@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:basic_machine_casing",
     "description": [
       "<h2>Used to build multi-block machines.</h2>",
-      "<hr/>",
-      "<task task=\"06B78021AEB3A7A4\" quest=\"TR Basic Machine Casing\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"7CFAE1940B5CA53C\" quest=\"TR Basic Machine Casing\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

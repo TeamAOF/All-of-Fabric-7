@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:iridium_alloy_plate",
     "description": [
-      "<task task=\"462D83630913D5AE\" quest=\"TR Iridium Alloy Plate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"49C6940427C28413\" quest=\"TR Iridium Alloy Plate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

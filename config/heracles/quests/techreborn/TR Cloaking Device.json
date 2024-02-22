@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:cloaking_device",
     "description": [
-      "<task task=\"76969CABB40BA5DA\" quest=\"TR Cloaking Device\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"7EF3E127A9C40586\" quest=\"TR Cloaking Device\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

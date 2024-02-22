@@ -28,12 +28,9 @@
     "title": "Acquire: techreborn:iron_furnace",
     "description": [
       "<h2>Works much like a traditional furnace, except that it is 56.25% more efficient with the fuel you use.</h2>",
-      "<hr/>",
-      "<task task=\"491ED2AD681AF639\" quest=\"TR Iron Furnace\"/>",
-      "<hr/>",
+      "---",
       "Can auto input and output.",
-      "<hr/>",
-      "<reward reward=\"3BEFCBADC876AF1C\" quest=\"TR Iron Furnace\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

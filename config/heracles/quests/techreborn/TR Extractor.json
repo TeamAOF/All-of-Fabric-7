@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:extractor",
     "description": [
       "<h2>Mainly used to extract rubber and dyes.</h2>",
-      "<hr/>",
-      "<task task=\"22206CF13738397A\" quest=\"TR Extractor\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"69DE7D3FE75A1A92\" quest=\"TR Extractor\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

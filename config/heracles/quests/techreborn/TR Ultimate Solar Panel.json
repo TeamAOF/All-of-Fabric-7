@@ -35,12 +35,7 @@
     "title": "Acquire: techreborn:ultimate_solar_panel",
     "description": [
       "<h2>Produces energy from sunlight.</h2>",
-      "<hr/>",
-      "<task task=\"536AF429E1F09DDB\" quest=\"TR Ultimate Solar Panel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"150D7E43E9A6EA7D\" quest=\"TR Ultimate Solar Panel\"/>",
-      "<reward reward=\"2F432FD0DAD1A773\" quest=\"TR Ultimate Solar Panel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: modern_industrialization:coal_dust",
     "description": [
-      "<task task=\"15C28B8C2859DECC\" quest=\"TR Coal Dust\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4581A0F0A4384603\" quest=\"TR Coal Dust\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

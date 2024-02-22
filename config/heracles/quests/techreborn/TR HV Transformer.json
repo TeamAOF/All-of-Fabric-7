@@ -28,11 +28,7 @@
     "title": "Acquire: techreborn:hv_transformer",
     "description": [
       "<h2>Converts energy from Extreme to High tier.</h2>",
-      "<hr/>",
-      "<task task=\"5626555AE3596C5E\" quest=\"TR HV Transformer\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5D56CC330D53CE6F\" quest=\"TR HV Transformer\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

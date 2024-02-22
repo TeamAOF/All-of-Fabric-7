@@ -29,11 +29,7 @@
     "title": "Acquire: techreborn:lapotron_crystal",
     "description": [
       "<h2>A portable battery used to charge items.</h2>",
-      "<hr/>",
-      "<task task=\"5F5321382D130FEE\" quest=\"TR Lapotron Crystal\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"66F52C7FA3B55643\" quest=\"TR Lapotron Crystal\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
