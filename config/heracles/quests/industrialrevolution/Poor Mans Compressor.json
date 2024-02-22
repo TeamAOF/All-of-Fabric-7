@@ -99,7 +99,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "modern_industrialization:tin_plate",
         "count": 1
       },
       "type": "heracles:item"

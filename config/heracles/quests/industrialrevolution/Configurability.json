@@ -81,7 +81,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "indrev:wrench",
         "count": 1
       },
       "type": "heracles:item"

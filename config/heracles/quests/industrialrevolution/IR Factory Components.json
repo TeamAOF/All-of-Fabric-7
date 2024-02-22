@@ -180,7 +180,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "indrev:electric_furnace_factory_mk4",
         "count": 1
       },
       "type": "heracles:item"

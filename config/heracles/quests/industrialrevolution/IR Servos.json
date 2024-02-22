@@ -109,7 +109,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "indrev:servo_output",
         "count": 1
       },
       "type": "heracles:item"
