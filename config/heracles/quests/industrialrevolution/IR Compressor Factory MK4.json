@@ -56,12 +56,7 @@
     },
     "description": [
       "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
-      "<hr/>",
-      "<task task=\"66777FB617B6DED4\" quest=\"IR Compressor Factory MK4\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"138AF79E3F362F35\" quest=\"IR Compressor Factory MK4\"/>",
-      "<reward reward=\"65042EC0CA81A52C\" quest=\"IR Compressor Factory MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

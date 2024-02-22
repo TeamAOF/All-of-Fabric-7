@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Upgrades MK3 machines to MK4.</h2>",
-      "<hr/>",
-      "<task task=\"0D4A3AF2AE73BE76\" quest=\"IR Tier Upgrade MK4\"/>",
-      "<hr/>",
+      "---",
       "These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it.",
-      "<hr/>",
-      "<reward reward=\"07F13B3B745111E0\" quest=\"IR Tier Upgrade MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

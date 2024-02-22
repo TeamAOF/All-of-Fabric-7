@@ -56,12 +56,7 @@
     },
     "description": [
       "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
-      "<hr/>",
-      "<task task=\"37B41479BCC582F1\" quest=\"IR Solid Infuser Factory MK4\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0C24F97292B6B471\" quest=\"IR Solid Infuser Factory MK4\"/>",
-      "<reward reward=\"533A073C50011CC1\" quest=\"IR Solid Infuser Factory MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

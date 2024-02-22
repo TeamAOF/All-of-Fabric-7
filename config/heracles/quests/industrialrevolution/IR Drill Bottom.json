@@ -77,26 +77,21 @@
     },
     "description": [
       "<h2>I have confidence in mining. I see exciting opportunities in it.</h2>",
-      "<hr/>",
-      "<task task=\"3A3A6FA7D635E56C\" quest=\"IR Drill Bottom\"/>",
-      "<task task=\"44DA8D0214330F39\" quest=\"IR Drill Bottom\"/>",
-      "<task task=\"indrev_data_card_encoder\" quest=\"IR Drill Bottom\"/>",
-      "<hr/>",
+      "---",
       "Before making the mining rig you will need a data card encoder, in the data card encoder you can put data cards and a stack of the ore you wish the mining rig to get you.",
       "The data cards can only get a certain amount of ores, you can also put multiple ores in the same card but this will make the card produce less overall.",
       "There are certain modifiers to improve the cards, adding stone allows the data card produce more ores, but make sure to not go over 100% in the circle or the data card will become useless.",
-      "<br/>",
+      "",
       "The best way to use data cards is to add 1 stack of the ore you want and 15 stacks of stone for the maximum amount of ore that can be produced.",
-      "<br/>",
+      "",
       "Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads to work. Each Drill increases the mining speed.",
       "Can hold up to 8 mining rig drills, make sure each one has a drill head.",
       "Drills can be enchanted with unbreaking to make them last longer",
-      "<br/>",
+      "",
       "Note that the Drills can be placed connected or diagonally to the Mining Rig Computer.",
-      "<br/>",
+      "",
       "The mining rig can output to the top so place so kind of chest or storage there and make sure that it doesn't get clogged to avoid lag.",
-      "<hr/>",
-      "<reward reward=\"7E48E5130E230EB3\" quest=\"IR Drill Bottom\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

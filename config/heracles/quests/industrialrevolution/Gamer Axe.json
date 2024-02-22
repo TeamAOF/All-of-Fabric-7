@@ -43,11 +43,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_gamer_axe\" quest=\"Gamer Axe\"/>",
-      "<hr/>",
+      "---",
       "The gamer axe is a powerful and fast swinging weapon and tool, it can be used both as an axe and as a weapon, to be used as a weapon you must go to controls and make a keybind to turn on the gamer axe, while the axe is active it will quickly drain energy but have a lot of damage.",
-      "<hr/>",
-      "<reward reward=\"indrev_gamer_axe_reward\" quest=\"Gamer Axe\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

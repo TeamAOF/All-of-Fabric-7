@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Upgrades can boost machines stats.</h2>",
-      "<hr/>",
-      "<task task=\"52DD22CF4838D5B7\" quest=\"IR Empty Enhancer\"/>",
-      "<hr/>",
+      "---",
       "The blank template with which the ehnacements will be made.",
-      "<hr/>",
-      "<reward reward=\"11BF0AB4A36E9625\" quest=\"IR Empty Enhancer\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

@@ -47,18 +47,15 @@
     },
     "description": [
       "<h2>Used to install modules onto Modular Armor parts.</h2>",
-      "<hr/>",
-      "<task task=\"140BC8875C9E1DB1\" quest=\"Modular Workbench MK4\"/>",
-      "<hr/>",
+      "---",
       "The modular workbench allows to craft and install modules.",
-      "<br/>",
+      "",
       "Notice that installing modules cost time and some energy!",
-      "<br/>",
+      "",
       "The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!",
-      "<br/>",
+      "",
       "Modules can also be used on the modular mining drill and the gamer axe.",
-      "<hr/>",
-      "<reward reward=\"1C33ED6AFA03FA1F\" quest=\"Modular Workbench MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

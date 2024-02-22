@@ -103,22 +103,15 @@
     },
     "description": [
       "<h2>These upgrades will improve certain aspects of the machine like speed and energy usage.</h2>",
-      "<hr/>",
-      "<task task=\"056A302B4A42091A\" quest=\"IR Enhancers\"/>",
-      "<task task=\"6AA190C4346A526C\" quest=\"IR Enhancers\"/>",
-      "<task task=\"0D800109FAF6E8CD\" quest=\"IR Enhancers\"/>",
-      "<task task=\"7D6E4AA15A9FC4D7\" quest=\"IR Enhancers\"/>",
-      "<task task=\"2CC2B59693FA6602\" quest=\"IR Enhancers\"/>",
-      "<hr/>",
+      "---",
       "Speed: Will increase the machine's processing speed at the cost of energy.",
-      "<br/>",
+      "",
       "Buffer: Will increase the machine's internal energy capacity.",
-      "<br/>",
+      "",
       "Blasting: Will make the Electric Furnace accept Blast Furnace recipes.",
-      "<br/>",
+      "",
       "Smoker: Will make the Electric Furnace accept Smoker recipes.",
-      "<hr/>",
-      "<reward reward=\"6B858052DF67DC3E\" quest=\"IR Enhancers\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

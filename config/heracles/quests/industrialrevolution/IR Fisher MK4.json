@@ -46,11 +46,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"365BDA0295FF4F41\" quest=\"IR Fisher MK4\"/>",
-      "<hr/>",
+      "---",
       "The fisher with no fish, it will only get you treasures.",
-      "<hr/>",
-      "<reward reward=\"7B4F590CBD04DD6D\" quest=\"IR Fisher MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

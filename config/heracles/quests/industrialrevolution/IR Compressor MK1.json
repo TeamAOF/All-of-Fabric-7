@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Mainly used for compressing ingots into plates.</h2>",
-      "<hr/>",
-      "<task task=\"1A45BB2D75F41120\" quest=\"IR Compressor MK1\"/>",
-      "<hr/>",
+      "---",
       "Mainly used for plates but necessary for making enhancements and the fisher.",
-      "<hr/>",
-      "<reward reward=\"7A8B758D007E31B4\" quest=\"IR Compressor MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

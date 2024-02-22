@@ -40,13 +40,11 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_modular_boots\" quest=\"Modular Boots\"/>",
-      "<hr/>",
+      "---",
       "The Modular boots can be upgraded with certain unique modules:",
       "-Jump boost module",
       "-Feather falling module",
-      "<hr/>",
-      "<reward reward=\"indrev_modular_boots_reward\" quest=\"Modular Boots\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

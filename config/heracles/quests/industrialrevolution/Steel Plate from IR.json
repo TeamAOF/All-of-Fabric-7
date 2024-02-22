@@ -46,11 +46,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"76A9AC313BDD324B\" quest=\"Steel Plate from IR\"/>",
-      "<hr/>",
+      "---",
       "Steel plates are necessary for the best machines.",
-      "<hr/>",
-      "<reward reward=\"37847037A012D05C\" quest=\"Steel Plate from IR\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

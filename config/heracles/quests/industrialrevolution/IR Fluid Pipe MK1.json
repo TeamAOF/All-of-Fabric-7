@@ -47,11 +47,7 @@
     },
     "description": [
       "<h2>Fluid pipes can be used to transfer fluids between tanks far apart.</h2>",
-      "<hr/>",
-      "<task task=\"3D0B6ABE07C06658\" quest=\"IR Fluid Pipe MK1\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"03D83DCD6EDF3D49\" quest=\"IR Fluid Pipe MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

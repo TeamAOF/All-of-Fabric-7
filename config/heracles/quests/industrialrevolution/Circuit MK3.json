@@ -48,12 +48,9 @@
     },
     "description": [
       "<h2>Just when you thought it couldn't get better.</h2>",
-      "<hr/>",
-      "<task task=\"153F8D1FE2667FE0\" quest=\"Circuit MK3\"/>",
-      "<hr/>",
+      "---",
       "Mainly used for MK3 upgrades.",
-      "<hr/>",
-      "<reward reward=\"77E243FC4207E72E\" quest=\"Circuit MK3\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

@@ -40,12 +40,10 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_modular_leggings\" quest=\"Modular Leggings\"/>",
-      "<hr/>",
+      "---",
       "The Modular leggings can be upgraded with an unique module:",
       "-Speed module",
-      "<hr/>",
-      "<reward reward=\"indrev_modular_leggings_reward\" quest=\"Modular Leggings\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

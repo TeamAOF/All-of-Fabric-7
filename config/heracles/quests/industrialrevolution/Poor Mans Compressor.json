@@ -76,18 +76,13 @@
     },
     "description": [
       "<h2>Craft a Forge Hammer from MI and make your first plates.</h2>",
-      "<hr/>",
-      "<task task=\"38FF00648317CA47\" quest=\"Poor Mans Compressor\"/>",
-      "<task task=\"3F644DD10ADA8B85\" quest=\"Poor Mans Compressor\"/>",
-      "<task task=\"550F31D9A31FE1AC\" quest=\"Poor Mans Compressor\"/>",
-      "<hr/>",
+      "---",
       "TIP: Use hammers while crafting in the Forge Hammer.",
-      "<br/>",
+      "",
       "These hammers will save you lots of resources.",
-      "<br/>",
+      "",
       "NOTE: Indrev Hammer is disabled.",
-      "<hr/>",
-      "<reward reward=\"278A2E90AFCDB9A0\" quest=\"Poor Mans Compressor\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

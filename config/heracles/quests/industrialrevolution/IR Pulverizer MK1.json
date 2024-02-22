@@ -47,14 +47,11 @@
     },
     "description": [
       "<h2>Mainly used for processing ores into two dusts.</h2>",
-      "<hr/>",
-      "<task task=\"7BFD5C78BE44AE81\" quest=\"IR Pulverizer MK1\"/>",
-      "<hr/>",
+      "---",
       "Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling.",
-      "<br/>",
+      "",
       "The Pulverizer will turn 1 ore into 2 dusts which can then be smelted into 2 ingots.",
-      "<hr/>",
-      "<reward reward=\"46131EB89CEFFECD\" quest=\"IR Pulverizer MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

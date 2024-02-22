@@ -48,12 +48,9 @@
     },
     "description": [
       "<h2>Circuit go brrrrrr</h2>",
-      "<hr/>",
-      "<task task=\"6C45B817876223D3\" quest=\"Circuit MK4\"/>",
-      "<hr/>",
+      "---",
       "The best circuit to ever be created, you'll need it for the really good equipment.",
-      "<hr/>",
-      "<reward reward=\"52BF8DAAFC8EC7A0\" quest=\"Circuit MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

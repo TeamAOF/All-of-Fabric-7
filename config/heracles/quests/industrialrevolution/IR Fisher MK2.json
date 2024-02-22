@@ -48,12 +48,9 @@
     },
     "description": [
       "<h2>A machine focused in fish farming, and it also supports enhancement upgrades.</h2>",
-      "<hr/>",
-      "<task task=\"2160975BE87B0F26\" quest=\"IR Fisher MK2\"/>",
-      "<hr/>",
+      "---",
       "It's only requirement is a Fishing Rod.",
-      "<hr/>",
-      "<reward reward=\"6CD7DDCAC7634A6D\" quest=\"IR Fisher MK2\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

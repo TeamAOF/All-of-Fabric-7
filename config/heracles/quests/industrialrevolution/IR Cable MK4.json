@@ -40,10 +40,7 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_cable_mk4\" quest=\"IR Cable MK4\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"indrev_cable_mk4_reward\" quest=\"IR Cable MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

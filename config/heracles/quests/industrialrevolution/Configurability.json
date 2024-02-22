@@ -61,15 +61,11 @@
     },
     "description": [
       "<h2>Quit screwing around and wrench it off</h2>",
-      "<hr/>",
-      "<task task=\"120ED12697D4981E\" quest=\"Configurability\"/>",
-      "<task task=\"6476760A6188EB18\" quest=\"Configurability\"/>",
-      "<hr/>",
+      "---",
       "The Wrench can be used to rotate blocks and break machines while keeping their energy when using it while crouching.",
-      "<br/>",
+      "",
       "The Screwdriver is used to configure machines' inputs and outputs for items and fluids. It can also be used on Lazuli Flux Containers to configurate energy sides.",
-      "<hr/>",
-      "<reward reward=\"7B3AA028EB162EEF\" quest=\"Configurability\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

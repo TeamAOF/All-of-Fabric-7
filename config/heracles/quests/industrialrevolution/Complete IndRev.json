@@ -110,11 +110,7 @@
     },
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
-      "<hr/>",
-      "<task task=\"28FBE0DAB8D6BF8F\" quest=\"Complete IndRev\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"47349A13BACC591D\" quest=\"Complete IndRev\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

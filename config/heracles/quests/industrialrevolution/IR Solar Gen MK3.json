@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Will generate energy as long as the sunlight can reach it.</h2>",
-      "<hr/>",
-      "<task task=\"69D934CCE991022B\" quest=\"IR Solar Gen MK3\"/>",
-      "<hr/>",
+      "---",
       "An improved version of the regular solar generator.",
-      "<hr/>",
-      "<reward reward=\"14A566B17F4B8DE1\" quest=\"IR Solar Gen MK3\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

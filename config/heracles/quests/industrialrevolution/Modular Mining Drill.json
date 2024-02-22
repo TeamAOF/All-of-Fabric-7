@@ -40,11 +40,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_modular_mining_drill\" quest=\"Modular Mining Drill\"/>",
-      "<hr/>",
+      "---",
       "The Modular mining drill is a powerful tool, it can be upgraded for extra speed and range and with the fortune and silk touch modules you can switch between them on the go.",
-      "<hr/>",
-      "<reward reward=\"modular_mining_drill_reward\" quest=\"Modular Mining Drill\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

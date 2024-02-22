@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Has the capability of mixing two ingredients into a different one.</h2>",
-      "<hr/>",
-      "<task task=\"149E01643E01157E\" quest=\"IR Solid Infuser MK1\"/>",
-      "<hr/>",
+      "---",
       "Mainly used to enrich nikolite for better tiers of machines, can also be used to duplicate flowers, mushrooms and some saplings.",
-      "<hr/>",
-      "<reward reward=\"410ED412233723AF\" quest=\"IR Solid Infuser MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

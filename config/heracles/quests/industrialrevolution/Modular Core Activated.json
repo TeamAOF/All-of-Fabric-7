@@ -46,11 +46,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"35D41B3A51A85FF6\" quest=\"Modular Core Activated\"/>",
-      "<hr/>",
+      "---",
       "The installed modules on your gear can be configured by pressing K.",
-      "<hr/>",
-      "<reward reward=\"5A5099B092E1219D\" quest=\"Modular Core Activated\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

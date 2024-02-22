@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Will consume lava inside it to generate energy. Pairs up well with the pump.</h2>",
-      "<hr/>",
-      "<task task=\"5A05A31972972B83\" quest=\"IR Heat Gen MK4\"/>",
-      "<hr/>",
+      "---",
       "The heat generator will slowly consume lava to generate a lot of power, the longer it's running the faster it will produce energy.",
-      "<hr/>",
-      "<reward reward=\"44EBF25DDD272F6A\" quest=\"IR Heat Gen MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {
