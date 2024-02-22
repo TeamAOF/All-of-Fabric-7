@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Blocks as Far as the Eye Can See"
+  ],
+  "tasks": {
+    "068B1DB83FC58B63": {
+      "type": "heracles:item",
+      "item": "trowel:trowel"
+    }
+  },
+  "rewards": {
+    "18224C4E9425E913": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 3
+    }
+  },
+  "display": {
+    "title": "Acquire: trowel:trowel",
+    "description": [
+      "<h2>Picks a random block from your hotbar and places it down.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trowel:trowel"
+    },
+    "subtitle": {
+      "text": "Picks a random block from your hotbar and places it down."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          208,
+          -224
+        ]
+      }
+    }
+  }
+}

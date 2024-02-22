@@ -1,0 +1,91 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "6DACDA252E01FFFE": {
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "0d938562762f11eebc3f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "piercingpaxels:wooden_paxel",
+					"nbt": { "Damage": 0 }
+        },
+        "0d9385c6762f11eebc3f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "piercingpaxels:stone_paxel",
+					"nbt": { "Damage": 0 }
+        },
+        "0d9385da762f11eebc3f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "piercingpaxels:gold_paxel",
+					"nbt": { "Damage": 0 }
+        },
+        "0d9385ee762f11eebc3f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "piercingpaxels:iron_paxel",
+					"nbt": { "Damage": 0 }
+        },
+        "0d93862a762f11eebc3f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "piercingpaxels:diamond_paxel",
+					"nbt": { "Damage": 0 }
+        },
+        "0d93863e762f11eebc3f96cf213b3197": {
+          "type": "heracles:item",
+          "amount": 1,
+          "item": "piercingpaxels:netherite_paxel",
+					"nbt": { "Damage": 0 }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "176E6C862D9E4379": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Paxels",
+    "description": [
+      "<h2>All in One!</h2>",
+      "---",
+      "These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits.",
+      "",
+      "They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "piercingpaxels:iron_paxel"
+    },
+    "subtitle": {
+      "text": "All in One!"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    }
+  }
+}

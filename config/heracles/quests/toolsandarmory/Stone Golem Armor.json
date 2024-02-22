@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "Armory"
+  ],
+  "tasks": {},
+  "rewards": {
+    "177660FB4D8E2671": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "More durable than the netherite set and has a full set ability."
+    },
+    "description": [
+      "<h2>More durable than the netherite set and has a full set ability.</h2>",
+      "---",
+      "The Gilded Netherite Armor is the upgraded netherite armor with a gilded netherite fragment.",
+      "",
+      "If the player wears all four parts of the armor, they'll be able to press default key “v” to activate the armor indicated by a glowing red layer on the armor.",
+      "",
+      "It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -208,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "adventurez:gilded_netherite_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Gilded Netherite"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
