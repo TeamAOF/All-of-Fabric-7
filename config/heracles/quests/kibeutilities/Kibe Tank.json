@@ -1,43 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Kibe Mob Farm Method"
   ],
   "tasks": {
     "5850558B76ECFFE0": {
       "type": "heracles:item",
-      "item": "kibe:tank"
+      "item": "kibe:tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "678378DBB8948868": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: kibe:tank",
+    "subtitle": {
+      "translate": "Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them."
+    },
     "description": [
       "<h2>Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:tank"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them."
-    },
     "groups": {
       "Kibe Utilities": {
         "position": [
@@ -45,6 +56,24 @@
           64
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Acquire: kibe:tank"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

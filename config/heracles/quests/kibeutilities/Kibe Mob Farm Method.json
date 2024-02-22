@@ -1,14 +1,23 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "7F9BE20A484C8715": {
       "title": "Kibe Mob Farm Method",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Kibe Mob Farm Method",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---",
       "Use the various levels of spikes to leave at the bottom of your mob farm.",
@@ -27,11 +36,6 @@
       "",
       "Once you have mastered the mob farm, can you claim your reward."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Kibe Utilities": {
         "position": [
@@ -39,6 +43,24 @@
           32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Kibe Mob Farm Method"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

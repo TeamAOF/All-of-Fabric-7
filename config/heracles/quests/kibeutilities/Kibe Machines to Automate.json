@@ -1,27 +1,28 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "093B8ECB1B60CFD3": {
       "title": "Machines to automate",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Machines to automate",
+    "subtitle": {
+      "translate": "Use these various machines to do all kinds of things."
+    },
     "description": [
       "<h2>Use these various machines to do all kinds of things.</h2>",
       "---",
       "TIP: They are activated by redstone."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Use these various machines to do all kinds of things."
-    },
     "groups": {
       "Kibe Utilities": {
         "position": [
@@ -29,6 +30,24 @@
           -160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Machines to automate"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
