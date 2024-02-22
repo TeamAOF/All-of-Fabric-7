@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:voodoo_protection_poppet",
     "description": [
-      "<task task=\"638ECB265FAE71EB\" quest=\"Voodoo Protection Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"13FAF7138F13A241\" quest=\"Voodoo Protection Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

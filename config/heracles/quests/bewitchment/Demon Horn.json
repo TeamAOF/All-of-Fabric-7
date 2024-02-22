@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:demon_horn",
     "description": [
-      "<task task=\"416484CF2AB4D71B\" quest=\"Demon Horn\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"36C67E1882AB1288\" quest=\"Demon Horn\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

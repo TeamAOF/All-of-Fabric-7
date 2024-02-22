@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:voodoo_poppet",
     "description": [
-      "<task task=\"433EA789E4B03C5B\" quest=\"Voodoo Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"05A83292D29CD735\" quest=\"Voodoo Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

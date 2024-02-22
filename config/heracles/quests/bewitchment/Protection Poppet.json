@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:protection_poppet",
     "description": [
-      "<task task=\"55C622C7F900504C\" quest=\"Protection Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4EE10EA390B3E4C2\" quest=\"Protection Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -28,14 +28,11 @@
     "title": "Acquire: bewitchment:horned_spear",
     "description": [
       "<h2>This spear is the hunting weapon of Herne.</h2>",
-      "<hr/>",
-      "<task task=\"2F68CB0B56C94B78\" quest=\"Horned Spear\"/>",
-      "<hr/>",
+      "---",
       "Much like a Trident, it can be thrown towards a target, and will always return to whoever threw it.",
-      "<br/>",
+      "",
       "The Horned Spear can be repaired using Netherite Ingots.",
-      "<hr/>",
-      "<reward reward=\"1D91D2EEE1A19966\" quest=\"Horned Spear\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

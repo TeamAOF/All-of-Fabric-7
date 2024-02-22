@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:death_protection_poppet",
     "description": [
-      "<task task=\"17271F13609136DA\" quest=\"Death Protection Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0DB8AA159811F50D\" quest=\"Death Protection Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

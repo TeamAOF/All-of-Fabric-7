@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:judgment_poppet",
     "description": [
-      "<task task=\"3AD3144A2289E414\" quest=\"Judgement Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5E7FF792249DA4BF\" quest=\"Judgement Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

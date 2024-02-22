@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:fatigue_poppet",
     "description": [
-      "<task task=\"4837A378979ED1AE\" quest=\"Fatigue Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"35FE11868ED36D13\" quest=\"Fatigue Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

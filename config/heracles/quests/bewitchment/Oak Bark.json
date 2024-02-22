@@ -28,16 +28,13 @@
     "title": "Acquire: bewitchment:oak_bark",
     "description": [
       "<h2>Some say that Bark is the most magically potent part of the tree.</h2>",
-      "<hr/>",
-      "<task task=\"38B08483C8E278D3\" quest=\"Oak Bark\"/>",
-      "<hr/>",
+      "---",
       "Early witches learned to strip bark from wood using an Athame.",
-      "<br/>",
+      "",
       "Do note that some woods are simply too hard to strip Bark from.",
-      "<br/>",
+      "",
       "Bark can be used for many things, one of those being Wood Ash.",
-      "<hr/>",
-      "<reward reward=\"01110A2F9D5F6799\" quest=\"Oak Bark\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

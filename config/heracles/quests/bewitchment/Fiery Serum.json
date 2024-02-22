@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:fiery_serum",
     "description": [
-      "<task task=\"5739D179CD4C5D26\" quest=\"Fiery Serum\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2F9E7E82B08AD31E\" quest=\"Fiery Serum\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

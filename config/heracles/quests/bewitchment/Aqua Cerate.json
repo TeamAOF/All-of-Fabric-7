@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:aqua_cerate",
     "description": [
-      "<task task=\"769432E98298B4C8\" quest=\"Aqua Cerate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3D990A46A273A9BA\" quest=\"Aqua Cerate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

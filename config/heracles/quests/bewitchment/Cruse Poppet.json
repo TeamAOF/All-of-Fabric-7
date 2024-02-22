@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:curse_poppet",
     "description": [
-      "<task task=\"6C470769345218F8\" quest=\"Cruse Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5635587AE0A0D41B\" quest=\"Cruse Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

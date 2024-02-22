@@ -28,10 +28,7 @@
   "display": {
     "title": "Acquire: bewitchment:chalk",
     "description": [
-      "<task task=\"372B31C55E138C15\" quest=\"Chalk\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"63432E061B2D2063\" quest=\"Chalk\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

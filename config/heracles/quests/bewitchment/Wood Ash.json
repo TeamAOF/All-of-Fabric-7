@@ -28,12 +28,9 @@
     "title": "Acquire: bewitchment:wood_ash",
     "description": [
       "<h2>Created by putting Bark on a Campfire.</h2>",
-      "<hr/>",
-      "<task task=\"7B461B5FFCDEE357\" quest=\"Wood Ash\"/>",
-      "<hr/>",
+      "---",
       "When thrown into a filled Witch Cauldron it will immediately empty it.",
-      "<hr/>",
-      "<reward reward=\"5B19CA4F25A94842\" quest=\"Wood Ash\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

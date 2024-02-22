@@ -28,10 +28,7 @@
   "display": {
     "title": "Acquire: bewitchment:demon_heart",
     "description": [
-      "<task task=\"0B6E7536EA8FC60D\" quest=\"Demon Heart\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2821962D0E9F1AE3\" quest=\"Demon Heart\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

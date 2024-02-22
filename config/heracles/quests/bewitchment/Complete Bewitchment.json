@@ -60,11 +60,7 @@
     "title": "&eBewitchment 100%",
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
-      "<hr/>",
-      "<task task=\"2C2166273BBDFCAC\" quest=\"Complete Bewitchment\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3754227DEE07E247\" quest=\"Complete Bewitchment\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

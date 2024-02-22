@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:earth_ichor",
     "description": [
-      "<task task=\"5D313A77DF22E070\" quest=\"Earth Ichor\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"40059E96C692DE16\" quest=\"Earth Ichor\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

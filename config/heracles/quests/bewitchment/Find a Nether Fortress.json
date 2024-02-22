@@ -30,10 +30,7 @@
   "display": {
     "title": "Find a Nether Fortress",
     "description": [
-      "<task task=\"2A76279AD6285265\" quest=\"Find a Nether Fortress\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3EDB0EB02FACC67B\" quest=\"Find a Nether Fortress\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

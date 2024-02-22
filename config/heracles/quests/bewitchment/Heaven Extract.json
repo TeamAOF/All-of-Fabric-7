@@ -33,11 +33,7 @@
   "display": {
     "title": "Acquire: bewitchment:heaven_extract",
     "description": [
-      "<task task=\"6F651059DED11014\" quest=\"Heaven Extract\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4BD914AE009D5A45\" quest=\"Heaven Extract\"/>",
-      "<reward reward=\"37130F49FAD7BE89\" quest=\"Heaven Extract\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

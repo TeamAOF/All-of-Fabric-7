@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:cleansing_balm",
     "description": [
-      "<task task=\"3183D796C616263D\" quest=\"Cleansing Balm\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0679878AE22A82A9\" quest=\"Cleansing Balm\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

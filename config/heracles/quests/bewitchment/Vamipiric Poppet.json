@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:vampiric_poppet",
     "description": [
-      "<task task=\"4A5DB934B15056F6\" quest=\"Vamipiric Poppet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"630A27C7B1CA77DB\" quest=\"Vamipiric Poppet\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

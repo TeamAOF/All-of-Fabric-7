@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: bewitchment:grim_elixir",
     "description": [
-      "<task task=\"251EFDBE770E7549\" quest=\"Grim Elixir\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5932482FE7A9029A\" quest=\"Grim Elixir\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

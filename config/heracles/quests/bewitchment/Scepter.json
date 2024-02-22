@@ -28,14 +28,11 @@
     "title": "Acquire: bewitchment:scepter",
     "description": [
       "<h2>This powerful relic is obtained by defeating Leonard.</h2>",
-      "<hr/>",
-      "<task task=\"21DC85807695CFAB\" quest=\"Scepter\"/>",
-      "<hr/>",
+      "---",
       "It can be combined with a Splash Potion, which can then be thrown four times using the Scepter at the cost of ME.",
-      "<br/>",
+      "",
       "The Scepter can be repaired using Netherie Ingots.",
-      "<hr/>",
-      "<reward reward=\"36C770DEFFEFA3B5\" quest=\"Scepter\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
