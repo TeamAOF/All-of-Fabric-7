@@ -1,50 +1,63 @@
 {
-  "settings": {},
   "dependencies": [
-    "Stone Witch Altar",
-    "Demon Heart",
-    "Voodoo Poppet",
-    "Taglock",
-    "Bottle of Blood",
-    "Wood Ash",
-    "Demon Horn",
-    "Fiery Serum",
-    "Oak Bark",
-    "Voodoo Protection Poppet",
     "Juniper Broom",
     "Death Protection Poppet",
-    "Fatigue Poppet",
-    "Earth Ichor",
-    "Protection Poppet",
-    "Aqua Cerate",
-    "Chalk",
-    "Grotesque Stew",
-    "Athame",
-    "Caduceus",
-    "Book of Shadows",
-    "Witch Cauldron",
-    "Crystal Ball",
+    "Cruse Poppet",
     "Heaven Extract",
     "Find a Nether Fortress",
-    "Harbinger",
-    "Horned Spear",
+    "Cleansing Balm",
+    "Demon Horn",
+    "Taglock",
+    "Earth Ichor",
+    "Grotesque Stew",
+    "Grim Elixir",
     "Vamipiric Poppet",
-    "Cruse Poppet",
+    "Protection Poppet",
+    "Aqua Cerate",
+    "Crystal Ball",
+    "Wood Ash",
+    "Athame",
+    "Chalk",
+    "Caduceus",
+    "Bottle of Blood",
+    "Voodoo Protection Poppet",
     "Mending Support",
+    "Book of Shadows",
+    "Harbinger",
+    "Oak Bark",
+    "Voodoo Poppet",
+    "Horned Spear",
+    "Fatigue Poppet",
+    "Stone Witch Altar",
+    "Demon Heart",
+    "Fiery Serum",
     "Judgement Poppet",
     "Scepter",
-    "Grim Elixir",
-    "Cleansing Balm"
+    "Witch Cauldron"
   ],
   "tasks": {
     "2C2166273BBDFCAC": {
       "title": "&eBewitchment 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "3754227DEE07E247": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -53,23 +66,18 @@
             "Trophy": "trofers:bewitchment"
           }
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "&eBewitchment 100%",
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "trofers:medium_pillar"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Complete all quests to obtain the trophy!"
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -77,6 +85,24 @@
           -192
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "&eBewitchment 100%"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
