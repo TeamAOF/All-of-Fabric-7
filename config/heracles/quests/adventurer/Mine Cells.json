@@ -1,36 +1,49 @@
 {
-  "settings": {},
   "dependencies": [
     "Adventures and Mysteries"
   ],
   "tasks": {
     "09B4372F749D9625": {
       "icon": {
-        "type": "heracles:item",
-        "item": "minecells:conjunctivius_respawn_rune"
+        "item": {
+          "id": "minecells:conjunctivius_respawn_rune",
+          "count": 1
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:changed_dimension",
       "from": "minecraft:overworld",
-      "to": "minecells:prison"
+      "to": "minecells:prison",
+      "title": "",
+      "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "75521584B37DD8A1": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§6Mine Cells",
+    "subtitle": {
+      "translate": "Dive into the story of Dead Cells!"
+    },
     "description": [
       "<h2>Dive into the story of Dead Cells!</h2>",
       "---",
@@ -43,20 +56,31 @@
       "You can find her lair in the &&bPrison structure &&r/ &&bdimension&&r.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecells:conjunctivius_respawn_rune"
-    },
-    "subtitle": {
-      "text": "Dive into the story of Dead Cells!"
-    },
     "groups": {
       "Adventurer": {
         "position": [
           -64,
-          48
+          32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "minecells:conjunctivius_respawn_rune",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Mine Cells"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

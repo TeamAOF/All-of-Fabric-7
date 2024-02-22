@@ -1,26 +1,27 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "7C9B04C717763B2B": {
       "title": "Entangle your mind.",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Entangle your mind.",
+    "subtitle": {
+      "translate": "Using kibe runes, you can code your linked chests and have as many different ones that your heart desires."
+    },
     "description": [
       "<h2>Using kibe runes, you can code your linked chests and have as many different ones that your heart desires.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Using kibe runes, you can code your linked chests and have as many different ones that your heart desires."
-    },
     "groups": {
       "Kibe Utilities": {
         "position": [
@@ -28,6 +29,24 @@
           32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Entangle your mind."
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

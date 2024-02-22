@@ -1,30 +1,42 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "24A1862F0308DA6E": {
       "title": "Wither machine",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "7716261A55143011": {
-      "type": "heracles:xp",
-      "xptype": "points",
-      "amount": 100
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
-    "title": "Wither Machine",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---",
       "Use the following to create an automatic wither machine.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Kibe Utilities": {
         "position": [
@@ -32,6 +44,24 @@
           -160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Wither Machine"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

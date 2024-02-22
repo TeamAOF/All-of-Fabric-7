@@ -1,38 +1,65 @@
 {
-  "settings": {},
   "dependencies": [
     "Adventures and Mysteries"
   ],
   "tasks": {
     "5E109F35ECDB37C6": {
       "type": "heracles:item",
-      "item": "ad_astra:astrodux"
+      "item": "ad_astra:astrodux",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "583873BD842B01B4": {
-      "type": "heracles:item",
-      "item": {
-        "id": "ad_astra:cheese",
-        "count": 16
-      }
-    },
     "465969990392BD70": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 11763949,
           "Loot": "aof:loot_bags/ad_astra/rare",
-          "Name": "Ad Astra! Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Ad Astra! Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "583873BD842B01B4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:cheese",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§9Space Travels",
+    "subtitle": {
+      "translate": "To the moon!"
+    },
     "description": [
       "<h2>To the moon!</h2>",
       "---",
@@ -47,20 +74,31 @@
       "&&6Complete this quest &&rby crafting the &&bAstrodux&&r.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ad_astra:tier_1_rocket"
-    },
-    "subtitle": {
-      "text": "To the moon!"
-    },
     "groups": {
       "Adventurer": {
         "position": [
-          -80,
-          -48
+          -96,
+          -16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:tier_1_rocket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§9Space Travels"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

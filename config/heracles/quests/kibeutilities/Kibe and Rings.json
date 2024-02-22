@@ -1,28 +1,40 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "714E9C63DE4504CF": {
       "title": "Kibe and Rings",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "5FEA7261502B2EA7": {
-      "type": "heracles:xp",
-      "xptype": "points",
-      "amount": 100
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
-    "title": "Kibe and Rings",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Kibe Utilities": {
         "position": [
@@ -30,6 +42,24 @@
           32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Kibe and Rings"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

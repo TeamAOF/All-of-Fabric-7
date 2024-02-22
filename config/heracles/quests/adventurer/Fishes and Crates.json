@@ -1,34 +1,35 @@
 {
-  "settings": {},
   "dependencies": [
     "Adventures and Mysteries"
   ],
-  "tasks": {
-    "52BEAE23DF485E51": {
-      "type": "heracles:item",
-      "item": "itemfilters:mod",
-      "nbt": {
-        "value": "gofish"
-      }
-    }
-  },
+  "tasks": {},
   "rewards": {
     "401B0FCEDA6E06C3": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 5889627,
           "Loot": "aof:loot_bags/misc/agriculturist",
-          "Name": "Agriculturist Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Agriculturist Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§bFishes and Crates!",
+    "subtitle": {
+      "translate": "Fishing should be fun."
+    },
     "description": [
       "<h2>Fishing should be fun.</h2>",
       "---",
@@ -69,20 +70,34 @@
       "- &&bBaked Endfish",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "gofish:celestial_rod"
-    },
-    "subtitle": {
-      "text": "Fishing should be fun."
-    },
     "groups": {
       "Adventurer": {
         "position": [
-          48,
-          0
+          32,
+          32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "gofish:celestial_rod",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§bFishes and Crates!"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
