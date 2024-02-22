@@ -1,35 +1,64 @@
 {
-  "settings": {},
   "dependencies": [
     "Mechanical Press"
   ],
   "tasks": {
-    "75A99982ED1EA91D": {
-      "type": "heracles:item",
-      "item": "create:wrench"
-    },
     "74DCBAF28E4DC3F2": {
       "type": "heracles:item",
-      "item": "create:goggles"
+      "item": "create:goggles",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "75A99982ED1EA91D": {
+      "type": "heracles:item",
+      "item": "create:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "6DD793EEBBED087C": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Engineering Tools",
+    "subtitle": {
+      "translate": "Why does every mod have a wrench?"
+    },
     "description": [
       "<h2>Why does every mod have a wrench?</h2>",
       "---",
@@ -37,9 +66,6 @@
       "As an added Bonus, here's a refund of your gold and some more.",
       "---"
     ],
-    "subtitle": {
-      "text": "Why does every mod have a wrench?"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -47,6 +73,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:goggles",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Engineering Tools"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

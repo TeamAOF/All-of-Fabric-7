@@ -1,38 +1,78 @@
 {
-  "settings": {},
   "dependencies": [
     "Pulse Extender and Repeater"
   ],
   "tasks": {
-    "1DB3FA8EA2E95BEE": {
-      "type": "heracles:item",
-      "item": "create:stockpile_switch"
-    },
     "7E118B6DEA380E1F": {
       "type": "heracles:item",
-      "item": "create:content_observer"
+      "item": "create:content_observer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "1DB3FA8EA2E95BEE": {
+      "type": "heracles:item",
+      "item": "create:stockpile_switch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "1CD731F9EDD2C4A6": {
       "type": "heracles:item",
-      "item": "create:redstone_contact"
+      "item": "create:redstone_contact",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "53D16E2241F0BD54": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/rare",
-          "Name": "Create Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Create Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
@@ -43,6 +83,24 @@
           -112
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:content_observer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

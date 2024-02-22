@@ -1,48 +1,85 @@
 {
-  "settings": {},
   "dependencies": [
     "Andesite Alloy"
   ],
   "tasks": {
-    "2721582C052343E1": {
-      "type": "heracles:item",
-      "item": "create:copper_diving_helmet"
-    },
-    "6FD576D1B9442B12": {
-      "type": "heracles:item",
-      "item": "create:copper_diving_boots"
-    },
     "314976D5CD5B3ADD": {
       "type": "heracles:item",
       "item": "create:copper_backtank",
       "nbt": {
         "Air": 900
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "2721582C052343E1": {
+      "type": "heracles:item",
+      "item": "create:copper_diving_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6FD576D1B9442B12": {
+      "type": "heracles:item",
+      "item": "create:copper_diving_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
       }
     }
   },
   "rewards": {
     "475CB6BBE2254CCC": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 2,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
+    "subtitle": {
+      "translate": "Voyage au centre de la Terre"
+    },
     "description": [
       "<h2>Voyage au centre de la Terre</h2>",
       "---"
     ],
-    "subtitle": {
-      "text": "Voyage au centre de la Terre"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -50,6 +87,27 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copper_diving_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

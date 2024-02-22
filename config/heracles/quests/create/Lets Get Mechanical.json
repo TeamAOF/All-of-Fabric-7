@@ -1,76 +1,179 @@
 {
-  "settings": {},
   "dependencies": [
     "Mechanical Press"
   ],
   "tasks": {
-    "5C3F98D60C5BD858": {
+    "58CD66BA144F05D6": {
       "type": "heracles:item",
-      "item": "create:mechanical_saw"
-    },
-    "7563616EEF6AC5F1": {
-      "type": "heracles:item",
-      "item": "create:mechanical_harvester"
+      "item": "create:mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "02731E6B9C2B077F": {
       "type": "heracles:item",
-      "item": "create:mechanical_drill"
-    },
-    "58CD66BA144F05D6": {
-      "type": "heracles:item",
-      "item": "create:mechanical_mixer"
+      "item": "create:mechanical_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "0477272B50AB9B8F": {
       "type": "heracles:item",
-      "item": "create:mechanical_bearing"
+      "item": "create:mechanical_bearing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "062E8F5415B2007D": {
       "type": "heracles:item",
-      "item": "create:mechanical_plough"
+      "item": "create:mechanical_plough",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "5F37A1DFF0919C9A": {
       "type": "heracles:item",
-      "item": "create:millstone"
+      "item": "create:millstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5C3F98D60C5BD858": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7563616EEF6AC5F1": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "5B2CACBB3C2926A2": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:portable_storage_interface",
         "count": 2
-      }
-    },
-    "643608A4B5BB34A9": {
-      "type": "heracles:item",
-      "item": {
-        "id": "create:linear_chassis",
-        "count": 8
-      }
+      },
+      "type": "heracles:item"
     },
     "434EC466681C44CC": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:radial_chassis",
         "count": 8
-      }
+      },
+      "type": "heracles:item"
     },
     "3AE0BAFF7CEFFDFC": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/rare",
-          "Name": "Create Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Create Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "643608A4B5BB34A9": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:linear_chassis",
+        "count": 8
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Let's Get Mechanical!",
+    "subtitle": {
+      "translate": "This is where you get creative with your farms"
+    },
     "description": [
       "<h2>This is where you get creative with your farms</h2>",
       "---",
@@ -82,9 +185,6 @@
       "> Mechanical Bearing spins. Yep",
       "---"
     ],
-    "subtitle": {
-      "text": "This is where you get creative with your farms"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -92,6 +192,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Let's Get Mechanical!"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

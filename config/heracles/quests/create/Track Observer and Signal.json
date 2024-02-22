@@ -1,39 +1,77 @@
 {
-  "settings": {},
   "dependencies": [
     "Track Station and Controls"
   ],
   "tasks": {
     "208C1FCC036F1828": {
       "type": "heracles:item",
-      "item": "create:track_signal"
+      "item": "create:track_signal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "640C9B3AB5110BC7": {
       "type": "heracles:item",
-      "item": "create:track_observer"
+      "item": "create:track_observer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "6288CBE6F49A9C78": {
-      "type": "heracles:xp",
-      "xptype": "level",
-      "amount": 5
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
     },
     "4C81E432D17CD97A": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/legendary",
-          "Name": "Create Legendary Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Create Legendary Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
@@ -44,6 +82,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:track_signal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

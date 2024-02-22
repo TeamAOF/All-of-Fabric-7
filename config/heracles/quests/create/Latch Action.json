@@ -1,34 +1,64 @@
 {
-  "settings": {},
   "dependencies": [
     "Andesite Alloy"
   ],
   "tasks": {
     "7BA850D5A017F5A8": {
       "type": "heracles:item",
-      "item": "create:powered_latch"
+      "item": "create:powered_latch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "07AD7FEB87BF41DF": {
       "type": "heracles:item",
-      "item": "create:powered_toggle_latch"
+      "item": "create:powered_toggle_latch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "3CE19B99F7E1F288": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
@@ -39,6 +69,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:powered_latch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

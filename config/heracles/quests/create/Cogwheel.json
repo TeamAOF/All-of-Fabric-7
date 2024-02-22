@@ -1,46 +1,70 @@
 {
-  "settings": {},
   "dependencies": [
     "Andesite Alloy"
   ],
   "tasks": {
-    "40B111C90B0CB6C6": {
-      "type": "heracles:item",
-      "amount": 8,
-      "item": "create:cogwheel"
-    },
     "1787F1E83E6F1475": {
       "type": "heracles:item",
+      "item": "create:large_cogwheel",
       "amount": 8,
-      "item": "create:large_cogwheel"
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "40B111C90B0CB6C6": {
+      "type": "heracles:item",
+      "item": "create:cogwheel",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "3EDDE5E314AE3B7D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Cogwheels",
+    "subtitle": {
+      "translate": "Cogs"
+    },
     "description": [
       "<h2>Cogs</h2>",
       "---",
       "> Do you know how to gear up and gear down?",
       "---"
     ],
-    "subtitle": {
-      "text": "Cogs"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -48,6 +72,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cogwheels"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

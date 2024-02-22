@@ -1,84 +1,97 @@
 {
-  "settings": {},
   "dependencies": [
-    "Item Vault",
-    "Fan it Up",
-    "Andesite Alloy",
-    "Chocolate Glazed Berries",
-    "Track Station and Controls",
-    "Display Board",
-    "Encased Chain Drive",
-    "Chute",
-    "Item Drain",
-    "Smart Chute",
-    "Brass Funnel",
-    "Engineering Tools",
-    "Track Observer and Signal",
-    "Brass Casings",
-    "Lets Get Mechanical",
-    "Wand of Symmetry",
+    "Blaze Cake",
     "Switch Observe and Contact",
-    "Mechanical Press",
-    "Measuring Tools",
-    "Contraptions",
-    "Latch Action",
-    "Brass Tunnel",
-    "Polished Rose Quartz",
-    "Create Fluid Tank",
-    "Extendo Grip",
-    "Springboard",
-    "Cogwheel",
-    "Voyage au centre de la Terre",
+    "Analog Lever",
+    "Chocolate Glazed Berries",
+    "Bar of Chocolate",
+    "Andesite Tunnel",
+    "Redstone Link",
+    "Lets Get Mechanical",
+    "Fluid Transport",
+    "Steam Engine",
+    "Shaft",
+    "Rotation Speed Controller",
+    "Precision Mechanisms",
+    "Deployer",
     "Builders Tea",
+    "Railway Casing",
+    "Cogwheel",
+    "Smart Chute",
+    "Engineering Tools",
+    "Andesite Alloy",
+    "Latch Action",
+    "Create Track",
+    "Pulse Extender and Repeater",
+    "Create Fluid Tank",
+    "Potato Cannon",
+    "Item Vault",
+    "Display Board",
+    "Brass Age Incoming",
+    "Honeyed Apple",
+    "Gantry",
+    "Mechanical Crafters",
+    "Nixie Tube",
+    "Copper Casing",
+    "Springboard",
+    "Mechanical Arm",
+    "Track Observer and Signal",
+    "Schematic and Quill",
+    "Gearboxes",
+    "Sequenced Gearshift",
+    "Sweet Roll",
+    "Item Drain",
+    "Brass Casings",
+    "Toolboxes",
+    "Windmills",
     "Display Link",
     "Portable Storage Interface",
     "Water Wheel",
-    "Shaft",
-    "Schematic and Quill",
-    "Sequenced Gearshift",
-    "Sweet Roll",
-    "Railway Casing",
-    "Toolboxes",
+    "Mechanical Press",
+    "Brass Tunnel",
+    "Measuring Tools",
     "Andesite Funnel",
-    "Rotation Speed Controller",
-    "Create Track",
+    "Contraptions",
+    "Chute",
     "Obsidian Dust",
-    "Precision Mechanisms",
-    "Belt Connector",
-    "Andesite Tunnel",
+    "Wand of Symmetry",
+    "Extendo Grip",
+    "Attribute Filter",
+    "Encased Chain Drive",
     "Crafting Blueprint",
-    "Windmills",
-    "Bar of Chocolate",
-    "Analog Lever",
-    "Blaze Cake",
-    "Pulse Extender and Repeater",
-    "Mechanical Crafters",
-    "Potato Cannon",
-    "Redstone Link",
-    "Nixie Tube",
-    "Brass Age Incoming",
-    "Fluid Transport",
-    "Gearboxes",
-    "Gantry",
-    "Deployer",
-    "Crushing Wheels",
-    "Honeyed Apple",
-    "Copper Casing",
+    "Track Station and Controls",
+    "Fan it Up",
     "Schematic Cannon and Table",
-    "Steam Engine",
-    "Mechanical Arm",
+    "Belt Connector",
+    "Voyage au centre de la Terre",
+    "Polished Rose Quartz",
+    "Brass Funnel",
     "Haunted Bell",
-    "Attribute Filter"
+    "Crushing Wheels"
   ],
   "tasks": {
     "1D99A86B5CA32704": {
       "title": "&6Create 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "264E15A6379D9F97": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -87,23 +100,18 @@
             "Trophy": "trofers:create"
           }
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "&6Create 100%",
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "trofers:medium_pillar"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
-    "subtitle": {
-      "text": "Complete all quests to obtain the trophy!"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -111,6 +119,24 @@
           -192
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "&6Create 100%"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

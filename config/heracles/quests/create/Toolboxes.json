@@ -1,41 +1,56 @@
 {
-  "settings": {},
   "dependencies": [
     "Crafting Blueprint"
   ],
   "tasks": {
     "7ECE7137CB80BB36": {
-      "title": "Any #create:toolboxes",
       "type": "heracles:item",
-      "item": "#create:toolboxes"
+      "item": "#create:toolboxes",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #create:toolboxes",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "2F024B9278C814CF": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 2,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Toolboxes",
+    "subtitle": {
+      "translate": "The poor man's shulker box"
+    },
     "description": [
       "<h2>The poor man's shulker box</h2>",
       "---",
       "> You can use items from a nearby placed toolbox without opening it.",
       "---"
     ],
-    "subtitle": {
-      "text": "The poor man's shulker box"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -43,6 +58,21 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": "#create:toolboxes",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Toolboxes"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

@@ -1,48 +1,83 @@
 {
-  "settings": {},
   "dependencies": [
     "Schematic and Quill"
   ],
   "tasks": {
     "327E02A860C477B0": {
       "type": "heracles:item",
-      "item": "create:schematicannon"
+      "item": "create:schematicannon",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "269723EDD5279715": {
       "type": "heracles:item",
-      "item": "create:schematic_table"
+      "item": "create:schematic_table",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "2E9490114C5D2520": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:gunpowder",
         "count": 32
-      }
+      },
+      "type": "heracles:item"
     },
     "2468D8DF9C39352C": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 2,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
+    "subtitle": {
+      "translate": "It's like litematica, but with a cannon"
+    },
     "description": [
       "<h2>It's like litematica, but with a cannon</h2>",
       "---"
     ],
-    "subtitle": {
-      "text": "It's like litematica, but with a cannon"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -50,6 +85,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schematicannon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
