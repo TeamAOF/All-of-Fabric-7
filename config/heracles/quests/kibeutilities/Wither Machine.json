@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "tasks": {
+    "24A1862F0308DA6E": {
+      "title": "Wither machine",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7716261A55143011": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Wither Machine",
+    "description": [
+      "<task task=\"24A1862F0308DA6E\" quest=\"Wither Machine\"/>",
+      "<hr/>",
+      "Use the following to create an automatic wither machine.",
+      "<hr/>",
+      "<reward reward=\"7716261A55143011\" quest=\"Wither Machine\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          432,
+          -160
+        ]
+      }
+    }
+  }
+}

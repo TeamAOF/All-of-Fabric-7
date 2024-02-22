@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Handy Dandy Utilities"
+  ],
+  "tasks": {
+    "1ED3DDCCED07436B": {
+      "type": "heracles:item",
+      "item": "kibe:wooden_bucket"
+    }
+  },
+  "rewards": {
+    "1B497B28D4E228B4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:wooden_bucket",
+    "description": [
+      "<task task=\"1ED3DDCCED07436B\" quest=\"Wooden Bucket\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1B497B28D4E228B4\" quest=\"Wooden Bucket\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:wooden_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          240,
+          -240
+        ]
+      }
+    }
+  }
+}

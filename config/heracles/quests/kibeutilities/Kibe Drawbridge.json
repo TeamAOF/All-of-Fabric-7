@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Machines to Automate"
+  ],
+  "tasks": {
+    "6B26491A205CD947": {
+      "type": "heracles:item",
+      "item": "kibe:drawbridge"
+    }
+  },
+  "rewards": {
+    "1645BBC02885470C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:drawbridge",
+    "description": [
+      "<task task=\"6B26491A205CD947\" quest=\"Kibe Drawbridge\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1645BBC02885470C\" quest=\"Kibe Drawbridge\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:drawbridge"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          32,
+          -112
+        ]
+      }
+    }
+  }
+}

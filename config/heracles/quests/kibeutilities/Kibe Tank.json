@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "5850558B76ECFFE0": {
+      "type": "heracles:item",
+      "item": "kibe:tank"
+    }
+  },
+  "rewards": {
+    "678378DBB8948868": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:tank",
+    "description": [
+      "<h2>Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them.</h2>",
+      "<hr/>",
+      "<task task=\"5850558B76ECFFE0\" quest=\"Kibe Tank\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"678378DBB8948868\" quest=\"Kibe Tank\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:tank"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Can store fluids, each tank can store up to 16 buckets, and when placed side by side they will connect and fluids will flow through them."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          496,
+          64
+        ]
+      }
+    }
+  }
+}

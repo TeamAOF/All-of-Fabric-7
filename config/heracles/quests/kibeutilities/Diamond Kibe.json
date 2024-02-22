@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Utilities"
+  ],
+  "tasks": {
+    "166D7DD64BEA9D21": {
+      "type": "heracles:item",
+      "item": "kibe:diamond_kibe"
+    }
+  },
+  "rewards": {
+    "370C21D52C40A260": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:diamond_kibe",
+    "description": [
+      "<h2>Only the best for you</h2>",
+      "<hr/>",
+      "<task task=\"166D7DD64BEA9D21\" quest=\"Diamond Kibe\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"370C21D52C40A260\" quest=\"Diamond Kibe\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:diamond_kibe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Only the best for you"
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          144,
+          -32
+        ]
+      }
+    }
+  }
+}

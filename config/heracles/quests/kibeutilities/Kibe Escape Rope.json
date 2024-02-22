@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Handy Dandy Utilities"
+  ],
+  "tasks": {
+    "75C42B370A6BECF0": {
+      "type": "heracles:item",
+      "item": "kibe:escape_rope"
+    }
+  },
+  "rewards": {
+    "6B97B8FC0E9B6506": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:escape_rope",
+    "description": [
+      "<task task=\"75C42B370A6BECF0\" quest=\"Kibe Escape Rope\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6B97B8FC0E9B6506\" quest=\"Kibe Escape Rope\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:escape_rope"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          176,
+          -112
+        ]
+      }
+    }
+  }
+}

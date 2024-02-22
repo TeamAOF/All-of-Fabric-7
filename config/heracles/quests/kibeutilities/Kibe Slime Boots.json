@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Handy Dandy Utilities"
+  ],
+  "tasks": {
+    "261D286BDF009198": {
+      "type": "heracles:item",
+      "item": "kibe:slime_boots"
+    }
+  },
+  "rewards": {
+    "5B5F050D1B08194B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:slime_boots",
+    "description": [
+      "<h2>Wearable item that negates fall damage and makes the player bounce when hitting the floor with considerable speed.</h2>",
+      "<hr/>",
+      "<task task=\"261D286BDF009198\" quest=\"Kibe Slime Boots\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5B5F050D1B08194B\" quest=\"Kibe Slime Boots\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:slime_boots"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Wearable item that negates fall damage and makes the player bounce when hitting the floor with considerable speed."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          144,
+          -160
+        ]
+      }
+    }
+  }
+}

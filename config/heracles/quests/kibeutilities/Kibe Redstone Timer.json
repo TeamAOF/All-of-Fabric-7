@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Machines to Automate"
+  ],
+  "tasks": {
+    "02D63A4D997340CA": {
+      "type": "heracles:item",
+      "item": "kibe:redstone_timer"
+    }
+  },
+  "rewards": {
+    "677E1FCAF32A9F80": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:redstone_timer",
+    "description": [
+      "<task task=\"02D63A4D997340CA\" quest=\"Kibe Redstone Timer\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"677E1FCAF32A9F80\" quest=\"Kibe Redstone Timer\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:redstone_timer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          32,
+          -208
+        ]
+      }
+    }
+  }
+}
