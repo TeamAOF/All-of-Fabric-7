@@ -46,11 +46,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"56CD51887FCE1BC2\" quest=\"IR Fisher MK3\"/>",
-      "<hr/>",
+      "---",
       "Unlike the basic fisher, the improved fisher will get you a decent mix of fish and treasures.",
-      "<hr/>",
-      "<reward reward=\"0E05A463DC5AB13D\" quest=\"IR Fisher MK3\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

@@ -40,11 +40,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_wither_proof_obsidian\" quest=\"Wither Proof Obsidian\"/>",
-      "<hr/>",
+      "---",
       "Now that you can melt iron into a liquid you can reinforce obsidian to be wither proof, this will reduce the risk of any accidents.",
-      "<hr/>",
-      "<reward reward=\"wither_obsidian_reward\" quest=\"Wither Proof Obsidian\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

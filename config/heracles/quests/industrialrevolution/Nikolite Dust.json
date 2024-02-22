@@ -41,12 +41,9 @@
     },
     "description": [
       "<h2>This material helped spark a myriad of devices. Forever changing the universe.</h2>",
-      "<hr/>",
-      "<task task=\"Nikolite Dust.b\" quest=\"Nikolite Dust\"/>",
-      "<hr/>",
+      "---",
       "Main component used in machines, from basic to advanced.",
-      "<hr/>",
-      "<reward reward=\"361AEFAEDC96E694\" quest=\"Nikolite Dust\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

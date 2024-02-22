@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>With a desire for the finest. Indrev tech needs only the best diamonds.</h2>",
-      "<hr/>",
-      "<task task=\"2A7E8398F675F060\" quest=\"IR needs only the best diamonds\"/>",
-      "<hr/>",
+      "---",
       "Diamond dust will be necessary for the creation of better forms of nikolite.",
-      "<hr/>",
-      "<reward reward=\"74FA63591DEBE176\" quest=\"IR needs only the best diamonds\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

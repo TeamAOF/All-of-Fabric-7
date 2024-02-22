@@ -36,16 +36,13 @@
     },
     "description": [
       "<h2>Choose the best. Choose INDREV!</h2>",
-      "<hr/>",
-      "<task task=\"5AA23A717BC9D641\" quest=\"Welcome to the Revolution\"/>",
-      "<hr/>",
+      "---",
       "Scientists have done a good job at making machines smart enough not to explode and to benefit from temperature. Every machine has an optimal temperature which will never be exceeded.",
-      "<br/>",
+      "",
       "In order for the machine to stay on its optimal temperature, it needs to cool down often.",
-      "<br/>",
+      "",
       "While it's cooling down, it will not have the efficiency boost.",
-      "<hr/>",
-      "<reward reward=\"419AC8433FA360AA\" quest=\"Welcome to the Revolution\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

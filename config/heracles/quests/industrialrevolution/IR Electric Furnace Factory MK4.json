@@ -56,12 +56,7 @@
     },
     "description": [
       "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
-      "<hr/>",
-      "<task task=\"62747E8844756A8E\" quest=\"IR Electric Furnace Factory MK4\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"059C0AB2FCC56E3F\" quest=\"IR Electric Furnace Factory MK4\"/>",
-      "<reward reward=\"700FE718B977F66F\" quest=\"IR Electric Furnace Factory MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

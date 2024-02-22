@@ -48,12 +48,9 @@
     },
     "description": [
       "<h2>This helped indrev start their campaign for revolution.</h2>",
-      "<hr/>",
-      "<task task=\"55EB225CEDCC8BB0\" quest=\"Circuit MK2\"/>",
-      "<hr/>",
+      "---",
       "Mainly used for MK2 upgrades.",
-      "<hr/>",
-      "<reward reward=\"25DAAEA3159EC8A7\" quest=\"Circuit MK2\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

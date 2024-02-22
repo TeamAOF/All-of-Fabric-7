@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>First near quantum level computer circuits</h2>",
-      "<hr/>",
-      "<task task=\"7D53A62DB0D746E1\" quest=\"Circuit MK1\"/>",
-      "<hr/>",
+      "---",
       "One of the basic components for MK1 machines.",
-      "<hr/>",
-      "<reward reward=\"238F5DC73A868F07\" quest=\"Circuit MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

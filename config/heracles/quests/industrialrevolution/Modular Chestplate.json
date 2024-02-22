@@ -40,13 +40,11 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_modular_chestplate\" quest=\"Modular Chestplate\"/>",
-      "<hr/>",
+      "---",
       "The Modular chestplate provides elytra flight, it can also be upgraded with certain unique modules:",
       "-Charger module",
       "-Fire resistance module",
-      "<hr/>",
-      "<reward reward=\"indrev_modular_chestplate_reward\" quest=\"Modular Chestplate\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

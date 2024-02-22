@@ -46,11 +46,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"Enriched Nikolite Ingot\" quest=\"Enriched Nikolite Ingot\"/>",
-      "<hr/>",
+      "---",
       "The pinnacle of nikolite refinement, the best machinery can be made with this.",
-      "<hr/>",
-      "<reward reward=\"2F78EABB9CDE6439\" quest=\"Enriched Nikolite Ingot\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

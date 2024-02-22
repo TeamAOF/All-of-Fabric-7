@@ -47,14 +47,11 @@
     },
     "description": [
       "<h2>Item pipes can be used to transfer items between inventories far apart.</h2>",
-      "<hr/>",
-      "<task task=\"5A97C9ECE9C54E89\" quest=\"IR Item Pipe MK1\"/>",
-      "<hr/>",
+      "---",
       "Don't forget to set the input/output of a machine.",
-      "<br/>",
+      "",
       "Also don't forget the servos. To optimize on performance, try to use the least amount of piping and servos you can if you decide to do a large operation.",
-      "<hr/>",
-      "<reward reward=\"0FAF067F082BE5F4\" quest=\"IR Item Pipe MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

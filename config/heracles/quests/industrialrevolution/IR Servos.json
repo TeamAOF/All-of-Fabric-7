@@ -76,28 +76,23 @@
     },
     "description": [
       "<h2>Item and fluid pipes require servos to function.</h2>",
-      "<hr/>",
-      "<task task=\"642EC72609F0F51D\" quest=\"IR Servos\"/>",
-      "<task task=\"680A01AC3697C85A\" quest=\"IR Servos\"/>",
-      "<hr/>",
+      "---",
       "Click on the pipe connected to your container to attach a servo. Use a wrench to remove it.",
-      "<br/>",
+      "",
       "Servos have multiple modes to define priorities. Click on the servo to change it.",
-      "<br/>",
+      "",
       "Nearest first:  the servo will look for the closest container.",
-      "<br/>",
+      "",
       "Furthest first: the servo will look for the furthest container.",
-      "<br/>",
+      "",
       "Random: the servo will choose a random container.",
-      "<br/>",
+      "",
       "Round Robin: the servo will look for the container with the least amount of the transferred fluid/item.",
-      "<br/>",
+      "",
       "The Output Servo will push items/fluids to nearby containers UNLESS they are also marked as output.",
-      "<br/>",
+      "",
       "The Retriever Servo will pull items/fluids from nearby UNLESS they are also marked as retriever.",
-      "<hr/>",
-      "<reward reward=\"2782415DD5C958FC\" quest=\"IR Servos\"/>",
-      "<reward reward=\"indrev_servos_reward2\" quest=\"IR Servos\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {
@@ -109,7 +104,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "indrev:servo_output",
         "count": 1
       },
       "type": "heracles:item"

@@ -61,12 +61,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"796D98D70BE353A9\" quest=\"IR Machine Block\"/>",
-      "<hr/>",
+      "---",
       "The basic component for crafting any machine.",
-      "<hr/>",
-      "<reward reward=\"34040D4E9EF57B7F\" quest=\"IR Machine Block\"/>",
-      "<reward reward=\"781808B2B4034E00\" quest=\"IR Machine Block\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

@@ -60,14 +60,11 @@
       "text": ""
     },
     "description": [
-      "<task task=\"2F8A9A1509DDD699\" quest=\"IR Sawmill MK1\"/>",
-      "<task task=\"43B579461130A023\" quest=\"IR Sawmill MK1\"/>",
-      "<hr/>",
+      "---",
       "The electric furnace is a faster version of the regular furnace, it can also accept enhancements.",
-      "<br/>",
+      "",
       "The sawmill allows to get more planks out of each log and also gives sticks and sawdust which can be used for paper, cardboard boxes and other things. It can also accept enhancements.",
-      "<hr/>",
-      "<reward reward=\"57C269CE0DF67034\" quest=\"IR Sawmill MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

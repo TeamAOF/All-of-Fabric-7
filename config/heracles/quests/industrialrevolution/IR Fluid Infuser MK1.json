@@ -47,14 +47,11 @@
     },
     "description": [
       "<h2>Used for advanced infusing with fluids. Its main current use is for ore quadrupling.</h2>",
-      "<hr/>",
-      "<task task=\"297F433AB752D7CF\" quest=\"IR Fluid Infuser MK1\"/>",
-      "<hr/>",
+      "---",
       "Can also be used to turn Sand into Clay and Concrete Powder into Concrete.",
-      "<br/>",
+      "",
       "Also used to make coolant for speed enhancements.",
-      "<hr/>",
-      "<reward reward=\"35D35206DCBD8187\" quest=\"IR Fluid Infuser MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

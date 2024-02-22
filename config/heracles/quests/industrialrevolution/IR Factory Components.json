@@ -155,20 +155,9 @@
     },
     "description": [
       "<h2>You'll be able to visualize the block positions by right clicking a factory.</h2>",
-      "<hr/>",
-      "<task task=\"38ED6ABEB7DBD348\" quest=\"IR Factory Components\"/>",
-      "<task task=\"60ACF87793F77948\" quest=\"IR Factory Components\"/>",
-      "<task task=\"1C5256772EF58948\" quest=\"IR Factory Components\"/>",
-      "<task task=\"73B89854D6DA6CE5\" quest=\"IR Factory Components\"/>",
-      "<task task=\"01915D287A13387C\" quest=\"IR Factory Components\"/>",
-      "<task task=\"4484E6789FF66185\" quest=\"IR Factory Components\"/>",
-      "<task task=\"6D730271D98B0803\" quest=\"IR Factory Components\"/>",
-      "<hr/>",
+      "---",
       "Factories are powerful multiblock upgrades of your MK4 machines, they allow to process multiple items at once at incredible speed, make sure all the components are facing the right position or the factory won't work",
-      "<hr/>",
-      "<reward reward=\"5185DE4238D4AB56\" quest=\"IR Factory Components\"/>",
-      "<reward reward=\"773CE85966D33F77\" quest=\"IR Factory Components\"/>",
-      "<reward reward=\"5696355503C2B666\" quest=\"IR Factory Components\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {
@@ -180,7 +169,7 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "indrev:electric_furnace_factory_mk4",
         "count": 1
       },
       "type": "heracles:item"

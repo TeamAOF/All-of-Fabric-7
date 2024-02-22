@@ -40,15 +40,13 @@
       "text": ""
     },
     "description": [
-      "<task task=\"indrev_modular_helmet\" quest=\"Modular Helmet\"/>",
-      "<hr/>",
+      "---",
       "The Modular helmet can be upgraded with certain unique modules:",
       "-Night vision module",
       "-Breathing module",
       "-Auto feeder module",
       "-Solar panel module",
-      "<hr/>",
-      "<reward reward=\"indrev_modular_helmet_reward\" quest=\"Modular Helmet\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

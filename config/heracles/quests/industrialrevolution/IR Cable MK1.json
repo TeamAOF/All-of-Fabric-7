@@ -48,13 +48,10 @@
     },
     "description": [
       "<h2>Cables can be used to transfer power between machines far apart from each other.</h2>",
-      "<hr/>",
-      "<task task=\"258B02AFA8680893\" quest=\"IR Cable MK1\"/>",
-      "<hr/>",
-      "<br/>",
+      "---",
+      "",
       "Used to distribute power. Does not require servos.",
-      "<hr/>",
-      "<reward reward=\"09F245D7B37C6427\" quest=\"IR Cable MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

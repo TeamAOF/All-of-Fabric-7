@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Recharge your batteries!</h2>",
-      "<hr/>",
-      "<task task=\"47F075B67F7DD537\" quest=\"IR Charge Pad MK4\"/>",
-      "<hr/>",
+      "---",
       "The charge pad allows to recharge items, batteries or equipment by placing them inside, a cable must be connected at the bottom to feed it power.",
-      "<hr/>",
-      "<reward reward=\"1E7965DA8EB42F5A\" quest=\"IR Charge Pad MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

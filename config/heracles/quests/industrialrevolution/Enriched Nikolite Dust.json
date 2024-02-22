@@ -47,11 +47,9 @@
       "text": ""
     },
     "description": [
-      "<task task=\"0C2E5913E46CCEE9\" quest=\"Enriched Nikolite Dust\"/>",
-      "<hr/>",
+      "---",
       "A more advanced form of nikolite, MK3 upgrades will now be available to you.",
-      "<hr/>",
-      "<reward reward=\"70FE93467EB59E75\" quest=\"Enriched Nikolite Dust\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

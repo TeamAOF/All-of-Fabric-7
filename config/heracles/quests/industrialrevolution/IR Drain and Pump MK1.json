@@ -61,23 +61,19 @@
     },
     "description": [
       "<h2>Used to pump fluids placed in the world into fluid pipes and tanks.</h2>",
-      "<hr/>",
-      "<task task=\"6DA81FA2745A4BFE\" quest=\"IR Drain and Pump MK1\"/>",
-      "<task task=\"425233ED2C940E6D\" quest=\"IR Drain and Pump MK1\"/>",
-      "<hr/>",
+      "---",
       "Usage: You must input energy from the top and take the fluid from the side it is facing.",
-      "<br/>",
+      "",
       "After receiving energy, it will drop down a pipe looking for fluids to pump.",
-      "<br/>",
+      "",
       "There is no hard limit, except for the fluid's physics.",
-      "<br/>",
+      "",
       "As long as there is fluid touching the pump's pipe, source or not, it will look for a source block to pump.",
-      "<br/>",
+      "",
       "This means it can be used to drain lava lakes from the Nether.",
-      "<br/>",
+      "",
       "The drain is like a reverse pump it will absorb fluid above itself which can then be piped into a tank, it makes for a really simple infinite water setup.",
-      "<hr/>",
-      "<reward reward=\"19808F09D6FE3E09\" quest=\"IR Drain and Pump MK1\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

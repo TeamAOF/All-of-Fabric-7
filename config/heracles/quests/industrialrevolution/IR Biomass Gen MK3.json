@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>This is probably what you are looking for in terms of energy creation.</h2>",
-      "<hr/>",
-      "<task task=\"79C357A391B887D6\" quest=\"IR Biomass Gen MK3\"/>",
-      "<hr/>",
+      "---",
       "Will burn biomass to generate energy at a significant rate, a simple crop farm can keep your energy system fed with no problems.",
-      "<hr/>",
-      "<reward reward=\"3FEA619A9B299655\" quest=\"IR Biomass Gen MK3\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

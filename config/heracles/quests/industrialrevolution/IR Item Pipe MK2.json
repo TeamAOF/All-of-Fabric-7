@@ -47,11 +47,7 @@
     },
     "description": [
       "<h2>Don't forget your servos</h2>",
-      "<hr/>",
-      "<task task=\"74534788035362A2\" quest=\"IR Item Pipe MK2\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0AA6FE219A0D25AA\" quest=\"IR Item Pipe MK2\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

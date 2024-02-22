@@ -47,12 +47,9 @@
     },
     "description": [
       "<h2>Can process organic resources into biomass which can be used for energy generation.</h2>",
-      "<hr/>",
-      "<task task=\"2D28B880B3E44414\" quest=\"IR Recycler MK2\"/>",
-      "<hr/>",
+      "---",
       "Seeds, crops, grass, dirt and more can be converted into biomass for future use in power generation.",
-      "<hr/>",
-      "<reward reward=\"2B02F5E3B81155C5\" quest=\"IR Recycler MK2\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {

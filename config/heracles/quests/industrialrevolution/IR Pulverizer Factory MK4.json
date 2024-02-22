@@ -56,12 +56,7 @@
     },
     "description": [
       "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
-      "<hr/>",
-      "<task task=\"1790DABC3E5BFAEC\" quest=\"IR Pulverizer Factory MK4\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"298E39BB35B71199\" quest=\"IR Pulverizer Factory MK4\"/>",
-      "<reward reward=\"3D4C7471B2235326\" quest=\"IR Pulverizer Factory MK4\"/>"
+      "---"
     ],
     "groups": {
       "Industrial Revolution": {
