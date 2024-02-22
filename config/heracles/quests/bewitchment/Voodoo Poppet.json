@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "433EA789E4B03C5B": {
+      "type": "heracles:item",
+      "item": "bewitchment:voodoo_poppet"
+    }
+  },
+  "rewards": {
+    "05A83292D29CD735": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:voodoo_poppet",
+    "description": [
+      "<task task=\"433EA789E4B03C5B\" quest=\"Voodoo Poppet\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05A83292D29CD735\" quest=\"Voodoo Poppet\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:voodoo_poppet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          0,
+          -176
+        ]
+      }
+    }
+  }
+}

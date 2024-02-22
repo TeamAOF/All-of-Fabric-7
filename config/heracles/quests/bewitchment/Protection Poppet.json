@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "55C622C7F900504C": {
+      "type": "heracles:item",
+      "item": "bewitchment:protection_poppet"
+    }
+  },
+  "rewards": {
+    "4EE10EA390B3E4C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:protection_poppet",
+    "description": [
+      "<task task=\"55C622C7F900504C\" quest=\"Protection Poppet\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4EE10EA390B3E4C2\" quest=\"Protection Poppet\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:protection_poppet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          64,
+          -176
+        ]
+      }
+    }
+  }
+}

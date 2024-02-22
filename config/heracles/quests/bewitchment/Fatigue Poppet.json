@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "4837A378979ED1AE": {
+      "type": "heracles:item",
+      "item": "bewitchment:fatigue_poppet"
+    }
+  },
+  "rewards": {
+    "35FE11868ED36D13": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:fatigue_poppet",
+    "description": [
+      "<task task=\"4837A378979ED1AE\" quest=\"Fatigue Poppet\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"35FE11868ED36D13\" quest=\"Fatigue Poppet\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:fatigue_poppet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          48,
+          -80
+        ]
+      }
+    }
+  }
+}

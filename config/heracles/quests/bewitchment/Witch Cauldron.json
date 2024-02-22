@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "tasks": {
+    "4E8C15D371DB7A1A": {
+      "type": "heracles:item",
+      "item": "bewitchment:witch_cauldron"
+    }
+  },
+  "rewards": {
+    "4F9D60A4F4375B65": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:witch_cauldron",
+    "description": [
+      "<h2>This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation.</h2>",
+      "<hr/>",
+      "<task task=\"4E8C15D371DB7A1A\" quest=\"Witch Cauldron\"/>",
+      "<hr/>",
+      "Items can be tossed into the Witch Cauldron once it boils.",
+      "<br/>",
+      "To make it boil, place hot blocks such as Lava or Magma Blocks below it.",
+      "<br/>",
+      "Note that the Witch Cauldron requires Altar Power, except for Oil Crafting.",
+      "<br/>",
+      "To teleport with a Witch Cauldron, simply throw in an Ender Pearl, step on it, and say your destination.",
+      "<br/>",
+      "That destination must be another Witch Cauldron that has been named with a Name Tag.",
+      "<hr/>",
+      "<reward reward=\"4F9D60A4F4375B65\" quest=\"Witch Cauldron\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:witch_cauldron"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          0,
+          80
+        ]
+      }
+    }
+  }
+}

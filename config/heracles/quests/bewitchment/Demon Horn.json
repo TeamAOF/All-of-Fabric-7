@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Chalk"
+  ],
+  "tasks": {
+    "416484CF2AB4D71B": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_horn"
+    }
+  },
+  "rewards": {
+    "36C67E1882AB1288": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:demon_horn",
+    "description": [
+      "<task task=\"416484CF2AB4D71B\" quest=\"Demon Horn\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"36C67E1882AB1288\" quest=\"Demon Horn\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_horn"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          304,
+          -64
+        ]
+      }
+    }
+  }
+}
