@@ -1,5 +1,4 @@
 {
-  "settings": {},
   "dependencies": [
     "TR Advanced Circuit",
     "TR Advanced Machine Casing"
@@ -7,26 +6,46 @@
   "tasks": {
     "0968DE59EBE1A042": {
       "type": "heracles:item",
-      "item": "techreborn:industrial_centrifuge"
+      "item": "techreborn:industrial_centrifuge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "399DA4FB8F4A9D2E": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: techreborn:industrial_centrifuge",
+    "subtitle": {
+      "translate": "Requires Advanced Circuit and Advanced Machine Casing"
+    },
     "description": [
       "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
       "<hr/>",
@@ -36,14 +55,6 @@
       "<hr/>",
       "<reward reward=\"399DA4FB8F4A9D2E\" quest=\"TR Industrial Centrifuge\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:industrial_centrifuge"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
-    "subtitle": {
-      "text": "Requires Advanced Circuit and Advanced Machine Casing"
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -51,6 +62,24 @@
           240
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_centrifuge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:industrial_centrifuge"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

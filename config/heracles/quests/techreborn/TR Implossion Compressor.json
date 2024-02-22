@@ -1,32 +1,51 @@
 {
-  "settings": {},
   "dependencies": [
-    "TR Advanced Machine Frame",
-    "TR Advanced Circuit"
+    "TR Advanced Circuit",
+    "TR Advanced Machine Frame"
   ],
   "tasks": {
     "4B8E24B498553034": {
       "type": "heracles:item",
-      "item": "techreborn:implosion_compressor"
+      "item": "techreborn:implosion_compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "37C5541E50D1637C": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: techreborn:implosion_compressor",
+    "subtitle": {
+      "translate": "Requires Advanced Circuit and Advanced Machine Casing"
+    },
     "description": [
       "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
       "<hr/>",
@@ -50,14 +69,6 @@
       "<hr/>",
       "<reward reward=\"37C5541E50D1637C\" quest=\"TR Implossion Compressor\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:implosion_compressor"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
-    "subtitle": {
-      "text": "Requires Advanced Circuit and Advanced Machine Casing"
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -65,6 +76,24 @@
           48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:implosion_compressor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:implosion_compressor"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

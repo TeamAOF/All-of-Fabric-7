@@ -1,35 +1,64 @@
 {
-  "settings": {},
   "dependencies": [
     "TR MV Transformer"
   ],
   "tasks": {
     "10441494EFB773E2": {
       "type": "heracles:item",
-      "item": "techreborn:lapotronic_su"
+      "item": "techreborn:lapotronic_su",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "21FB0E4A828F0DC2": {
       "type": "heracles:item",
-      "item": "techreborn:lsu_storage"
+      "item": "techreborn:lsu_storage",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "726CE2020788DEA7": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "LESU",
+    "subtitle": {
+      "translate": "A battery multi-block that stores energy and charges items. "
+    },
     "description": [
       "<h2>A battery multi-block that stores energy and charges items. </h2>",
       "<hr/>",
@@ -44,10 +73,6 @@
       "<hr/>",
       "<reward reward=\"726CE2020788DEA7\" quest=\"TR Lapotronic SU\"/>"
     ],
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
-    "subtitle": {
-      "text": "A battery multi-block that stores energy and charges items. "
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -55,6 +80,24 @@
           -400
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:lsu_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LESU"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

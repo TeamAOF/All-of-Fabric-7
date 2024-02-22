@@ -1,32 +1,51 @@
 {
-  "settings": {},
   "dependencies": [
-    "Begin Tech Reborn",
-    "TR Coal Dust"
+    "TR Coal Dust",
+    "Begin Tech Reborn"
   ],
   "tasks": {
     "63C31057EF1EDA2B": {
       "type": "heracles:item",
-      "item": "techreborn:neutron_reflector"
+      "item": "techreborn:neutron_reflector",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "6AEC3535DC8AC2AF": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: techreborn:neutron_reflector",
+    "subtitle": {
+      "translate": "Requires Coal Dust quest to unlock."
+    },
     "description": [
       "<h2>Requires Coal Dust quest to unlock.</h2>",
       "<hr/>",
@@ -35,14 +54,6 @@
       "<hr/>",
       "<reward reward=\"6AEC3535DC8AC2AF\" quest=\"TR Neutron Reflector\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:neutron_reflector"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
-    "subtitle": {
-      "text": "Requires Coal Dust quest to unlock."
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -50,6 +61,24 @@
           144
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:neutron_reflector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:neutron_reflector"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

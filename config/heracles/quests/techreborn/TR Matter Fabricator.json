@@ -1,33 +1,51 @@
 {
-  "settings": {},
   "dependencies": [
     "TR Scrap",
-    "TR Lapotronic Orb Item",
     "TR Industrial Machine Frame"
   ],
   "tasks": {
     "41A767CEF823633B": {
       "type": "heracles:item",
-      "item": "techreborn:matter_fabricator"
+      "item": "techreborn:matter_fabricator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "502D94C89D8EF078": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/epic",
-          "Name": "Tech Reborn Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Tech Reborn Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: techreborn:matter_fabricator",
+    "subtitle": {
+      "translate": "Requires Lapotronic Energy Orb and Industrial Machine Frame quests."
+    },
     "description": [
       "<h2>Requires Lapotronic Energy Orb and Industrial Machine Frame quests.</h2>",
       "<hr/>",
@@ -41,14 +59,6 @@
       "<hr/>",
       "<reward reward=\"502D94C89D8EF078\" quest=\"TR Matter Fabricator\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:matter_fabricator"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
-    "subtitle": {
-      "text": "Requires Lapotronic Energy Orb and Industrial Machine Frame quests."
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -56,6 +66,24 @@
           -352
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:matter_fabricator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:matter_fabricator"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

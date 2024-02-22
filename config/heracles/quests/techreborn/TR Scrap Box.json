@@ -1,33 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "TR Scrapboxinator"
   ],
   "tasks": {
     "13F6E59856871982": {
       "type": "heracles:item",
-      "amount": 64,
       "item": "techreborn:scrap_box",
-      "collection": "MANUAL"
+      "amount": 64,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "63C4457C5AF8F7A9": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/rare",
-          "Name": "Tech Reborn Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Tech Reborn Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: techreborn:scrap_box",
+    "subtitle": {
+      "translate": "Crafted using nine scrap in a crafting table."
+    },
     "description": [
       "<h2>Crafted using nine scrap in a crafting table.</h2>",
       "<hr/>",
@@ -39,14 +56,6 @@
       "<hr/>",
       "<reward reward=\"63C4457C5AF8F7A9\" quest=\"TR Scrap Box\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:scrap_box"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
-    "subtitle": {
-      "text": "Crafted using nine scrap in a crafting table."
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -54,6 +63,24 @@
           -304
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:scrap_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:scrap_box"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
