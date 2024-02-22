@@ -28,11 +28,7 @@
     "title": "Acquire: dml-refabricated:machine_casing",
     "description": [
       "<h2>Craft a Soot Machine Casing.</h2>",
-      "<hr/>",
-      "<task task=\"6C44B445254F46B8\" quest=\"DML Machine Casing\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1F6FE2FE8D3A61E5\" quest=\"DML Machine Casing\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

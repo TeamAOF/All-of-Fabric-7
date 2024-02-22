@@ -1,27 +1,40 @@
 {
-  "settings": {},
   "dependencies": [
-    "Loot Fabricator",
-    "Data Model",
-    "Glitch Ingot",
-    "Any Data Model",
-    "Simulation Chamber",
-    "Matter Condenser",
-    "Trial Key",
     "Trial Keystone",
-    "Soot Redstone",
+    "Data Model",
+    "Simulation Chamber",
+    "DML Machine Casing",
     "Deep Learner",
-    "DML Machine Casing"
+    "Trial Key",
+    "Soot Redstone",
+    "Matter Condenser",
+    "Any Data Model",
+    "Glitch Ingot",
+    "Loot Fabricator"
   ],
   "tasks": {
     "2F6B49B0F2C9ADEA": {
       "title": "&bDeep Mob Learning 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "1BD2F5AAB8F13744": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -30,27 +43,18 @@
             "Trophy": "trofers:dml"
           }
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "&bDeep Mob Learning 100%",
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
-      "<hr/>",
-      "<task task=\"2F6B49B0F2C9ADEA\" quest=\"Completed DML\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1BD2F5AAB8F13744\" quest=\"Completed DML\"/>"
+      "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "trofers:medium_pillar"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
-    "subtitle": {
-      "text": "Complete all quests to obtain the trophy!"
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -58,6 +62,24 @@
           -192
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "&bDeep Mob Learning 100%"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

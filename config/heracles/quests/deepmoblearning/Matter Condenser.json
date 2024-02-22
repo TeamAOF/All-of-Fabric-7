@@ -28,16 +28,13 @@
     "title": "Acquire: dml-refabricated:matter_condenser",
     "description": [
       "<h2>Upgrade your armor!</h2>",
-      "<hr/>",
-      "<task task=\"195D1CB694FDCF69\" quest=\"Matter Condenser\"/>",
-      "<hr/>",
+      "---",
       "Grab a bit of Pristine Matter and start filling your Matter Condenser with the armor piece you want to upgrade and the matter.",
-      "<br/>",
+      "",
       "Its pretty expensive tho, but it may be worth it.",
-      "<br/>",
+      "",
       "The armor protection amounts will be increasing as the armor tier increases too. Soon there will be some sick extra features about that",
-      "<hr/>",
-      "<reward reward=\"14F32FFE7B104847\" quest=\"Matter Condenser\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

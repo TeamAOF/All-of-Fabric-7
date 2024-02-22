@@ -1,55 +1,63 @@
 {
-  "settings": {},
   "dependencies": [
     "Trial Keystone"
   ],
   "tasks": {
     "763F3B0C76A6CB16": {
       "type": "heracles:item",
-      "item": "dml-refabricated:glitch_ingot"
+      "item": "dml-refabricated:glitch_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "02388A14D1691B7B": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Logistics & Storage Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: dml-refabricated:glitch_ingot",
+    "subtitle": {
+      "translate": "Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot."
+    },
     "description": [
       "<h2>Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot.</h2>",
-      "<hr/>",
-      "<task task=\"763F3B0C76A6CB16\" quest=\"Glitch Ingot\"/>",
-      "<hr/>",
+      "---",
       "As I said before, you will be facing the System Glitch at your fight, but it is not alone!",
-      "<br/>",
-      "<br/>",
+      "",
+      "",
       "Higher tiers will have bigger waves, and they will be called faster. So, pay attention to it.",
-      "<br/>",
+      "",
       "Sometimes the waves will be enemies even harder than the System Glitch itself.",
-      "<br/>",
+      "",
       "Those ingots alone are completely useless. But maybe if you combine with a piece of netherite armor you will get something useful. Try doing it in the Smithing Table.",
-      "<hr/>",
-      "<reward reward=\"02388A14D1691B7B\" quest=\"Glitch Ingot\"/>"
+      "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "dml-refabricated:glitch_ingot"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot."
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -57,6 +65,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:glitch_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Acquire: dml-refabricated:glitch_ingot"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

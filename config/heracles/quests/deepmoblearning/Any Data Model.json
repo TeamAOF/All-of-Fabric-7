@@ -76,12 +76,9 @@
     "title": "Data Models",
     "description": [
       "<h2>Craft a Data Model of choice.</h2>",
-      "<hr/>",
-      "<task task=\"4A4F270C7B4CB954\" quest=\"Any Data Model\"/>",
-      "<hr/>",
+      "---",
       "Data Models are chips where you will store the information of mobs you learn.",
-      "<hr/>",
-      "<reward reward=\"51A4345B62855F6F\" quest=\"Any Data Model\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
