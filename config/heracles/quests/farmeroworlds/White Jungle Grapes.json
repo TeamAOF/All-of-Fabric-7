@@ -2,7 +2,22 @@
   "dependencies": [
     "Grapes"
   ],
-  "tasks": {},
+  "tasks": {
+    "vinery_white_jungle": {
+      "type": "heracles:item",
+      "item": "vinery:jungle_grapes_white",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "1": {
       "title": "",

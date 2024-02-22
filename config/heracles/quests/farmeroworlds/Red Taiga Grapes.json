@@ -2,7 +2,22 @@
   "dependencies": [
     "Grapes"
   ],
-  "tasks": {},
+  "tasks": {
+    "vinery_red_taiga": {
+      "type": "heracles:item",
+      "item": "vinery:taiga_grapes_red",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "1": {
       "title": "",
