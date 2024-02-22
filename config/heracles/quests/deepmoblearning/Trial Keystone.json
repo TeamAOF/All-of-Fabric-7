@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Trial Key"
+  ],
+  "tasks": {
+    "1CAE14E935895EEE": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:trial_keystone"
+    }
+  },
+  "rewards": {
+    "04A1C279905FF779": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:trial_keystone",
+    "description": [
+      "<h2>Craft a Trial Keystone.</h2>",
+      "---",
+      "The Trial Key used in the crafting has no effect, so I's suggest you to use an Unbound one to avoid loosing your precious data.",
+      "",
+      "After you have one, put it in a good location in the world and start getting ready for your fight.",
+      "",
+      "Before getting into the fight, I'd like to present to you who you gonna fight:",
+      "",
+      "> The System Glitch is a pretty strong mob, its life will vary depending of the tier of the Trial you are running. He is also pretty fast, and will be teleporting and tricking you.",
+      "",
+      "To get started, get a bound Trial Key and click in the Trial Keystone!",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:trial_keystone"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Craft a Trial Keystone."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -112,
+          -80
+        ]
+      }
+    }
+  }
+}
