@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "714E9C63DE4504CF": {
+      "title": "Kibe and Rings",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5FEA7261502B2EA7": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Kibe and Rings",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          208,
+          32
+        ]
+      }
+    }
+  }
+}

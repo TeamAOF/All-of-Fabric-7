@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "65970F825BC4D9C4": {
+      "type": "heracles:item",
+      "item": "kibe:cursed_lasso"
+    }
+  },
+  "rewards": {
+    "680AD473851BC50A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:cursed_lasso",
+    "description": [
+      "<h2>Can hold aggressive entities but will add the curse effect to them upon release.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:cursed_lasso"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Can hold aggressive entities but will add the curse effect to them upon release."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          384,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "dependencies": [
+    "Entangle Your Mind"
+  ],
+  "tasks": {
+    "37E61672584DFB3B": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_bag",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2F6D7323F1FF8D25": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kibe:purple_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "612716ED8EF91E40": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kibe:cyan_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "4C1FF0BDAC5EDA20": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "5745345A15F02D93": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kibe:light_gray_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "6AFDC6FC8292E7B5": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kibe:green_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Access the contents of your Entangled Chest directly in your inventory."
+    },
+    "description": [
+      "<h2>Access the contents of your Entangled Chest directly in your inventory.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          32,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:entangled_bag",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "text": "Acquire: kibe:entangled_bag"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

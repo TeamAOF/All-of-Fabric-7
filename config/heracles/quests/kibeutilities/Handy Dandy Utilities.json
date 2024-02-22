@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "tasks": {
+    "4B6651B07849440F": {
+      "title": "Handy dandy utilities",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7C2E9EEEB3C4B7B4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ae2:certus_quartz_cutting_knife",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "Handy Dandy Utilities",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          208,
+          -176
+        ]
+      }
+    }
+  }
+}
