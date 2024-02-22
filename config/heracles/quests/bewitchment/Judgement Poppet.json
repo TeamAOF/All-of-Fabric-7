@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "3AD3144A2289E414": {
+      "type": "heracles:item",
+      "item": "bewitchment:judgment_poppet"
+    }
+  },
+  "rewards": {
+    "5E7FF792249DA4BF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:judgment_poppet",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:judgment_poppet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          16,
+          -80
+        ]
+      }
+    }
+  }
+}

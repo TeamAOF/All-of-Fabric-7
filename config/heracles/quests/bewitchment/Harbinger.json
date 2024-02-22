@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Demon Horn"
+  ],
+  "tasks": {
+    "6CDB1DB5399B31F8": {
+      "type": "heracles:item",
+      "item": "bewitchment:harbinger"
+    }
+  },
+  "rewards": {
+    "290B4F394364281B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:harbinger",
+    "description": [
+      "<h2>Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots.</h2>",
+      "---",
+      "Because of their dark energies, the undead are neutral to the wearer.",
+      "",
+      "Harbinger can be repaired using Netherite Ingots.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:harbinger"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          256,
+          -128
+        ]
+      }
+    }
+  }
+}

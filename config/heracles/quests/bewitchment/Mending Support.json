@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "67E2FD8CD240DD97": {
+      "type": "heracles:item",
+      "item": "bewitchment:mending_poppet"
+    }
+  },
+  "rewards": {
+    "51363310CB4EC0AD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:mending_poppet",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:mending_poppet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -16,
+          -144
+        ]
+      }
+    }
+  }
+}

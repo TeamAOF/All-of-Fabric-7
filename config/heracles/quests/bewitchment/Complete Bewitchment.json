@@ -1,0 +1,82 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Stone Witch Altar",
+    "Demon Heart",
+    "Voodoo Poppet",
+    "Taglock",
+    "Bottle of Blood",
+    "Wood Ash",
+    "Demon Horn",
+    "Fiery Serum",
+    "Oak Bark",
+    "Voodoo Protection Poppet",
+    "Juniper Broom",
+    "Death Protection Poppet",
+    "Fatigue Poppet",
+    "Earth Ichor",
+    "Protection Poppet",
+    "Aqua Cerate",
+    "Chalk",
+    "Grotesque Stew",
+    "Athame",
+    "Caduceus",
+    "Book of Shadows",
+    "Witch Cauldron",
+    "Crystal Ball",
+    "Heaven Extract",
+    "Find a Nether Fortress",
+    "Harbinger",
+    "Horned Spear",
+    "Vamipiric Poppet",
+    "Cruse Poppet",
+    "Mending Support",
+    "Judgement Poppet",
+    "Scepter",
+    "Grim Elixir",
+    "Cleansing Balm"
+  ],
+  "tasks": {
+    "2C2166273BBDFCAC": {
+      "title": "&eBewitchment 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "3754227DEE07E247": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:bewitchment"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "&eBewitchment 100%",
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "trofers:medium_pillar"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Complete all quests to obtain the trophy!"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          192,
+          -192
+        ]
+      }
+    }
+  }
+}

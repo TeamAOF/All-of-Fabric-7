@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Demon Horn"
+  ],
+  "tasks": {
+    "5AD904C0970364E4": {
+      "type": "heracles:item",
+      "item": "bewitchment:caduceus"
+    }
+  },
+  "rewards": {
+    "14822D397A64A55F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:caduceus",
+    "description": [
+      "<h2>Baphomet's tool of choice.</h2>",
+      "---",
+      "It has multiple-tool functionality comparable to Netherite.",
+      "",
+      "It can also be used to throw powerful fireballs at the cost of some ME.",
+      "",
+      "The Caduceus can be repaired with Netherite Ingots.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:caduceus"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Baphomet's tool of choice."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          288,
+          -128
+        ]
+      }
+    }
+  }
+}
