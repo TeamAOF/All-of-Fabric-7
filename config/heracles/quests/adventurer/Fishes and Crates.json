@@ -1,0 +1,88 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {
+    "52BEAE23DF485E51": {
+      "type": "heracles:item",
+      "item": "itemfilters:mod",
+      "nbt": {
+        "value": "gofish"
+      }
+    }
+  },
+  "rewards": {
+    "401B0FCEDA6E06C3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§bFishes and Crates!",
+    "description": [
+      "<h2>Fishing should be fun.</h2>",
+      "---",
+      "&&6Go Fish &&radds in general &&bFishes&&r, which are obtainable globally in any area for each dimension, and biome-specific &&bFishes&&r, which are only obtainable in certain areas &&6(See below)&&r.",
+      "",
+      "&&6Overworld (Global)&&r:",
+      "- &&bWooden Crate",
+      "- &&bIron Crate",
+      "- &&bGolden Crate",
+      "- &&bDiamond Crate",
+      "",
+      "&&6During a full moon&&r:",
+      "- &&bLunarfish",
+      "- &&bGalaxy Starfish",
+      "- &&bStarry Salmon",
+      "- &&bNebula Swordfish",
+      "- &&bAstral Crate",
+      "",
+      "&&6The Nether (Global)&&r:",
+      "- &&bSmokey Salmon",
+      "- &&bMagma Cod",
+      "- &&bBonefish",
+      "- &&bObsidian Halibut",
+      "- &&bBasalt Bass",
+      "- &&bSpikerfish",
+      "- &&bFiery Crate",
+      "",
+      "&&6Basalt Deltas:",
+      "- &&bGilded Blackstone Carp",
+      "- &&bGilded Blackstone Crate",
+      "- &&bBlackstone Trout",
+      "",
+      "&&6Soul Sand Valley:",
+      "- &&bSoul Salmon",
+      "- &&bSoul Crate",
+      "",
+      "&&6The End:",
+      "- &&bBaked Endfish",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gofish:celestial_rod"
+    },
+    "subtitle": {
+      "text": "Fishing should be fun."
+    },
+    "groups": {
+      "Adventurer": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  }
+}

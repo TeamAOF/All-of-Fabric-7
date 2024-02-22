@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {
+    "09B4372F749D9625": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecells:conjunctivius_respawn_rune"
+      },
+      "type": "heracles:changed_dimension",
+      "from": "minecraft:overworld",
+      "to": "minecells:prison"
+    }
+  },
+  "rewards": {
+    "75521584B37DD8A1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§6Mine Cells",
+    "description": [
+      "<h2>Dive into the story of Dead Cells!</h2>",
+      "---",
+      "To start your adventure &&rwith &&bMine Cells&&r, &&6find a portal structure&&r. The &&bportal&&r will &&6activate&&r for you automatically if you've already acquired diamonds in the world.",
+      "",
+      "&&bMine Cells &&rfeatures new &&bMonsters &&rwhich attempt to faithfully recreate the look and feel of the original game.",
+      "",
+      "&&bMine Cells &&6introduces one new boss&&r - &&bThe Conjunctivius&&r.",
+      "",
+      "You can find her lair in the &&bPrison structure &&r/ &&bdimension&&r.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecells:conjunctivius_respawn_rune"
+    },
+    "subtitle": {
+      "text": "Dive into the story of Dead Cells!"
+    },
+    "groups": {
+      "Adventurer": {
+        "position": [
+          -64,
+          48
+        ]
+      }
+    }
+  }
+}

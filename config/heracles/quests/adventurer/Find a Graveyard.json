@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {
+    "63A78B39851541A7": {
+      "type": "heracles:structure",
+      "structures": "graveyard:small_graveyard"
+    }
+  },
+  "rewards": {
+    "0D54DD2EDD2B15AD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "graveyard:bone_dagger",
+        "count": 1
+      }
+    },
+    "36352D142DEEC48C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§4Find a Graveyard",
+    "description": [
+      "<h2>Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "graveyard:skull_with_rib_cage"
+    },
+    "subtitle": {
+      "text": "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+    },
+    "groups": {
+      "Adventurer": {
+        "position": [
+          16,
+          -80
+        ]
+      }
+    }
+  }
+}
