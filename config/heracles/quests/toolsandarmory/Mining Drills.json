@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "6CE5BD1D97182281": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk1"
+    },
+    "7BC7C58E0BEBA275": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk2"
+    },
+    "46BA0A38C7280FAF": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk3"
+    },
+    "5496BFC1BB3C532B": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk4"
+    }
+  },
+  "rewards": {
+    "700C7F9977380FB8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    },
+    "0DAEA51F73BEDA12": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Mining Drills",
+    "description": [
+      "<task task=\"6CE5BD1D97182281\" quest=\"Mining Drills\"/>",
+      "<task task=\"7BC7C58E0BEBA275\" quest=\"Mining Drills\"/>",
+      "<task task=\"46BA0A38C7280FAF\" quest=\"Mining Drills\"/>",
+      "<task task=\"5496BFC1BB3C532B\" quest=\"Mining Drills\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"700C7F9977380FB8\" quest=\"Mining Drills\"/>",
+      "<reward reward=\"0DAEA51F73BEDA12\" quest=\"Mining Drills\"/>"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -96,
+          -48
+        ]
+      }
+    }
+  }
+}

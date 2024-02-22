@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "tasks": {
+    "2468CAEE0E3DFE45": {
+      "title": "Block Variations",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Block Variations",
+    "description": [
+      "<h2>Blocks as far as the eye can see!</h2>",
+      "<hr/>",
+      "<task task=\"2468CAEE0E3DFE45\" quest=\"Blocks as Far as the Eye Can See\"/>",
+      "<hr/>",
+      "There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "subtitle": {
+      "text": "Blocks as far as the eye can see!"
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          208,
+          -176
+        ]
+      }
+    }
+  }
+}

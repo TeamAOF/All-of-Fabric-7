@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Weaponry"
+  ],
+  "tasks": {
+    "27F4E72D06FE60DD": {
+      "type": "heracles:item",
+      "item": "techreborn:nanosaber",
+      "nbt": {
+        "isActive": 0
+      }
+    }
+  },
+  "rewards": {
+    "4F2CC6312CAD19A0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:nanosaber",
+    "description": [
+      "<h2>An advanced weapon that can be used against hostile mobs, or players.</h2>",
+      "<hr/>",
+      "<task task=\"27F4E72D06FE60DD\" quest=\"Nanosaber\"/>",
+      "<hr/>",
+      "The Saber requires power to work, every hit done to an entity will cost 150 Energy.",
+      "<br/>",
+      "The nano saber requires being active to work.",
+      "<br/>",
+      "To toggle the active state the user must shift-right click.",
+      "<br/>",
+      "A chat message will appear saying the new mod that the weapon is in.",
+      "<hr/>",
+      "<reward reward=\"4F2CC6312CAD19A0\" quest=\"Nanosaber\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:nanosaber"
+    },
+    "subtitle": {
+      "text": "An advanced weapon that can be used against hostile mobs, or players."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          256,
+          -80
+        ]
+      }
+    }
+  }
+}
