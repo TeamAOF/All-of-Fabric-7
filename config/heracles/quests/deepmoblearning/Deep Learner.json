@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Any Data Model"
+  ],
+  "tasks": {
+    "1F74315ED1FF9FCB": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:deep_learner"
+    }
+  },
+  "rewards": {
+    "4009893D92F2BBE3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:deep_learner",
+    "description": [
+      "<h2>Collect data about the mobs you want to learn.</h2>",
+      "<hr/>",
+      "<task task=\"1F74315ED1FF9FCB\" quest=\"Deep Learner\"/>",
+      "<hr/>",
+      "Right-click with it and you will be presented to its GUI.",
+      "<br/>",
+      "Pick your Data Model and put in one of the slots, you will be able to preview in the left side which mobs are in the category you chosen.",
+      "<br/>",
+      "A single Deep Learner supports 4 Data Models at the same time, you can navigate through them using the arrow buttons above the slots.",
+      "<br/>",
+      "The Deep Learner also shows the current model's Data Amount and Tier. You can also view this just by putting your mouse above the Data Model and looking at its tooltip.",
+      "<br/>",
+      "Just keep your Deep Learner in hands (in your hotbar) and start killing mobs!",
+      "<br/>",
+      "Just keep killing mobs and you will notice the Data Amount of your Data Models getting higher, and its Tier will be higher too.",
+      "<hr/>",
+      "<reward reward=\"4009893D92F2BBE3\" quest=\"Deep Learner\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:deep_learner"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Collect data about the mobs you want to learn."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -208,
+          -80
+        ]
+      }
+    }
+  }
+}
