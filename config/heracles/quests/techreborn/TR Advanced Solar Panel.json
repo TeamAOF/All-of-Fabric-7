@@ -46,7 +46,7 @@
       "type": "heracles:item",
       "item": "techreborn:advanced_solar_panel"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "subtitle": {
       "text": "Produces energy from sunlight."
     },

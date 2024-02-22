@@ -39,7 +39,7 @@
       "type": "heracles:item",
       "item": "techreborn:iron_furnace"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "subtitle": {
       "text": "Works much like a traditional furnace, except that it is 56.25% more efficient with the fuel you use."
     },

@@ -46,7 +46,7 @@
       "type": "heracles:item",
       "item": "techreborn:wire_mill"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "subtitle": {
       "text": "Lets you make wires efficiently"
     },

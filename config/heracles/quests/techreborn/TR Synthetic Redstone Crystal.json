@@ -37,7 +37,7 @@
       "type": "heracles:item",
       "item": "techreborn:synthetic_redstone_crystal"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "groups": {
       "Tech Reborn": {
         "position": [

@@ -43,7 +43,7 @@
       "type": "heracles:item",
       "item": "techreborn:scrapboxinator"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "subtitle": {
       "text": "Converts any item you put into it into Scrap with a 1 in 6 chance to do so."
     },

@@ -38,7 +38,7 @@
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_ingot"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rsquares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "subtitle": {
       "text": "An alloy used to craft several recipes."
     },
