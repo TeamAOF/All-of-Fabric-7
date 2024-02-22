@@ -38,13 +38,7 @@
   "display": {
     "description": [
       "<h2>Voyage au centre de la Terre</h2>",
-      "<hr/>",
-      "<task task=\"2721582C052343E1\" quest=\"Voyage au centre de la Terre\"/>",
-      "<task task=\"6FD576D1B9442B12\" quest=\"Voyage au centre de la Terre\"/>",
-      "<task task=\"314976D5CD5B3ADD\" quest=\"Voyage au centre de la Terre\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"475CB6BBE2254CCC\" quest=\"Voyage au centre de la Terre\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Voyage au centre de la Terre"

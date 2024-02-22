@@ -39,14 +39,9 @@
     "title": "Measuring Tools",
     "description": [
       "<h2>How Fast? How Stressed?</h2>",
-      "<hr/>",
-      "<task task=\"6274F7DCF4A79756\" quest=\"Measuring Tools\"/>",
-      "<task task=\"2B91B823C4B0491B\" quest=\"Measuring Tools\"/>",
-      "<hr/>",
+      "---",
       "> These two are interchangable once you craft the other. That's a good way to cheat this quest actually. Why did I tell you that?",
-      "<hr/>",
-      "<reward reward=\"3C92A0C3F95854DC\" quest=\"Measuring Tools\"/>",
-      "<reward reward=\"63AD7FD405944249\" quest=\"Measuring Tools\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "How Fast? How Stressed?"

@@ -37,12 +37,7 @@
     "title": "Mechanical Crafters",
     "description": [
       "<h2>Trust me, you'll want 21.</h2>",
-      "<hr/>",
-      "<task task=\"5F2F997F86DEA58E\" quest=\"Mechanical Crafters\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"20B8F411391930F5\" quest=\"Mechanical Crafters\"/>",
-      "<reward reward=\"084AE2B5E1BAA08E\" quest=\"Mechanical Crafters\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

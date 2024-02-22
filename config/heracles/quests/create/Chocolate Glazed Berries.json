@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: create:chocolate_glazed_berries",
     "description": [
-      "<task task=\"378CBD18668E1B73\" quest=\"Chocolate Glazed Berries\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"167AE13096FAE1D7\" quest=\"Chocolate Glazed Berries\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

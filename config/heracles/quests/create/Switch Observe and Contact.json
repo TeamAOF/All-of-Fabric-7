@@ -34,12 +34,7 @@
   },
   "display": {
     "description": [
-      "<task task=\"1DB3FA8EA2E95BEE\" quest=\"Switch Observe and Contact\"/>",
-      "<task task=\"7E118B6DEA380E1F\" quest=\"Switch Observe and Contact\"/>",
-      "<task task=\"1CD731F9EDD2C4A6\" quest=\"Switch Observe and Contact\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"53D16E2241F0BD54\" quest=\"Switch Observe and Contact\"/>"
+      "---"
     ],
     "groups": {
       "Create": {

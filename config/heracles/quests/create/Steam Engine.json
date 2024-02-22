@@ -40,13 +40,7 @@
     "title": "Acquire: create:steam_engine",
     "description": [
       "<h2>Endgame Rotational Force</h2>",
-      "<hr/>",
-      "<task task=\"4F57647E2D2E0B6A\" quest=\"Steam Engine\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3C468264516F9D2C\" quest=\"Steam Engine\"/>",
-      "<reward reward=\"7DC01EB5C711EA9D\" quest=\"Steam Engine\"/>",
-      "<reward reward=\"6014202EB5B75F80\" quest=\"Steam Engine\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

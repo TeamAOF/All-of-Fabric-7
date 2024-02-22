@@ -28,11 +28,7 @@
     "title": "Acquire: create:brass_tunnel",
     "description": [
       "<h2>Use with filter to create separate belt lines of items from a single line</h2>",
-      "<hr/>",
-      "<task task=\"792A0ECBB96534E6\" quest=\"Brass Tunnel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"58D1F763518E5DCA\" quest=\"Brass Tunnel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

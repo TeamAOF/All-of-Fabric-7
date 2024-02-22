@@ -35,14 +35,10 @@
     "title": "Water Wheels",
     "description": [
       "<h2>No more hand cranking</h2>",
-      "<hr/>",
-      "<task task=\"5D72C3AFC662F113\" quest=\"Water Wheel\"/>",
-      "<hr/>",
+      "---",
       "> Tired of spinning the hand crank? Then craft yourself a water wheel!",
       "> Make sure that it's spinning the right way for maximum rotational force value.",
-      "<hr/>",
-      "<reward reward=\"595524E0057DF146\" quest=\"Water Wheel\"/>",
-      "<reward reward=\"02E5826376F7D45B\" quest=\"Water Wheel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

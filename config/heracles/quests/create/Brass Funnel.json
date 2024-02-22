@@ -28,11 +28,7 @@
     "title": "Acquire: create:brass_funnel",
     "description": [
       "<h2>Andesite Funnel, but better</h2>",
-      "<hr/>",
-      "<task task=\"43D789B3D3A4BE27\" quest=\"Brass Funnel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0FABCA33426406C6\" quest=\"Brass Funnel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

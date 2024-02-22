@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: create:mechanical_arm",
     "description": [
-      "<task task=\"722EF3CA0452388D\" quest=\"Mechanical Arm\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"593885096E3935AA\" quest=\"Mechanical Arm\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -36,12 +36,7 @@
     "title": "Gearboxes",
     "description": [
       "<h2>If you want your rotation mirrored or angled</h2>",
-      "<hr/>",
-      "<task task=\"32294B520ED00F7A\" quest=\"Gearboxes\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3FAEC5485A1313E6\" quest=\"Gearboxes\"/>",
-      "<reward reward=\"6F2FBA4BA2264E6A\" quest=\"Gearboxes\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -30,11 +30,7 @@
   },
   "display": {
     "description": [
-      "<task task=\"7BA850D5A017F5A8\" quest=\"Latch Action\"/>",
-      "<task task=\"07AD7FEB87BF41DF\" quest=\"Latch Action\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3CE19B99F7E1F288\" quest=\"Latch Action\"/>"
+      "---"
     ],
     "groups": {
       "Create": {

@@ -28,11 +28,7 @@
     "title": "Acquire: create:builders_tea",
     "description": [
       "<h2>It's tea time</h2>",
-      "<hr/>",
-      "<task task=\"735486F36BD795C3\" quest=\"Builders Tea\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0403C09973EF08E3\" quest=\"Builders Tea\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

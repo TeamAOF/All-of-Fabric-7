@@ -35,15 +35,11 @@
     "title": "Minecart Contraptions",
     "description": [
       "<h2>What? How is that Powered?</h2>",
-      "<hr/>",
-      "<task task=\"59FFD46CE7E0FEE5\" quest=\"Contraptions\"/>",
-      "<hr/>",
+      "---",
       "> You can also create minecart contraptions and they will not need any power from the previous quests.   ",
       "> However, you'll need to power the minecart. Good thing we have Furnace Minecart, right?",
       "> You do remember Minecart Furnaces right? Right?",
-      "<hr/>",
-      "<reward reward=\"4D7ECC99BD1B65CD\" quest=\"Contraptions\"/>",
-      "<reward reward=\"453152B872C3CAFC\" quest=\"Contraptions\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

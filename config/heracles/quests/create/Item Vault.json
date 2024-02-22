@@ -29,11 +29,7 @@
     "title": "Acquire: create:item_vault",
     "description": [
       "<h2>No, this is All of Fabric.</h2>",
-      "<hr/>",
-      "<task task=\"3BD7EB5A4BE1F97C\" quest=\"Item Vault\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"29B7CA2294F20339\" quest=\"Item Vault\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

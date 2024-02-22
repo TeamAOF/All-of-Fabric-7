@@ -28,11 +28,7 @@
     "title": "Acquire: create:andesite_tunnel",
     "description": [
       "<h2>Make belts look pretty</h2>",
-      "<hr/>",
-      "<task task=\"17234DF9E970CD30\" quest=\"Andesite Tunnel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6EB034A0C261A612\" quest=\"Andesite Tunnel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

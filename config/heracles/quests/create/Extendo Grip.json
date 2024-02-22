@@ -28,11 +28,7 @@
     "title": "Acquire: create:extendo_grip",
     "description": [
       "<h2>Also try Terraria!</h2>",
-      "<hr/>",
-      "<task task=\"6886E9FB38FC363D\" quest=\"Extendo Grip\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6F0CA1CB40339EA2\" quest=\"Extendo Grip\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

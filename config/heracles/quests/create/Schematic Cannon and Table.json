@@ -38,13 +38,7 @@
   "display": {
     "description": [
       "<h2>It's like litematica, but with a cannon</h2>",
-      "<hr/>",
-      "<task task=\"327E02A860C477B0\" quest=\"Schematic Cannon and Table\"/>",
-      "<task task=\"269723EDD5279715\" quest=\"Schematic Cannon and Table\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2E9490114C5D2520\" quest=\"Schematic Cannon and Table\"/>",
-      "<reward reward=\"2468D8DF9C39352C\" quest=\"Schematic Cannon and Table\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "It's like litematica, but with a cannon"

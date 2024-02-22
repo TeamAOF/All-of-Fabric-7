@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: create:redstone_link",
     "description": [
-      "<task task=\"258E4C69FC71067C\" quest=\"Redstone Link\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"317E449D09B0A531\" quest=\"Redstone Link\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

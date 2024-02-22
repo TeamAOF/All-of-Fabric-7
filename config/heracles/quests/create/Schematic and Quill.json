@@ -28,11 +28,7 @@
     "title": "Acquire: create:schematic_and_quill",
     "description": [
       "<h2>I know you're doing it from a creative world first</h2>",
-      "<hr/>",
-      "<task task=\"7625AC75CF47A965\" quest=\"Schematic and Quill\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3AE348CB80C51BFF\" quest=\"Schematic and Quill\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -29,14 +29,11 @@
     "title": "How do I take items from Contraptions?",
     "description": [
       "<h2>I can't open the chests</h2>",
-      "<hr/>",
-      "<task task=\"35A41EFB50414849\" quest=\"Portable Storage Interface\"/>",
-      "<hr/>",
+      "---",
       "> Create Contraptions are treated as entities, thus you can't open any inventory you attached to them.",
       "> This is where the Portable Storage Interface comes in, put one in your contraption, and another one block away from it, and you're transfering items from the contraption to the interface.",
       "> What's left is to move the items out of the Interface, that's where the Funnels, and Chutes come in",
-      "<hr/>",
-      "<reward reward=\"2D452691BE00632F\" quest=\"Portable Storage Interface\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

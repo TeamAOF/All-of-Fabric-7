@@ -30,11 +30,7 @@
   },
   "display": {
     "description": [
-      "<task task=\"37D4B6FC20747FAB\" quest=\"Pulse Extender and Repeater\"/>",
-      "<task task=\"789C7A82603F8DF1\" quest=\"Pulse Extender and Repeater\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6A0F8621A189759C\" quest=\"Pulse Extender and Repeater\"/>"
+      "---"
     ],
     "groups": {
       "Create": {

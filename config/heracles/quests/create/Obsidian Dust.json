@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: techreborn:obsidian_dust",
     "description": [
-      "<task task=\"4934453DAE01C6B6\" quest=\"Obsidian Dust\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"43EE5F60822DF0FC\" quest=\"Obsidian Dust\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

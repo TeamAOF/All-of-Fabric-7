@@ -49,17 +49,9 @@
     "title": "Fluid Transport",
     "description": [
       "<h2>All the ways to transfer fluid</h2>",
-      "<hr/>",
-      "<task task=\"0524F2FB37D57532\" quest=\"Fluid Transport\"/>",
-      "<task task=\"0D4134E552F93EA3\" quest=\"Fluid Transport\"/>",
-      "<task task=\"47859A1FC6D12AB4\" quest=\"Fluid Transport\"/>",
-      "<task task=\"623D21CBC3619CCE\" quest=\"Fluid Transport\"/>",
-      "<task task=\"57C308F38E96324D\" quest=\"Fluid Transport\"/>",
-      "<hr/>",
+      "---",
       "> You'll need a mechanical pump to move fluids",
-      "<hr/>",
-      "<reward reward=\"3E56F3FDAF253B37\" quest=\"Fluid Transport\"/>",
-      "<reward reward=\"031977CB74BE2DBD\" quest=\"Fluid Transport\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "All the ways to transfer fluid"

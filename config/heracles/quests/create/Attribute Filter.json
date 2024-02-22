@@ -36,12 +36,7 @@
   "display": {
     "description": [
       "<h2>Wheat Seeds away</h2>",
-      "<hr/>",
-      "<task task=\"100B2DCB7CD6C455\" quest=\"Attribute Filter\"/>",
-      "<task task=\"298A23CB6BCE3275\" quest=\"Attribute Filter\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6B196118BBDDB8FA\" quest=\"Attribute Filter\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Wheat Seeds away"

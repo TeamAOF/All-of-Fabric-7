@@ -49,14 +49,7 @@
   },
   "display": {
     "description": [
-      "<task task=\"37D1FF8ECA160E23\" quest=\"Track Station and Controls\"/>",
-      "<task task=\"7EC6DB89045723DE\" quest=\"Track Station and Controls\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"75EC0195740DB95A\" quest=\"Track Station and Controls\"/>",
-      "<reward reward=\"2992FD7FC9922899\" quest=\"Track Station and Controls\"/>",
-      "<reward reward=\"6C2DD9A128651BB4\" quest=\"Track Station and Controls\"/>",
-      "<reward reward=\"374CE0AA020014CB\" quest=\"Track Station and Controls\"/>"
+      "---"
     ],
     "groups": {
       "Create": {

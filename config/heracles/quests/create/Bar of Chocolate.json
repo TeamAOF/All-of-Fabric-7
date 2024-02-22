@@ -28,11 +28,7 @@
     "title": "Acquire: create:bar_of_chocolate",
     "description": [
       "<h2>Come with me and you'll be in a world of pure imagination</h2>",
-      "<hr/>",
-      "<task task=\"1AF838CDD9E9B36C\" quest=\"Bar of Chocolate\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6F580D1F490D2212\" quest=\"Bar of Chocolate\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -34,12 +34,7 @@
     "title": "Acquire: create:deployer",
     "description": [
       "<h2>Poke</h2>",
-      "<hr/>",
-      "<task task=\"755D0B78024267FC\" quest=\"Deployer\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5BC2720763573A21\" quest=\"Deployer\"/>",
-      "<reward reward=\"7458CBBA5DDC4FC2\" quest=\"Deployer\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

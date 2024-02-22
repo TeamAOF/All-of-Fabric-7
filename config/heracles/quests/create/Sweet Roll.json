@@ -28,11 +28,7 @@
     "title": "Acquire: create:sweet_roll",
     "description": [
       "<h2>A bethesda staple</h2>",
-      "<hr/>",
-      "<task task=\"494AEF60DD62281A\" quest=\"Sweet Roll\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"575B52C987AC7222\" quest=\"Sweet Roll\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

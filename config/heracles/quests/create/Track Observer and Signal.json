@@ -35,12 +35,7 @@
   },
   "display": {
     "description": [
-      "<task task=\"208C1FCC036F1828\" quest=\"Track Observer and Signal\"/>",
-      "<task task=\"640C9B3AB5110BC7\" quest=\"Track Observer and Signal\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6288CBE6F49A9C78\" quest=\"Track Observer and Signal\"/>",
-      "<reward reward=\"4C81E432D17CD97A\" quest=\"Track Observer and Signal\"/>"
+      "---"
     ],
     "groups": {
       "Create": {

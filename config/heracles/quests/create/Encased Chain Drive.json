@@ -29,11 +29,7 @@
     "title": "Encased Chain Drive",
     "description": [
       "<h2>For multiple stationary contraptions in a row</h2>",
-      "<hr/>",
-      "<task task=\"37CA2EF15B3BD8CC\" quest=\"Encased Chain Drive\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3A1DB402D0064C1A\" quest=\"Encased Chain Drive\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

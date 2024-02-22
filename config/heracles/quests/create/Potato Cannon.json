@@ -35,12 +35,7 @@
     "title": "Acquire: create:potato_cannon",
     "description": [
       "<h2>When you have too many crops</h2>",
-      "<hr/>",
-      "<task task=\"171641F6600EC441\" quest=\"Potato Cannon\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"00A8373D4D35C0B8\" quest=\"Potato Cannon\"/>",
-      "<reward reward=\"3901D5A420576077\" quest=\"Potato Cannon\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

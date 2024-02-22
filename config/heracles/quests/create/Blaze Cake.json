@@ -28,11 +28,7 @@
     "title": "Acquire: create:blaze_cake",
     "description": [
       "<h2>Not for human consumption</h2>",
-      "<hr/>",
-      "<task task=\"7AD9FA6044222875\" quest=\"Blaze Cake\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3929398C102E76C9\" quest=\"Blaze Cake\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

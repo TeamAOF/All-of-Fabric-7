@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: create:honeyed_apple",
     "description": [
-      "<task task=\"1CF55C47026EF25D\" quest=\"Honeyed Apple\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"57E821B12459BBDB\" quest=\"Honeyed Apple\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -28,11 +28,7 @@
     "title": "Springboard",
     "description": [
       "<h2>Do you want your items to fly?</h2>",
-      "<hr/>",
-      "<task task=\"510658A8DBBB0222\" quest=\"Springboard\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0335713E26806CA2\" quest=\"Springboard\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

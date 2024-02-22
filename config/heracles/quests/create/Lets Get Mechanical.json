@@ -73,26 +73,14 @@
     "title": "Let's Get Mechanical!",
     "description": [
       "<h2>This is where you get creative with your farms</h2>",
-      "<hr/>",
-      "<task task=\"5C3F98D60C5BD858\" quest=\"Lets Get Mechanical\"/>",
-      "<task task=\"7563616EEF6AC5F1\" quest=\"Lets Get Mechanical\"/>",
-      "<task task=\"02731E6B9C2B077F\" quest=\"Lets Get Mechanical\"/>",
-      "<task task=\"58CD66BA144F05D6\" quest=\"Lets Get Mechanical\"/>",
-      "<task task=\"0477272B50AB9B8F\" quest=\"Lets Get Mechanical\"/>",
-      "<task task=\"062E8F5415B2007D\" quest=\"Lets Get Mechanical\"/>",
-      "<task task=\"5F37A1DFF0919C9A\" quest=\"Lets Get Mechanical\"/>",
-      "<hr/>",
+      "---",
       "> Mechanical Harvesters Harvests crops and replants them",
       "> Mechanical Saws can cut Trees and damage Mobs. Farming them automatically has to wait until the Brass Age",
       "> Mechanical drills can mine pickaxe minable blocks. It doesn't have Silk Touch however. It can also damage Mobs. ",
       "> Mechanical Plough acts as a Hoe, however, you're more likely to use it to take out any no-collision blocks",
       "> Mechanical Mixer needs a basin to work. This is your first step in getting to Brass Age.",
       "> Mechanical Bearing spins. Yep",
-      "<hr/>",
-      "<reward reward=\"5B2CACBB3C2926A2\" quest=\"Lets Get Mechanical\"/>",
-      "<reward reward=\"643608A4B5BB34A9\" quest=\"Lets Get Mechanical\"/>",
-      "<reward reward=\"434EC466681C44CC\" quest=\"Lets Get Mechanical\"/>",
-      "<reward reward=\"3AE0BAFF7CEFFDFC\" quest=\"Lets Get Mechanical\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "This is where you get creative with your farms"

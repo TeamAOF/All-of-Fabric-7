@@ -40,18 +40,13 @@
     "title": "Fan it Up!",
     "description": [
       "<h2>Pushing and Pulling Entities</h2>",
-      "<hr/>",
-      "<task task=\"2E585309D2A5E70B\" quest=\"Fan it Up\"/>",
-      "<hr/>",
+      "---",
       "The Encased Fan is a mechanical component that can create air streams.",
-      "<br/>",
+      "",
       "Encased Fans are used for moving entities, Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.",
-      "<br/>",
+      "",
       "The Encased Fan connects to other rotational components from the back.",
-      "<hr/>",
-      "<reward reward=\"284F437BC5FD1C3F\" quest=\"Fan it Up\"/>",
-      "<reward reward=\"0DD9C155401E40E5\" quest=\"Fan it Up\"/>",
-      "<reward reward=\"5E00EAF6A7D0B404\" quest=\"Fan it Up\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

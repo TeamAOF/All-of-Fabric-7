@@ -39,12 +39,7 @@
   "display": {
     "title": "Acquire: create:item_drain",
     "description": [
-      "<task task=\"47E12615F45B3084\" quest=\"Item Drain\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5B74D497C1F963F9\" quest=\"Item Drain\"/>",
-      "<reward reward=\"03246123C8206D34\" quest=\"Item Drain\"/>",
-      "<reward reward=\"747C048080E3B2D9\" quest=\"Item Drain\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

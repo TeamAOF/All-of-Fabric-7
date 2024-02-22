@@ -94,11 +94,7 @@
     "title": "&6Create 100%",
     "description": [
       "<h2>Complete all quests to obtain the trophy!</h2>",
-      "<hr/>",
-      "<task task=\"1D99A86B5CA32704\" quest=\"Complete Create\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"264E15A6379D9F97\" quest=\"Complete Create\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

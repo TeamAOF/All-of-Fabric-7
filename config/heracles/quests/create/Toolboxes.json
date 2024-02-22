@@ -29,12 +29,9 @@
     "title": "Toolboxes",
     "description": [
       "<h2>The poor man's shulker box</h2>",
-      "<hr/>",
-      "<task task=\"7ECE7137CB80BB36\" quest=\"Toolboxes\"/>",
-      "<hr/>",
+      "---",
       "> You can use items from a nearby placed toolbox without opening it.",
-      "<hr/>",
-      "<reward reward=\"2F024B9278C814CF\" quest=\"Toolboxes\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "The poor man's shulker box"

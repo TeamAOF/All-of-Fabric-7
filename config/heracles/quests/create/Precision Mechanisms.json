@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: create:precision_mechanism",
     "description": [
-      "<task task=\"357E032E895E7510\" quest=\"Precision Mechanisms\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"59E64FFE6EFE09C2\" quest=\"Precision Mechanisms\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

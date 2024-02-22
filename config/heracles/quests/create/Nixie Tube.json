@@ -34,11 +34,7 @@
   "display": {
     "title": "Acquire: create:nixie_tube",
     "description": [
-      "<task task=\"711D6F812404ECB8\" quest=\"Nixie Tube\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"681CDBE5E160CC80\" quest=\"Nixie Tube\"/>",
-      "<reward reward=\"1EAD846295A6E758\" quest=\"Nixie Tube\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -34,12 +34,7 @@
     "title": "Rotational Transfer",
     "description": [
       "<h2>The most basic way of transfering rotational force in a straight line</h2>",
-      "<hr/>",
-      "<task task=\"3219B93CA3092A92\" quest=\"Shaft\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"238CBBC4DC4DD6AE\" quest=\"Shaft\"/>",
-      "<reward reward=\"63968E53AD8BC6DA\" quest=\"Shaft\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

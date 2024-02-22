@@ -28,11 +28,7 @@
     "title": "Acquire: create:andesite_funnel",
     "description": [
       "<h2>Your Omnidirectional Hopper</h2>",
-      "<hr/>",
-      "<task task=\"4BA1B52879A48988\" quest=\"Andesite Funnel\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"67433A84C3A2C5FC\" quest=\"Andesite Funnel\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

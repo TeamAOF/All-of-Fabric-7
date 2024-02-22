@@ -41,16 +41,11 @@
     "title": "Just like in the factories",
     "description": [
       "<h2>You don't put these in your trousers</h2>",
-      "<hr/>",
-      "<task task=\"56A29EFD21A45310\" quest=\"Belt Connector\"/>",
-      "<hr/>",
+      "---",
       "> Mechanical Belts have two purpose:",
       "> First is that it can move items",
       "> Second is that it can transfer rotational power",
-      "<hr/>",
-      "<reward reward=\"398B4C3C4FA571FF\" quest=\"Belt Connector\"/>",
-      "<reward reward=\"1217EEBF15A922C9\" quest=\"Belt Connector\"/>",
-      "<reward reward=\"18CE6AA6D3C60E07\" quest=\"Belt Connector\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: create:track",
     "description": [
-      "<task task=\"1779510A85EEF6ED\" quest=\"Create Track\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"594F6A3AA4E24010\" quest=\"Create Track\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

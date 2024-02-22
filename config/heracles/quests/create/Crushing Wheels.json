@@ -43,13 +43,7 @@
     "title": "Crushing Wheels",
     "description": [
       "<h2>Told ya, you need 21.</h2>",
-      "<hr/>",
-      "<task task=\"0F1616D9FFA85EDD\" quest=\"Crushing Wheels\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"08DEE5CA24BB5C4D\" quest=\"Crushing Wheels\"/>",
-      "<reward reward=\"36A4FF7A76D0CBD4\" quest=\"Crushing Wheels\"/>",
-      "<reward reward=\"7470D6BDB2DD769A\" quest=\"Crushing Wheels\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

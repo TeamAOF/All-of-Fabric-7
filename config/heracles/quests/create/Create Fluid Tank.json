@@ -28,11 +28,7 @@
     "title": "Acquire: create:fluid_tank",
     "description": [
       "<h2>Fluid Storage</h2>",
-      "<hr/>",
-      "<task task=\"2FE59458C9981F42\" quest=\"Create Fluid Tank\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2F51E2F9BC99552D\" quest=\"Create Fluid Tank\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

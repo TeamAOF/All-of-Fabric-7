@@ -28,12 +28,9 @@
     "title": "Acquire: create:display_board",
     "description": [
       "<h2>This looks like the Flight information display system</h2>",
-      "<hr/>",
-      "<task task=\"4F13246919A2B6DF\" quest=\"Display Board\"/>",
-      "<hr/>",
+      "---",
       "> Create Planes next update?",
-      "<hr/>",
-      "<reward reward=\"63A7DD6EFB600BC3\" quest=\"Display Board\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

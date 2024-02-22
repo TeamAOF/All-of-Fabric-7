@@ -31,11 +31,7 @@
   },
   "display": {
     "description": [
-      "<task task=\"0F0AB8625378E24A\" quest=\"Gantry\"/>",
-      "<task task=\"6C7180AB943EC4BF\" quest=\"Gantry\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"065A398D3A8D98B2\" quest=\"Gantry\"/>"
+      "---"
     ],
     "groups": {
       "Create": {

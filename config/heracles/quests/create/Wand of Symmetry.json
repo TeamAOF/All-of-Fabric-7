@@ -28,11 +28,7 @@
     "title": "Acquire: create:wand_of_symmetry",
     "description": [
       "<h2>A builder's favorite</h2>",
-      "<hr/>",
-      "<task task=\"4CF962AB7943C158\" quest=\"Wand of Symmetry\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"439BBCD76A257219\" quest=\"Wand of Symmetry\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
