@@ -27,11 +27,7 @@
     "title": "§eRing of Angels",
     "description": [
       "<h2>Creative flight at your disposal.</h2>",
-      "<hr/>",
-      "<task task=\"64A0A716321AC14E\" quest=\"Ring of Angels\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"149036984D62AD6A\" quest=\"Ring of Angels\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -985,11 +985,9 @@
     "title": "§6All The Quests",
     "description": [
       "<h2>Yes, I meant it. Complete ALL quest chapters!</h2>",
-      "<hr/>",
-      "<task task=\"406DD97392361D8E\" quest=\"All The Quests\"/>",
-      "<hr/>",
+      "---",
       "&&6Chapters to complete&&r:",
-      "<br/>",
+      "",
       "- &&bAgriculture",
       "- &&bApplied Energistics 2",
       "- &&bDeep Mob Learning",
@@ -1007,8 +1005,7 @@
       "- &&bSpectrum",
       "- &&bSpirit",
       "- &&bMystical Agriculture",
-      "<hr/>",
-      "<reward reward=\"18FE9FDF00364A9A\" quest=\"All The Quests\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

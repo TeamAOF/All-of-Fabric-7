@@ -31,11 +31,7 @@
     "title": "§3Are you worthy?",
     "description": [
       "<h2>Kill the Ender Dragon to unlock challenges.</h2>",
-      "<hr/>",
-      "<task task=\"3A9ABB487CD82821\" quest=\"Are you worthy\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"431C0986E611D988\" quest=\"Are you worthy\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
