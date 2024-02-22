@@ -1,0 +1,111 @@
+{
+  "dependencies": [
+    "Lets Get Mechanical"
+  ],
+  "tasks": {
+    "6813CD3587C015C9": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "09B2CD16CA964794": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "05B9E07ECDB6CA33": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "4DC3A930BA4B079E": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "I wonder how do we make Brass?"
+    },
+    "description": [
+      "<h2>I wonder how do we make Brass?</h2>",
+      "---",
+      "> It's simple really, kidnap a Blaze from the nether",
+      "> By the way, did you gear up the speed? Because Mixers need a certain speed to work.",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brass Age Incoming?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

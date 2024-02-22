@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "Redstone Link"
+  ],
+  "tasks": {
+    "789C7A82603F8DF1": {
+      "type": "heracles:item",
+      "item": "create:pulse_extender",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "37D4B6FC20747FAB": {
+      "type": "heracles:item",
+      "item": "create:pulse_repeater",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6A0F8621A189759C": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -192,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:pulse_extender",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

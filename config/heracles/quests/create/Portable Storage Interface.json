@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Belt Connector"
+  ],
+  "tasks": {
+    "35A41EFB50414849": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "create:portable_storage_interface"
+    }
+  },
+  "rewards": {
+    "2D452691BE00632F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "How do I take items from Contraptions?",
+    "description": [
+      "<h2>I can't open the chests</h2>",
+      "---",
+      "> Create Contraptions are treated as entities, thus you can't open any inventory you attached to them.",
+      "> This is where the Portable Storage Interface comes in, put one in your contraption, and another one block away from it, and you're transfering items from the contraption to the interface.",
+      "> What's left is to move the items out of the Interface, that's where the Funnels, and Chutes come in",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:portable_storage_interface"
+    },
+    "subtitle": {
+      "text": "I can't open the chests"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          160
+        ]
+      }
+    }
+  }
+}

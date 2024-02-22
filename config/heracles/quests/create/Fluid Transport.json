@@ -1,0 +1,150 @@
+{
+  "dependencies": [
+    "Create Fluid Tank"
+  ],
+  "tasks": {
+    "0D4134E552F93EA3": {
+      "type": "heracles:item",
+      "item": "create:fluid_pipe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "623D21CBC3619CCE": {
+      "type": "heracles:item",
+      "item": "create:spout",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "0524F2FB37D57532": {
+      "type": "heracles:item",
+      "item": "create:mechanical_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "47859A1FC6D12AB4": {
+      "type": "heracles:item",
+      "item": "create:hose_pulley",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "57C308F38E96324D": {
+      "type": "heracles:item",
+      "item": "create:portable_fluid_interface",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "031977CB74BE2DBD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "3E56F3FDAF253B37": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "All the ways to transfer fluid"
+    },
+    "description": [
+      "<h2>All the ways to transfer fluid</h2>",
+      "---",
+      "> You'll need a mechanical pump to move fluids",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:fluid_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Transport"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

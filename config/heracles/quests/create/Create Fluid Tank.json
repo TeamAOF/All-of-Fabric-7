@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Copper Casing"
+  ],
+  "tasks": {
+    "2FE59458C9981F42": {
+      "type": "heracles:item",
+      "item": "create:fluid_tank"
+    }
+  },
+  "rewards": {
+    "2F51E2F9BC99552D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:fluid_tank",
+    "description": [
+      "<h2>Fluid Storage</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:fluid_tank"
+    },
+    "subtitle": {
+      "text": "Fluid Storage"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          160
+        ]
+      }
+    }
+  }
+}

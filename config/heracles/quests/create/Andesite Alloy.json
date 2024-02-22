@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "tasks": {
+    "26F489361F50BBF5": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "create:andesite_alloy"
+    }
+  },
+  "rewards": {
+    "69EDCF0376B96184": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Create: Getting Started",
+    "description": [
+      "<h2>Alliterations Ahoy</h2>",
+      "---",
+      "> When you start mining, grab as much andesite as possible and don't forget to grab some zinc too.",
+      "> Smelt down your Zinc/Iron, turn them to Ingots, and Craft them to Andesite Alloys",
+      "> Andesite Alloys are used in a lot of recipes in Create, there's a way to get more for less materials, but that's for later.",
+      "> This quest chapter will guide you to the basics and the progression of Create Mod, you can check the advancements as well to see what else this mod has to offer",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy"
+    },
+    "subtitle": {
+      "text": "Alliterations Ahoy"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

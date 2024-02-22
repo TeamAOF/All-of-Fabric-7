@@ -1,0 +1,142 @@
+{
+  "dependencies": [
+    "Blaze Cake",
+    "Switch Observe and Contact",
+    "Analog Lever",
+    "Chocolate Glazed Berries",
+    "Bar of Chocolate",
+    "Andesite Tunnel",
+    "Redstone Link",
+    "Lets Get Mechanical",
+    "Fluid Transport",
+    "Steam Engine",
+    "Shaft",
+    "Rotation Speed Controller",
+    "Precision Mechanisms",
+    "Deployer",
+    "Builders Tea",
+    "Railway Casing",
+    "Cogwheel",
+    "Smart Chute",
+    "Engineering Tools",
+    "Andesite Alloy",
+    "Latch Action",
+    "Create Track",
+    "Pulse Extender and Repeater",
+    "Create Fluid Tank",
+    "Potato Cannon",
+    "Item Vault",
+    "Display Board",
+    "Brass Age Incoming",
+    "Honeyed Apple",
+    "Gantry",
+    "Mechanical Crafters",
+    "Nixie Tube",
+    "Copper Casing",
+    "Springboard",
+    "Mechanical Arm",
+    "Track Observer and Signal",
+    "Schematic and Quill",
+    "Gearboxes",
+    "Sequenced Gearshift",
+    "Sweet Roll",
+    "Item Drain",
+    "Brass Casings",
+    "Toolboxes",
+    "Windmills",
+    "Display Link",
+    "Portable Storage Interface",
+    "Water Wheel",
+    "Mechanical Press",
+    "Brass Tunnel",
+    "Measuring Tools",
+    "Andesite Funnel",
+    "Contraptions",
+    "Chute",
+    "Obsidian Dust",
+    "Wand of Symmetry",
+    "Extendo Grip",
+    "Attribute Filter",
+    "Encased Chain Drive",
+    "Crafting Blueprint",
+    "Track Station and Controls",
+    "Fan it Up",
+    "Schematic Cannon and Table",
+    "Belt Connector",
+    "Voyage au centre de la Terre",
+    "Polished Rose Quartz",
+    "Brass Funnel",
+    "Haunted Bell",
+    "Crushing Wheels"
+  ],
+  "tasks": {
+    "1D99A86B5CA32704": {
+      "title": "&6Create 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "264E15A6379D9F97": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:create"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<h2>Complete all quests to obtain the trophy!</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "&6Create 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

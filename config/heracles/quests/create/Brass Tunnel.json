@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Attribute Filter"
+  ],
+  "tasks": {
+    "792A0ECBB96534E6": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel"
+    }
+  },
+  "rewards": {
+    "58D1F763518E5DCA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:brass_tunnel",
+    "description": [
+      "<h2>Use with filter to create separate belt lines of items from a single line</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_tunnel"
+    },
+    "subtitle": {
+      "text": "Use with filter to create separate belt lines of items from a single line"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Latch Action"
+  ],
+  "tasks": {
+    "0F7B5D23E83C4C8C": {
+      "type": "heracles:item",
+      "item": "create:analog_lever"
+    }
+  },
+  "rewards": {
+    "58831C4873F7A42E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 2,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:analog_lever",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:analog_lever"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -128,
+          -48
+        ]
+      }
+    }
+  }
+}

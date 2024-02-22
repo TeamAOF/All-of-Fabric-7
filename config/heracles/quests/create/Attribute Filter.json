@@ -1,0 +1,98 @@
+{
+  "dependencies": [
+    "Chute",
+    "Andesite Funnel",
+    "Andesite Tunnel"
+  ],
+  "tasks": {
+    "298A23CB6BCE3275": {
+      "type": "heracles:item",
+      "item": "create:attribute_filter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "100B2DCB7CD6C455": {
+      "type": "heracles:item",
+      "item": "create:filter",
+      "nbt": {
+        "Items": {}
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6B196118BBDDB8FA": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Wheat Seeds away"
+    },
+    "description": [
+      "<h2>Wheat Seeds away</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:attribute_filter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

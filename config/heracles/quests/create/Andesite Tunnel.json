@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Belt Connector"
+  ],
+  "tasks": {
+    "17234DF9E970CD30": {
+      "type": "heracles:item",
+      "item": "create:andesite_tunnel"
+    }
+  },
+  "rewards": {
+    "6EB034A0C261A612": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:andesite_tunnel",
+    "description": [
+      "<h2>Make belts look pretty</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:andesite_tunnel"
+    },
+    "subtitle": {
+      "text": "Make belts look pretty"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          160
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "dependencies": [
+    "Water Wheel"
+  ],
+  "tasks": {
+    "75956303577A74BE": {
+      "type": "heracles:item",
+      "item": "create:windmill_bearing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6092717A9755F2BD": {
+      "type": "heracles:item",
+      "item": "create:white_sail",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0C74BCF4A647DC59": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:white_sail",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "49E1B8D1EC858D0D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "In case of nether, break water wheel"
+    },
+    "description": [
+      "<h2>In case of nether, break water wheel</h2>",
+      "---",
+      "> While the water wheel is useful, you need water(duh) to move it. What if you're in the nether? Use Lava? Actualy I haven't checked that- What do you mean Magma Wheel advancement?",
+      "> Ehem, what I mean is that you can use windmills instead! ",
+      "> Windmill's rotational force increases the more sails you attach, but you must start with 8.",
+      "> Yes, you can attach 8 sails to just one side. But that looks ugly.",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:white_sail",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Windmills"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

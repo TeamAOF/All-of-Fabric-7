@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Cogwheel"
+  ],
+  "tasks": {
+    "5D72C3AFC662F113": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "create:water_wheel"
+    }
+  },
+  "rewards": {
+    "595524E0057DF146": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:water_bucket"
+      }
+    },
+    "02E5826376F7D45B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Water Wheels",
+    "description": [
+      "<h2>No more hand cranking</h2>",
+      "---",
+      "> Tired of spinning the hand crank? Then craft yourself a water wheel!",
+      "> Make sure that it's spinning the right way for maximum rotational force value.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:water_wheel"
+    },
+    "subtitle": {
+      "text": "No more hand cranking"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          -48
+        ]
+      }
+    }
+  }
+}

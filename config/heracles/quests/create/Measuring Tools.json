@@ -1,0 +1,110 @@
+{
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "2B91B823C4B0491B": {
+      "type": "heracles:item",
+      "item": "create:stressometer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6274F7DCF4A79756": {
+      "type": "heracles:item",
+      "item": "create:speedometer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3C92A0C3F95854DC": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:builders_tea",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "63AD7FD405944249": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 2,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "How Fast? How Stressed?"
+    },
+    "description": [
+      "<h2>How Fast? How Stressed?</h2>",
+      "---",
+      "> These two are interchangable once you craft the other. That's a good way to cheat this quest actually. Why did I tell you that?",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:stressometer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Measuring Tools"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

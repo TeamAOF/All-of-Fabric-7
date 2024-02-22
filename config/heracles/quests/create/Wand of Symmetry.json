@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mechanical Crafters"
+  ],
+  "tasks": {
+    "4CF962AB7943C158": {
+      "type": "heracles:item",
+      "item": "create:wand_of_symmetry"
+    }
+  },
+  "rewards": {
+    "439BBCD76A257219": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:wand_of_symmetry",
+    "description": [
+      "<h2>A builder's favorite</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:wand_of_symmetry"
+    },
+    "subtitle": {
+      "text": "A builder's favorite"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          384,
+          128
+        ]
+      }
+    }
+  }
+}
