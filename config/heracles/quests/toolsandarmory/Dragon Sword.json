@@ -28,11 +28,7 @@
     "title": "§5Dragon's Sword",
     "description": [
       "<h2>Harness the true strength of a dragon.</h2>",
-      "<hr/>",
-      "<task task=\"79B14536D0076591\" quest=\"Dragon Sword\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1ADD5FEFADEDEA80\" quest=\"Dragon Sword\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

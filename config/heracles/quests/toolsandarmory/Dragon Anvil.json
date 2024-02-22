@@ -34,13 +34,9 @@
     "title": "Acquire: dragonloot:dragon_anvil",
     "description": [
       "<h2>Everlasting Longevity!</h2>",
-      "<hr/>",
-      "<task task=\"4B884C1DFE863714\" quest=\"Dragon Anvil\"/>",
-      "<hr/>",
+      "---",
       "The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience.",
-      "<hr/>",
-      "<reward reward=\"790DDF0E2E764859\" quest=\"Dragon Anvil\"/>",
-      "<reward reward=\"580BF7D56A027A23\" quest=\"Dragon Anvil\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

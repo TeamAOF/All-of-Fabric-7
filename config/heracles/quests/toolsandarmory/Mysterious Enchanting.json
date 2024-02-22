@@ -10,8 +10,7 @@
   "display": {
     "title": "Mysterious Enchanting",
     "description": [
-      "<task task=\"00364115C1D01F31\" quest=\"Mysterious Enchanting\"/>",
-      "<hr/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

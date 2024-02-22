@@ -35,17 +35,13 @@
   "display": {
     "title": "Basic Tools",
     "description": [
-      "<task task=\"54835ABF40DD9BCE\" quest=\"Basic Tools\"/>",
-      "<task task=\"67349C80C2672091\" quest=\"Basic Tools\"/>",
-      "<task task=\"7DEF9B9A6932266D\" quest=\"Basic Tools\"/>",
-      "<hr/>",
+      "---",
       "Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block.",
-      "<br/>",
+      "",
       "Chainsaw could be used as a replacement for Iron Axe. It will cost 50 Energy to break one block.",
-      "<br/>",
+      "",
       "Rock Cutter is a Diamond like tool with Silk Touch enchantment. It has 10k Energy storage. It uses Energy instead of durability to break a block. It will cost 10 Energy to break one block.",
-      "<hr/>",
-      "<reward reward=\"31C7CBA37B9D3432\" quest=\"Basic Tools\"/>"
+      "---"
     ],
     "groups": {
       "Tools and Armory": {

@@ -66,14 +66,11 @@
     "title": "Paxels",
     "description": [
       "<h2>All in One!</h2>",
-      "<hr/>",
-      "<task task=\"6DACDA252E01FFFE\" quest=\"Paxels\"/>",
-      "<hr/>",
+      "---",
       "These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits.",
-      "<br/>",
+      "",
       "They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments.",
-      "<hr/>",
-      "<reward reward=\"176E6C862D9E4379\" quest=\"Paxels\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

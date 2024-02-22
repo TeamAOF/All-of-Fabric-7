@@ -28,12 +28,9 @@
     "title": "Acquire: techreborn:omni_tool",
     "description": [
       "<h2>Universal tool that combines Pickaxe, Axe, Shovel, Shear and even Swords in one simple rod.</h2>",
-      "<hr/>",
-      "<task task=\"3188B4D5D16B9220\" quest=\"Omni Tool\"/>",
-      "<hr/>",
+      "---",
       "Its mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit.",
-      "<hr/>",
-      "<reward reward=\"2739B93C7FCDA002\" quest=\"Omni Tool\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

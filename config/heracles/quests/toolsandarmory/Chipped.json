@@ -66,19 +66,7 @@
     "title": "Chipped",
     "description": [
       "<h2>Dictionary of Blocks!</h2>",
-      "<hr/>",
-      "<task task=\"4C5194D4711FB366\" quest=\"Chipped\"/>",
-      "<task task=\"7A50F12A3184DC0C\" quest=\"Chipped\"/>",
-      "<task task=\"65658F8D7D833492\" quest=\"Chipped\"/>",
-      "<task task=\"6A906A81EDACB027\" quest=\"Chipped\"/>",
-      "<task task=\"16DF97732538F4F7\" quest=\"Chipped\"/>",
-      "<task task=\"47030C28F6FE2AFC\" quest=\"Chipped\"/>",
-      "<task task=\"5068B74B183F6031\" quest=\"Chipped\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"62C9EB7CD0E9793D\" quest=\"Chipped\"/>",
-      "<reward reward=\"762E2B8CDC0E0967\" quest=\"Chipped\"/>",
-      "<reward reward=\"1AA08DD43F50EB66\" quest=\"Chipped\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Dictionary of Blocks!"

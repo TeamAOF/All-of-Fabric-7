@@ -28,11 +28,7 @@
     "title": "Acquire: minecells:cursed_sword",
     "description": [
       "<h2>The curse be upon you!</h2>",
-      "<hr/>",
-      "<task task=\"6D4FBC238D9972F4\" quest=\"Cursed Sword\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"752C833AF3F183F0\" quest=\"Cursed Sword\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

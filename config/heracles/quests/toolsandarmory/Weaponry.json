@@ -10,8 +10,7 @@
   "display": {
     "title": "Weaponry",
     "description": [
-      "<task task=\"3D7700A29760BE66\" quest=\"Weaponry\"/>",
-      "<hr/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

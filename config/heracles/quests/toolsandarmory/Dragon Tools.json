@@ -40,15 +40,9 @@
     "title": "§5Dragon's Tools",
     "description": [
       "<h2>Harness the true strength of a dragon.</h2>",
-      "<hr/>",
-      "<task task=\"48BEF1026E46FEFC\" quest=\"Dragon Tools\"/>",
-      "<task task=\"1C23570FAFDAC0DD\" quest=\"Dragon Tools\"/>",
-      "<task task=\"699EEDB4F5A5483A\" quest=\"Dragon Tools\"/>",
-      "<task task=\"6E11908E8414D5C5\" quest=\"Dragon Tools\"/>",
-      "<hr/>",
+      "---",
       "Scales are dropped by killing the Ender Dragon.",
-      "<hr/>",
-      "<reward reward=\"7DF089A2D0779224\" quest=\"Dragon Tools\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Harness the true strength of a dragon."

@@ -39,13 +39,7 @@
   "display": {
     "title": "§bQuantum Armory",
     "description": [
-      "<task task=\"6D0C751FE61EBB13\" quest=\"Quantum Armor\"/>",
-      "<task task=\"5FF7FA5541A4D3DB\" quest=\"Quantum Armor\"/>",
-      "<task task=\"2A3C59AD2A03D23F\" quest=\"Quantum Armor\"/>",
-      "<task task=\"023266797B14E0A6\" quest=\"Quantum Armor\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1D9E0D416C3BF409\" quest=\"Quantum Armor\"/>"
+      "---"
     ],
     "groups": {
       "Tools and Armory": {

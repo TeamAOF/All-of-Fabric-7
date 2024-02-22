@@ -28,11 +28,7 @@
     "title": "§cAdvanced Netherite",
     "description": [
       "<h2>Every Netherite tier has its own unique properties.</h2>",
-      "<hr/>",
-      "<task task=\"795D749CAC452D48\" quest=\"Advanced Netherite Armor\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"52ED16348FDFD65A\" quest=\"Advanced Netherite Armor\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Every Netherite tier has its own unique properties."

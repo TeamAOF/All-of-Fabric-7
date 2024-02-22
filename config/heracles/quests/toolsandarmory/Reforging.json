@@ -22,20 +22,17 @@
     "title": "Reforging",
     "description": [
       "<h2>Reforge your gear at the anvil for a better item tier.</h2>",
-      "<hr/>",
-      "<task task=\"7143EC1A4778DA85\" quest=\"Reforging\"/>",
-      "<hr/>",
+      "---",
       "Reforging increases the luck for getting better item tiers.",
-      "<br/>",
+      "",
       "&&bLeft Slot: &&rTiering Item Material (if non exist, default flint.",
-      "<br/>",
+      "",
       "&&bMiddle Slot: &&rTiering Item",
-      "<br/>",
+      "",
       "&&bRight Slot: &&rAmethyst Shard",
-      "<br/>",
+      "",
       "Has to be &&6fully repaired &&rbefore able to be reforged,",
-      "<hr/>",
-      "<reward reward=\"6F9D821FB246D2C2\" quest=\"Reforging\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

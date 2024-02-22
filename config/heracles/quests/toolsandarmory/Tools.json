@@ -10,8 +10,7 @@
   "display": {
     "title": "Tools",
     "description": [
-      "<task task=\"56BB7CEC9FE309C4\" quest=\"Tools\"/>",
-      "<hr/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

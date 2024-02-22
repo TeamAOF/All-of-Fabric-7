@@ -40,17 +40,11 @@
     "title": "Modular Armory",
     "description": [
       "<h2>Smash modules on it!</h2>",
-      "<hr/>",
-      "<task task=\"5E654EBB4577464B\" quest=\"Modular Armor\"/>",
-      "<task task=\"3EC5A10FAA01134D\" quest=\"Modular Armor\"/>",
-      "<task task=\"163EF88F92507BF1\" quest=\"Modular Armor\"/>",
-      "<task task=\"0A1F047C42BCE9CC\" quest=\"Modular Armor\"/>",
-      "<hr/>",
+      "---",
       "The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!",
-      "<br/>",
+      "",
       "Notice that installing modules cost time and some energy!",
-      "<hr/>",
-      "<reward reward=\"4FACAFE5C8B57182\" quest=\"Modular Armor\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Smash modules on it!"

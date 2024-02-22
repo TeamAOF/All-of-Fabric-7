@@ -31,18 +31,15 @@
     "title": "Acquire: techreborn:nanosaber",
     "description": [
       "<h2>An advanced weapon that can be used against hostile mobs, or players.</h2>",
-      "<hr/>",
-      "<task task=\"27F4E72D06FE60DD\" quest=\"Nanosaber\"/>",
-      "<hr/>",
+      "---",
       "The Saber requires power to work, every hit done to an entity will cost 150 Energy.",
-      "<br/>",
+      "",
       "The nano saber requires being active to work.",
-      "<br/>",
+      "",
       "To toggle the active state the user must shift-right click.",
-      "<br/>",
+      "",
       "A chat message will appear saying the new mod that the weapon is in.",
-      "<hr/>",
-      "<reward reward=\"4F2CC6312CAD19A0\" quest=\"Nanosaber\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -34,11 +34,7 @@
   "display": {
     "title": "§aTools of Terra",
     "description": [
-      "<task task=\"0EBC1A262BACB90E\" quest=\"Terra Tools\"/>",
-      "<task task=\"1B21CF9911521FE4\" quest=\"Terra Tools\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1F58E0896CECAB48\" quest=\"Terra Tools\"/>"
+      "---"
     ],
     "groups": {
       "Tools and Armory": {

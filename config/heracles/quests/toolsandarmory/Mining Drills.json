@@ -52,14 +52,7 @@
   "display": {
     "title": "Mining Drills",
     "description": [
-      "<task task=\"6CE5BD1D97182281\" quest=\"Mining Drills\"/>",
-      "<task task=\"7BC7C58E0BEBA275\" quest=\"Mining Drills\"/>",
-      "<task task=\"46BA0A38C7280FAF\" quest=\"Mining Drills\"/>",
-      "<task task=\"5496BFC1BB3C532B\" quest=\"Mining Drills\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"700C7F9977380FB8\" quest=\"Mining Drills\"/>",
-      "<reward reward=\"0DAEA51F73BEDA12\" quest=\"Mining Drills\"/>"
+      "---"
     ],
     "groups": {
       "Tools and Armory": {
