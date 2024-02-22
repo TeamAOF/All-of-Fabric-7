@@ -29,7 +29,6 @@
     "description": [
       "<h2>Pulls nearby dropped items and experience orbs to their own inventory.</h2>",
       "---",
-      "---",
       "Stored items can be accessed by opening the block's GUI or by using regular Hoppers.",
       "",
       "Stored XP can be used to craft Bottle o' Enchanting or Liquid XP buckets.",

@@ -28,7 +28,6 @@
     "title": "Acquire: kibe:white_elevator",
     "description": [
       "<h2>When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it.</h2>",
-      "---",
       "---"
     ],
     "icon": {

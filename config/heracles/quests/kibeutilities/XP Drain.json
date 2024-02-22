@@ -28,7 +28,6 @@
     "title": "XP Drain",
     "description": [
       "<h2>Will drain XP from a player and store it in a fluid container placed directly below it.</h2>",
-      "---",
       "---"
     ],
     "icon": {
