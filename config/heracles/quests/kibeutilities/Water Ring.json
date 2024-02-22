@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:water_ring",
     "description": [
       "<h2>Gives an infinite Water Breathing status to the wearer.</h2>",
-      "<hr/>",
-      "<task task=\"37C52C86B6E0FA4A\" quest=\"Water Ring\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5B04800D4102A875\" quest=\"Water Ring\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:heater",
     "description": [
-      "<task task=\"792CDF0A914EFC9C\" quest=\"Kibe Heater\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5C0521FD0BFF9DA2\" quest=\"Kibe Heater\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

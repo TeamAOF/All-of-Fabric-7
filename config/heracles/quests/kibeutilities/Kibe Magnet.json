@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:magnet",
     "description": [
       "<h2>It does what a magnet does, magnetize items towards you.</h2>",
-      "<hr/>",
-      "<task task=\"7AD6BA51329E082C\" quest=\"Kibe Magnet\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"14DC0B476AF0FE4B\" quest=\"Kibe Magnet\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

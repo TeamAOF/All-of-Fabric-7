@@ -56,15 +56,8 @@
     "title": "Acquire: kibe:entangled_tank",
     "description": [
       "<h2>Exactly like Entangled Chests but they store fluids instead.</h2>",
-      "<hr/>",
-      "<task task=\"78A859B3D0017802\" quest=\"Entangled Tank\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6FD99B307FD8C5CD\" quest=\"Entangled Tank\"/>",
-      "<reward reward=\"38239E46A12D5C17\" quest=\"Entangled Tank\"/>",
-      "<reward reward=\"64ACCACC38BBC3DB\" quest=\"Entangled Tank\"/>",
-      "<reward reward=\"09D0F08E633B07DC\" quest=\"Entangled Tank\"/>",
-      "<reward reward=\"2E5EE7D13FBEA860\" quest=\"Entangled Tank\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

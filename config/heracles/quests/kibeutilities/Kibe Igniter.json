@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:igniter",
     "description": [
-      "<task task=\"3C9068E99A18D305\" quest=\"Kibe Igniter\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3DD090A7DBB25E48\" quest=\"Kibe Igniter\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

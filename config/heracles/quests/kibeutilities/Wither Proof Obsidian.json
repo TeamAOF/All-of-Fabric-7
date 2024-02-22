@@ -28,11 +28,8 @@
     "title": "Acquire: indrev:wither_proof_obsidian",
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
-      "<hr/>",
-      "<task task=\"0DBD9671347434C7\" quest=\"Wither Proof Obsidian\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"51CECB1E21D8B3CE\" quest=\"Wither Proof Obsidian\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

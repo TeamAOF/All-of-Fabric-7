@@ -16,11 +16,9 @@
   "display": {
     "title": "Wither Machine",
     "description": [
-      "<task task=\"24A1862F0308DA6E\" quest=\"Wither Machine\"/>",
-      "<hr/>",
+      "---",
       "Use the following to create an automatic wither machine.",
-      "<hr/>",
-      "<reward reward=\"7716261A55143011\" quest=\"Wither Machine\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

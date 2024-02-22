@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:wither_proof_sand",
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
-      "<hr/>",
-      "<task task=\"60F565C1307D35D8\" quest=\"Wither Proof Sand\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1EAEA314811711B8\" quest=\"Wither Proof Sand\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

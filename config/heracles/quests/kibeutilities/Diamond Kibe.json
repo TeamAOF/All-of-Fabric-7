@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:diamond_kibe",
     "description": [
       "<h2>Only the best for you</h2>",
-      "<hr/>",
-      "<task task=\"166D7DD64BEA9D21\" quest=\"Diamond Kibe\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"370C21D52C40A260\" quest=\"Diamond Kibe\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

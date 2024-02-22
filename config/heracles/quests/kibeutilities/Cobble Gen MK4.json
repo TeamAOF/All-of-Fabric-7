@@ -27,11 +27,9 @@
   "display": {
     "title": "Acquire: kibe:cobblestone_generator_mk4",
     "description": [
-      "<task task=\"3A90C7EF9408C4F4\" quest=\"Cobble Gen MK4\"/>",
-      "<hr/>",
+      "---",
       "Go do some farming now.",
-      "<hr/>",
-      "<reward reward=\"717E5131D48B23A0\" quest=\"Cobble Gen MK4\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

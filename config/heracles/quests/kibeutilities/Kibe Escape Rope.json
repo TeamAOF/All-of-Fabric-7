@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:escape_rope",
     "description": [
-      "<task task=\"75C42B370A6BECF0\" quest=\"Kibe Escape Rope\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"6B97B8FC0E9B6506\" quest=\"Kibe Escape Rope\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

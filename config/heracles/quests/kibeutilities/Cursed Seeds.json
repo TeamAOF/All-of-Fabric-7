@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:cursed_seeds",
     "description": [
       "<h2>Using Cursed Seeds on regular grass or dirt block will create Cursed Dirt, and can only spread 16 blocks from the center.</h2>",
-      "<hr/>",
-      "<task task=\"157E7A93B794012C\" quest=\"Cursed Seeds\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"717F0EC42A91A457\" quest=\"Cursed Seeds\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

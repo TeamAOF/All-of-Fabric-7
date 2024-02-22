@@ -32,11 +32,8 @@
     "title": "Kibe Utilities!",
     "description": [
       "<h2>Bunch of random, and mostly unoriginal things but aswell useful utilities!</h2>",
-      "<hr/>",
-      "<task task=\"3931534EE6E5F653\" quest=\"Kibe Utilities\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1559FE2580894087\" quest=\"Kibe Utilities\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

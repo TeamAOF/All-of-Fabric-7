@@ -16,10 +16,7 @@
   "display": {
     "title": "Kibe and Rings",
     "description": [
-      "<task task=\"714E9C63DE4504CF\" quest=\"Kibe and Rings\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5FEA7261502B2EA7\" quest=\"Kibe and Rings\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

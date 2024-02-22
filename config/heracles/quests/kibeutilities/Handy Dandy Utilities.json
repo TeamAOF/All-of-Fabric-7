@@ -18,10 +18,7 @@
   "display": {
     "title": "Handy Dandy Utilities",
     "description": [
-      "<task task=\"4B6651B07849440F\" quest=\"Handy Dandy Utilities\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"7C2E9EEEB3C4B7B4\" quest=\"Handy Dandy Utilities\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

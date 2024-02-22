@@ -11,9 +11,8 @@
     "title": "Entangle your mind.",
     "description": [
       "<h2>Using kibe runes, you can code your linked chests and have as many different ones that your heart desires.</h2>",
-      "<hr/>",
-      "<task task=\"7C9B04C717763B2B\" quest=\"Entangle Your Mind\"/>",
-      "<hr/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:torch_sling",
     "description": [
       "<h2>It slings torches, pretty obvious.</h2>",
-      "<hr/>",
-      "<task task=\"61A61B471BE66608\" quest=\"Torch Sling\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"69370DD46E32A0D6\" quest=\"Torch Sling\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

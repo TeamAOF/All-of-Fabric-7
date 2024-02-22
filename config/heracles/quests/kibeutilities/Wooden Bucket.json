@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:wooden_bucket",
     "description": [
-      "<task task=\"1ED3DDCCED07436B\" quest=\"Wooden Bucket\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1B497B28D4E228B4\" quest=\"Wooden Bucket\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

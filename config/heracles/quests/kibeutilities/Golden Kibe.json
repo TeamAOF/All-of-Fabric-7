@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:golden_kibe",
     "description": [
       "<h2>Perhaps some of the greatest food ever.</h2>",
-      "<hr/>",
-      "<task task=\"550AD130B1B271BD\" quest=\"Golden Kibe\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"4E52FBA48BE29D3D\" quest=\"Golden Kibe\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

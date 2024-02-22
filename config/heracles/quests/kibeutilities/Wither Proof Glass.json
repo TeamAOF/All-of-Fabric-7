@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:wither_proof_glass",
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
-      "<hr/>",
-      "<task task=\"6246ADA7C69387FD\" quest=\"Wither Proof Glass\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2A0C62AD9924EB2C\" quest=\"Wither Proof Glass\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

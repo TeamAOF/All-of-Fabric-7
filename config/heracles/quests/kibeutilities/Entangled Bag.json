@@ -56,15 +56,8 @@
     "title": "Acquire: kibe:entangled_bag",
     "description": [
       "<h2>Access the contents of your Entangled Chest directly in your inventory.</h2>",
-      "<hr/>",
-      "<task task=\"37E61672584DFB3B\" quest=\"Entangled Bag\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5745345A15F02D93\" quest=\"Entangled Bag\"/>",
-      "<reward reward=\"612716ED8EF91E40\" quest=\"Entangled Bag\"/>",
-      "<reward reward=\"2F6D7323F1FF8D25\" quest=\"Entangled Bag\"/>",
-      "<reward reward=\"6AFDC6FC8292E7B5\" quest=\"Entangled Bag\"/>",
-      "<reward reward=\"4C1FF0BDAC5EDA20\" quest=\"Entangled Bag\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

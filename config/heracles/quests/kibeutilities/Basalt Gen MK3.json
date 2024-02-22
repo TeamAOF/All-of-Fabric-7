@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:basalt_generator_mk3",
     "description": [
-      "<task task=\"58ED61DA1C7E66B8\" quest=\"Basalt Gen MK3\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"2769B5F89F4CAA17\" quest=\"Basalt Gen MK3\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

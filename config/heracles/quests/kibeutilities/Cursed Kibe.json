@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:cursed_kibe",
     "description": [
       "<h2>Heals a lot. Small chance of instant death.</h2>",
-      "<hr/>",
-      "<task task=\"74B922352AFCC2C1\" quest=\"Cursed Kibe\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"524607F70B10A633\" quest=\"Cursed Kibe\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

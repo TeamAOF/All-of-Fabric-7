@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:stone_spikes",
     "description": [
-      "<task task=\"38230005D69B4184\" quest=\"Stone Spikes\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1B38C5C031F63DEF\" quest=\"Stone Spikes\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:gold_spikes",
     "description": [
-      "<task task=\"2B470452DA5633D2\" quest=\"Gold Spikes\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"11495BDE70A0597A\" quest=\"Gold Spikes\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

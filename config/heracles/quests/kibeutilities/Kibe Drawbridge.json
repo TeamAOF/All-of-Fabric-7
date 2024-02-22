@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:drawbridge",
     "description": [
-      "<task task=\"6B26491A205CD947\" quest=\"Kibe Drawbridge\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1645BBC02885470C\" quest=\"Kibe Drawbridge\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

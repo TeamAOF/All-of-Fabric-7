@@ -28,11 +28,8 @@
     "title": "XP Shower",
     "description": [
       "<h2>Transforms the liquid XP from tanks behind it into experience orbs that players can absorb.</h2>",
-      "<hr/>",
-      "<task task=\"3207E34716A01F5A\" quest=\"XP Shower\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"29FE8DFF77EB95FE\" quest=\"XP Shower\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

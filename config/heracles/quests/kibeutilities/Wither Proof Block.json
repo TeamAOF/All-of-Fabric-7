@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:wither_proof_block",
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
-      "<hr/>",
-      "<task task=\"5F64773A4D914C46\" quest=\"Wither Proof Block\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0FA2F773EB28398D\" quest=\"Wither Proof Block\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:cobblestone_generator_mk2",
     "description": [
-      "<task task=\"37A5A44C9F193EC8\" quest=\"Cobble Gen MK2\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"22FC9E95EE1B6832\" quest=\"Cobble Gen MK2\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

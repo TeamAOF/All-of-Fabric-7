@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:diamond_lasso",
     "description": [
       "<h2>Can hold almost any entity without debuffs.</h2>",
-      "<hr/>",
-      "<task task=\"4F0EC7C4BA0E965A\" quest=\"Diamond Lasso\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"066AE3CFC0607FCD\" quest=\"Diamond Lasso\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

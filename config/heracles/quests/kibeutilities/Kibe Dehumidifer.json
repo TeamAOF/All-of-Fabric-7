@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:dehumidifier",
     "description": [
-      "<task task=\"255905463378A934\" quest=\"Kibe Dehumidifer\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"20904478F7CE8181\" quest=\"Kibe Dehumidifer\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

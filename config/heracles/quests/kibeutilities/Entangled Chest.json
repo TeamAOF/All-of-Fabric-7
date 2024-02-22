@@ -56,15 +56,8 @@
     "title": "Acquire: kibe:entangled_chest",
     "description": [
       "<h2>Universally linked chests that work across dimensions and stores the same items as long as they are color-coded the same.</h2>",
-      "<hr/>",
-      "<task task=\"0ED500FB5F9B7C7F\" quest=\"Entangled Chest\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0C67585728F46B4B\" quest=\"Entangled Chest\"/>",
-      "<reward reward=\"1B59311DCCBA2336\" quest=\"Entangled Chest\"/>",
-      "<reward reward=\"750BE3B34F5D59C3\" quest=\"Entangled Chest\"/>",
-      "<reward reward=\"79B2959D4520A57F\" quest=\"Entangled Chest\"/>",
-      "<reward reward=\"60175DBDA9280C75\" quest=\"Entangled Chest\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:diamond_spikes",
     "description": [
-      "<task task=\"66567097A995AF54\" quest=\"Diamond Spikes\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"39CDC7F35866775E\" quest=\"Diamond Spikes\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

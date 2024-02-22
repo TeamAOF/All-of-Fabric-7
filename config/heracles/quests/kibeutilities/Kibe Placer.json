@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:placer",
     "description": [
       "<h2>Activated by a redstone signal, will place any block in its inventory in front of it, if possible.</h2>",
-      "<hr/>",
-      "<task task=\"0FC05324880FB6B9\" quest=\"Kibe Placer\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"57512F4610E4EF68\" quest=\"Kibe Placer\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

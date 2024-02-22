@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:slime_sling",
     "description": [
       "<h2>Usable item that throws the player in the sky when charged while aiming at a block.</h2>",
-      "<hr/>",
-      "<task task=\"50862BAF848E8B2B\" quest=\"Kibe Slime Sling\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"303FED1AD57E48DB\" quest=\"Kibe Slime Sling\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

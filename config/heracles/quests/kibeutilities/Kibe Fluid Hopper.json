@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:fluid_hopper",
     "description": [
       "<h2>Exactly like vanilla Hoppers but that moves fluids instead of items.</h2>",
-      "<hr/>",
-      "<task task=\"17E02EA331F7D7A6\" quest=\"Kibe Fluid Hopper\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"692A6F3191014FCA\" quest=\"Kibe Fluid Hopper\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

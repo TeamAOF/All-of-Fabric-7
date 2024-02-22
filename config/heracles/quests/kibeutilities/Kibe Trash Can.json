@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:trash_can",
     "description": [
       "<h2>It's a trashcan, nothing more to it.</h2>",
-      "<hr/>",
-      "<task task=\"2CA4CC93439BB357\" quest=\"Kibe Trash Can\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"78956F02DDCE9596\" quest=\"Kibe Trash Can\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

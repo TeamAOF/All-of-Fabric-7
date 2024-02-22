@@ -28,11 +28,8 @@
     "title": "Acquire: kibe:big_torch",
     "description": [
       "<h2>Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons.</h2>",
-      "<hr/>",
-      "<task task=\"679DE0A266DE5437\" quest=\"Kibe Big Torch\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"07B4594626EC18D8\" quest=\"Kibe Big Torch\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

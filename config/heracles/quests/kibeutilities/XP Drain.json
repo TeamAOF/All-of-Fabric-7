@@ -28,11 +28,8 @@
     "title": "XP Drain",
     "description": [
       "<h2>Will drain XP from a player and store it in a fluid container placed directly below it.</h2>",
-      "<hr/>",
-      "<task task=\"68B7BE2C6D332A76\" quest=\"XP Drain\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"51004883A842DEE3\" quest=\"XP Drain\"/>"
+      "---",
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

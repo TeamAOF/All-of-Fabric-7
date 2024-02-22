@@ -27,10 +27,7 @@
   "display": {
     "title": "Acquire: kibe:redstone_timer",
     "description": [
-      "<task task=\"02D63A4D997340CA\" quest=\"Kibe Redstone Timer\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"677E1FCAF32A9F80\" quest=\"Kibe Redstone Timer\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
