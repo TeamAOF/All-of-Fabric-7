@@ -35,12 +35,7 @@
     "title": "§4Find a Graveyard",
     "description": [
       "<h2>Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot.</h2>",
-      "<hr/>",
-      "<task task=\"63A78B39851541A7\" quest=\"Find a Graveyard\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0D54DD2EDD2B15AD\" quest=\"Find a Graveyard\"/>",
-      "<reward reward=\"36352D142DEEC48C\" quest=\"Find a Graveyard\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

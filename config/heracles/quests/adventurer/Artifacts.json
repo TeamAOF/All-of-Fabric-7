@@ -28,16 +28,13 @@
     "title": "§6Artifacts",
     "description": [
       "<h2>Magical items with great power.</h2>",
-      "<hr/>",
-      "<task task=\"51B9513FF8AB7491\" quest=\"Artifacts\"/>",
-      "<hr/>",
+      "---",
       "The &&bitems &&radded by this &&6mod &&rcan be found in &&bChests&&r.",
-      "<br/>",
+      "",
       "All &&bArtifacts &&ronly have a few &&bChests &&rin which they can be found, so go out and explore!",
-      "<br/>",
+      "",
       "Additionally, a new &&bUnderground Campsite &&rstructure has been added. &&bMimics &&roccasionally &&6spawn in these &&bCampsites &&rinstead of a &&bChests&&r, which are dangerous &&benemies &&rthat &&6attack &&rplayers that get too close. &&bMimics &&ralways drop a random artifact when killed.",
-      "<hr/>",
-      "<reward reward=\"363F3BB07909619A\" quest=\"Artifacts\"/>"
+      "---"
     ],
     "subtitle": {
       "text": "Magical items with great power."

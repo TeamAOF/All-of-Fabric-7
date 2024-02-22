@@ -35,12 +35,9 @@
     "title": "§3Waystones",
     "description": [
       "<h2>Discover your first Waystone, can be found in villages.</h2>",
-      "<hr/>",
-      "<task task=\"2E15906644124214\" quest=\"Waystones\"/>",
-      "<hr/>",
+      "---",
       "&&6You can break &&rthe &&bWaystones &&rand use them for creative ways of teleportation.",
-      "<hr/>",
-      "<reward reward=\"6137857F9A944F31\" quest=\"Waystones\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

@@ -10,9 +10,7 @@
     "title": "Adventures and Mysteries",
     "description": [
       "<h2>If we were meant to stay in one place, we’d have roots instead of feet.</h2>",
-      "<hr/>",
-      "<task task=\"40FC0E99020D1BB4\" quest=\"Adventures and Mysteries\"/>",
-      "<hr/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

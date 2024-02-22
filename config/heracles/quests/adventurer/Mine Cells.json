@@ -33,18 +33,15 @@
     "title": "§6Mine Cells",
     "description": [
       "<h2>Dive into the story of Dead Cells!</h2>",
-      "<hr/>",
-      "<task task=\"09B4372F749D9625\" quest=\"Mine Cells\"/>",
-      "<hr/>",
+      "---",
       "To start your adventure &&rwith &&bMine Cells&&r, &&6find a portal structure&&r. The &&bportal&&r will &&6activate&&r for you automatically if you've already acquired diamonds in the world.",
-      "<br/>",
+      "",
       "&&bMine Cells &&rfeatures new &&bMonsters &&rwhich attempt to faithfully recreate the look and feel of the original game.",
-      "<br/>",
+      "",
       "&&bMine Cells &&6introduces one new boss&&r - &&bThe Conjunctivius&&r.",
-      "<br/>",
+      "",
       "You can find her lair in the &&bPrison structure &&r/ &&bdimension&&r.",
-      "<hr/>",
-      "<reward reward=\"75521584B37DD8A1\" quest=\"Mine Cells\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",

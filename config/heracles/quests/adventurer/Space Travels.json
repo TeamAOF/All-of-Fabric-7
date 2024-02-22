@@ -35,21 +35,17 @@
     "title": "§9Space Travels",
     "description": [
       "<h2>To the moon!</h2>",
-      "<hr/>",
-      "<task task=\"5E109F35ECDB37C6\" quest=\"Space Travels\"/>",
-      "<hr/>",
+      "---",
       "&&6Ad Astra &&ris a &&btechnology &&rand &&bspace exploration &&rmod.",
-      "<br/>",
+      "",
       "It allows you to build &&bRockets &&rcapable of &&bSpace Travel&&r. Yes, even mineable &&eCheese.",
-      "<br/>",
+      "",
       "&&6You can explore &&rmultiple planets throughout the &&bSolar System&&r, build &&boxygenated &&rspace stations and &&bbases &&rsurvivable in space.",
-      "<br/>",
+      "",
       "Had dreams about being an astronaut? This is it!",
-      "<br/>",
+      "",
       "&&6Complete this quest &&rby crafting the &&bAstrodux&&r.",
-      "<hr/>",
-      "<reward reward=\"583873BD842B01B4\" quest=\"Space Travels\"/>",
-      "<reward reward=\"465969990392BD70\" quest=\"Space Travels\"/>"
+      "---"
     ],
     "icon": {
       "type": "heracles:item",
