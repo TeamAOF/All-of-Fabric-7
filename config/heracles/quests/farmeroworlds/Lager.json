@@ -1,10 +1,14 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
   "tasks": {
     "Get Lager": {
       "type": "heracles:item",
       "item": "spectrum:infused_beverage",
-      "nbt": {"Variant":"lager"},
+      "nbt": {
+        "Variant": "lager"
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "Lager",

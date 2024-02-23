@@ -1,11 +1,15 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
   "tasks": {
     "Get Myceylon Apple Juice": {
       "type": "heracles:item",
       "item": "spectrum:infused_beverage",
-      "nbt": {"Variant":"myceylon_apple_juice"},
-      "amount": 1,
+      "nbt": {
+        "Variant": "myceylon_apple_juice"
+      },
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "Myceylon Apple Juice",
       "icon": {
@@ -17,12 +21,30 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "apple": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:honeyed_apple",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
@@ -33,8 +55,33 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "myceylon_apple_juice",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 22,
+              "Amplifier": 0
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646178,
+              "Amplifier": 0
+            }
+          ],
+          "AlcPercent": 0,
+          "Color": 12018987
+        }
       },
       "type": "heracles:item"
     },

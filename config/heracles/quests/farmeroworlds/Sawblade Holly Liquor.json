@@ -1,12 +1,16 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [

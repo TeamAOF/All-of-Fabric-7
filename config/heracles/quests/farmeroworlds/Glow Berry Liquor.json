@@ -1,11 +1,15 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
   "tasks": {
     "Get Glow Berry Liquor": {
       "type": "heracles:item",
       "item": "spectrum:infused_beverage",
-      "nbt": {"Variant":"glow_berry_liquor"},
-      "amount": 1,
+      "nbt": {
+        "Variant": "glow_berry_liquor"
+      },
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "Glow Berry Liquor",
       "icon": {
@@ -17,12 +21,45 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "glow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:yellow_glowblock",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "glowstone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "blockus:rainbow_glowstone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
@@ -33,8 +70,33 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "glow_berry_liquor",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646184,
+              "Amplifier": 1
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 4800,
+              "Id": 24,
+              "Amplifier": 0
+            }
+          ],
+          "AlcPercent": 22,
+          "Color": 16760721
+        }
       },
       "type": "heracles:item"
     },

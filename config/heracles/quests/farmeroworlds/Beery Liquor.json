@@ -1,12 +1,16 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
@@ -24,7 +28,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Beery Liquor"
+      "translate": "Berry Liquor"
     }
   },
   "settings": {

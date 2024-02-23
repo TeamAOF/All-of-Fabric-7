@@ -1,11 +1,15 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
   "tasks": {
     "Get Damassine": {
       "type": "heracles:item",
       "item": "spectrum:infused_beverage",
-      "nbt": {"Variant":"damassine"},
-      "amount": 1,
+      "nbt": {
+        "Variant": "damassine"
+      },
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "Damassine",
       "icon": {
@@ -17,12 +21,45 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "beet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:beetroot_salad",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "beet_soup": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "delightfulcreators:beetroot_soup_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
@@ -33,8 +70,33 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "damassine",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 600,
+              "Id": 10,
+              "Amplifier": 1
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646184,
+              "Amplifier": 0
+            }
+          ],
+          "AlcPercent": 42,
+          "Color": 7558132
+        }
       },
       "type": "heracles:item"
     },
