@@ -4,17 +4,107 @@
   ],
   "tasks": {
     "powah_ender_cell_task": {
-      "type": "heracles:item",
-      "item": "powah:ender_cell_starter",
+      "type": "heracles:composite",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "task_ender_cell_starter": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
-        "type": "heracles:item"
+        "task_ender_cell_basic": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_cell_hardened": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_cell_blazing": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_cell_niotic": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_cell_spirited": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_cell_nitro": {
+          "type": "heracles:item",
+          "item": "powah:ender_cell_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
       }
     }
   },

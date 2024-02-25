@@ -4,17 +4,107 @@
   ],
   "tasks": {
     "powah_energy_cable_task": {
-      "type": "heracles:item",
-      "item": "powah:energy_cable_starter",
-      "amount": 2,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "task_energy_cable_starter": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
-        "type": "heracles:item"
+        "task_energy_cable_basic": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_hardened": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_blazing": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_niotic": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_spirited": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_nitro": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
       }
     }
   },
