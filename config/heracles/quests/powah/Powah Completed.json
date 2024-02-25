@@ -1,5 +1,32 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Any Battery",
+    "Any Ender Cell",
+    "Any Ender Gate",
+    "Any Energizing Rod",
+    "Any Energy Cable",
+    "Any Energy Cell",
+    "Any Energy Discharger",
+    "Any Energy Hopper",
+    "Any Furnator",
+    "Any Magmator",
+    "Any Player Transmitter",
+    "Any Reactor",
+    "Any Solar Panel",
+    "Any Thermo Generator",
+    "Blazing Crystal",
+    "Capacitors",
+    "Dielectric Casing",
+    "Dielectric Paste",
+    "Dielectric Rod",
+    "Ender Core",
+    "Energized Steel",
+    "Energizing Orb",
+    "Niotic Crystal",
+    "Nitro Crystal",
+    "Sprited Crystal",
+    "Uraninite"
+  ],
   "tasks": {},
   "rewards": {
     "Powah Completed Reward": {
