@@ -3,7 +3,7 @@
     "Nitro Crystal"
   ],
   "tasks": {
-    "62B7B724197D88C5": {
+    "Powah Uraninite Task": {
       "type": "heracles:item",
       "item": "powah:uraninite",
       "amount": 1,
@@ -19,8 +19,8 @@
     }
   },
   "rewards": {
-    "1B27386FE4C091A0": {
-      "title": "",
+    "Powah Uraninite Reward": {
+      "title": "Powah! Rare Lootbag",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "powah:uraninite",
-        "count": 7,
+        "id": "lootbags:loot_bag",
+        "count": 1,
         "nbt": {
           "Type": "RARE",
           "Color": 14731911,

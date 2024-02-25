@@ -3,9 +3,9 @@
     "Niotic Crystal"
   ],
   "tasks": {
-    "151572FE22F1BD41": {
+    "Spirited Crystal Task": {
       "type": "heracles:item",
-      "item": "powah:crystal_spirited",
+      "item": "powah:spirited_crystal",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,8 +19,8 @@
     }
   },
   "rewards": {
-    "61F58E9782C28446": {
-      "title": "",
+    "Powah Spirited Crystal Reward": {
+      "title": "Powah! Epic Lootbag",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "powah:crystal_spirited",
-        "count": 5,
+        "id": "lootbags:loot_bag",
+        "count": 1,
         "nbt": {
           "Type": "EPIC",
           "Color": 14731911,
