@@ -3,18 +3,108 @@
     "(dis)charging"
   ],
   "tasks": {
-    "energy hopper task": {
-      "type": "heracles:item",
-      "item": "powah:energy_hopper_starter",
+    "powah_energy_hopper_task": {
+      "type": "heracles:composite",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "task_energy_hopper_starter": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
-        "type": "heracles:item"
+        "task_energy_hopper_basic": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_hardened": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_blazing": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_niotic": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_spirited": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_nitro": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
       }
     }
   },
