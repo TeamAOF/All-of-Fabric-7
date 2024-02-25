@@ -4,17 +4,107 @@
   ],
   "tasks": {
     "powah_thermo_generator_task": {
-      "type": "heracles:item",
-      "item": "powah:thermo_generator_starter",
+      "type": "heracles:composite",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "task_thermo_generator_starter": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
-        "type": "heracles:item"
+        "task_thermo_generator_basic": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_hardened": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_blazing": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_niotic": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_spirited": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_nitro": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
       }
     }
   },
