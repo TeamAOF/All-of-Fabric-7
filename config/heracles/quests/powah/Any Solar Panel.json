@@ -4,18 +4,108 @@
   ],
   "tasks": {
     "powah_solar_panel_task": {
-      "type": "heracles:item",
-      "item": "powah:solar_panel_starter",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "task_solar_panel_starter": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
-        "type": "heracles:item"
-      }
+        "task_solar_panel_basic": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_solar_panel_hardened": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_solar_panel_blazing": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_solar_panel_niotic": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_solar_panel_spirited": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_solar_panel_nitro": {
+          "type": "heracles:item",
+          "item": "powah:solar_panel_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {},
