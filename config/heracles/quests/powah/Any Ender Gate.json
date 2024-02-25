@@ -4,7 +4,6 @@
   ],
   "tasks": {
     "powah_ender_gate_task": {
-      "type": "heracles:composite",
       "amount": 1,
       "tasks": {
         "task_ender_gate_starter": {
@@ -105,7 +104,8 @@
             "type": "heracles:item"
           }
         }
-      }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {
@@ -165,6 +165,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }
