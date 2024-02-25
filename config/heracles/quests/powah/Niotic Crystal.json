@@ -3,7 +3,7 @@
     "Blazing Crystal"
   ],
   "tasks": {
-    "40F2DC6B69FD7D07": {
+    "Powah Niotic Crystal Task": {
       "type": "heracles:item",
       "item": "powah:crystal_niotic",
       "amount": 1,
@@ -19,8 +19,8 @@
     }
   },
   "rewards": {
-    "2F4802C8A8F47A08": {
-      "title": "",
+    "Powah Niotic Crystal Reward": {
+      "title": "Powah! Epic Lootbag",
       "icon": {
         "item": {
           "id": "minecraft:air",
