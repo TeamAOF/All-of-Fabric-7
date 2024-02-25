@@ -4,18 +4,38 @@
   ],
   "tasks": {
     "powah_magmator_task": {
-      "type": "heracles:item",
-      "item": "powah:magmator_starter",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "task_magmator_starter": {
+          "type": "heracles:item",
+          "item": "powah:magmator_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
-        "type": "heracles:item"
-      }
+        "task_magmator_basic": {
+          "type": "heracles:item",
+          "item": "powah:magmator_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {},
