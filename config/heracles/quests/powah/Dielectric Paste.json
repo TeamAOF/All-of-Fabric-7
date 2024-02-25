@@ -18,7 +18,7 @@
   },
   "rewards": {
     "dielectric paste reward": {
-      "title": "Make one, get one free! (one per customer)",
+      "title": "Make one, get one free",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -76,7 +76,7 @@
       "Need --/6/MOAR POWAH!/6/--, do you?",
       "You've come to the right place./8/*/8/",
       "",
-      "--Powah!--, the mod, is about generating, storing, and transferring /c/power/c/.",
+      "--Powah!-- is all about generating, storing, and transferring /c/power/c/.",
       "",
       "/8/*--But not for --Modern Industrialization./8/",
       "",
