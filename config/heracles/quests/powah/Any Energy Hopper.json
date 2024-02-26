@@ -110,7 +110,7 @@
   },
   "rewards": {
     "energy hopper reward": {
-      "title": "",
+      "title": "Powah! Rare Lootbag",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -119,8 +119,14 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "powah:energy_hopper_basic",
-        "count": 1
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
       },
       "type": "heracles:item"
     }

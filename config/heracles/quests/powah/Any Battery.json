@@ -110,7 +110,7 @@
   },
   "rewards": {
     "Powah Battery Reward": {
-      "title": "",
+      "title": "Powah! Common Lootbag",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -119,8 +119,14 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "powah:battery_basic",
-        "count": 2
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
       },
       "type": "heracles:item"
     }

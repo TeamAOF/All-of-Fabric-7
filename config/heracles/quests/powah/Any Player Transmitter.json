@@ -109,8 +109,8 @@
     }
   },
   "rewards": {
-    "powah player transmitter reward": {
-      "title": "",
+    "Powah Reactor Reward": {
+      "title": "Powah! Rare Lootbag",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -119,8 +119,14 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "powah:player_transmitter_basic",
-        "count": 1
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
       },
       "type": "heracles:item"
     }
