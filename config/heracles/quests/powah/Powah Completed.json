@@ -27,7 +27,19 @@
     "Any Energy Cable",
     "Any Energy Cell"
   ],
-  "tasks": {},
+  "tasks": {
+    "Powah Complete Task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "Powah Completed Reward": {
       "title": "",
@@ -54,7 +66,16 @@
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "---",
+      "",
+      "## Complete all quests to obtain the trophy!",
+      "",
+      "",
+      "<item id='trofers:medium_pillar\" tag=\"{BlockEntityTag:{Trophy:'trofers:powah'}}\" scale=\"4\"> </item>",
+      "",
+      "---"
+    ],
     "groups": {
       "Powah": {
         "position": [
