@@ -1,31 +1,31 @@
 {
   "dependencies": [
+    "Uraninite",
     "Any Battery",
-    "Any Ender Cell",
-    "Any Ender Gate",
-    "Any Energizing Rod",
-    "Any Energy Cable",
-    "Any Energy Cell",
-    "Any Energy Discharger",
     "Any Energy Hopper",
-    "Any Furnator",
-    "Any Magmator",
-    "Any Player Transmitter",
-    "Any Reactor",
-    "Any Solar Panel",
-    "Any Thermo Generator",
-    "Blazing Crystal",
     "Capacitors",
-    "Dielectric Casing",
-    "Dielectric Paste",
-    "Dielectric Rod",
-    "Ender Core",
-    "Energized Steel",
-    "Energizing Orb",
+    "Any Energy Discharger",
+    "Any Magmator",
     "Niotic Crystal",
-    "Nitro Crystal",
+    "Energizing Orb",
+    "Any Reactor",
     "Sprited Crystal",
-    "Uraninite"
+    "Any Thermo Generator",
+    "Any Solar Panel",
+    "Any Player Transmitter",
+    "Any Ender Cell",
+    "Ender Core",
+    "Any Ender Gate",
+    "Any Furnator",
+    "Energized Steel",
+    "Any Energizing Rod",
+    "Dielectric Rod",
+    "Blazing Crystal",
+    "Dielectric Paste",
+    "Nitro Crystal",
+    "Dielectric Casing",
+    "Any Energy Cable",
+    "Any Energy Cell"
   ],
   "tasks": {},
   "rewards": {
@@ -58,26 +58,26 @@
     "groups": {
       "Powah": {
         "position": [
-          -3,
+          0,
           69
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "trofers:large_pillar",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
       "translate": "Powah Completed"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
