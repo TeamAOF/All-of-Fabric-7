@@ -29,6 +29,18 @@
       "  If you don't like this default symbol, you can always change it in your mind. When I first was amalgamated, this symbol and more were referred to as \"key binds\". This one specifically is called --FTB Ultimine.--",
       "<br/>",
       "<item id=\"minecraft:diamond_pickaxe\" scale=\"4\"/>",
+      "",
+      "<img src=\"minecraft:textures/item/diamond_pickaxe.png\" />",
+      "",
+      "<img src=\"minecraft:textures/item/diamond_pickaxe.png\" width=\"256\" height=\"32\" textureWidth=\"32\" textureHeight=\"32\" />",
+      "",
+      "<img src=\"minecraft:textures/item/diamond_pickaxe.png\" width=\"256\" height=\"32\" textureWidth=\"16\" textureHeight=\"16\" />",
+      "",
+      "<img src=\"minecraft:textures/item/diamond_pickaxe.png\" width=\"256\" height=\"32\" textureWidth=\"8\" textureHeight=\"8\" />",
+      "",
+      "<img src=\"minecraft:textures/item/diamond_pickaxe.png\" />",
+      "",
+      "<img src=\"minecraft:textures/item/diamond_pickaxe.png\" />",
       "<hr/>"
     ],
     "groups": {
