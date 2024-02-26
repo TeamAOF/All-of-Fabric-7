@@ -1,0 +1,176 @@
+{
+  "dependencies": [
+    "Ender Core"
+  ],
+  "tasks": {
+    "powah_ender_gate_task": {
+      "amount": 1,
+      "tasks": {
+        "task_ender_gate_starter": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_gate_basic": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_gate_hardened": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_gate_blazing": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_gate_niotic": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_gate_spirited": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_ender_gate_nitro": {
+          "type": "heracles:item",
+          "item": "powah:ender_gate_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "Powah Ender Gate Reward": {
+      "title": "Powah! Rare Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## Downloading...",
+      "",
+      "  The Ender gate is an item that allows you to tap into you ender network to input or output energy.",
+      "",
+      "  Its cheaper than ender cells, making it better for transfer to your machines, but doesn't have an internal capacity so it will not increase your ender network's capacity",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          131,
+          67
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:ender_gate_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "Ender Gates"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

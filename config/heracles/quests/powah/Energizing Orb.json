@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "Powah Energizing"
+  ],
+  "tasks": {
+    "energizing orb task": {
+      "type": "heracles:item",
+      "item": "powah:energizing_orb",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "energizing orb reward": {
+      "title": "Powah! Rare Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          0,
+          -102
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles.png",
+    "title": {
+      "translate": "Energizing Orb"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

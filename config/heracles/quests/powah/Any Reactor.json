@@ -1,0 +1,176 @@
+{
+  "dependencies": [
+    "Generating Powah"
+  ],
+  "tasks": {
+    "powah_reactor_task": {
+      "amount": 1,
+      "tasks": {
+        "task_reactor_starter": {
+          "type": "heracles:item",
+          "item": "powah:reactor_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_reactor_basic": {
+          "type": "heracles:item",
+          "item": "powah:reactor_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_reactor_hardened": {
+          "type": "heracles:item",
+          "item": "powah:reactor_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_reactor_blazing": {
+          "type": "heracles:item",
+          "item": "powah:reactor_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_reactor_niotic": {
+          "type": "heracles:item",
+          "item": "powah:reactor_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_reactor_spirited": {
+          "type": "heracles:item",
+          "item": "powah:reactor_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_reactor_nitro": {
+          "type": "heracles:item",
+          "item": "powah:reactor_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "Powah Reactor Reward": {
+      "title": "Powah! Rare Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## RADIOACTIVE RADIOACTIVE WOAHaaOAAh",
+      "",
+      "  Reactors are powerful generators that enable you to make varying amounts of energy from Uranite that you can find underground.",
+      "",
+      "  You'll need 36 to form the multiblock. Rightclicking the ground with 36 reactor blocks will automatically form the reactor.",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -61,
+          84
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "title": {
+      "translate": "Reactors"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

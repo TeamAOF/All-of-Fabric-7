@@ -1,0 +1,174 @@
+{
+  "dependencies": [
+    "Generating Powah"
+  ],
+  "tasks": {
+    "powah_thermo_generator_task": {
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "task_thermo_generator_starter": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_basic": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_hardened": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_blazing": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_niotic": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_spirited": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_thermo_generator_nitro": {
+          "type": "heracles:item",
+          "item": "powah:thermo_generator_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "Powah Thermo Generator Reward": {
+      "title": "Powah! Common Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## Bring on da Heat!",
+      "",
+      "  This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant.",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -131,
+          84
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:thermo_generator_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "title": {
+      "translate": "Thermo Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

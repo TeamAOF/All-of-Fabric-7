@@ -1,0 +1,101 @@
+{
+  "dependencies": [
+    "Caps and Dielectrics "
+  ],
+  "tasks": {
+    "dielectric rod task": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_rod",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "dielectric rod horiz task": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_rod_horizontal",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "dielectric rods horiz reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:dielectric_rod_horizontal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "dielectric rods reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:dielectric_rod",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -88,
+          -108
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:dielectric_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles_flipped.png",
+    "title": {
+      "translate": "Dielectric Rod"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
