@@ -68,13 +68,15 @@
     },
     "description": [
       "---",
+      "Complete all the quests and you can say...",
       "",
-      "## Complete all quests to obtain the trophy!",
       "",
+      "<item id=\"trofers:medium_pillar\" tag=\"{BlockEntityTag:{Trophy:'trofers:powah'}}\" scale=\"8\" background=\"0 darkgoldenrod\" border=\"2 darkred\"> </item>",
       "",
-      "<item id='trofers:medium_pillar\" tag=\"{BlockEntityTag:{Trophy:'trofers:powah'}}\" scale=\"4\"> </item>",
+      "<h1 align=\"center\" italic=\"true\">I have the Powah!*</h1>",
       "",
-      "---"
+      "---",
+      "[*Well, you'll have the trophy at least]"
     ],
     "groups": {
       "Powah": {
