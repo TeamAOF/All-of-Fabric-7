@@ -1,0 +1,100 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<columns>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item id='minecraft:diamond_pickaxe' scale='1'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='minecraft:diamond_pickaxe' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item id='minecraft:diamond_pickaxe' scale='3'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item background='2 crimson' id='minecraft:diamond_pickaxe' scale='4'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<img background='2 crimson' height='64' src='textures/block/stone.png' width='64'>&#32;</img>",
+      "</column>",
+      "<column>",
+      "<img align='right' background='2 orange' height='32' src='textures/block/stone.png' width='32'>&#32;</img>",
+      "<img align='right' background='2 orange' src='textures/block/stone.png' textureHeight='32' textureWidth='32' u='17' v='18' width=\"32\" height=\"32\">&#32;</img>",
+      "<img align='right' background='2 orange' height='32' src='textures/block/stone.png' width='32'>&#32;</img>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<img align='right' background='1 goldenrod' height='16' src='textures/block/stone.png' width='16'>&#32;</img>",
+      "<img align='right' background='1 goldenrod' height='16' src='textures/block/stone.png' width='16'>&#32;</img>",
+      "<img align='right' background='1 goldenrod' height='16' src='textures/block/stone.png' width='16'>&#32;</img>",
+      "<img align='right' background='1 goldenrod' height='16' src='textures/block/stone.png' width='16'>&#32;</img>",
+      "</column>",
+      "<column>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "<img align='right' height='8' src='textures/block/stone.png' width='8'>&#32;</img>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -187,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:electron_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "test"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
