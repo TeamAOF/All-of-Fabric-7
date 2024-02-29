@@ -1,0 +1,31 @@
+- cr = "dc143c"
+- cb = "1e90ff"
+- cg = "32cd32"
+- cy = "ffd700"
+- cw = "666666"
+- cwb = "88444444"
+<hr/>
+<br/>
+%p(align="center") Top text. You know the drill.
+%columns(template="49 3 48")
+	%column
+		%columns
+			%column
+				%p(align="right") Left text. Are you not entertained? Really? I could go on. And on.
+			%column
+				%img(src="textures/item/echo_shard.png" align="right" valign="bottom" width="64" height="64" textureWidth="128" textureHeight="128" background="0 #ff#{cg}") &#32;
+				%p(italic="true" obfuscated="true" align="right" color="##{cw}" background="1 ##{cwb}") 01234567890
+				%img(src="textures/item/amethyst_shard.png" align="right" valign="top" width="64" height="64" textureWidth="128" textureHeight="128" v="32") &#32;
+	%column
+		%p(italic="true" obfuscated="true" shadowed="true" align="center" color="##{cw}" background="2 ##{cwb}") 01234567890123
+	%column
+		%columns
+			%column
+				%img(src="textures/item/amethyst_shard.png" align="left" valign="bottom" width="64" height="64" textureWidth="128" textureHeight="128" u="48" background="0 #ff#{cy}") &#32;
+				%p(italic="true" obfuscated="true" align="left" color="##{cw}" background="1 ##{cwb}") 01234567890
+				%img(src="textures/item/echo_shard.png" align="left" valign="top" width="64" height="64" textureWidth="128" textureHeight="128" v="32" background="0 #ff#{cr}") &#32;
+			%column
+				%p Right text.
+%p(align="center") Bottom text.
+<br/>
+<hr/>
