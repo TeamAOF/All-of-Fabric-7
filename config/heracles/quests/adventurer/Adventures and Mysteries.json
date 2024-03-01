@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "40FC0E99020D1BB4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "If we were meant to stay in one place, we’d have roots instead of feet."
+    },
+    "description": [
+      "<h2>If we were meant to stay in one place, we’d have roots instead of feet.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Adventurer": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Adventures and Mysteries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

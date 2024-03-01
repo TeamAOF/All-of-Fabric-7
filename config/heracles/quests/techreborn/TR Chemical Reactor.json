@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "381DEE3CEBF9F2CA": {
+      "type": "heracles:item",
+      "item": "techreborn:chemical_reactor"
+    }
+  },
+  "rewards": {
+    "607303F80727794B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:chemical_reactor",
+    "description": [
+      "<h2>Used to combine two Fluids (and other assorted items) into a third fluid or item.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:chemical_reactor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Used to combine two Fluids (and other assorted items) into a third fluid or item."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -96,
+          0
+        ]
+      }
+    }
+  }
+}

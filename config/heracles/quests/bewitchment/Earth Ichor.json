@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Witch Cauldron"
+  ],
+  "tasks": {
+    "5D313A77DF22E070": {
+      "type": "heracles:item",
+      "item": "bewitchment:earth_ichor"
+    }
+  },
+  "rewards": {
+    "40059E96C692DE16": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:earth_ichor",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:earth_ichor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          32,
+          32
+        ]
+      }
+    }
+  }
+}

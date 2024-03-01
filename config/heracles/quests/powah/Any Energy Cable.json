@@ -1,0 +1,174 @@
+{
+  "dependencies": [
+    "Powah Energizing"
+  ],
+  "tasks": {
+    "powah_energy_cable_task": {
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "task_energy_cable_starter": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_basic": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_hardened": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_blazing": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_niotic": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_spirited": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_cable_nitro": {
+          "type": "heracles:item",
+          "item": "powah:energy_cable_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "powah energy cable reward": {
+      "title": "Powah! Common Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## YAMTAC (Yet another mod that adds cables)",
+      "",
+      "  Powah cables help you transfer large amounts of energy to and from generators and machines.",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -32,
+          -54
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cable_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles.png",
+    "title": {
+      "translate": "Energy Cables"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

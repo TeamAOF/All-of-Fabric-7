@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mechanical Crafters"
+  ],
+  "tasks": {
+    "0F1616D9FFA85EDD": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "create:crushing_wheel"
+    }
+  },
+  "rewards": {
+    "08DEE5CA24BB5C4D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:copper_ore",
+        "count": 16
+      }
+    },
+    "36A4FF7A76D0CBD4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:zinc_ore",
+        "count": 16
+      }
+    },
+    "7470D6BDB2DD769A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Crushing Wheels",
+    "description": [
+      "<h2>Told ya, you need 21.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:crushing_wheel"
+    },
+    "subtitle": {
+      "text": "Told ya, you need 21."
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          416,
+          80
+        ]
+      }
+    }
+  }
+}

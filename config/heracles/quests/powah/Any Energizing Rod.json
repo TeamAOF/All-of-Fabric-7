@@ -1,0 +1,176 @@
+{
+  "dependencies": [
+    "Powah Energizing"
+  ],
+  "tasks": {
+    "powah_energizing_rod_task": {
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "task_energizing_rod_starter": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energizing_rod_basic": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energizing_rod_hardened": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energizing_rod_blazing": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energizing_rod_niotic": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energizing_rod_spirited": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energizing_rod_nitro": {
+          "type": "heracles:item",
+          "item": "powah:energizing_rod_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "energizing rods reward": {
+      "title": "Powah! Common Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## Light 'em up boys",
+      "",
+      "   The energizer is used to infuse 1 or more items with energy to create a new item",
+      "",
+      "  Multiple infusers allow you to infuse the item(s) with energy faster and therefore craft faster, very useful when making items that require a large amount of infused energy",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          32,
+          -54
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_rod_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles.png",
+    "title": {
+      "translate": "Energizing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

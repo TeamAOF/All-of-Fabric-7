@@ -1,0 +1,74 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5AA23A717BC9D641": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "indrev:guide_book",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "419AC8433FA360AA": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:guide_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Choose the best. Choose INDREV!"
+    },
+    "description": [
+      "<h2>Choose the best. Choose INDREV!</h2>",
+      "---",
+      "Scientists have done a good job at making machines smart enough not to explode and to benefit from temperature. Every machine has an optimal temperature which will never be exceeded.",
+      "",
+      "In order for the machine to stay on its optimal temperature, it needs to cool down often.",
+      "",
+      "While it's cooling down, it will not have the efficiency boost.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -256,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:guide_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Welcome to the Revolution!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

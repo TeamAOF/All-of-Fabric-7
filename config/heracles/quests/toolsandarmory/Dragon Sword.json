@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Weaponry"
+  ],
+  "tasks": {
+    "79B14536D0076591": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_sword"
+    }
+  },
+  "rewards": {
+    "1ADD5FEFADEDEA80": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag",
+          "Type": "LEGENDARY"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§5Dragon's Sword",
+    "description": [
+      "<h2>Harness the true strength of a dragon.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_sword"
+    },
+    "subtitle": {
+      "text": "Harness the true strength of a dragon."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          160,
+          -80
+        ]
+      }
+    }
+  }
+}

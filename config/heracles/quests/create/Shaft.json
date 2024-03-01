@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "3219B93CA3092A92": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "create:shaft"
+    }
+  },
+  "rewards": {
+    "238CBBC4DC4DD6AE": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 5
+    },
+    "63968E53AD8BC6DA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Rotational Transfer",
+    "description": [
+      "<h2>The most basic way of transfering rotational force in a straight line</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:shaft"
+    },
+    "subtitle": {
+      "text": "The most basic way of transfering rotational force in a straight line"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -48
+        ]
+      }
+    }
+  }
+}

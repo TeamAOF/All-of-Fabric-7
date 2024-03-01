@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR LV Transformer"
+  ],
+  "tasks": {
+    "6AE87A05F2C6DC64": {
+      "type": "heracles:item",
+      "item": "techreborn:mv_transformer"
+    }
+  },
+  "rewards": {
+    "057D3CDC2B6FF07C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:mv_transformer",
+    "description": [
+      "<h2>Converts energy from High to Medium tier. </h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:mv_transformer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Converts energy from High to Medium tier. "
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -480,
+          -352
+        ]
+      }
+    }
+  }
+}

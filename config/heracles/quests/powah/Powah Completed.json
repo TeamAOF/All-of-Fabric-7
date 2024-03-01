@@ -1,0 +1,108 @@
+{
+  "dependencies": [
+    "Uraninite",
+    "Any Battery",
+    "Any Energy Hopper",
+    "Capacitors",
+    "Any Energy Discharger",
+    "Any Magmator",
+    "Niotic Crystal",
+    "Energizing Orb",
+    "Any Reactor",
+    "Sprited Crystal",
+    "Any Thermo Generator",
+    "Any Solar Panel",
+    "Any Player Transmitter",
+    "Any Ender Cell",
+    "Ender Core",
+    "Any Ender Gate",
+    "Any Furnator",
+    "Energized Steel",
+    "Any Energizing Rod",
+    "Dielectric Rod",
+    "Blazing Crystal",
+    "Dielectric Paste",
+    "Nitro Crystal",
+    "Dielectric Casing",
+    "Any Energy Cable",
+    "Any Energy Cell"
+  ],
+  "tasks": {
+    "Powah Complete Task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "Powah Completed Reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:powah"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "Complete all the quests and you can say...",
+      "",
+      "",
+      "<item id=\"trofers:medium_pillar\" tag=\"{BlockEntityTag:{Trophy:'trofers:powah'}}\" scale=\"8\" background=\"0 darkgoldenrod\" border=\"2 darkred\"> </item>",
+      "",
+      "<h1 align=\"center\" italic=\"true\">I have the Powah!*</h1>",
+      "",
+      "---",
+      "[*Well, you'll have the trophy at least]"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          0,
+          69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:large_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Powah Completed"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

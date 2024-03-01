@@ -1,0 +1,96 @@
+{
+  "dependencies": [
+    "TR Advanced Circuit",
+    "TR Advanced Machine Frame"
+  ],
+  "tasks": {
+    "4B8E24B498553034": {
+      "type": "heracles:item",
+      "item": "techreborn:implosion_compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "37C5541E50D1637C": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Requires Advanced Circuit and Advanced Machine Casing"
+    },
+    "description": [
+      "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
+      "---",
+      "Uses the raw power of TNT to make items.",
+      "",
+      "It is a multi-block machine with 64k energy buffer and 64 Et input rate.",
+      "",
+      "The Implosion Compressor multi-block has 3 layers:",
+      "",
+      "The first layer contains 9x Advanced Machine Casing.",
+      "",
+      "The second layer containts have 8x Advanced Machine Casing with a hole in the centre.",
+      "",
+      "The third layer is the same as the first layer.",
+      "",
+      "Put the Implosion Compressor on the top and provide some energy to it.",
+      "",
+      "Check REI for usages.",
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:implosion_compressor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:implosion_compressor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

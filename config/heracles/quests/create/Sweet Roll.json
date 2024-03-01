@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fluid Transport"
+  ],
+  "tasks": {
+    "494AEF60DD62281A": {
+      "type": "heracles:item",
+      "item": "create:sweet_roll"
+    }
+  },
+  "rewards": {
+    "575B52C987AC7222": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:sweet_roll",
+    "description": [
+      "<h2>A bethesda staple</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:sweet_roll"
+    },
+    "subtitle": {
+      "text": "A bethesda staple"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Shaft"
+  ],
+  "tasks": {
+    "37CA2EF15B3BD8CC": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:encased_chain_drive"
+    }
+  },
+  "rewards": {
+    "3A1DB402D0064C1A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Encased Chain Drive",
+    "description": [
+      "<h2>For multiple stationary contraptions in a row</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_chain_drive"
+    },
+    "subtitle": {
+      "text": "For multiple stationary contraptions in a row"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          0,
+          -112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Deployer"
+  ],
+  "tasks": {
+    "357E032E895E7510": {
+      "type": "heracles:item",
+      "item": "create:precision_mechanism"
+    }
+  },
+  "rewards": {
+    "59E64FFE6EFE09C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:precision_mechanism",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:precision_mechanism"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {
+    "678FF753E8FC4213": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "lootr:1chest"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "100D3CA6E3B2212C": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Unique instanced loot for every player!"
+    },
+    "description": [
+      "<h2>Unique instanced loot for every player!</h2>",
+      "---",
+      "What does this mean?",
+      "",
+      "When you &&6open a loot chest &&r(distinctly textured from &&bVanilla chests&&r), what items you get are unique to you (as though you had opened an &&bEnder Chest&&r).",
+      "---"
+    ],
+    "groups": {
+      "Adventurer": {
+        "position": [
+          64,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Lootr"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

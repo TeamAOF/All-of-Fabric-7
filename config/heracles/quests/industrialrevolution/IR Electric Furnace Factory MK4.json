@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "IR Factory Components"
+  ],
+  "tasks": {
+    "62747E8844756A8E": {
+      "type": "heracles:item",
+      "item": "indrev:electric_furnace_factory_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "059C0AB2FCC56E3F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "700FE718B977F66F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:silver_plate",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Factories are improved versions of machines and they can process 5 items at once."
+    },
+    "description": [
+      "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          240,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:electric_furnace_factory_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electric Furnace Factory MK4"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

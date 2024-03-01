@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Solid Feul Gen"
+  ],
+  "tasks": {
+    "7BE1D7C88749145D": {
+      "type": "heracles:item",
+      "item": "techreborn:lv_transformer"
+    }
+  },
+  "rewards": {
+    "16D5570CCFE6D1A9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:lv_transformer",
+    "description": [
+      "<h2>Converts energy from Medium to Low tier.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:lv_transformer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Converts energy from Medium to Low tier."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -480,
+          -304
+        ]
+      }
+    }
+  }
+}

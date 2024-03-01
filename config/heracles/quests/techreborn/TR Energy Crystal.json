@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Synthetic Redstone Crystal",
+    "TR Silicon Plate"
+  ],
+  "tasks": {
+    "19050C53906F7734": {
+      "type": "heracles:item",
+      "item": "techreborn:energy_crystal"
+    }
+  },
+  "rewards": {
+    "79BE9DBAA7F36275": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:energy_crystal",
+    "description": [
+      "<h2>Middle tier of portable energy storage.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:energy_crystal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Middle tier of portable energy storage."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          0,
+          -32
+        ]
+      }
+    }
+  }
+}

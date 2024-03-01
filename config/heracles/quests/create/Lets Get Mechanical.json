@@ -1,0 +1,215 @@
+{
+  "dependencies": [
+    "Mechanical Press"
+  ],
+  "tasks": {
+    "58CD66BA144F05D6": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "02731E6B9C2B077F": {
+      "type": "heracles:item",
+      "item": "create:mechanical_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "0477272B50AB9B8F": {
+      "type": "heracles:item",
+      "item": "create:mechanical_bearing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "062E8F5415B2007D": {
+      "type": "heracles:item",
+      "item": "create:mechanical_plough",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5F37A1DFF0919C9A": {
+      "type": "heracles:item",
+      "item": "create:millstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5C3F98D60C5BD858": {
+      "type": "heracles:item",
+      "item": "create:mechanical_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7563616EEF6AC5F1": {
+      "type": "heracles:item",
+      "item": "create:mechanical_harvester",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "5B2CACBB3C2926A2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:portable_storage_interface",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "434EC466681C44CC": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:radial_chassis",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "3AE0BAFF7CEFFDFC": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "643608A4B5BB34A9": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:linear_chassis",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This is where you get creative with your farms"
+    },
+    "description": [
+      "<h2>This is where you get creative with your farms</h2>",
+      "---",
+      "> Mechanical Harvesters Harvests crops and replants them",
+      "> Mechanical Saws can cut Trees and damage Mobs. Farming them automatically has to wait until the Brass Age",
+      "> Mechanical drills can mine pickaxe minable blocks. It doesn't have Silk Touch however. It can also damage Mobs. ",
+      "> Mechanical Plough acts as a Hoe, however, you're more likely to use it to take out any no-collision blocks",
+      "> Mechanical Mixer needs a basin to work. This is your first step in getting to Brass Age.",
+      "> Mechanical Bearing spins. Yep",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Let's Get Mechanical!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

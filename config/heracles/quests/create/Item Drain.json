@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fluid Transport"
+  ],
+  "tasks": {
+    "47E12615F45B3084": {
+      "type": "heracles:item",
+      "item": "create:item_drain"
+    }
+  },
+  "rewards": {
+    "5B74D497C1F963F9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:milk_bucket"
+      }
+    },
+    "03246123C8206D34": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:water_bucket"
+      }
+    },
+    "747C048080E3B2D9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:item_drain",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:item_drain"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          160
+        ]
+      }
+    }
+  }
+}

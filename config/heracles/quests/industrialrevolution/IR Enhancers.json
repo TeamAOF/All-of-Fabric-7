@@ -1,0 +1,143 @@
+{
+  "dependencies": [
+    "IR Empty Enhancer"
+  ],
+  "tasks": {
+    "6AA190C4346A526C": {
+      "type": "heracles:item",
+      "item": "indrev:speed_enhancer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7D6E4AA15A9FC4D7": {
+      "type": "heracles:item",
+      "item": "indrev:smoker_enhancer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "056A302B4A42091A": {
+      "type": "heracles:item",
+      "item": "indrev:buffer_enhancer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "2CC2B59693FA6602": {
+      "type": "heracles:item",
+      "item": "indrev:damage_enhancer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "0D800109FAF6E8CD": {
+      "type": "heracles:item",
+      "item": "indrev:blast_furnace_enhancer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6B858052DF67DC3E": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:empty_enhancer",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "These upgrades will improve certain aspects of the machine like speed and energy usage."
+    },
+    "description": [
+      "<h2>These upgrades will improve certain aspects of the machine like speed and energy usage.</h2>",
+      "---",
+      "Speed: Will increase the machine's processing speed at the cost of energy.",
+      "",
+      "Buffer: Will increase the machine's internal energy capacity.",
+      "",
+      "Blasting: Will make the Electric Furnace accept Blast Furnace recipes.",
+      "",
+      "Smoker: Will make the Electric Furnace accept Smoker recipes.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -400,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:speed_enhancer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enhancers"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

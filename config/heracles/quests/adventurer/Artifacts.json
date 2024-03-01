@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {
+    "51B9513FF8AB7491": {
+      "type": "heracles:item",
+      "item": "#artifacts:artifacts",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "363F3BB07909619A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Magical items with great power."
+    },
+    "description": [
+      "<h2>Magical items with great power.</h2>",
+      "---",
+      "The &&bitems &&radded by this &&6mod &&rcan be found in &&bChests&&r.",
+      "",
+      "All &&bArtifacts &&ronly have a few &&bChests &&rin which they can be found, so go out and explore!",
+      "",
+      "Additionally, a new &&bUnderground Campsite &&rstructure has been added. &&bMimics &&roccasionally &&6spawn in these &&bCampsites &&rinstead of a &&bChests&&r, which are dangerous &&benemies &&rthat &&6attack &&rplayers that get too close. &&bMimics &&ralways drop a random artifact when killed.",
+      "---"
+    ],
+    "groups": {
+      "Adventurer": {
+        "position": [
+          -16,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": "#artifacts:artifacts",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Artifacts"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

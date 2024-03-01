@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Rolling Machine"
+  ],
+  "tasks": {
+    "1BA0F153578E7903": {
+      "type": "heracles:item",
+      "item": "techreborn:cupronickel_heating_coil"
+    }
+  },
+  "rewards": {
+    "24FFAA7A6FEBCD7E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:cupronickel_heating_coil",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:cupronickel_heating_coil"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          -48
+        ]
+      }
+    }
+  }
+}

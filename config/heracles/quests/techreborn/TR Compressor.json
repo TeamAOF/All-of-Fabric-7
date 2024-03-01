@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0492C08143ECC6A0"
+  ],
+  "tasks": {
+    "53E96D1C408AFBF5": {
+      "type": "heracles:item",
+      "item": "techreborn:compressor"
+    }
+  },
+  "rewards": {
+    "5E4303FF78C704F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:compressor",
+    "description": [
+      "<h2>Requires Basic Machine Frame quest.</h2>",
+      "---",
+      "Used to more efficiently craft plates.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:compressor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Requires Basic Machine Frame quest."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -208,
+          -240
+        ]
+      }
+    }
+  }
+}

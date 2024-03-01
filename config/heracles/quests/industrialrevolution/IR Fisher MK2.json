@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "IR Compressor MK1"
+  ],
+  "tasks": {
+    "2160975BE87B0F26": {
+      "type": "heracles:item",
+      "item": "indrev:fisher_mk2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6CD7DDCAC7634A6D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Damage": 0,
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A machine focused in fish farming, and it also supports enhancement upgrades."
+    },
+    "description": [
+      "<h2>A machine focused in fish farming, and it also supports enhancement upgrades.</h2>",
+      "---",
+      "It's only requirement is a Fishing Rod.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -352,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:fisher_mk2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Fisher"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

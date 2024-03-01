@@ -1,0 +1,189 @@
+{
+  "dependencies": [
+    "Steel Plate from IR"
+  ],
+  "tasks": {
+    "60ACF87793F77948": {
+      "type": "heracles:item",
+      "item": "indrev:silo",
+      "amount": 6,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6D730271D98B0803": {
+      "type": "heracles:item",
+      "item": "indrev:controller",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "38ED6ABEB7DBD348": {
+      "type": "heracles:item",
+      "item": "indrev:frame",
+      "amount": 9,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "73B89854D6DA6CE5": {
+      "type": "heracles:item",
+      "item": "indrev:duct",
+      "amount": 3,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "01915D287A13387C": {
+      "type": "heracles:item",
+      "item": "indrev:cabinet",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "1C5256772EF58948": {
+      "type": "heracles:item",
+      "item": "indrev:intake",
+      "amount": 3,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "4484E6789FF66185": {
+      "type": "heracles:item",
+      "item": "indrev:warning_strobe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "5696355503C2B666": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:redstone_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "5185DE4238D4AB56": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 12
+      },
+      "type": "heracles:item"
+    },
+    "773CE85966D33F77": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:silver_plate",
+        "count": 12
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You'll be able to visualize the block positions by right clicking a factory."
+    },
+    "description": [
+      "<h2>You'll be able to visualize the block positions by right clicking a factory.</h2>",
+      "---",
+      "Factories are powerful multiblock upgrades of your MK4 machines, they allow to process multiple items at once at incredible speed, make sure all the components are facing the right position or the factory won't work",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          160,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:electric_furnace_factory_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Factory Components"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mysterious Enchanting"
+  ],
+  "tasks": {
+    "7143EC1A4778DA85": {
+      "type": "heracles:item",
+      "item": "minecraft:anvil"
+    }
+  },
+  "rewards": {
+    "6F9D821FB246D2C2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Reforging",
+    "description": [
+      "<h2>Reforge your gear at the anvil for a better item tier.</h2>",
+      "---",
+      "Reforging increases the luck for getting better item tiers.",
+      "",
+      "&&bLeft Slot: &&rTiering Item Material (if non exist, default flint.",
+      "",
+      "&&bMiddle Slot: &&rTiering Item",
+      "",
+      "&&bRight Slot: &&rAmethyst Shard",
+      "",
+      "Has to be &&6fully repaired &&rbefore able to be reforged,",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:anvil"
+    },
+    "subtitle": {
+      "text": "Reforge your gear at the anvil for a better item tier."
+    },
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -224,
+          -224
+        ]
+      }
+    }
+  }
+}

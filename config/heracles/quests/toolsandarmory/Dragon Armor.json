@@ -1,0 +1,126 @@
+{
+  "dependencies": [
+    "Armory"
+  ],
+  "tasks": {
+    "1F47057584B43E88": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "095A18B52CE967B4": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "40E07B86F8DDDF7A": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "54DBAF532E7DDDA6": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "4665984CDB2D374F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Harness the true strength of a dragon."
+    },
+    "description": [
+      "<h2>Harness the true strength of a dragon.</h2>",
+      "---",
+      "Scales are dropped by killing the Ender Dragon.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -160,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dragonloot:dragon_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§5Armory of Dragon"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

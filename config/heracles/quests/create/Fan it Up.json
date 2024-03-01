@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Water Wheel"
+  ],
+  "tasks": {
+    "2E585309D2A5E70B": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    }
+  },
+  "rewards": {
+    "284F437BC5FD1C3F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:nozzle"
+      }
+    },
+    "0DD9C155401E40E5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:chute"
+      }
+    },
+    "5E00EAF6A7D0B404": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Fan it Up!",
+    "description": [
+      "<h2>Pushing and Pulling Entities</h2>",
+      "---",
+      "The Encased Fan is a mechanical component that can create air streams.",
+      "",
+      "Encased Fans are used for moving entities, Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.",
+      "",
+      "The Encased Fan connects to other rotational components from the back.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:encased_fan"
+    },
+    "subtitle": {
+      "text": "Pushing and Pulling Entities"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          192,
+          -112
+        ]
+      }
+    }
+  }
+}

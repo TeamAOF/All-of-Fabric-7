@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Begin Tech Reborn"
+  ],
+  "tasks": {
+    "3C2F99001860B9E8": {
+      "type": "heracles:item",
+      "item": "techreborn:treetap"
+    },
+    "492D0F0F4BAA3931": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "techreborn:sap"
+    },
+    "68E17F6E8980B879": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "techreborn:rubber"
+    }
+  },
+  "rewards": {
+    "1370B40BF917925A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "techreborn:treetap",
+        "count": 1
+      }
+    },
+    "66137520279AFCB1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": [
+      "<h2>Used to extract sap from rubber trees.</h2>",
+      "---",
+      "The Sap is placed into the inventory of the player that is using it.",
+      "",
+      "Its durability lasts 20 uses before it is destroyed.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:treetap"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Used to extract sap from rubber trees."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -640,
+          160
+        ]
+      }
+    }
+  }
+}

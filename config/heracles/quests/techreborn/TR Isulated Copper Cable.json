@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Sap and Rubber"
+  ],
+  "tasks": {
+    "5253D479C5CBDA1A": {
+      "type": "heracles:item",
+      "item": "techreborn:insulated_copper_cable"
+    }
+  },
+  "rewards": {
+    "0590E4EE69D058CE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:insulated_copper_cable",
+    "description": [
+      "<h2>Cables transfer energy across blocks.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:insulated_copper_cable"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Cables transfer energy across blocks."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -544,
+          144
+        ]
+      }
+    }
+  }
+}

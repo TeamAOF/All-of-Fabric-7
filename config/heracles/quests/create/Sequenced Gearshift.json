@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Brass Casings"
+  ],
+  "tasks": {
+    "3A6BB402FC70037F": {
+      "type": "heracles:item",
+      "item": "create:sequenced_gearshift"
+    }
+  },
+  "rewards": {
+    "2D9024597762EC72": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:sequenced_gearshift",
+    "description": [
+      "<h2>Programmable Gearshift</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:sequenced_gearshift"
+    },
+    "subtitle": {
+      "text": "Programmable Gearshift"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          -48
+        ]
+      }
+    }
+  }
+}

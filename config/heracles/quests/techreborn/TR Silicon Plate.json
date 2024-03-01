@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Industrial Blast Furnace"
+  ],
+  "tasks": {
+    "2F11B86F34EBE189": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:silicon_plate"
+    }
+  },
+  "rewards": {
+    "37D18A2470C370DC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:silicon_plate",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:silicon_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          0,
+          -96
+        ]
+      }
+    }
+  }
+}

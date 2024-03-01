@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Analog Lever"
+  ],
+  "tasks": {
+    "258E4C69FC71067C": {
+      "type": "heracles:item",
+      "item": "create:redstone_link"
+    }
+  },
+  "rewards": {
+    "317E449D09B0A531": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:redstone_link",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:redstone_link"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -192,
+          -48
+        ]
+      }
+    }
+  }
+}

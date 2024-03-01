@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "Adventures and Mysteries"
+  ],
+  "tasks": {},
+  "rewards": {
+    "401B0FCEDA6E06C3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Fishing should be fun."
+    },
+    "description": [
+      "<h2>Fishing should be fun.</h2>",
+      "---",
+      "&&6Go Fish &&radds in general &&bFishes&&r, which are obtainable globally in any area for each dimension, and biome-specific &&bFishes&&r, which are only obtainable in certain areas &&6(See below)&&r.",
+      "",
+      "&&6Overworld (Global)&&r:",
+      "- &&bWooden Crate",
+      "- &&bIron Crate",
+      "- &&bGolden Crate",
+      "- &&bDiamond Crate",
+      "",
+      "&&6During a full moon&&r:",
+      "- &&bLunarfish",
+      "- &&bGalaxy Starfish",
+      "- &&bStarry Salmon",
+      "- &&bNebula Swordfish",
+      "- &&bAstral Crate",
+      "",
+      "&&6The Nether (Global)&&r:",
+      "- &&bSmokey Salmon",
+      "- &&bMagma Cod",
+      "- &&bBonefish",
+      "- &&bObsidian Halibut",
+      "- &&bBasalt Bass",
+      "- &&bSpikerfish",
+      "- &&bFiery Crate",
+      "",
+      "&&6Basalt Deltas:",
+      "- &&bGilded Blackstone Carp",
+      "- &&bGilded Blackstone Crate",
+      "- &&bBlackstone Trout",
+      "",
+      "&&6Soul Sand Valley:",
+      "- &&bSoul Salmon",
+      "- &&bSoul Crate",
+      "",
+      "&&6The End:",
+      "- &&bBaked Endfish",
+      "---"
+    ],
+    "groups": {
+      "Adventurer": {
+        "position": [
+          32,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gofish:celestial_rod",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§bFishes and Crates!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Advanced Circuit"
+  ],
+  "tasks": {
+    "31E873A44F34D7BC": {
+      "type": "heracles:item",
+      "item": "techreborn:greenhouse_controller"
+    }
+  },
+  "rewards": {
+    "3240270006E81C1F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Greenhouse Controller",
+    "description": [
+      "<h2>Harvest and replant crops in 9×9 area behind it.</h2>",
+      "---",
+      "Place the Greenhouse Controller on the ground, provide energy and put some crops behind it.",
+      "",
+      "Standard Minecraft requirements applies to crops, like watered and tilled dirt for wheat or nearby water for sugar cane.",
+      "",
+      "Powered lamps above crops will speed-up growth.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:greenhouse_controller"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Harvest and replant crops in 9×9 area behind it."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -112,
+          144
+        ]
+      }
+    }
+  }
+}

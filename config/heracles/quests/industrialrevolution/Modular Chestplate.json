@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "Modular Core Activated"
+  ],
+  "tasks": {
+    "indrev_modular_chestplate": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "indrev_modular_chestplate_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:module_color_yellow",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "The Modular chestplate provides elytra flight, it can also be upgraded with certain unique modules:",
+      "-Charger module",
+      "-Fire resistance module",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:modular_armor_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Chestplate"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

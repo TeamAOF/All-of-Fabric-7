@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "Welcome to the Revolution"
+  ],
+  "tasks": {
+    "120ED12697D4981E": {
+      "type": "heracles:item",
+      "item": "indrev:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6476760A6188EB18": {
+      "type": "heracles:item",
+      "item": "indrev:screwdriver",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "7B3AA028EB162EEF": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:tin_ingot",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Quit screwing around and wrench it off"
+    },
+    "description": [
+      "<h2>Quit screwing around and wrench it off</h2>",
+      "---",
+      "The Wrench can be used to rotate blocks and break machines while keeping their energy when using it while crouching.",
+      "",
+      "The Screwdriver is used to configure machines' inputs and outputs for items and fluids. It can also be used on Lazuli Flux Containers to configurate energy sides.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -304,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Configurability"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

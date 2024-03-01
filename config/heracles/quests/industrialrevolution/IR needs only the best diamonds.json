@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "IR Pulverizer MK1"
+  ],
+  "tasks": {
+    "2A7E8398F675F060": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:diamond_dust",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "74FA63591DEBE176": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:diamond_dust",
+        "count": 2,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "With a desire for the finest. Indrev tech needs only the best diamonds."
+    },
+    "description": [
+      "<h2>With a desire for the finest. Indrev tech needs only the best diamonds.</h2>",
+      "---",
+      "Diamond dust will be necessary for the creation of better forms of nikolite.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -96,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:diamond_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Dust"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

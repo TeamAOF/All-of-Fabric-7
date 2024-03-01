@@ -1,0 +1,83 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Soot Redstone"
+  ],
+  "tasks": {
+    "6FD0D261E90790A2": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model"
+    }
+  },
+  "rewards": {
+    "640CD95998E28E2D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:data_model",
+    "description": [
+      "<h2>To get started with the mod you will need a Blank Data Model.</h2>",
+      "---",
+      "A blank data model does absolutely nothing, you will need to bound it with a Category.",
+      "",
+      "Categories are (as the name suggests) categories of aggressive mobs in Minecraft.",
+      "",
+      "Currently, these are the categories:",
+      "",
+      "- From Hades",
+      "Groups common mobs of the Nether.",
+      "",
+      "- Overworld",
+      "Groups common mobs of the Overworld.",
+      "",
+      "- Slimy",
+      "Groups slime-like mobs.",
+      "",
+      "- Rotten Guys",
+      "Groups zombie mobs.",
+      "",
+      "- Spooky Scary Skeletons",
+      "Groups skeletons mobs.",
+      "",
+      "- End Mobs",
+      "Groups common mobs of The End.",
+      "",
+      "- From Emeritus",
+      "Groups Ghost mobs.",
+      "",
+      "- Illager Mobs",
+      "Groups Illager-like mobs.",
+      "",
+      "- Poseidon Children",
+      "Groups ocean mobs.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "To get started with the mod you will need a Blank Data Model."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -304,
+          -80
+        ]
+      }
+    }
+  }
+}

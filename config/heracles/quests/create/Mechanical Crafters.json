@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Polished Rose Quartz",
+    "Brass Casings"
+  ],
+  "tasks": {
+    "5F2F997F86DEA58E": {
+      "type": "heracles:item",
+      "amount": 21,
+      "item": "create:mechanical_crafter"
+    }
+  },
+  "rewards": {
+    "20B8F411391930F5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:crafter_slot_cover",
+        "count": 21
+      }
+    },
+    "084AE2B5E1BAA08E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Mechanical Crafters",
+    "description": [
+      "<h2>Trust me, you'll want 21.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    },
+    "subtitle": {
+      "text": "Trust me, you'll want 21."
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          352,
+          80
+        ]
+      }
+    }
+  }
+}

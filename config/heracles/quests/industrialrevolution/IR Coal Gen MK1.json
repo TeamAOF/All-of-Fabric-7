@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "IR Battery"
+  ],
+  "tasks": {
+    "7C0D0B3221DF3798": {
+      "type": "heracles:item",
+      "item": "indrev:coal_generator_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3517F63A89FE34FE": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:coal",
+        "count": 32,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Can use, not only coal, but anything a furnace can to generate energy."
+    },
+    "description": [
+      "<h2>Can use, not only coal, but anything a furnace can to generate energy.</h2>",
+      "---",
+      "The simplest method of generating power is to simply burn coal or wood, a wood farm can keep it going for long.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -304,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:coal_generator_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Coal Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

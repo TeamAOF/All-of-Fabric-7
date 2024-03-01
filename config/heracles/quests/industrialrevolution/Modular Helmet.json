@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "Modular Core Activated"
+  ],
+  "tasks": {
+    "indrev_modular_helmet": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "indrev_modular_helmet_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:module_color_red",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "The Modular helmet can be upgraded with certain unique modules:",
+      "-Night vision module",
+      "-Breathing module",
+      "-Auto feeder module",
+      "-Solar panel module",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          66,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:modular_armor_helmet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Helmet"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

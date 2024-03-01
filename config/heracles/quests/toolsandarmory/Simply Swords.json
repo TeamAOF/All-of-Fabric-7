@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Weaponry"
+  ],
+  "tasks": {},
+  "rewards": {
+    "1D7FC305AA8EEA7A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Songs of War!"
+    },
+    "description": [
+      "<h2>Songs of War!</h2>",
+      "---",
+      "&&b- Weapon Variants",
+      "14+ unique weapon variants, each with differing playstyles and attack animations.",
+      "",
+      "&&b- Artifact Weapons",
+      "Uncraftable, Rare, Powerful! Opening any chest throughout your journey, yields a chance to obtain unique weaponry with powerful abilities.",
+      "",
+      "&&6Complete this quest by obtaining anything from Simply Swords.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          256,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simplyswords:stormbringer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§6Simply Swords"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

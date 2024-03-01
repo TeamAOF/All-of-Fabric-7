@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Industrial Blast Furnace"
+  ],
+  "tasks": {
+    "49B6E05F1768F7F0": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:chromium_ingot"
+    }
+  },
+  "rewards": {
+    "150F91A588FA514D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: modern_industrialization:chromium_ingot",
+    "description": [
+      "<h2>Used in several late game crafting recipes.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:chromium_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "Used in several late game crafting recipes."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -192,
+          -48
+        ]
+      }
+    }
+  }
+}

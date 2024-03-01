@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Deployer",
+    "Obsidian Dust"
+  ],
+  "tasks": {
+    "5469658009BCA6AC": {
+      "type": "heracles:item",
+      "item": "create:railway_casing"
+    }
+  },
+  "rewards": {
+    "439D9512BA989602": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    },
+    "4BEE1BCE2FCE24FE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:railway_casing",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:railway_casing"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          576,
+          80
+        ]
+      }
+    }
+  }
+}

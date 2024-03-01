@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "Circuit MK4"
+  ],
+  "tasks": {
+    "47F075B67F7DD537": {
+      "type": "heracles:item",
+      "item": "indrev:charge_pad_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1E7965DA8EB42F5A": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:battery",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Recharge your batteries!"
+    },
+    "description": [
+      "<h2>Recharge your batteries!</h2>",
+      "---",
+      "The charge pad allows to recharge items, batteries or equipment by placing them inside, a cable must be connected at the bottom to feed it power.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          32,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:charge_pad_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charge Pad"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "DML Machine Casing"
+  ],
+  "tasks": {
+    "26F16521AC49E60B": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:loot_fabricator"
+    }
+  },
+  "rewards": {
+    "4722E3648A60B43E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:loot_fabricator",
+    "description": [
+      "<h2>Turn Pristine Matter into loot!</h2>",
+      "---",
+      "Loot Fabricator is the machine you will be using to turn Pristine Matter into something useful.",
+      "",
+      "You can put those inside a Loot Fabricator and wait until it turns into mob loot.",
+      "",
+      "Each Pristine Matter is equivalent of killing 16 mobs of its category.",
+      "",
+      "In other words the loot that will be given to you is what you would gain if you kill 16 mobs (with no Loot enchantment) of the matter's category.",
+      "",
+      "You can input and extract items to/from the Loot Fabricator by using hoppers or pipes.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:loot_fabricator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Turn Pristine Matter into loot!"
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -384,
+          16
+        ]
+      }
+    }
+  }
+}

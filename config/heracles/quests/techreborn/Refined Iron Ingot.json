@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Begin Tech Reborn"
+  ],
+  "tasks": {
+    "76E9BBA63602A37A": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "techreborn:refined_iron_ingot"
+    }
+  },
+  "rewards": {
+    "28031C88C2918419": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 4
+      }
+    },
+    "681BB3BC239CF80A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Refining Iron",
+    "description": [
+      "<h2>An Iron Ingot in a furnace.. It's now refined!</h2>",
+      "---",
+      "Refined Iron is the key ingredient in most of Tech Reborn,",
+      "You'll need alot of it.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:refined_iron_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "An Iron Ingot in a furnace.. It's now refined!"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -576,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "dependencies": [
+    "Steel Plate from IR",
+    "Circuit MK4"
+  ],
+  "tasks": {
+    "indrev_data_card_encoder": {
+      "type": "heracles:item",
+      "item": "indrev:data_card_writer_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "3A3A6FA7D635E56C": {
+      "type": "heracles:item",
+      "item": "indrev:mining_rig_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "44DA8D0214330F39": {
+      "type": "heracles:item",
+      "item": "indrev:drill_bottom",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "7E48E5130E230EB3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:netherite_drill_head",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Damage": 0,
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "I have confidence in mining. I see exciting opportunities in it."
+    },
+    "description": [
+      "<h2>I have confidence in mining. I see exciting opportunities in it.</h2>",
+      "---",
+      "Before making the mining rig you will need a data card encoder, in the data card encoder you can put data cards and a stack of the ore you wish the mining rig to get you.",
+      "The data cards can only get a certain amount of ores, you can also put multiple ores in the same card but this will make the card produce less overall.",
+      "There are certain modifiers to improve the cards, adding stone allows the data card produce more ores, but make sure to not go over 100% in the circle or the data card will become useless.",
+      "",
+      "The best way to use data cards is to add 1 stack of the ore you want and 15 stacks of stone for the maximum amount of ore that can be produced.",
+      "",
+      "Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads to work. Each Drill increases the mining speed.",
+      "Can hold up to 8 mining rig drills, make sure each one has a drill head.",
+      "Drills can be enchanted with unbreaking to make them last longer",
+      "",
+      "Note that the Drills can be placed connected or diagonally to the Mining Rig Computer.",
+      "",
+      "The mining rig can output to the top so place so kind of chest or storage there and make sure that it doesn't get clogged to avoid lag.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          96,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:drill_bottom",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mining Rig"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

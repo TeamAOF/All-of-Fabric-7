@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Taglock"
+  ],
+  "tasks": {
+    "638ECB265FAE71EB": {
+      "type": "heracles:item",
+      "item": "bewitchment:voodoo_protection_poppet"
+    }
+  },
+  "rewards": {
+    "13FAF7138F13A241": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/common",
+          "Name": "Magic Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:voodoo_protection_poppet",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:voodoo_protection_poppet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          80,
+          -112
+        ]
+      }
+    }
+  }
+}

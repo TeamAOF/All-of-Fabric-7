@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "Dielectric Paste"
+  ],
+  "tasks": {
+    "147B469C5C23C57F": {
+      "type": "heracles:item",
+      "item": "powah:steel_energized",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "Powah Energized Steel Reward": {
+      "title": "Powah! Rare Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## What alchemy is this?",
+      "",
+      "Chemistry designates “steel” an alloy of iron and carbon.",
+      "<br/>",
+      "  Whatever this substance is...",
+      "",
+      "    ...a misnomer handed down through the ages?",
+      "",
+      "    ...an enticing hue and a surfeit of echanting specular highlights?",
+      "",
+      "   ....forged in the radiance of the energizing orb? (<-)",
+      "",
+      "  ...it is indispensable to crafting early upgrades to your --Powah!-- equipment.",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:steel_energized",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Energized Steel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
