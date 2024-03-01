@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: kibe:wither_builder",
+    "title": "Acquire: Wither Builder",
     "description": [
       "<h2>Activated by a redstone signal, will summon a wither if there's enough building material in its inventory and available space in front of it.</h2>",
       "---"

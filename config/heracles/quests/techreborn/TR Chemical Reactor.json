@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: techreborn:chemical_reactor",
+    "title": "Acquire: Chemical Reactor",
     "description": [
       "<h2>Used to combine two Fluids (and other assorted items) into a third fluid or item.</h2>",
       "---"
