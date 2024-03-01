@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: kibe:fluid_hopper",
+    "title": "Acquire: Fluid Hopper",
     "description": [
       "<h2>Exactly like vanilla Hoppers but that moves fluids instead of items.</h2>",
       "---"
