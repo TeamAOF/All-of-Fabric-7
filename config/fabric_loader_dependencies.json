@@ -6,6 +6,11 @@
         "minecraft": ""
       }
     },
+    "sodium": {
+      "-breaks": {
+        "supplementaries": ""
+      }
+    },
     "spectrum": {
       "-depends": {
         "fabricloader": ""

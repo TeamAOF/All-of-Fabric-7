@@ -102,6 +102,7 @@
   "general": {
     "no_optifine_warn_screen": false,
     "config_button": false,
+    "config_button_y_offset": 0,
     "tooltip_hints": true,
     "placeable_tooltips": true,
     "custom_configured_screen": true,
