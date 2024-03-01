@@ -6,7 +6,7 @@
     "edcfp": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_flower_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "edcc": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_cookie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "edes": {
       "type": "heracles:item",
       "item": "ends_delight:ender_sauce",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "edems": {
       "type": "heracles:item",
       "item": "ends_delight:end_mixed_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "eddbcs": {
       "type": "heracles:item",
       "item": "ends_delight:dragon_breath_and_chorus_soup",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "edcfp1": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "edsrc": {
       "type": "heracles:item",
       "item": "ends_delight:stuffed_rice_cake",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "edcfp0": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_popsicle",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "edas": {
       "type": "heracles:item",
       "item": "ends_delight:assorted_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -6,7 +6,7 @@
     "bsc0": {
       "type": "heracles:item",
       "item": "bakery:sweetberry_cupcake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bsc": {
       "type": "heracles:item",
       "item": "bakery:strawberry_cupcake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "bac": {
       "type": "heracles:item",
       "item": "bakery:apple_cupcake",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

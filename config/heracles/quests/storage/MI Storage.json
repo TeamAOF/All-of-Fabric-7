@@ -322,7 +322,8 @@
       "Damhirschkuh, Johannes (2020),",
       "“Modern Industrialization & You: Grow the Factory, Grow your Happiness”,",
       "--Techinic4l Press--,",
-      "<component>{\"text\":\"ISBN 978-3-0648-4684-5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/Z5hGBuH\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Join the Modern Industrialization Discord Server!\"}}</component>"
+      "<component>{\"text\":\"ISBN 978-3-0648-4684-5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/Z5hGBuH\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Join the Modern Industrialization Discord Server!\"}}</component>",
+      "---"
     ],
     "groups": {
       "Storage": {

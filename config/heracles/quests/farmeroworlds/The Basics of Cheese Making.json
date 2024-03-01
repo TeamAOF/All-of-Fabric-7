@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Artificial Milk?",
     "Milk"
   ],
   "tasks": {
@@ -19,7 +18,23 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "meadow_milk": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wooden_milk_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -33,7 +48,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -5,
+          0,
           -535
         ]
       }

@@ -1,0 +1,220 @@
+{
+  "dependencies": [
+    "Brewery"
+  ],
+  "tasks": {
+    "brewery_fried_chicken": {
+      "type": "heracles:item",
+      "item": "brewery:fried_chicken",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_potato_salad": {
+      "type": "heracles:item",
+      "item": "brewery:potato_salad",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_gingerbread": {
+      "type": "heracles:item",
+      "item": "brewery:gingerbread",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_sausage": {
+      "type": "heracles:item",
+      "item": "brewery:sausage",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_chicken_hadariyao": {
+      "type": "heracles:item",
+      "item": "brewery:half_chicken",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_pork_knuckle": {
+      "type": "heracles:item",
+      "item": "brewery:pork_knuckle",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_mashed_potatoes": {
+      "type": "heracles:item",
+      "item": "brewery:mashed_potatoes",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_pretzel": {
+      "type": "heracles:item",
+      "item": "brewery:pretzel",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_dumplings": {
+      "type": "heracles:item",
+      "item": "brewery:dumplings",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_pork": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:porkchop",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "brewery_chicken": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chicken",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "brewery_beef": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:beef",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A drink without food is not very fun",
+      "<br/>",
+      "These are some foods to have alongside a drink, most of them can be placed except the sausage and pretzel, the gingerbread can only be placed on walls",
+      "<br/>",
+      "The half chicken á la HadariYao is made by throwing a cooked chicken at a stonecutter",
+      "<br/>",
+      "The mashed potatoes are made by throwing a baked potato at a stonecutter"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          80,
+          -460
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:pretzel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Food for the Drinks"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -6,7 +6,7 @@
     "fdsc": {
       "type": "heracles:item",
       "item": "farmersdelight:sweet_berry_cookie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdgc": {
       "type": "heracles:item",
       "item": "farmersdelight:glow_berry_custard",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdhc": {
       "type": "heracles:item",
       "item": "farmersdelight:honey_cookie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdmp": {
       "type": "heracles:item",
       "item": "farmersdelight:melon_popsicle",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

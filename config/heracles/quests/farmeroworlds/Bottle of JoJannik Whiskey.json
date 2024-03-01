@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Advanced Brewing"
+  ],
+  "tasks": {
+    "brewery_jojannik": {
+      "type": "heracles:item",
+      "item": "brewery:whiskey_jojannik",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_jojannik": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:whiskey_jojannik",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Become a cave spider, your punches now poisons others"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          285,
+          -520
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:whiskey_jojannik",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bottle of JoJannik Whiskey"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

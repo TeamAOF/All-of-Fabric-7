@@ -6,7 +6,7 @@
     "pies2": {
       "type": "heracles:item",
       "item": "croptopia:pecan_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "pies1": {
       "type": "heracles:item",
       "item": "croptopia:rhubarb_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "pies0": {
       "type": "heracles:item",
       "item": "croptopia:cherry_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "pies": {
       "type": "heracles:item",
       "item": "croptopia:apple_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "pies3": {
       "type": "heracles:item",
       "item": "croptopia:banana_cream_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -1,0 +1,130 @@
+{
+  "dependencies": [
+    "The Basics of Cheese Making"
+  ],
+  "tasks": {
+    "meadow_cheesecake": {
+      "type": "heracles:item",
+      "item": "meadow:cheesecake",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_stick": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_stick",
+      "amount": 60,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_tart": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_tart",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_sandwich": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_sandwich",
+      "amount": 36,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_cheese_roll": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_roll",
+      "amount": 48,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_cheese": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:piece_of_cheese",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "While eating cheese alone is already good you can also make more elaborate foods with it",
+      "<br/>",
+      "The cheesecake and cheese tart can also be used as a decoration"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          60,
+          -535
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:cheese_sandwich",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cheese Meals"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

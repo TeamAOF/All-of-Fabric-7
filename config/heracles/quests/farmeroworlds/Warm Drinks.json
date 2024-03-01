@@ -6,7 +6,7 @@
     "bcbm": {
       "type": "heracles:item",
       "item": "brewinandchewin:bloody_mary",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bcpj": {
       "type": "heracles:item",
       "item": "brewinandchewin:pale_jane",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "bcsr": {
       "type": "heracles:item",
       "item": "brewinandchewin:saccharine_rum",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

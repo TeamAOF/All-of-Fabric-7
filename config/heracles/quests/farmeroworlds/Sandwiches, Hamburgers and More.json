@@ -6,7 +6,7 @@
     "fdbs": {
       "type": "heracles:item",
       "item": "farmersdelight:bacon_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdcs": {
       "type": "heracles:item",
       "item": "farmersdelight:chicken_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdcr": {
       "type": "heracles:item",
       "item": "farmersdelight:cabbage_rolls",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdes": {
       "type": "heracles:item",
       "item": "farmersdelight:egg_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdsp": {
       "type": "heracles:item",
       "item": "farmersdelight:stuffed_potato",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdmw": {
       "type": "heracles:item",
       "item": "farmersdelight:mutton_wrap",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fdd": {
       "type": "heracles:item",
       "item": "farmersdelight:dumplings",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "fdh": {
       "type": "heracles:item",
       "item": "farmersdelight:hamburger",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

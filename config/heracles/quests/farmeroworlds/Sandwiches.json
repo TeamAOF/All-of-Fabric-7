@@ -6,7 +6,7 @@
     "cs": {
       "type": "heracles:item",
       "item": "croptopia:toast_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cs1": {
       "type": "heracles:item",
       "item": "croptopia:blt",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cs0": {
       "type": "heracles:item",
       "item": "croptopia:ham_sandwich",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cs3": {
       "type": "heracles:item",
       "item": "croptopia:grilled_cheese",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cs2": {
       "type": "heracles:item",
       "item": "croptopia:peanut_butter_and_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cs5": {
       "type": "heracles:item",
       "item": "croptopia:croque_monsieur",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cs4": {
       "type": "heracles:item",
       "item": "croptopia:croque_madame",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

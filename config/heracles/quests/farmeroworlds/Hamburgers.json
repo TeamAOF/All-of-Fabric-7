@@ -6,7 +6,7 @@
     "ch0": {
       "type": "heracles:item",
       "item": "croptopia:cheeseburger",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "ch": {
       "type": "heracles:item",
       "item": "croptopia:hamburger",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "ch1": {
       "type": "heracles:item",
       "item": "croptopia:tofuburger",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

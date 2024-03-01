@@ -2,7 +2,22 @@
   "dependencies": [
     "Grapes"
   ],
-  "tasks": {},
+  "tasks": {
+    "vinery_white_jungle": {
+      "type": "heracles:item",
+      "item": "vinery:jungle_grapes_white",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "1": {
       "title": "",
@@ -41,9 +56,9 @@
     },
     "description": [
       "These grapes can be found in jungles and it's subvariants",
-      " ",
-      " ",
-      "They can be planted on any wall or on a lattice for extra grapes and growth speed, the lattice must be on a wall"
+      "<br/>",
+      "<br/>",
+      "They can be planted on any wall or on a lattice for extra grapes and growth speed"
     ],
     "groups": {
       "Farmer O' Worlds": {

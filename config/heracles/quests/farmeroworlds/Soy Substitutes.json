@@ -6,7 +6,7 @@
     "cs": {
       "type": "heracles:item",
       "item": "croptopia:soy_milk",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cs1": {
       "type": "heracles:item",
       "item": "croptopia:tofuburger",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cs0": {
       "type": "heracles:item",
       "item": "croptopia:tofu_and_dumplings",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cs2": {
       "type": "heracles:item",
       "item": "croptopia:tofu",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

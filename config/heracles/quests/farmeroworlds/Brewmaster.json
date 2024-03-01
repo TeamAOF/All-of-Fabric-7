@@ -1,0 +1,102 @@
+{
+  "dependencies": [
+    "Brewery"
+  ],
+  "tasks": {
+    "brewery_brewmaster": {
+      "type": "heracles:item",
+      "item": "brewery:bar_counter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_wall_cabinet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:wall_cabinet",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "brewery_drawer": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:drawer",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "brewery_cabinet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:cabinet",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The bar counter can be used as a decoration or as a workstation for villagers, it will turn them into brewmasters who can sell seeds, ingredients, foods and a special set of armor"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          110,
+          -430
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:bar_counter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brewmaster"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

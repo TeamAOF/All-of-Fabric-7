@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Advanced Brewing"
+  ],
+  "tasks": {
+    "brewery_lilitu": {
+      "type": "heracles:item",
+      "item": "brewery:whiskey_lilitusinglemalt",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_lilitu": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:whiskey_lilitusinglemalt",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Make to sure to drink it before a fight",
+      "<br/>",
+      "Can be placed down"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          255,
+          -520
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:whiskey_lilitusinglemalt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bottle of Lilitu Single Malt"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

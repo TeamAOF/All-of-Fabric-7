@@ -6,7 +6,7 @@
     "cr0": {
       "type": "heracles:item",
       "item": "croptopia:roasted_radishes",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cr10": {
       "type": "heracles:item",
       "item": "croptopia:eggplant_parmesan",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cr11": {
       "type": "heracles:item",
       "item": "croptopia:stuffed_artichoke",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cr2": {
       "type": "heracles:item",
       "item": "croptopia:roasted_turnips",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cr1": {
       "type": "heracles:item",
       "item": "croptopia:roasted_squash",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cr4": {
       "type": "heracles:item",
       "item": "croptopia:roasted_sunflower_seeds",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cr3": {
       "type": "heracles:item",
       "item": "croptopia:roasted_pumpkin_seeds",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cr6": {
       "type": "heracles:item",
       "item": "croptopia:shepherds_pie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "cr5": {
       "type": "heracles:item",
       "item": "croptopia:ratatouille",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "cr8": {
       "type": "heracles:item",
       "item": "croptopia:cornish_pasty",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -146,7 +146,7 @@
     "cr7": {
       "type": "heracles:item",
       "item": "croptopia:beef_wellington",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -160,7 +160,7 @@
     "cr9": {
       "type": "heracles:item",
       "item": "croptopia:cheesy_asparagus",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -174,7 +174,7 @@
     "cr": {
       "type": "heracles:item",
       "item": "croptopia:roasted_asparagus",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -188,7 +188,7 @@
     "cr18": {
       "type": "heracles:item",
       "item": "croptopia:artichoke_dip",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -202,7 +202,7 @@
     "cr19": {
       "type": "heracles:item",
       "item": "croptopia:spaghetti_squash",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -216,7 +216,7 @@
     "cr16": {
       "type": "heracles:item",
       "item": "croptopia:grilled_eggplant",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -230,7 +230,7 @@
     "cr17": {
       "type": "heracles:item",
       "item": "croptopia:grilled_oysters",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -244,7 +244,7 @@
     "cr14": {
       "type": "heracles:item",
       "item": "croptopia:quiche",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -258,7 +258,7 @@
     "cr15": {
       "type": "heracles:item",
       "item": "croptopia:ajvar",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -272,7 +272,7 @@
     "cr12": {
       "type": "heracles:item",
       "item": "croptopia:corn_bread",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -286,7 +286,7 @@
     "cr13": {
       "type": "heracles:item",
       "item": "croptopia:baked_crepes",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

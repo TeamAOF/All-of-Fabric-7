@@ -6,7 +6,7 @@
     "bcfcw": {
       "type": "heracles:item",
       "item": "brewinandchewin:flaxen_cheese_wheel",
-      "amount": 1,
+      "amount": 3,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bcscw": {
       "type": "heracles:item",
       "item": "brewinandchewin:scarlet_cheese_wheel",
-      "amount": 1,
+      "amount": 3,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

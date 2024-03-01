@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "Drying the Grains"
+  ],
+  "tasks": {
+    "brewing_beer_mug": {
+      "type": "heracles:item",
+      "item": "brewery:beer_mug",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_brewingstation": {
+      "type": "heracles:item",
+      "item": "brewery:wooden_brewingstation",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_breathalyzer": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:breathalyzer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "brewery_hops": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:hops",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "brewery_water_bucket": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "brewery_coal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:coal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The regular brewingstation is a 2x2 piece of equipment that will allow you to make beers",
+      "<br/>",
+      "To use it first fill the brewing kettle with water, then place the ingredients for the desired drink, the put coal in the stove side of the brewingstation",
+      "<br/>",
+      "The brewingstation will begin making your drink but be careful, things can go wrong, like needing more fuel, removing water, fixing the temperature, etc, and you will have to fix it, if you don't, a beer elemental will spawn and attack you",
+      "<br/>",
+      "After all of this, no matter if a beer elemental spawned or not, you will have your drink, simply use a beer mug to get it",
+      "<br/>",
+      "<br/>",
+      "Once you have your drinks be careful with drinking too much or you will get drunk!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          170,
+          -460
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:wooden_brewingstation",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brewing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Advanced Brewing"
+  ],
+  "tasks": {
+    "brewery_maggoallan": {
+      "type": "heracles:item",
+      "item": "brewery:whiskey_maggoallan",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_maggoallan": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:whiskey_maggoallan",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You chose to abandon the path of violence, drinking this will make your punches heal instead of hurting",
+      "<br/>",
+      "Can be placed down"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          195,
+          -520
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:whiskey_maggoallan",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bottle of MaggoAllan Whiskey"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

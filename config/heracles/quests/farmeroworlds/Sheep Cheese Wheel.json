@@ -6,7 +6,7 @@
     "meadow_sheep_cheese_wheel": {
       "type": "heracles:item",
       "item": "meadow:sheep_cheese_block",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -150,7 +150,7 @@
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          -55,
+          -50,
           -570
         ]
       }

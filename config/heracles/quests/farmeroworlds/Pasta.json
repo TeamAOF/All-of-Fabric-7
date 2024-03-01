@@ -6,7 +6,7 @@
     "fdsip": {
       "type": "heracles:item",
       "item": "farmersdelight:squid_ink_pasta",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdts": {
       "type": "heracles:item",
       "item": "farmersdelight:tomato_sauce",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdrp": {
       "type": "heracles:item",
       "item": "farmersdelight:raw_pasta",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdwd": {
       "type": "heracles:item",
       "item": "farmersdelight:wheat_dough",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "fdpwm": {
       "type": "heracles:item",
       "item": "farmersdelight:pasta_with_meatballs",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "fdvn": {
       "type": "heracles:item",
       "item": "farmersdelight:vegetable_noodles",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "fdns": {
       "type": "heracles:item",
       "item": "farmersdelight:noodle_soup",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "fdpwmc": {
       "type": "heracles:item",
       "item": "farmersdelight:pasta_with_mutton_chop",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

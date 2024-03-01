@@ -6,7 +6,7 @@
     "frgtc": {
       "type": "heracles:item",
       "item": "farmersrespite:green_tea_cookie",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "frbc0": {
       "type": "heracles:item",
       "item": "farmersrespite:black_cod",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "frtc": {
       "type": "heracles:item",
       "item": "farmersrespite:tea_curry",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "frnws": {
       "type": "heracles:item",
       "item": "farmersrespite:nether_wart_sourdough",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "frbc": {
       "type": "heracles:item",
       "item": "farmersrespite:blazing_chili",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

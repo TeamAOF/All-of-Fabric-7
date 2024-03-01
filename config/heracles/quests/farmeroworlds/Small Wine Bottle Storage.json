@@ -5,7 +5,7 @@
   "tasks": {
     "vsws": {
       "type": "heracles:item",
-      "item": "vinery:wine_rack_2",
+      "item": "vinery:cherry_wine_rack_small",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -40,13 +40,13 @@
       "text": ""
     },
     "description": [
-      "The small wine bottle storage allows to store up to 4 small wines in a stylish manner, they can be placed and picked up with right click"
+      "The small wine rack allows to store up to 4 small wines in a stylish manner, they can be placed and picked up with right click"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
           210,
-          120
+          150
         ]
       }
     },
@@ -59,7 +59,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Small Wine Bottle Storage"
+      "translate": "Small Wine Rack"
     }
   },
   "settings": {

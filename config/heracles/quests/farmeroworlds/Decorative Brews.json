@@ -6,7 +6,7 @@
     "hb_hibiscus_tea": {
       "type": "heracles:item",
       "item": "herbalbrews:hibiscus_tea",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "hb_milk_coffee": {
       "type": "heracles:item",
       "item": "herbalbrews:milk_coffee",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

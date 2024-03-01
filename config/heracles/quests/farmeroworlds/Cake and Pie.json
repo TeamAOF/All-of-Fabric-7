@@ -6,7 +6,7 @@
     "frcc": {
       "type": "heracles:item",
       "item": "farmersrespite:coffee_cake",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "frrhp": {
       "type": "heracles:item",
       "item": "farmersrespite:rose_hip_pie",
-      "amount": 1,
+      "amount": 2,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

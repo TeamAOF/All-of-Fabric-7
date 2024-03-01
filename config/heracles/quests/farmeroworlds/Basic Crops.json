@@ -1,0 +1,148 @@
+{
+  "dependencies": [
+    "Brewery"
+  ],
+  "tasks": {
+    "brewery_hops": {
+      "type": "heracles:item",
+      "item": "brewery:hops",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_wheat": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_corn": {
+      "type": "heracles:item",
+      "item": "brewery:corn",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "brewery_barley": {
+      "type": "heracles:item",
+      "item": "brewery:barley",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_hops": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:hops",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "brewery_corn": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:corn",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "brewery_barley": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:barley",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "There are three main crops you will have to get",
+      "<br/>",
+      "__Hops__, which can be found on taigas, __barley__ made from throwing beetroot seeds on a stonecutter, and __corn__ made from throwing wheat seeds on a stonecutter; wheat will also be needed",
+      "<br/>",
+      "You could just eat them but they can be used to make some foods and—more importantly—they can be dried and used to make the drinks"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          110,
+          -460
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:hops",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Crops"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

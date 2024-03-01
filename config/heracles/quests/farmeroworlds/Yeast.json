@@ -6,7 +6,7 @@
     "by": {
       "type": "heracles:item",
       "item": "bakery:yeast",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Gives instant health"
+      "Reinforces your skin with ice, you will be tougher but a bit slower"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          450,
+          500,
           -275
         ]
       }

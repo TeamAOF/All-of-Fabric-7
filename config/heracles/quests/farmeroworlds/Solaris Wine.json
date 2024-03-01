@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Increased attack speed and damage"
+      "Increased attack speed and mining speed"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          390,
+          440,
           -215
         ]
       }

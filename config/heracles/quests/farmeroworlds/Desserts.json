@@ -6,7 +6,7 @@
     "cd": {
       "type": "heracles:item",
       "item": "croptopia:yoghurt",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "c10": {
       "type": "heracles:item",
       "item": "croptopia:nougat",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cd16": {
       "type": "heracles:item",
       "item": "croptopia:beef_jerky",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cd17": {
       "type": "heracles:item",
       "item": "croptopia:pork_jerky",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cd14": {
       "type": "heracles:item",
       "item": "croptopia:peanut_butter_with_celery",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cd15": {
       "type": "heracles:item",
       "item": "croptopia:saucy_chips",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cd12": {
       "type": "heracles:item",
       "item": "croptopia:almond_brittle",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cd13": {
       "type": "heracles:item",
       "item": "croptopia:peanut_butter",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "cd0": {
       "type": "heracles:item",
       "item": "croptopia:eton_mess",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "cd10": {
       "type": "heracles:item",
       "item": "croptopia:candy_corn",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -146,7 +146,7 @@
     "cd11": {
       "type": "heracles:item",
       "item": "croptopia:candied_nuts",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -160,7 +160,7 @@
     "cd2": {
       "type": "heracles:item",
       "item": "croptopia:sticky_toffee_pudding",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -174,7 +174,7 @@
     "cd1": {
       "type": "heracles:item",
       "item": "croptopia:figgy_pudding",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -188,7 +188,7 @@
     "cd4": {
       "type": "heracles:item",
       "item": "croptopia:kiwi_sorbet",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -202,7 +202,7 @@
     "cd3": {
       "type": "heracles:item",
       "item": "croptopia:trifle",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -216,7 +216,7 @@
     "cd6": {
       "type": "heracles:item",
       "item": "croptopia:candied_kumquats",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -230,7 +230,7 @@
     "cd5": {
       "type": "heracles:item",
       "item": "croptopia:meringue",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -244,7 +244,7 @@
     "cd8": {
       "type": "heracles:item",
       "item": "croptopia:trail_mix",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -258,7 +258,7 @@
     "cd7": {
       "type": "heracles:item",
       "item": "croptopia:chocolate",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -272,7 +272,7 @@
     "cd9": {
       "type": "heracles:item",
       "item": "croptopia:protein_bar",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

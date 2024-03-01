@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Advanced Brewing"
+  ],
+  "tasks": {
+    "brewery_netherite_brewingstation": {
+      "type": "heracles:item",
+      "item": "brewery:netherite_brewingstation",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The pinnacle of brewingstations, be the envy of everyone, with this brewingstation you won't have to worry about things going wrong, simply start brewing and relax"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          170,
+          -520
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:netherite_brewingstation",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elite Brewing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

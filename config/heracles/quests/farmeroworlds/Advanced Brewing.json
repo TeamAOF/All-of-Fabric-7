@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Brewing"
+  ],
+  "tasks": {
+    "brewing_copper_brewingstation": {
+      "type": "heracles:item",
+      "item": "brewery:copper_brewingstation",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_copper_block": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The simple brewingstation isn't enough, you must upgrade to a copper one, with this brewingstation you can now also make whisky"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          170,
+          -490
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:copper_brewingstation",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Brewing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

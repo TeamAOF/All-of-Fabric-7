@@ -6,7 +6,7 @@
     "hb_big_damage_flask": {
       "type": "heracles:item",
       "item": "herbalbrews:damage_flask_big",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,49 +20,7 @@
     "hb_big_armor_flask": {
       "type": "heracles:item",
       "item": "herbalbrews:armor_flask_big",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "hb_damage_flask": {
-      "type": "heracles:item",
-      "item": "herbalbrews:damage_flask",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "hb_armor_flask": {
-      "type": "heracles:item",
-      "item": "herbalbrews:armor_flask",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "hb_feral_flask": {
-      "type": "heracles:item",
-      "item": "herbalbrews:feral_flask",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +34,49 @@
     "hb_big_feral_flask": {
       "type": "heracles:item",
       "item": "herbalbrews:feral_flask_big",
-      "amount": 1,
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_damage_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:damage_flask",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_armor_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:armor_flask",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "hb_feral_flask": {
+      "type": "heracles:item",
+      "item": "herbalbrews:feral_flask",
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

@@ -40,12 +40,12 @@
       "text": ""
     },
     "description": [
-      "Gives night vision"
+      "Makes you tougher against damage"
     ],
     "groups": {
       "Farmer O' Worlds": {
         "position": [
-          360,
+          410,
           -215
         ]
       }

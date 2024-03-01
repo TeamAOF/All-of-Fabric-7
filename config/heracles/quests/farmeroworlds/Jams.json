@@ -6,7 +6,7 @@
     "cj8": {
       "type": "heracles:item",
       "item": "croptopia:yam_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cj7": {
       "type": "heracles:item",
       "item": "croptopia:strawberry_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cj": {
       "type": "heracles:item",
       "item": "croptopia:apricot_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cj0": {
       "type": "heracles:item",
       "item": "croptopia:blackberry_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cj2": {
       "type": "heracles:item",
       "item": "croptopia:cherry_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cj1": {
       "type": "heracles:item",
       "item": "croptopia:blueberry_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cj4": {
       "type": "heracles:item",
       "item": "croptopia:grape_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cj3": {
       "type": "heracles:item",
       "item": "croptopia:elderberry_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "cj6": {
       "type": "heracles:item",
       "item": "croptopia:raspberry_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "cj5": {
       "type": "heracles:item",
       "item": "croptopia:peach_jam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

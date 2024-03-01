@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Let's Do Mods"
+  ],
+  "tasks": {
+    "brewery": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "brewery_bench": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:bench",
+        "count": 10
+      },
+      "type": "heracles:item"
+    },
+    "brewery_table": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:table",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Brewery is all about brewing beer and whisky and making some delicious foods to be eaten alongside",
+      "<br/>",
+      "<br/>",
+      "To make these new drinks you will have to learn how to use a brand new and unique brewing system"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          80,
+          -430
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:beer_elemental_spawn_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Brewery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

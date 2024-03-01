@@ -6,7 +6,7 @@
     "bcwd": {
       "type": "heracles:item",
       "item": "brewinandchewin:withering_dross",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "bcrr": {
       "type": "heracles:item",
       "item": "brewinandchewin:red_rum",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

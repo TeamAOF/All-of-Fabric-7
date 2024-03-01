@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Utilities"
+  ],
+  "tasks": {
+    "vinery_basket": {
+      "type": "heracles:item",
+      "item": "vinery:basket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "vinery_storage_pot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "vinery:storage_pot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The basket works as a sort of mini shulker box, allowing you to carry your picnic anywhere",
+      "<br/>",
+      "<br/>",
+      "They can be bought from winemaker villagers"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          200,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:basket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

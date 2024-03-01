@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Brewing"
+  ],
+  "tasks": {
+    "brewery_haley_beer": {
+      "type": "heracles:item",
+      "item": "brewery:beer_haley",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "brewery_haley_beer": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "brewery:beer_haley",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Prevents fall damage",
+      "<br/>",
+      "Can be placed down"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          285,
+          -430
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "brewery:beer_haley",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Haley Beer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

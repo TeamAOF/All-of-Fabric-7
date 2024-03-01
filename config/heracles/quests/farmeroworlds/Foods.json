@@ -6,7 +6,7 @@
     "frdsa": {
       "type": "heracles:item",
       "item": "frightsdelight:apple_slime",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "frdrfs": {
       "type": "heracles:item",
       "item": "frightsdelight:soup_rotten_flesh",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "frdrfc": {
       "type": "heracles:item",
       "item": "frightsdelight:cookie_flesh",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "fdrcs": {
       "type": "heracles:item",
       "item": "frightsdelight:web_on_stick",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "frdmm": {
       "type": "heracles:item",
       "item": "frightsdelight:monster_mash",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "frdss": {
       "type": "heracles:item",
       "item": "frightsdelight:pasta_with_slimeballs",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "frdses": {
       "type": "heracles:item",
       "item": "frightsdelight:soup_spider_eye",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "frdsec": {
       "type": "heracles:item",
       "item": "frightsdelight:cookie_spidereye",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "frduk": {
       "type": "heracles:item",
       "item": "frightsdelight:undead_kebab",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "frdsbs": {
       "type": "heracles:item",
       "item": "frightsdelight:soup_slime",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -146,7 +146,7 @@
     "frdsbc": {
       "type": "heracles:item",
       "item": "frightsdelight:cookie_soul_berry",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

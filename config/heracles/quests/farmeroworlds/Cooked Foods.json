@@ -6,7 +6,7 @@
     "cc": {
       "type": "heracles:item",
       "item": "croptopia:baked_beans",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "cc1": {
       "type": "heracles:item",
       "item": "croptopia:baked_yam",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "cc0": {
       "type": "heracles:item",
       "item": "croptopia:baked_sweet_potato",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "cc10": {
       "type": "heracles:item",
       "item": "croptopia:molasses",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "cc3": {
       "type": "heracles:item",
       "item": "croptopia:cooked_calamari",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "cc2": {
       "type": "heracles:item",
       "item": "croptopia:cooked_anchovy",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "cc5": {
       "type": "heracles:item",
       "item": "croptopia:cooked_tuna",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "cc4": {
       "type": "heracles:item",
       "item": "croptopia:cooked_shrimp",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -118,7 +118,7 @@
     "cc7": {
       "type": "heracles:item",
       "item": "croptopia:raisins",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "cc6": {
       "type": "heracles:item",
       "item": "croptopia:popcorn",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -146,7 +146,7 @@
     "cc9": {
       "type": "heracles:item",
       "item": "croptopia:roasted_nuts",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -160,7 +160,7 @@
     "cc8": {
       "type": "heracles:item",
       "item": "croptopia:toast",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

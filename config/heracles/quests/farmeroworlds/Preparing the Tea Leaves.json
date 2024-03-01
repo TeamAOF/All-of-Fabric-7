@@ -62,21 +62,6 @@
       },
       "type": "heracles:item"
     },
-    "hb_dried_oolong": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "herbalbrews:dried_oolong_tea",
-        "count": 4
-      },
-      "type": "heracles:item"
-    },
     "hb_dried_green_tea": {
       "title": "",
       "icon": {
@@ -91,6 +76,21 @@
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "hb_dried_oolong": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "herbalbrews:dried_oolong_tea",
+        "count": 4
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -102,7 +102,10 @@
       "<br/>",
       "Dried green tea can be used to make tea or can be used to make other kinds of tea leaves, if made into a dried tea leaf block and left to dry again you will get dried black tea",
       "<br/>",
-      "Once you have both dried green and black tea they can be made into mixed tea leaf blocks, once these are dried you will get dried oolong"
+      "Once you have both dried green and black tea they can be made into mixed tea leaf blocks, once these are dried you will get dried oolong",
+      "<br/>",
+      "<br/>",
+      "Magma blocks and torches will help the leaves dry faster"
     ],
     "groups": {
       "Farmer O' Worlds": {

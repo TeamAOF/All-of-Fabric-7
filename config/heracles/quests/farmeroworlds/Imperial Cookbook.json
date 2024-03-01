@@ -1,0 +1,146 @@
+{
+  "dependencies": [
+    "01ABB62DDB06DB72",
+    "Titration Barrel Recipes",
+    "Deep Dark Ingredients",
+    "Spectrum"
+  ],
+  "tasks": {
+    "peaches_flambe": {
+      "type": "heracles:item",
+      "item": "spectrum:peaches_flambe",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "junket": {
+      "type": "heracles:item",
+      "item": "spectrum:junket",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "faded_koi": {
+      "type": "heracles:item",
+      "item": "spectrum:faded_koi",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chaure": {
+      "type": "heracles:item",
+      "item": "spectrum:chauve_souris_au_vin",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "nectered_viognier": {
+      "type": "heracles:item",
+      "item": "spectrum:nectered_viognier",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "glass_peach": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:glass_peach",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "nephrite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:nephrite_blossom_bulb",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A collection of recipes eaten only by the scarlet moon court"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -605,
+          -320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:imperial_cookbook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Imperial Cookbook"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

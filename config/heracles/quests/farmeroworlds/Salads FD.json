@@ -6,7 +6,7 @@
     "fdms": {
       "type": "heracles:item",
       "item": "farmersdelight:mixed_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "fdfs": {
       "type": "heracles:item",
       "item": "farmersdelight:fruit_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "fdns": {
       "type": "heracles:item",
       "item": "farmersdelight:nether_salad",
-      "amount": 1,
+      "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
