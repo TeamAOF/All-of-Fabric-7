@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: create:display_board",
+    "title": "Acquire: Display Board",
     "description": [
       "<h2>This looks like the Flight information display system</h2>",
       "---",

@@ -17,7 +17,7 @@
     }
   },
   "display": {
-    "title": "Acquire: trowel:trowel",
+    "title": "Acquire: Trowel",
     "description": [
       "<h2>Picks a random block from your hotbar and places it down.</h2>",
       "---"
