@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "IR Item Pipe MK1"
+  ],
+  "tasks": {
+    "74534788035362A2": {
+      "type": "heracles:item",
+      "item": "indrev:item_pipe_mk2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0AA6FE219A0D25AA": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:item_pipe_mk2",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Don't forget your servos"
+    },
+    "description": [
+      "<h2>Don't forget your servos</h2>",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -400,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:item_pipe_mk2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Pipe MK2"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

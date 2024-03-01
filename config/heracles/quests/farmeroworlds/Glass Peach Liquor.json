@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "Get Glass Peach Liquor": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "glass_peach_liquor"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Glass Peach Liquor",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "peach": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:peach_jam",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -515,
+          -520
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "glass_peach_liquor",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646195,
+              "Amplifier": 1
+            }
+          ],
+          "AlcPercent": 22,
+          "Color": 13723654
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glass Peach Liquor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Implossion Compressor"
+  ],
+  "tasks": {
+    "462D83630913D5AE": {
+      "type": "heracles:item",
+      "item": "techreborn:iridium_alloy_plate"
+    }
+  },
+  "rewards": {
+    "49C6940427C28413": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:iridium_alloy_plate",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:iridium_alloy_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    }
+  }
+}

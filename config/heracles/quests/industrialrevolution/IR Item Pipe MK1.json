@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "IR Servos"
+  ],
+  "tasks": {
+    "5A97C9ECE9C54E89": {
+      "type": "heracles:item",
+      "item": "indrev:item_pipe_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0FAF067F082BE5F4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:item_pipe_mk1",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Item pipes can be used to transfer items between inventories far apart."
+    },
+    "description": [
+      "<h2>Item pipes can be used to transfer items between inventories far apart.</h2>",
+      "---",
+      "Don't forget to set the input/output of a machine.",
+      "",
+      "Also don't forget the servos. To optimize on performance, try to use the least amount of piping and servos you can if you decide to do a large operation.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -352,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:item_pipe_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Pipe MK1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

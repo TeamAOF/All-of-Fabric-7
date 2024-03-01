@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Andesite Funnel",
+    "Mechanical Press"
+  ],
+  "tasks": {
+    "3BD7EB5A4BE1F97C": {
+      "type": "heracles:item",
+      "item": "create:item_vault"
+    }
+  },
+  "rewards": {
+    "29B7CA2294F20339": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:item_vault",
+    "description": [
+      "<h2>No, this is All of Fabric.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:item_vault"
+    },
+    "subtitle": {
+      "text": "No, this is All of Fabric."
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          64,
+          80
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Refined Iron Ingot"
+  ],
+  "tasks": {
+    "67C411236837B752": {
+      "type": "heracles:item",
+      "item": "techreborn:drain"
+    }
+  },
+  "rewards": {
+    "31DF073742CD6CF4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "croptopia:water_bottle",
+        "count": 16
+      }
+    },
+    "71D11D27AE188983": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:drain",
+    "description": [
+      "<h2>A simple contraption that is used to automate the gathering of fluid (Mostly water).</h2>",
+      "---",
+      "It works in a simple fashion, any source fluid directly above it is put into its internal tank (Can only hold a bucket worth of liquid).",
+      "",
+      "This can then be pumped out, either by machines or tank units (All sides output besides of course the top of it).",
+      "",
+      "This is particularly useful for 2×2 infinite water ponds, simply place the drain under one of the source blocks and watch it drain away. ",
+      "",
+      "You should probably place a tank underneath the drain and configure it to pull from the drain above it using the interface of the tank.",
+      "",
+      "It does not require an energy source nor consumes anything, it's entirely gravity-based.",
+      "",
+      "Can be used to auto-fill buckets.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:drain"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "A simple contraption that is used to automate the gathering of fluid (Mostly water)."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -608,
+          48
+        ]
+      }
+    }
+  }
+}

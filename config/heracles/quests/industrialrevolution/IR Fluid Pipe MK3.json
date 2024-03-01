@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "IR Fluid Pipe MK2"
+  ],
+  "tasks": {
+    "338A6D704171F6EC": {
+      "type": "heracles:item",
+      "item": "indrev:fluid_pipe_mk3",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "791B97E8B46C3AB4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:fluid_pipe_mk3",
+        "count": 8,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -448,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:fluid_pipe_mk3",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Pipe MK3"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

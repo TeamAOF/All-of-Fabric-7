@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "TR Bronze Ingot"
+  ],
+  "tasks": {
+    "53A0C1A3C2FA7F67": {
+      "type": "heracles:item",
+      "item": "techreborn:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "32611199AE14E864": {
+      "type": "heracles:item",
+      "item": "techreborn:painting_tool",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6D82ED0B4253939D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to rotate or dismantle machines."
+    },
+    "description": [
+      "<h2>Used to rotate or dismantle machines.</h2>",
+      "---",
+      "Many machines require the wrench to safely dismantle, and even where they don't, the wrench is faster and often offers distinct advantages, like preserving power levels and contents.",
+      "",
+      "Right-click to rotate machine. Sneak right-click to dismantle.",
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -288,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

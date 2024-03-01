@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "Poor Mans Compressor"
+  ],
+  "tasks": {
+    "0FFED7DEC1728D8A": {
+      "type": "heracles:item",
+      "item": "indrev:battery",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1ECC3DF4AADC805D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:battery",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "The battery is an essential crafting component but it can also be used as a portable energy storage device.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -256,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:battery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Battery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

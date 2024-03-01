@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Fusion Control Computer"
+  ],
+  "tasks": {
+    "0B0EE94525B3DF2E": {
+      "type": "heracles:item",
+      "item": "techreborn:cell",
+      "nbt": {
+        "fluid": "techreborn:heliumplasma"
+      }
+    }
+  },
+  "rewards": {
+    "3543DA35D40E9A5D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:cell",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:cell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          16,
+          208
+        ]
+      }
+    }
+  }
+}

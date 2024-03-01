@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Modular Core Activated"
+  ],
+  "tasks": {
+    "indrev_modular_mining_drill": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "modular_mining_drill_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:module_efficiency",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "The Modular mining drill is a powerful tool, it can be upgraded for extra speed and range and with the fortune and silk touch modules you can switch between them on the go.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          186,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:mining_drill_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Mining Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

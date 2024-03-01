@@ -1,0 +1,124 @@
+{
+  "dependencies": [
+    "Nikolite Dust"
+  ],
+  "tasks": {
+    "680A01AC3697C85A": {
+      "type": "heracles:item",
+      "item": "indrev:servo_output",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "642EC72609F0F51D": {
+      "type": "heracles:item",
+      "item": "indrev:servo_retriever",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2782415DD5C958FC": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:servo_retriever",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "indrev_servos_reward2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:servo_output",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Item and fluid pipes require servos to function."
+    },
+    "description": [
+      "<h2>Item and fluid pipes require servos to function.</h2>",
+      "---",
+      "Click on the pipe connected to your container to attach a servo. Use a wrench to remove it.",
+      "",
+      "Servos have multiple modes to define priorities. Click on the servo to change it.",
+      "",
+      "Nearest first:  the servo will look for the closest container.",
+      "",
+      "Furthest first: the servo will look for the furthest container.",
+      "",
+      "Random: the servo will choose a random container.",
+      "",
+      "Round Robin: the servo will look for the container with the least amount of the transferred fluid/item.",
+      "",
+      "The Output Servo will push items/fluids to nearby containers UNLESS they are also marked as output.",
+      "",
+      "The Retriever Servo will pull items/fluids from nearby UNLESS they are also marked as retriever.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -304,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:servo_output",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Servos"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

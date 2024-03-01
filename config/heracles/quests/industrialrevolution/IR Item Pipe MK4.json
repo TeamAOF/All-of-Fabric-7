@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "IR Item Pipe MK3"
+  ],
+  "tasks": {
+    "211F0434522552E5": {
+      "type": "heracles:item",
+      "item": "indrev:item_pipe_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "5468A1F377DE8E16": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:item_pipe_mk4",
+        "count": 8,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -496,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:item_pipe_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Pipe MK4"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

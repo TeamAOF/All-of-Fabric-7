@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Machines to Automate"
+  ],
+  "tasks": {
+    "792CDF0A914EFC9C": {
+      "type": "heracles:item",
+      "item": "kibe:heater"
+    }
+  },
+  "rewards": {
+    "5C0521FD0BFF9DA2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:heater",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:heater"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -16,
+          -96
+        ]
+      }
+    }
+  }
+}

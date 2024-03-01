@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Precision Mechanisms"
+  ],
+  "tasks": {
+    "722EF3CA0452388D": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    }
+  },
+  "rewards": {
+    "593885096E3935AA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:mechanical_arm",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_arm"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          512,
+          -48
+        ]
+      }
+    }
+  }
+}

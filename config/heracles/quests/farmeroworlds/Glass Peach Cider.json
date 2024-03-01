@@ -1,0 +1,100 @@
+{
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "Get Glass Peach Cider": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "glass_peach_cider"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Glass Peach Cider",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "peach": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:peach_jam",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -475,
+          -520
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "glass_peach_cider",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646195,
+              "Amplifier": 1
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 5,
+              "Amplifier": 1
+            }
+          ],
+          "AlcPercent": 6,
+          "Color": 15573110
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glass Peach Cider"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

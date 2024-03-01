@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Vacuum Freezer"
+  ],
+  "tasks": {
+    "346B3EA16496606D": {
+      "type": "heracles:item",
+      "item": "techreborn:tungstensteel_ingot"
+    }
+  },
+  "rewards": {
+    "1E36B59DE83D5476": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:tungstensteel_ingot",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:tungstensteel_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          208
+        ]
+      }
+    }
+  }
+}

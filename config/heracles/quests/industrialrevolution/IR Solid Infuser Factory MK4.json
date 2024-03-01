@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "IR Factory Components"
+  ],
+  "tasks": {
+    "37B41479BCC582F1": {
+      "type": "heracles:item",
+      "item": "indrev:solid_infuser_factory_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "533A073C50011CC1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:silver_plate",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "0C24F97292B6B471": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_plate",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Factories are improved versions of machines and they can process 5 items at once."
+    },
+    "description": [
+      "<h2>Factories are improved versions of machines and they can process 5 items at once.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          240,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:solid_infuser_factory_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solid Infuser Factory MK4"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "dependencies": [
+    "Circuit MK4"
+  ],
+  "tasks": {
+    "0969ABA5C3C54F24": {
+      "type": "heracles:item",
+      "item": "indrev:condenser_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "18A20622211F1C01": {
+      "type": "heracles:item",
+      "item": "indrev:smelter_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2FCDBB4BBCA0CABD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:lead_ore",
+        "count": 16,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used in the process of tripling and quadrupling ore."
+    },
+    "description": [
+      "<h2>Used in the process of tripling and quadrupling ore.</h2>",
+      "---",
+      "Insert your ores into an Industrial Smelter. It will smelt them into their fluid forms.",
+      "",
+      "Move your molten ore into a Condenser.",
+      "",
+      "It will solidify them into a Ore Chunk.",
+      "",
+      "Pulverize your Ore Chunk, which will then give you a dust.",
+      "",
+      "Smelt your dust.",
+      "",
+      "Done! Now you've transformed 1 ore into 3 ingots!",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          64,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:iron_purified_ore",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ore Multiplication"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

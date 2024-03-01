@@ -1,0 +1,141 @@
+{
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "7BC7C58E0BEBA275": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6CE5BD1D97182281": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "46BA0A38C7280FAF": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk3",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "5496BFC1BB3C532B": {
+      "type": "heracles:item",
+      "item": "indrev:mining_drill_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0DAEA51F73BEDA12": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "700C7F9977380FB8": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -96,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:mining_drill_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mining Drills"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

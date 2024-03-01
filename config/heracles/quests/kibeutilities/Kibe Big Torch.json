@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Handy Dandy Utilities"
+  ],
+  "tasks": {
+    "679DE0A266DE5437": {
+      "type": "heracles:item",
+      "item": "kibe:big_torch"
+    }
+  },
+  "rewards": {
+    "07B4594626EC18D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: kibe:big_torch",
+    "description": [
+      "<h2>Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:big_torch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          272,
+          -208
+        ]
+      }
+    }
+  }
+}

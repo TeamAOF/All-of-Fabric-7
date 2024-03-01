@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Soot Redstone"
+  ],
+  "tasks": {
+    "6C44B445254F46B8": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:machine_casing"
+    }
+  },
+  "rewards": {
+    "1F6FE2FE8D3A61E5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: dml-refabricated:machine_casing",
+    "description": [
+      "<h2>Craft a Soot Machine Casing.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:machine_casing"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Craft a Soot Machine Casing."
+    },
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -352,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Rolling Machine"
+  ],
+  "tasks": {
+    "0977B8D889B55A08": {
+      "type": "heracles:item",
+      "item": "techreborn:magnalium_plate"
+    }
+  },
+  "rewards": {
+    "175DEA5D9D53D522": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:magnalium_plate",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:magnalium_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -96,
+          -32
+        ]
+      }
+    }
+  }
+}

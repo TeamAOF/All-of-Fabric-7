@@ -1,0 +1,126 @@
+{
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "1C23570FAFDAC0DD": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_shovel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "699EEDB4F5A5483A": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_axe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "48BEF1026E46FEFC": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_pickaxe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6E11908E8414D5C5": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_hoe",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "7DF089A2D0779224": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Harness the true strength of a dragon."
+    },
+    "description": [
+      "<h2>Harness the true strength of a dragon.</h2>",
+      "---",
+      "Scales are dropped by killing the Ender Dragon.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          64,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dragonloot:dragon_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§5Dragon's Tools"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

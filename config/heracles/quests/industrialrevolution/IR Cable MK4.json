@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "IR Cable MK3"
+  ],
+  "tasks": {
+    "indrev_cable_mk4": {
+      "type": "heracles:item",
+      "item": "indrev:cable_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "indrev_cable_mk4_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:cable_mk4",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -496,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:cable_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "IR Cable MK4"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

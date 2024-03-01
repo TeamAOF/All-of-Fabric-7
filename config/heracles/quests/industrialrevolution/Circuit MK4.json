@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Circuit MK3",
+    "Enriched Nikolite Ingot"
+  ],
+  "tasks": {
+    "6C45B817876223D3": {
+      "type": "heracles:item",
+      "item": "indrev:circuit_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "52BF8DAAFC8EC7A0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:enriched_nikolite_ingot",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Circuit go brrrrrr"
+    },
+    "description": [
+      "<h2>Circuit go brrrrrr</h2>",
+      "---",
+      "The best circuit to ever be created, you'll need it for the really good equipment.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          32,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:circuit_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MK4 Circuit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

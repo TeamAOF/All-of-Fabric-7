@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Enriched Nikolite Dust",
+    "Circuit MK2"
+  ],
+  "tasks": {
+    "153F8D1FE2667FE0": {
+      "type": "heracles:item",
+      "item": "indrev:circuit_mk3",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "77E243FC4207E72E": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:enriched_nikolite_dust",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Just when you thought it couldn't get better."
+    },
+    "description": [
+      "<h2>Just when you thought it couldn't get better.</h2>",
+      "---",
+      "Mainly used for MK3 upgrades.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -32,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:circuit_mk3",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MK3 Circuit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fluid Transport"
+  ],
+  "tasks": {
+    "1AF838CDD9E9B36C": {
+      "type": "heracles:item",
+      "item": "create:bar_of_chocolate"
+    }
+  },
+  "rewards": {
+    "6F580D1F490D2212": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:bar_of_chocolate",
+    "description": [
+      "<h2>Come with me and you'll be in a world of pure imagination</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:bar_of_chocolate"
+    },
+    "subtitle": {
+      "text": "Come with me and you'll be in a world of pure imagination"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          224,
+          288
+        ]
+      }
+    }
+  }
+}

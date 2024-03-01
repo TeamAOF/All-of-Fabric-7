@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "Nikolite Dust"
+  ],
+  "tasks": {
+    "7D53A62DB0D746E1": {
+      "type": "heracles:item",
+      "item": "indrev:circuit_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "238F5DC73A868F07": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:circuit_mk1",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "First near quantum level computer circuits"
+    },
+    "description": [
+      "<h2>First near quantum level computer circuits</h2>",
+      "---",
+      "One of the basic components for MK1 machines.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -160,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:circuit_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MK1 Circuit"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

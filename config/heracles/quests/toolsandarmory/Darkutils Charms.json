@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "Tools"
+  ],
+  "tasks": {
+    "06063381E1AB7D20": {
+      "type": "heracles:item",
+      "item": "#darkutils:charms",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "5D4924DED53FF093": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A practice or expression believed to have magic powers."
+    },
+    "description": [
+      "<h2>A practice or expression believed to have magic powers.</h2>",
+      "---",
+      "The portal charm will allow the wearer to walk through portals instantly.",
+      "",
+      "The sleep charm allows the wearer to instantly fall asleep in beds. It will also slowly reduce the insomnia counter which will prevent phantoms from spawning and attacking you.",
+      "",
+      "The experience charm will decrease the pickup delay of experience orbs. It will also slightly increase the amount of experience dropped when killing mobs or mining blocks that drop EXP.",
+      "",
+      "The gluttony charm will allow the wearer to eat food without delay.",
+      "",
+      "All charms can be worn as trinkets.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -96,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": "#darkutils:charms",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charms"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

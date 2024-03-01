@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "IR Machine Block"
+  ],
+  "tasks": {
+    "149E01643E01157E": {
+      "type": "heracles:item",
+      "item": "indrev:solid_infuser_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "410ED412233723AF": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:nikolite_dust",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Has the capability of mixing two ingredients into a different one."
+    },
+    "description": [
+      "<h2>Has the capability of mixing two ingredients into a different one.</h2>",
+      "---",
+      "Mainly used to enrich nikolite for better tiers of machines, can also be used to duplicate flowers, mushrooms and some saplings.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -208,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:solid_infuser_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solid Infuser MK1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

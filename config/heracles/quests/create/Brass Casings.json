@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Brass Age Incoming"
+  ],
+  "tasks": {
+    "1E56B026B862A109": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "create:brass_casing"
+    }
+  },
+  "rewards": {
+    "75CF00B6F9CB419C": {
+      "type": "heracles:xp",
+      "xptype": "level",
+      "amount": 10
+    },
+    "51471F5CB46993E8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Brass Casings",
+    "description": [
+      "<h2>The start of Brass Age</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_casing"
+    },
+    "subtitle": {
+      "text": "The start of Brass Age"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          320,
+          16
+        ]
+      }
+    }
+  }
+}

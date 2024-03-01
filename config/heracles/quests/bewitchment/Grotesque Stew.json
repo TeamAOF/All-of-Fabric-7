@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Demon Heart"
+  ],
+  "tasks": {
+    "7C20D7008EA37334": {
+      "type": "heracles:item",
+      "item": "bewitchment:grotesque_stew"
+    }
+  },
+  "rewards": {
+    "3F7CD0CEFA8D42B2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/magic/rare",
+          "Name": "Magic Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: bewitchment:grotesque_stew",
+    "description": [
+      "<h2>Gross.</h2>",
+      "---",
+      "This questionable stew is part of the pledging rite.",
+      "",
+      "By drinking while deeply looking into the eyes of a Greater Demon, a witch can pledge to them.",
+      "",
+      "Pledging to a Greater Demon has unique benefits depending on the Demon.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:grotesque_stew"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "subtitle": {
+      "text": "Gross."
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          432,
+          -64
+        ]
+      }
+    }
+  }
+}

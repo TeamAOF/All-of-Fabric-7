@@ -1,0 +1,108 @@
+{
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "Get Spiked Mullet Wine": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "spiked_mullet_wine"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Spiked Mullet Wine",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "pirckly": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:sawblade_grass",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -475,
+          -400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "spiked_mullet_wine",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1,
+              "Amplifier": 1
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 2400,
+              "Id": 1646177,
+              "Amplifier": 0
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 600,
+              "Id": 15,
+              "Amplifier": 0
+            }
+          ],
+          "AlcPercent": 22,
+          "Color": 10365209
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Spiked Mullet Wine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

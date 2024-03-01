@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Drain"
+  ],
+  "tasks": {
+    "42B06030439B3BDC": {
+      "type": "heracles:item",
+      "item": "techreborn:resin_basin"
+    }
+  },
+  "rewards": {
+    "5A4F27CA9254320E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:hopper"
+      }
+    },
+    "4201C9EF964ABE68": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:chest"
+      }
+    },
+    "46EFAB6A4F27DD98": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:resin_basin",
+    "description": [
+      "<h2>It lets you automatically collect sap from trees</h2>",
+      "---",
+      "> To automate, place a hopper or pipes under it.",
+      "> Make sure the tree has a sap spot.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:resin_basin"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "It lets you automatically collect sap from trees"
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -608,
+          0
+        ]
+      }
+    }
+  }
+}

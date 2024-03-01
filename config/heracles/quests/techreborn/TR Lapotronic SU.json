@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "TR MV Transformer"
+  ],
+  "tasks": {
+    "10441494EFB773E2": {
+      "type": "heracles:item",
+      "item": "techreborn:lapotronic_su",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "21FB0E4A828F0DC2": {
+      "type": "heracles:item",
+      "item": "techreborn:lsu_storage",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "726CE2020788DEA7": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A battery multi-block that stores energy and charges items. "
+    },
+    "description": [
+      "<h2>A battery multi-block that stores energy and charges items. </h2>",
+      "---",
+      "1 32 E/t base input, + 1 E/t per attached LESU Storage. ",
+      "",
+      "If >= 32 attached, increased to 128 Et; If >= 128",
+      "",
+      "Between 32 and 128, it will scale +1 E/t per LESU Storage2 x = number of LESU Storage blocks attached;\\eg. 5 Storage Blocks attached would have an output of 10 E/t (5+5) and a storage of 6 mE (1+5)",
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -496,
+          -400
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:lsu_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LESU"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

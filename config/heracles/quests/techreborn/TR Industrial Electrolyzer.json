@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "TR Advanced Circuit",
+    "TR Advanced Machine Frame"
+  ],
+  "tasks": {
+    "307D2D572A30E77D": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_electrolyzer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "13B92E8E61D1F85D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Requires Advanced Circuit and Advanced Machine Casing"
+    },
+    "description": [
+      "<h2>Requires Advanced Circuit and Advanced Machine Casing</h2>",
+      "---",
+      "Used to produce Fluids and Dusts from different items.",
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          240,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_electrolyzer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: techreborn:industrial_electrolyzer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

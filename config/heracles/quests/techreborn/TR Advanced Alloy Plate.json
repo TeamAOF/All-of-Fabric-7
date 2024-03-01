@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Compressor"
+  ],
+  "tasks": {
+    "3C45671BBF04B568": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_alloy_plate"
+    }
+  },
+  "rewards": {
+    "7EBF744766EF29EF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:advanced_alloy_plate",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_alloy_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -208,
+          -192
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR UU Matter"
+  ],
+  "tasks": {
+    "13D7EEA582AEA0A9": {
+      "type": "heracles:item",
+      "item": "techreborn:fluid_replicator"
+    }
+  },
+  "rewards": {
+    "23ECAF79C3F8CE94": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:fluid_replicator",
+    "description": [
+      "<h2>An advanced machine capable of replicating fluid placed inside hallow in multiblock structure using energy and UU-Matter.</h2>",
+      "---",
+      "Fluid Replicator requires 3x3x1 multi-block with hallow in the center.",
+      "",
+      "First layer is made of 8x Reinforced Machine Casing.",
+      "",
+      "Attach machine to multiblock on the same level.",
+      "",
+      "Put fluid to replicate inside hole in multi-block.",
+      "",
+      "Provide energy and UU-MatterUU-Matter to replicate fluid. ",
+      "",
+      "You can either use buckets  cells or pipes to extract fluid from internal tank.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:fluid_replicator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "An advanced machine capable of replicating fluid placed inside hallow in multiblock structure using energy and UU-Matter."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -112,
+          -448
+        ]
+      }
+    }
+  }
+}

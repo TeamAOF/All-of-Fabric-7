@@ -1,0 +1,139 @@
+{
+  "dependencies": [
+    "Titration Barrel Recipes"
+  ],
+  "tasks": {
+    "Get Rabbit Poison": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "rabbit_poison"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Rabbit Poison",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "wither": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wither_rose",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "rabbit": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:rabbit",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -515,
+          -430
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:infused_beverage",
+        "count": 4,
+        "nbt": {
+          "Variant": "rabbit_poison",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 3600,
+              "Id": 1646193,
+              "Amplifier": 0
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 40,
+              "Id": 15,
+              "Amplifier": 0
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 3600,
+              "Id": 19,
+              "Amplifier": 0
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 2400,
+              "Id": 1,
+              "Amplifier": 1
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 300,
+              "Id": 9,
+              "Amplifier": 0
+            }
+          ],
+          "AlcPercent": 7,
+          "Color": 9518003
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rabbit Poison"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Dielectric Casing"
+  ],
+  "tasks": {
+    "Powah Generating Check": {
+      "title": "Powah Generation",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -96,
+          72
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "title": {
+      "translate": "Generating Powah"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

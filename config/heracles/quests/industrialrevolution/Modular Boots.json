@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "Modular Core Activated"
+  ],
+  "tasks": {
+    "indrev_modular_boots": {
+      "type": "heracles:item",
+      "item": "indrev:modular_armor_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "indrev_modular_boots_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:module_color_black",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "The Modular boots can be upgraded with certain unique modules:",
+      "-Jump boost module",
+      "-Feather falling module",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          156,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:modular_armor_boots",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Boots"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

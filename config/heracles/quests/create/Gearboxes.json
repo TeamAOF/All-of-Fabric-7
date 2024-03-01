@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Cogwheel"
+  ],
+  "tasks": {
+    "32294B520ED00F7A": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:gearbox"
+    }
+  },
+  "rewards": {
+    "3FAEC5485A1313E6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "create:vertical_gearbox",
+        "count": 8
+      }
+    },
+    "6F2FBA4BA2264E6A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Gearboxes",
+    "description": [
+      "<h2>If you want your rotation mirrored or angled</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:gearbox"
+    },
+    "subtitle": {
+      "text": "If you want your rotation mirrored or angled"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          -112
+        ]
+      }
+    }
+  }
+}

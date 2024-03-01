@@ -1,0 +1,133 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "12EFACEEF2CB7BB2": {
+      "type": "heracles:item",
+      "item": "powah:dielectric_paste",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "dielectric paste reward": {
+      "title": "Make one, get one free",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:dielectric_paste",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "48B3296F55328CBE": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:wrench",
+        "count": 1,
+        "nbt": {
+          "PowahWrenchNBT": {}
+        }
+      },
+      "type": "heracles:item"
+    },
+    "6672CBBA98D952AA": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "Need --/6/MOAR POWAH!/6/--, do you?",
+      "You've come to the right place./8/*/8/",
+      "",
+      "--Powah!-- is all about generating, storing, and transferring /c/power/c/.",
+      "",
+      "/8/*--But not for --Modern Industrialization./8/",
+      "",
+      "---",
+      "",
+      "--/b/Dielectric paste/b/-- is the first of seven essential substances in --Powah!--.",
+      "",
+      "<details summary=\"dielectric\">",
+      "",
+      "/ˌdīəˈlektrik/ &&7&&oadj.&&r",
+      "",
+      "--An electrical insulator that can be polarised by an applied magnetic field--",
+      "</details>",
+      "",
+      "<details summary=\"paste\">",
+      "",
+      "/pāst/ &&7&&on.&&r",
+      "",
+      "--A substance that behaves as a solid until a sufficiently large load or strees is applied, at which point it flows like a fluid.--",
+      "</details>",
+      "",
+      "<details summary=\"hint\">",
+      "",
+      "It's for making capacitors, --not-- for brushing your teeth.",
+      "</details>"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -144,
+          -4
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:dielectric_paste",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Dielectric Paste"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

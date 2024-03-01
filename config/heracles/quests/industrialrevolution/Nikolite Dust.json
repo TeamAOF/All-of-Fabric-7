@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Welcome to the Revolution"
+  ],
+  "tasks": {
+    "Nikolite Dust.b": {
+      "type": "heracles:item",
+      "item": "indrev:nikolite_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "361AEFAEDC96E694": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:nikolite_dust",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This material helped spark a myriad of devices. Forever changing the universe."
+    },
+    "description": [
+      "<h2>This material helped spark a myriad of devices. Forever changing the universe.</h2>",
+      "---",
+      "Main component used in machines, from basic to advanced.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -256,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:nikolite_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nikolite Dust"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

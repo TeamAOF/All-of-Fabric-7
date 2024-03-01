@@ -1,0 +1,174 @@
+{
+  "dependencies": [
+    "(dis)charging"
+  ],
+  "tasks": {
+    "powah_energy_hopper_task": {
+      "type": "heracles:composite",
+      "amount": 1,
+      "tasks": {
+        "task_energy_hopper_starter": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_starter",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_basic": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_basic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_hardened": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_hardened",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_blazing": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_blazing",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_niotic": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_niotic",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_spirited": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_spirited",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        },
+        "task_energy_hopper_nitro": {
+          "type": "heracles:item",
+          "item": "powah:energy_hopper_nitro",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "energy hopper reward": {
+      "title": "Powah! Rare Lootbag",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "## Sidecar Energy",
+      "",
+      "  This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          92,
+          -108
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_hopper_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles_flipped.png",
+    "title": {
+      "translate": "Energy Hopper"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

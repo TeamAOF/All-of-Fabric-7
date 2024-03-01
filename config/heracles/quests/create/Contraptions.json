@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Andesite Alloy"
+  ],
+  "tasks": {
+    "59FFD46CE7E0FEE5": {
+      "type": "heracles:item",
+      "item": "create:cart_assembler"
+    }
+  },
+  "rewards": {
+    "4D7ECC99BD1B65CD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal",
+        "count": 32
+      }
+    },
+    "453152B872C3CAFC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Minecart Contraptions",
+    "description": [
+      "<h2>What? How is that Powered?</h2>",
+      "---",
+      "> You can also create minecart contraptions and they will not need any power from the previous quests.   ",
+      "> However, you'll need to power the minecart. Good thing we have Furnace Minecart, right?",
+      "> You do remember Minecart Furnaces right? Right?",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:cart_assembler"
+    },
+    "subtitle": {
+      "text": "What? How is that Powered?"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -64,
+          -112
+        ]
+      }
+    }
+  }
+}

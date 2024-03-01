@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Modular Core Activated"
+  ],
+  "tasks": {
+    "indrev_gamer_axe": {
+      "type": "heracles:item",
+      "item": "indrev:gamer_axe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "indrev_gamer_axe_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:module_sharpness",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "The gamer axe is a powerful and fast swinging weapon and tool, it can be used both as an axe and as a weapon, to be used as a weapon you must go to controls and make a keybind to turn on the gamer axe, while the axe is active it will quickly drain energy but have a lot of damage.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          216,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:gamer_axe",
+        "count": 1,
+        "nbt": {
+          "Active": 1,
+          "Progress": 1,
+          "Damage": 0,
+          "selected": {},
+          "energy": 9185
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gamer Axe"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

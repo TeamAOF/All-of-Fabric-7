@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Mechanical Crafters"
+  ],
+  "tasks": {
+    "171641F6600EC441": {
+      "type": "heracles:item",
+      "item": "create:potato_cannon"
+    }
+  },
+  "rewards": {
+    "00A8373D4D35C0B8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:poisonous_potato",
+        "count": 32
+      }
+    },
+    "3901D5A420576077": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:potato_cannon",
+    "description": [
+      "<h2>When you have too many crops</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:potato_cannon"
+    },
+    "subtitle": {
+      "text": "When you have too many crops"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          288,
+          80
+        ]
+      }
+    }
+  }
+}

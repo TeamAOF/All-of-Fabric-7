@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "IR Machine Block"
+  ],
+  "tasks": {
+    "2D28B880B3E44414": {
+      "type": "heracles:item",
+      "item": "indrev:recycler_mk2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "2B02F5E3B81155C5": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:biomass",
+        "count": 8,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Can process organic resources into biomass which can be used for energy generation."
+    },
+    "description": [
+      "<h2>Can process organic resources into biomass which can be used for energy generation.</h2>",
+      "---",
+      "Seeds, crops, grass, dirt and more can be converted into biomass for future use in power generation.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -208,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:recycler_mk2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Recycler"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

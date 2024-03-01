@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "TR Electric Furnace"
+  ],
+  "tasks": {
+    "022C0E926899C780": {
+      "type": "heracles:item",
+      "item": "techreborn:alloy_smelter"
+    }
+  },
+  "rewards": {
+    "228B3542D4683300": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/common",
+          "Name": "Tech Reborn Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: techreborn:alloy_smelter",
+    "description": [
+      "<h2>A Low tier machine which allows you to make alloys from ingots or dusts.</h2>",
+      "---",
+      "It consumes energy at 128E rate and has internal buffer of 4000E.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "techreborn:alloy_smelter"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "subtitle": {
+      "text": "A Low tier machine which allows you to make alloys from ingots or dusts."
+    },
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -336,
+          160
+        ]
+      }
+    }
+  }
+}

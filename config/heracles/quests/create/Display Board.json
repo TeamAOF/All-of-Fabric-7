@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Display Link"
+  ],
+  "tasks": {
+    "4F13246919A2B6DF": {
+      "type": "heracles:item",
+      "item": "create:display_board"
+    }
+  },
+  "rewards": {
+    "63A7DD6EFB600BC3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: create:display_board",
+    "description": [
+      "<h2>This looks like the Flight information display system</h2>",
+      "---",
+      "> Create Planes next update?",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:display_board"
+    },
+    "subtitle": {
+      "text": "This looks like the Flight information display system"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          320,
+          -112
+        ]
+      }
+    }
+  }
+}

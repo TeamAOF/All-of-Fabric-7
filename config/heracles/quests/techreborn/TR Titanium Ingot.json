@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "TR Industrial Blast Furnace"
+  ],
+  "tasks": {
+    "1D93E0A128C9FD8A": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:titanium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "38281648B2227461": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/epic",
+          "Name": "Tech Reborn Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -96,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:titanium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: modern_industrialization:titanium_ingot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

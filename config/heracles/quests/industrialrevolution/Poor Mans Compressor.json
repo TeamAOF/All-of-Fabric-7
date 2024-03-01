@@ -1,0 +1,114 @@
+{
+  "dependencies": [
+    "Nikolite Dust"
+  ],
+  "tasks": {
+    "38FF00648317CA47": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:tin_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "3F644DD10ADA8B85": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:copper_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "550F31D9A31FE1AC": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:iron_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "278A2E90AFCDB9A0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_hammer",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Damage": 0,
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Forge Hammer from MI and make your first plates."
+    },
+    "description": [
+      "<h2>Craft a Forge Hammer from MI and make your first plates.</h2>",
+      "---",
+      "TIP: Use hammers while crafting in the Forge Hammer.",
+      "",
+      "These hammers will save you lots of resources.",
+      "",
+      "NOTE: Indrev Hammer is disabled.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -256,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:tin_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Poor Man's Compressor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

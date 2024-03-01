@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "IR Machine Block"
+  ],
+  "tasks": {
+    "7BFD5C78BE44AE81": {
+      "type": "heracles:item",
+      "item": "indrev:pulverizer_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "46131EB89CEFFECD": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:iron_ore",
+        "count": 16,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/common",
+          "Name": "Industrial Revolution Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Mainly used for processing ores into two dusts."
+    },
+    "description": [
+      "<h2>Mainly used for processing ores into two dusts.</h2>",
+      "---",
+      "Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling.",
+      "",
+      "The Pulverizer will turn 1 ore into 2 dusts which can then be smelted into 2 ingots.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          -208,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:pulverizer_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pulverizer MK1"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

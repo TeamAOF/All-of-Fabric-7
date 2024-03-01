@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Belt Connector"
+  ],
+  "tasks": {
+    "510658A8DBBB0222": {
+      "type": "heracles:item",
+      "item": "create:weighted_ejector"
+    }
+  },
+  "rewards": {
+    "0335713E26806CA2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Springboard",
+    "description": [
+      "<h2>Do you want your items to fly?</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:weighted_ejector"
+    },
+    "subtitle": {
+      "text": "Do you want your items to fly?"
+    },
+    "groups": {
+      "Create": {
+        "position": [
+          -32,
+          160
+        ]
+      }
+    }
+  }
+}
