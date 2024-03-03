@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:rabbit_foot",
+        "id": "minecraft:ghast_tear",
         "count": 8
       },
       "type": "heracles:item"

@@ -62,6 +62,36 @@
         "count": 2
       },
       "type": "heracles:item"
+    },
+    "snow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ecologics:snow_bricks",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "snow2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "travelersbackpack:snow",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

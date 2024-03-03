@@ -44,7 +44,7 @@
       },
       "item": {
         "id": "minecraft:shroomlight",
-        "count": 1
+        "count": 8
       },
       "type": "heracles:item"
     },
@@ -59,7 +59,37 @@
       },
       "item": {
         "id": "minecraft:fermented_spider_eye",
-        "count": 1
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "lava": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "blockus:lava_polished_blackstone_bricks",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "lava2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "blockus:lava_bricks",
+        "count": 32
       },
       "type": "heracles:item"
     }

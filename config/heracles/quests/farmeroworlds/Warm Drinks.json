@@ -62,6 +62,24 @@
       },
       "type": "heracles:item"
     },
+    "fire": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "wizards:staff_netherite_fire",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
     "2": {
       "title": "",
       "icon": {
@@ -74,6 +92,21 @@
       "item": {
         "id": "farmersdelight:cabbage",
         "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "fire2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "wizards:fire_spell_book",
+        "count": 1
       },
       "type": "heracles:item"
     }
