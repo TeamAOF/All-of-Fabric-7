@@ -6,7 +6,7 @@
     "edcfp": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_flower_pie",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "edcc": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_cookie",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "edes": {
       "type": "heracles:item",
       "item": "ends_delight:ender_sauce",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "edems": {
       "type": "heracles:item",
       "item": "ends_delight:end_mixed_salad",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "eddbcs": {
       "type": "heracles:item",
       "item": "ends_delight:dragon_breath_and_chorus_soup",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -76,7 +76,7 @@
     "edcfp1": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_pie",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -90,7 +90,7 @@
     "edsrc": {
       "type": "heracles:item",
       "item": "ends_delight:stuffed_rice_cake",
-      "amount": 2,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -104,7 +104,7 @@
     "edcfp0": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_popsicle",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -132,7 +132,7 @@
     "edas": {
       "type": "heracles:item",
       "item": "ends_delight:assorted_salad",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -145,6 +145,21 @@
     }
   },
   "rewards": {
+    "breath_soup": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ends_delight:dragon_breath_and_chorus_soup",
+        "count": 6
+      },
+      "type": "heracles:item"
+    },
     "1": {
       "title": "",
       "icon": {
@@ -187,6 +202,36 @@
       "item": {
         "id": "farmersdelight:tomato",
         "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "chorus": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chorus_flower",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "chorus_food": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ends_delight:chorus_cookie",
+        "count": 8
       },
       "type": "heracles:item"
     }

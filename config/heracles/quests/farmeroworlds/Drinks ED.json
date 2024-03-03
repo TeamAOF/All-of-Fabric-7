@@ -6,7 +6,7 @@
     "edcfmt": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_milk_tea",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -20,7 +20,7 @@
     "eddbs": {
       "type": "heracles:item",
       "item": "ends_delight:dragon_breath_soda",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -34,7 +34,7 @@
     "edcfw": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_wine",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -48,7 +48,7 @@
     "edcft": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_flower_tea",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
@@ -62,7 +62,7 @@
     "edbt": {
       "type": "heracles:item",
       "item": "ends_delight:bubble_tea",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {

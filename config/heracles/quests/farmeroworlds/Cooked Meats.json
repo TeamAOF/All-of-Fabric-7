@@ -99,8 +99,11 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:charcoal",
-        "count": 8
+        "id": "ends_delight:dragon_tooth_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
@@ -114,7 +117,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:golden_apple",
+        "id": "minecraft:enchanted_golden_apple",
         "count": 1
       },
       "type": "heracles:item"
