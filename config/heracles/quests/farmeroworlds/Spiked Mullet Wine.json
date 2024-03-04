@@ -57,9 +57,8 @@
       "item": {
         "id": "spectrum:infused_beverage",
         "count": 1,
-        "nbt": {
-          "Variant": "spiked_mullet_wine"
-      },
+        "nbt": { "Variant": "spiked_mullet_wine" }
+    	},
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
