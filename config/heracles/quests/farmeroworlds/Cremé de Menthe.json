@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "6ACFFCD1F7A32369",
     "Titration Barrel Recipes"
   ],
   "tasks": {
@@ -21,7 +22,23 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "mint": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:mermaids_gem",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -40,8 +57,24 @@
     "icon": {
       "item": {
         "id": "spectrum:infused_beverage",
-        "count": 1,
-        "nbt": { "Variant": "mint_cream"}
+        "count": 4,
+        "nbt": {
+          "Variant": "mint_cream",
+          "Thickness": 1,
+          "AgeDays": 288,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646179,
+              "Amplifier": 1
+            }
+          ],
+          "AlcPercent": 23,
+          "Color": 2752440
+        }
       },
       "type": "heracles:item"
     },
@@ -52,9 +85,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

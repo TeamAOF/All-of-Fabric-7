@@ -55,7 +55,7 @@
   },
   "display": {
     "subtitle": {
-      "text": "Glow Berry Liquor"
+      "text": ""
     },
     "description": [
       ""
@@ -71,9 +71,31 @@
     "icon": {
       "item": {
         "id": "spectrum:infused_beverage",
-        "count": 1,
+        "count": 4,
         "nbt": {
-          "Variant": "glow_berry_liquor"
+          "Variant": "glow_berry_liquor",
+          "Thickness": 1,
+          "AgeDays": 216,
+          "CustomPotionEffects": [
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 9600,
+              "Id": 1646184,
+              "Amplifier": 1
+            },
+            {
+              "Ambient": 0,
+              "ShowIcon": 1,
+              "ShowParticles": 1,
+              "Duration": 4800,
+              "Id": 24,
+              "Amplifier": 0
+            }
+          ],
+          "AlcPercent": 22,
+          "Color": 16760721
         }
       },
       "type": "heracles:item"
@@ -85,9 +107,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

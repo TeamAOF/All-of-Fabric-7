@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "Clotted Cream",
     "Titration Barrel Recipes"
   ],
   "tasks": {
@@ -64,7 +65,7 @@
       "Farmer O' Worlds": {
         "position": [
           -515,
-          -550
+          -551
         ]
       }
     },
@@ -107,9 +108,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

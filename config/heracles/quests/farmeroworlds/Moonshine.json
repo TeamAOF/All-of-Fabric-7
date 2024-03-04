@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "22E2CD17FE2A8869",
     "Titration Barrel Recipes"
   ],
   "tasks": {
@@ -33,7 +34,7 @@
       },
       "item": {
         "id": "spectrum:paltaeria_gem",
-        "count": 1
+        "count": 2
       },
       "type": "heracles:item"
     }
@@ -108,9 +109,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }
