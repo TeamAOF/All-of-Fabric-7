@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: Vacuum Hopper",
+    "title": "Vacuum Hopper",
     "description": [
       "<h2>Pulls nearby dropped items and experience orbs to their own inventory.</h2>",
       "---",

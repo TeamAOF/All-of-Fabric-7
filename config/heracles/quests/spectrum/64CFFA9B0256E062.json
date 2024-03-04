@@ -70,7 +70,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Acquire: spectrum:lime_pigment"
+      "translate": "spectrum:lime_pigment"
     }
   },
   "settings": {

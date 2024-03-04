@@ -83,7 +83,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Acquire: techreborn:implosion_compressor"
+      "translate": "techreborn:implosion_compressor"
     }
   },
   "settings": {

@@ -126,7 +126,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
-      "text": "Acquire: kibe:entangled_bag"
+      "text": "kibe:entangled_bag"
     }
   },
   "settings": {

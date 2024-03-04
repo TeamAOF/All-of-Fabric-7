@@ -65,7 +65,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Acquire: modern_industrialization:titanium_ingot"
+      "translate": "modern_industrialization:titanium_ingot"
     }
   },
   "settings": {

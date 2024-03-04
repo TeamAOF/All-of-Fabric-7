@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: Assembly Machine",
+    "title": "Assembly Machine",
     "description": [
       "<h2>Used to assemble components out of ingredients.</h2>",
       "---"

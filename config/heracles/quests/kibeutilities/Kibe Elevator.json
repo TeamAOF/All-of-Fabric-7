@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: White Elevator",
+    "title": "White Elevator",
     "description": [
       "<h2>When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it.</h2>",
       "---"
