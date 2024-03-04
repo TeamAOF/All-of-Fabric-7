@@ -73,7 +73,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "matter_fabricator
+      "translate": "matter_fabricator"
     }
   },
   "settings": {

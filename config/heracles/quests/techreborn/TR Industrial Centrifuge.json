@@ -69,7 +69,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "industrial_centrifuge
+      "translate": "industrial_centrifuge"
     }
   },
   "settings": {
