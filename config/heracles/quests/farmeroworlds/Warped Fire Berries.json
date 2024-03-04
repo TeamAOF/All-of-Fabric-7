@@ -18,7 +18,23 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "warped": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "strangeberries:warped_fire_berries",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""

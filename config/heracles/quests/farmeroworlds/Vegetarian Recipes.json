@@ -175,6 +175,21 @@
       },
       "type": "heracles:item"
     },
+    "chorus_flower": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chorus_flower",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "3": {
       "title": "",
       "icon": {
@@ -187,6 +202,51 @@
       "item": {
         "id": "farmersdelight:tomato",
         "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "chorus_fruit": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:chorus_fruit",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "chorus": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ends_delight:dragon_breath_and_chorus_soup",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "chorus2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "phantasm:chorus_fruit_salad",
+        "count": 8
       },
       "type": "heracles:item"
     }

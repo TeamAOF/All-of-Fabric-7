@@ -18,13 +18,29 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "invisibility": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "strangeberries:invisibility_berries",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "Found in ancient cities on skulk or deepslate",
+      "Found in caves and ancient cities on skulk or deepslate",
       "<br/>",
       "Can be used to make invisibility potions"
     ],

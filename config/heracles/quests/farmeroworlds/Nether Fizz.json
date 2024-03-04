@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "kibe:black_glider",
-        "count": 1,
+        "id": "nethervinery:nether_fizz",
+        "count": 3,
         "nbt": {
           "Damage": 0
         }
