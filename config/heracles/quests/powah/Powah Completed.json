@@ -88,8 +88,13 @@
     },
     "icon": {
       "item": {
-        "id": "trofers:large_pillar",
-        "count": 1
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:powah"
+          }
+        }
       },
       "type": "heracles:item"
     },
