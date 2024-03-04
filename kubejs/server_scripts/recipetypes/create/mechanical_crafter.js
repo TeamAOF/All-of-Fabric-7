@@ -38,16 +38,19 @@ e.custom({
     "item": "kubejs:hyper_nitro_crystal"
   },
   "T": {
-    "item": "the_bumblezone:essence_of_the_bees"
+    "item": 'indrev:module_feather_falling'
   },
   "C": {
-    "item": "indrev:modular_core_activated"
+    "item": 'piercingpaxels:upgrade_unbreakable'
   },
   "B": {
     "item": "techreborn:superconductor"
   },
   "S": {
-    "item": "botania:spawner_mover"
+    "item": 'spectrum:take_off_belt'
+  },
+  "D": {
+    "item": 'spectrum:puff_circlet'
   },
   "G": {
     "item": "kibe:water_ring"
@@ -59,23 +62,32 @@ e.custom({
     "item": "kibe:diamond_ring"
   },
   "O": {
-    "item": "ad_astra:calorite_engine"
+    "item": 'ad_astra:ostrum_engine'
   },
   "P": {
-    "item": "bosses_of_mass_destruction:levitation_block"
+    "item": 'botania:lens_flare'
+  },
+  "Q": {
+    "item": 'botania:flare_chakram'
   },
   "F": {
-    "item": "artifacts:eternal_steak"
+    "item": 'create_jetpack:netherite_jetpack'
+  },
+  "L": {
+    "item": 'artifacts:cloud_in_a_bottle'
+  },
+  "J": {
+    "item": 'artifacts:helium_flamingo'
   },
   "M": {
     "item": "kubejs:mother_of_all_pearls"
   }
 },
 "pattern": [
-    'UPTBO',
-    'PSESB',
+    'UQTBO',
+    'QDEJB',
     'CGHGM',
-    'BSESP',
+    'BLESP',
     'OBFPU'
 ],
 "result": {
@@ -92,10 +104,10 @@ e.custom({
         "item": 'zenith:mythic_material'
     },
     "B": {
-        "item": 'bygonenether:warped_ender_pearl'
+        "item": 'botania:mana_pearl'
     },
     "C": {
-        "item": 'minecraft:ender_pearl'
+        "item": 'powah:aerial_pearl'
     },
     "D": {
         "item": 'endermanoverhaul:icy_pearl'
