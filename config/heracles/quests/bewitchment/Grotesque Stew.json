@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Demon Heart"
   ],
   "tasks": {
     "7C20D7008EA37334": {
       "type": "heracles:item",
-      "item": "bewitchment:grotesque_stew"
+      "item": "bewitchment:grotesque_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "3F7CD0CEFA8D42B2": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Magic Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Grotesque Stew",
+    "subtitle": {
+      "translate": "Gross."
+    },
     "description": [
       "<h2>Gross.</h2>",
       "---",
@@ -36,14 +55,6 @@
       "Pledging to a Greater Demon has unique benefits depending on the Demon.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:grotesque_stew"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "Gross."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -51,6 +62,24 @@
           -64
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:grotesque_stew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Grotesque Stew"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

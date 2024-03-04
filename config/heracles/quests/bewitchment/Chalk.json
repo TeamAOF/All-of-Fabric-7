@@ -1,5 +1,4 @@
 {
-  "settings": {},
   "dependencies": [
     "Crystal Ball",
     "Wood Ash"
@@ -7,34 +6,49 @@
   "tasks": {
     "372B31C55E138C15": {
       "type": "heracles:item",
-      "item": "bewitchment:chalk"
+      "item": "bewitchment:chalk",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "63432E061B2D2063": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Chalk",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:chalk"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [
@@ -42,6 +56,27 @@
           0
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:chalk",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Chalk"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

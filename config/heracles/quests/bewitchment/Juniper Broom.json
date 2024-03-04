@@ -1,5 +1,4 @@
 {
-  "settings": {},
   "dependencies": [
     "Crystal Ball",
     "Demon Heart"
@@ -7,40 +6,76 @@
   "tasks": {
     "304B313C6A41FD87": {
       "type": "heracles:item",
-      "item": "bewitchment:juniper_broom"
+      "item": "bewitchment:juniper_broom",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "482BC1F93336875E": {
-      "type": "heracles:item",
-      "item": {
-        "id": "minecraft:crimson_nylium",
-        "count": 12
-      }
-    },
-    "6DA0374A298E1188": {
-      "type": "heracles:item",
-      "item": {
-        "id": "minecraft:warped_nylium",
-        "count": 12
-      }
-    },
     "4025B11483CCF66D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Magic Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "6DA0374A298E1188": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:warped_nylium",
+        "count": 12
+      },
+      "type": "heracles:item"
+    },
+    "482BC1F93336875E": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:crimson_nylium",
+        "count": 12
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Juniper Broom",
+    "subtitle": {
+      "translate": "Brooms are magical devices commonly used by witches."
+    },
     "description": [
       "<h2>Brooms are magical devices commonly used by witches.</h2>",
       "---",
@@ -59,14 +94,6 @@
       "Can have Active Sigils applied to them, much like any other Dragon's Blood block.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:juniper_broom"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "Brooms are magical devices commonly used by witches."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -74,6 +101,24 @@
           0
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:juniper_broom",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Juniper Broom"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

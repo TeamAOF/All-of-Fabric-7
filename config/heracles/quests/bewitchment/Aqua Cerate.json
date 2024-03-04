@@ -1,39 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Witch Cauldron"
   ],
   "tasks": {
     "769432E98298B4C8": {
       "type": "heracles:item",
-      "item": "bewitchment:aqua_cerate"
+      "item": "bewitchment:aqua_cerate",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "3D990A46A273A9BA": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Aqua Cerate",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:aqua_cerate"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [
@@ -41,6 +55,24 @@
           32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:aqua_cerate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Aqua Cerate"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

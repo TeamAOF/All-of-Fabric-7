@@ -1,39 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Taglock"
   ],
   "tasks": {
     "4837A378979ED1AE": {
       "type": "heracles:item",
-      "item": "bewitchment:fatigue_poppet"
+      "item": "bewitchment:fatigue_poppet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "35FE11868ED36D13": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Fatigue Poppet",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:fatigue_poppet"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [
@@ -41,6 +55,27 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:fatigue_poppet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Fatigue Poppet"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

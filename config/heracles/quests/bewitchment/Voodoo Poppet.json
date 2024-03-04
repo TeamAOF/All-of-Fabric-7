@@ -1,39 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Taglock"
   ],
   "tasks": {
     "433EA789E4B03C5B": {
       "type": "heracles:item",
-      "item": "bewitchment:voodoo_poppet"
+      "item": "bewitchment:voodoo_poppet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "05A83292D29CD735": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Voodoo Poppet",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:voodoo_poppet"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [
@@ -41,6 +55,27 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:voodoo_poppet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Voodoo Poppet"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

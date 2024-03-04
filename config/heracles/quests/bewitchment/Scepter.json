@@ -1,31 +1,51 @@
 {
-  "settings": {},
   "dependencies": [
+    "Caduceus",
     "Demon Horn"
   ],
   "tasks": {
     "21DC85807695CFAB": {
       "type": "heracles:item",
-      "item": "bewitchment:scepter"
+      "item": "bewitchment:scepter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "36C770DEFFEFA3B5": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Magic Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Scepter",
+    "subtitle": {
+      "translate": "This powerful relic is obtained by defeating Leonard."
+    },
     "description": [
       "<h2>This powerful relic is obtained by defeating Leonard.</h2>",
       "---",
@@ -34,14 +54,6 @@
       "The Scepter can be repaired using Netherie Ingots.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:scepter"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "This powerful relic is obtained by defeating Leonard."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -49,6 +61,27 @@
           -128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:scepter",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Scepter"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

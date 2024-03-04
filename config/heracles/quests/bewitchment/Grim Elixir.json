@@ -1,39 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Witch Cauldron"
   ],
   "tasks": {
     "251EFDBE770E7549": {
       "type": "heracles:item",
-      "item": "bewitchment:grim_elixir"
+      "item": "bewitchment:grim_elixir",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "5932482FE7A9029A": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Grim Elixir",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:grim_elixir"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [
@@ -41,6 +55,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:grim_elixir",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Grim Elixir"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

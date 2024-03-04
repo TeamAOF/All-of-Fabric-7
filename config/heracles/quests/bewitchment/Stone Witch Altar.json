@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Oak Bark"
   ],
   "tasks": {
     "23AFD5A3B04D25BE": {
       "type": "heracles:item",
-      "item": "bewitchment:stone_witch_altar"
+      "item": "bewitchment:stone_witch_altar",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "1CF45DE82151433F": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Stone witch Altar",
+    "subtitle": {
+      "translate": "Altars are the cornerstone of any witch's lair."
+    },
     "description": [
       "<h2>Altars are the cornerstone of any witch's lair.</h2>",
       "---",
@@ -48,14 +67,6 @@
       "Nearby altars will fill a player's Internal ME Buffer, which is used for magic such as trinkets or Brooms.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:stone_witch_altar"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "Altars are the cornerstone of any witch's lair."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -63,6 +74,24 @@
           64
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:stone_witch_altar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Stone witch Altar"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

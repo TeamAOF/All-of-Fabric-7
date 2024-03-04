@@ -1,45 +1,68 @@
 {
-  "settings": {},
   "dependencies": [
     "Witch Cauldron"
   ],
   "tasks": {
     "6F651059DED11014": {
       "type": "heracles:item",
-      "item": "bewitchment:heaven_extract"
+      "item": "bewitchment:heaven_extract",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "4BD914AE009D5A45": {
-      "type": "heracles:item",
-      "item": {
-        "id": "kibe:liquid_xp_bucket"
-      }
-    },
     "37130F49FAD7BE89": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "4BD914AE009D5A45": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kibe:liquid_xp_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Heaven Extract",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:heaven_extract"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "groups": {
       "Bewitchment": {
         "position": [
@@ -47,6 +70,24 @@
           128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:heaven_extract",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Heaven Extract"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

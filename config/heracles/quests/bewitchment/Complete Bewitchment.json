@@ -89,13 +89,18 @@
     "icon": {
       "item": {
         "id": "trofers:medium_pillar",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:bewitchment"
+          }
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
-      "translate": "&eBewitchment 100%"
+      "translate": "Bewitchment 100%"
     }
   },
   "settings": {

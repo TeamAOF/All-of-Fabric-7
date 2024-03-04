@@ -1,43 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Athame"
   ],
   "tasks": {
     "6F360235F1EA98C6": {
       "type": "heracles:item",
-      "item": "bewitchment:bottle_of_blood"
+      "item": "bewitchment:bottle_of_blood",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "4931A83E80FD8148": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Magic Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Bottle of Blood",
+    "subtitle": {
+      "translate": "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
+    },
     "description": [
       "<h2>Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:bottle_of_blood"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "Bottles of Blood can be obtained by slaying a humanoid with an Athame while holding a Glass Bottle in the offhand."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -45,6 +56,24 @@
           128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:bottle_of_blood",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Bottle of Blood"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

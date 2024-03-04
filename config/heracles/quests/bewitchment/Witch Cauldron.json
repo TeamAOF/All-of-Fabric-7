@@ -1,28 +1,48 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "4E8C15D371DB7A1A": {
       "type": "heracles:item",
-      "item": "bewitchment:witch_cauldron"
+      "item": "bewitchment:witch_cauldron",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "4F9D60A4F4375B65": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Witch Cauldron",
+    "subtitle": {
+      "translate": "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
+    },
     "description": [
       "<h2>This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation.</h2>",
       "---",
@@ -37,14 +57,6 @@
       "That destination must be another Witch Cauldron that has been named with a Name Tag.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:witch_cauldron"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -52,6 +64,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:witch_cauldron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Witch Cauldron"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

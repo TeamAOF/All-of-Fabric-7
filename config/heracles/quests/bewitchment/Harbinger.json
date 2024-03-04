@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Demon Horn"
   ],
   "tasks": {
     "6CDB1DB5399B31F8": {
       "type": "heracles:item",
-      "item": "bewitchment:harbinger"
+      "item": "bewitchment:harbinger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "290B4F394364281B": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Magic Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Harbinger",
+    "subtitle": {
+      "translate": "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
+    },
     "description": [
       "<h2>Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots.</h2>",
       "---",
@@ -34,14 +53,6 @@
       "Harbinger can be repaired using Netherite Ingots.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:harbinger"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -49,6 +60,27 @@
           -128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:harbinger",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Harbinger"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

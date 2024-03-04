@@ -1,35 +1,63 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "0BB0332E269A468C": {
       "type": "heracles:item",
-      "item": "bewitchment:taglock"
+      "item": "bewitchment:taglock",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "4922BE265F6943B0": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:glass",
         "count": 12
-      }
+      },
+      "type": "heracles:item"
     },
     "403F09A8642948B6": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Magic Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Taglock",
+    "subtitle": {
+      "translate": "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
+    },
     "description": [
       "<h2>Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection.</h2>",
       "---",
@@ -38,14 +66,6 @@
       "To gather a taglock from a Bed, use it while sneaking so you don't accidentally sleep.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "bewitchment:taglock"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
-    "subtitle": {
-      "text": "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
-    },
     "groups": {
       "Bewitchment": {
         "position": [
@@ -53,6 +73,24 @@
           -128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:taglock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Taglocks"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
