@@ -37,8 +37,9 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 1,
+        "nbt": { "Variant": "lager" }
       },
       "type": "heracles:item"
     },

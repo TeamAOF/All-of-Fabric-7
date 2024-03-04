@@ -2,7 +2,25 @@
   "dependencies": [
     "Titration Barrel Recipes"
   ],
-  "tasks": {},
+  "tasks": {
+    "Get Berry Liquor": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "berry_liquor"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Berry Liquor",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
@@ -21,8 +39,9 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 1,
+        "nbt": { "Variant": "berry_liquor"}
       },
       "type": "heracles:item"
     },

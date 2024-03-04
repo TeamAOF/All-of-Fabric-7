@@ -71,39 +71,9 @@
     "icon": {
       "item": {
         "id": "spectrum:infused_beverage",
-        "count": 4,
+        "count": 1,
         "nbt": {
-          "Variant": "glow_berry_cider",
-          "Thickness": 1,
-          "AgeDays": 216,
-          "CustomPotionEffects": [
-            {
-              "Ambient": 0,
-              "ShowIcon": 1,
-              "ShowParticles": 1,
-              "Duration": 9600,
-              "Id": 1646184,
-              "Amplifier": 1
-            },
-            {
-              "Ambient": 0,
-              "ShowIcon": 1,
-              "ShowParticles": 1,
-              "Duration": 9600,
-              "Id": 5,
-              "Amplifier": 1
-            },
-            {
-              "Ambient": 0,
-              "ShowIcon": 1,
-              "ShowParticles": 1,
-              "Duration": 4800,
-              "Id": 24,
-              "Amplifier": 0
-            }
-          ],
-          "AlcPercent": 6,
-          "Color": 16769123
+          "Variant": "glow_berry_cider"
         }
       },
       "type": "heracles:item"
