@@ -2,7 +2,79 @@
   "dependencies": [
     "Armory"
   ],
-  "tasks": {},
+  "tasks": {
+    "gilded_boots": {
+      "type": "heracles:item",
+      "item": "adventurez:gilded_netherite_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gilded": {
+      "type": "heracles:item",
+      "item": "adventurez:gilded_netherite_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gilded_chest": {
+      "type": "heracles:item",
+      "item": "adventurez:gilded_netherite_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "gilded_leggings": {
+      "type": "heracles:item",
+      "item": "adventurez:gilded_netherite_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "adventurez:gilded_netherite_leggings",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "177660FB4D8E2671": {
       "title": "",
