@@ -8,7 +8,7 @@
       "item": "#create:toolboxes",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "Any #create:toolboxes",
+      "title": "Any Create Toolbox",
       "icon": {
         "item": {
           "id": "minecraft:air",
