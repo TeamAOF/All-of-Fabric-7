@@ -1,42 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Attribute Filter"
   ],
   "tasks": {
     "792A0ECBB96534E6": {
       "type": "heracles:item",
-      "item": "create:brass_tunnel"
+      "item": "create:brass_tunnel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "58D1F763518E5DCA": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/rare",
-          "Name": "Create Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Create Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Brass Tunnel",
+    "subtitle": {
+      "translate": "Use with filter to create separate belt lines of items from a single line"
+    },
     "description": [
       "<h2>Use with filter to create separate belt lines of items from a single line</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:brass_tunnel"
-    },
-    "subtitle": {
-      "text": "Use with filter to create separate belt lines of items from a single line"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -44,6 +56,24 @@
           256
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brass Tunnel"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

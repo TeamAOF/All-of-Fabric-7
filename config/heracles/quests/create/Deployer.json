@@ -1,48 +1,69 @@
 {
-  "settings": {},
   "dependencies": [
     "Polished Rose Quartz"
   ],
   "tasks": {
     "755D0B78024267FC": {
       "type": "heracles:item",
-      "item": "create:deployer"
+      "item": "create:deployer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "5BC2720763573A21": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:brass_hand"
-      }
+        "id": "create:brass_hand",
+        "count": 1
+      },
+      "type": "heracles:item"
     },
     "7458CBBA5DDC4FC2": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/epic",
-          "Name": "Create Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Create Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Deployer",
+    "subtitle": {
+      "translate": "Poke"
+    },
     "description": [
       "<h2>Poke</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:deployer"
-    },
-    "subtitle": {
-      "text": "Poke"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -50,6 +71,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:deployer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Deployer"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

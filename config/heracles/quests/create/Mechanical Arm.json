@@ -1,38 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Precision Mechanisms"
   ],
   "tasks": {
     "722EF3CA0452388D": {
       "type": "heracles:item",
-      "item": "create:mechanical_arm"
+      "item": "create:mechanical_arm",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "593885096E3935AA": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/epic",
-          "Name": "Create Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Create Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Mechanical Arm",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:mechanical_arm"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -40,6 +55,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_arm",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Arm"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

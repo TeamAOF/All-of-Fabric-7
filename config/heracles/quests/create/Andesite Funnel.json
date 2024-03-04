@@ -1,42 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Belt Connector"
   ],
   "tasks": {
     "4BA1B52879A48988": {
       "type": "heracles:item",
-      "item": "create:andesite_funnel"
+      "item": "create:andesite_funnel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "67433A84C3A2C5FC": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Andesite Funnel",
+    "subtitle": {
+      "translate": "Your Omnidirectional Hopper"
+    },
     "description": [
       "<h2>Your Omnidirectional Hopper</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:andesite_funnel"
-    },
-    "subtitle": {
-      "text": "Your Omnidirectional Hopper"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -44,6 +56,24 @@
           160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_funnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite Funnel"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

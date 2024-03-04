@@ -1,42 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Brass Casings"
   ],
   "tasks": {
     "3A6BB402FC70037F": {
       "type": "heracles:item",
-      "item": "create:sequenced_gearshift"
+      "item": "create:sequenced_gearshift",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "2D9024597762EC72": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/rare",
-          "Name": "Create Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Create Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Sequenced Gearshift",
+    "subtitle": {
+      "translate": "Programmable Gearshift"
+    },
     "description": [
       "<h2>Programmable Gearshift</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:sequenced_gearshift"
-    },
-    "subtitle": {
-      "text": "Programmable Gearshift"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -44,6 +56,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:sequenced_gearshift",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sequenced Gearshift"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

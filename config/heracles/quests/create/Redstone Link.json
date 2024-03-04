@@ -1,38 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Analog Lever"
   ],
   "tasks": {
     "258E4C69FC71067C": {
       "type": "heracles:item",
-      "item": "create:redstone_link"
+      "item": "create:redstone_link",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "317E449D09B0A531": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Redstone Link",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:redstone_link"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -40,6 +55,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:redstone_link",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Redstone Link"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

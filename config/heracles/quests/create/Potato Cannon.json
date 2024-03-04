@@ -1,49 +1,69 @@
 {
-  "settings": {},
   "dependencies": [
     "Mechanical Crafters"
   ],
   "tasks": {
     "171641F6600EC441": {
       "type": "heracles:item",
-      "item": "create:potato_cannon"
+      "item": "create:potato_cannon",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "00A8373D4D35C0B8": {
-      "type": "heracles:item",
-      "item": {
-        "id": "minecraft:poisonous_potato",
-        "count": 32
-      }
-    },
     "3901D5A420576077": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/epic",
-          "Name": "Create Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Create Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "00A8373D4D35C0B8": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:poisonous_potato",
+        "count": 32
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Potato Cannon",
+    "subtitle": {
+      "translate": "When you have too many crops"
+    },
     "description": [
       "<h2>When you have too many crops</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:potato_cannon"
-    },
-    "subtitle": {
-      "text": "When you have too many crops"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -51,6 +71,27 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:potato_cannon",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Potato Cannon"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

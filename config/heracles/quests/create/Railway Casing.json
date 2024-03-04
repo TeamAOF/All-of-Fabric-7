@@ -1,44 +1,67 @@
 {
-  "settings": {},
   "dependencies": [
-    "Deployer",
-    "Obsidian Dust"
+    "Obsidian Dust",
+    "Deployer"
   ],
   "tasks": {
     "5469658009BCA6AC": {
       "type": "heracles:item",
-      "item": "create:railway_casing"
+      "item": "create:railway_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "439D9512BA989602": {
-      "type": "heracles:xp",
-      "xptype": "level",
-      "amount": 10
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
     },
     "4BEE1BCE2FCE24FE": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/epic",
-          "Name": "Create Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Create Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Railway Casing",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:railway_casing"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -46,6 +69,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:railway_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Railway Casing"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

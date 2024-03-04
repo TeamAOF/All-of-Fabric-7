@@ -1,38 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Crushing Wheels"
   ],
   "tasks": {
     "4934453DAE01C6B6": {
       "type": "heracles:item",
-      "item": "techreborn:obsidian_dust"
+      "item": "techreborn:obsidian_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "43EE5F60822DF0FC": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "EPIC",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/epic",
-          "Name": "Create Epic Lootbag",
-          "Type": "EPIC"
+          "Name": "Create Epic Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Obsidian Dust",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:obsidian_dust"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -40,6 +55,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:obsidian_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obsidian Dust"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

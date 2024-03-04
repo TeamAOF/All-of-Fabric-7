@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Andesite Alloy"
   ],
   "tasks": {
     "2D938D2D18443AF2": {
       "type": "heracles:item",
-      "item": "create:mechanical_press"
+      "item": "create:mechanical_press",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "179FDF0BD3CBD5FB": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Mechanical Press",
+    "subtitle": {
+      "translate": "Press goes Bonk"
+    },
     "description": [
       "<h2>Press goes Bonk</h2>",
       "---",
@@ -33,13 +52,6 @@
       "> Craft a Mechanical Press and use the hand crank given to you from the previous quest and bonk some iron",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:mechanical_press"
-    },
-    "subtitle": {
-      "text": "Press goes Bonk"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -47,6 +59,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_press",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Press"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

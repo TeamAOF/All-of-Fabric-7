@@ -1,55 +1,84 @@
 {
-  "settings": {},
   "dependencies": [
     "Belt Connector"
   ],
   "tasks": {
     "42C4596A9EE0766C": {
       "type": "heracles:item",
-      "item": "create:chute"
+      "item": "create:chute",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "3A35054389ED4381": {
-      "type": "heracles:item",
-      "item": {
-        "id": "create:encased_fan"
-      }
-    },
     "6A1BE4D55FB85AA2": {
-      "type": "heracles:xp",
-      "xptype": "level",
-      "amount": 5
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
     },
     "4AC078040C3E1FDF": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "3A35054389ED4381": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:encased_fan",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Chute",
+    "subtitle": {
+      "translate": "I can suck and blow."
+    },
     "description": [
       "<h2>I can suck and blow.</h2>",
       "---",
       "> Chutes drags items from an inventory, or interface downards, unless there's an encased fan blowing upwards",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:chute"
-    },
-    "subtitle": {
-      "text": "I can suck and blow."
-    },
     "groups": {
       "Create": {
         "position": [
@@ -57,6 +86,24 @@
           160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:chute",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chute"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

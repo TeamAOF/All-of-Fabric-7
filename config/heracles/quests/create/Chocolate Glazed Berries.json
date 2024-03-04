@@ -1,38 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Fluid Transport"
   ],
   "tasks": {
     "378CBD18668E1B73": {
       "type": "heracles:item",
-      "item": "create:chocolate_glazed_berries"
+      "item": "create:chocolate_glazed_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "167AE13096FAE1D7": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/rare",
-          "Name": "Create Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Create Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Chocolate glazed Berries",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:chocolate_glazed_berries"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -40,6 +55,24 @@
           288
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:chocolate_glazed_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chocolate glazed Berrie"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

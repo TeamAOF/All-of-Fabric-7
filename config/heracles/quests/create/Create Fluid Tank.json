@@ -1,42 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Copper Casing"
   ],
   "tasks": {
     "2FE59458C9981F42": {
       "type": "heracles:item",
-      "item": "create:fluid_tank"
+      "item": "create:fluid_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "2F51E2F9BC99552D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Fluid Tank",
+    "subtitle": {
+      "translate": "Fluid Storage"
+    },
     "description": [
       "<h2>Fluid Storage</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:fluid_tank"
-    },
-    "subtitle": {
-      "text": "Fluid Storage"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -44,6 +56,24 @@
           160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:fluid_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Tank"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

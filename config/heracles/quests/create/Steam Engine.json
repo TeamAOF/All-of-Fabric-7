@@ -1,54 +1,84 @@
 {
-  "settings": {},
   "dependencies": [
     "Create Fluid Tank"
   ],
   "tasks": {
     "4F57647E2D2E0B6A": {
       "type": "heracles:item",
-      "item": "create:steam_engine"
+      "item": "create:steam_engine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "3C468264516F9D2C": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
-        "id": "create:steam_whistle"
-      }
-    },
-    "7DC01EB5C711EA9D": {
-      "type": "heracles:item",
-      "item": {
-        "id": "minecraft:lever"
-      }
+        "id": "create:steam_whistle",
+        "count": 1
+      },
+      "type": "heracles:item"
     },
     "6014202EB5B75F80": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
+    },
+    "7DC01EB5C711EA9D": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:lever",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Steam Engine",
+    "subtitle": {
+      "translate": "Endgame Rotational Force"
+    },
     "description": [
       "<h2>Endgame Rotational Force</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:steam_engine"
-    },
-    "subtitle": {
-      "text": "Endgame Rotational Force"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -56,6 +86,24 @@
           160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:steam_engine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Engine"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

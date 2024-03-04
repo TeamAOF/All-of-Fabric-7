@@ -1,42 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Mechanical Press"
   ],
   "tasks": {
     "53FA98C8307C834A": {
       "type": "heracles:item",
-      "item": "create:copper_casing"
+      "item": "create:copper_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "1B6D434BF6BCF5A5": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: Copper Casing",
+    "subtitle": {
+      "translate": "The start of your fluid journey"
+    },
     "description": [
       "<h2>The start of your fluid journey</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:copper_casing"
-    },
-    "subtitle": {
-      "text": "The start of your fluid journey"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -44,6 +56,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:copper_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Casing"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
