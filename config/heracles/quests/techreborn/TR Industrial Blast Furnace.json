@@ -1,27 +1,44 @@
 {
-  "settings": {},
   "dependencies": [
     "TR Cupronickel Heating Coil"
   ],
   "tasks": {
     "684E519E525BE34C": {
       "type": "heracles:item",
-      "item": "techreborn:industrial_blast_furnace"
+      "item": "techreborn:industrial_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "0476FDF2824C1562": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/rare",
-          "Name": "Tech Reborn Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Tech Reborn Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -34,6 +51,7 @@
       "The smelting abilities depends on the casings used for the multi-block.",
       "",
       "The Blast Furnace requires a 3×4 multi-block with a hole in the center. The Multi-block can be built from different machine casings. Possible options are:",
+      "",
       "- Basic Machine Casing",
       "- Advanced Machine Casing",
       "- Industrial Machine Casing",
@@ -41,14 +59,6 @@
       "This will result in heat being produced inside the furnace and thus have the ability to smelt the toughest ores (this however depends on the type of casing used).",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:industrial_blast_furnace"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
-    "subtitle": {
-      "text": "A multi-block machine used to smelt tough metals."
-    },
     "groups": {
       "Tech Reborn": {
         "position": [
@@ -56,6 +66,24 @@
           -96
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_blast_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Acquire: Industrial blast Furnace"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
