@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Deep Learner"
   ],
   "tasks": {
     "1712246FD3D1B782": {
       "type": "heracles:item",
-      "item": "dml-refabricated:trial_key"
+      "item": "dml-refabricated:trial_key",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "68922F15BA7974D2": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Logistics & Storage Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: dml-refabricated:trial_key",
+    "subtitle": {
+      "translate": "Challenge to a fight!"
+    },
     "description": [
       "<h2>Challenge to a fight!</h2>",
       "---",
@@ -42,14 +61,6 @@
       "You may have noticed that your Trial Key also has a \"Affixes\" list. Those are special effects that can occur during the trial. Some of them may help you, some of them not.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "dml-refabricated:trial_key"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Challenge to a fight!"
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -57,6 +68,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:trial_key",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Trial Key"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

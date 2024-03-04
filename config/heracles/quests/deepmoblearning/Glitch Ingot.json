@@ -75,7 +75,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "title": {
-      "translate": "Acquire: dml-refabricated:glitch_ingot"
+      "translate": "Glitch Ingot"
     }
   },
   "settings": {

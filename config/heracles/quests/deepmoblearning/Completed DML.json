@@ -14,7 +14,7 @@
   ],
   "tasks": {
     "2F6B49B0F2C9ADEA": {
-      "title": "&bDeep Mob Learning 100%",
+      "title": "Deep Mob Learning 100%",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -58,21 +58,26 @@
     "groups": {
       "Deep Mob Learning": {
         "position": [
-          -192,
-          -192
+          -209,
+          -138
         ]
       }
     },
     "icon": {
       "item": {
         "id": "trofers:medium_pillar",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:dml"
+          }
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "&bDeep Mob Learning 100%"
+      "translate": "Deep Mob Learning 100%"
     }
   },
   "settings": {

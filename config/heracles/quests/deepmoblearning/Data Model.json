@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Soot Redstone"
   ],
   "tasks": {
     "6FD0D261E90790A2": {
       "type": "heracles:item",
-      "item": "dml-refabricated:data_model"
+      "item": "dml-refabricated:data_model",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "640CD95998E28E2D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Logistics & Storage Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: dml-refabricated:data_model",
+    "subtitle": {
+      "translate": "To get started with the mod you will need a Blank Data Model."
+    },
     "description": [
       "<h2>To get started with the mod you will need a Blank Data Model.</h2>",
       "---",
@@ -63,14 +82,6 @@
       "Groups ocean mobs.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "dml-refabricated:data_model"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "To get started with the mod you will need a Blank Data Model."
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -78,6 +89,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Blank Data Model"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

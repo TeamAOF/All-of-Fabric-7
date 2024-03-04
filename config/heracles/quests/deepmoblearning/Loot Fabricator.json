@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "DML Machine Casing"
   ],
   "tasks": {
     "26F16521AC49E60B": {
       "type": "heracles:item",
-      "item": "dml-refabricated:loot_fabricator"
+      "item": "dml-refabricated:loot_fabricator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "4722E3648A60B43E": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Logistics & Storage Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: dml-refabricated:loot_fabricator",
+    "subtitle": {
+      "translate": "Turn Pristine Matter into loot!"
+    },
     "description": [
       "<h2>Turn Pristine Matter into loot!</h2>",
       "---",
@@ -40,14 +59,6 @@
       "You can input and extract items to/from the Loot Fabricator by using hoppers or pipes.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "dml-refabricated:loot_fabricator"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Turn Pristine Matter into loot!"
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -55,6 +66,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:loot_fabricator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Loot Fabricator"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

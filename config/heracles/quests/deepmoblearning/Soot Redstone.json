@@ -1,14 +1,26 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "5EEB04255651FBAE": {
       "type": "heracles:item",
-      "item": "dml-refabricated:soot_redstone"
+      "item": "dml-refabricated:soot_redstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
   "display": {
-    "title": "Acquire: dml-refabricated:soot_redstone",
+    "subtitle": {
+      "translate": "Rub your redstone on a block of coal."
+    },
     "description": [
       "<h2>Rub your redstone on a block of coal.</h2>",
       "---",
@@ -16,14 +28,6 @@
       "",
       "This is a key ingredient."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "dml-refabricated:soot_redstone"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Rub your redstone on a block of coal."
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -31,6 +35,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:soot_redstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Soot Redstone"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
