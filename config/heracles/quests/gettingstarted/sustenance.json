@@ -16,20 +16,158 @@
     }
   },
   "rewards": {
-    "sustenance_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+    "sustenance_reward_entree": {
+      "amount": 1,
+      "rewards": {
+        "Salmon Roll": {
+          "title": "Salmon Roll",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "farmersdelight:salmon_roll",
+            "count": 3
+          },
+          "type": "heracles:item"
         },
-        "type": "heracles:item"
+        "Steak and Potatoes": {
+          "title": "Steak and Potatoes",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "farmersdelight:steak_and_potatoes",
+            "count": 3
+          },
+          "type": "heracles:item"
+        },
+        "Taco Tuesday": {
+          "title": "Taco Tuesday!",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "croptopia:taco",
+            "count": 3
+          },
+          "type": "heracles:item"
+        }
       },
-      "item": {
-        "id": "croptopia:baked_crepes",
-        "count": 8
+      "type": "heracles:selectable"
+    },
+    "sustenance_reward_fruit": {
+      "amount": 1,
+      "rewards": {
+        "Sustenance Mango Reward": {
+          "title": "Mango",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "croptopia:mango",
+            "count": 3
+          },
+          "type": "heracles:item"
+        },
+        "Sustenance Peach Reward": {
+          "title": "Peach",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "croptopia:peach",
+            "count": 3
+          },
+          "type": "heracles:item"
+        },
+        "Sustenance Dragonfruit Reward": {
+          "title": "Dragonfruit",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "croptopia:dragonfruit",
+            "count": 3
+          },
+          "type": "heracles:item"
+        }
       },
-      "type": "heracles:item"
+      "type": "heracles:selectable"
+    },
+    "sustenance_reward_dessert": {
+      "amount": 1,
+      "rewards": {
+        "Kiwi Sorbet": {
+          "title": "Kiwi Sorbet",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "croptopia:kiwi_sorbet",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "Slice of Chocolate Cake": {
+          "title": "Slice of Chocolate Cake",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "bakery:chocolate_cake_slice",
+            "count": 1
+          },
+          "type": "heracles:item"
+        },
+        "Ice Cream Party!": {
+          "title": "I scream, you scream, we all scream for Ice Cream!",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          },
+          "item": {
+            "id": "beachparty:coconut_icecream",
+            "count": 1
+          },
+          "type": "heracles:item"
+        }
+      },
+      "type": "heracles:selectable"
     }
   },
   "display": {
@@ -37,15 +175,73 @@
       "text": ""
     },
     "description": [
-      "<hr/>",
+      "---",
+      "",
       "  With forests and plains of plants at your disposal, food will be no issue in the slightest. There is an absolutely massive range of different fruits, vegetables, grains, meats, and more to make --your-- favorite food.",
-      "<br/>",
+      "",
       "  Or perhaps you will find a new favorite?",
-      "<br/>",
-      "  I'll form a little to get you on your way so you don't starve your first few nights. I wish you could eat infinitely.",
-      "<br/>",
-      "<item id=\"croptopia:baked_crepes\" scale=\"4\"/>",
-      "<hr/>"
+      "",
+      "  I'll form a little to get you on your way so you don't starve your first few nights. You may choose an fruit, an entrée, and a dessert. I wish you could eat infinitely.",
+      "",
+      "<carousel>",
+      "<carousel-item>",
+      "<columns>",
+      "<column>",
+      "<item id='croptopia:mango' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Mango</p>",
+      "</column>",
+      "<column>",
+      "<item id='croptopia:peach' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Peach</p>",
+      "</column>",
+      "<column>",
+      "<item id='croptopia:dragonfruit' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Dragonfruit</p>",
+      "</column>",
+      "</columns>",
+      "</carousel-item>",
+      "<carousel-item>",
+      "<columns>",
+      "<column>",
+      "<item id='farmersdelight:salmon_roll' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Salmon Roll</p>",
+      "</column>",
+      "<column>",
+      "<item id='farmersdelight:steak_and_potatoes' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Steak and Potatoes</p>",
+      "</column>",
+      "<column>",
+      "<item id='croptopia:taco' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Taco</p>",
+      "</column>",
+      "</columns>",
+      "</carousel-item>",
+      "<carousel-item>",
+      "<columns>",
+      "<column>",
+      "<item id='croptopia:kiwi_sorbet' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Kiwi Sorbet</p>",
+      "</column>",
+      "<column>",
+      "<item id='bakery:chocolate_cake_slice' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Chocolate Cake</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:coconut_icecream' scale='3'></item>",
+      "<hr/>",
+      "<p align='center'>Coconut Ice Cream</p>",
+      "</column>",
+      "</columns>",
+      "</carousel-item>",
+      "</carousel>"
     ],
     "groups": {
       "Getting Started": {

@@ -48,6 +48,24 @@
       },
       "type": "heracles:item"
     },
+    "ice3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "wizards:staff_netherite_frost",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
     "2": {
       "title": "",
       "icon": {
@@ -60,6 +78,51 @@
       "item": {
         "id": "minecraft:wheat",
         "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "ice": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "powah:dry_ice",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "ice2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:blue_ice",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "frost": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "wizards:frost_spell_book",
+        "count": 1
       },
       "type": "heracles:item"
     }

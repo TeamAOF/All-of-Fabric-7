@@ -114,7 +114,67 @@
       },
       "item": {
         "id": "minecraft:wheat",
-        "count": 6
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "egg": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:egg",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "mushroom": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "black_tea": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersrespite:black_tea_leaves",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "honey": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:honey_bottle",
+        "count": 16
       },
       "type": "heracles:item"
     }

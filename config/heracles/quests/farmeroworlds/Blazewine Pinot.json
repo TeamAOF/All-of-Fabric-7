@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:flint_and_steel",
+        "id": "create:blaze_burner",
         "count": 1,
         "nbt": {
           "Damage": 0
@@ -47,8 +47,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:golden_apple",
-        "count": 1
+        "id": "nethervinery:blazewine_pinot",
+        "count": 3
       },
       "type": "heracles:item"
     }
