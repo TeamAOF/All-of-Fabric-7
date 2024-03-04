@@ -53,10 +53,7 @@
     ],
     "groups": {
       "Tools and Armory": {
-        "position": [
-          -69,
-          40
-        ]
+        "position": [-75, 0]
       }
     },
     "icon": {
