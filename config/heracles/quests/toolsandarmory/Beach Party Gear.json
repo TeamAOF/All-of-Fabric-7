@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Beachparty"
+    "Armory"
   ],
   "tasks": {
     "bpst": {
@@ -128,19 +128,95 @@
       "text": ""
     },
     "description": [
-      "You can also craft a variety of armor pieces that will allow you to swim faster and will give water breathing if you have a full set"
+      "---",
+      "",
+      "<h2 italic=\"true\">Beach Party!</h2>",
+      "",
+      "  Beach party swimwear acts like low-tier* armor but each piece word gives a 17% boost to your swim speed.",
+      "",
+      "  Wearing a full set also grants you --/3/Dolphin's Grace/3/-- and --/9/Water Breathing/9/--.",
+      "",
+      "<columns template='20 40 40'>",
+      "<column>",
+      "<p align='right'>Head:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:sunglasses' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:beach_hat' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<p align='right'>Body:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:swim_wings' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='20 40 40'>",
+      "<column>",
+      "<p align='right'>Legs:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:trunks' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:bikini' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<p align='right'>Feet:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:crocs' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<p>Rubber rings will also protect your torso, as an alternative to swim-wings.</p>",
+      "<br/>",
+      "<columns template='60 40'>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_blue' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_pink' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_stripped' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_axolotl' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_pelican' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "",
+      "---",
+      "*Of course, through magical means, standard swimwear can be imbued with the qualities one might expect to see only from much more formidable armors."
     ],
     "groups": {
-      "Farmer O' Worlds": {
+      "Tools and Armory": {
         "position": [
-          120,
-          -340
+          -274,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:rubber_ring_pelican",
+        "id": "beachparty:sunglasses",
         "count": 1,
         "nbt": {
           "Damage": 0

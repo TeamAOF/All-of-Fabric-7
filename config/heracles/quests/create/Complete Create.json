@@ -134,7 +134,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "&6Create 100%"
+      "translate": "§6Create 100%"
     }
   },
   "settings": {
