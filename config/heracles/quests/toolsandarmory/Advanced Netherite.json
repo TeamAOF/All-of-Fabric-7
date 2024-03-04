@@ -72,7 +72,10 @@
     ],
     "groups": {
       "Tools and Armory": {
-        "position": [61, -44]
+        "position": [
+          61,
+          -44
+        ]
       }
     },
     "icon": {
