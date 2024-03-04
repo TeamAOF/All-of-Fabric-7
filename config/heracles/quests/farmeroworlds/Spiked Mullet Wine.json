@@ -56,41 +56,9 @@
     "icon": {
       "item": {
         "id": "spectrum:infused_beverage",
-        "count": 4,
-        "nbt": {
-          "Variant": "spiked_mullet_wine",
-          "Thickness": 1,
-          "AgeDays": 216,
-          "CustomPotionEffects": [
-            {
-              "Ambient": 0,
-              "ShowIcon": 1,
-              "ShowParticles": 1,
-              "Duration": 9600,
-              "Id": 1,
-              "Amplifier": 1
-            },
-            {
-              "Ambient": 0,
-              "ShowIcon": 1,
-              "ShowParticles": 1,
-              "Duration": 2400,
-              "Id": 1646177,
-              "Amplifier": 0
-            },
-            {
-              "Ambient": 0,
-              "ShowIcon": 1,
-              "ShowParticles": 1,
-              "Duration": 600,
-              "Id": 15,
-              "Amplifier": 0
-            }
-          ],
-          "AlcPercent": 22,
-          "Color": 10365209
-        }
-      },
+        "count": 1,
+        "nbt": { "Variant": "spiked_mullet_wine" }
+    	},
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

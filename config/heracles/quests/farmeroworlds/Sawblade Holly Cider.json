@@ -2,7 +2,25 @@
   "dependencies": [
     "Titration Barrel Recipes"
   ],
-  "tasks": {},
+  "tasks": {
+    "Get Sawblade Holly Cider": {
+      "type": "heracles:item",
+      "item": "spectrum:infused_beverage",
+      "nbt": {
+        "Variant": "sawblade_holly_cider"
+      },
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Sawblade Holly Cider",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
@@ -21,8 +39,9 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
-        "count": 1
+        "id": "spectrum:infused_beverage",
+        "count": 1,
+        "nbt": { "Variant": "sawblade_holly_cider"}
       },
       "type": "heracles:item"
     },
