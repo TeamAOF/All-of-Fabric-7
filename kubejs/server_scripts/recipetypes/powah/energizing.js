@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
           {"item": "powah:nitro_crystal_block"},
           {"item": "powah:nitro_crystal_block"}
         ],
-        "energy": "400000000",
+        "energy": "200000000",
         "result": {
           "item": "kubejs:hyper_nitro_crystal"
         }
