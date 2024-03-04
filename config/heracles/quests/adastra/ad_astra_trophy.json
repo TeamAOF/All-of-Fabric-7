@@ -4,7 +4,7 @@
   ],
   "tasks": {
     "ad_astra_trophy": {
-      "title": "Ad Astra 100%",
+      "title": "§cAd Astra 100%",
       "icon": {
         "item": {
           "id": "minecraft:air",

@@ -4,7 +4,7 @@
   ],
   "tasks": {
     "botania_trophy": {
-      "title": "Botania 100%",
+      "title": "§aBotania 100%",
       "icon": {
         "item": {
           "id": "minecraft:air",

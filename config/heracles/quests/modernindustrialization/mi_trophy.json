@@ -6,7 +6,7 @@
   ],
   "tasks": {
     "mi_trophy": {
-      "title": "Modern Industrialization 100%",
+      "title": "§bModern Industrialization §d100%",
       "icon": {
         "item": {
           "id": "minecraft:air",

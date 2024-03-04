@@ -100,7 +100,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Powah Completed"
+      "translate": "§4Powah 100%"
     }
   },
   "settings": {
