@@ -1,5 +1,4 @@
 {
-  "settings": {},
   "dependencies": [
     "Weaponry"
   ],
@@ -9,26 +8,46 @@
       "item": "techreborn:nanosaber",
       "nbt": {
         "isActive": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
       }
     }
   },
   "rewards": {
     "4F2CC6312CAD19A0": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "RARE",
           "Color": 3706623,
           "Loot": "aof:loot_bags/tech_reborn/rare",
-          "Name": "Tech Reborn Rare Lootbag",
-          "Type": "RARE"
+          "Name": "Tech Reborn Rare Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Nanosaber",
+    "subtitle": {
+      "translate": "An advanced weapon that can be used against hostile mobs, or players."
+    },
     "description": [
       "<h2>An advanced weapon that can be used against hostile mobs, or players.</h2>",
       "---",
@@ -41,20 +60,31 @@
       "A chat message will appear saying the new mod that the weapon is in.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "techreborn:nanosaber"
-    },
-    "subtitle": {
-      "text": "An advanced weapon that can be used against hostile mobs, or players."
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
-          256,
-          -80
+          168,
+          40
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:nanosaber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nanosaber"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

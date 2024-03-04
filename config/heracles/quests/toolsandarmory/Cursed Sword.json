@@ -1,49 +1,82 @@
 {
-  "settings": {},
   "dependencies": [
     "Weaponry"
   ],
   "tasks": {
     "6D4FBC238D9972F4": {
       "type": "heracles:item",
-      "item": "minecells:cursed_sword"
+      "item": "minecells:cursed_sword",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "752C833AF3F183F0": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "LEGENDARY",
           "Color": 16103753,
           "Loot": "aof:loot_bags/misc/artifacts",
-          "Name": "Artifact Lootbag",
-          "Type": "LEGENDARY"
+          "Name": "Artifact Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Cursed Sword",
+    "subtitle": {
+      "translate": "The curse be upon you!"
+    },
     "description": [
       "<h2>The curse be upon you!</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecells:cursed_sword"
-    },
-    "subtitle": {
-      "text": "The curse be upon you!"
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
-          192,
-          -80
+          248,
+          -40
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "minecells:cursed_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cursed Sword"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

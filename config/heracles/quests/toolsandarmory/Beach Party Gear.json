@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Beachparty"
+    "Armory"
   ],
   "tasks": {
     "bpst": {
@@ -128,19 +128,23 @@
       "text": ""
     },
     "description": [
-      "You can also craft a variety of armor pieces that will allow you to swim faster and will give water breathing if you have a full set"
+      "---",
+      "",
+      "  You can also craft a variety of armor pieces that will allow you to swim faster and will give water breathing if you have a full set",
+      "",
+      "---"
     ],
     "groups": {
-      "Farmer O' Worlds": {
+      "Tools and Armory": {
         "position": [
-          120,
-          -340
+          -274,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beachparty:rubber_ring_pelican",
+        "id": "beachparty:sunglasses",
         "count": 1,
         "nbt": {
           "Damage": 0
