@@ -73,7 +73,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Acquire: techreborn:matter_fabricator"
+      "translate": "techreborn:matter_fabricator"
     }
   },
   "settings": {

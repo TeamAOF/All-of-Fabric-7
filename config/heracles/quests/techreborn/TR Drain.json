@@ -32,7 +32,7 @@
     }
   },
   "display": {
-    "title": "Acquire: Drain",
+    "title": "Drain",
     "description": [
       "<h2>A simple contraption that is used to automate the gathering of fluid (Mostly water).</h2>",
       "---",

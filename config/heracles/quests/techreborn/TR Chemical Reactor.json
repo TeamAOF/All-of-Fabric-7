@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: Chemical Reactor",
+    "title": "Chemical Reactor",
     "description": [
       "<h2>Used to combine two Fluids (and other assorted items) into a third fluid or item.</h2>",
       "---"

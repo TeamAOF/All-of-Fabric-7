@@ -25,7 +25,7 @@
     }
   },
   "display": {
-    "title": "Acquire: Fluid Hopper",
+    "title": "Fluid Hopper",
     "description": [
       "<h2>Exactly like vanilla Hoppers but that moves fluids instead of items.</h2>",
       "---"
