@@ -67,7 +67,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "techreborn:neutron_reflector"
+      "translate": "neutron_reflector
     }
   },
   "settings": {
