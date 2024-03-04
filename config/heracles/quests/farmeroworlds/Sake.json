@@ -22,21 +22,6 @@
     }
   },
   "rewards": {
-    "rice": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "farmersdelight:fried_rice",
-        "count": 4
-      },
-      "type": "heracles:item"
-    },
     "lava": {
       "title": "",
       "icon": {
@@ -52,6 +37,21 @@
         "nbt": {
           "Damage": 0
         }
+      },
+      "type": "heracles:item"
+    },
+    "rice": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:fried_rice",
+        "count": 4
       },
       "type": "heracles:item"
     },
@@ -125,9 +125,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

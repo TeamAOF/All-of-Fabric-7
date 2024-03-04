@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "Titration Barrel Recipes"
+    "Titration Barrel Recipes",
+    "Deep Dark Ingredients"
   ],
   "tasks": {
     "Get Fruit Schnapps": {
@@ -115,9 +116,9 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "IN_PROGRESS"
   }
 }

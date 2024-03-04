@@ -19,6 +19,34 @@
         "type": "heracles:item"
       }
     },
+    "prickly_bayleaf": {
+      "type": "heracles:item",
+      "item": "spectrum:prickly_bayleaf",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "lizard_meat": {
+      "type": "heracles:item",
+      "item": "spectrum:lizard_meat",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
     "myceylon": {
       "type": "heracles:item",
       "item": "spectrum:myceylon",
@@ -47,37 +75,9 @@
         "type": "heracles:item"
       }
     },
-    "prickly_bayleaf": {
-      "type": "heracles:item",
-      "item": "spectrum:prickly_bayleaf",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
     "aloe": {
       "type": "heracles:item",
       "item": "spectrum:aloe_leaf",
-      "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "lizard_meat": {
-      "type": "heracles:item",
-      "item": "spectrum:lizard_meat",
       "amount": 8,
       "collection": "AUTOMATIC",
       "title": "",
