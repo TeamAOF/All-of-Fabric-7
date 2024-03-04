@@ -253,7 +253,7 @@
     },
     "icon": {
       "item": {
-        "id": "croptopia:baked_crepes",
+        "id": "croptopia:taco",
         "count": 1
       },
       "type": "heracles:item"
@@ -268,6 +268,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "IN_PROGRESS"
+    "hidden": "LOCKED"
   }
 }
