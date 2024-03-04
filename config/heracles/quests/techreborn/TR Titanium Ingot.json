@@ -65,7 +65,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "titanium_ingot"
+      "translate": "Titanium Ingot"
     }
   },
   "settings": {

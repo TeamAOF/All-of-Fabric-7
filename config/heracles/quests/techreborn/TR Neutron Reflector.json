@@ -67,7 +67,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "neutron_reflector"
+      "translate": "Neutron Reflector"
     }
   },
   "settings": {

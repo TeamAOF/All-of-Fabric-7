@@ -70,7 +70,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "green_pigment"
+      "translate": "Green Pigment"
     }
   },
   "settings": {
