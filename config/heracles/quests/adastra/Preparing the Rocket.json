@@ -32,7 +32,23 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "automated_nasa_workbench": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra_giselle_addon:automation_nasa_workbench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
