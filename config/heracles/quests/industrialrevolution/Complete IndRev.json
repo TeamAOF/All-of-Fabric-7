@@ -115,15 +115,20 @@
     "groups": {
       "Industrial Revolution": {
         "position": [
-          -128,
-          -320
+          -170,
+          -221
         ]
       }
     },
     "icon": {
       "item": {
         "id": "trofers:medium_pillar",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:indrev"
+          }
+        }
       },
       "type": "heracles:item"
     },

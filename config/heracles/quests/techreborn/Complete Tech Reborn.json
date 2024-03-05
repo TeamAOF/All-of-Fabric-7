@@ -152,15 +152,20 @@
     "groups": {
       "Tech Reborn": {
         "position": [
-          64,
-          -256
+          -3,
+          -171
         ]
       }
     },
     "icon": {
       "item": {
         "id": "trofers:medium_pillar",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:techreborn"
+          }
+        }
       },
       "type": "heracles:item"
     },
