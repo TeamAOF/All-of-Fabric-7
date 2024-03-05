@@ -152,21 +152,26 @@
     "groups": {
       "Tech Reborn": {
         "position": [
-          64,
-          -256
+          -3,
+          -171
         ]
       }
     },
     "icon": {
       "item": {
         "id": "trofers:medium_pillar",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:techreborn"
+          }
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "§9Tech Reborn 100%"
+      "translate": "§9§lTech Reborn 100%"
     }
   },
   "settings": {

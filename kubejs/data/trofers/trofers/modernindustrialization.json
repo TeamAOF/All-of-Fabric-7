@@ -1,11 +1,11 @@
 {
     "colors": {
-      "accent": "#e868d7",
+      "accent": "#c73222",
       "base": "#606060"
     },
     "display": {
       "offset": {
-        "y": 0.5
+        "y": 1
       },
       "scale": 1.0
     },
@@ -15,7 +15,7 @@
       }
     },
     "item": {
-      "item": "modern_industrialization:singularity",
+      "item": "modern_industrialization:nuke",
       "count": 1
     },
     "animation": {
@@ -23,7 +23,7 @@
         "speed": 0.20
       },
     "name": {
-      "color": "#e868d7",
+      "color": "#e6db4e",
       "text": "Modern Industrialization Trophy"
     }
   }

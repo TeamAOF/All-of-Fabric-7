@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#f57a8c",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 0.5
+      },
+      "scale": 1.5
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "bakery:sweetberry_cake",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#f57a8c",
+      "text": "Farmer O' Worlds"
+    }
+  }

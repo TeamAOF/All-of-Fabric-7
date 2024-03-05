@@ -34,6 +34,27 @@
         "count": 4
       },
       "type": "heracles:item"
+    },
+    "mi_epic_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

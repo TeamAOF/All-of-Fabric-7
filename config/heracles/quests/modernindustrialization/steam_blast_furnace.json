@@ -7,36 +7,98 @@
   "tasks": {
     "steam_blast_furance_task_4": {
       "type": "heracles:item",
+      "item": "modern_industrialization:bronze_item_input_hatch",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:bronze_item_input_hatch"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "steam_blast_furance_task_3": {
       "type": "heracles:item",
+      "item": "modern_industrialization:bronze_fluid_input_hatch",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:bronze_fluid_input_hatch"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "steam_blast_furance_task_5": {
       "type": "heracles:item",
+      "item": "modern_industrialization:bronze_item_output_hatch",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:bronze_item_output_hatch"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "steam_blast_furance_task_2": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steam_blast_furnace",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steam_blast_furnace"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "steam_blast_furance_task_1": {
       "type": "heracles:item",
+      "item": "modern_industrialization:fire_clay_bricks",
       "amount": 29,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:fire_clay_bricks"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -61,7 +123,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:steam_blast_furnace",
+      "item": {
+        "id": "modern_industrialization:steam_blast_furnace",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -70,8 +135,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

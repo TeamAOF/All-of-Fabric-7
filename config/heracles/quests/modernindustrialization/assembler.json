@@ -1,7 +1,7 @@
 {
   "dependencies": [
-    "conveyor_belt",
     "machine_hull",
+    "conveyor_belt",
     "pistons",
     "motors",
     "robotic_arms"
@@ -35,6 +35,27 @@
       "item": {
         "id": "modern_industrialization:assembler",
         "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
       },
       "type": "heracles:item"
     }

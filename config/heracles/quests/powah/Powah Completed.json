@@ -100,7 +100,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "§4Powah 100%"
+      "translate": "§4§lPowah 100%"
     }
   },
   "settings": {

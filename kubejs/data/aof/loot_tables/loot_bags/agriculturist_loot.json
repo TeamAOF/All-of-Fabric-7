@@ -7,25 +7,135 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:pumpkin_soup",
+              "name": "farmersdelight:flint_knife",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:baked_cod_stew",
+              "name": "farmersdelight:iron_knife",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:golden_knife",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:diamond_knife",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:netherite_knife",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:rich_soil",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 32
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "meadow:watering_can",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "villager-hats:farmer_hat",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmingforblockheads:market",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmingforblockheads:chicken_nest",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 3
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmingforblockheads:feeding_trough",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 3
+                }
+              ]
+            },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -33,10 +143,11 @@
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 16
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -44,10 +155,11 @@
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 16
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -55,87 +167,191 @@
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 16
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:noodle_soup",
+              "name": "vinery:straw_hat",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:bacon_and_eggs",
+              "name": "vinery:winemaker_apron",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:pasta_with_meatballs",
+              "name": "vinery:winemaker_leggings",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:pasta_with_mutton_chop",
+              "name": "vinery:winemaker_boots",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:roasted_mutton_chops",
+              "name": "brewery:brewfest_hat",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:vegetable_noodles",
+              "name": "brewery:brewfest_regalia",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:steak_and_potatoes",
+              "name": "brewery:brewfest_trousers",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 1
                 }
               ]
             },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "brewery:brewfest_boots",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "brewery:brewfest_hat_red",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "brewery:brewfest_dress",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "brewery:brewfest_blouse",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "brewery:brewfest_shoes",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "gofish:diamond_reinforced_rod",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "gofish:skeletal_rod",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "gofish:blaze_rod",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -147,6 +363,7 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -158,6 +375,7 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -169,17 +387,31 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:barbecue_stick",
+              "name": "ends_delight:end_mixed_salad",
               "functions": [
                 {
                   "function": "set_count",
-                  "count": 8
+                  "count": 4
                 }
               ]
             },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ends_delight:assorted_salad",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -191,6 +423,7 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -201,17 +434,8 @@
                   "count": 8
                 }
               ]
-            },            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:hamburger",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -223,6 +447,19 @@
                 }
               ]
             },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:hamburger",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -234,83 +471,7 @@
                 }
               ]
             },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:fish_stew",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:vegetable_soup",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:chicken_soup",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:beef_stew",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:cooked_rice",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:cabbage_rolls",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:stuffed_potato",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -322,10 +483,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:ham_sandwich",
+              "name": "farmersdelight:stuffed_potato",
               "functions": [
                 {
                   "function": "set_count",
@@ -333,10 +495,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:peanut_butter_and_jam",
+              "name": "farmersdelight:salmon_roll",
               "functions": [
                 {
                   "function": "set_count",
@@ -344,10 +507,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:blt",
+              "name": "farmersdelight:cod_roll",
               "functions": [
                 {
                   "function": "set_count",
@@ -355,10 +519,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:grilled_cheese",
+              "name": "farmersdelight:kelp_roll",
               "functions": [
                 {
                   "function": "set_count",
@@ -366,10 +531,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:tuna_sandwich",
+              "name": "farmersdelight:beef_stew",
               "functions": [
                 {
                   "function": "set_count",
@@ -377,10 +543,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:cheeseburger",
+              "name": "farmersdelight:chicken_soup",
               "functions": [
                 {
                   "function": "set_count",
@@ -388,10 +555,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:hamburger",
+              "name": "farmersdelight:vegetable_soup",
               "functions": [
                 {
                   "function": "set_count",
@@ -399,10 +567,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:tofuburger",
+              "name": "farmersdelight:fish_stew",
               "functions": [
                 {
                   "function": "set_count",
@@ -410,10 +579,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:pizza",
+              "name": "farmersdelight:fried_rice",
               "functions": [
                 {
                   "function": "set_count",
@@ -421,6 +591,211 @@
                 }
               ]
             },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:noodle_soup",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:bacon_and_eggs",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:pasta_with_meatballs",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:roasted_mutton_chops",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:vegetable_noodles",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:grilled_salmon",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:mushroom_rice",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:honey_glazed_ham",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:squid_ink_pasta",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:ratatouille",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:beer",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:rum",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:pumpkin_spice_latte",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:wine",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:coffee",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:lemonade",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "croptopia:fruit_smoothie",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -432,6 +807,7 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
@@ -443,10 +819,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:tres_leche_cake",
+              "name": "croptopia:fruit_cake",
               "functions": [
                 {
                   "function": "set_count",
@@ -454,10 +831,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:eton_mess",
+              "name": "croptopia:fish_and_chips",
               "functions": [
                 {
                   "function": "set_count",
@@ -465,10 +843,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:sticky_toffee_pudding",
+              "name": "croptopia:crab_legs",
               "functions": [
                 {
                   "function": "set_count",
@@ -476,10 +855,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:treacle_tart",
+              "name": "croptopia:stir_fry",
               "functions": [
                 {
                   "function": "set_count",
@@ -487,10 +867,11 @@
                 }
               ]
             },
+            
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:scones",
+              "name": "croptopia:steamed_crab",
               "functions": [
                 {
                   "function": "set_count",
@@ -498,10 +879,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:sushi",
+              "name": "croptopia:tofu_burger",
               "functions": [
                 {
                   "function": "set_count",
@@ -509,10 +891,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:lemon_chicken",
+              "name": "croptopia:orange_juice",
               "functions": [
                 {
                   "function": "set_count",
@@ -520,10 +903,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:fried_chicken",
+              "name": "croptopia:apple_juice",
               "functions": [
                 {
                   "function": "set_count",
@@ -531,10 +915,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:chicken_and_noodles",
+              "name": "ends_delight:chorus_fruit_milk_tea",
               "functions": [
                 {
                   "function": "set_count",
@@ -542,10 +927,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:chicken_and_dumplings",
+              "name": "ends_delight:bubble_tea",
               "functions": [
                 {
                   "function": "set_count",
@@ -553,10 +939,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:tofu_and_dumplings",
+              "name": "ends_delight:roasted_dragon_steak",
               "functions": [
                 {
                   "function": "set_count",
@@ -564,43 +951,11 @@
                 }
               ]
             },
+
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "farmersdelight:flint_knife",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:iron_knife",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:golden_knife",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 8
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "farmersdelight:diamond_knife",
+              "name": "ends_delight:end_barbecue_stick",
               "functions": [
                 {
                   "function": "set_count",

@@ -42,24 +42,6 @@ ServerEvents.recipes(event => {
       ]
     })
 
-    // Bygone Nether
-    event.custom({
-      "type": "modern_industrialization:packer",
-      "duration": 200,
-      "eu": 2,
-      "item_inputs": [
-        {
-          "amount": 9,
-          "item": "bygonenether:netherite_scrap_nugget"
-        }
-      ],
-      "item_outputs": [
-        {
-          "item": "bygonenether:netherite_scrap_ingot"
-        }
-      ]
-    })
-
   // Ad Astra
   const ad_astra = [
     'desh',

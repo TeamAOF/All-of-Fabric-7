@@ -61,6 +61,27 @@
     }
   },
   "rewards": {
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
     "oil_drilling_rig_reward": {
       "title": "",
       "icon": {

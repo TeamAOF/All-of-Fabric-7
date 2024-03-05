@@ -10,7 +10,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     },
@@ -21,7 +24,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     },
@@ -32,7 +38,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     },
@@ -43,7 +52,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     }
@@ -52,7 +64,10 @@
     "electric_quarry_reward_2": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
@@ -64,12 +79,36 @@
     "electric_quarry_reward": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
         "id": "modern_industrialization:steel_drill_head",
         "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
       },
       "type": "heracles:item"
     }
@@ -96,7 +135,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:electric_quarry",
+      "item": {
+        "id": "modern_industrialization:electric_quarry",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -105,9 +147,10 @@
     }
   },
   "settings": {
-    "individual_progress": false,
-    "hidden": false,
     "unlockNotification": false,
-    "showDependencyArrow": true
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
