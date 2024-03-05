@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {
+    "fow_trophy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:farmeroworlds"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          41,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:farmeroworlds"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "title": {
+      "translate": "§d§lFarmer O' Worlds 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
