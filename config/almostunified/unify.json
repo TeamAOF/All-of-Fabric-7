@@ -17,6 +17,7 @@
     "vinery",
     "tinycoal",
     "bakery",
+    "createfood",
     "createdeco"
   ],
   "stoneStrata": [
@@ -57,6 +58,8 @@
     "c:raw_bacon",
     "c:cooked_bacon",
     "c:strawberries",
+    "c:bun",
+    "c:salts",
     "c:netherrack_dusts",
     "c:chromium_small_dusts",
     "c:titanium_small_dusts",
@@ -148,7 +151,8 @@
   "meadow:piece_of_amethyst_cheese",
   "meadow:piece_of_buffalo_cheese",
   "meadow:piece_of_goat_cheese",
-  "meadow:piece_of_warped_cheese"
+  "meadow:piece_of_warped_cheese",
+  "croptopia:salt"
 ],
 
   "ignoredRecipeTypes": [
