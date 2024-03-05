@@ -679,6 +679,42 @@
             {
               "type": "minecraft:item",
               "weight": 1,
+              "name": "farmersdelight:honey_glazed_ham",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:squid_ink_pasta",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "farmersdelight:ratatouille",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
               "name": "croptopia:beer",
               "functions": [
                 {
@@ -878,7 +914,55 @@
                   "count": 8
                 }
               ]
-            }
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ends_delight:chorus_fruit_milk_tea",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ends_delight:bubble_tea",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ends_delight:roasted_dragon_steak",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ends_delight:end_barbecue_stick",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
           ]
         }
       ]
