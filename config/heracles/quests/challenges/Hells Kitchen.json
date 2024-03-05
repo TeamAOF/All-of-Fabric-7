@@ -1,85 +1,162 @@
 {
-  "settings": {},
   "dependencies": [
     "Are you worthy"
   ],
   "tasks": {
-    "6E802DA4BECBA8FD": {
+    "rice_roll_medley": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "farmersdelight:steak_and_potatoes",
-      "collection": "MANUAL"
+      "item": "farmersdelight:rice_roll_medley_block",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "220729A89B4CACBC": {
+    "fish_cake": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "farmersdelight:pasta_with_mutton_chop",
-      "collection": "MANUAL"
+      "item": "spectrum:fishcake",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "73CDF0DFBCE93D91": {
+    "kale_smoothie": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "farmersdelight:grilled_salmon",
-      "collection": "MANUAL"
+      "item": "croptopia:kale_smoothie",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "776FA22E4BF48CA4": {
+    "roasted_mutton_chops": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "farmersdelight:stuffed_potato",
-      "collection": "MANUAL"
+      "item": "farmersdelight:roasted_mutton_chops",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "116F0EAC536F98E0": {
+    "cristel_wine": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "farmersdelight:barbecue_stick",
-      "collection": "MANUAL"
+      "item": "vinery:cristel_wine",
+      "nbt": {
+        "Year": 0
+      },
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "36AD733AEFC78B15": {
+    "blazing_chili": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "croptopia:fish_and_chips",
-      "collection": "MANUAL"
+      "item": "farmersrespite:blazing_chili",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "71C16F3D34ABA15E": {
+    "ghast_tear_punch_bowl": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "farmersdelight:dumplings",
-      "collection": "MANUAL"
+      "item": "frightsdelight:punchbowl_ghasttear",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "2E2A693C93C5A838": {
+    "chorus_popsicle": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "croptopia:tres_leche_cake",
-      "collection": "MANUAL"
+      "item": "ends_delight:chorus_fruit_popsicle",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "0881465B825D57BD": {
+    "hamburger": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "croptopia:trifle",
-      "collection": "MANUAL"
+      "item": "farmersdelight:hamburger",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
-    "12D4B1763C101794": {
+    "pineapple_pepperoni_pizza": {
       "type": "heracles:item",
-      "amount": 2500,
-      "item": "croptopia:sticky_toffee_pudding",
-      "collection": "MANUAL"
-    },
-    "3B3A38AFCEE30AD1": {
-      "type": "heracles:item",
-      "amount": 2500,
-      "item": "croptopia:pumpkin_spice_latte",
-      "collection": "MANUAL"
-    },
-    "4B83D0C3A6B25CBC": {
-      "type": "heracles:item",
-      "amount": 2500,
-      "item": "croptopia:the_big_breakfast",
-      "collection": "MANUAL"
+      "item": "croptopia:pineapple_pepperoni_pizza",
+      "amount": 3000,
+      "collection": "MANUAL",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "7D84DE2A7D4C2586": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -88,11 +165,14 @@
             "Trophy": "trofers:cooking"
           }
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§cHell's Kitchen",
+    "subtitle": {
+      "translate": "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
+    },
     "description": [
       "<h2>So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers.</h2>",
       "---",
@@ -105,13 +185,6 @@
       "Put buckets in said &&bTank Unit &&rand have them output into either a buffer or directly into &&bME&&r, craft these into &&bWater Bottles &&rfrom &&6Croptopia.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "farmersdelight:cooking_pot"
-    },
-    "subtitle": {
-      "text": "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
-    },
     "groups": {
       "Challenges": {
         "position": [
@@ -119,6 +192,24 @@
           120
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§cHell's Kitchen"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

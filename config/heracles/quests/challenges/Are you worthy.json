@@ -1,21 +1,32 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "3A9ABB487CD82821": {
       "icon": {
-        "type": "heracles:item",
-        "item": "minecraft:dragon_head"
+        "item": {
+          "id": "minecraft:dragon_head",
+          "count": 1
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:kill_entity",
-      "amount": 1,
       "entity": {
         "type": "minecraft:ender_dragon"
-      }
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
     }
   },
   "rewards": {
     "431C0986E611D988": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -24,29 +35,43 @@
             "Trophy": "trofers:ender_dragon"
           }
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§3Are you worthy?",
+    "subtitle": {
+      "translate": "Kill the Ender Dragon to unlock challenges."
+    },
     "description": [
       "<h2>Kill the Ender Dragon to unlock challenges.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:dragon_head"
-    },
-    "subtitle": {
-      "text": "Kill the Ender Dragon to unlock challenges."
-    },
     "groups": {
       "Challenges": {
         "position": [
           40,
-          320
+          240
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§3Are You Worthy?"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
