@@ -5,16 +5,53 @@
   "tasks": {
     "fluid_transportation_task": {
       "type": "heracles:item",
+      "item": "modern_industrialization:fluid_pipe",
       "amount": 16,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:fluid_pipe"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "fluid_transportation_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:red_dye",
         "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
       },
       "type": "heracles:item"
     }
@@ -47,7 +84,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:fluid_pipe",
+      "item": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -56,8 +96,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

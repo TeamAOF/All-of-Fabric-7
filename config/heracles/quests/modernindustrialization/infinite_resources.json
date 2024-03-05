@@ -5,30 +5,84 @@
   "tasks": {
     "infinite_resources_task_2": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steel_machine_casing",
       "amount": 13,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steel_machine_casing"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "infinite_resources_task_1": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steam_quarry",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steam_quarry"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "infinite_resources_task_4": {
       "type": "heracles:item",
+      "item": "minecraft:chain",
       "amount": 4,
       "collection": "AUTOMATIC",
-      "item": "minecraft:chain"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "infinite_resources_task_3": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steel_machine_casing_pipe",
       "amount": 6,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steel_machine_casing_pipe"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -53,7 +107,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:steam_quarry",
+      "item": {
+        "id": "modern_industrialization:steam_quarry",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -62,8 +119,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

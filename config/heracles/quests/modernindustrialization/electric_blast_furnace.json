@@ -10,18 +10,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
-        "type": "heracles:item"
-      }
-    },
-    "electric_blast_furnace": {
-      "type": "heracles:item",
-      "item": "modern_industrialization:electric_blast_furnace",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     },
@@ -32,7 +24,24 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "electric_blast_furnace": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electric_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     }
@@ -41,7 +50,10 @@
     "electric_blast_furnace_reward_2": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
@@ -53,7 +65,10 @@
     "electric_blast_furnace_reward": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
@@ -89,7 +104,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:electric_blast_furnace",
+      "item": {
+        "id": "modern_industrialization:electric_blast_furnace",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -98,9 +116,10 @@
     }
   },
   "settings": {
-    "individual_progress": false,
-    "hidden": false,
     "unlockNotification": false,
-    "showDependencyArrow": true
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

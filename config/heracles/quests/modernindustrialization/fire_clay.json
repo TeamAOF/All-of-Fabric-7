@@ -5,13 +5,29 @@
   "tasks": {
     "fire_clay_task": {
       "type": "heracles:item",
+      "item": "modern_industrialization:fire_clay_brick",
       "amount": 12,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:fire_clay_brick"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "fire_clay_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:clay_ball",
         "count": 16
@@ -39,7 +55,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:fire_clay_brick",
+      "item": {
+        "id": "modern_industrialization:fire_clay_brick",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -48,8 +67,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

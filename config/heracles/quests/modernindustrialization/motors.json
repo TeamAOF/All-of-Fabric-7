@@ -10,7 +10,10 @@
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       }
     }
@@ -19,12 +22,36 @@
     "motor_reward": {
       "title": "",
       "icon": {
-        "item": "minecraft:air",
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
         "type": "heracles:item"
       },
       "item": {
         "id": "modern_industrialization:motor",
         "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
       },
       "type": "heracles:item"
     }
@@ -49,7 +76,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:motor",
+      "item": {
+        "id": "modern_industrialization:motor",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -58,9 +88,10 @@
     }
   },
   "settings": {
-    "individual_progress": false,
-    "hidden": false,
     "unlockNotification": false,
-    "showDependencyArrow": true
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

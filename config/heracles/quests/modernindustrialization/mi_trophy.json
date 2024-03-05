@@ -68,7 +68,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Modern Industrialization 100%"
+      "translate": "§b§lModern Industrialization §d§l100%"
     }
   },
   "settings": {

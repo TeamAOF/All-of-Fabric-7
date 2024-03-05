@@ -5,25 +5,57 @@
   "tasks": {
     "steel_hatches_task_3": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steel_item_output_hatch",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steel_item_output_hatch"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "steel_hatches_task_2": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steel_item_input_hatch",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steel_item_input_hatch"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "steel_hatches_task_1": {
       "type": "heracles:item",
+      "item": "modern_industrialization:steel_fluid_input_hatch",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:steel_fluid_input_hatch"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "steel_hatches_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "modern_industrialization:steel_fluid_output_hatch",
         "count": 1
@@ -55,7 +87,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:steel_item_input_hatch",
+      "item": {
+        "id": "modern_industrialization:steel_item_input_hatch",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -64,8 +99,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
