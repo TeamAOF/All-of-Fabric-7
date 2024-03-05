@@ -51,6 +51,18 @@ ServerEvents.recipes(event => {
     B: 'minecraft:leather',
   },
   id: 'aof:leather_wrapped_stick'
+},
+
+// Eggs
+{
+  output: '3x minecraft:egg',
+  pattern: ['ABC'],
+  key: {
+    A: 'dml-refabricated:overworld_matter',
+    B: '#c:grain',
+    C: '#c:raw_chicken',
+  },
+  id: 'aof:egg'
 }
 ];
 
