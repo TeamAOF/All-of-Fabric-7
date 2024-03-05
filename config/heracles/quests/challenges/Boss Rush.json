@@ -1,0 +1,283 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Are you worthy"
+  ],
+  "tasks": {
+    "6E33DDB7EF109050": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "adventurez:stone_golem_heart"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "adventurez:stone_golem"
+      }
+    },
+    "4DA5F492F8AD4449": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "adventurez:prime_eye"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "adventurez:the_eye"
+      }
+    },
+    "1A43CE833FBD4D06": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "bosses_of_mass_destruction:ancient_anima"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "bosses_of_mass_destruction:lich"
+      }
+    },
+    "0FA9460CCC66FF44": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "bosses_of_mass_destruction:obsidian_heart"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "bosses_of_mass_destruction:obsidilith"
+      }
+    },
+    "799C560B71E547C7": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "bosses_of_mass_destruction:blazing_eye"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "bosses_of_mass_destruction:gauntlet"
+      }
+    },
+    "31C60566337BA9C2": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "bosses_of_mass_destruction:void_thorn"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "bosses_of_mass_destruction:void_blossom"
+      }
+    },
+    "3AF87A5FED065F14": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:naga_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:naga"
+      }
+    },
+    "09FC7B6D6673F421": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:lich_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:lich"
+      }
+    },
+    "1BACFEB1D7C310D5": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:hydra_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:hydra"
+      }
+    },
+    "05C8266730A44B0E": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:ur_ghast_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:ur_ghast"
+      }
+    },
+    "091B5ABFAF80AD47": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:minoshroom_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:minoshroom"
+      }
+    },
+    "53CF636C5F1438C7": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:knight_phantom_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:knight_phantom"
+      }
+    },
+    "74E281423CE4C2B6": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:alpha_yeti_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:alpha_yeti"
+      }
+    },
+    "192C9369560100D6": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "twilightforest:snow_queen_trophy"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "twilightforest:snow_queen"
+      }
+    },
+    "317A1E4E838B40F0": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecells:tentacle"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecells:conjunctivius"
+      }
+    },
+    "35966A51B41E0561": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "botania:gaia_head"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "botania:doppleganger"
+      }
+    },
+    "51F87D8C62041F73": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "fwaystones:void_totem"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "adventurez:void_shadow"
+      }
+    },
+    "5F2CD2613002D74C": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "graveyard:upper_bone_staff"
+      },
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "graveyard:lich"
+      }
+    }
+  },
+  "rewards": {
+    "33B8F578C9A9D999": {
+      "type": "heracles:item",
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:boss_rush"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "§5Boss Rush",
+    "description": [
+      "<h2>Slay 'em All</h2>",
+      "---",
+      "&&bBlackstone Golem:",
+      "Can only be summoned with a golem ritual while being in the nether.",
+      "",
+      "&&bThe Eye:",
+      "Can only be summoned at an Eye Shrine.",
+      "",
+      "&&bNight Lich:",
+      "Found in rare towers in cold biomes. Locate the towers by following soul stars.",
+      "",
+      "&&bObsidilith:",
+      "Appears in rare structures in the end islands.",
+      "",
+      "&&bNether Gauntlet:",
+      "Appears in rare structures in the nether.",
+      "",
+      "&&bVoid Blossom:",
+      "Appears in rare caves at the bottom of the world. Void lilies will point the way.",
+      "",
+      "&&bGuardian of Gaia:",
+      "To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead.",
+      "",
+      "&&bConjunctivius:",
+      "Can be found in the Mine Cells dimension (See Adventurer quest chapter).",
+      "",
+      "&&bVoid Shadow:",
+      "A new dimension where you will find and fight the Void Shadow.",
+      "",
+      "&&bCorrupted Champion:",
+      "Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure. Every Ruin has a unique fragment (upper, middle and lower bone staff fragment).",
+      "",
+      "Obtain a bone dagger from an Acolyte, or craft it yourself.",
+      "",
+      "Hold a glass bottle in your offhand and start killing villager with the bone dagger. You'll get a Vial of Blood. Fill the vial to the limit.",
+      "",
+      "Find the Lich Prison structure, a large floating island above the oceans.",
+      "",
+      "Wait until it is night, place the bone staff pieces (from upper to lower) on the dark corrupted deepslate blocks in front of the altar (they should fairly stand out).",
+      "",
+      "Pour the Vial of Blood into the altar.",
+      "{@pagebreak}",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "dragonloot:dragon_helmet"
+    },
+    "subtitle": {
+      "text": "Slay 'em All"
+    },
+    "groups": {
+      "Challenges": {
+        "position": [
+          144,
+          120
+        ]
+      }
+    }
+  }
+}
