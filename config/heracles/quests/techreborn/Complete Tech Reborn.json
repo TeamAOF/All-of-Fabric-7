@@ -171,7 +171,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "§9Tech Reborn 100%"
+      "translate": "§9§lTech Reborn 100%"
     }
   },
   "settings": {
