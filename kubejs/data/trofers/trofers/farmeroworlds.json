@@ -1,6 +1,6 @@
 {
     "colors": {
-      "accent": "#04ccbf",
+      "accent": "#f57a8c",
       "base": "#606060"
     },
     "display": {
@@ -15,7 +15,7 @@
       }
     },
     "item": {
-      "item": "indrev:modular_core",
+      "item": "bakery:sweetberry_cake",
       "count": 1
     },
     "animation": {
@@ -23,7 +23,7 @@
         "speed": 0.20
       },
     "name": {
-      "color": "#04ccbf",
-      "text": "Industrial Revolution Trophy"
+      "color": "#f57a8c",
+      "text": "Farmer O' Worlds"
     }
   }

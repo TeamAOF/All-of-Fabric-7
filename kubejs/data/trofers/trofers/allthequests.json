@@ -5,9 +5,9 @@
     },
     "display": {
       "offset": {
-        "y": 0.5
+        "y": 1
       },
-      "scale": 1.0
+      "scale": 1.5
     },
     "effects": {
       "sound": {
