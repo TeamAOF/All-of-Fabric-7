@@ -39,7 +39,7 @@
       "text": "Transforms the liquid XP from tanks behind it into experience orbs that players can absorb."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           496,
           0

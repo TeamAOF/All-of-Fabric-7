@@ -39,7 +39,7 @@
       "text": "Wearable item that negates fall damage and makes the player bounce when hitting the floor with considerable speed."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           144,
           -160

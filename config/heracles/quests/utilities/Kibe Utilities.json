@@ -29,7 +29,7 @@
     }
   },
   "display": {
-    "title": "Kibe Utilities!",
+    "title": "Utilities!",
     "description": [
       "<h2>Bunch of random, and mostly unoriginal things but aswell useful utilities!</h2>",
       "---"
@@ -43,7 +43,7 @@
       "text": "Bunch of random, and mostly unoriginal things but aswell useful utilities!"
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           208,
           -16

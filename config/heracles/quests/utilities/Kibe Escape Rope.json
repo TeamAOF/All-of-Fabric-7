@@ -35,7 +35,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           176,
           -112

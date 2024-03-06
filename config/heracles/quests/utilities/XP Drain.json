@@ -39,7 +39,7 @@
       "text": "Will drain XP from a player and store it in a fluid container placed directly below it."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           512,
           32

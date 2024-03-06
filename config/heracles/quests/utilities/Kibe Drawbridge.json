@@ -47,7 +47,7 @@
       "---"
     ],
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           32,
           -112
@@ -63,7 +63,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
-      "translate": "Acquire: Drawbridge"
+      "translate": "Drawbridge"
     }
   },
   "settings": {

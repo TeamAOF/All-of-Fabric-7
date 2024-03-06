@@ -39,7 +39,7 @@
       "text": "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           144,
           -208

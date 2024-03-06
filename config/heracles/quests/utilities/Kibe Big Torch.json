@@ -39,7 +39,7 @@
       "text": "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           272,
           -208

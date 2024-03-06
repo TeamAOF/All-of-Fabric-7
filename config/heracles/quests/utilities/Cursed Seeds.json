@@ -39,7 +39,7 @@
       "text": "Using Cursed Seeds on regular grass or dirt block will create Cursed Dirt, and can only spread 16 blocks from the center."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           368,
           64

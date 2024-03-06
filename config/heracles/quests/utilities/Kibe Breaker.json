@@ -39,7 +39,7 @@
       "text": "Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible."
     },
     "groups": {
-      "Kibe Utilities": {
+      "Utilities": {
         "position": [
           -64,
           -208
