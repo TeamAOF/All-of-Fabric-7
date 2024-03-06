@@ -1,50 +1,79 @@
 {
-  "settings": {},
   "dependencies": [
     "Diamond Ring"
   ],
   "tasks": {
     "629D1D4982FE2971": {
       "type": "heracles:item",
-      "item": "kibe:magma_ring"
+      "item": "kibe:magma_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "3DC2DA0B6B69967A": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Magma Ring",
+    "subtitle": {
+      "translate": "Gives an infinite Fire Resistance status to the wearer."
+    },
     "description": [
       "<h2>Gives an infinite Fire Resistance status to the wearer.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:magma_ring"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Gives an infinite Fire Resistance status to the wearer."
-    },
     "groups": {
       "Utilities": {
         "position": [
           272,
-          96
+          32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:magma_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Magma Ring"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

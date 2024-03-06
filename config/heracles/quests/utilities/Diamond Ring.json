@@ -1,43 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Kibe and Rings"
   ],
   "tasks": {
     "017BC2F70596CEBC": {
       "type": "heracles:item",
-      "item": "kibe:diamond_ring"
+      "item": "kibe:diamond_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "142A217EEBF6CA4E": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Diamond Ring",
+    "subtitle": {
+      "translate": "Used for crafting other rings."
+    },
     "description": [
       "<h2>Used for crafting other rings.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:diamond_ring"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Used for crafting other rings."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +56,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:diamond_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Diamond Ring"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
