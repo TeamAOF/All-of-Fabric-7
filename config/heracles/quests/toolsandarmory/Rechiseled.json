@@ -1,57 +1,103 @@
 {
-  "settings": {},
   "dependencies": [
     "Blocks as Far as the Eye Can See"
   ],
   "tasks": {
     "6B877225D944D10B": {
       "type": "heracles:item",
-      "item": "rechiseled:chisel"
+      "item": "rechiseled:chisel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "0785B7A200D630A7": {
-      "type": "heracles:item",
-      "item": {
-        "id": "minecraft:crimson_planks",
-        "count": 64
-      }
-    },
     "55ABFF044CB1B751": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:warped_planks",
         "count": 64
-      }
+      },
+      "type": "heracles:item"
+    },
+    "0785B7A200D630A7": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:crimson_planks",
+        "count": 64
+      },
+      "type": "heracles:item"
     },
     "653EA95BCAD75619": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:glowstone",
         "count": 16
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Rechiseled",
+    "subtitle": {
+      "translate": "Rechiseled adds over 300+ decorative variants of vanilla blocks!"
+    },
     "description": [
       "<h2>Rechiseled adds over 300+ decorative variants of vanilla blocks!</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "rechiseled:chisel"
-    },
-    "subtitle": {
-      "text": "Rechiseled adds over 300+ decorative variants of vanilla blocks!"
-    },
     "groups": {
       "Tools and Armory": {
         "position": [
-          160,
-          -176
+          -50,
+          -140
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "rechiseled:chisel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rechiseled"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
