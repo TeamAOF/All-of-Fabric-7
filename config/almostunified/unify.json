@@ -41,6 +41,7 @@
     "c:{material}_blocks",
     "c:{material}_wires",
     "c:{material}_storage_blocks",
+    "c:{material}_small_dusts",
     "c:raw_{material}_ores",
     "c:raw_{material}_blocks",
     "c:raw_{material}_storage_blocks",
@@ -60,10 +61,7 @@
     "c:strawberries",
     "c:bun",
     "c:salts",
-    "c:netherrack_dusts",
-    "c:chromium_small_dusts",
-    "c:titanium_small_dusts",
-    "c:platinum_small_dusts"
+    "c:netherrack_dusts"
   ],
   "materials": [
     "aluminum",
@@ -110,17 +108,16 @@
     "garlic",
     "quartz",
     "ender_pearl",
-    "obsidian"
+    "obsidian",
+    "chromium",
+    "titanium",
+    "platinum"
   ],
   "priorityOverrides": {
-    "c:chromium_small_dusts": "modern_industrialization",
-    "c:platinum_small_dusts": "modern_industrialization",
     "c:salt_dusts": "bewitchment",
     "c:obsidian_plates": "techreborn",
     "c:obsidian_dusts": "techreborn",
-    "c:amethyst_dusts": "hexcasting",
-    "c:dough": "farmersdelight",
-    "c:titanium_small_dusts": "modern_industrialization"
+    "c:dough": "farmersdelight"
   },
   "customTags": {},
   "tagOwnerships": {},
@@ -134,27 +131,26 @@
     "minecraft:stairs"
   ],
   "ignoredItems": [
-  "minecraft:copper_block",
-  "farmersdelight:cabbage",
-  "minecraft:waxed_copper_block",
-  "minecraft:raw_copper",
-  "spectrum:topaz_shard",
-  "spectrum:blackslag_coal_ore",
-  "spectrum:blackslag_copper_ore",
-  "spectrum:blackslag_iron_ore",
-  "spectrum:blackslag_gold_ore",
-  "spectrum:blackslag_lapis_ore",
-  "spectrum:blackslag_diamond_ore",
-  "spectrum:blackslag_emerald_ore",
-  "meadow:piece_of_sheep_cheese",
-  "meadow:piece_of_grain_cheese",
-  "meadow:piece_of_amethyst_cheese",
-  "meadow:piece_of_buffalo_cheese",
-  "meadow:piece_of_goat_cheese",
-  "meadow:piece_of_warped_cheese",
-  "croptopia:salt"
-],
-
+    "minecraft:copper_block",
+    "farmersdelight:cabbage",
+    "minecraft:waxed_copper_block",
+    "minecraft:raw_copper",
+    "spectrum:topaz_shard",
+    "spectrum:blackslag_coal_ore",
+    "spectrum:blackslag_copper_ore",
+    "spectrum:blackslag_iron_ore",
+    "spectrum:blackslag_gold_ore",
+    "spectrum:blackslag_lapis_ore",
+    "spectrum:blackslag_diamond_ore",
+    "spectrum:blackslag_emerald_ore",
+    "meadow:piece_of_sheep_cheese",
+    "meadow:piece_of_grain_cheese",
+    "meadow:piece_of_amethyst_cheese",
+    "meadow:piece_of_buffalo_cheese",
+    "meadow:piece_of_goat_cheese",
+    "meadow:piece_of_warped_cheese",
+    "croptopia:salt"
+  ],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],

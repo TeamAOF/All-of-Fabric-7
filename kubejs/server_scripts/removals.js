@@ -102,7 +102,8 @@ ServerEvents.recipes((event) => {
         'techreborn:crafting_table/raw/raw_silver_from_block',
         'indrev:shapeless/raw_silver',
         'techreborn:crafting_table/storage_block/raw_raw_silver_storage_block',
-        'indrev:shaped/raw_silver_block'
+        'indrev:shaped/raw_silver_block',
+        'techreborn:crafting_table/dust/coal_dust_from_small'
     ];
 
     const output = [
@@ -178,27 +179,24 @@ ServerEvents.recipes((event) => {
         event.remove({ output: output });
     });
 
-    /*
-    const mystiagri_balance = [
-        'aluminum',
-        'chromium',
+    const small_dusts = [
+        'emerald',
+        'bauxite',
+        'diamond',
         'electrum',
         'invar',
-        'iridium',
         'manganese',
-        'platinum',
-        'steel',
-        'titanium',
-        'tungsten'
+        'nickel',
+        'quartz',
+        'ruby',
+        'sulfur',
+        'coal'
 
     ];
 
-    mystiagri_balance.forEach((item) => {
-        event.remove({ output: 'mysticalagriculture:' + item + '_seeds' });
-        event.remove({ output: 'mysticalagriculture:' + item + '_essence' });
-        event.remove({ id: 'mysticalagriculture:essence/common/' + item + '_ingot' });
+    small_dusts.forEach((item) => {
+        event.remove({ id: 'techreborn:crafting_table/small_dust/' + item + '_small_dust_from_dust'});
     });
-    */
 
     const plates = [
         'tin',

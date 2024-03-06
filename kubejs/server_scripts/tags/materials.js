@@ -67,11 +67,28 @@ ServerEvents.tags('item', event => {
     event.add("c:iron_rods", "modern_industrialization:iron_rod")
     event.add("c:dusts/diamond", "modern_industrialization:diamond_dust")
 
-    event.add("c:chromium_small_dusts", "modern_industrialization:chromium_tiny_dust")
-    event.add("c:titanium_small_dusts", "modern_industrialization:titanium_tiny_dust")
-    event.add("c:platinum_small_dusts", "modern_industrialization:platinum_tiny_dust")
-    event.add("c:emerald_small_dusts", "modern_industrialization:emerald_tiny_dust")
-    event.add("c:steel_small_dusts", "modern_industrialization:steel_tiny_dust")
+    const small_dusts = [
+        'emerald',
+        'bauxite',
+        'diamond',
+        'electrum',
+        'invar',
+        'manganese',
+        'nickel',
+        'quartz',
+        'ruby',
+        'sulfur',
+        'coal',
+        'chromium',
+        'titanium',
+        'platinum',
+        'steel'
+
+    ];
+
+    small_dusts.forEach((item) => {
+        event.add('c:' + item + '_small_dusts', 'modern_industrialization:' + item + '_tiny_dust');
+    });
 
     event.add("c:plates/gold", "modern_industrialization:gold_plate")
     event.add("c:plates/iron", "modern_industrialization:iron_plate")
