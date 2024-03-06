@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "Replicator",
-    "Quantum Gear",
+    "quantum_upgrade",
+    "uu_matter_bucket",
     "plasma_turbine"
   ],
   "tasks": {
-    "mi_trophy": {
-      "title": "§bModern Industrialization §d100%",
+    "mi_check_completion": {
+      "title": "",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -18,7 +18,7 @@
     }
   },
   "rewards": {
-    "trophy": {
+    "mi_trophy": {
       "title": "",
       "icon": {
         "item": {
@@ -49,8 +49,8 @@
     "groups": {
       "Modern Industrialization": {
         "position": [
-          1484,
-          -52
+          1485,
+          -16
         ]
       }
     },
@@ -66,13 +66,13 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
-      "translate": "§b§lModern Industrialization §d§l100%"
+      "translate": "§6§lMI 100%"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
