@@ -64,7 +64,7 @@
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Complete all quests to obtain the trophy!"
     },
     "description": [
       "---",
@@ -98,7 +98,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "§4§lPowah 100%"
     }

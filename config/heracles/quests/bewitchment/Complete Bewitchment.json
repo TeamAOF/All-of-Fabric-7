@@ -81,8 +81,8 @@
     "groups": {
       "Bewitchment": {
         "position": [
-          192,
-          -192
+          144,
+          -38
         ]
       }
     },
@@ -100,7 +100,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
-      "translate": "Bewitchment 100%"
+      "translate": "§6§lBewitchment §c§l100%"
     }
   },
   "settings": {
