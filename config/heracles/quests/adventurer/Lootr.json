@@ -62,10 +62,7 @@
       }
     },
     "icon": {
-      "item": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
-      },
+      "item": "#lootr:chests",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
