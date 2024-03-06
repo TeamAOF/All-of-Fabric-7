@@ -51,8 +51,8 @@
     "groups": {
       "Challenges": {
         "position": [
-          72,
-          119
+          30,
+          100
         ]
       }
     },
@@ -63,7 +63,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "§eRing of Angels"
     }

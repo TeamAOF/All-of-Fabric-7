@@ -1,17 +1,17 @@
 {
   "dependencies": [
+    "Complete Bewitchment",
+    "Completed DML",
+    "Complete Tech Reborn",
+    "botania_trophy",
     "Are you worthy",
     "fow_completion",
     "Complete IndRev",
     "Powah Completed",
     "154FDDB80C66F42C",
-    "Complete Bewitchment",
     "ad_astra_trophy",
     "Complete Create",
-    "Completed DML",
-    "mi_completion",
-    "Complete Tech Reborn",
-    "botania_trophy"
+    "mi_completion"
   ],
   "tasks": {
     "406DD97392361D8E": {
@@ -85,8 +85,8 @@
     "groups": {
       "Challenges": {
         "position": [
-          0,
-          120
+          -30,
+          100
         ]
       }
     },
@@ -97,7 +97,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "§6All The Quests"
     }

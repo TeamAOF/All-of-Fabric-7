@@ -171,7 +171,7 @@
   },
   "display": {
     "subtitle": {
-      "translate": "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
+      "translate": "A messy KITCHEN is a sign of happiness."
     },
     "description": [
       "<h2>So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers.</h2>",
@@ -188,8 +188,8 @@
     "groups": {
       "Challenges": {
         "position": [
-          216,
-          120
+          150,
+          100
         ]
       }
     },
@@ -200,7 +200,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "§cHell's Kitchen"
     }

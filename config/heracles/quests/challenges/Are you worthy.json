@@ -50,8 +50,8 @@
     "groups": {
       "Challenges": {
         "position": [
-          40,
-          240
+          0,
+          200
         ]
       }
     },
@@ -62,7 +62,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "§3Are You Worthy?"
     }
