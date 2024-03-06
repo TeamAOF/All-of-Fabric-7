@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "2CA4CC93439BB357": {
+      "type": "heracles:item",
+      "item": "kibe:trash_can"
+    }
+  },
+  "rewards": {
+    "78956F02DDCE9596": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Trash Can",
+    "description": [
+      "<h2>It's a trashcan, nothing more to it.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:trash_can"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "It's a trashcan, nothing more to it."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    }
+  }
+}

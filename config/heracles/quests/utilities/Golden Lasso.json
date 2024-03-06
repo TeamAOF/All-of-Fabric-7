@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "41C4364D32E8FB5E": {
+      "type": "heracles:item",
+      "item": "kibe:golden_lasso"
+    }
+  },
+  "rewards": {
+    "57529E45F43B459A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Golden Lasso",
+    "description": [
+      "<h2>Can only hold passive animals.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:golden_lasso"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Can only hold passive animals."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          416,
+          112
+        ]
+      }
+    }
+  }
+}

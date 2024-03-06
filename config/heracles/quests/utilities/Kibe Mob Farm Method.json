@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7F9BE20A484C8715": {
+      "title": "Kibe Mob Farm Method",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "Use the various levels of spikes to leave at the bottom of your mob farm.",
+      "",
+      "Use the vacuum hopper to suck up items and XP.",
+      "",
+      "Store your XP in the tank",
+      "",
+      "Use redstone to active the drain or shower, to store xp or to dispense.",
+      "",
+      "Cursed droplets and seeds are used to make cursed dirt. Which spawns more mobs.",
+      "",
+      "Use the trash can to get rid of any unwanted loot.",
+      "",
+      "Use the lassos to capture mobs.. for various reasons.",
+      "",
+      "Once you have mastered the mob farm, can you claim your reward."
+    ],
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          432,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Kibe Mob Farm Method"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

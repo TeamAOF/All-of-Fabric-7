@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Wither Machine"
+  ],
+  "tasks": {
+    "6246ADA7C69387FD": {
+      "type": "heracles:item",
+      "item": "kibe:wither_proof_glass"
+    }
+  },
+  "rewards": {
+    "2A0C62AD9924EB2C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Wither-proof Glass",
+    "description": [
+      "<h2>Cannot be destroyed by the wither boss.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:wither_proof_glass"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Cannot be destroyed by the wither boss."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          384,
+          -192
+        ]
+      }
+    }
+  }
+}

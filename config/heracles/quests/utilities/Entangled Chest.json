@@ -1,0 +1,78 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Entangle Your Mind"
+  ],
+  "tasks": {
+    "0ED500FB5F9B7C7F": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_chest"
+    }
+  },
+  "rewards": {
+    "0C67585728F46B4B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kibe:yellow_rune",
+        "count": 2
+      }
+    },
+    "1B59311DCCBA2336": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kibe:lime_rune",
+        "count": 2
+      }
+    },
+    "750BE3B34F5D59C3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kibe:pink_rune",
+        "count": 2
+      }
+    },
+    "79B2959D4520A57F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "kibe:gray_rune",
+        "count": 2
+      }
+    },
+    "60175DBDA9280C75": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Entangled Chest",
+    "description": [
+      "<h2>Universally linked chests that work across dimensions and stores the same items as long as they are color-coded the same.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_chest"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Universally linked chests that work across dimensions and stores the same items as long as they are color-coded the same."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -16,
+          80
+        ]
+      }
+    }
+  }
+}

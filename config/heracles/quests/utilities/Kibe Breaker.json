@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Machines to Automate"
+  ],
+  "tasks": {
+    "3343274513277EB6": {
+      "type": "heracles:item",
+      "item": "kibe:breaker"
+    }
+  },
+  "rewards": {
+    "24DA0FF9629E39BB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Breaker",
+    "description": [
+      "<h2>Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:breaker"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -64,
+          -208
+        ]
+      }
+    }
+  }
+}

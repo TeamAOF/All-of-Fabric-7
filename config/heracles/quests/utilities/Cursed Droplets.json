@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "6B2D4FA7B4449E85": {
+      "type": "heracles:item",
+      "item": "kibe:cursed_droplets"
+    }
+  },
+  "rewards": {
+    "7D6E590AE78839D7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Cursed Droplets",
+    "description": [
+      "<h2>Gathered from Wither Skeletons.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:cursed_droplets"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Gathered from Wither Skeletons."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          352,
+          32
+        ]
+      }
+    }
+  }
+}

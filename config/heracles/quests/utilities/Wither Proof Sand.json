@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Wither Machine"
+  ],
+  "tasks": {
+    "60F565C1307D35D8": {
+      "type": "heracles:item",
+      "item": "kibe:wither_proof_sand"
+    }
+  },
+  "rewards": {
+    "1EAEA314811711B8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Wither-proof Sand",
+    "description": [
+      "<h2>Cannot be destroyed by the wither boss.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:wither_proof_sand"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Cannot be destroyed by the wither boss."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          400,
+          -112
+        ]
+      }
+    }
+  }
+}

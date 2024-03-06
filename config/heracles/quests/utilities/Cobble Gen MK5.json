@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Cobble Gen MK4"
+  ],
+  "tasks": {
+    "38C35D7B6C49C7AB": {
+      "type": "heracles:item",
+      "item": "kibe:cobblestone_generator_mk5"
+    }
+  },
+  "rewards": {
+    "3CF0831D599A70A7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Cobblestone Generator Mk5",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:cobblestone_generator_mk5"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          -112,
+          80
+        ]
+      }
+    }
+  }
+}

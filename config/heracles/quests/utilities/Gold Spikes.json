@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "2B470452DA5633D2": {
+      "type": "heracles:item",
+      "item": "kibe:gold_spikes"
+    }
+  },
+  "rewards": {
+    "11495BDE70A0597A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Gold Spikes",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:gold_spikes"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          448,
+          -48
+        ]
+      }
+    }
+  }
+}

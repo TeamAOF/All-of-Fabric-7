@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Diamond Ring"
+  ],
+  "tasks": {
+    "37C52C86B6E0FA4A": {
+      "type": "heracles:item",
+      "item": "kibe:water_ring"
+    }
+  },
+  "rewards": {
+    "5B04800D4102A875": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Water Ring",
+    "description": [
+      "<h2>Gives an infinite Water Breathing status to the wearer.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:water_ring"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Gives an infinite Water Breathing status to the wearer."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          144,
+          96
+        ]
+      }
+    }
+  }
+}

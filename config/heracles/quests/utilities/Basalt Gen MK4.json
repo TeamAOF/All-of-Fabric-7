@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Basalt Gen MK3"
+  ],
+  "tasks": {
+    "5189E357486D70CD": {
+      "type": "heracles:item",
+      "item": "kibe:basalt_generator_mk4"
+    }
+  },
+  "rewards": {
+    "262A799850C92571": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Basalt Generator Mk4",
+    "description": [
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:basalt_generator_mk4"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          80,
+          48
+        ]
+      }
+    }
+  }
+}

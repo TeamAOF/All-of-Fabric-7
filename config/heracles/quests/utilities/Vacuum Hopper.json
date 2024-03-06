@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "5C49C0A15140D59C": {
+      "type": "heracles:item",
+      "item": "kibe:vacuum_hopper"
+    }
+  },
+  "rewards": {
+    "7810566C93E6D4FF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Vacuum Hopper",
+    "description": [
+      "<h2>Pulls nearby dropped items and experience orbs to their own inventory.</h2>",
+      "---",
+      "Stored items can be accessed by opening the block's GUI or by using regular Hoppers.",
+      "",
+      "Stored XP can be used to craft Bottle o' Enchanting or Liquid XP buckets.",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:vacuum_hopper"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Pulls nearby dropped items and experience orbs to their own inventory."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          480,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "Kibe Machines to Automate"
+  ],
+  "tasks": {
+    "6B26491A205CD947": {
+      "type": "heracles:item",
+      "item": "kibe:drawbridge",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1645BBC02885470C": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "title": "Drawbridge",
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          32,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:drawbridge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Acquire: Drawbridge"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

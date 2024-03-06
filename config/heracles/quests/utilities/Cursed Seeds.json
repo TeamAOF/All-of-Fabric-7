@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Kibe Mob Farm Method"
+  ],
+  "tasks": {
+    "157E7A93B794012C": {
+      "type": "heracles:item",
+      "item": "kibe:cursed_seeds"
+    }
+  },
+  "rewards": {
+    "717F0EC42A91A457": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Cursed Seeds",
+    "description": [
+      "<h2>Using Cursed Seeds on regular grass or dirt block will create Cursed Dirt, and can only spread 16 blocks from the center.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:cursed_seeds"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Using Cursed Seeds on regular grass or dirt block will create Cursed Dirt, and can only spread 16 blocks from the center."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          368,
+          64
+        ]
+      }
+    }
+  }
+}

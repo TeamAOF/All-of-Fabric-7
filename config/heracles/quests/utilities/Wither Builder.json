@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Wither Machine"
+  ],
+  "tasks": {
+    "5F15D847732F2F5A": {
+      "type": "heracles:item",
+      "item": "kibe:wither_builder"
+    }
+  },
+  "rewards": {
+    "1AAB8029A3026A44": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Wither Builder",
+    "description": [
+      "<h2>Activated by a redstone signal, will summon a wither if there's enough building material in its inventory and available space in front of it.</h2>",
+      "---"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kibe:wither_builder"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "subtitle": {
+      "text": "Activated by a redstone signal, will summon a wither if there's enough building material in its inventory and available space in front of it."
+    },
+    "groups": {
+      "Kibe Utilities": {
+        "position": [
+          464,
+          -112
+        ]
+      }
+    }
+  }
+}
