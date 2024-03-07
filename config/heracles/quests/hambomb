@@ -1,0 +1,26 @@
+<br/>
+<columns template='0 100'>
+<column>
+<columns>
+<column valign='top'>
+<h1 background='8 #aadc143c' border='0 #01dc143c'>&#160;&#160;&#160;&#160;&#160;&#160;</h1>
+</column>
+<column valign='bottom'>
+<h1 background='8 #aa228b22' border='2 #01228b22'>&#160;&#160;&#160;&#160;&#160;&#160;</h1>
+</column>
+<column>
+<h1 background='8 #aadaa520' border='4 #01daa520'>&#160;&#160;&#160;&#160;&#160;&#160;</h1>
+</column>
+</columns>
+</column>
+<column>
+<columns template='25 75'>
+<column>
+<item align='left' id='trofers:medium_pillar' scale='8' tag='{BlockEntityTag:{Trophy:&#39;trofers:farmeroworlds&#39;}}'>&#32;</item>
+</column>
+<column valign='middle'>
+<h1 align='center' background='2 #88777777' border='1 white' shadowed='true'>Farmer o' Worlds!</h1>
+</column>
+</columns>
+</column>
+</columns>
