@@ -342,7 +342,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "trashcans:fluid_trash_can",
+            "name": "trashcans:liquid_trash_can",
             "functions": [
               {
                 "function": "set_count",
@@ -546,7 +546,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "chipped:carpenters_workbench",
+            "name": "chipped:carpenters_table",
             "functions": [
               {
                 "function": "set_count",
@@ -666,7 +666,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "zenith:simple_reforing_table",
+            "name": "zenith:simple_reforging_table",
             "functions": [
               {
                 "function": "set_count",
@@ -894,7 +894,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "piercingpaxels:passive_vaccum",
+            "name": "piercingpaxels:passive_vacuum",
             "functions": [
               {
                 "function": "set_count",

@@ -883,7 +883,7 @@
             {
               "type": "minecraft:item",
               "weight": 1,
-              "name": "croptopia:tofu_burger",
+              "name": "croptopia:tofuburger",
               "functions": [
                 {
                   "function": "set_count",
