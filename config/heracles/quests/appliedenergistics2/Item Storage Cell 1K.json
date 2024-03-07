@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "AE2 Drive"
+  ],
+  "tasks": {
+    "3FDDED57431181C3": {
+      "type": "heracles:item",
+      "item": "ae2:item_storage_cell_1k"
+    }
+  },
+  "rewards": {
+    "3862AF9AC3809275": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:item_storage_cell_1k",
+    "description": [
+      "<h2>Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.</h2>",
+      "<hr/>",
+      "<task task=\"3FDDED57431181C3\" quest=\"Item Storage Cell 1K\"/>",
+      "<hr/>",
+      "1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items.",
+      "<br/>",
+      "The 1k Storage Cell uses 8 bytes of data to store a single type.",
+      "<hr/>",
+      "<reward reward=\"3862AF9AC3809275\" quest=\"Item Storage Cell 1K\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:item_storage_cell_1k"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -400,
+          -304
+        ]
+      }
+    }
+  }
+}

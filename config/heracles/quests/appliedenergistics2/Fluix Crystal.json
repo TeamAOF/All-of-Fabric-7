@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Charged Certus Quartz Crystal"
+  ],
+  "tasks": {
+    "58065B40437B33DA": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "ae2:fluix_crystal"
+    }
+  },
+  "rewards": {
+    "58F4C75D516E78DA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:fluix_crystal",
+    "description": [
+      "<task task=\"58065B40437B33DA\" quest=\"Fluix Crystal\"/>",
+      "<hr/>",
+      "To progress, you need to create &&bFluix Crystal&&r. You have two options:",
+      "<br/>",
+      "- Use the compass to find a &&6meteorite&&r, where you might find some &&bFluix Crystal&&r.",
+      "<br/>",
+      "- Throw &&bCharged Certus Quartz Crystal&&r, &&bNether Quartz&&r, and &&bRedstone Dust&&r into a pool of water and wait.",
+      "<hr/>",
+      "<reward reward=\"58F4C75D516E78DA\" quest=\"Fluix Crystal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_crystal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -112,
+          -224
+        ]
+      }
+    }
+  }
+}

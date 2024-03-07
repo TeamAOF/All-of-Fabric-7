@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Energy Acceptor"
+  ],
+  "tasks": {
+    "1582C3D80B414E43": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "ae2:fluix_glass_cable"
+    }
+  },
+  "rewards": {
+    "593C15EE90684F09": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:fluix_glass_cable",
+    "description": [
+      "<h2>The simplest cable to make, transfers power.</h2>",
+      "<hr/>",
+      "<task task=\"1582C3D80B414E43\" quest=\"Fluix Glass Cable\"/>",
+      "<hr/>",
+      "To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world.",
+      "<br/>",
+      "You can craft any colored cable with a water bucket to remove the dye.",
+      "<br/>",
+      "You can cover the cable with wool to create Fluix ME Covered Cable, and craft Fluix ME Smart Cable to get a better idea of what is going on with your Channels.",
+      "<hr/>",
+      "<reward reward=\"593C15EE90684F09\" quest=\"Fluix Glass Cable\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_glass_cable"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "The simplest cable to make, transfers power."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -112,
+          -320
+        ]
+      }
+    }
+  }
+}
