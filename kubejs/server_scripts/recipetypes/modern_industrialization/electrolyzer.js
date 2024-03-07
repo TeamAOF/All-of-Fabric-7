@@ -6,6 +6,7 @@
 ServerEvents.recipes(event => {
 
   
+  // Singularity
     event.custom({    
         "type": "modern_industrialization:electrolyzer",
         "id": "modern_industrialization:materials/electrolyzer/uu_matter",
@@ -24,5 +25,24 @@ ServerEvents.recipes(event => {
             "amount": 1
           }
         ]
+})
+
+ // Nikolite
+ event.custom({    
+  "type": "modern_industrialization:electrolyzer",
+  "id": "aof:enriched_nikolite_dust_mi",
+  "eu": 4,
+  "duration": 100,
+  "item_inputs": [
+    {
+      "item": "indrev:nikolite_dust",
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "indrev:enriched_nikolite_dust",
+      "amount": 1
+    }
+  ]
 })
     })
