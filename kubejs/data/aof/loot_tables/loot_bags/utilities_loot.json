@@ -1,262 +1,1040 @@
   {
-      "type": "minecraft:chest",
-      "pools": [
-        {
-          "rolls": 1,
-          "entries": [
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:white_glider",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:cursed_droplets",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:potato_battery",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:baked_potato_battery",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:poisonous_potato_battery",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:portable_tank_mk1",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:portable_tank_mk2",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 4
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:portable_tank_mk3",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:grannys_sink",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:wooden_hopper",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:ender_orchid_seeds",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:liquid_xp_bucket",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:white_elevator",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:diamond_ring",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:fluid_trash_can",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:energy_trash_can",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:cooler",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:entangled_tank",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "darkutils:charm_sleep",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:entangled_chest",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:entangled_bucket",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "kibe:entangled_bag",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "weight": 1,
-              "name": "coxinhautilities:cardboard_box",
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:white_glider",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ironchests:iron_dolly",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ironchests:iron_chest",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ironchests:gold_chest",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ironchests:diamond_chest_upgrade",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ironchests:gold_chest_upgrade",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:bronze_barrel",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "coxinhautilities:portable_tank_mk1",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "coxinhautilities:portable_tank_mk2",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "coxinhautilities:portable_tank_mk3",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "coxinhautilities:potato_battery",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "coxinhautilities:baked_potato_battery",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "coxinhautilities:poisonous_potato_battery",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "darkutils:vector_plate",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 12
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "darkutils:vector_plate_fast",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 12
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "darkutils:vector_plate_extreme",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 12
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "darkutils:damage_plate",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 12
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "darkutils:flame_plate",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 12
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:hopper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:fluid_hopper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "autoworkstations:iron_auto_crafting_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "autoworkstations:gold_auto_crafting_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "autoworkstations:iron_auto_furnace",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "autoworkstations:gold_auto_furnace",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "autoworkstations:iron_auto_experience_orb_vacuum",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "autoworkstations:gold_auto_experience_orb_vacuum",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "gofish:diamond_reinforced_rod",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "gofish:blaze_rod",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "trashcans:item_trash_can",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "trashcans:fluid_trash_can",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "trashcans:energy_trash_can",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "trashcans:ultimate_trash_can",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "modern_industrialization:trash_can",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:white_sleeping_bag",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:red_sleeping_bag",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:black_sleeping_bag",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:void_bucket",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:torch_sling",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:cooler",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "wands:iron_wand",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "wands:diamond_wand",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:cobblestone_generator_mk1",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:cobblestone_generator_mk2",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:cobblestone_generator_mk3",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:botanist_workbench",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:glassblower",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:carpenters_workbench",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:loom_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:mason_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:alchemy_bench",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "chipped:tinkering_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "rechiseled:chisel",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:entangled_chest",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "kibe:entangled_tank",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "zenith:gem_cutting_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "zenith:salvaging_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "zenith:simple_reforing_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "meadow:watering_can",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "dankstorage:dock",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "dankstorage:1_to_2",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "dankstorage:2_to_3",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mi_sound_addon:mallet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "gag:hearthstone",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "gag:labeling_tool",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "gag:time_sand_pouch",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "enhancedworkbenches:project_table",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "glassential:tinted_ethereal_glass",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 16
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "calibrated:novice_accessor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "calibrated:skilled_accessor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "moderndynamics:filter",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "moderndynamics:extractor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "moderndynamics:attractor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "onlyhammers:iron_hammer",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "onlyhammers:gold_hammer",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "piercingpaxels:passive_smelt",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "piercingpaxels:passive_vaccum",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "piercingpaxels:usage_axe",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "piercingpaxels:usage_shovel",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "piercingpaxels:usage_hoe",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "simplemagnets:basicmagnet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "simplemagnets:advancedmagnet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "simplemagnets:basic_demagnetization_coil",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "simplemagnets:advanced_demagnetization_coil",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "wirelesschargers:basic_wireless_block_charger",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "wirelesschargers:advanced_wireless_block_charger",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "wirelesschargers:basic_wireless_player_charger",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "wirelesschargers:advanced_wireless_player_charger",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
