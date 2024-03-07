@@ -26,7 +26,12 @@
     "deepslate",
     "granite",
     "diorite",
-    "andesite"
+    "andesite",
+    "mercury",
+    "glacio",
+    "moon",
+    "mars",
+    "blackslag"
   ],
   "tags": [
     "c:{material}_nuggets",
@@ -132,14 +137,6 @@
     "farmersdelight:cabbage",
     "minecraft:waxed_copper_block",
     "minecraft:raw_copper",
-    "spectrum:topaz_shard",
-    "spectrum:blackslag_coal_ore",
-    "spectrum:blackslag_copper_ore",
-    "spectrum:blackslag_iron_ore",
-    "spectrum:blackslag_gold_ore",
-    "spectrum:blackslag_lapis_ore",
-    "spectrum:blackslag_diamond_ore",
-    "spectrum:blackslag_emerald_ore",
     "meadow:piece_of_sheep_cheese",
     "meadow:piece_of_grain_cheese",
     "meadow:piece_of_amethyst_cheese",
@@ -151,6 +148,17 @@
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
+  "ignoredRecipes": [
+    "create:crushing/iron_ore",
+    "create:crushing/deepslate_iron_ore",
+    "create:crushing/mercury_iron_ore",
+    "create:crushing/moon_iron_ore",
+    "create:crushing/glacio_iron_ore",
+    "create:crushing/glacio_copper_ore",
+    "create:crushing/glacio_lapis_ore",
+    "create:crushing/glacio_coal_ore",
+    "create:crushing/mars_iron_ore",
+    "create:crushing/mars_diamond_ore"
+  ],
   "itemsHidingJeiRei": true
 }
