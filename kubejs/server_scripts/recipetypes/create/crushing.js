@@ -159,25 +159,23 @@ ServerEvents.recipes(event => {
             "processingTime": 150
         })
 
-        /*
-        // Prosperity Shaders
-        event.custom({
+         // Nikolite
+         event.custom({
             "type": "create:crushing",
             "group": "minecraft:misc",
             "ingredients": [
                 {
-                    "tag": "c:prosperity_ores",
+                    "tag": "c:nikolite_ores"
                 }
             ],
             "results": [
                 {
-                    "item": "mysticalagriculture:prosperity_shard",
-                    "count": 2
+                    "item": "indrev:nikolite_dust",
+                    "count": 7
                 }
             ],
             "processingTime": 150
         })
-        */
 
         const dust_from_ingot = [
             'bronze',
