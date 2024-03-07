@@ -1,0 +1,179 @@
+# Some methods have a particular cost: they consume a set amount of energy from their owner. This level regenerates over time.
+# 
+# Note: These values only apply to the default handler. Other mods may add custom handlers.
+cost-system {
+    # Allows costs to go into the negative. Methods will fail when there is negative energy. This allows you to use costs higher than the allocated buffer and so have a traditional rate-limiting system.
+    allow-negative=false
+    # Wait for the system to get sufficient energy instead of throwing an error.
+    await-regen=true
+    base-costs {
+        "computercraft:inventory:getItemDetail"=0
+        "computercraft:inventory:getItemLimit"=0
+        "computercraft:inventory:getSize"=0
+        "computercraft:inventory:list"=0
+        "computercraft:inventory:pullItems"=0
+        "computercraft:inventory:pushItems"=0
+        "computercraft:kinetic:swing"=0
+        "computercraft:kinetic:use"=0
+        "minecraft:introspection:consume"=0
+        "minecraft:introspection:drop"=0
+        "minecraft:introspection:getEnder"=0
+        "minecraft:introspection:getEquipment"=0
+        "minecraft:introspection:getInventory"=0
+        "minecraft:kinetic:look"=0
+        "minecraft:kinetic:swing"=0
+        "minecraft:kinetic:use"=0
+        "plethora:addBox"=0
+        "plethora:addDot"=0
+        "plethora:addFrame"=0
+        "plethora:addGroup"=0
+        "plethora:addItem"=0
+        "plethora:addLine"=0
+        "plethora:addLines"=0
+        "plethora:addPolygon"=0
+        "plethora:addRectangle"=0
+        "plethora:addText"=0
+        "plethora:addTriangle"=0
+        "plethora:clear"=0
+        "plethora:create"=0
+        "plethora:filterModules"=0
+        "plethora:getAlpha"=0
+        "plethora:getColor"=0
+        "plethora:getColour"=0
+        "plethora:getDocs"=0
+        "plethora:getItem"=0
+        "plethora:getLineHeight"=0
+        "plethora:getMetadata"=0
+        "plethora:getPoint"=0
+        "plethora:getPointCount"=0
+        "plethora:getPosition"=0
+        "plethora:getRotation"=0
+        "plethora:getScale"=0
+        "plethora:getSize"=0
+        "plethora:getText"=0
+        "plethora:glasses:canvas"=0
+        "plethora:glasses:canvas3d"=0
+        "plethora:hasModule"=0
+        "plethora:hasShadow"=0
+        "plethora:insertPoint"=0
+        "plethora:introspection:getID"=0
+        "plethora:introspection:getMetaOwner"=0
+        "plethora:introspection:getName"=0
+        "plethora:isDepthTested"=0
+        "plethora:kinetic:launch"=0
+        "plethora:laser:fire"=0
+        "plethora:listModules"=0
+        "plethora:recenter"=0
+        "plethora:remove"=0
+        "plethora:removePoint"=0
+        "plethora:scanner:getBlockMeta"=0
+        "plethora:scanner:sense"=0
+        "plethora:sensor:getMetaByID"=0
+        "plethora:sensor:getMetaByName"=0
+        "plethora:sensor:sense"=0
+        "plethora:setAlpha"=0
+        "plethora:setColor"=0
+        "plethora:setColour"=0
+        "plethora:setDepthTested"=0
+        "plethora:setItem"=0
+        "plethora:setLineHeight"=0
+        "plethora:setPoint"=0
+        "plethora:setPosition"=0
+        "plethora:setRotation"=0
+        "plethora:setScale"=0
+        "plethora:setShadow"=0
+        "plethora:setSize"=0
+        "plethora:setText"=0
+    }
+    # The energy level all systems start at.
+    initial=250.0
+    # The maximum energy level an item can have.
+    limit=250.0
+    # The amount of energy regenerated each tick.
+    regen=10.0
+}
+kinetic {
+    # The cost per launch power.
+    launch-cost=10.0
+    # The value to scale the velocity by when flying, helps limit how fast the player can go.
+    launch-elytra-scale=0.4
+    # Whether to scale the fall distance after launching.
+    # 
+    # This means that the player will not die from fall damage if they launch themselves upwards in order to cancel out their negative velocity. This may not work  correctly with mods which provide custom gravity, such as Galacticraft.
+    launch-fall-reset=true
+    # Whether to reset the floating timer after launching.
+    # 
+    # This means the player will not be kicked for flying after using the kinetic augment a lot.
+    launch-float-reset=true
+    # The maximum velocity the kinetic manipulator can apply to you.
+    launch-max=4.0
+    # The value to scale the y velocity by, helps limit how high the player can go.
+    launch-y-scale=0.5
+}
+laser {
+    # The energy cost per potency for a laser.
+    cost=10.0
+    # The damage done to an entity by a laser per potency.
+    damage=4.0
+    # The maximum time in ticks a laser can exist for before it'll despawn.
+    lifetime=100
+    # The maximum power of a laser.
+    maximum-potency=5.0
+    # The minimum power of a laser.
+    minimum-potency=0.5
+}
+neural-interface {
+    # List of pocket upgrade item IDs that can be used in neural interface as peripherals.
+    peripheral-item-ids=[
+        "computercraft:speaker",
+        "computercraft:wireless_modem_normal",
+        "computercraft:wireless_modem_advanced"
+    ]
+}
+scanner {
+    # The radius a fully upgraded scanner can get blocks in.
+    max-radius=16
+    # Custom colour mapping for ore blocks.
+    # 
+    # The key is the full ore block ID (e.g. `minecraft:redstone_ore`) and the value is the hex of the colour to use in #RRGGBB format (e.g. `#ff0000`).
+    ore-colours {
+        "minecraft:ancient_debris"="#95867e"
+        "minecraft:coal_ore"="#252525"
+        "minecraft:copper_ore"="#4fba98"
+        "minecraft:deepslate_coal_ore"="#252525"
+        "minecraft:deepslate_copper_ore"="#4fba98"
+        "minecraft:deepslate_diamond_ore"="#1ed0d6"
+        "minecraft:deepslate_emerald_ore"="#41f384"
+        "minecraft:deepslate_gold_ore"="#fcee4b"
+        "minecraft:deepslate_iron_ore"="#d8af93"
+        "minecraft:deepslate_lapis_ore"="#446fdc"
+        "minecraft:deepslate_redstone_ore"="#ff0000"
+        "minecraft:diamond_ore"="#1ed0d6"
+        "minecraft:emerald_ore"="#41f384"
+        "minecraft:gold_ore"="#fcee4b"
+        "minecraft:iron_ore"="#d8af93"
+        "minecraft:lapis_ore"="#446fdc"
+        "minecraft:nether_gold_ore"="#fcee4b"
+        "minecraft:nether_quartz_ore"="#eae5de"
+        "minecraft:raw_copper_block"="#4fba98"
+        "minecraft:raw_gold_block"="#fcee4b"
+        "minecraft:raw_iron_block"="#d8af93"
+        "minecraft:redstone_ore"="#ff0000"
+    }
+    # The radius scanners can get blocks in.
+    radius=8
+    # The additional cost each level incurs for scan().
+    scan-level-cost=50
+}
+sensor {
+    # Custom colour mapping for entities.
+    # 
+    # The key is the full entity ID (e.g. `minecraft:creeper`) and the value is the hex of the colour to use in #RRGGBB format (e.g. `#ff0000`).
+    entity-colours {}
+    # The radius a fully upgraded sensor can get entities in.
+    max-radius=32
+    # The radius sensors can get entities in.
+    radius=16
+    # The additional cost each level incurs for sense().
+    sense-level-cost=40
+}

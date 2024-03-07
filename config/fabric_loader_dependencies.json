@@ -1,9 +1,19 @@
 {
   "version": 1,
   "overrides": {
+    "zenith": {
+      "-depends": {
+        "fabric": ""
+      }
+    },
     "fallflyinglib": {
       "-depends": {
         "minecraft": ""
+      }
+    },
+    "fakerlib": {
+      "-depends": {
+        "fabric-api": ""
       }
     },
     "sodium": {
@@ -38,7 +48,8 @@
     },
     "bettertrims": {
       "-depends": {
-        "fabricloader": ""
+        "fabricloader": "",
+        "fabric-api": ""
       }
     },
     "fancymenu": {
@@ -68,7 +79,8 @@
     },
     "geckolib": {
       "-depends": {
-        "fabricloader": ""
+        "fabricloader": "",
+        "fabric-api": ""
       }
     },
     "underground_bunkers": {

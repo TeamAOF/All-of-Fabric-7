@@ -6,7 +6,8 @@
     "randomize_seed": true
   },
   "conversion": {
-    "maximum_entry_age": 1800
+    "max_entry_age": 12000,
+    "disable": false
   },
   "breaking": {
     "enable_break": false,
@@ -14,11 +15,14 @@
     "disable_break": false,
     "power_comparators": true,
     "blast_resistant": false,
-    "blast_immune": false
+    "blast_immune": false,
+    "trapped_custom": false
   },
   "lists": {
     "dimension_whitelist": [],
     "dimension_blacklist": [],
+    "dimension_modid_blacklist": [],
+    "dimension_modid_whitelist": [],
     "loot_table_blacklist": [],
     "loot_modid_blacklist": []
   },

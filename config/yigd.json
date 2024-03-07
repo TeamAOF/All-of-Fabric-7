@@ -81,6 +81,8 @@
     "useSoftBlockWhitelist": false,
     "useStrictBlockBlacklist": true,
     "replaceOldWhenClaimed": true,
+    "dropItemsIfDestroyed": false,
+    "notifyOwnerIfDestroyed": true,
     "persistentGraves": {
       "enabled": false,
       "showDeathDay": true,
@@ -136,7 +138,9 @@
     "enableTravelersBackpackCompat": true,
     "defaultTravelersBackpackDropRule": "PUT_IN_GRAVE",
     "enableTrinketsCompat": true,
-    "defaultTrinketsDropRule": "PUT_IN_GRAVE"
+    "defaultTrinketsDropRule": "PUT_IN_GRAVE",
+    "enableBeansBackpacksCompat": true,
+    "defaultBeansBackpacksDropRule": "PUT_IN_GRAVE"
   },
   "commandConfig": {
     "mainCommand": "yigd",
