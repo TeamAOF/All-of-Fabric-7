@@ -28,7 +28,8 @@
     },
     "turn_table": {
       "enabled": true,
-      "rotate_entities": true
+      "rotate_entities": true,
+      "shuffle_containers": true
     },
     "pulley_block": {
       "enabled": true,
@@ -208,7 +209,6 @@
     "blackstone_tile": true,
     "sconce": true,
     "sconce_lever": true,
-    "sconce_green": false,
     "pancake": true,
     "netherite_door": true,
     "netherite_trapdoor": true,
@@ -300,9 +300,6 @@
     "golden_apple_disenchant": {
       "enabled": true
     },
-    "dye_blocks": {
-      "enabled": false
-    },
     "traders_open_doors": {
       "enabled": true
     },
@@ -310,35 +307,8 @@
       "axe_strip": true,
       "shoot_ender_pearls": true
     },
-    "cake_tweaks": {
-      "double_cake": true,
-      "directional_cake": true
-    },
-    "mob_head_tweaks": {
-      "skull_piles": true,
-      "skull_candles": true,
-      "multiple_candles": true
-    },
-    "hanging_flower_pots": {
-      "enabled": true
-    },
     "throwable_bricks": {
       "enabled": true
-    },
-    "lantern_tweaks": {
-      "enabled": true,
-      "high_priority": true,
-      "mod_blacklist": [
-        "extlights",
-        "betterendforge",
-        "tconstruct",
-        "enigmaticlegacy"
-      ],
-      "falling_lanterns": "ON"
-    },
-    "bells_tweaks": {
-      "chain_ringing": true,
-      "chain_length": 16
     },
     "placeable_sticks": {
       "sticks": true,
@@ -363,9 +333,6 @@
       "block_map_markers": true,
       "death_marker": "WITH_COMPASS",
       "tinted_blocks_on_maps": true
-    },
-    "ceiling_banners": {
-      "enabled": true
     },
     "placeable_books": {
       "written_books": true,

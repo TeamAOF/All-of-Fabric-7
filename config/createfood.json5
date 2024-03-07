@@ -1,0 +1,652 @@
+{
+	// Enable Apple Popsicle.
+	"isApplePopsicleEnabled": true,
+	// Enable Bar of Dark Chocolate.
+	"isDarkChocolateBarEnabled": true,
+	// Enable Bar of White Chocolate.
+	"isWhiteChocolateBarEnabled": true,
+	// Enable Beef Bun.
+	"isBeefBunEnabled": true,
+	// Enable Beef Bun (Bacon).
+	"isBeefBunBaconEnabled": true,
+	// Enable Berry Cream Filled Chocolate.
+	"isBerryCreamChocolateEnabled": true,
+	// Enable Berry Cream Filled Chocolate Pastry Bar.
+	"isBerryCreamChocolatePastryBarEnabled": true,
+	// Enable Berry Cream Filled Dark Chocolate.
+	"isBerryCreamDarkChocolateEnabled": true,
+	// Enable Berry Cream Filled Pastry Bar.
+	"isBerryCreamPastryBarEnabled": true,
+	// Enable Berry Cream Filled White Chocolate.
+	"isBerryCreamWhiteChocolateEnabled": true,
+	// Enable Berry Cream Frosting Jar.
+	"isBerryCreamFrostingBottleEnabled": true,
+	// Enable Berry Cream Frosted Chocolate Sweet Roll.
+	"isBerryCreamFrostedChocolateSweetRollEnabled": true,
+	// Enable Berry Cream Frosted Chocolate Sweet Roll (Sweet Berry).
+	"isBerryCreamFrostedChocolateSweetRollSweetBerryEnabled": true,
+	// Enable Berry Cream Frosted Sweet Roll.
+	"isBerryCreamFrostedSweetRollEnabled": true,
+	// Enable Berry Cream Frosted Sweet Roll (Sweet Berry).
+	"isBerryCreamFrostedSweetRollSweetBerryEnabled": true,
+	// Enable Berry Cream Glazed Chocolate Donut.
+	"isBerryCreamGlazedChocolateDonutEnabled": true,
+	// Enable Berry Cream Glazed Donut.
+	"isBerryCreamGlazedDonutEnabled": true,
+	// Enable Berry Popsicle.
+	"isBerryPopsicleEnabled": true,
+	// Enable Biscuit.
+	"isBiscuitEnabled": true,
+	// Enable Black Gelatin Dessert Slice.
+	"isBlackGelatinDessertSliceEnabled": true,
+	// Enable Blue Gelatin Dessert Slice.
+	"isBlueGelatinDessertSliceEnabled": true,
+	// Enable Brown Gelatin Dessert Slice.
+	"isBrownGelatinDessertSliceEnabled": true,
+	// Enable Bread (Lettuce).
+	"isBreadLettuceEnabled": true,
+	// Enable Bread (Lettuce, Carrot).
+	"isBreadLettuceCarrotEnabled": true,
+	// Enable Bread Slice.
+	"isBreadSliceEnabled": true,
+	// Enable Bread Slice (Bacon, Lettuce, Tomato).
+	"isBreadSliceBaconLettuceTomatoEnabled": true,
+	// Enable Bread Slice (Lettuce).
+	"isBreadSliceLettuceEnabled": true,
+	// Enable Bread Slice (Lettuce, Tomato).
+	"isBreadSliceLettuceTomatoEnabled": true,
+	// Enable Breakfast Sausages.
+	"isBreakfastSausagesEnabled": true,
+	// Enable Bun. Recommend 'disable' with Bakery installed.
+	"isBunEnabled": true,
+	// Enable Butter.  Recommend 'disable' if Croptopia or Candlelight installed.
+	"isButterEnabled": true,
+	// Enable Butter Dough.
+	"isButterDoughEnabled": true,
+	// Enable Cacao Butter.
+	"isCacaoButterEnabled": true,
+	// Enable Cacao Nibs.
+	"isCacaoNibsEnabled": true,
+	// Enable Cake Base.  Recommend 'disable' if Create Additions or Bakery installed.
+	"isCakeBaseEnabled": true,
+	// Enable Caramel.
+	"isCaramelEnabled": true,
+	// Enable Caramel Filled Chocolate.
+	"isCaramelChocolateEnabled": true,
+	// Enable Caramel Filled Dark Chocolate.
+	"isCaramelDarkChocolateEnabled": true,
+	// Enable Caramel Filled Chocolate Pastry Bar.
+	"isCaramelChocolatePastryBarEnabled": true,
+	// Enable Caramel Filled Pastry Bar.
+	"isCaramelPastryBarEnabled": true,
+	// Enable Caramel Filled White Chocolate.
+	"isCaramelWhiteChocolateEnabled": true,
+	// Enable Caramel Glazed Apple.
+	"isCaramelGlazedAppleEnabled": true,
+	// Enable Caramel Glazed Berries.
+	"isCaramelGlazedBerriesEnabled": true,
+	// Enable Caramel Glazed Chocolate Sweet Roll.
+	"isCaramelGlazedChocolateSweetRollEnabled": true,
+	// Enable Caramel Glazed Sweet Roll.
+	"isCaramelGlazedSweetRollEnabled": true,
+	// Enable Caramel Glazed Toast.
+	"isCaramelToastEnabled": true,
+	// Enable Cheese and Beef Bun.
+	"isCheeseAndBeefBunEnabled": true,
+	// Enable Cheese and Beef Bun (Bacon).
+	"isCheeseAndBeefBunBaconEnabled": true,
+	// Enable Cheese and Chicken Bun.
+	"isCheeseAndChickenBunEnabled": true,
+	// Enable Cheese and Sausage Biscuit.
+	"isCheeseAndSausageBiscuitEnabled": true,
+	// Enable Cheese and Sausage Biscuit Sandwich.
+	"isCheeseAndSausageBiscuitSandwichEnabled": true,
+	// Enable Cheese Biscuit.
+	"isCheeseBiscuitEnabled": true,
+	// Enable Cheese Biscuit Sandwich.
+	"isCheeseBiscuitSandwichEnabled": true,
+	// Enable Cheese (Block & Slice). Recommend 'disable' if Expanded Delight, Brewin' and Chewin', or Meadow installed.
+	"isCheeseEnabled": true,
+	// Enable Cheeseburger.
+	"isCheeseburgerEnabled": true,
+	// Enable Cheeseburger (Bacon).
+	"isCheeseburgerBaconEnabled": true,
+	// Enable Chicken Bun.
+	"isChickenBunEnabled": true,
+	// Enable Chicken Burger.
+	"isChickenBurgerEnabled": true,
+	// Enable Chicken Cheeseburger.
+	"isChickenCheeseburgerEnabled": true,
+	// Enable Chicken Nuggets.
+	"isChickenNuggetsEnabled": true,
+	// Enable Chicken Patty.
+	"isChickenPattyEnabled": true,
+	// Enable Chocolate Bottle.
+	"isChocolateBottleEnabled": true,
+	// Enable Chocolate Chips.
+	"isChocolateChipsEnabled": true,
+	// Enable Chocolate Cookie. Recommend 'disable' with Expanded Delight installed.
+	"isChocolateCookieEnabled": true,
+	// Enable Chocolate Covered Marshmallow Stick.
+	"isChocolateCoveredMarshmallowStickEnabled": true,
+	// Enable Chocolate Cream Frosting Jar.
+	"isChocolateCreamFrostingBottleEnabled": true,
+	// Enable Chocolate Donut Base.
+	"isChocolateDonutBaseEnabled": true,
+	// Enable Chocolate Donut Hole.
+	"isChocolateDonutHoleEnabled": true,
+	// Enable Chocolate Donut Hole (Sugar).
+	"isChocolateDonutHoleSugarEnabled": true,
+	// Enable Chocolate Filled Chocolate Pastry.
+	"isChocolateChocolatePastryEnabled": true,
+	// Enable Chocolate Filled Pastry.
+	"isChocolatePastryEnabled": true,
+	// Enable Chocolate Filled Mini Graham Cracker Pie Crust.
+	"isChocolateFilledMiniGrahamCrackerPieCrustEnabled": true,
+	// Enable Chocolate Frosted Chocolate Sweet Roll.
+	"isChocolateFrostedChocolateSweetRollEnabled": true,
+	// Enable Chocolate Frosted Sweet Roll.
+	"isChocolateFrostedSweetRollEnabled": true,
+	// Enable Chocolate Glazed Apple.
+	"isChocolateGlazedAppleEnabled": true,
+	// Enable Chocolate Glazed Chocolate Donut.
+	"isChocolateGlazedChocolateDonutEnabled": true,
+	// Enable Chocolate Glazed Donut.
+	"isChocolateGlazedDonutEnabled": true,
+	// Enable Chocolate Milk Bottle.
+	"isChocolateMilkBottleEnabled": true,
+	// Enable Chocolate Pastry Bar Base.
+	"isChocolatePastryBarBaseEnabled": true,
+	// Enable Chocolate Pastry Base.
+	"isChocolatePastryBaseEnabled": true,
+	// Enable Chocolate Sugar Dough.
+	"isChocolateSugarDoughEnabled": true,
+	// Enable Chocolate Sweet Roll.
+	"isChocolateSweetRollEnabled": true,
+	// Enable Chocolate Sweet Roll Base.
+	"isChocolateSweetRollBaseEnabled": true,
+	// Enable Chocolate Toast.
+	"isChocolateToastEnabled": true,
+	// Enable Cloth Filter.
+	"isClothFilterEnabled": true,
+	// Enable Cloth Filter (Cacao Mass).
+	"isClothFilterCacaoMassEnabled": true,
+	// Enable Cocoa Powder.
+	"isCocoaPowderEnabled": true,
+	// Enable Chorus Fruit Cream Filled Chocolate.
+	"isChorusFruitCreamChocolateEnabled": true,
+	// Enable Chorus Fruit Cream Filled Dark Chocolate.
+	"isChorusFruitCreamDarkChocolateEnabled": true,
+	// Enable Chorus Fruit Cream Filled White Chocolate.
+	"isChorusFruitCreamWhiteChocolateEnabled": true,
+	// Enable Chorus Fruit Cream Filled Chocolate Pastry Bar.
+	"isChorusFruitCreamChocolatePastryBarEnabled": true,
+	// Enable Chorus Fruit Cream Filled Pastry Bar.
+	"isChorusFruitCreamPastryBarEnabled": true,
+	// Enable Chorus Fruit Cream Frosting Jar.
+	"isChorusFruitCreamFrostingBottleEnabled": true,
+	// Enable Chorus Fruit Cream Frosted Chocolate Sweet Roll.
+	"isChorusFruitCreamFrostedChocolateSweetRollEnabled": true,
+	// Enable Chorus Fruit Cream Frosted Chocolate Sweet Roll (Chorus Fruit).
+	"isChorusFruitCreamFrostedChocolateSweetRollChorusFruitEnabled": true,
+	// Enable Chorus Fruit Cream Frosted Sweet Roll.
+	"isChorusFruitCreamFrostedSweetRollEnabled": true,
+	// Enable Chorus Fruit Cream Frosted Sweet Roll (Chorus Fruit).
+	"isChorusFruitCreamFrostedSweetRollChorusFruitEnabled": true,
+	// Enable Chorus Fruit Cream Glazed Chocolate Donut.
+	"isChorusFruitCreamGlazedChocolateDonutEnabled": true,
+	// Enable Chorus Fruit Cream Glazed Donut.
+	"isChorusFruitCreamGlazedDonutEnabled": true,
+	// Enable Cream Chocolate.
+	"isCreamChocolateEnabled": true,
+	// Enable Cream Dark Chocolate.
+	"isCreamDarkChocolateEnabled": true,
+	// Enable Cream Filled Chocolate Pastry.
+	"isCreamChocolatePastryEnabled": true,
+	// Enable Cream Filled Pastry.
+	"isCreamPastryEnabled": true,
+	// Enable Cream White Chocolate.
+	"isCreamWhiteChocolateEnabled": true,
+	// Enable Cream Frosting Jar.
+	"isCreamFrostingBottleEnabled": true,
+	// Enable Cyan Gelatin Dessert Slice.
+	"isCyanGelatinDessertSliceEnabled": true,
+	// Enable Dark Chips Chocolate Cookie.
+	"isDarkChipsChocolateCookieEnabled": true,
+	// Enable Dark Chips Cookie.
+	"isDarkChipsCookieEnabled": true,
+	// Enable Dark Chocolate Bottle.
+	"isDarkChocolateBottleEnabled": true,
+	// Enable Dark Chocolate Chips.
+	"isDarkChocolateChipsEnabled": true,
+	// Enable Dark Chocolate Covered Marshmallow Stick.
+	"isDarkChocolateCoveredMarshmallowStickEnabled": true,
+	// Enable Dark Chocolate Filled Chocolate Pastry.
+	"isDarkChocolateChocolatePastryEnabled": true,
+	// Enable Dark Chocolate Filled Pastry.
+	"isDarkChocolatePastryEnabled": true,
+	// Enable Dark Chocolate Glazed Apple.
+	"isDarkChocolateGlazedAppleEnabled": true,
+	// Enable Dark Chocolate Glazed Berries.
+	"isDarkChocolateGlazedBerriesEnabled": true,
+	// Enable Dark Chocolate Toast.
+	"isDarkChocolateToastEnabled": true,
+	// Enable Donut Base.
+	"isDonutBaseEnabled": true,
+	// Enable Donut Hole.
+	"isDonutHoleEnabled": true,
+	// Enable Donut Hole (Sugar).
+	"isDonutHoleSugarEnabled": true,
+	// Enable Frosted Cake.
+	"isFrostedCakeEnabled": true,
+	// Enable Glazed Chocolate Donut.
+	"isCreamGlazedChocolateDonutEnabled": true,
+	// Enable Glazed Donut.
+	"isCreamGlazedDonutEnabled": true,
+	// Enable Gelatin.
+	"isGelatinEnabled": true,
+	// Enable Gelatin Dessert Slice.
+	"isGelatinDessertSliceEnabled": true,
+	// Enable Glow Berry Cream Filled Chocolate.
+	"isGlowBerryCreamChocolateEnabled": true,
+	// Enable Glow Berry Cream Filled Dark Chocolate.
+	"isGlowBerryCreamDarkChocolateEnabled": true,
+	// Enable Glow Berry Cream Filled White Chocolate.
+	"isGlowBerryCreamWhiteChocolateEnabled": true,
+	// Enable Glow Berry Cream Filled Chocolate Pastry Bar.
+	"isGlowBerryCreamChocolatePastryBarEnabled": true,
+	// Enable Glow Berry Cream Filled Pastry Bar.
+	"isGlowBerryCreamPastryBarEnabled": true,
+	// Enable Glow Berry Cream Frosting Jar.
+	"isGlowBerryCreamFrostingBottleEnabled": true,
+	// Enable Glow Berry Cream Frosted Chocolate Sweet Roll.
+	"isGlowBerryCreamFrostedChocolateSweetRollEnabled": true,
+	// Enable Glow Berry Cream Frosted Chocolate Sweet Roll (Glow Berry).
+	"isGlowBerryCreamFrostedChocolateSweetRollGlowBerryEnabled": true,
+	// Enable Glow Berry Cream Frosted Sweet Roll.
+	"isGlowBerryCreamFrostedSweetRollEnabled": true,
+	// Enable Glow Berry Cream Frosted Sweet Roll (Glow Berry).
+	"isGlowBerryCreamFrostedSweetRollGlowBerryEnabled": true,
+	// Enable Glow Berry Cream Glazed Chocolate Donut.
+	"isGlowBerryCreamGlazedChocolateDonutEnabled": true,
+	// Enable Glow Berry Cream Glazed Donut.
+	"isGlowBerryCreamGlazedDonutEnabled": true,
+	// Enable Glow Berry Popsicle.
+	"isGlowBerryPopsicleEnabled": true,
+	// Enable Graham Cracker.
+	"isGrahamCrackerEnabled": true,
+	// Enable Graham Cracker Crumbs.
+	"isGrahamCrackerCrumbsEnabled": true,
+	// Enable Gray Gelatin Dessert Slice.
+	"isGrayGelatinDessertSliceEnabled": true,
+	// Enable Green Gelatin Dessert Slice.
+	"isGreenGelatinDessertSliceEnabled": true,
+	// Enable Ground Beef.
+	"isGroundBeefEnabled": true,
+	// Enable Hamburger.
+	"isHamburgerEnabled": true,
+	// Enable Hamburger (Bacon).
+	"isHamburgerBaconEnabled": true,
+	// Enable Hollow Chocolate.
+	"isHollowChocolateEnabled": true,
+	// Enable Hollow Dark Chocolate.
+	"isHollowDarkChocolateEnabled": true,
+	// Enable Hollow White Chocolate.
+	"isHollowWhiteChocolateEnabled": true,
+	// Enable Honeyed Berries.
+	"isHoneyedBerriesEnabled": true,
+	// Enable Honeyed Biscuit.
+	"isHoneyedBiscuitEnabled": true,
+	// Enable Honeyed Chocolate Sweet Roll.
+	"isHoneyedChocolateSweetRollEnabled": true,
+	// Enable Honeyed Chocolate Donut.
+	"isHoneyedChocolateDonutEnabled": true,
+	// Enable Honeyed Donut.
+	"isHoneyedDonutEnabled": true,
+	// Enable Honey Glazed Sweet Roll.
+	"isHoneyedSweetRollEnabled": true,
+	// Enable Honeyed Toast.
+	"isHoneyedToastEnabled": true,
+	// Enable Hot Cheese & Sausage Biscuit Sandwich.
+	"isHotCheeseAndSausageBiscuitSandwichEnabled": true,
+	// Enable Hot Cheese Biscuit Sandwich.
+	"isHotCheeseBiscuitSandwichEnabled": true,
+	// Enable Hot Chocolate Bottle.
+	"isHotChocolateBottleEnabled": true,
+	// Enable Hot Dark Chocolate Bottle.
+	"isHotDarkChocolateBottleEnabled": true,
+	// Enable Hot Sausage Biscuit Sandwich.
+	"isHotSausageBiscuitSandwichEnabled": true,
+	// Enable Hot White Chocolate Bottle.
+	"isHotWhiteChocolateBottleEnabled": true,
+	// Enable Light Blue Gelatin Dessert Slice.
+	"isLightBlueGelatinDessertSliceEnabled": true,
+	// Enable Light Gray Gelatin Dessert Slice.
+	"isLightGrayGelatinDessertSliceEnabled": true,
+	// Enable Lime Gelatin Dessert Slice.
+	"isLimeGelatinDessertSliceEnabled": true,
+	// Enable Magenta Gelatin Dessert Slice.
+	"isMagentaGelatinDessertSliceEnabled": true,
+	// Enable Marshmallow.
+	"isMarshmallowEnabled": true,
+	// Enable Marshmallow Filled Chocolate.
+	"isMarshmallowChocolateEnabled": true,
+	// Enable Marshmallow Filled Dark Chocolate.
+	"isMarshmallowDarkChocolateEnabled": true,
+	// Enable Marshmallow Filled White Chocolate.
+	"isMarshmallowWhiteChocolateEnabled": true,
+	// Enable Marshmallow Stick.
+	"isMarshmallowStickEnabled": true,
+	// Enable Meatball.
+	"isMeatballEnabled": true,
+	// Enable Meatball Sandwich.
+	"isMeatballSandwichEnabled": true,
+	// Enable Meatball Stick.
+	"isMeatballStickEnabled": true,
+	// Enable Mini Graham Cracker Pie Crust.
+	"isMiniGrahamCrackerPieCrustEnabled": true,
+	// Enable Mini S'mores Pie.
+	"isMiniSmoresPieEnabled": true,
+	// Enable Orange Gelatin Dessert Slice.
+	"isOrangeGelatinDessertSliceEnabled": true,
+	// Enable Pasta.
+	"isPastaEnabled": true,
+	// Enable Pasta Plate. Recommend 'disable' with Delightful Creators installed.
+	"isPastaPlateEnabled": true,
+	// Enable Pasta Plate (Butter).
+	"isPastaPlateButterEnabled": true,
+	// Enable Pastry Bar Base.
+	"isPastryBarBaseEnabled": true,
+	// Enable Pastry Base.
+	"isPastryBaseEnabled": true,
+	// Enable Pink Gelatin Dessert Slice.
+	"isPinkGelatinDessertSliceEnabled": true,
+	// Enable Potato Chips.
+	"isPotatoChipsEnabled": true,
+	// Enable Purple Gelatin Dessert Slice.
+	"isPurpleGelatinDessertSliceEnabled": true,
+	// Enable Pressed Cocoa.
+	"isPressedCocoaEnabled": true,
+	// Enable Raw Cake Base. Recommend 'disable' if Create Additions installed.
+	"isRawCakeBaseEnabled": true,
+	// Enable Raw Chocolate Cookie.
+	"isRawChocolateCookieEnabled": true,
+	// Enable Raw Chocolate Pastry Bar Base.
+	"isRawChocolatePastryBarBaseEnabled": true,
+	// Enable Raw Chocolate Pastry Base.
+	"isRawChocolatePastryBaseEnabled": true,
+	// Enable Raw Chocolate Sweet Roll Base.
+	"isRawChocolateSweetRollBaseEnabled": true,
+	// Enable Raw Cookie.
+	"isRawCookieEnabled": true,
+	// Enable Raw Dark Chips Chocolate Cookie.
+	"isRawDarkChipsChocolateCookieEnabled": true,
+	// Enable Raw Dark Chips Cookie.
+	"isRawDarkChipsCookieEnabled": true,
+	// Enable Raw Meatball.
+	"isRawMeatballEnabled": true,
+	// Enable Raw Pastry Bar Base.
+	"isRawPastryBarBaseEnabled": true,
+	// Enable Raw Pastry Base.
+	"isRawPastryBaseEnabled": true,
+	// Enable Raw Sausage Patty.
+	"isRawSausagePattyEnabled": true,
+	// Enable Raw Sweet Roll Base.
+	"isRawSweetRollBaseEnabled": true,
+	// Enable Raw White Chips Chocolate Cookie.
+	"isRawWhiteChipsChocolateCookieEnabled": true,
+	// Enable Raw White Chips Cookie.
+	"isRawWhiteChipsCookieEnabled": true,
+	// Enable Red Gelatin Dessert Slice.
+	"isRedGelatinDessertSliceEnabled": true,
+	// Enable S'more.
+	"isSmoreEnabled": true,
+	// Enable Salt. Recommend 'disable' with Expanded Delight, Brewin' and Chewin', or Meadow installed.
+	"isSaltEnabled": true,
+	// Enable Salt Dough.
+	"isSaltDoughEnabled": true,
+	// Enable Sausage Biscuit.
+	"isSausageBiscuitEnabled": true,
+	// Enable Sausage Biscuit Sandwich.
+	"isSausageBiscuitSandwichEnabled": true,
+	// Enable Sausage Meat.
+	"isSausageMeatEnabled": true,
+	// Enable Sausage Patty.
+	"isSausagePattyEnabled": true,
+	// Enable Shredded Chicken.
+	"isShreddedChickenEnabled": true,
+	// Enable Sliced Potato.
+	"isSlicedPotatoEnabled": true,
+	// Enable Sliced Carrot.
+	"isSlicedCarrotEnabled": true,
+	// Enable Small Meatballs.
+	"isSmallMeatballsEnabled": true,
+	// Enable Sugar Dough. Recommend 'disable' with Bakery installed.
+	"isSugarDoughEnabled": true,
+	// Enable Sweet Roll Base.
+	"isSweetRollBaseEnabled": true,
+	// Enable Toast Slice.
+	"isToastSliceEnabled": true,
+	// Enable Unbreaded Chicken Patty.
+	"isUnbreadedChickenPattyEnabled": true,
+	// Enable White Chips Chocolate Cookie.
+	"isWhiteChipsChocolateCookieEnabled": true,
+	// Enable White Chips Cookie.
+	"isWhiteChipsCookieEnabled": true,
+	// Enable White Chocolate Bottle.
+	"isWhiteChocolateBottleEnabled": true,
+	// Enable White Chocolate Chips.
+	"isWhiteChocolateChipsEnabled": true,
+	// Enable White Chocolate Covered Marshmallow Stick.
+	"isWhiteChocolateCoveredMarshmallowStickEnabled": true,
+	// Enable White Chocolate Filled Chocolate Pastry.
+	"isWhiteChocolateChocolatePastryEnabled": true,
+	// Enable White Chocolate Filled Pastry.
+	"isWhiteChocolatePastryEnabled": true,
+	// Enable White Chocolate Glazed Apple.
+	"isWhiteChocolateGlazedAppleEnabled": true,
+	// Enable White Chocolate Glazed Berries.
+	"isWhiteChocolateGlazedBerriesEnabled": true,
+	// Enable White Chocolate Toast.
+	"isWhiteChocolateToastEnabled": true,
+	// Enable Yellow Gelatin Dessert Slice.
+	"isYellowGelatinDessertSliceEnabled": true,
+	// Enable Black Gelatin Dessert Block.
+	"isBlackGelatinDessertBlockEnabled": true,
+	// Enable Blue Gelatin Dessert Block.
+	"isBlueGelatinDessertBlockEnabled": true,
+	// Enable Brown Gelatin Dessert Block.
+	"isBrownGelatinDessertBlockEnabled": true,
+	// Enable Cyan Gelatin Dessert Block.
+	"isCyanGelatinDessertBlockEnabled": true,
+	// Enable Gelatin Dessert Block.
+	"isGelatinDessertBlockEnabled": true,
+	// Enable Gray Gelatin Dessert Block.
+	"isGrayGelatinDessertBlockEnabled": true,
+	// Enable Green Gelatin Dessert Block.
+	"isGreenGelatinDessertBlockEnabled": true,
+	// Enable Light Blue Gelatin Dessert Block.
+	"isLightBlueGelatinDessertBlockEnabled": true,
+	// Enable Light Gray Gelatin Dessert Block.
+	"isLightGrayGelatinDessertBlockEnabled": true,
+	// Enable Lime Gelatin Dessert Block.
+	"isLimeGelatinDessertBlockEnabled": true,
+	// Enable Magenta Gelatin Dessert Block.
+	"isMagentaGelatinDessertBlockEnabled": true,
+	// Enable Orange Gelatin Dessert Block.
+	"isOrangeGelatinDessertBlockEnabled": true,
+	// Enable Pink Gelatin Dessert Block.
+	"isPinkGelatinDessertBlockEnabled": true,
+	// Enable Purple Gelatin Dessert Block.
+	"isPurpleGelatinDessertBlockEnabled": true,
+	// Enable Red Gelatin Dessert Block.
+	"isRedGelatinDessertBlockEnabled": true,
+	// Enable Yellow Gelatin Dessert Block.
+	"isYellowGelatinDessertBlockEnabled": true,
+	// Enable Black Gelatin Mix Fluid.
+	"isBlackGelatinMixFluidEnabled": true,
+	// Enable Blue Gelatin Mix Fluid.
+	"isBlueGelatinMixFluidEnabled": true,
+	// Enable Brown Gelatin Mix Fluid.
+	"isBrownGelatinMixFluidEnabled": true,
+	// Enable Berry Cream Frosting Fluid.
+	"isBerryCreamFrostingFluidEnabled": true,
+	// Enable Cacao Butter Fluid.
+	"isCacaoButterFluidEnabled": true,
+	// Enable Cacao Mass Fluid.
+	"isCacaoMassFluidEnabled": true,
+	// Enable Caramel Fluid.
+	"isCaramelFluidEnabled": true,
+	// Enable Chocolate Cream Frosting Fluid.
+	"isChocolateCreamFrostingFluidEnabled": true,
+	// Enable Chorus Fruit Cream Frosting Fluid.
+	"isChorusFruitCreamFrostingFluidEnabled": true,
+	// Enable Chocolate Milk Fluid.
+	"isChocolateMilkFluidEnabled": true,
+	// Enable Cream Frosting Fluid.
+	"isCreamFrostingFluidEnabled": true,
+	// Enable Cyan Gelatin Mix Fluid.
+	"isCyanGelatinMixFluidEnabled": true,
+	// Enable Dark Chocolate Fluid.
+	"isDarkChocolateFluidEnabled": true,
+	// Enable Gelatin Mix Fluid.
+	"isGelatinMixFluidEnabled": true,
+	// Enable Gray Gelatin Mix Fluid.
+	"isGrayGelatinMixFluidEnabled": true,
+	// Enable Green Gelatin Mix Fluid.
+	"isGreenGelatinMixFluidEnabled": true,
+	// Enable Light Blue Gelatin Mix Fluid.
+	"isLightBlueGelatinMixFluidEnabled": true,
+	// Enable Light Gray Gelatin Mix Fluid.
+	"isLightGrayGelatinMixFluidEnabled": true,
+	// Enable Lime Gelatin Mix Fluid.
+	"isLimeGelatinMixFluidEnabled": true,
+	// Enable Magenta Gelatin Mix Fluid.
+	"isMagentaGelatinMixFluidEnabled": true,
+	// Enable Orange Gelatin Mix Fluid.
+	"isOrangeGelatinMixFluidEnabled": true,
+	// Enable Pink Gelatin Mix Fluid.
+	"isPinkGelatinMixFluidEnabled": true,
+	// Enable Purple Gelatin Mix Fluid.
+	"isPurpleGelatinMixFluidEnabled": true,
+	// Enable Red Gelatin Mix Fluid.
+	"isRedGelatinMixFluidEnabled": true,
+	// Enable Glow Berry Cream Frosting Fluid.
+	"isGlowBerryCreamFrostingFluidEnabled": true,
+	// Enable Hot Chocolate Fluid.
+	"isHotChocolateFluidEnabled": true,
+	// Enable Hot Dark Chocolate Fluid.
+	"isHotDarkChocolateFluidEnabled": true,
+	// Enable Hot White Chocolate Fluid.
+	"isHotWhiteChocolateFluidEnabled": true,
+	// Enable Vegetable Oil Fluid.
+	"isVegetableOilFluidEnabled": true,
+	// Enable White Chocolate Fluid.
+	"isWhiteChocolateFluidEnabled": true,
+	// Enable Yellow Gelatin Mix Fluid.
+	"isYellowGelatinMixFluidEnabled": true,
+	// Enable Beef Bun (Bacon, Lettuce).
+	"isBeefBunBaconLettuceEnabled": true,
+	// Enable Beef Bun (Bacon, Lettuce, Tomato).
+	"isBeefBunBaconLettuceTomatoEnabled": true,
+	// Enable Beef Bun (Lettuce).
+	"isBeefBunLettuceEnabled": true,
+	// Enable Beef Bun (Onion).
+	"isBeefBunOnionEnabled": true,
+	// Enable Beef Bun (Onion, Bacon).
+	"isBeefBunOnionBaconEnabled": true,
+	// Enable Beef Bun (Onion, Bacon, Lettuce).
+	"isBeefBunOnionBaconLettuceEnabled": true,
+	// Enable Beef Bun (Onion, Lettuce).
+	"isBeefBunOnionLettuceEnabled": true,
+	// Enable Beef Bun (Onion, Lettuce, Tomato).
+	"isBeefBunOnionLettuceTomatoEnabled": true,
+	// Enable Beef Bun (Lettuce, Tomato).
+	"isBeefBunLettuceTomatoEnabled": true,
+	// Enable Cheese and Beef Bun (Bacon, Lettuce).
+	"isCheeseAndBeefBunBaconLettuceEnabled": true,
+	// Enable Cheese and Beef Bun (Bacon, Lettuce, Tomato).
+	"isCheeseAndBeefBunBaconLettuceTomatoEnabled": true,
+	// Enable Cheese and Beef Bun (Onion).
+	"isCheeseAndBeefBunOnionEnabled": true,
+	// Enable Cheese and Beef Bun (Onion, Bacon).
+	"isCheeseAndBeefBunOnionBaconEnabled": true,
+	// Enable Cheese and Beef Bun (Onion, Bacon, Lettuce).
+	"isCheeseAndBeefBunOnionBaconLettuceEnabled": true,
+	// Enable Cheese and Beef Bun (Onion, Lettuce).
+	"isCheeseAndBeefBunOnionLettuceEnabled": true,
+	// Enable Cheese and Beef Bun (Onion, Lettuce, Tomato).
+	"isCheeseAndBeefBunOnionLettuceTomatoEnabled": true,
+	// Enable Cheese and Beef Bun (Lettuce).
+	"isCheeseAndBeefBunLettuceEnabled": true,
+	// Enable Cheese and Beef Bun (Lettuce, Tomato).
+	"isCheeseAndBeefBunLettuceTomatoEnabled": true,
+	// Enable Cheese and Chicken Bun (Bacon, Lettuce).
+	"isCheeseAndChickenBunBaconLettuceEnabled": true,
+	// Enable Cheese and Chicken Bun (Lettuce).
+	"isCheeseAndChickenBunLettuceEnabled": true,
+	// Enable Cheese and Chicken Bun (Lettuce, Tomato).
+	"isCheeseAndChickenBunLettuceTomatoEnabled": true,
+	// Enable Cheeseburger (Bacon, Lettuce).
+	"isCheeseburgerBaconLettuceEnabled": true,
+	// Enable Cheeseburger (Bacon, Lettuce, Tomato).
+	"isCheeseburgerBaconLettuceTomatoEnabled": true,
+	// Enable Cheeseburger (Onion).
+	"isCheeseburgerOnionEnabled": true,
+	// Enable Cheeseburger (Onion, Bacon).
+	"isCheeseburgerOnionBaconEnabled": true,
+	// Enable Cheeseburger (Onion, Lettuce).
+	"isCheeseburgerOnionLettuceEnabled": true,
+	// Enable Cheeseburger (Onion, Bacon, Lettuce).
+	"isCheeseburgerOnionBaconLettuceEnabled": true,
+	// Enable Cheeseburger (Lettuce).
+	"isCheeseburgerLettuceEnabled": true,
+	// Enable Cheeseburger (Lettuce, Tomato).
+	"isCheeseburgerLettuceTomatoEnabled": true,
+	// Enable Cheeseburger (Onion, Lettuce, Tomato).
+	"isCheeseburgerOnionLettuceTomatoEnabled": true,
+	// Enable Chicken Bun (Bacon, Lettuce).
+	"isChickenBunBaconLettuceEnabled": true,
+	// Enable Chicken Bun (Lettuce).
+	"isChickenBunLettuceEnabled": true,
+	// Enable Chicken Bun (Lettuce, Tomato).
+	"isChickenBunLettuceTomatoEnabled": true,
+	// Enable Chicken Burger (Bacon, Lettuce).
+	"isChickenBurgerBaconLettuceEnabled": true,
+	// Enable Chicken Burger (Lettuce).
+	"isChickenBurgerLettuceEnabled": true,
+	// Enable Chicken Burger (Lettuce, Tomato).
+	"isChickenBurgerLettuceTomatoEnabled": true,
+	// Enable Chicken Cheeseburger (Bacon, Lettuce).
+	"isChickenCheeseburgerBaconLettuceEnabled": true,
+	// Enable Chicken Cheeseburger (Lettuce).
+	"isChickenCheeseburgerLettuceEnabled": true,
+	// Enable Chicken Cheeseburger (Lettuce, Tomato).
+	"isChickenCheeseburgerLettuceTomatoEnabled": true,
+	// Enable Diced Onion.
+	"isDicedOnionEnabled": true,
+	// Enable Hamburger (Bacon, Lettuce).
+	"isHamburgerBaconLettuceEnabled": true,
+	// Enable Hamburger (Onion).
+	"isHamburgerOnionEnabled": true,
+	// Enable Hamburger (Onion, Bacon).
+	"isHamburgerOnionBaconEnabled": true,
+	// Enable Hamburger (Onion, Bacon, Lettuce).
+	"isHamburgerOnionBaconLettuceEnabled": true,
+	// Enable Hamburger (Onion, Lettuce).
+	"isHamburgerOnionLettuceEnabled": true,
+	// Enable Hamburger (Lettuce).
+	"isHamburgerLettuceEnabled": true,
+	// Enable Hamburger (Lettuce, Tomato).
+	"isHamburgerLettuceTomatoEnabled": true,
+	// Enable Hamburger (Bacon, Lettuce, Tomato).
+	"isHamburgerBaconLettuceTomatoEnabled": true,
+	// Enable Pasta Plate (Tomato Sauce).
+	"isPastaPlateTomatoSauceEnabled": true,
+	// Enable Raw Honey Cookie.
+	"isRawHoneyCookieEnabled": true,
+	// Enable Raw Sweet Berry Cookie.
+	"isRawSweetBerryCookieEnabled": true,
+	// Enable Sliced Tomato.
+	"isSlicedTomatoEnabled": true
+}

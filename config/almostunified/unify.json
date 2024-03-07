@@ -108,10 +108,7 @@
     "garlic",
     "quartz",
     "ender_pearl",
-    "obsidian",
-    "chromium",
-    "titanium",
-    "platinum"
+    "obsidian"
   ],
   "priorityOverrides": {
     "c:salt_dusts": "bewitchment",

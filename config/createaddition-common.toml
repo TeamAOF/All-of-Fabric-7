@@ -43,18 +43,29 @@
 	rolling_mill_stress = 16
 #Wires
 [wires]
-	#Connector max input in E/t (Energy transfer).
+	#Small Connector max output in FE/t (Energy transfer).
 	#Range: 0 ~ 9223372036854775807
-	connector_max_input = 5000
-	#Max wire length in blocks.
+	small_connector_max_output = 1000
+	#Small Connector max input in FE/t (Energy transfer).
+	#Range: 0 ~ 9223372036854775807
+	small_connector_max_input = 1000
+	#Small Connector With Light energy consumption in FE/t.
+	#Range: 0 ~ 9223372036854775807
+	small_light_connector_consumption = 1
+	#Large Connector max wire length in blocks.
 	#Range: 0 ~ 256
-	wire_length = 12
-	#Connector max output in E/t (Energy transfer).
+	large_connector_wire_length = 32
+	#Small Connector max wire length in blocks.
+	#Range: 0 ~ 256
+	small_connector_wire_length = 16
+	#Large Connector max input in FE/t (Energy transfer).
 	#Range: 0 ~ 9223372036854775807
-	connector_max_output = 5000
-	#Connector internal input buffer in E.
+	large_connector_max_input = 5000
+	#Allows blocks attached to a connector to freely pass energy to and from the connector network.
+	connector_allow_passive_io = true
+	#Large Connector max output in FE/t (Energy transfer).
 	#Range: 0 ~ 9223372036854775807
-	connector_input_capacity = 5000
+	large_connector_max_output = 5000
 	#Ignore checking if block face can support connector.
 	connector_ignore_face_check = true
 #Accumulator

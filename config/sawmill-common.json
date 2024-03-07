@@ -1,9 +1,12 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "general": {
+    "sort_recipes": true,
     "allow_non_blocks": true,
     "allow_non_variant": true,
-    "mod_blacklist": [],
+    "mods_blacklist": [
+      "framedblocks"
+    ],
     "limit_planks_input_to_one": true,
     "wider_gui": false,
     "search_bar_mode": "AUTOMATIC",

@@ -36,5 +36,7 @@
 	"enableHiveheart": true,
 	"enableStarsEdge": true,
 	"enableWickpiercer": true,
-	"enableTempest": true
+	"enableTempest": true,
+	"enableFlamewind": true,
+	"enableRibboncleaver": true
 }

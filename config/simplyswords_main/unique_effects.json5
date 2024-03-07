@@ -137,5 +137,13 @@
 	"voidcallerCorruptionFrequency": 60.0,
 	"voidcallerCorruptionPerTick": 1.0,
 	"voidcallerCorruptionDuration": 1200.0,
-	"voidcallerCorruptionMax": 100.0
+	"voidcallerCorruptionMax": 100.0,
+	"emberstormSpreadCap": 6.0,
+	"emberstormDamage": 5.0,
+	"emberstormDetonationDamage": 15.0,
+	"emberstormCooldown": 980.0,
+	"emberstormMaxHaste": 10.0,
+	"emberstormSpellScaling": 0.4000000059604645,
+	"ribbonwrathCooldown": 40.0,
+	"ribbonwrathResilienceAmplifier": 1.0
 }

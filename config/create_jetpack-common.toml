@@ -15,4 +15,5 @@
 	#Range: -100.0 ~ 0.0
 	hover_descend = -0.03
 [features]
-	elytra_boost = true
+	#Range: 1.0 ~ 100.0
+	elytra_boost = 1.25

@@ -12,12 +12,6 @@
          "icon":{
             "item":"regions_unexplored:pine_shrub"
          }
-      },
-      "fungi":{
-         "name":"Fungi",
-         "icon":{
-            "item":"biomemakeover:wild_mushrooms"
-         }
       }
    },
    "customEntries":[
@@ -51,42 +45,6 @@
       {
          "output":{
             "item":"bewitchment:elder_sapling"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"farmingforblockheads:saplings"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:ancient_oak_sapling"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"farmingforblockheads:saplings"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:blighted_balsa_sapling"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"farmingforblockheads:saplings"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:swamp_cypress_sapling"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"farmingforblockheads:saplings"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:willow_sapling"
          },
          "payment":{
             "item":"minecraft:emerald"
@@ -969,51 +927,6 @@
       {
          "output":{
             "item":"minecraft:red_mushroom"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"fungi"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:purple_glowshroom"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"fungi"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:green_glowshroom"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"fungi"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:orange_glowshroom"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"fungi"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:tall_brown_mushroom"
-         },
-         "payment":{
-            "item":"minecraft:emerald"
-         },
-         "category":"fungi"
-      },
-      {
-         "output":{
-            "item":"biomemakeover:tall_red_mushroom"
          },
          "payment":{
             "item":"minecraft:emerald"
