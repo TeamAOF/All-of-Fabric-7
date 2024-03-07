@@ -5,6 +5,7 @@
 
 ServerEvents.recipes(event => {
 
+  // Titanium
 event.custom({    
   "type": "techreborn:blast_furnace",
   "power": 128,
@@ -22,6 +23,7 @@ event.custom({
   ]
 })
 
+// Chromium
 event.custom({    
   "type": "techreborn:blast_furnace",
   "power": 128,
@@ -40,6 +42,7 @@ event.custom({
   ]
 })
 
+// Platinum
 event.custom({    
   "type": "techreborn:blast_furnace",
   "power": 128,
@@ -53,6 +56,27 @@ event.custom({
   "results": [
     {
       "item": "modern_industrialization:platinum_hot_ingot"
+    }
+  ]
+})
+
+// Nikolite
+event.custom({    
+  "type": "techreborn:blast_furnace",
+  "power": 128,
+  "time": 800,
+  "heat": 1000,
+  "ingredients": [
+    {
+      "item": "indrev:enriched_nikolite_dust"
+    },
+    {
+      "item": "indrev:nikolite_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "indrev:enriched_nikolite_ingot"
     }
   ]
 })
