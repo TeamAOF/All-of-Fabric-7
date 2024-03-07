@@ -22,6 +22,24 @@ ServerEvents.recipes(event => {
         }
       ]
 })
+
+// Nikolite
+event.custom({    
+  "type": "techreborn:grinder",
+  "power": 3,
+  "time": 200,
+  "ingredients": [
+    {
+      "tag": "c:nikolite_ores"
+    }
+  ],
+  "results": [
+    {
+      "item": "indrev:nikolite_dust",
+      "count": 7
+    }
+  ]
+})
 /*
  // Prosperity Shards
  event.custom({    
