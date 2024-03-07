@@ -3,9 +3,9 @@
     "bank_5"
   ],
   "tasks": {
-    "bank_6_task": {
+    "dank_6": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_6",
+      "item": "dankstorage:dank_6",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:diamond_block",
-        "count": 1
+        "id": "minecraft:amethyst_block",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -46,14 +46,14 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Bank 6",
+      "## Dank 6",
       "</column>",
       "<column>",
-      "<item id=\"bankstorage:bank_6\" scale=\"4\"> </item>",
+      "<item id=\"dankstorage:dank_6\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "   The Bank 6, made by taking your previous one and surrounding it by 8 blocks of diamond (~31,590 kg).",
+      "   The Dank 6, made by taking your previous one and surrounding it by 8 blocks of diamond (~31,590 kg).",
       "<br/>",
       "  This brings your total storage to 81 different slots with each slot holding up to 262,144 items in each.",
       "<br/>",
@@ -69,14 +69,14 @@
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_6",
+        "id": "dankstorage:dank_6",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 6"
+      "translate": "Dank 6"
     }
   },
   "settings": {

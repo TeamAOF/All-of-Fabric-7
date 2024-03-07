@@ -3,9 +3,9 @@
     "bank_2"
   ],
   "tasks": {
-    "b3t": {
+    "dank_3": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_3",
+      "item": "dankstorage:dank_3",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:iron_block",
-        "count": 1
+        "id": "minecraft:gold_block",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -46,14 +46,14 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Bank 3",
+      "## Dank 3",
       "</column>",
       "<column>",
-      "<item id=\"bankstorage:bank_3\" scale=\"4\"> </item>",
+      "<item id=\"dankstorage:dank_3\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "  The Bank 3, made by taking your previous one and surrounding it by 8 blocks of iron (~70,857 kg).",
+      "  The Dank 3, made by taking your previous one and surrounding it by 8 blocks of iron (~70,857 kg).",
       "<br/>",
       "  This brings your total storage to 27 different slots with each slot holding up to 4,096 items in each.",
       "<br/>",
@@ -69,14 +69,14 @@
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_3",
+        "id": "dankstorage:dank_3",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 3"
+      "translate": "Dank 3"
     }
   },
   "settings": {

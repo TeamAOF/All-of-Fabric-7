@@ -3,9 +3,14 @@
     "bank_1"
   ],
   "tasks": {
-    "bank_2_task": {
+    "dank_2": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_2",
+      "item": "dankstorage:dank_2",
+      "nbt": {
+        "settings": {
+          "dankstorage:frequency": 0
+        }
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,8 +34,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:copper_block",
-        "count": 1
+        "id": "minecraft:redstone_block",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -46,14 +51,14 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Bank 2",
+      "## Dank 2",
       "</column>",
       "<column>",
-      "<item id=\"bankstorage:bank_2\" scale=\"4\"> </item>",
+      "<item id=\"dankstorage:dank_2\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "  The Bank 2, made by taking your previous one and surrounding it by 8 blocks of copper—about 80,100 kilograms worth.",
+      "  The Dank 2, made by taking your previous one and surrounding it by 8 blocks of copper—about 80,100 kilograms worth.",
       "<br/>",
       "  This brings your total storage to 18 different slots with each slot holding up to 1,024 items in each.",
       "<br/>",
@@ -69,14 +74,19 @@
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_2",
-        "count": 1
+        "id": "dankstorage:dank_2",
+        "count": 1,
+        "nbt": {
+          "settings": {
+            "dankstorage:frequency": 0
+          }
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 2"
+      "translate": "Dank 2"
     }
   },
   "settings": {

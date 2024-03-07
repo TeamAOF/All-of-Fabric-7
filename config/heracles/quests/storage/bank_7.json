@@ -3,9 +3,9 @@
     "bank_6"
   ],
   "tasks": {
-    "bank_7_task": {
+    "dank_7": {
       "type": "heracles:item",
-      "item": "bankstorage:bank_7",
+      "item": "dankstorage:dank_7",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "nether_star": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:nether_star",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "bank_7_reward": {
       "title": "",
       "icon": {
@@ -46,14 +61,14 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Bank 7",
+      "## Dank 7",
       "</column>",
       "<column>",
-      "<item id=\"bankstorage:bank_7\" scale=\"4\"> </item>",
+      "<item id=\"dankstorage:dank_7\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "   The Bank 7, made by taking your previous one and surrounding it by 8 blocks of netherite (~1,467,130.5 kg).",
+      "   The Dank 7, made by taking your previous one and surrounding it by 8 blocks of netherite (~1,467,130.5 kg).",
       "<br/>",
       "  This brings your total storage to 108 different slots with each slot holding up to 1,000,000,000 items in each.",
       "<br/>",
@@ -69,14 +84,14 @@
     },
     "icon": {
       "item": {
-        "id": "bankstorage:bank_7",
+        "id": "dankstorage:dank_7",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Bank 7"
+      "translate": "Dank 7"
     }
   },
   "settings": {
