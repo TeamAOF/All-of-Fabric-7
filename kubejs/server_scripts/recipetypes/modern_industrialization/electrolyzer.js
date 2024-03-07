@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
   "type": "modern_industrialization:electrolyzer",
   "id": "aof:enriched_nikolite_dust_mi",
   "eu": 4,
-  "duration": 100,
+  "duration": 400,
   "item_inputs": [
     {
       "item": "indrev:nikolite_dust",
