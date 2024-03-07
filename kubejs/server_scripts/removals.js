@@ -169,6 +169,8 @@ ServerEvents.recipes((event) => {
         'techreborn:ruby_sword',
         'techreborn:ruby_spade',
         'onlyhammers:obsidian_hammer',
+        'onlyhammers:lapis_hammer',
+        'onlyhammers:redstone_hammer'
     ];
 
     id.forEach((id) => {
