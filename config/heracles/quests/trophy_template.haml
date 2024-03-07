@@ -1,0 +1,33 @@
+- blank = "&#160;&#160;&#160;&#160;&#160;&#160;"
+- text = "123456789"
+- lawngreen = "7cfc00"
+- forestgreen = "228b22"
+- goldenrod = "daa520"
+- crimson = "dc143c"
+- c0 = crimson
+- c2 = goldenrod
+- c1 = forestgreen
+- trofer = "farmeroworlds"
+- title = "Farmer o' Worlds"
+<br/>
+%columns(template="0 100")
+	%column
+		%columns
+			%column(valign="top")
+				%h2(background="8 #88#{c0}" border="0 #01#{c0}" obfuscated="true" color="#44#{c0}") #{text}
+			%column(valign="bottom")
+				%h2(background="8 #88#{c1}" border="2 #01#{c1}" obfuscated="true" color="#44#{c1}") #{text}
+			%column
+				%h2(background="8 #88#{c2}" border="5 #01#{c2}" obfuscated="true" color="#44#{c2}") #{text}
+	%column
+		%columns(template="20 80")
+			%column
+				%item(id="trofers:medium_pillar" tag="{BlockEntityTag:{Trophy:'trofers:#{trofer}}" scale="7" border="0 #88777777") &#32;
+			%column(valign="middle")
+				%h1(align="center" shadowed="true" italic="true" background="3 #22#{c1}" border="1 #bbffffff") #{title}
+				<br/>
+				<hr/>
+				<br/>
+				%p   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus. Dui nunc mattis enim ut tellus elementum. Integer quis auctor elit sed vulputate mi sit amet. Amet dictum sit amet justo donec.
+				<br/>
+				<hr/>
