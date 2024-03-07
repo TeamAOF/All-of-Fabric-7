@@ -31,6 +31,7 @@
     "glacio",
     "moon",
     "mars",
+    "venus",
     "blackslag"
   ],
   "tags": [
@@ -158,7 +159,10 @@
     "create:crushing/glacio_lapis_ore",
     "create:crushing/glacio_coal_ore",
     "create:crushing/mars_iron_ore",
-    "create:crushing/mars_diamond_ore"
+    "create:crushing/mars_diamond_ore",
+    "create:crushing/venus_diamond_ore",
+    "create:crushing/venus_gold_ore",
+    "create:crushing/venus_coal_ore"
   ],
   "itemsHidingJeiRei": true
 }
