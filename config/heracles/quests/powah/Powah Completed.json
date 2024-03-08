@@ -85,7 +85,7 @@
       "<column>",
       "<columns template='20 80'>",
       "<column>",
-      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:powah}'>&#32;</item>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag=\"{BlockEntityTag:{Trophy:'trofers:powah'}}\">&#32;</item>",
       "</column>",
       "<column valign='middle'>",
       "<h1 align='center' background='3 #22daa520' border='1 #bbffffff' italic='true' shadowed='true'>Powah!</h1>",
