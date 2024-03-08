@@ -1,24 +1,28 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "1349A47C54D391CA": {
       "title": "Security and Wireless",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Security, Wireless and Beyond",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"1349A47C54D391CA\" quest=\"Security and Wireless\"/>",
       "<hr/>",
       "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -26,6 +30,24 @@
           -96
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Wireless and Beyond"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

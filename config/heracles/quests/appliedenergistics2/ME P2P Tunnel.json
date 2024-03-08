@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "AE2 Controller"
   ],
   "tasks": {
     "5723EBB3D22A39E7": {
       "type": "heracles:item",
-      "item": "ae2:me_p2p_tunnel"
+      "item": "ae2:me_p2p_tunnel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "7EDBD50C41804FD8": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:me_p2p_tunnel",
+    "subtitle": {
+      "translate": "A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage."
+    },
     "description": [
       "<h2>A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage.</h2>",
       "<hr/>",
@@ -45,14 +64,6 @@
       "<hr/>",
       "<reward reward=\"7EDBD50C41804FD8\" quest=\"ME P2P Tunnel\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:me_p2p_tunnel"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -60,6 +71,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:me_p2p_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "P2P Tunnel"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "AE2 Drive"
   ],
   "tasks": {
     "2E155470D8151510": {
       "type": "heracles:item",
-      "item": "ae2:item_storage_cell_4k"
+      "item": "ae2:item_storage_cell_4k",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "7871D12FA7E70681": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:item_storage_cell_4k",
+    "subtitle": {
+      "translate": "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
+    },
     "description": [
       "<h2>Low Tier Storage Cell, which can contain 4,096 bytes of storage.</h2>",
       "<hr/>",
@@ -37,14 +56,6 @@
       "<hr/>",
       "<reward reward=\"7871D12FA7E70681\" quest=\"Item Storage Cell 4K\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:item_storage_cell_4k"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -52,6 +63,24 @@
           -304
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:item_storage_cell_4k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Item Storage Cell 4K"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

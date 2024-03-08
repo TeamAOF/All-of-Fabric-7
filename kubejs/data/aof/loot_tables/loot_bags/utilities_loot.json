@@ -1033,6 +1033,113 @@
                 "count": 1
               }
             ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:item_storage_cell_1k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:item_storage_cell_4k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:item_storage_cell_16k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "appbot:mana_storage_cell_1k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "appbot:mana_storage_cell_4k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "appbot:mana_storage_cell_16k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:fluid_storage_cell_1k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:fluid_storage_cell_4k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:fluid_storage_cell_16k",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
           }
         ]
       }

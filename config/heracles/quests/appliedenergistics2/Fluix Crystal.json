@@ -1,32 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Charged Certus Quartz Crystal"
   ],
   "tasks": {
     "58065B40437B33DA": {
       "type": "heracles:item",
+      "item": "ae2:fluix_crystal",
       "amount": 16,
-      "item": "ae2:fluix_crystal"
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "58F4C75D516E78DA": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:fluix_crystal",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"58065B40437B33DA\" quest=\"Fluix Crystal\"/>",
       "<hr/>",
@@ -38,11 +56,6 @@
       "<hr/>",
       "<reward reward=\"58F4C75D516E78DA\" quest=\"Fluix Crystal\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:fluix_crystal"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -50,6 +63,24 @@
           -224
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Fluix Crystals"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

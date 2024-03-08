@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Automation is Key"
   ],
   "tasks": {
     "00690EE1F30F9B99": {
       "type": "heracles:item",
-      "item": "ae2:1k_crafting_storage"
+      "item": "ae2:1k_crafting_storage",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "4FB4B90AE6EC0CF9": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:1k_crafting_storage",
+    "subtitle": {
+      "translate": "Provides 1024 bytes of storage for crafting."
+    },
     "description": [
       "<h2>Provides 1024 bytes of storage for crafting.</h2>",
       "<hr/>",
@@ -34,14 +53,6 @@
       "<hr/>",
       "<reward reward=\"4FB4B90AE6EC0CF9\" quest=\"1K Crafting Storage\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:1k_crafting_storage"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Provides 1024 bytes of storage for crafting."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -49,6 +60,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:1k_crafting_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Crafting Storage 1K"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

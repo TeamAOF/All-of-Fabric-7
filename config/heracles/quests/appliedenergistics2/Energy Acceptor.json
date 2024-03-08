@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Fluix Crystal"
   ],
   "tasks": {
     "7C8924F839D8D61E": {
       "type": "heracles:item",
-      "item": "ae2:energy_acceptor"
+      "item": "ae2:energy_acceptor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "1B210AE5834986EE": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:energy_acceptor",
+    "subtitle": {
+      "translate": "Converts energy from external systems into AE and stores it in the network."
+    },
     "description": [
       "<h2>Converts energy from external systems into AE and stores it in the network.</h2>",
       "<hr/>",
@@ -34,14 +53,6 @@
       "<hr/>",
       "<reward reward=\"1B210AE5834986EE\" quest=\"Energy Acceptor\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:energy_acceptor"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Converts energy from external systems into AE and stores it in the network."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -49,6 +60,24 @@
           -272
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:energy_acceptor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Energy Acceptor"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

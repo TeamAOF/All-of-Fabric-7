@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Fluix Smart Cable"
   ],
   "tasks": {
     "4D657D4CBB6A2016": {
       "type": "heracles:item",
-      "item": "ae2:fluix_smart_dense_cable"
+      "item": "ae2:fluix_smart_dense_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "20148FD6ABF3A786": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:fluix_smart_dense_cable",
+    "subtitle": {
+      "translate": "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
+    },
     "description": [
       "<h2>Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8.</h2>",
       "<hr/>",
@@ -35,14 +54,6 @@
       "<hr/>",
       "<reward reward=\"20148FD6ABF3A786\" quest=\"Fluix Smart Dense Cable\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:fluix_smart_dense_cable"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -50,6 +61,24 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Smart Dense Cable"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

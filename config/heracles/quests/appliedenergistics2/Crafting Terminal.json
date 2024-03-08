@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "AE2 Drive"
   ],
   "tasks": {
     "0FCC6C4E3FB97D07": {
       "type": "heracles:item",
-      "item": "ae2:crafting_terminal"
+      "item": "ae2:crafting_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "75CE478D2B8FB8D3": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:crafting_terminal",
+    "subtitle": {
+      "translate": "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
+    },
     "description": [
       "<h2>Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage.</h2>",
       "<hr/>",
@@ -34,14 +53,6 @@
       "<hr/>",
       "<reward reward=\"75CE478D2B8FB8D3\" quest=\"Crafting Terminal\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:crafting_terminal"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -49,6 +60,24 @@
           -208
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Crafting Terminal"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

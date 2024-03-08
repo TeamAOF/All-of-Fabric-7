@@ -1,49 +1,81 @@
 {
-  "settings": {},
   "dependencies": [
     "AE2 Interface"
   ],
   "tasks": {
     "6DD06942CEC418CB": {
       "type": "heracles:item",
-      "item": "ae2:storage_bus"
+      "item": "ae2:storage_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "5DAFFE8DA3C58AF6": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:storage_bus",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"6DD06942CEC418CB\" quest=\"Storage Bus\"/>",
       "<hr/>",
       "<hr/>",
       "<reward reward=\"5DAFFE8DA3C58AF6\" quest=\"Storage Bus\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:storage_bus"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Applied Energistics 2": {
         "position": [
           80,
-          -192
+          -190
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:storage_bus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Storage Bus"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

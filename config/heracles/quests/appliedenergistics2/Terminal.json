@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "AE2 Drive"
   ],
   "tasks": {
     "2FEE9FBD8CE4FE03": {
       "type": "heracles:item",
-      "item": "ae2:terminal"
+      "item": "ae2:terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "26F52C51601BD009": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:terminal",
+    "subtitle": {
+      "translate": "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
+    },
     "description": [
       "<h2>A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus.</h2>",
       "<hr/>",
@@ -37,14 +56,6 @@
       "<hr/>",
       "<reward reward=\"26F52C51601BD009\" quest=\"Terminal\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:terminal"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -52,6 +63,24 @@
           -240
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Terminal"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

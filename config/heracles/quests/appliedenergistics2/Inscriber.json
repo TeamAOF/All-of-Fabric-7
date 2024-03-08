@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Charged Certus Quartz Crystal"
   ],
   "tasks": {
     "2BDA459026191334": {
       "type": "heracles:item",
-      "item": "ae2:inscriber"
+      "item": "ae2:inscriber",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "595FF2C171F73766": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:inscriber",
+    "subtitle": {
+      "translate": "Used to press items using various Inscriber Plates."
+    },
     "description": [
       "<h2>Used to press items using various Inscriber Plates.</h2>",
       "<hr/>",
@@ -34,14 +53,6 @@
       "<hr/>",
       "<reward reward=\"595FF2C171F73766\" quest=\"Inscriber\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:inscriber"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Used to press items using various Inscriber Plates."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -49,6 +60,24 @@
           -128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:inscriber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Inscriber"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

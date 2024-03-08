@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Automation is Key"
   ],
   "tasks": {
     "2641A595A151CEC8": {
       "type": "heracles:item",
-      "item": "ae2:crafting_unit"
+      "item": "ae2:crafting_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "30BE24275F44F396": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:crafting_unit",
+    "subtitle": {
+      "translate": "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
+    },
     "description": [
       "<h2>This particular block provides the CPU with no additional features, but can be used as a \"filler\" block.</h2>",
       "<hr/>",
@@ -35,14 +54,6 @@
       "<hr/>",
       "<reward reward=\"30BE24275F44F396\" quest=\"Crafting Unit\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:crafting_unit"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -50,6 +61,24 @@
           -144
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Crafting Unit"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

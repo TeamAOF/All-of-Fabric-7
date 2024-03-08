@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Quantum Link"
   ],
   "tasks": {
     "422C32A11B9803B4": {
       "type": "heracles:item",
-      "item": "ae2:quantum_ring"
+      "item": "ae2:quantum_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "63263DBFF0651EE0": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:quantum_ring",
+    "subtitle": {
+      "translate": "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
+    },
     "description": [
       "<h2>Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge.</h2>",
       "<hr/>",
@@ -35,14 +54,6 @@
       "<hr/>",
       "<reward reward=\"63263DBFF0651EE0\" quest=\"Quantum Ring\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:quantum_ring"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -50,6 +61,24 @@
           48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:quantum_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Quantum Ring"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

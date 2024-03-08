@@ -1,5 +1,4 @@
 {
-  "settings": {},
   "dependencies": [
     "Crafting Terminal",
     "Terminal"
@@ -7,26 +6,46 @@
   "tasks": {
     "2A1935843BEBBF9F": {
       "type": "heracles:item",
-      "item": "ae2:pattern_encoding_terminal"
+      "item": "ae2:pattern_encoding_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "7C6A62A9D5588C0E": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:pattern_encoding_terminal",
+    "subtitle": {
+      "translate": "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
+    },
     "description": [
       "<h2>A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern.</h2>",
       "<hr/>",
@@ -42,14 +61,6 @@
       "<hr/>",
       "<reward reward=\"7C6A62A9D5588C0E\" quest=\"Pattern Encording Terminal\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:pattern_encoding_terminal"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -57,6 +68,24 @@
           -224
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:pattern_encoding_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Pattern Encoding Terminal"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

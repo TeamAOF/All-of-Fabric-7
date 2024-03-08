@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Charger"
   ],
   "tasks": {
     "2BCC42993452589F": {
       "type": "heracles:item",
-      "item": "ae2:charged_certus_quartz_crystal"
+      "item": "ae2:charged_certus_quartz_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "491253597D5084B5": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:charged_certus_quartz_crystal",
+    "subtitle": {
+      "translate": "Use a powered Charger to charge Certus Quartz Crystal."
+    },
     "description": [
       "<h2>Use a powered Charger to charge Certus Quartz Crystal.</h2>",
       "<hr/>",
@@ -34,14 +53,6 @@
       "<hr/>",
       "<reward reward=\"491253597D5084B5\" quest=\"Charged Certus Quartz Crystal\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:charged_certus_quartz_crystal"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Use a powered Charger to charge Certus Quartz Crystal."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -49,6 +60,24 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:charged_certus_quartz_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Charged Certus Quartz"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

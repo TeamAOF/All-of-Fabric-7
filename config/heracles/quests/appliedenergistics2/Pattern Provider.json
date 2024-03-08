@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Automation is Key"
   ],
   "tasks": {
     "1A5F4DE4911B984A": {
       "type": "heracles:item",
-      "item": "ae2:pattern_provider"
+      "item": "ae2:pattern_provider",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "35D5FB8E01A3A074": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:pattern_provider",
+    "subtitle": {
+      "translate": "Recipes need to be encoded into patterns to be usable by crafting CPUs."
+    },
     "description": [
       "<h2>Recipes need to be encoded into patterns to be usable by crafting CPUs.</h2>",
       "<hr/>",
@@ -43,14 +62,6 @@
       "<hr/>",
       "<reward reward=\"35D5FB8E01A3A074\" quest=\"Pattern Provider\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:pattern_provider"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Recipes need to be encoded into patterns to be usable by crafting CPUs."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -58,6 +69,24 @@
           -144
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:pattern_provider",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Pattern Provider"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

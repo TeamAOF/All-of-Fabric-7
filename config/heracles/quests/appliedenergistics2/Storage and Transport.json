@@ -1,24 +1,28 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "35DEBD075D82821D": {
       "title": "Storage and transport",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Storage and Transport",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"35DEBD075D82821D\" quest=\"Storage and Transport\"/>",
       "<hr/>",
       "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -26,6 +30,24 @@
           -176
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Storage and Transport"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Security and Wireless"
   ],
   "tasks": {
     "435ED5858F476384": {
       "type": "heracles:item",
-      "item": "ae2:quantum_entangled_singularity"
+      "item": "ae2:quantum_entangled_singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "3D8C0E1DF719FF5A": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:quantum_entangled_singularity",
+    "subtitle": {
+      "translate": "Required to create a connection between to Quantum Network Bridges."
+    },
     "description": [
       "<h2>Required to create a connection between to Quantum Network Bridges.</h2>",
       "<hr/>",
@@ -43,14 +62,6 @@
       "<hr/>",
       "<reward reward=\"3D8C0E1DF719FF5A\" quest=\"Quantum Entangled Singularity\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:quantum_entangled_singularity"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Required to create a connection between to Quantum Network Bridges."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -58,6 +69,24 @@
           -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:quantum_entangled_singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Quantum Entangled Singularity"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

@@ -1,42 +1,56 @@
 {
-  "settings": {},
   "dependencies": [
     "Storage Bus"
   ],
   "tasks": {
     "006B723E69E57816": {
       "type": "heracles:item",
-      "item": "ae2:import_bus"
+      "item": "ae2:import_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "3BF763104481DA3F": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:import_bus",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"006B723E69E57816\" quest=\"Import Bus\"/>",
       "<hr/>",
       "<hr/>",
       "<reward reward=\"3BF763104481DA3F\" quest=\"Import Bus\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:import_bus"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -44,6 +58,24 @@
           -240
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:import_bus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Import Bus"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

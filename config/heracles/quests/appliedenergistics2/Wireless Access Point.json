@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
-    "Biometric Card"
+    "Security and Wireless"
   ],
   "tasks": {
     "4E38E22FE7B37FE6": {
       "type": "heracles:item",
-      "item": "ae2:wireless_access_point"
+      "item": "ae2:wireless_access_point",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "040F18CE77CA8AB1": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:wireless_access_point",
+    "subtitle": {
+      "translate": "Allows wireless access via a Wireless Terminal."
+    },
     "description": [
       "<h2>Allows wireless access via a Wireless Terminal.</h2>",
       "<hr/>",
@@ -39,21 +58,31 @@
       "<hr/>",
       "<reward reward=\"040F18CE77CA8AB1\" quest=\"Wireless Access Point\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:wireless_access_point"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Allows wireless access via a Wireless Terminal."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
-          -176,
-          48
+          -180,
+          -48
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:wireless_access_point",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Wireless Access Point"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

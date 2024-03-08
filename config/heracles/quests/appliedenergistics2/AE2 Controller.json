@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Storage and Transport"
   ],
   "tasks": {
     "6CB5F66C1E628B0E": {
       "type": "heracles:item",
-      "item": "ae2:controller"
+      "item": "ae2:controller",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "1A3D29A06813FDB2": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:controller",
+    "subtitle": {
+      "translate": "A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network."
+    },
     "description": [
       "<h2>A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network.</h2>",
       "<hr/>",
@@ -34,14 +53,6 @@
       "<hr/>",
       "<reward reward=\"1A3D29A06813FDB2\" quest=\"AE2 Controller\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:controller"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -49,6 +60,24 @@
           -128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Controller"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

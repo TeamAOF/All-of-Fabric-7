@@ -1,14 +1,23 @@
 {
-  "settings": {},
+  "dependencies": [],
   "tasks": {
     "2E567019AD31DD51": {
       "title": "So you want to automate?",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
-    "title": "Automation is Key",
+    "subtitle": {
+      "translate": "Use various interfaces and automate your network."
+    },
     "description": [
       "<h2>Use various interfaces and automate your network.</h2>",
       "<hr/>",
@@ -16,14 +25,6 @@
       "<hr/>",
       "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:green_wool"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Use various interfaces and automate your network."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -31,6 +32,24 @@
           -96
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Automation Is Key"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

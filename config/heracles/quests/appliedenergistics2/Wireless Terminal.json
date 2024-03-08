@@ -1,31 +1,50 @@
 {
-  "settings": {},
   "dependencies": [
     "Wireless Access Point"
   ],
   "tasks": {
     "1CFC818DEC3E5B6C": {
       "type": "heracles:item",
-      "item": "ae2:wireless_terminal"
+      "item": "ae2:wireless_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
-    "11FF7CC765FBADB7": {
-      "type": "heracles:item",
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Acquire: ae2:wireless_terminal",
+    "subtitle": {
+      "translate": "Links up the WAT to the network."
+    },
     "description": [
       "<h2>Links up the WAT to the network.</h2>",
       "<hr/>",
@@ -34,21 +53,31 @@
       "<hr/>",
       "<reward reward=\"11FF7CC765FBADB7\" quest=\"Wireless Terminal\"/>"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "ae2:wireless_terminal"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Links up the WAT to the network."
-    },
     "groups": {
       "Applied Energistics 2": {
         "position": [
-          -176,
-          96
+          -180,
+          0
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:wireless_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "title": {
+      "translate": "Wireless Terminal"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

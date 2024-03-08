@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "Complete AE2",
     "Complete Bewitchment",
     "Completed DML",
     "Complete Tech Reborn",
@@ -78,6 +79,7 @@
       "",
       "&&9&&lMisc:",
       "",
+      "- &&cApplied Energistics",
       "- &&cFarmer O' Worlds",
       "",
       "---"
