@@ -162,7 +162,22 @@
     "create:crushing/mars_diamond_ore",
     "create:crushing/venus_diamond_ore",
     "create:crushing/venus_gold_ore",
-    "create:crushing/venus_coal_ore"
+    "create:crushing/venus_coal_ore",
+    "create:crushing/coal_ore",
+    "create:crushing/deepslate_coal_ore",
+    "create:crushing/copper_ore",
+    "create:crushing/deepslate_copper_ore",
+    "create:crushing/iron_ore",
+    "create:crushing/gold_ore",
+    "create:crushing/deepslate_gold_ore",
+    "create:crushing/nether_gold_ore",
+    "create:crushing/lapis_ore",
+    "create:crushing/deepslate_lapis_ore",
+    "create:crushing/diamond_ore",
+    "create:crushing/deepslate_diamond_ore",
+    "create:crushing/emerald_ore",
+    "create:crushing/deepslate_emerald_ore",
+    "create:crushing/nether_quartz_ore"
   ],
   "itemsHidingJeiRei": true
 }

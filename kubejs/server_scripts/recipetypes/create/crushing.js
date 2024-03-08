@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
             "group": "minecraft:misc",
             "ingredients": [
                 {
-                    "tag": "c:" + item + "_ores"
+                    "item": "modern_industrialization:" + item + "_ore"
                 }
             ],
             "results": [
