@@ -8,6 +8,7 @@ Tools and Armory
 Ad Astra
 Create
 Deep Mob Learning
+Applied Energistics 2
 Industrial Revolution
 Modern Industrialization
 Powah

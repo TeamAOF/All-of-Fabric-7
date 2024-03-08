@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Charger"
+  ],
+  "tasks": {
+    "2BCC42993452589F": {
+      "type": "heracles:item",
+      "item": "ae2:charged_certus_quartz_crystal"
+    }
+  },
+  "rewards": {
+    "491253597D5084B5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:charged_certus_quartz_crystal",
+    "description": [
+      "<h2>Use a powered Charger to charge Certus Quartz Crystal.</h2>",
+      "<hr/>",
+      "<task task=\"2BCC42993452589F\" quest=\"Charged Certus Quartz Crystal\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"491253597D5084B5\" quest=\"Charged Certus Quartz Crystal\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Use a powered Charger to charge Certus Quartz Crystal."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -112,
+          -176
+        ]
+      }
+    }
+  }
+}

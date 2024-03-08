@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Fluix Smart Cable"
+  ],
+  "tasks": {
+    "4D657D4CBB6A2016": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_smart_dense_cable"
+    }
+  },
+  "rewards": {
+    "20148FD6ABF3A786": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:fluix_smart_dense_cable",
+    "description": [
+      "<h2>Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8.</h2>",
+      "<hr/>",
+      "<task task=\"4D657D4CBB6A2016\" quest=\"Fluix Smart Dense Cable\"/>",
+      "<hr/>",
+      "However it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels. Shows load similarly to Fluix ME Smart Cable, with each line lit representing four channels in use.",
+      "<hr/>",
+      "<reward reward=\"20148FD6ABF3A786\" quest=\"Fluix Smart Dense Cable\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_smart_dense_cable"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -448,
+          -176
+        ]
+      }
+    }
+  }
+}
