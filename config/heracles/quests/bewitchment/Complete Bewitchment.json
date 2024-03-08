@@ -2,7 +2,6 @@
   "dependencies": [
     "Juniper Broom",
     "Death Protection Poppet",
-    "Cruse Poppet",
     "Heaven Extract",
     "Find a Nether Fortress",
     "Cleansing Balm",
@@ -76,8 +75,38 @@
       "translate": "Complete all quests to obtain the trophy!"
     },
     "description": [
-      "<h2>Complete all quests to obtain the trophy!</h2>",
-      "---"
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #888b4513' border='0 #018b4513' color='#448b4513' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #88000000' border='2 #01000000' color='#44000000' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88ffd700' border='5 #01ffd700' color='#44ffd700' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:bewitchment&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #22000000' border='1 #bbffffff' italic='true' shadowed='true'>Bewitchment</h1>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus. Dui nunc mattis enim ut tellus elementum. Integer quis auctor elit sed vulputate mi sit amet. Amet dictum sit amet justo donec.</p>",
+      "<br/>",
+      "<hr/>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
     ],
     "groups": {
       "Bewitchment": {
