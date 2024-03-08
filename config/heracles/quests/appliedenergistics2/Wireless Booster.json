@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Wireless Terminal"
+  ],
+  "tasks": {
+    "6C0BA4228CC4B8B0": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_booster"
+    }
+  },
+  "rewards": {
+    "5CDAAC778DF57F6F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:wireless_booster",
+    "description": [
+      "<h2>Used to increase the range of the ME Wireless Access Point.</h2>",
+      "<hr/>",
+      "<task task=\"6C0BA4228CC4B8B0\" quest=\"Wireless Booster\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5CDAAC778DF57F6F\" quest=\"Wireless Booster\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_booster"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Used to increase the range of the ME Wireless Access Point."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -176,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "Crystals are the way"
+  ],
+  "tasks": {
+    "283357E45102D87C": {
+      "type": "heracles:item",
+      "item": "ae2:charger"
+    }
+  },
+  "rewards": {
+    "1B79CC50243E5337": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:charger",
+    "description": [
+      "<h2>Provides a way to charge supported tools through the ME Network.</h2>",
+      "<hr/>",
+      "<task task=\"283357E45102D87C\" quest=\"Charger\"/>",
+      "<hr/>",
+      "Build a &&bCharger&&r, and power it with a &&bVibration Chamber&&r or a generators from others mods.",
+      "<br/>",
+      "You can also power it by hand using a &&bWooden Crank&&r.",
+      "<hr/>",
+      "<reward reward=\"1B79CC50243E5337\" quest=\"Charger\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:charger"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Provides a way to charge supported tools through the ME Network."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -160,
+          -176
+        ]
+      }
+    }
+  }
+}

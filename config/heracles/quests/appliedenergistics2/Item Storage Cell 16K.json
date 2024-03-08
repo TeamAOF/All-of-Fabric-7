@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "AE2 Drive"
+  ],
+  "tasks": {
+    "0950907AA16E55FA": {
+      "type": "heracles:item",
+      "item": "ae2:item_storage_cell_16k"
+    }
+  },
+  "rewards": {
+    "5D2F3FC017AB8F28": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/logistics",
+          "Name": "Logistics & Storage Lootbag",
+          "Type": "UNCOMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: ae2:item_storage_cell_16k",
+    "description": [
+      "<h2>Middle Tier Storage Cell, which can contain 16,384 bytes of storage.</h2>",
+      "<hr/>",
+      "<task task=\"0950907AA16E55FA\" quest=\"Item Storage Cell 16K\"/>",
+      "<hr/>",
+      "16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items.",
+      "<br/>",
+      "The 16k Storage Cell uses 128 bytes of data to store a single type.",
+      "<hr/>",
+      "<reward reward=\"5D2F3FC017AB8F28\" quest=\"Item Storage Cell 16K\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:item_storage_cell_16k"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "subtitle": {
+      "text": "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
+    },
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -336,
+          -304
+        ]
+      }
+    }
+  }
+}
