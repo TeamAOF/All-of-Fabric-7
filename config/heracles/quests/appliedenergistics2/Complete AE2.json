@@ -1,59 +1,72 @@
 {
-  "settings": {},
   "dependencies": [
-    "AE2 Drive",
-    "64K Crafting Storage",
-    "16K Crafting Storage",
-    "Item Storage Cell 16K",
-    "Pattern Encording Terminal",
     "Quantum Link",
-    "Fluix Smart Dense Cable",
+    "16K Crafting Storage",
+    "Quantum Entangled Singularity",
+    "Security Station",
+    "Fluix Smart Cable",
+    "Fluix Glass Cable",
+    "Item Storage Cell 64K",
+    "Security and Wireless",
+    "AE2 Drive",
+    "Charged Certus Quartz Crystal",
+    "ME P2P Tunnel",
+    "Automation is Key",
+    "64K Crafting Storage",
     "Inscriber",
-    "Molecular Assembler",
+    "Quartz Growth Accelerator",
+    "Charger",
+    "Item Storage Cell 4K",
+    "Pattern Provider",
+    "AE2 Interface",
+    "4K Crafting Storage",
+    "Crafting Terminal",
+    "Import Bus",
+    "Memory Card",
     "Export Bus",
     "Wireless Terminal",
-    "ME P2P Tunnel",
-    "Quantum Entangled Singularity",
-    "Wireless Access Point",
-    "AE2 Interface",
-    "Item Storage Cell 64K",
-    "1K Crafting Storage",
-    "Security and Wireless",
-    "Charged Certus Quartz Crystal",
-    "Item Storage Cell 4K",
-    "Crafting Unit",
     "Wireless Booster",
-    "Item Storage Cell 1K",
-    "Import Bus",
-    "Quantum Ring",
-    "Pattern Provider",
-    "4K Crafting Storage",
+    "Pattern Encording Terminal",
+    "Wireless Access Point",
+    "Storage Bus",
+    "Crafting Unit",
+    "1K Crafting Storage",
     "Terminal",
+    "Biometric Card",
+    "Energy Acceptor",
+    "Item Storage Cell 16K",
+    "Molecular Assembler",
+    "Storage and Transport",
+    "Quantum Ring",
     "AE2 Controller",
     "Crystals are the way",
-    "Storage Bus",
+    "Item Storage Cell 1K",
     "Fluix Crystal",
-    "Memory Card",
-    "Biometric Card",
-    "Automation is Key",
-    "Storage and Transport",
-    "Fluix Smart Cable",
-    "Charger",
-    "Energy Acceptor",
-    "Quartz Growth Accelerator",
-    "Crafting Terminal",
-    "Security Station",
-    "Fluix Glass Cable"
+    "Fluix Smart Dense Cable"
   ],
   "tasks": {
     "11F8FBAD482A9E3E": {
       "title": "&9Applied &bEnergistics",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "5F4AF240E4659BEF": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -62,27 +75,48 @@
             "Trophy": "trofers:ae2"
           }
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "§9Applied §bEnergistics",
-    "description": [
-      "<h2>Complete all quests to obtain the trophy!</h2>",
-      "<hr/>",
-      "<task task=\"11F8FBAD482A9E3E\" quest=\"Complete AE2\"/>",
-      "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5F4AF240E4659BEF\" quest=\"Complete AE2\"/>"
-    ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "trofers:medium_pillar"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "subtitle": {
-      "text": "Complete all quests to obtain the trophy!"
+      "translate": "Complete all quests to obtain the trophy!"
     },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #889400d3' border='0 #019400d3' color='#449400d3' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #88000000' border='2 #01000000' color='#44000000' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88ff00ff' border='5 #01ff00ff' color='#44ff00ff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:ae2&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #22000000' border='1 #bbffffff' italic='true' shadowed='true'>Applied Energistics 2</h1>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus. Dui nunc mattis enim ut tellus elementum. Integer quis auctor elit sed vulputate mi sit amet. Amet dictum sit amet justo donec.</p>",
+      "<br/>",
+      "<hr/>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
     "groups": {
       "Applied Energistics 2": {
         "position": [
@@ -90,6 +124,24 @@
           0
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "§9Applied §bEnergistics"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
