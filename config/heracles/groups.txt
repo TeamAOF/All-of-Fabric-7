@@ -6,9 +6,9 @@ Storage
 Utilities
 Tools and Armory
 Ad Astra
+Applied Energistics 2
 Create
 Deep Mob Learning
-Applied Energistics 2
 Industrial Revolution
 Modern Industrialization
 Powah
