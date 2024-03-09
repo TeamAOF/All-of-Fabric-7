@@ -1,0 +1,61 @@
+- text = "123456789"
+- crimson = "dc143c"
+- magenta = "ff00ff"
+- purple = "800080"
+- black = "000000"
+- c0 = black
+- c2 = purple
+- c1 = magenta
+- trofer = "ender_dragon"
+<br/>
+%columns(template="0 100")
+	%column
+		%columns
+			%column(valign="top")
+				%h2(background="8 #aa#{c0}" border="0 #01#{c0}" obfuscated="true" color="#44#{c0}") #{text}
+			%column(valign="bottom")
+				%h2(background="8 #aa#{c1}" border="2 #01#{c1}" obfuscated="true" color="#44#{c1}") #{text}
+			%column
+				%h2(background="8 #aa#{c2}" border="5 #01#{c2}" obfuscated="true" color="#44#{c2}") #{text}
+	%column
+		%columns(template="20 82")
+			%column
+				%item(id="trofers:medium_pillar" tag="{BlockEntityTag:{Trophy:'trofers:#{trofer}'}}" scale="7" border="0 #88777777") &#32;
+			%column(valign="middle")
+				<hr/>
+				<br/>
+				%h2(italic="true") Looking for some Challenges?
+				<br/>
+				%p &#160;&#160;Excellent!
+				<br/>
+				%p &#160;&#160;Let's start at the end... kill the Ender Dragon.
+				<br/>
+				<hr/>
+%p(italic='true' align="center" color="purple" background="1 #44#{purple}") Yes, please, kill the Ender Dragon!
+<br/>
+%columns
+	%column
+		%columns
+			%column
+			%column
+				%entity(type="endermanoverhaul:end_islands_enderman") &#32;
+			%column
+				%entity(type="enderman") &#32;
+	%column
+		%columns
+			%column
+				%entity(type="endermanoverhaul:end_islands_enderman") &#32;
+			%column
+				%entity(type="enderman") &#32;
+			%column
+				%entity(type="endermanoverhaul:end_enderman") &#32;
+	%column
+		%columns
+			%column
+				%entity(type="enderman") &#32;
+			%column(valign="bottom")
+				%entity(type="endermanoverhaul:coral_enderman") &#32;
+			%column
+<br/>
+%p(italic='true' align="center" color="purple" background="1 #44#{purple}") And stop staring at us... it's rude!
+
