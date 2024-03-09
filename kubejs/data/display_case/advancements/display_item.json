@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "title": {
+      "translate": "advancement.display_case.display_item.title"
+    },
+    "description": {
+      "translate": "advancement.display_case.display_item.description"
+    },
+    "icon": {
+      "item": "display_case:display_case"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "item_used": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "display_case:display_case"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "count": 0
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
