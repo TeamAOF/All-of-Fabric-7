@@ -1,93 +1,174 @@
 {
-  "settings": {},
   "dependencies": [
     "Data Model"
   ],
   "tasks": {
     "4A4F270C7B4CB954": {
-      "title": "Get a data model",
-      "type": "heracles:composite",
       "amount": 1,
       "tasks": {
         "0d9721cc762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_illager",
           "amount": 1,
-          "item": "dml-refabricated:data_model_illager"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d972212762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_ocean",
           "amount": 1,
-          "item": "dml-refabricated:data_model_ocean"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d972230762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_slimy",
           "amount": 1,
-          "item": "dml-refabricated:data_model_slimy"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d97223a762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_overworld",
           "amount": 1,
-          "item": "dml-refabricated:data_model_overworld"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d97226c762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_zombie",
           "amount": 1,
-          "item": "dml-refabricated:data_model_zombie"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d972280762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_nether",
           "amount": 1,
-          "item": "dml-refabricated:data_model_nether"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d97228a762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_skeleton",
           "amount": 1,
-          "item": "dml-refabricated:data_model_skeleton"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d9722a8762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_end",
           "amount": 1,
-          "item": "dml-refabricated:data_model_end"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         },
         "0d9722c6762f11eea56b96cf213b3197": {
           "type": "heracles:item",
+          "item": "dml-refabricated:data_model_ghost",
           "amount": 1,
-          "item": "dml-refabricated:data_model_ghost"
+          "collection": "AUTOMATIC",
+          "title": "",
+          "icon": {
+            "item": {
+              "id": "minecraft:air",
+              "count": 0
+            },
+            "type": "heracles:item"
+          }
         }
-      }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {
     "51A4345B62855F6F": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 16747259,
           "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Logistics & Storage Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Data Models",
+    "subtitle": {
+      "translate": "Craft a Data Model of choice."
+    },
     "description": [
       "<h2>Craft a Data Model of choice.</h2>",
       "---",
       "Data Models are chips where you will store the information of mobs you learn.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "dml-refabricated:data_model_illager"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
-    "subtitle": {
-      "text": "Craft a Data Model of choice."
-    },
     "groups": {
       "Deep Mob Learning": {
         "position": [
@@ -95,6 +176,24 @@
           -80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model_illager",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Data Models"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

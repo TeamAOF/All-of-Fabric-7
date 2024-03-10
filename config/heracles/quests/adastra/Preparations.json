@@ -21,7 +21,7 @@
       "text": ""
     },
     "description": [
-      "Going into space is no easy task, you will first need to make some preparations for the future rocket and for yourself"
+      "Going into space is no easy task, you will first need to make some preparations for the future rocket and for yourself."
     ],
     "groups": {
       "Ad Astra": {
@@ -33,11 +33,8 @@
     },
     "icon": {
       "item": {
-        "id": "ad_astra:hammer",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "handcrafted:hammer",
+        "count": 1
       },
       "type": "heracles:item"
     },

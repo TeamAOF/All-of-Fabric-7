@@ -2,22 +2,7 @@
   "dependencies": [
     "Niotic Crystal"
   ],
-  "tasks": {
-    "Spirited Crystal Task": {
-      "type": "heracles:item",
-      "item": "powah:spirited_crystal",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    }
-  },
+  "tasks": {},
   "rewards": {
     "Powah Spirited Crystal Reward": {
       "title": "Powah! Epic Lootbag",
@@ -69,7 +54,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
       "translate": "Spirited Crystal"
     }
