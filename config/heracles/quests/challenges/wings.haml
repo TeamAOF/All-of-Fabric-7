@@ -10,6 +10,7 @@
 - goldenrod = "daa520"
 - seashell = "fff5ee"
 - skyblue = "87ceeb"
+- darkorchid = "9932cc"
 - darkred = "8b0000"
 - crimson = "dc143c"
 - magenta = "ff00ff"
@@ -21,32 +22,17 @@
 - blue = "0000ff"
 - cyan = "00ffff"
 - gold = "ffd700"
-- c0 = seashell
-- c1 = goldenrod
-- c2 = skyblue
-- c3 = lightskyblue
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-%columns(template="42 17 42")
+- c0 = orchid
+- c1 = darkorchid
+- c2 = purple
+- c3 = black
+- c4 = gold
+%columns(template="30 70")
 	%column
-		%p(align="right" background="1 #ee#{c0}")= "&#160;" * 26
-		%p(align="right" background="1 #ff#{c1}")= "&#160;" * 27
-		%p(align="right" background="2 #ee#{c2}")= "&#160;" * 24
-		%p(align="right" background="2 #88#{c2}")= "&#160;" * 16
-		%p(align="right" background="1 #66#{c2}")= "&#160;" * 12 
-		%p(align="right" background="1 #44#{c2}")= "&#160;" * 8 
+		%p(align="right" obfuscated="true" background="1 #88#{c1}" color="#88#{c1}")= "0" * 7
+		%p(align="right" obfuscated="true" background="2 #aa#{c2}" color="#ee#{c2}")= "0" * 5
+		%p(align="right" obfuscated="true" background="2 #88#{c2}" color="#88#{c2}")= "0" * 3
+		%p(align="right" obfuscated="true" background="1 #66#{c2}" color="#66#{c2}")= "0" * 5 
+		%p(align="right" obfuscated="true" background="1 #44#{c2}" color="#44#{c2}")= "0" * 7
 	%column
-		%item(id="kibe:angel_ring" scale="3" background="6 #ff#{c3}" border="5 ##{c1}") &#32;
-	%column
-		%p(align="left" background="1 #ee#{c0}")= "&#160;" * 26
-		%p(align="left" background="1 #ff#{c1}")= "&#160;" * 27
-		%p(align="left" background="2 #ee#{c2}")= "&#160;" * 24
-		%p(align="left" background="2 #88#{c2}")= "&#160;" * 16
-		%p(align="left" background="1 #66#{c2}")= "&#160;" * 12 
-		%p(align="left" background="1 #44#{c2}")= "&#160;" * 8 
+		%item(align="left" id="modern_industrialization:quantum_upgrade" scale="2" background="8 #88#{c3}" border="3 #88#{c4}") &#32;
