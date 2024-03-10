@@ -1,0 +1,83 @@
+- mediumvioletred ="c71585"
+- darkgoldenrod = "b8860b"
+- lightskyblue = "87cefa"
+- saddlebrown = "8b4513"
+- forestgreen = "228b22"
+- greenyellow = "adff2f"
+- ghostwhite = "f8f8ff"
+- dodgerblue = "1e90ff"
+- darkviolet = "9400d3"
+- lawngreen = "7cfc00"
+- goldenrod = "daa520"
+- darkred = "8b0000"
+- crimson = "dc143c"
+- magenta = "ff00ff"
+- yellow = "ffff00"
+- orchid = "da70d6" 
+- purple = "800080"
+- black = "000000"
+- ivory = "fffff0"
+- blue = "0000ff"
+- cyan = "00ffff"
+- gold = "ffd700"
+- blank = "&#160;&#160;&#160;&#160;&#160;&#160;"
+- text = "123456789"
+- c0 = saddlebrown
+- c1 = crimson
+- c2 = gold
+- c4 = lawngreen
+- trofer = "cooking"
+- title = "Hell's Kitchen"
+<br/>
+%columns(template="0 100")
+	%column
+		%columns
+			%column
+				%columns
+					%column(valign="top")
+						%h2(background="8 #dd#{c0}" border="0 #01#{c0}" obfuscated="true" color="#44#{c0}") #{text}
+					%column(valign="bottom")
+						%h2(background="8 #cc#{c1}" border="2 #01#{c1}" obfuscated="true" color="#44#{c1}") #{text}
+			%column
+				%columns
+					%column(valign="bottom")
+						%h2(background="10 #88#{c4}" border="3 #01#{c4}" obfuscated="true" color="#44#{c4}") #{text}
+					%column
+						%h2(background="10 #88#{c2}" border="5 #01#{c2}" obfuscated="true" color="#44#{c2}") #{text}&#32;
+	%column
+		%columns(template="20 82")
+			%column
+				%item(id="trofers:medium_pillar" tag="{BlockEntityTag:{Trophy:'trofers:#{trofer}'}}" scale="7" border="0 #88777777") &#32;
+			%column(valign="middle")
+				%h1(align="center" shadowed="true" background="3 #cc#{c1}" border="1 #cc#{c2}" color="#ff#{goldenrod}") &#160;&&l&&o#{title}&&r&#160;
+				<br/>
+				<hr/>
+				<br/>
+				%p(align="center") &&oSo when people ask me, ‘What do you think of Michelin?’...&&r
+				%p(align="center") &&o...I don’t cook for guides. I cook for&&r customers.
+				<br/>
+				<br/>
+				%p &#32; To submit items, left click the food type of choice and hand in.
+				<br/>
+				%p &#32; It is recommended to make &&nWater Bottles&&r from &&oCroptopia&&r for the recipes requiring it.
+				<br/>
+				%p &#32; Water Bottles can be automated with a simple &&nDrain&&r from &&oTech Reborn&&r and a &&nTank Unit&&r below it.
+				<br/>
+				%p &#32; Put buckets in said Tank Unit and have them output into either a buffer or directly into ME, craft these into Water Bottles from &&oCroptopia&&r.
+				<br/>
+				<hr/>
+				<br/>
+%columns(template="20 80")
+	%column
+		%p &#32;
+	%column
+		%task(task="rice_roll_medley" quest="Hells Kitchen") &#32;
+		%task(task="fishcake" quest="Hells Kitchen") &#32;
+		%task(task="kale_smoothie" quest="Hells Kitchen") &#32;
+		%task(task="roasted_mutton_chops" quest="Hells Kitchen") &#32;
+		%task(task="cristel_wine" quest="Hells Kitchen") &#32;
+		%task(task="blazing_chili" quest="Hells Kitchen") &#32;
+		%task(task="ghast_tear_punch_bowl" quest="Hells Kitchen") &#32;
+		%task(task="chorus_fruit_popsicle" quest="Hells Kitchen") &#32;
+		%task(task="hamburger" quest="Hells Kitchen") &#32;
+		%task(task="pineapple_pepperoni_pizza" quest="Hells Kitchen") &#32;

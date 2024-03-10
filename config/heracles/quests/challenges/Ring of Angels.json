@@ -45,8 +45,36 @@
       "translate": "Creative flight at your disposal."
     },
     "description": [
-      "<h2>Creative flight at your disposal.</h2>",
-      "---"
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #ddf8f8ff' border='0 #01f8f8ff' color='#44f8f8ff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #cc87cefa' border='2 #0187cefa' color='#4487cefa' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88ffd700' border='5 #01ffd700' color='#44ffd700' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:angel_ring&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #cc87cefa' border='1 #ccf8f8ff' color='#ffffd700' italic='true' shadowed='true'>&#160;Angel Ring&#160;</h1>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<p align='center' italic='true'>Creative flight at your disposal</p>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
     ],
     "groups": {
       "Challenges": {
