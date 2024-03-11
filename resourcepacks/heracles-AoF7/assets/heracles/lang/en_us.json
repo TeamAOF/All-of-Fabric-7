@@ -8,7 +8,6 @@
     "quest.heracles.locked": "Locked",
     "quest.heracles.available": "Available",
     "quest.heracles.claimed": "Claimed",
-    "quest.heracles.dependencies_visible": "Parents Visible",
 
     "quest.heracles.toast": "Quest Complete!",
     "quest.heracles.toast.desc": "Press [%s] to open",
@@ -27,7 +26,7 @@
     "gui.heracles.pinned_quests": "Pinned Quests",
     "gui.heracles.pinned_quests.move": "Move Pinned Quests",
     "gui.heracles.pinned_quests.placeholder": "Quest %s",
-    "gui.heracles.quest.title.complete": "✔ %s ✔",
+    "gui.heracles.quest.title.complete": "• %s •",
     "gui.heracles.progress.title.incomplete": "Incomplete",
     "gui.heracles.progress.title.complete": "Complete",
     "gui.heracles.progress.desc.incomplete.singular": "%s Task Left",
@@ -67,7 +66,7 @@
     "gui.heracles.quests.edit_quest_settings": "Edit Quest Settings",
     "gui.heracles.quests.add_dependency": "Add Dependency",
     "gui.heracles.quests.choose_background": "Choose Background",
-    "gui.heracles.group.groups": "Groups",
+    "gui.heracles.group.groups": "🌸 §oAll of Fabric 7§r",
     "gui.heracles.group.create": "Create Group",
     "gui.heracles.group.delete": "You can't delete this while it has quests.",
     "gui.heracles.tools.move": "Move/Select [V]",
@@ -104,7 +103,6 @@
     "rei.heracles.heracles.tooltip": "Open Quests",
 
     "commands.heracles.reset.success": "[Heracles] Quest %s reset successfully.",
-    "commands.heracles.resetall.success": "[Heracles] Quests reset successfully.",
     "commands.heracles.pin.success.pinned": "[Heracles] Quest %s pinned.",
     "commands.heracles.pin.success.unpinned": "[Heracles] Quest %s unpinned.",
     "commands.heracles.pin.dummy.completed": "[Heracles] Quest %s completed."
