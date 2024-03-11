@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "B&W (nearly) Heracles theme for AoF7",
+		"authors": [
+			"SubordinalBlue"
+		],
+		"version": "1.0"
+    }
+}
