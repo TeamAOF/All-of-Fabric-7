@@ -2,22 +2,7 @@
   "dependencies": [
     "Adventures and Mysteries"
   ],
-  "tasks": {
-    "5E109F35ECDB37C6": {
-      "type": "heracles:item",
-      "item": "ad_astra:astrodux",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    }
-  },
+  "tasks": {},
   "rewards": {
     "465969990392BD70": {
       "title": "",

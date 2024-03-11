@@ -38,7 +38,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_triangles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Dielectrics and Capacitors"
     }

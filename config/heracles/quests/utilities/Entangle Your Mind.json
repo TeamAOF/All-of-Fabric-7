@@ -37,9 +37,9 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Entangle your mind."
+      "translate": "Entangle Your Mind."
     }
   },
   "settings": {

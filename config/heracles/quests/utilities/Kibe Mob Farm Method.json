@@ -51,7 +51,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Mob Farm Methods"
     }

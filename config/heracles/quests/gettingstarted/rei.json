@@ -53,7 +53,7 @@
     },
     "icon": {
       "item": {
-        "id": "wormhole:advanced_target_device",
+        "id": "handcrafted:stackable_book",
         "count": 1
       },
       "type": "heracles:item"

@@ -3,91 +3,9 @@
     "The Rocket"
   ],
   "tasks": {
-    "aaol": {
+    "oxygen": {
       "type": "heracles:item",
-      "item": "ad_astra:oxygen_loader",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aasp": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_pants",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aasb": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_boots",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aaot": {
-      "type": "heracles:item",
-      "item": "ad_astra:oxygen_tank",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aash": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_helmet",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "aass": {
-      "type": "heracles:item",
-      "item": "ad_astra:space_suit",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "ad_astra:oxygen_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -111,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "ad_astra:oxygen_tank",
+        "id": "ad_astra:oxygen_bucket",
         "count": 1
       },
       "type": "heracles:item"
@@ -140,7 +58,7 @@
     },
     "icon": {
       "item": {
-        "id": "ad_astra:oxygen_tank",
+        "id": "ad_astra:oxygen_bucket",
         "count": 1
       },
       "type": "heracles:item"

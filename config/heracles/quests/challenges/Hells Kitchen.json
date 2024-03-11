@@ -261,7 +261,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "§cHell's Kitchen"
     }

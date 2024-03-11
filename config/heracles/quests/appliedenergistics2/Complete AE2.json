@@ -137,7 +137,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "§9§lApplied §bEnergistics §9§l100%"
+      "translate": "§9§lApplied §b§lEnergistics §9§l100%"
     }
   },
   "settings": {

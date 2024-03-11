@@ -24,7 +24,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "ad_astra:astrodux",
+        "id": "patchouli:guide_book",
         "count": 1
       },
       "type": "heracles:item"
@@ -47,8 +47,11 @@
     },
     "icon": {
       "item": {
-        "id": "ad_astra:astrodux",
-        "count": 1
+        "id": "patchouli:guide_book",
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "ad_astra:astrodux"
+        }
       },
       "type": "heracles:item"
     },

@@ -1,39 +1,53 @@
 {
-  "settings": {},
   "dependencies": [
     "Basalt Gen MK1"
   ],
   "tasks": {
     "7DCD9A3794551BF2": {
       "type": "heracles:item",
-      "item": "kibe:basalt_generator_mk2"
+      "item": "kibe:basalt_generator_mk2",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "511208EA923CAF9F": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Basalt Generator Mk2",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:basalt_generator_mk2"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Utilities": {
         "position": [
@@ -41,6 +55,24 @@
           -16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:basalt_generator_mk2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Basalt Generator Mk2"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

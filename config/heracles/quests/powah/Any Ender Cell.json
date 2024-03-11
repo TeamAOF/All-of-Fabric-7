@@ -4,7 +4,6 @@
   ],
   "tasks": {
     "powah_ender_cell_task": {
-      "type": "heracles:composite",
       "amount": 1,
       "tasks": {
         "task_ender_cell_starter": {
@@ -105,7 +104,8 @@
             "type": "heracles:item"
           }
         }
-      }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {
@@ -159,7 +159,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Ender Cells"
     }

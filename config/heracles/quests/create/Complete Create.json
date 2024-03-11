@@ -151,8 +151,8 @@
     "groups": {
       "Create": {
         "position": [
-          31,
-          -168
+          122,
+          97
         ]
       }
     },
@@ -168,7 +168,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
       "translate": "§6§lCreate 100%"
     }

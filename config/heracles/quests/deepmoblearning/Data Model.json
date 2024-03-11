@@ -97,7 +97,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/squares.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
       "translate": "Blank Data Model"
     }

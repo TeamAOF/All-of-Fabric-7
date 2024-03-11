@@ -73,7 +73,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/cblossoms.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Let the Journey Begin "
     }

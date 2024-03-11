@@ -4,7 +4,6 @@
   ],
   "tasks": {
     "powah_thermo_generator_task": {
-      "type": "heracles:composite",
       "amount": 1,
       "tasks": {
         "task_thermo_generator_starter": {
@@ -105,7 +104,8 @@
             "type": "heracles:item"
           }
         }
-      }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {
@@ -159,7 +159,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons_flipped.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "title": {
       "translate": "Thermo Generator"
     }
