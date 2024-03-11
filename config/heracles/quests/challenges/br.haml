@@ -1,0 +1,100 @@
+- bosses = Array.new
+- bosses.push({title:"Blackstone Golem",id:"adventurez:blackstone_golem",scale:0.8,vshift:0,text:["Can only be summoned with a golem ritual while being in the nether."]})
+- bosses.push({title:"The Eye",id:"adventurez:the_eye",scale:1,vshift:-0.4,text:["Can only be summoned at an Eye Shrine."]})
+- bosses.push({title:"Night Lich",id:"bosses_of_mass_destruction:lich",scale:1.2,vshift:0,text:["Found in rare towers in cold biomes. Locate the towers by following soul stars."]})
+- bosses.push({title:"Obsidilith",id:"bosses_of_mass_destruction:obsidilith",scale:1,vshift:4.5,text:["Appears in rare structures in the end islands."]})
+- bosses.push({title:"Nether Gauntlet",id:"bosses_of_mass_destruction:gauntlet",scale:1,vshift:0,text:["Appears in rare structures in the nether."]})
+- bosses.push({title:"Void Blossom",id:"bosses_of_mass_destruction:void_blossom",scale:0.5,vshift:7,text:["Appears in rare caves at the bottom of the world. Void lilies will point the way."]})
+- bosses.push({title:"Guardian of Gaia",id:nil,scale:1,vshift:0,text:["To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."]})
+- bosses.push({title:"Conjunctivius",id:"minecells:conjunctivius",scale:0.5,vshift:1,text:["Can be found in the Mine Cells dimension (See Adventurer quest chapter)."]})
+- bosses.push({title:"Void Shadow",id:"adventurez:void_shadow",scale:0.3,vshift:0,text:["A new dimension where you will find and fight the Void Shadow."]})
+- bosses.push({title:"Corrupted Champion",id:"graveyard:lich",scale:1,vshift:0,text:[]})
+- lichText = ["- Collect the three Ominous Bone Staff Fragments from the Ruins; each has either an upper, middle, or lower bone staff fragment.","- Obtain a bone dagger or craft it yourself.","- Get a full Vial of Blood.","- Find the Lich Prison structure floating above the oceans.","- At night, place the bone staff pieces on the dark corrupted deepslate blocks in front of the altar.","Pour the Vial of Blood into the altar."]
+- bosses[-1][:text] = lichText
+
+- mediumvioletred = "c71585"
+- darkgoldenrod = "b8860b"
+- lightskyblue = "87cefa"
+- saddlebrown = "8b4513"
+- forestgreen = "228b22"
+- greenyellow = "adff2f"
+- ghostwhite = "f8f8ff"
+- dodgerblue = "1e90ff"
+- darkviolet = "9400d3"
+- lawngreen = "7cfc00"
+- goldenrod = "daa520"
+- darkred = "8b0000"
+- crimson = "dc143c"
+- magenta = "ff00ff"
+- yellow = "ffff00"
+- orchid = "da70d6" 
+- purple = "800080"
+- black = "000000"
+- ivory = "fffff0"
+- blue = "0000ff"
+- cyan = "00ffff"
+- gold = "ffd700"
+- bone = "f9f6ee"
+- text = "12345"
+- c0 = purple
+- c1 = black
+- c2 = bone
+- c3 = crimson
+- trofer = "boss_rush"
+- title = "Boss Rush"
+<br/>
+%columns(template="1 99")
+	%column(valign="top")
+		%columns
+			%column
+				%columns
+					%column(valign="top")
+						%h2(background="8 #dd#{c0}" border="0 #01#{c0}" obfuscated="true" color="#44#{c0}") #{text}
+					%column(valign="bottom")
+						%h2(background="8 #cc#{c1}" border="2 #01#{c1}" obfuscated="true" color="#44#{c1}") #{text}
+			%column
+				%columns
+					%column(valign="bottom")
+						%h2(background="10 #88#{c3}" border="3 #01#{c3}" obfuscated="true" color="#44#{c3}") #{text}
+					%column
+						%h2(background="10 #88#{c2}" border="5 #01#{c2}" obfuscated="true" color="#44#{c2}") #{text}&#32;
+	%column
+		%columns(template="20 80")
+			%column
+				%item(id="trofers:medium_pillar" tag="{BlockEntityTag:{Trophy:'trofers:#{trofer}'}}" scale="7" border="0 #88777777") &#32;
+			%column(valign="middle")
+				%h1(align="center" shadowed="true" background="3 #aa#{c1}" border="1 #cc#{c0}" color="#ff#{c2}") &#160;&&l&&o#{title}&&r&#160;
+				<br/>
+				<hr/>
+				<br/>
+				%p &#32; Below is a dossier on the powerful, reprehensible&#8212;and sometimes just plain nasty&#8212;mobs you will have to terminate on order to complete this challenge.
+				<br/>
+				%p &#32; Yes, it may be thin on actionable intelligence. Keep in mind the many players that generated many graves to gather this information.
+				<br/>
+				<hr/>
+%carousel
+	- bosses.each do |i|
+		%carousel-item
+			%columns(template="2 67 31")
+				%column
+					%p &#160;
+				%column
+					%h2 #{i[:title]}
+					<hr/>
+					- i[:text].each do |t| 
+						%p &#160; #{t}
+				%column
+					%columns(template="1 99")
+						%column
+							%columns
+								%column(align="top")
+									%h2(background="8 #88#{c0}" border="3 #01#{c0}" obfuscated="true" color="#88#{c0}") 2345
+								%column(valign="bottom")
+									%h2(background="8 #88#{c1}" border="7 #01#{c1}" obfuscated="true" color="#88#{c1}") 1234
+								%column
+									%h2(background="8 #88#{c3}" border="11 #01#{c3}" obfuscated="true" color="#88#{c3}") 12345 
+						%column(valign="middle")
+							- if i[:id]
+								%entity(type="#{i[:id]}" scale="#{i[:scale]}" vshift="#{i[:vshift]}") &#32;
+							- else
+								%h1(align="center" shadowed="true") &&l?
