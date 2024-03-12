@@ -1,29 +1,32 @@
 %columns(template="25 50 25")
 	%column
-		%p &#160;
+		-# left margin, empty
 	%column
 		%columns
 			%column
-				%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:terra"}}' scale="2") &#32;
-				%p &#160;
-				%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:quantum"}}' scale="2") &#32;
+				-# trophies, left
+				%item(id="trofers:medium_pillar" scale="3" tag='{BlockEntityTag:{Trophy:"trofers:terra"}}') &#32;
+				%item(id="trofers:medium_pillar" scale="3" tag='{BlockEntityTag:{Trophy:"trofers:quantum"}}') &#32;
 			%column
-				%columns(template="49 1 49")
+				%columns(template="49 2 49")
 					%column
-						%p &#32;
 					%column
-						%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:allthequests"}}' scale="2") &#32;
-						%p &#160;
-						%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:completionist"}}' scale="3") &#32;
-						%p &#160;
-						%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:angel_ring"}}' scale="2") &#32;
+						%columns
+							%column
+								-# left color panes
+							%column
+								-# trophies, center
+								%item(id="trofers:medium_pillar" scale="3" tag='{BlockEntityTag:{Trophy:"trofers:allthequests"}}') &#32;
+								%item(id="trofers:medium_pillar" scale="3" tag='{Rotation:[33,33],BlockEntityTag:{Trophy:"trofers:artest"}}') &#32;
+								%item(id="trofers:medium_pillar" scale="3" tag='{BlockEntityTag:{Trophy:"trofers:angel_ring"}}') &#32;
+								%item(id="kibe:angel_ring" scale="3") &#32;
+								%entity(type="villager" scale="1") &#32;
+							%column
+								-# right color panes
 					%column
-						%p(background="8 #880000cc")= "&#160;" * 20
-			%column
-				%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:boss_rush"}}' scale="2") &#32;
-				%p &#160;
-				%item(id="trofers:medium_pillar" tag='{BlockEntityTag:{"trofers:cooking"}}' scale="2") &#32;
+			%column								
+				-# trophies, right
+				%item(id="trofers:medium_pillar" scale="3" tag='{BlockEntityTag:{Trophy:"trofers:boos_rush"}}') &#32;
+				%item(id="trofers:medium_pillar" scale="3" tag='{BlockEntityTag:{Trophy:"trofers:cooking"}}') &#32;
 	%column
-		%p &#160;
-
-
+		-# right margin, empty
