@@ -3,9 +3,9 @@
     "bank_3"
   ],
   "tasks": {
-    "dank_4": {
+    "bank_4_task": {
       "type": "heracles:item",
-      "item": "dankstorage:dank_4",
+      "item": "bankstorage:bank_4",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:emerald_block",
-        "count": 3
+        "id": "minecraft:gold_block",
+        "count": 1
       },
       "type": "heracles:item"
     }
@@ -46,14 +46,14 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Dank 4",
+      "## Bank 4",
       "</column>",
       "<column>",
-      "<item id=\"dankstorage:dank_4\" scale=\"4\"> </item>",
+      "<item id=\"bankstorage:bank_4\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "   The Dank 4, made by taking your previous one and surrounding it by 8 blocks of gold (~173,880 kg).",
+      "   The Bank 4, made by taking your previous one and surrounding it by 8 blocks of gold (~173,880 kg).",
       "<br/>",
       "  This brings your total storage to 36 different slots with each slot holding up to 16,384 items in each.",
       "<br/>",
@@ -69,14 +69,14 @@
     },
     "icon": {
       "item": {
-        "id": "dankstorage:dank_4",
+        "id": "bankstorage:bank_4",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dank 4"
+      "translate": "Bank 4"
     }
   },
   "settings": {

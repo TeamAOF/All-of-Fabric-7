@@ -3,9 +3,9 @@
     "bank_4"
   ],
   "tasks": {
-    "dank_5": {
+    "bank_5_task": {
       "type": "heracles:item",
-      "item": "dankstorage:dank_5",
+      "item": "bankstorage:bank_5",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:diamond_block",
-        "count": 3
+        "id": "minecraft:emerald_block",
+        "count": 1
       },
       "type": "heracles:item"
     }
@@ -46,14 +46,14 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Dank 5",
+      "## Bank 5",
       "</column>",
       "<column>",
-      "<item id=\"dankstorage:dank_5\" scale=\"4\"> </item>",
+      "<item id=\"bankstorage:bank_5\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "   The Dank 5, made by taking your previous one and surrounding it by 8 blocks of emerald (~24,660 kg).",
+      "   The Bank 5, made by taking your previous one and surrounding it by 8 blocks of emerald (~24,660 kg).",
       "<br/>",
       "  This brings your total storage to 54 different slots with each slot holding up to 65,536 items in each.",
       "<br/>",
@@ -69,14 +69,14 @@
     },
     "icon": {
       "item": {
-        "id": "dankstorage:dank_5",
+        "id": "bankstorage:bank_5",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dank 5"
+      "translate": "Bank 5"
     }
   },
   "settings": {

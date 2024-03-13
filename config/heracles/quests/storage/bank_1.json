@@ -3,9 +3,9 @@
     "basic_storage"
   ],
   "tasks": {
-    "dank_1": {
+    "bank_1_task": {
       "type": "heracles:item",
-      "item": "dankstorage:dank_1",
+      "item": "bankstorage:bank_1",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -30,7 +30,7 @@
       },
       "item": {
         "id": "minecraft:coal_block",
-        "count": 3
+        "count": 1
       },
       "type": "heracles:item"
     }
@@ -46,16 +46,16 @@
       "<column>",
       "<br/>",
       "<br/>",
-      "## Dank 1",
+      "## Bank 1",
       "</column>",
       "<column>",
-      "<item id=\"dankstorage:dank_1\" scale=\"4\"> </item>",
+      "<item id=\"bankstorage:bank_1\" scale=\"4\"> </item>",
       "</column>",
       "</columns>",
       "<br/>",
-      "   The start of something powerful. The start of something so mind boggling extreme, it's hard to believe. This is the Dank 1. It's created with a single barrel, then surrounding it with 8 coal blocks, equaling about 13,500 kilograms.",
+      "   The start of something powerful. The start of something so mind boggling extreme, it's hard to believe. This is the Bank 1. It's created with a single barrel, then surrounding it with 8 coal blocks, equaling about 13,500 kilograms.",
       "<br/>",
-      "   These \"Danks\" are practically pocket dimensions where you can store your goodies. This first one holds 9 different types of items, but a whopping 256 of each item in each of the 9 slots. This is just the beginning!",
+      "   These \"Banks\" are practically pocket dimensions where you can store your goodies. This first one holds 9 different types of items, but a whopping 256 of each item in each of the 9 slots. This is just the beginning!",
       "<br/>",
       "---"
     ],
@@ -69,14 +69,14 @@
     },
     "icon": {
       "item": {
-        "id": "dankstorage:dank_1",
+        "id": "bankstorage:bank_1",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dank 1"
+      "translate": "Bank 1"
     }
   },
   "settings": {
