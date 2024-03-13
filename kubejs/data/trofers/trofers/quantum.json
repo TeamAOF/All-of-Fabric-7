@@ -1,7 +1,7 @@
 {
   "colors": {
-    "accent": "#FC7DFF",
-    "base": "#606060"
+    "base": "#0000FF",
+    "accent": "#606060"
   },
   "display": {
     "offset": {
