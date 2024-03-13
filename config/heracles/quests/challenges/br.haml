@@ -9,7 +9,7 @@
 - bosses.push({title:"Conjunctivius",id:"minecells:conjunctivius",scale:0.5,vshift:1,text:["Can be found in the Mine Cells dimension (See Adventurer quest chapter)."]})
 - bosses.push({title:"Void Shadow",id:"adventurez:void_shadow",scale:0.3,vshift:0,text:["A new dimension where you will find and fight the Void Shadow."]})
 - bosses.push({title:"Corrupted Champion",id:"graveyard:lich",scale:1,vshift:0,text:[]})
-- lichText = ["- Collect the three Ominous Bone Staff Fragments from the Ruins; each has either an upper, middle, or lower bone staff fragment.","- Obtain a bone dagger or craft it yourself.","- Get a full Vial of Blood.","- Find the Lich Prison structure floating above the oceans.","- At night, place the bone staff pieces on the dark corrupted deepslate blocks in front of the altar.","Pour the Vial of Blood into the altar."]
+- lichText = ["&#32;Collect the three Ominous Bone Staff Fragments from the Ruins&#8212;upper, middle, and lower. Using a Bone Dagger, get a full Vial of Blood.","&#32;Find the Lich Prison structure floating above the oceans. At night, place the bone staff pieces on the dark corrupted deepslate blocks in front of the altar. Pour the Vial of Blood into the altar."]
 - bosses[-1][:text] = lichText
 
 - mediumvioletred = "c71585"
@@ -36,7 +36,7 @@
 - gold = "ffd700"
 - bone = "f9f6ee"
 - text = "12345"
-- c0 = purple
+- c0 = orchid
 - c1 = black
 - c2 = bone
 - c3 = crimson
@@ -49,15 +49,11 @@
 			%column
 				%columns
 					%column(valign="top")
-						%h2(background="8 #dd#{c0}" border="0 #01#{c0}" obfuscated="true" color="#44#{c0}") #{text}
+						%h2(background="8 #dd#{c0}" border="0 #01#{c0}" color="#dd#{c0}") &&l&&k#{text}
 					%column(valign="bottom")
-						%h2(background="8 #cc#{c1}" border="2 #01#{c1}" obfuscated="true" color="#44#{c1}") #{text}
-			%column
-				%columns
+						%h2(background="8 #cc#{c1}" border="2 #01#{c1}" color="#cc#{c1}") &&l&&k#{text}
 					%column(valign="bottom")
-						%h2(background="10 #88#{c3}" border="3 #01#{c3}" obfuscated="true" color="#44#{c3}") #{text}
-					%column
-						%h2(background="10 #88#{c2}" border="5 #01#{c2}" obfuscated="true" color="#44#{c2}") #{text}&#32;
+						%h2(background="8 #aa#{c3}" border="5 #01#{c3}" color="#aa#{c3}") &&l&&k#{text}
 	%column
 		%columns(template="20 80")
 			%column

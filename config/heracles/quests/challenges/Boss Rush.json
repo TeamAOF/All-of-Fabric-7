@@ -3,7 +3,7 @@
     "Are you worthy"
   ],
   "tasks": {
-    "799C560B71E547C7": {
+    "blackstone_golem": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -12,13 +12,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "adventurez:blackstone_golem"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "1A43CE833FBD4D06": {
+    "the_eye": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -27,13 +27,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "adventurez:the_eye"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "0FA9460CCC66FF44": {
+    "night_lich": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -42,13 +42,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "bosses_of_mass_destruction:lich"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "35966A51B41E0561": {
+    "obsidilith": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -57,13 +57,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "bosses_of_mass_destruction:obsidilith"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "317A1E4E838B40F0": {
+    "gauntlet": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -75,13 +75,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "bosses_of_mass_destruction:gauntlet"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "5F2CD2613002D74C": {
+    "void_blossom": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -90,13 +90,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "bosses_of_mass_destruction:void_blossom"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "4DA5F492F8AD4449": {
+    "conjunctivius": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -108,13 +108,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "minecells:conjuctivius"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "31C60566337BA9C2": {
+    "void_shadow": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -123,13 +123,13 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "adventurez:void_shadow"
       },
       "amount": 1,
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "51F87D8C62041F73": {
+    "corrupted_champion": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -138,7 +138,7 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "minecraft:pig"
+        "type": "graveyard:lich"
       },
       "amount": 1,
       "title": "",
@@ -179,20 +179,13 @@
       "<column>",
       "<columns>",
       "<column valign='top'>",
-      "<h2 background='8 #dd800080' border='0 #01800080' color='#44800080' obfuscated='true'>12345</h2>",
+      "<h2 background='8 #ddda70d6' border='0 #01da70d6' color='#ddda70d6'>&&l&&k12345</h2>",
       "</column>",
       "<column valign='bottom'>",
-      "<h2 background='8 #cc000000' border='2 #01000000' color='#44000000' obfuscated='true'>12345</h2>",
+      "<h2 background='8 #cc000000' border='2 #01000000' color='#cc000000'>&&l&&k12345</h2>",
       "</column>",
-      "</columns>",
-      "</column>",
-      "<column>",
-      "<columns>",
       "<column valign='bottom'>",
-      "<h2 background='10 #88dc143c' border='3 #01dc143c' color='#44dc143c' obfuscated='true'>12345</h2>",
-      "</column>",
-      "<column>",
-      "<h2 background='10 #88f9f6ee' border='5 #01f9f6ee' color='#44f9f6ee' obfuscated='true'>12345&#32;</h2>",
+      "<h2 background='8 #aadc143c' border='5 #01dc143c' color='#aadc143c'>&&l&&k12345</h2>",
       "</column>",
       "</columns>",
       "</column>",
@@ -204,7 +197,7 @@
       "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:boss_rush&#39;}}'>&#32;</item>",
       "</column>",
       "<column valign='middle'>",
-      "<h1 align='center' background='3 #aa000000' border='1 #cc800080' color='#fff9f6ee' shadowed='true'>&#160;&&l&&oBoss Rush&&r&#160;</h1>",
+      "<h1 align='center' background='3 #aa000000' border='1 #ccda70d6' color='#fff9f6ee' shadowed='true'>&#160;&&l&&oBoss Rush&&r&#160;</h1>",
       "<br/>",
       "<hr/>",
       "<br/>",
@@ -233,7 +226,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -265,7 +258,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -297,7 +290,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -329,7 +322,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -361,7 +354,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -393,7 +386,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -425,7 +418,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -457,7 +450,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -489,7 +482,7 @@
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
@@ -514,19 +507,15 @@
       "<column>",
       "<h2>Corrupted Champion</h2>",
       "<hr/>",
-      "<p>&#160; - Collect the three Ominous Bone Staff Fragments from the Ruins; each has either an upper, middle, or lower bone staff fragment.</p>",
-      "<p>&#160; - Obtain a bone dagger or craft it yourself.</p>",
-      "<p>&#160; - Get a full Vial of Blood.</p>",
-      "<p>&#160; - Find the Lich Prison structure floating above the oceans.</p>",
-      "<p>&#160; - At night, place the bone staff pieces on the dark corrupted deepslate blocks in front of the altar.</p>",
-      "<p>&#160; Pour the Vial of Blood into the altar.</p>",
+      "<p>&#160; &#32;Collect the three Ominous Bone Staff Fragments from the Ruins&#8212;upper, middle, and lower. Using a Bone Dagger, get a full Vial of Blood.</p>",
+      "<p>&#160; &#32;Find the Lich Prison structure floating above the oceans. At night, place the bone staff pieces on the dark corrupted deepslate blocks in front of the altar. Pour the Vial of Blood into the altar.</p>",
       "</column>",
       "<column>",
       "<columns template='1 99'>",
       "<column>",
       "<columns>",
       "<column align='top'>",
-      "<h2 background='8 #88800080' border='3 #01800080' color='#88800080' obfuscated='true'>2345</h2>",
+      "<h2 background='8 #88da70d6' border='3 #01da70d6' color='#88da70d6' obfuscated='true'>2345</h2>",
       "</column>",
       "<column valign='bottom'>",
       "<h2 background='8 #88000000' border='7 #01000000' color='#88000000' obfuscated='true'>1234</h2>",
