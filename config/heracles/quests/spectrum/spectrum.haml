@@ -1,0 +1,57 @@
+- blank = "&#160;&#160;&#160;&#160;&#160;&#160;"
+- text = "123456789"
+- mediumvioletred ="c71585"
+- darkgoldenrod = "b8860b"
+- lightskyblue = "87cefa"
+- saddlebrown = "8b4513"
+- forestgreen = "228b22"
+- greenyellow = "adff2f"
+- ghostwhite = "f8f8ff"
+- dodgerblue = "1e90ff"
+- darkviolet = "9400d3"
+- lawngreen = "7cfc00"
+- goldenrod = "daa520"
+- darkred = "8b0000"
+- crimson = "dc143c"
+- magenta = "ff00ff"
+- yellow = "ffff00"
+- orchid = "da70d6" 
+- purple = "800080"
+- black = "000000"
+- ivory = "fffff0"
+- blue = "0000ff"
+- cyan = "00ffff"
+- gold = "ffd700"
+- c0 = magenta
+- c1 = cyan
+- c2 = gold
+- trofer = "spectrum"
+- title = "Spectrum"
+<br/>
+%columns(template="0 100")
+	%column
+		%columns
+			%column(valign="top")
+				%h2(background="8 #aa#{c0}" border="0 #01#{c0}" obfuscated="true" color="#44#{c0}") #{text}
+			%column(valign="bottom")
+				%h2(background="8 #aa#{c1}" border="2 #01#{c1}" obfuscated="true" color="#44#{c1}") #{text}
+			%column
+				%h2(background="8 #aa#{c2}" border="5 #01#{c2}" obfuscated="true" color="#44#{c2}") #{text}
+	%column
+		%columns(template="20 82")
+			%column
+				%item(id="trofers:medium_pillar" tag="{BlockEntityTag:{Trophy:'trofers:#{trofer}'}}" scale="7" border="0 #88777777") &#32;
+			%column(valign="middle")
+				%columns(template="70 30")
+					%column
+						%h1(align="right" shadowed="true" background="3 #444444" border="1 #888888" color="#cccccc") &&o #{title}&#160;
+					%column
+						%img(align="left" src="textures/trims/color_palettes/gold.png" width="41" textureWidth="41" height="12" textureHeight="12") &#32;
+						%img(align="left" src="textures/trims/color_palettes/diamond.png" width="37" textureWidth="37" height="12" textureHeight="12") &#32;
+						%img(align="left" src="textures/trims/color_palettes/amethyst.png" width="31" textureWidth="31" height="12" textureHeight="12") &#32;
+				<br/>
+				<hr/>
+				<br/>
+				%p(align="right")   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed egestas egestas fringilla phasellus. Dui nunc mattis enim ut tellus elementum. Integer quis auctor elit sed vulputate mi sit amet. Amet dictum sit amet justo donec.
+				<br/>
+				<hr/>
