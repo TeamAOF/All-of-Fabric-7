@@ -1,5 +1,14 @@
 ServerEvents.recipes(e => {
 
+  const REMOVED_RECIPE = [
+    'kibe:angel_ring',
+    'indrev:shaped/mining_rig_mk4',
+    'modern_industrialization:electric_age/machine/assembler/replicator',
+    'indrev:shaped/drill_bottom'
+  ];
+  REMOVED_RECIPE.forEach(id => e.remove({id: id}));
+
+  // Replicator
   e.custom({
     "type": "create:mechanical_crafting",
     "acceptMirrored": false,
@@ -25,11 +34,7 @@ ServerEvents.recipes(e => {
     }
   })
 
-  const REMOVED_RECIPE = [
-    'kibe:angel_ring'
-];
-REMOVED_RECIPE.forEach(id => e.remove({id: id}));
-
+// Angel Ring
 e.custom({
 "type": "create:mechanical_crafting",
 "acceptMirrored": false,
@@ -96,6 +101,7 @@ e.custom({
 }
 }).id('aof:kibe/angel_ring')
 
+// Mother of All Pearls
 e.custom({
 "type": "create:mechanical_crafting",
 "acceptMirrored": false,
@@ -152,4 +158,93 @@ e.custom({
     "item": "kubejs:mother_of_all_pearls"
 }
 }).id('aof:materials/mother_of_all_pearls')
+
+// Mining Rig
+e.custom({
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+      "A": {
+          "item": 'indrev:machine_block'
+      },
+      "B": {
+          "item": 'modern_industrialization:steel_large_plate'
+      },
+      "C": {
+          "item": 'modern_industrialization:steel_gear'
+      },
+      "D": {
+          "item": 'powah:battery_niotic'
+      },
+      "E": {
+          "item": 'createaddition:electric_motor'
+      },
+      "F": {
+          "item": 'techreborn:industrial_machine_casing'
+      },
+      "G": {
+          "item": 'indrev:mining_drill_mk4'
+      },
+      "H": {
+          "item": 'techreborn:industrial_circuit'
+      },
+      "I": {
+          "item": 'modern_industrialization:steel_barrel'
+      },
+      "J": {
+          "item": 'computercraft:computer_normal',
+      },
+      "K": {
+        "item": 'modern_industrialization:steel_drill',
+    }
+  },
+  "pattern": [
+      ' BFB ',
+      'BGHGB',
+      'CEAEC',
+      'BJDIB',
+      ' BKB '
+  ],
+  "result": {
+      "count": 1,
+      "item": 'indrev:mining_rig_mk4'
+  }
+  }).id('aof:machines/mining_rig')
+
+  // Mining Rig Drill
+e.custom({
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+      "A": {
+          "item": 'indrev:machine_block'
+      },
+      "B": {
+          "item": 'modern_industrialization:steel_large_plate'
+      },
+      "C": {
+          "item": 'computercraft:computer_normal'
+      },
+      "D": {
+          "item": 'powah:battery_blazing'
+      },
+      "E": {
+          "item": 'modern_industrialization:steel_gear'
+      },
+      "F": {
+          "item": 'modern_industrialization:steel_drill'
+      }
+  },
+  "pattern": [
+      ' BCB ',
+      ' BDB ',
+      ' BAB ',
+      ' BEB ',
+      ' BFB '
+  ],
+  "result": {
+      "count": 1,
+      "item": 'indrev:drill_bottom'
+  }
+  }).id('aof:components/mining_rig_drill')
 })
