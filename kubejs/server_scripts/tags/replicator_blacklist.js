@@ -258,7 +258,8 @@ ServerEvents.tags('item', event => {
         'indrev:farmer_creative',
         'indrev:slaughter_creative',
         'indrev:rancher_creative',
-        'create:creative_motor'
+        'create:creative_motor',
+        
 
     ];
 
