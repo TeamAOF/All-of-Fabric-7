@@ -1,22 +1,22 @@
 {
     "questsScreen": {
-        "headerTitle": "#611926",
-        "headerGroupsTitle": "#611926",
+        "headerTitle": "#b54b66",
+        "headerGroupsTitle": "#b54b66",
         "groupName": "#FFE7CE"
     },
     "questScreen": {
-        "taskTitle": "#611926",
-        "taskDescription": "#303030",
+        "taskTitle": "#b54b66",
+        "taskDescription": "#FFE7CE",
         "taskProgress": "#1D5386",
-		"taskNestedTitle": "#A0A0A0",
-		"taskSubmit": "#D0D0D0",
-		"taskSubmitDisabled": "#707070",
-        "rewardTitle": "#611926",
-        "rewardDescription": "#303030",
-        "taskRewardStatusHeading": "#231A0E",
-        "summaryTitle": "#611926",
-        "summaryProgress": "#1D5386",
-        "summaryDescription": "#303030",
+				"taskNestedTitle": "#A0A0A0",
+				"taskSubmit": "#D0D0D0",
+				"taskSubmitDisabled": "#707070",
+        "rewardTitle": "#b54b66",
+        "rewardDescription": "#FFE7CE",
+        "taskRewardStatusHeading": "#FFE7CE",
+        "summaryTitle": "#b54b66",
+        "summaryProgress": "#FFE7CE",
+        "summaryDescription": "#FFE7CE",
         "tabButton": "#FFE7CE",
         "tabButtonSelected": "#FFE7CE"
     },
@@ -24,5 +24,9 @@
 		"title": "#FFE7CE",
 		"claimedTitle": "#FADD8E",
 		"tutorialTitle": "#404040"
-	}
+	},
+	"generic": {
+        "buttonActive": "#DDB92A",
+        "buttonInactive": "#DDB92A"
+    }
 }
