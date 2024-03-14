@@ -3,7 +3,7 @@
     "Are you worthy"
   ],
   "tasks": {
-    "blackstone_golem": {
+    "obsidilith": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -12,7 +12,7 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "adventurez:blackstone_golem"
+        "type": "bosses_of_mass_destruction:obsidilith"
       },
       "amount": 1,
       "title": "",
@@ -33,6 +33,21 @@
       "title": "",
       "type": "heracles:kill_entity"
     },
+    "void_shadow": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "adventurez:void_shadow"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    },
     "night_lich": {
       "icon": {
         "item": {
@@ -48,16 +63,19 @@
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "obsidilith": {
+    "conjunctivius": {
       "icon": {
         "item": {
           "id": "minecraft:air",
-          "count": 0
+          "count": 0,
+          "nbt": {
+            "Damage": 0
+          }
         },
         "type": "heracles:item"
       },
       "entity": {
-        "type": "bosses_of_mass_destruction:obsidilith"
+        "type": "minecraft:pig"
       },
       "amount": 1,
       "title": "",
@@ -81,7 +99,7 @@
       "title": "",
       "type": "heracles:kill_entity"
     },
-    "void_blossom": {
+    "blackstone_golem": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -90,40 +108,7 @@
         "type": "heracles:item"
       },
       "entity": {
-        "type": "bosses_of_mass_destruction:void_blossom"
-      },
-      "amount": 1,
-      "title": "",
-      "type": "heracles:kill_entity"
-    },
-    "conjunctivius": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0,
-          "nbt": {
-            "Damage": 0
-          }
-        },
-        "type": "heracles:item"
-      },
-      "entity": {
-        "type": "minecells:conjuctivius"
-      },
-      "amount": 1,
-      "title": "",
-      "type": "heracles:kill_entity"
-    },
-    "void_shadow": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "entity": {
-        "type": "adventurez:void_shadow"
+        "type": "adventurez:blackstone_golem"
       },
       "amount": 1,
       "title": "",
@@ -139,6 +124,21 @@
       },
       "entity": {
         "type": "graveyard:lich"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    },
+    "void_blossom": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "bosses_of_mass_destruction:void_blossom"
       },
       "amount": 1,
       "title": "",
@@ -201,7 +201,7 @@
       "<br/>",
       "<hr/>",
       "<br/>",
-      "<p>&#32; Below is a dossier on the powerful, reprehensible&#8212;and sometimes just plain nasty&#8212;mobs you will have to terminate on order to complete this challenge.</p>",
+      "<p>&#32; Below is a dossier on the powerful, reprehensible&#8212;and sometimes just plain nasty&#8212;mobs you will have to terminate in order to complete this challenge.</p>",
       "<br/>",
       "<p>&#32; Yes, it may be thin on actionable intelligence. Keep in mind the many players that generated many graves to gather this information.</p>",
       "<br/>",
