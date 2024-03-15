@@ -138,6 +138,29 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 
 ### Recipes 🪵
 
+* Angel Ring recipe has been changed **(AK)**
+<img src="https://i.imgur.com/oCBlQbY.png"/>
+
+* Mining Rig & Drills recipes have been changed **(AK)**
+<img src="https://i.imgur.com/5cdZF4n.png"/>
+<img src="https://i.imgur.com/UqKM9ua.png"/>
+
+* Broom recipes have been changed **(AK)**
+<img src="https://i.imgur.com/7Wi94Uc.png"/>
+<img src="https://i.imgur.com/Yn3GCgu.png"/>
+<img src="https://i.imgur.com/IMw3aOB.png"/>
+<img src="https://i.imgur.com/IDdgSZa.png"/>
+<img src="https://i.imgur.com/FlsgWnb.png"/>
+
+* Added a recipe for making eggs **(AK)**
+<img src="https://i.imgur.com/sHw4Hyv.png"/>
+
+* Undead Kebab recipe has been changed **(AK)**
+<img src="https://i.imgur.com/U2oaV2y.png"/>
+
+* Monster Mash recipe has been changed **(AK)**
+<img src="https://i.imgur.com/dNcpUT9.png"/>
+
 * Create crushing stone strata unification being broken **(AK)**
 * Unified ALL small/tiny dusts, this should make automation easier **(AK)**
 * Disabled Redstone & Lapis hammers **(AK)**
@@ -149,30 +172,6 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Fixed Monazite Ore > Dust recipe through create crushing **(AK)**
 * Fixed recipes using Mixed Stone Ball as inputs **(AK)**
 * Cleaned up duplicate recipes for ingots & blocks between TR & MI, this makes REI cleaner **(AK)**
-
-* Angel Ring recipe has been changed **(AK)**
-<img src="https://i.imgur.com/oCBlQbY.png"/>
-
-* Mining Rig & Drills recipes have been changed **(AK)**
-<img src="https://i.imgur.com/5cdZF4n.png"/>
-<img src="https://i.imgur.com/UqKM9ua.png"/>
-
-### Broom recipes have been changed **(AK)**
-<img src="https://i.imgur.com/7Wi94Uc.png"/>
-<img src="https://i.imgur.com/Yn3GCgu.png"/>
-<img src="https://i.imgur.com/IMw3aOB.png"/>
-<img src="https://i.imgur.com/IDdgSZa.png"/>
-<img src="https://i.imgur.com/FlsgWnb.png"/>
-
-### Added a recipe for making eggs **(AK)**
-<img src="https://i.imgur.com/sHw4Hyv.png"/>
-
-### Undead Kebab recipe has been changed **(AK)**
-<img src="https://i.imgur.com/U2oaV2y.png"/>
-
-### Monster Mash recipe has been changed **(AK)**
-<img src="https://i.imgur.com/dNcpUT9.png"/>
-
 
 ### Bug Fixes 🪲
 
