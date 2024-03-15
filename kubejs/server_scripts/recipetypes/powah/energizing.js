@@ -4,39 +4,75 @@
 
 ServerEvents.recipes(event => {
 
-  /*
-    event.custom({    
-        "type": "powah:energizing",
-        "id": "kibe:angel_ring",
-        "ingredients": [
-          {"item": "deeperdarker:soul_elytra"},
-          {"item": "spectrum:take_off_belt"},
-          {"item": "ad_astra:calorite_engine"},
-          {"item": "bosses_of_mass_destruction:ancient_anima"},
-          {"item": "piercingpaxels:upgrade_unbreakable"},
-          {"item": "botania:gaia_ingot"}
-        ],
-        "energy": "400000000",
-        "result": {
-          "item": "kibe:angel_ring"
-        }
-})
-*/
+  // Nitro
+  event.custom({
+    "type": "powah:energizing",
+    "id": "aof:powah/hyper_nitro_crystal",
+    "ingredients": [
+      { "item": "powah:nitro_crystal_block" },
+      { "item": "powah:nitro_crystal_block" },
+      { "item": "powah:nitro_crystal_block" },
+      { "item": "powah:nitro_crystal_block" },
+      { "item": "powah:nitro_crystal_block" },
+      { "item": "powah:nitro_crystal_block" }
+    ],
+    "energy": "200000000",
+    "result": {
+      "item": "kubejs:hyper_nitro_crystal"
+    }
+  })
 
-  event.custom({    
-        "type": "powah:energizing",
-        "id": "aof:powah/hyper_nitro_crystal",
-        "ingredients": [
-          {"item": "powah:nitro_crystal_block"},
-          {"item": "powah:nitro_crystal_block"},
-          {"item": "powah:nitro_crystal_block"},
-          {"item": "powah:nitro_crystal_block"},
-          {"item": "powah:nitro_crystal_block"},
-          {"item": "powah:nitro_crystal_block"}
-        ],
-        "energy": "200000000",
-        "result": {
-          "item": "kubejs:hyper_nitro_crystal"
-        }
-    })
-    })
+  // Niotic
+  event.custom({
+    "type": "powah:energizing",
+    "id": "aof:powah/niotic_crystal_block",
+    "ingredients": [
+      { "item": "minecraft:diamond_block" },
+    ],
+    "energy": "2700000",
+    "result": {
+      "item": "powah:niotic_crystal_block"
+    }
+  })
+
+  // Blazing
+  event.custom({
+    "type": "powah:energizing",
+    "id": "aof:powah/blazing_crystal_block",
+    "ingredients": [
+      { "item": "botania:blaze_block" },
+    ],
+    "energy": "810000",
+    "result": {
+      "item": "powah:blazing_crystal_block"
+    }
+  })
+
+  // Spirited
+  event.custom({
+    "type": "powah:energizing",
+    "id": "aof:powah/spirited_crystal_block",
+    "ingredients": [
+      { "item": "minecraft:emerald_block" },
+    ],
+    "energy": "9000000",
+    "result": {
+      "item": "powah:spirited_crystal_block"
+    }
+  })
+
+   // Energized Steel
+   event.custom({
+    "type": "powah:energizing",
+    "id": "aof:powah/energized_steel_block",
+    "ingredients": [
+      { "item": "minecraft:gold_block" },
+      { "item": "minecraft:iron_block" },
+    ],
+    "energy": "90000",
+    "result": {
+      "item": "powah:energized_steel_block",
+      "count": 2
+    }
+  })
+})
