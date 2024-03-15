@@ -5,7 +5,7 @@
 
 ServerEvents.recipes(event => {
 
-
+/*
   // Glue
   event.custom({
     "type": "modern_industrialization:mixer",
@@ -32,7 +32,6 @@ ServerEvents.recipes(event => {
   
   // Tree Fertilizer
 
-  /*
   event.custom({
     "type": "modern_industrialization:mixer",
     "id": "aof:mi_mixer_tree_fertilizer",

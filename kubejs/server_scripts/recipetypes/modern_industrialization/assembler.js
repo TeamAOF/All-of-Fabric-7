@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-
+/*
     //Empty Fertilizer Bag
     event.custom({
         "type": "modern_industrialization:assembler",
@@ -23,4 +23,5 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    */
 })

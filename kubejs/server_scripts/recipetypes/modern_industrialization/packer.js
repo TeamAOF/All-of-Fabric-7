@@ -96,10 +96,7 @@ ServerEvents.recipes(event => {
 
      // Tech Reborn
      const tech_reborn = [
-      'diamond',
-      'emerald',
       'hot_tungstensteel',
-      'netherite',
       'refined_iron',
       'tungstensteel'
     ];
