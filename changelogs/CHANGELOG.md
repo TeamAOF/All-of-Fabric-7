@@ -104,12 +104,14 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 
 * Economy System, player shops & improved villager trading **(AK)**
 * Added the Farmer O' Worlds quest trophy upon completing the chapter **(AK)**
+* Buffed all BOMD bosses, health, armor & damage **(AK)**
 * Advancement Made! text color changed from brown to green, should be easier to read now **(AK)**
 * Improved Ad Astra quest chapter rewards **(AK)**
 * Added lootbags to MI quest chapter **(AK)**
 * Added colors to quest trophy quest names **(AK)**
 * Quest name improvements **(AK/SubordinalBlue)**
 * Getting Started quests are no longer hidden **(AK)**
+* Animate Only Visible Textures feature has been turned off, enable in video settings if having FPS issues **(AK)**
 * Updated the built-in EU server IP **(AK)**
 * Additions to replicator blacklist **(AK)**
 * Performance improvements to RAM usage **(AK)**
@@ -180,6 +182,7 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Missing tasks for grapes quests **(elaniquilador01)**
 * Recipe conflicts making FOW quest chapter not completeable **(AK)**
 * Ironchests Barrels not being mineable **(AK)**
+* Fixed an issue where fluids in REI wouldnt be animated **(AK)**
 * Incorrect dank quests descriptions **(Slexom)**
 ---
 
