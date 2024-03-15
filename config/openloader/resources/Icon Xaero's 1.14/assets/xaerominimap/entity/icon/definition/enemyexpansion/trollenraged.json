@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:enemyexpansion/troll_enraged.png"
+	,
+	"layersAllowed": true
+    }
+}

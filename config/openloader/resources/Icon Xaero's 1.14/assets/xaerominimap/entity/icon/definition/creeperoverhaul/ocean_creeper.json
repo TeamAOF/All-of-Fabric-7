@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "creeperoverhaul:textures/entity/ocean/brown_1.png":"outlined_sprite:creeperoverhaul/ocean_creeper/brown.png",
+        "creeperoverhaul:textures/entity/ocean/brown_2.png":"outlined_sprite:creeperoverhaul/ocean_creeper/brown.png",
+        "creeperoverhaul:textures/entity/ocean/brown_3.png":"outlined_sprite:creeperoverhaul/ocean_creeper/brown.png",
+        "creeperoverhaul:textures/entity/ocean/teal_1.png":"outlined_sprite:creeperoverhaul/ocean_creeper/teal.png",
+        "creeperoverhaul:textures/entity/ocean/teal_2.png":"outlined_sprite:creeperoverhaul/ocean_creeper/teal.png",
+        "creeperoverhaul:textures/entity/ocean/teal_3.png":"outlined_sprite:creeperoverhaul/ocean_creeper/teal.png"
+
+    }
+  }

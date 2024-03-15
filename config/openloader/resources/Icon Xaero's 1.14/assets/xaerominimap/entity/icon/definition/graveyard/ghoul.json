@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "graveyard:textures/entity/ghoul_skin1.png": "outlined_sprite:graveyard/ghoul/ghoul_1.png",
+    "graveyard:textures/entity/ghoul_skin2.png": "outlined_sprite:graveyard/ghoul/ghoul_2.png",
+    "graveyard:textures/entity/ghoul_skin3.png": "outlined_sprite:graveyard/ghoul/ghoul_3.png",
+    "graveyard:textures/entity/ghoul_skin4.png": "outlined_sprite:graveyard/ghoul/ghoul_4.png",
+    "graveyard:textures/entity/ghoul_skin5.png": "outlined_sprite:graveyard/ghoul/ghoul_5.png",
+    "graveyard:textures/entity/ghoul_skin6.png": "outlined_sprite:graveyard/ghoul/ghoul_6.png",
+    "graveyard:textures/entity/ghoul_skin7.png": "outlined_sprite:graveyard/ghoul/ghoul_7.png",
+    "graveyard:textures/entity/ghoul_skin8.png": "outlined_sprite:graveyard/ghoul/ghoul_8.png",
+    "graveyard:textures/entity/ghoul_skin9.png": "outlined_sprite:graveyard/ghoul/ghoul_9.png"
+  }
+}

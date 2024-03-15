@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/cave_crawler.png"
+	,
+	"layersAllowed": true
+    }
+}

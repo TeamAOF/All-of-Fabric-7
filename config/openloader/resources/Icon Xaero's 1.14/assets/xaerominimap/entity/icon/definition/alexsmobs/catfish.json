@@ -1,0 +1,11 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/catfish_large.png" : "outlined_sprite:alexsmobs/catfish_large.png",
+		"alexsmobs:textures/entity/catfish_medium.png" : "outlined_sprite:alexsmobs/catfish_medium.png",
+		"alexsmobs:textures/entity/catfish_small.png" : "outlined_sprite:alexsmobs/catfish_small.png",
+		"alexsmobs:textures/entity/catfish_small_spit.png" : "outlined_sprite:alexsmobs/catfish_small_spit.png",
+		"alexsmobs:textures/entity/catfish_medium_spit.png" : "outlined_sprite:alexsmobs/catfish_medium_spit.png",
+		"alexsmobs:textures/entity/catfish_large_spit.png" : "outlined_sprite:alexsmobs/catfish_large_spit.png",
+		"layersAllowed":true
+	}
+}

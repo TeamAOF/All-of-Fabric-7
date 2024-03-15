@@ -1,0 +1,10 @@
+{"variants":{
+    "untamedwilds:textures/entity/hyena/aardwolf.png":"outlined_sprite:untamedwilds/hyena/aardwolf.png",
+    "untamedwilds:textures/entity/hyena/brown.png":"outlined_sprite:untamedwilds/hyena/brown.png",
+    "untamedwilds:textures/entity/hyena/shortface.png":"outlined_sprite:untamedwilds/hyena/shortface.png",
+    "untamedwilds:textures/entity/hyena/spotted_1.png":"outlined_sprite:untamedwilds/hyena/spotted_1.png",
+    "untamedwilds:textures/entity/hyena/spotted_2.png":"outlined_sprite:untamedwilds/hyena/spotted_2.png",
+    "untamedwilds:textures/entity/hyena/spotted_3.png":"outlined_sprite:untamedwilds/hyena/spotted_3.png",
+    "untamedwilds:textures/entity/hyena/striped.png":"outlined_sprite:untamedwilds/hyena/striped.png",
+    "layersAllowed": true
+}}

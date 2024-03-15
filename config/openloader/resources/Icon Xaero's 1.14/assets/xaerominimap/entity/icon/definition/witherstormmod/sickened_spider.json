@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:witherstormmod/sickened/sickened_spider.png",
+        "layersAllowed": true
+    }
+}

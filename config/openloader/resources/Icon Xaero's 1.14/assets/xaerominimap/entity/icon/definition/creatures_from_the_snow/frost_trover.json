@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "creatures_from_the_snow:textures/entity/frost_trover/wild.png": "outlined_sprite:creatures_from_the_snow/frost_trover.png",
+        "default":"outlined_sprite:creatures_from_the_snow/frost_trover.png"}
+}

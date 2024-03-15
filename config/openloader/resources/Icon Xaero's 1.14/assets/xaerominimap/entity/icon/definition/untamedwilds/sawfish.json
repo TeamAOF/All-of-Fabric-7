@@ -1,0 +1,8 @@
+{"variants":{
+    "untamedwilds:textures/entity/sawfish/dwarf.png":"outlined_sprite:untamedwilds/sawfish/dwarf.png",
+    "untamedwilds:textures/entity/sawfish/green.png":"outlined_sprite:untamedwilds/sawfish/green.png",
+    "untamedwilds:textures/entity/sawfish/large_tooth.png":"outlined_sprite:untamedwilds/sawfish/large_tooth.png",
+    "untamedwilds:textures/entity/sawfish/narrow.png":"outlined_sprite:untamedwilds/sawfish/narrow.png",
+    "untamedwilds:textures/entity/sawfish/small_tooth.png":"outlined_sprite:untamedwilds/sawfish/small_tooth.png",
+    "layersAllowed": true
+}}

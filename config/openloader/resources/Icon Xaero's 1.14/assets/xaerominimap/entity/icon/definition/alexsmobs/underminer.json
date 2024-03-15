@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/underminer_0.png" : "outlined_sprite:alexsmobs/underminer_0.png",
+		"alexsmobs:textures/entity/underminer_1.png" : "outlined_sprite:alexsmobs/underminer_1.png",
+        "alexsmobs:textures/entity/underminer_dwarf.png" : "outlined_sprite:alexsmobs/underminer_dwarf.png",
+		"layersAllowed":true
+	}
+}

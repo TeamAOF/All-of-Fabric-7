@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:aquamirae/captain_cornelia.png"
+	,
+	"layersAllowed": true
+    }
+}

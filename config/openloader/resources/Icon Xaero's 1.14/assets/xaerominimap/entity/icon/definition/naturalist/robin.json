@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:naturalist/bird/robin.png",
+        "layersAllowed": true
+    }
+}

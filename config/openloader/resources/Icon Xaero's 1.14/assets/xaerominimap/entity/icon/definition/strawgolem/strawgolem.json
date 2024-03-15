@@ -1,0 +1,11 @@
+{
+	"variants" : {
+		"strawgolem:textures/entity/igalaxy.png" : "sprite:igalaxy.png",
+		"strawgolem:textures/entity/mr_chocolate.png" : "sprite:mr_chocolate.png",
+		"strawgolem:textures/entity/shockmicro.png" : "sprite:shockmicro.png",
+		"strawgolem:textures/entity/winter_golem.png" : "sprite:winter_golem.png",
+		"strawgolem:textures/entity/dying_golem.png" : "sprite:dying_golem.png",
+		"strawgolem:textures/entity/old_golem.png" : "sprite:old_golem.png",
+		"default" : "sprite:strawgolem.png"
+	}
+}

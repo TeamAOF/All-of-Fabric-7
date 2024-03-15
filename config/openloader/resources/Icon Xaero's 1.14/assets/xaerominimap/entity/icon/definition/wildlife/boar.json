@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/boar.png": "outlined_sprite:wildlife/boar/boar.png",
+        "wildlife:textures/model/entity/boar2.png": "outlined_sprite:wildlife/boar/boar2.png",
+        "wildlife:textures/model/entity/boar3.png": "outlined_sprite:wildlife/boar/boar3.png",
+        "wildlife:textures/model/entity/boar_albino.png": "outlined_sprite:wildlife/boar/boar_albino.png"
+    }
+}

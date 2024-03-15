@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/battlegill/bittersweet.png" : "outlined_sprite:fishofthieves/battlegill/bittersweet.png",
+	"fishofthieves:textures/entity/battlegill/jade.png" : "outlined_sprite:fishofthieves/battlegill/jade.png",
+    "fishofthieves:textures/entity/battlegill/rum.png" : "outlined_sprite:fishofthieves/battlegill/rum.png",
+    "fishofthieves:textures/entity/battlegill/sand.png" : "outlined_sprite:fishofthieves/battlegill/sand.png",
+    "fishofthieves:textures/entity/battlegill/sky.png" : "outlined_sprite:fishofthieves/battlegill/sky.png",
+	"layersAllowed": true
+    }
+}

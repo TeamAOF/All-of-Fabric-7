@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/plentifin/amber.png" : "outlined_sprite:fishofthieves/plentifin/amber.png",
+	"fishofthieves:textures/entity/plentifin/bonedust.png" : "outlined_sprite:fishofthieves/plentifin/bonedust.png",
+    "fishofthieves:textures/entity/plentifin/cloudy.png" : "outlined_sprite:fishofthieves/plentifin/cloudyber.png",
+    "fishofthieves:textures/entity/plentifin/olive.png" : "outlined_sprite:fishofthieves/plentifin/olive.png",
+    "fishofthieves:textures/entity/plentifin/watery.png" : "outlined_sprite:fishofthieves/plentifin/watery.png",
+	"layersAllowed": true
+    }
+}

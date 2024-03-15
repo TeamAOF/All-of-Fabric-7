@@ -1,0 +1,11 @@
+{
+    "variants": {
+    "hybrid-aquatic:textures/entity/umbrella_octopus_brown.png":"outlined_sprite:hybrid-aquatic/umbrella_octopus/umbrella_octopus_brown.png",
+    "hybrid-aquatic:textures/entity/umbrella_octopus_orange.png":"outlined_sprite:hybrid-aquatic/umbrella_octopus/umbrella_octopus_orange.png",
+    "hybrid-aquatic:textures/entity/umbrella_octopus_pink.png":"outlined_sprite:hybrid-aquatic/umbrella_octopus/umbrella_octopus_pink.png",
+    "hybrid-aquatic:textures/entity/umbrella_octopus_purple.png":"outlined_sprite:hybrid-aquatic/umbrella_octopus/umbrella_octopus_purple.png",
+    "hybrid-aquatic:textures/entity/umbrella_octopus_white.png":"outlined_sprite:hybrid-aquatic/umbrella_octopus/umbrella_octopus_white.png",
+    "hybrid-aquatic:textures/entity/umbrella_octopus_yellow.png":"outlined_sprite:hybrid-aquatic/umbrella_octopus/umbrella_octopus_yellow.png",
+    "layersAllowed": true
+    }
+} 

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:alexscaves/raycat.png",
+        "layersAllowed": true
+    }
+}

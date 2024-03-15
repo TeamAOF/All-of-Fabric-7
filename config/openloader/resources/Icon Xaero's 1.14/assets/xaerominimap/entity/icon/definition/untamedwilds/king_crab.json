@@ -1,0 +1,6 @@
+{"variants":{
+    "untamedwilds:textures/entity/king_crab/centolla.png":"outlined_sprite:untamedwilds/king_crab/centolla.png",
+    "untamedwilds:textures/entity/king_crab/red.png":"outlined_sprite:untamedwilds/king_crab/red.png",
+    "untamedwilds:textures/entity/king_crab/spiny.png":"outlined_sprite:untamedwilds/king_crab/spiny.png",
+    "layersAllowed": true
+}}

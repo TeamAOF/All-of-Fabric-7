@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "betterend:textures/entity/end_slime/end_slime.png": "outlined_sprite:betterend/end_slime/end_slime.png",
+		"betterend:textures/entity/end_slime/end_slime_mossy.png": "outlined_sprite:betterend/end_slime/end_slime_mossy.png",
+        "betterend:textures/entity/end_slime/end_slime_lake.png": "outlined_sprite:betterend/end_slime/end_slime_lake.png",
+        "betterend:textures/entity/end_slime/end_slime_amber.png": "outlined_sprite:betterend/end_slime/end_slime_amber.png",
+	"layersAllowed": true
+    }
+}

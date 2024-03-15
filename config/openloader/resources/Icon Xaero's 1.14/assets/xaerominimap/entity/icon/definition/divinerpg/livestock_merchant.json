@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/livestock_merchant.png"
+	,
+	"layersAllowed": true
+    }
+}

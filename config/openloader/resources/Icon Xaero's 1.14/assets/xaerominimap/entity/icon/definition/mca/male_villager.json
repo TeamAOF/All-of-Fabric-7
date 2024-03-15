@@ -1,0 +1,8 @@
+{
+
+    "variants": {
+      "default": "outlined_sprite:mca/male_villager.png",
+      "layerAllow":true
+    }
+  
+  }

@@ -1,0 +1,19 @@
+{"variants":{
+    "untamedwilds:textures/entity/monitor/bengal_1.png":"outlined_sprite:untamedwilds/monitor/bengal_1.png",
+    "untamedwilds:textures/entity/monitor/bengal_1r.png":"outlined_sprite:untamedwilds/monitor/bengal_1r.png",
+    "untamedwilds:textures/entity/monitor/bengal_2.png":"outlined_sprite:untamedwilds/monitor/bengal_2.png",
+    "untamedwilds:textures/entity/monitor/bengal_3.png":"outlined_sprite:untamedwilds/monitor/bengal_3.png",
+    "untamedwilds:textures/entity/monitor/desert_1.png":"outlined_sprite:untamedwilds/monitor/desert_1.png",
+    "untamedwilds:textures/entity/monitor/desert_2.png":"outlined_sprite:untamedwilds/monitor/desert_2.png",
+    "untamedwilds:textures/entity/monitor/desert_3.png":"outlined_sprite:untamedwilds/monitor/desert_3.png",
+    "untamedwilds:textures/entity/monitor/komodo.png":"outlined_sprite:untamedwilds/monitor/komodo.png",
+    "untamedwilds:textures/entity/monitor/nile.png":"outlined_sprite:untamedwilds/monitor/nile.png",
+    "untamedwilds:textures/entity/monitor/rock_1.png":"outlined_sprite:untamedwilds/monitor/rock_1.png",
+    "untamedwilds:textures/entity/monitor/rock_2.png":"outlined_sprite:untamedwilds/monitor/rock_2.png",
+    "untamedwilds:textures/entity/monitor/water_1.png":"outlined_sprite:untamedwilds/monitor/water_1.png",
+    "untamedwilds:textures/entity/monitor/water_1r.png":"outlined_sprite:untamedwilds/monitor/water_1r.png",
+    "untamedwilds:textures/entity/monitor/water_2.png":"outlined_sprite:untamedwilds/monitor/water_2.png",
+    "untamedwilds:textures/entity/monitor/water_3.png":"outlined_sprite:untamedwilds/monitor/water_3.png",
+    "untamedwilds:textures/entity/monitor/water_4.png":"outlined_sprite:untamedwilds/monitor/water_4.png",
+    "layersAllowed": true
+}}

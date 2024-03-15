@@ -1,0 +1,11 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/tiger/tiger_white.png" : "outlined_sprite:alexsmobs/tiger/tiger_white.png",
+		"alexsmobs:textures/entity/tiger/tiger_white_angry.png" : "outlined_sprite:alexsmobs/tiger/tiger_white_angry.png",
+		"alexsmobs:textures/entity/tiger/tiger_white_sleeping.png" : "outlined_sprite:alexsmobs/tiger/tiger_white_sleeping.png",
+		"alexsmobs:textures/entity/tiger/tiger.png" : "outlined_sprite:alexsmobs/tiger/tiger.png",
+		"alexsmobs:textures/entity/tiger/tiger_angry.png" : "outlined_sprite:alexsmobs/tiger/tiger_angry.png",
+		"alexsmobs:textures/entity/tiger/tiger_sleeping.png" : "outlined_sprite:alexsmobs/tiger/tiger_sleeping.png",
+		"layersAllowed":true
+	}
+}

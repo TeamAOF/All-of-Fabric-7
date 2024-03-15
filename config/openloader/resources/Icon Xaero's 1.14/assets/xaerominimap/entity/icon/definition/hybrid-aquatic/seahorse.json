@@ -1,0 +1,11 @@
+{
+    "variants": {
+    "hybrid-aquatic:textures/entity/seahorse_blue.png":"outlined_sprite:hybrid-aquatic/seahorse/seahorse_blue.png",
+    "hybrid-aquatic:textures/entity/seahorse_green.png":"outlined_sprite:hybrid-aquatic/seahorse/seahorse_green.png",
+    "hybrid-aquatic:textures/entity/seahorse_orange.png":"outlined_sprite:hybrid-aquatic/seahorse/seahorse_orange.png",
+    "hybrid-aquatic:textures/entity/seahorse_pink.png":"outlined_sprite:hybrid-aquatic/seahorse/seahorse_pink.png",
+    "hybrid-aquatic:textures/entity/seahorse_purple.png":"outlined_sprite:hybrid-aquatic/seahorse/seahorse_purple.png",
+    "hybrid-aquatic:textures/entity/seahorse_yellow.png":"outlined_sprite:hybrid-aquatic/seahorse/seahorse_yellow.png",
+    "layersAllowed": true
+    }
+} 

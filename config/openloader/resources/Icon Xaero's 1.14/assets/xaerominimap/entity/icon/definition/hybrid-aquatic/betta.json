@@ -1,0 +1,13 @@
+{
+    "variants": {
+    "hybrid-aquatic:textures/entity/betta_black.png":"outlined_sprite:hybrid-aquatic/betta/betta_black.png",
+    "hybrid-aquatic:textures/entity/betta_blue.png":"outlined_sprite:hybrid-aquatic/betta/betta_blue.png",
+    "hybrid-aquatic:textures/entity/betta_blue_yellow.png":"outlined_sprite:hybrid-aquatic/betta/betta_blue_yellow.png",
+    "hybrid-aquatic:textures/entity/betta_green.png":"outlined_sprite:hybrid-aquatic/betta/betta_green.png",
+    "hybrid-aquatic:textures/entity/betta_pink.png":"outlined_sprite:hybrid-aquatic/betta/betta_pink.png",
+    "hybrid-aquatic:textures/entity/betta_red.png":"outlined_sprite:hybrid-aquatic/betta/betta_red.png",
+    "hybrid-aquatic:textures/entity/betta_red_blue.png":"outlined_sprite:hybrid-aquatic/betta/betta_red_blue.png",
+    "hybrid-aquatic:textures/entity/betta_white.png":"outlined_sprite:hybrid-aquatic/betta/betta_white.png",
+    "layersAllowed": true
+    }
+} 

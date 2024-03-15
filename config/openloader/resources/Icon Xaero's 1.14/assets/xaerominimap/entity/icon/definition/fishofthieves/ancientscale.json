@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/ancientscale/almond.png" : "outlined_sprite:fishofthieves/ancientscale/almond.png",
+    "fishofthieves:textures/entity/ancientscale/bone.png" : "outlined_sprite:fishofthieves/ancientscale/bone.png",
+    "fishofthieves:textures/entity/ancientscale/sapphire.png" : "outlined_sprite:fishofthieves/ancientscale/sapphire.png",
+    "fishofthieves:textures/entity/ancientscale/smoke.png" : "outlined_sprite:fishofthieves/ancientscale/smoke.png",
+    "fishofthieves:textures/entity/ancientscale/starshine.png" : "outlined_sprite:fishofthieves/ancientscale/starshine.png",
+	"layersAllowed": true
+    }
+}

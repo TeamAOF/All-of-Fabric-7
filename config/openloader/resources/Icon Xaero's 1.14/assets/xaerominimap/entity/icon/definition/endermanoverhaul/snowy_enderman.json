@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:endermanoverhaul/snowy_enderman.png"
+	,
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/ayeraco_blue.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_blue.png",
+	"divinerpg:textures/entity/ayeraco_green.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_green.png",
+    "divinerpg:textures/entity/ayeraco_pink.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_pink.png",
+    "divinerpg:textures/entity/ayeraco_purple.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_purple.png",
+    "divinerpg:textures/entity/ayeraco_red.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_red.png",
+    "divinerpg:textures/entity/ayeraco_white.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_white.png",
+    "divinerpg:textures/entity/ayeraco_yellow.png" : "outlined_sprite:divinerpg/ayeraco/ayeraco_yellow.png",
+	"layersAllowed": true
+    }
+}

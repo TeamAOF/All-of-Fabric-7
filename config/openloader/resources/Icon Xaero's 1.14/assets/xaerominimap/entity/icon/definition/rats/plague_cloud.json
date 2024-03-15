@@ -1,0 +1,6 @@
+{
+	"variants" : {
+        "default": "outlined_sprite:rats/rat/plague_cloud.png",
+        "layersAllowed": true
+	}
+}

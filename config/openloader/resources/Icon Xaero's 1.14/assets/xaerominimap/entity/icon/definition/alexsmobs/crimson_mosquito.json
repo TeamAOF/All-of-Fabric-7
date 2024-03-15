@@ -1,0 +1,9 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/crimson_mosquito.png" : "outlined_sprite:alexsmobs/crimson_mosquito.png",
+		"alexsmobs:textures/entity/crimson_mosquito_blue.png" : "outlined_sprite:alexsmobs/crimson_mosquito_blue.png",
+		"alexsmobs:textures/entity/crimson_mosquito_fly.png" : "outlined_sprite:alexsmobs/crimson_mosquito_fly.png",
+		"alexsmobs:textures/entity/crimson_mosquito_fly_blue.png" : "outlined_sprite:alexsmobs/crimson_mosquito_fly_blue.png",
+		"layersAllowed":true
+	}
+}

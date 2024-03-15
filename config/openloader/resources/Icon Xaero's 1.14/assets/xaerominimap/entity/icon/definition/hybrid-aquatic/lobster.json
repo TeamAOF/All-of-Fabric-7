@@ -1,0 +1,12 @@
+{
+    "variants": {
+    "hybrid-aquatic:textures/entity/lobster_black.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_black.png",
+    "hybrid-aquatic:textures/entity/lobster_blue.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_blue.png",
+    "hybrid-aquatic:textures/entity/lobster_green.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_green.png",
+    "hybrid-aquatic:textures/entity/lobster_palestine.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_palestine.png",
+    "hybrid-aquatic:textures/entity/lobster_red.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_red.png",
+    "hybrid-aquatic:textures/entity/lobster_white.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_white.png",
+    "hybrid-aquatic:textures/entity/lobster_yellow.png":"outlined_sprite:hybrid-aquatic/lobster/lobster_yellow.png",
+    "layersAllowed": true
+    }
+} 

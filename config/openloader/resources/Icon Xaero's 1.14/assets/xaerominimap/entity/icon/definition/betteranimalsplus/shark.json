@@ -1,0 +1,142 @@
+{
+	"variants": {
+		"betteranimalsplus:textures/entity/shark_blue.png": "model:0",
+		"betteranimalsplus:textures/entity/shark_bull.png": "model:1",
+		"betteranimalsplus:textures/entity/shark_goblin.png": "model:2",
+		"betteranimalsplus:textures/entity/shark_great_white.png": "model:3",
+		"betteranimalsplus:textures/entity/shark_greenland.png": "model:4",
+		"betteranimalsplus:textures/entity/shark_hammerhead.png": "model:5",
+		"betteranimalsplus:textures/entity/shark_mako.png": "model:6",
+		"betteranimalsplus:textures/entity/shark_tiger.png": "model:7",
+		"betteranimalsplus:textures/entity/shark_whitetip.png": "model:8",
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelBlueShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelBullShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelGoblinShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelGreatWhiteShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelGreenlandShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelHammerheadShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelMakoShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelTigerShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.5,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.shark.ModelWhiteTipShark;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		}
+	]
+}

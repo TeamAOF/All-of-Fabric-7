@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:infernalexp/glowsilk_moth.png",
+        "layersAllowed": true
+    }
+}

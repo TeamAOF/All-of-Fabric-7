@@ -1,0 +1,21 @@
+{
+	"variants": {
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 0.2,
+			"rotationY": 0,
+			"rotationX": -90,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.ModelButterfly;thorax"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "earth:textures/entity/pertilyo/pertilyo_0.png": "outlined_sprite:earth/pertilyo_0.png",
+        "earth:textures/entity/pertilyo/pertilyo_1.png": "outlined_sprite:earth/pertilyo_1.png",
+        "earth:textures/entity/pertilyo/pertilyo_2.png": "outlined_sprite:earth/pertilyo_2.png",
+        "earth:textures/entity/pertilyo/pertilyo_3.png": "outlined_sprite:earth/pertilyo_3.png",
+        "default": "outlined_sprite:earth/pertilyo_0.png"
+    }
+}

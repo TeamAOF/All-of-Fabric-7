@@ -1,0 +1,10 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/emu.png" : "outlined_sprite:alexsmobs/emu.png",
+        "alexsmobs:textures/entity/emu_baby.png" : "outlined_sprite:alexsmobs/emu_baby.png",
+        "alexsmobs:textures/entity/emu_blonde.png" : "outlined_sprite:alexsmobs/emu_blonde.png",
+        "alexsmobs:textures/entity/emu_baby_blonde.png" : "outlined_sprite:alexsmobs/emu_baby_blonde.png",
+        "alexsmobs:textures/entity/emu_blue.png" : "outlined_sprite:alexsmobs/emu_blue.png",
+		"layersAllowed": true
+	}
+}

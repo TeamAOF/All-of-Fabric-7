@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/war_general.png"
+	,
+	"layersAllowed": true
+    }
+}

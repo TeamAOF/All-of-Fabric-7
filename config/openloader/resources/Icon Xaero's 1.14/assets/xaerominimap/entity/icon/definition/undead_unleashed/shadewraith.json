@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:undead_unleashed/wraith.png"
+	,
+	"layersAllowed": true
+    }
+}

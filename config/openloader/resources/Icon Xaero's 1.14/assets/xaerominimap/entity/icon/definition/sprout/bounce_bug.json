@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "sprout:textures/entity/crimson_bug.png": "outlined_sprite:sprout/crimson_bug.png",
+        "sprout:textures/entity/warped_bug.png": "outlined_sprite:sprout/warped_bug.png",
+        "default": "outlined_sprite:sprout/warped_bug.png"
+    }
+}

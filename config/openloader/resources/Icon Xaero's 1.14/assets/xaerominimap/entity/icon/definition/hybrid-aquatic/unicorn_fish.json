@@ -1,0 +1,10 @@
+{
+    "variants": {
+    "hybrid-aquatic:textures/entity/unicorn_fish_blue.png":"outlined_sprite:hybrid-aquatic/unicorn_fish/unicorn_fish_blue.png",
+    "hybrid-aquatic:textures/entity/unicorn_fish_green.png":"outlined_sprite:hybrid-aquatic/unicorn_fish/unicorn_fish_green.png",
+    "hybrid-aquatic:textures/entity/unicorn_fish_purple.png":"outlined_sprite:hybrid-aquatic/unicorn_fish/unicorn_fish_purple.png",
+    "hybrid-aquatic:textures/entity/unicorn_fish_white.png":"outlined_sprite:hybrid-aquatic/unicorn_fish/unicorn_fish_white.png",
+    "hybrid-aquatic:textures/entity/unicorn_fish_yellow.png":"outlined_sprite:hybrid-aquatic/unicorn_fish/unicorn_fish_yellow.png",
+    "layersAllowed": true
+    }
+} 

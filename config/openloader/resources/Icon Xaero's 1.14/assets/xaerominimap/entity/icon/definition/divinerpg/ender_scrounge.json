@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/ender_scrounge.png"
+	,
+	"layersAllowed": true
+    }
+}

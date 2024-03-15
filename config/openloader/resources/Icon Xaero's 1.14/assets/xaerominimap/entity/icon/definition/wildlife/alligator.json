@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/alligator.png": "outlined_sprite:wildlife/alligator/alligator.png",
+        "wildlife:textures/model/entity/alligator2.png": "outlined_sprite:wildlife/alligator/alligator2.png",
+        "wildlife:textures/model/entity/alligator_albino.png": "outlined_sprite:wildlife/alligator/alligator_albino.png"
+    }
+}

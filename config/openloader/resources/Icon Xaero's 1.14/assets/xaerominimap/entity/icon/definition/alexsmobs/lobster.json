@@ -1,0 +1,11 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/lobster_blue.png" : "outlined_sprite:alexsmobs/lobster_blue.png",
+		"alexsmobs:textures/entity/lobster_black.png" : "outlined_sprite:alexsmobs/lobster_black.png",
+        "alexsmobs:textures/entity/lobster_red.png" : "outlined_sprite:alexsmobs/lobster_red.png",
+		"alexsmobs:textures/entity/lobster_redblue.png" : "outlined_sprite:alexsmobs/lobster_redblue.png",
+		"alexsmobs:textures/entity/lobster_white.png" : "outlined_sprite:alexsmobs/lobster_white.png",
+		"alexsmobs:textures/entity/lobster_yellow.png" : "outlined_sprite:alexsmobs/lobster_yellow.png",
+		"layersAllowed":true
+	}
+}

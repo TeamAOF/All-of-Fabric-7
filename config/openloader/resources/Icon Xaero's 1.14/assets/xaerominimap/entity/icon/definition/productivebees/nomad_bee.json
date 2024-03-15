@@ -1,0 +1,7 @@
+{"variants":{
+    "productivebees:textures/entity/bee/nomad/bee.png":"outlined_sprite:productivebees/nomad/bee.png",
+    "productivebees:textures/entity/bee/nomad/bee_angry.png":"outlined_sprite:productivebees/nomad/bee_angry.png",
+    "productivebees:textures/entity/bee/nomad/bee_angry_nectar.png":"outlined_sprite:productivebees/nomad/bee_angry_nectar.png",
+    "productivebees:textures/entity/bee/nomad/bee_nectar.png":"outlined_sprite:productivebees/nomad/bee_nectar.png",
+    "layersAllowed": true
+}}

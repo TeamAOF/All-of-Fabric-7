@@ -1,0 +1,7 @@
+{
+    "variants": {
+      "irons_spellbooks:textures/entity/dead_king/dead_king.png": "outlined_sprite:irons_spellbooks/dead_king.png",
+      "irons_spellbooks:textures/entity/dead_king/dead_king_enraged.png": "outlined_sprite:irons_spellbooks/dead_king_enraged.png",
+      "layersAllowed": true
+    }
+  }

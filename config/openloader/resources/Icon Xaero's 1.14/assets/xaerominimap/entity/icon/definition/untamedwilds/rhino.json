@@ -1,0 +1,9 @@
+{"variants":{
+    "untamedwilds:textures/entity/rhino/black.png":"outlined_sprite:untamedwilds/rhino/black.png",
+    "untamedwilds:textures/entity/rhino/indian.png":"outlined_sprite:untamedwilds/rhino/indian.png",
+    "untamedwilds:textures/entity/rhino/javan.png":"outlined_sprite:untamedwilds/rhino/javan.png",
+    "untamedwilds:textures/entity/rhino/sumatran.png":"outlined_sprite:untamedwilds/rhino/sumatran.png",
+    "untamedwilds:textures/entity/rhino/white.png":"outlined_sprite:untamedwilds/rhino/white.png",
+    "untamedwilds:textures/entity/rhino/wooly.png":"outlined_sprite:untamedwilds/rhino/wooly.png",
+    "layersAllowed": true
+}}

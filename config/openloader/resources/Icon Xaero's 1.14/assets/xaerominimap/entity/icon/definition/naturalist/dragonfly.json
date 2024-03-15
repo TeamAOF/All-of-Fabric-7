@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "naturalist:textures/entity/dragonfly/red.png": "outlined_sprite:naturalist/dragonfly/red.png",
+        "naturalist:textures/entity/dragonfly/blue.png": "outlined_sprite:naturalist/dragonfly/blue.png",
+        "naturalist:textures/entity/dragonfly/green.png": "outlined_sprite:naturalist/dragonfly/green.png",
+        "layersAllowed": true
+    }
+}

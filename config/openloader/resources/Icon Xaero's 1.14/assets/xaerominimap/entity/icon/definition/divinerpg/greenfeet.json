@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/greenfeet.png"
+	,
+	"layersAllowed": true
+    }
+}

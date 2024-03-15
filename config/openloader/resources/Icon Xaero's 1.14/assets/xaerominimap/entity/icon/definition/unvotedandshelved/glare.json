@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "unvotedandshelved:textures/entity/glare/glare.png": "outlined_sprite:unvotedandshelved/glare.png",
+    "unvotedandshelved:textures/entity/glare/glare_lit.png": "outlined_sprite:unvotedandshelved/glare_lit.png",
+    "unvotedandshelved:textures/entity/glare/glare_grumpy.png": "outlined_sprite:unvotedandshelved/glare_grumpy.png",
+    "unvotedandshelved:textures/entity/glare/glare_grumpy_lit.png": "outlined_sprite:unvotedandshelved/glare_grumpy_lit.png",
+    "default": "outlined_sprite:unvotedandshelved/glare.png"
+  }
+}

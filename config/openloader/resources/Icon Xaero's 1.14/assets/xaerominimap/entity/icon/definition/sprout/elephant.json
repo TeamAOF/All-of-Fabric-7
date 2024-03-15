@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "sprout:textures/entity/elephant.png": "outlined_sprite:sprout/elephant.png",
+        "sprout:textures/entity/sleeping_elephant.png": "outlined_sprite:sprout/sleeping_elephant.png",
+        "sprout:textures/entity/lumpy.png": "outlined_sprite:sprout/lumpy.png",
+        "sprout:textures/entity/sleeping_lumpy.png": "outlined_sprite:sprout/sleeping_lumpy.png",
+        "sprout:textures/entity/tree_trunks.png": "outlined_sprite:sprout/tree_trunks.png",
+        "sprout:textures/entity/sleeping_tree_trunks.png": "outlined_sprite:sprout/sleeping_tree_trunks.png",
+        "default": "outlined_sprite:sprout/elephant.png"
+    }
+}

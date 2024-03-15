@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/roadrunner.png" : "outlined_sprite:alexsmobs/roadrunner.png",
+		"alexsmobs:textures/entity/roadrunner_meep.png" : "outlined_sprite:alexsmobs/roadrunner_meep.png",
+		"layersAllowed":true
+	}
+}

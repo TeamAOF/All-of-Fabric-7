@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "duckling:textures/entity/agent_d.png": "outlined_sprite:duckling/agent_d.png",
+        "duckling:textures/entity/duck.png": "outlined_sprite:duckling/duck.png",
+        "duckling:textures/entity/mallard.png": "outlined_sprite:duckling/mallard.png",
+        "default": "outlined_sprite:duckling/duck.png"
+    }
+}

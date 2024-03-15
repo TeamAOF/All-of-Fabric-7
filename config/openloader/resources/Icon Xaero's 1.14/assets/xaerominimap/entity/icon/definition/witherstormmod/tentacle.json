@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:witherstormmod/tentacle/tentacle.png",
+        "layersAllowed": true
+    }
+}

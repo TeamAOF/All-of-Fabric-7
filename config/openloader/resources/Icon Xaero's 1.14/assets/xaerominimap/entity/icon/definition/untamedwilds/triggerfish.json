@@ -1,0 +1,10 @@
+{"variants":{
+    "untamedwilds:textures/entity/triggerfish/clown.png":"outlined_sprite:untamedwilds/triggerfish/clown.png",
+    "untamedwilds:textures/entity/triggerfish/grey.png":"outlined_sprite:untamedwilds/triggerfish/grey.png",
+    "untamedwilds:textures/entity/triggerfish/orangelined.png":"outlined_sprite:untamedwilds/triggerfish/orangelined.png",
+    "untamedwilds:textures/entity/triggerfish/picasso.png":"outlined_sprite:untamedwilds/triggerfish/picasso.png",
+    "untamedwilds:textures/entity/triggerfish/redtooth.png":"outlined_sprite:untamedwilds/triggerfish/redtooth.png",
+    "untamedwilds:textures/entity/triggerfish/reef.png":"outlined_sprite:untamedwilds/triggerfish/reef.png",
+    "untamedwilds:textures/entity/triggerfish/titan.png":"outlined_sprite:untamedwilds/triggerfish/titan.png",
+    "layersAllowed": true
+}}

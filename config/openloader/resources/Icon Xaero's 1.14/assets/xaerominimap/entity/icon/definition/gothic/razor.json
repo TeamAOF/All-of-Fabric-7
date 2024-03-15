@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:gothic/razor.png"
+	,
+	"layersAllowed": true
+    }
+}

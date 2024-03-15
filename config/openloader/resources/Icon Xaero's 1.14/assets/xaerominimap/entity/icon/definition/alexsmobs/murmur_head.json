@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/murmur.png" : "outlined_sprite:alexsmobs/murmur.png", 
+		"alexsmobs:textures/entity/murmur_angry.png" : "outlined_sprite:alexsmobs/murmur_angry.png",
+		"layersAllowed":true
+	}
+}

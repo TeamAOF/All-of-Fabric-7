@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:enemyexpansion/starved.png"
+	,
+	"layersAllowed": true
+    }
+}

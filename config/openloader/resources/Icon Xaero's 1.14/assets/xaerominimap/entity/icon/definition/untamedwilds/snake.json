@@ -1,0 +1,21 @@
+{"variants":{
+    "untamedwilds:textures/entity/snake/adder.png":"outlined_sprite:untamedwilds/snake/adder.png",
+    "untamedwilds:textures/entity/snake/ball_python.png":"outlined_sprite:untamedwilds/snake/ball_python.png",
+    "untamedwilds:textures/entity/snake/black_mamba.png":"outlined_sprite:untamedwilds/snake/black_mamba.png",
+    "untamedwilds:textures/entity/snake/carpet_python.png":"outlined_sprite:untamedwilds/snake/carpet_python.png",
+    "untamedwilds:textures/entity/snake/cave_racer.png":"outlined_sprite:untamedwilds/snake/cave_racer.png",
+    "untamedwilds:textures/entity/snake/coral.png":"outlined_sprite:untamedwilds/snake/coral.png",
+    "untamedwilds:textures/entity/snake/coral_blue.png":"outlined_sprite:untamedwilds/snake/coral_blue.png",
+    "untamedwilds:textures/entity/snake/corn.png":"outlined_sprite:untamedwilds/snake/corn.png",
+    "untamedwilds:textures/entity/snake/emerald.png":"outlined_sprite:untamedwilds/snake/emerald.png",
+    "untamedwilds:textures/entity/snake/grass_snake.png":"outlined_sprite:untamedwilds/snake/grass_snake.png",
+    "untamedwilds:textures/entity/snake/gray_kingsnake.png":"outlined_sprite:untamedwilds/snake/gray_kingsnake.png",
+    "untamedwilds:textures/entity/snake/green_mamba.png":"outlined_sprite:untamedwilds/snake/green_mamba.png",
+    "untamedwilds:textures/entity/snake/rattlesnake.png":"outlined_sprite:untamedwilds/snake/rattlesnake.png",
+    "untamedwilds:textures/entity/snake/rice_paddy.png":"outlined_sprite:untamedwilds/snake/rice_paddy.png",
+    "untamedwilds:textures/entity/snake/swamp_moccasin.png":"outlined_sprite:untamedwilds/snake/swamp_moccasin.png",
+    "untamedwilds:textures/entity/snake/taipan.png":"outlined_sprite:untamedwilds/snake/taipan.png",
+    "untamedwilds:textures/entity/snake/western_rattlesnake.png":"outlined_sprite:untamedwilds/snake/western_rattlesnake.png",
+    "untamedwilds:textures/entity/snake/sea_krait.png":"outlined_sprite:untamedwilds/snake/sea_krait.png",
+    "layersAllowed": true
+}}

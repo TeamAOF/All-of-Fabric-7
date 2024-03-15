@@ -1,0 +1,31 @@
+{
+    "variants": {
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 1.5,
+            "rotationY": 0,
+            "rotationX": 0,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelPartsFields": [
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;lowerBeak",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;leftEar",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;jaw",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;upperBeak",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;rightEar",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;headFeather2",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;headFeather1",
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;headFeather3"
+            ],
+            "modelMainPartFieldAliases": [
+                "net.pavocado.exoticbirds.client.model.PhoenixModel;head"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": false,
+            "layersAllowed": true
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:alexscaves/deep_one_mage.png",
+        "layersAllowed": true
+    }
+}

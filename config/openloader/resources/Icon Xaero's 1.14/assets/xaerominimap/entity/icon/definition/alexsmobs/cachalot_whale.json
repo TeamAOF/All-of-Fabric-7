@@ -1,0 +1,9 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/cachalot/cachalot_whale_albino.png" : "outlined_sprite:alexsmobs/cachalot/cachalot_whale_albino.png",
+        "alexsmobs:textures/entity/cachalot/cachalot_whale_albino_sleeping.png" : "outlined_sprite:alexsmobs/cachalot/cachalot_whale_albino.png",
+		"alexsmobs:textures/entity/cachalot/cachalot_whale.png" : "outlined_sprite:alexsmobs/cachalot/cachalot_whale.png",
+		"alexsmobs:textures/entity/cachalot/cachalot_whale_sleeping.png" : "outlined_sprite:alexsmobs/cachalot/cachalot_whale_sleeping.png",
+		"layersAllowed":true
+	}
+}

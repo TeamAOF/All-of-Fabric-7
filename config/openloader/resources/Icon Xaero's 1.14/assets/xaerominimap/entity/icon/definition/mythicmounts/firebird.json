@@ -1,0 +1,9 @@
+{
+    "variants":{
+        "mythicmounts:textures/model/entity/firebird_mount.png":"outlined_sprite:mythicmounts/firebird/firebird.png",
+        "mythicmounts:textures/model/entity/firebird_mount2.png":"outlined_sprite:mythicmounts/firebird/firebird_2.png",
+        "mythicmounts:textures/model/entity/firebird_mount3.png":"outlined_sprite:mythicmounts/firebird/firebird_3.png",
+        "mythicmounts:textures/model/entity/firebird_mount4.png":"outlined_sprite:mythicmounts/firebird/firebird_4.png"
+
+    }
+}

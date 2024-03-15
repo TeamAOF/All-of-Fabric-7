@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/king_of_scorchers.png"
+	,
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/vallumraptor.png": "outlined_sprite:alexscaves/vallumraptor/vallumraptor.png",
+        "alexscaves:textures/entity/vallumraptor_alan.png": "outlined_sprite:alexscaves/vallumraptor/vallumraptor_alan.png",
+        "alexscaves:textures/entity/vallumraptor_alan_elder.png": "outlined_sprite:alexscaves/vallumraptor/vallumraptor_alan_elder.png",
+        "alexscaves:textures/entity/vallumraptor_elder.png": "outlined_sprite:alexscaves/vallumraptor/vallumraptor_elder.png",
+        "alexscaves:textures/entity/vallumraptor_retro.png": "outlined_sprite:alexscaves/vallumraptor/vallumraptor_retro.png",
+        "alexscaves:textures/entity/vallumraptor_retro_elder.png": "outlined_sprite:alexscaves/vallumraptor/vallumraptor_retro_elder.png",
+        "layersAllowed": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/blazing_weald_walker.png" : "outlined_sprite:ars_nouveau/weald_walker/blazing_weald_walker.png",
+        "ars_nouveau:textures/entity/blazing_weald_waddler.png" : "outlined_sprite:ars_nouveau/weald_walker/blazing_weald_walker.png",
+        "layersAllowed": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+		"bewitchment:textures/entity/living/hellhound/0.png" : "outlined_sprite:bewitchment/hellhound/0.png",
+		"bewitchment:textures/entity/living/hellhound/1.png" : "outlined_sprite:bewitchment/hellhound/1.png",
+		"bewitchment:textures/entity/living/hellhound/2.png" : "outlined_sprite:bewitchment/hellhound/2.png",
+		"bewitchment:textures/entity/living/hellhound/3.png" : "outlined_sprite:bewitchment/hellhound/3.png",
+		"bewitchment:textures/entity/living/hellhound/4.png" : "outlined_sprite:bewitchment/hellhound/4.png",
+	"layersAllowed": true
+    }
+}

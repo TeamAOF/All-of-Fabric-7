@@ -1,0 +1,10 @@
+{"variants":{
+    "uselessreptile:textures/entity/river_pikehorn/purple.png":"outlined_sprite:uselessreptile/river_pikehorn/purple.png",
+    "uselessreptile:textures/entity/river_pikehorn/teal.png":"outlined_sprite:uselessreptile/river_pikehorn/teal.png",
+    "uselessreptile:textures/entity/river_pikehorn/blue.png":"outlined_sprite:uselessreptile/river_pikehorn/blue.png",
+    "uselessreptile:textures/entity/river_pikehorn/green.png":"outlined_sprite:uselessreptile/river_pikehorn/purple.png",
+    "uselessreptile:textures/entity/river_pikehorn/dark_blue.png":"outlined_sprite:uselessreptile/river_pikehorn/dark_blue.png",
+    "uselessreptile:textures/entity/river_pikehorn/dark_teal.png":"outlined_sprite:uselessreptile/river_pikehorn/dark_teal.png",
+    "uselessreptile:textures/entity/river_pikehorn/dark_green.png":"outlined_sprite:uselessreptile/river_pikehorn/dark_green.png",
+    "uselessreptile:textures/entity/river_pikehorn/dark_purple.png":"outlined_sprite:uselessreptile/river_pikehorn/dark_purple.png"
+}}

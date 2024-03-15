@@ -1,0 +1,19 @@
+{"variants":{
+    "untamedwilds:textures/entity/bear/black_1.png":"outlined_sprite:untamedwilds/bear/black_1.png",
+    "untamedwilds:textures/entity/bear/black_1r.png":"outlined_sprite:untamedwilds/bear/black_1r.png",
+    "untamedwilds:textures/entity/bear/black_2.png":"outlined_sprite:untamedwilds/bear/black_2.png",
+    "untamedwilds:textures/entity/bear/black_3.png":"outlined_sprite:untamedwilds/bear/black_3.png",
+    "untamedwilds:textures/entity/bear/black_4.png":"outlined_sprite:untamedwilds/bear/black_4.png",
+    "untamedwilds:textures/entity/bear/blind.png":"outlined_sprite:untamedwilds/bear/blind.png",
+    "untamedwilds:textures/entity/bear/brown_1.png":"outlined_sprite:untamedwilds/bear/brown_1.png",
+    "untamedwilds:textures/entity/bear/brown_2.png":"outlined_sprite:untamedwilds/bear/brown_2.png",
+    "untamedwilds:textures/entity/bear/brown_3.png":"outlined_sprite:untamedwilds/bear/brown_3.png",
+    "untamedwilds:textures/entity/bear/brown_4.png":"outlined_sprite:untamedwilds/bear/brown_4.png",
+    "untamedwilds:textures/entity/bear/polar.png":"outlined_sprite:untamedwilds/bear/polar.png",
+    "untamedwilds:textures/entity/bear/cave.png":"outlined_sprite:untamedwilds/bear/cave.png",
+    "untamedwilds:textures/entity/bear/panda.png":"outlined_sprite:untamedwilds/bear/panda.png",
+    "untamedwilds:textures/entity/bear/skeleton.png":"outlined_sprite:untamedwilds/bear/skeleton.png",
+    "untamedwilds:textures/entity/bear/spectacled.png":"outlined_sprite:untamedwilds/bear/spectacled.png",
+    "untamedwilds:textures/entity/bear/sun.png":"outlined_sprite:untamedwilds/bear/sun.png",
+    "layersAllowed": true
+}}

@@ -1,0 +1,13 @@
+{
+    "variants": {
+		"betterend:textures/entity/end_fish/end_fish_0.png": "outlined_sprite:betterend/end_fish/end_fish_0.png",
+		"betterend:textures/entity/end_fish/end_fish_1.png": "outlined_sprite:betterend/end_fish/end_fish_1.png",
+		"betterend:textures/entity/end_fish/end_fish_2.png": "outlined_sprite:betterend/end_fish/end_fish_2.png",
+		"betterend:textures/entity/end_fish/end_fish_3.png": "outlined_sprite:betterend/end_fish/end_fish_3.png",
+		"betterend:textures/entity/end_fish/end_fish_4.png": "outlined_sprite:betterend/end_fish/end_fish_4.png",
+		"betterend:textures/entity/end_fish/end_fish_5.png": "outlined_sprite:betterend/end_fish/end_fish_5.png",
+		"betterend:textures/entity/end_fish/end_fish_6.png": "outlined_sprite:betterend/end_fish/end_fish_6.png",
+		"betterend:textures/entity/end_fish/end_fish_7.png": "outlined_sprite:betterend/end_fish/end_fish_7.png",
+	"layersAllowed": true
+    }
+}

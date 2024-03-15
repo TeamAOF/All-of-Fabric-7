@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "mythicmounts:textures/model/entity/courierbird_mount.png": "outlined_sprite:mythicmounts/courierbird/courierbird.png",
+    "mythicmounts:textures/model/entity/courierbird_mount2.png": "outlined_sprite:mythicmounts/courierbird/courierbird_2.png",
+    "mythicmounts:textures/model/entity/courierbird_mount3.png": "outlined_sprite:mythicmounts/courierbird/courierbird_3.png",
+    "mythicmounts:textures/model/entity/courierbird_mount4.png": "outlined_sprite:mythicmounts/courierbird/courierbird_4.png",
+    "mythicmounts:textures/model/entity/courierbird_mount5.png": "outlined_sprite:mythicmounts/courierbird/courierbird_5.png",
+    "mythicmounts:textures/model/entity/courierbird_mount6.png": "outlined_sprite:mythicmounts/courierbird/courierbird_6.png",
+    "mythicmounts:textures/model/entity/courierbird_mount7.png": "outlined_sprite:mythicmounts/courierbird/courierbird_7.png"
+  }
+}

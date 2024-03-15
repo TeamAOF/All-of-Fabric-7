@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "creatures_from_the_snow:textures/entity/snow_wyrm/wild.png": "outlined_sprite:creatures_from_the_snow/snow_wyrm.png"    
+    }
+}

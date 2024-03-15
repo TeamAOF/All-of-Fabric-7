@@ -1,0 +1,9 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/mantis_shrimp_0.png" : "outlined_sprite:alexsmobs/mantis_shrimp_0.png",
+		"alexsmobs:textures/entity/mantis_shrimp_1.png" : "outlined_sprite:alexsmobs/mantis_shrimp_1.png",
+        "alexsmobs:textures/entity/mantis_shrimp_2.png" : "outlined_sprite:alexsmobs/mantis_shrimp_2.png",
+        "alexsmobs:textures/entity/mantis_shrimp_3.png" : "outlined_sprite:alexsmobs/mantis_shrimp_3.png",
+        "layersAllowed":true
+	}
+}

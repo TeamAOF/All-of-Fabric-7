@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/galroid.png" : "outlined_sprite:divinerpg/galroid.png",
+    "divinerpg:textures/entity/galroid_invulnerable.png" : "outlined_sprite:divinerpg/galroid_invulnerable.png",
+	"layersAllowed": true
+    }
+}

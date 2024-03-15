@@ -1,0 +1,10 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/guster.png" : "outlined_sprite:alexsmobs/guster.png",
+		"alexsmobs:textures/entity/guster_red.png" : "outlined_sprite:alexsmobs/guster_red.png",
+        "alexsmobs:textures/entity/guster_silly.png" : "outlined_sprite:alexsmobs/guster_silly.png",
+		"alexsmobs:textures/entity/guster_soul.png" : "outlined_sprite:alexsmobs/guster_soul.png",
+		"layersAllowed" : true
+
+	}
+}

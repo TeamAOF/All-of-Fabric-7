@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/cauldron_fish.png"
+	,
+	"layersAllowed": true
+    }
+}

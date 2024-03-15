@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "naturalist:textures/entity/butterfly/monarch.png": "outlined_sprite:naturalist/butterfly/monarch.png",
+        "naturalist:textures/entity/butterfly/blue_morpho.png": "outlined_sprite:naturalist/butterfly/blue_morpho.png",
+        "naturalist:textures/entity/butterfly/cabbage_white.png": "outlined_sprite:naturalist/butterfly/cabbage_white.png",
+        "naturalist:textures/entity/butterfly/clouded_yellow.png": "outlined_sprite:naturalist/butterfly/clouded_yellow.png",
+        "naturalist:textures/entity/butterfly/swallowtail.png": "outlined_sprite:naturalist/butterfly/swallowtail.png",
+        "layersAllowed": true
+    }
+}

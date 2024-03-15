@@ -1,0 +1,6 @@
+{"variants":{
+    "untamedwilds:textures/entity/aardvark/common_1.png":"outlined_sprite:untamedwilds/aardvark/common_1.png",
+    "untamedwilds:textures/entity/aardvark/common_2.png":"outlined_sprite:untamedwilds/aardvark/common_2.png",
+    "untamedwilds:textures/entity/aardvark/common_3.png":"outlined_sprite:untamedwilds/aardvark/common_3.png",
+    "layersAllowed": true
+}}

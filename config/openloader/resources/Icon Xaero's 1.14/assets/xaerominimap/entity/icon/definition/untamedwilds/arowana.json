@@ -1,0 +1,9 @@
+{"variants":{
+    "untamedwilds:textures/entity/arowana/black.png":"outlined_sprite:untamedwilds/arowana/black.png",
+    "untamedwilds:textures/entity/arowana/green.png":"outlined_sprite:untamedwilds/arowana/green.png",
+    "untamedwilds:textures/entity/arowana/green1r.png":"outlined_sprite:untamedwilds/arowana/green1r.png",
+    "untamedwilds:textures/entity/arowana/green2r.png":"outlined_sprite:untamedwilds/arowana/green2r.png",
+    "untamedwilds:textures/entity/arowana/jardini.png":"outlined_sprite:untamedwilds/arowana/jardini.png",
+    "untamedwilds:textures/entity/arowana/silver.png":"outlined_sprite:untamedwilds/arowana/silver.png",
+    "layersAllowed": true
+}}

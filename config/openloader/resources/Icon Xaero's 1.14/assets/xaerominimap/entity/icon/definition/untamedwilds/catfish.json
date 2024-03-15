@@ -1,0 +1,12 @@
+{"variants":{
+    "untamedwilds:textures/entity/catfish/blue.png":"outlined_sprite:untamedwilds/catfish/blue.png",
+    "untamedwilds:textures/entity/catfish/catfish_mekong.png":"outlined_sprite:untamedwilds/catfish/catfish_mekong.png",
+    "untamedwilds:textures/entity/catfish/catfish_wels.png":"outlined_sprite:untamedwilds/catfish/catfish_wels.png",
+    "untamedwilds:textures/entity/catfish/channel.png":"outlined_sprite:untamedwilds/catfish/channel.png",
+    "untamedwilds:textures/entity/catfish/goonch.png":"outlined_sprite:untamedwilds/catfish/goonch.png",
+    "untamedwilds:textures/entity/catfish/piraiba.png":"outlined_sprite:untamedwilds/catfish/piraiba.png",
+    "untamedwilds:textures/entity/catfish/redtail_1.png":"outlined_sprite:untamedwilds/catfish/redtail_1.png",
+    "untamedwilds:textures/entity/catfish/redtail_2.png":"outlined_sprite:untamedwilds/catfish/redtail_2.png",
+    "untamedwilds:textures/entity/catfish/shovelnose.png":"outlined_sprite:untamedwilds/catfish/shovelnose.png",
+    "layersAllowed": true
+}}

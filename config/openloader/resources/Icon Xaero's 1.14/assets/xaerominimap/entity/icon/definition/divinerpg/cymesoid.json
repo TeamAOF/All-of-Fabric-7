@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/cymesoid.png"
+	,
+	"layersAllowed": true
+    }
+}

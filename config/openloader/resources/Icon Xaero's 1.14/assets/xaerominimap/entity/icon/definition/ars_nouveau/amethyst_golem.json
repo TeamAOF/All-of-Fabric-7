@@ -1,0 +1,6 @@
+{
+    "variants" : {
+        "default" : "outlined_sprite:ars_nouveau/amethyst_golem.png",
+        "layersAllowed": true
+    }
+}

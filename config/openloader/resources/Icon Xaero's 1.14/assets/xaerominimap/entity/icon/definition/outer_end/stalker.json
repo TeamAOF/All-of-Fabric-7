@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "outer_end:textures/entity/stalker_mint.png": "outlined_sprite:outer_end/stalker_mint.png",
+        "outer_end:textures/entity/stalker.png": "outlined_sprite:outer_end/stalker.png",
+        "outer_end:textures/entity/stalker_rose.png": "outlined_sprite:outer_end/stalker.png",
+        "outer_end:textures/entity/stalker_cobalt.png": "outlined_sprite:outer_end/stalker.png",
+        "layersAllowed": true
+    }
+}

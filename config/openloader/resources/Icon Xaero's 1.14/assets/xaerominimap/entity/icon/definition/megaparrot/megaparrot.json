@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "megaparrot:textures/entity/blue_parrot.png": "outlined_sprite:megaparrot/blue_parrot.png",
+        "megaparrot:textures/entity/booby.png": "outlined_sprite:megaparrot/booby.png",
+        "megaparrot:textures/entity/cardinal.png": "outlined_sprite:megaparrot/cardinal.png",
+        "megaparrot:textures/entity/chone.png": "outlined_sprite:megaparrot/chone.png",
+        "megaparrot:textures/entity/cyan_parrot.png": "outlined_sprite:megaparrot/cyan_parrot.png",
+        "megaparrot:textures/entity/green_parrot.png": "outlined_sprite:megaparrot/green_parrot.png",
+        "megaparrot:textures/entity/grey_parrot.png": "outlined_sprite:megaparrot/grey_parrot.png",
+        "megaparrot:textures/entity/kulu.png": "outlined_sprite:megaparrot/kulu.png",
+        "megaparrot:textures/entity/mordecai.png": "outlined_sprite:megaparrot/mordecai.png",
+        "megaparrot:textures/entity/noise.png": "outlined_sprite:megaparrot/noise.png",
+        "megaparrot:textures/entity/phoenix.png": "outlined_sprite:megaparrot/phoenix.png",
+        "megaparrot:textures/entity/red_parrot.png": "outlined_sprite:megaparrot/red_parrot.png",
+        "megaparrot:textures/entity/rooster.png": "outlined_sprite:megaparrot/rooster.png",
+        "megaparrot:textures/entity/snow.png": "outlined_sprite:megaparrot/snow.png",
+        "default": "outlined_sprite:megaparrot/red_parrot.png"
+    }
+}

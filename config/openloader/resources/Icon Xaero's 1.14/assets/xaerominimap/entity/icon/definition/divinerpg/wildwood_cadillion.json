@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/wildwood_cadillion.png"
+	,
+	"layersAllowed": true
+    }
+}

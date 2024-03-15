@@ -1,0 +1,6 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/wilden_hunter_angry.png" : "outlined_sprite:ars_nouveau/wilden_hunter/wilden_hunter_angry.png",
+        "ars_nouveau:textures/entity/wilden_hunter.png" : "outlined_sprite:ars_nouveau/wilden_hunter/wilden_hunter.png","layersAllowed": true
+    }
+}

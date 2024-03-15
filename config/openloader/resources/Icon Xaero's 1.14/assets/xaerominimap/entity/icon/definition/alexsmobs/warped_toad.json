@@ -1,0 +1,9 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/warped_toad.png" : "outlined_sprite:alexsmobs/warped_toad.png",
+		"alexsmobs:textures/entity/warped_toad_blink.png" : "outlined_sprite:alexsmobs/warped_toad_blink.png",
+		"alexsmobs:textures/entity/warped_toad_pepe.png" : "outlined_sprite:alexsmobs/warped_toad_pepe.png",
+		"alexsmobs:textures/entity/warped_toad_pepe_blink.png" : "outlined_sprite:alexsmobs/warped_toad_pepe_blink.png",
+		"layersAllowed":true
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "bosses_of_mass_destruction:textures/entity/gauntlet_hurt.png": "outlined_sprite:bosses_of_mass_destruction/gauntlet_hurt.png",
+    "default": "outlined_sprite:bosses_of_mass_destruction/gauntlet.png"
+  }
+}

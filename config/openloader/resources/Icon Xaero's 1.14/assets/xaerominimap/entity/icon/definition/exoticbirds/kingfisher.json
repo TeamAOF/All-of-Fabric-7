@@ -1,0 +1,27 @@
+{
+	"variants": {
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 1.0,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelPartsFields": [
+				"net.pavocado.exoticbirds.client.model.KingfisherModel;upperBeak",
+				"net.pavocado.exoticbirds.client.model.KingfisherModel;quiff",
+				"net.pavocado.exoticbirds.client.model.KingfisherModel;neck",
+				"net.pavocado.exoticbirds.client.model.KingfisherModel;lowerBeak"
+			],
+			"modelMainPartFieldAliases": [
+				"net.pavocado.exoticbirds.client.model.KingfisherModel;head"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": false,
+			"layersAllowed": true
+		}
+	]
+}

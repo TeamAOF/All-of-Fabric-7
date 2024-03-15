@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/glinthop_angry.png"
+	,
+	"layersAllowed": true
+    }
+}

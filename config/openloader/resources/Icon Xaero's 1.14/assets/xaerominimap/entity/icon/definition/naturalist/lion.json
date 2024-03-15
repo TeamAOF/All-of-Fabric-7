@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "naturalist:textures/entity/lion.png": "outlined_sprite:naturalist/lion/lion.png",
+        "naturalist:textures/entity/lion_angry.png": "outlined_sprite:naturalist/lion/lion_angry.png",
+        "naturalist:textures/entity/lion_sleep.png": "outlined_sprite:naturalist/lion/lion_sleep.png",
+        "naturalist:textures/entity/lioness.png": "outlined_sprite:naturalist/lion/lioness.png",
+        "naturalist:textures/entity/lioness_angry.png": "outlined_sprite:naturalist/lion/lioness_angry.png",
+        "naturalist:textures/entity/lioness_sleep.png": "outlined_sprite:naturalist/lion/lioness_sleep.png",
+        "layersAllowed": true
+    }
+}

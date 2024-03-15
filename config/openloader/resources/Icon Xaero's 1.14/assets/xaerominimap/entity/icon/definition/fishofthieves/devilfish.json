@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/devilfish/ashen.png" : "outlined_sprite:fishofthieves/devilfish/ashen.png",
+    "fishofthieves:textures/entity/devilfish/firelight.png" : "outlined_sprite:fishofthieves/devilfish/firelight.png",
+    "fishofthieves:textures/entity/devilfish/forsaken.png" : "outlined_sprite:fishofthieves/devilfish/forsaken.png",
+    "fishofthieves:textures/entity/devilfish/lava.png" : "outlined_sprite:fishofthieves/devilfish/lava.png",
+    "fishofthieves:textures/entity/devilfish/seashell.png" : "outlined_sprite:fishofthieves/devilfish/seashell.png",
+	"layersAllowed": true
+    }
+}

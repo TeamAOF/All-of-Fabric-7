@@ -1,0 +1,9 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/capuchin_monkey_1.png" : "outlined_sprite:alexsmobs/capuchin_monkey_1.png",
+		"alexsmobs:textures/entity/capuchin_monkey_2.png" : "outlined_sprite:alexsmobs/capuchin_monkey_2.png",
+		"alexsmobs:textures/entity/capuchin_monkey_3.png" : "outlined_sprite:alexsmobs/capuchin_monkey_3.png",
+		"alexsmobs:textures/entity/capuchin_monkey_0.png" : "outlined_sprite:alexsmobs/capuchin_monkey_0.png",
+		"layersAllowed":true
+	}
+}

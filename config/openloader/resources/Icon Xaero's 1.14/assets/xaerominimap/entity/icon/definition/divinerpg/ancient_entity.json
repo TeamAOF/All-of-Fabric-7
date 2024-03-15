@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/ancient_entity.png"
+	,
+	"layersAllowed": true
+    }
+}

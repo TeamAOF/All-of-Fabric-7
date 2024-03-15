@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/iguana.png": "outlined_sprite:wildlife/iguana/iguana.png",
+        "wildlife:textures/model/entity/iguana_amelanistic.png": "outlined_sprite:wildlife/iguana/iguana_amelanistic.png",
+        "wildlife:textures/model/entity/iguana_axanthic.png": "outlined_sprite:wildlife/iguana/iguana_axanthic.png",
+        "wildlife:textures/model/entity/iguana_albino.png": "outlined_sprite:wildlife/birds/iguana_albino.png"
+    }
+}

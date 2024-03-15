@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/enderiophage_overworld.png" : "outlined_sprite:alexsmobs/enderiophage_overworld.png",
+		"alexsmobs:textures/entity/enderiophage_nether.png" : "outlined_sprite:alexsmobs/enderiophage_nether.png",
+		"alexsmobs:textures/entity/enderiophage.png" : "outlined_sprite:alexsmobs/enderiophage.png",
+		"layersAllowed":true
+	}
+}

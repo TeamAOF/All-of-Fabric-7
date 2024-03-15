@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:alexscaves/ferrouslime.png",
+        "layersAllowed": true
+    }
+}

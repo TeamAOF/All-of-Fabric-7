@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "naturalist:textures/entity/lizard/beardie.png": "outlined_sprite:naturalist/lizard/beardie.png",
+        "naturalist:textures/entity/lizard/brown.png": "outlined_sprite:naturalist/lizard/brown.png",
+        "naturalist:textures/entity/lizard/green.png": "outlined_sprite:naturalist/lizard/green.png",
+        "naturalist:textures/entity/lizard/leopard_gecko.png": "outlined_sprite:naturalist/lizard/leopard_gecko.png",
+        "naturalist:textures/entity/lizard/pink.png": "outlined_sprite:naturalist/lizard/pink.png",
+        "layersAllowed": true
+    }
+}

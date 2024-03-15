@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 1.0,
+            "rotationY": 180,
+            "rotationX": -90,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelMainPartFieldAliases": [
+                "net.obscuria.aquamirae.client.model.Modelgolden_moth;body"
+            ],
+            "renderingFullModel": true,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        }
+    ]
+}

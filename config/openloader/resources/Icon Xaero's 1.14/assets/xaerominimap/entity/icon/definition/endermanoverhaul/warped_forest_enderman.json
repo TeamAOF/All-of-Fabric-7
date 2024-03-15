@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:endermanoverhaul/warped_forest_enderman.png"
+	,
+	"layersAllowed": true
+    }
+}

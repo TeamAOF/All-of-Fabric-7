@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/grottoceratops.png": "outlined_sprite:alexscaves/grottoceratops/grottoceratops.png",
+        "alexscaves:textures/entity/grottoceratops_baby.png": "outlined_sprite:alexscaves/grottoceratops/grottoceratops_baby.png",
+        "alexscaves:textures/entity/grottoceratops_retro.png": "outlined_sprite:alexscaves/grottoceratops/grottoceratops_retro.png",
+        "alexscaves:textures/entity/grottoceratops_retro_baby.png": "outlined_sprite:alexscaves/grottoceratops/grottoceratops_retro_baby.png",
+        "layersAllowed": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:outer_end/purpur_golem.png"
+	,
+	"layersAllowed": true
+    }
+}

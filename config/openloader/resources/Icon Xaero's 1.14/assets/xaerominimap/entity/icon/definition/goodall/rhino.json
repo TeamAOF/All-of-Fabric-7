@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "goodall:textures/entity/black_rhino.png": "outlined_sprite:goodall/black_rhino.png",
+        "goodall:textures/entity/black_rhino_sleeping.png": "outlined_sprite:goodall/black_rhino.png",
+        "goodall:textures/entity/white_rhino.png": "outlined_sprite:goodall/white_rhino.png",
+        "goodall:textures/entity/white_rhino_sleeping.png": "outlined_sprite:goodall/white_rhino.png",
+        "default": "outlined_sprite:goodall/black_rhino.png"
+    }
+}

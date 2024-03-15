@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "default": "model:0"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 1.0,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelPartsFields": [
+        "org.violetmoon.quark.content.mobs.client.model.CrabModel;leftEye",
+        "org.violetmoon.quark.content.mobs.client.model.CrabModel;rightEye"
+      ],
+      "modelMainPartFieldAliases": [
+        "org.violetmoon.quark.content.mobs.client.model.CrabModel;body"
+      ],
+      "renderingFullModel": false,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

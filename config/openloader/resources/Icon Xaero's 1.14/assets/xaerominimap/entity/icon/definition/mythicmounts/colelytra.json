@@ -1,0 +1,24 @@
+{
+    "variants": {
+      "mythicmounts:textures/model/entity/colelytra_mount1.png":"outlined_sprite:mythicmounts/colelytra/colelytra_1.png",
+      "mythicmounts:textures/model/entity/colelytra_mount2.png":"outlined_sprite:mythicmounts/colelytra/colelytra_2.png",
+      "mythicmounts:textures/model/entity/colelytra_mount3.png":"outlined_sprite:mythicmounts/colelytra/colelytra_3.png",
+      "mythicmounts:textures/model/entity/colelytra_mount4.png":"outlined_sprite:mythicmounts/colelytra/colelytra_4.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_black.png":"outlined_sprite:mythicmounts/colelytra/colelytra_black.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_blue.png":"outlined_sprite:mythicmounts/colelytra/colelytra_blue.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_brown.png":"outlined_sprite:mythicmounts/colelytra/colelytra_brown.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_cyan.png":"outlined_sprite:mythicmounts/colelytra/colelytra_cyan.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_gray.png":"outlined_sprite:mythicmounts/colelytra/colelytra_gray.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_green.png":"outlined_sprite:mythicmounts/colelytra/colelytra_green.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_light_blue.png":"outlined_sprite:mythicmounts/colelytra/colelytra_light_blue.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_light_gray.png":"outlined_sprite:mythicmounts/colelytra/colelytra_light_gray.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_lime.png":"outlined_sprite:mythicmounts/colelytra/colelytra_lime.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_magenta.png":"outlined_sprite:mythicmounts/colelytra/colelytra_magenta.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_orange.png":"outlined_sprite:mythicmounts/colelytra/colelytra_orange.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_pink.png":"outlined_sprite:mythicmounts/colelytra/colelytra_pink.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_purple.png":"outlined_sprite:mythicmounts/colelytra/colelytra_purple.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_red.png":"outlined_sprite:mythicmounts/colelytra/colelytra_red.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_white.png":"outlined_sprite:mythicmounts/colelytra/colelytra_white.png",
+      "mythicmounts:textures/model/entity/colelytra_mount_yellow.png":"outlined_sprite:mythicmounts/colelytra/colelytra_yellow.png"
+    }
+}

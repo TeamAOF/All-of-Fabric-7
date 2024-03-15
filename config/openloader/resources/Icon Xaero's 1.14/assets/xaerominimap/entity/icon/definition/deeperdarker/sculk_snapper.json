@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:deeperdarker/sculk_snapper.png"
+	,
+	"layersAllowed": true
+    }
+}

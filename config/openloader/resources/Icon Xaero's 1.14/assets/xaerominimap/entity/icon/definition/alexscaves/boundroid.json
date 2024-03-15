@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/boundroid.png": "outlined_sprite:alexscaves/boundroid/boundroid.png",
+        "alexscaves:textures/entity/boundroid_quarry.png": "outlined_sprite:alexscaves/boundroid/boundroid_quarry.png",
+        "alexscaves:textures/entity/boundroid_scared.png": "outlined_sprite:alexscaves/boundroid/boundroid_scared.png",
+        "layersAllowed": true
+    }
+}

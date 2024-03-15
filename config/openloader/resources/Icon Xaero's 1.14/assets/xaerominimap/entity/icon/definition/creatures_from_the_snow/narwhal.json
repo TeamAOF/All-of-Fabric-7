@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "creatures_from_the_snow:textures/entity/narwhal.png": "outlined_sprite:creatures_from_the_snow/narwhal.png"
+    
+    }
+}

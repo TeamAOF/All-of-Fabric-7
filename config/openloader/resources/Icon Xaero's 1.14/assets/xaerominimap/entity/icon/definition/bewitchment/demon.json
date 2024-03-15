@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "bewitchment:textures/entity/living/demon/female_0.png": "outlined_sprite:bewitchment/demon/female_0.png",
+        "bewitchment:textures/entity/living/demon/female_1.png": "outlined_sprite:bewitchment/demon/female_1.png",
+        "bewitchment:textures/entity/living/demon/female_2.png": "outlined_sprite:bewitchment/demon/female_2.png",
+        "bewitchment:textures/entity/living/demon/female_3.png": "outlined_sprite:bewitchment/demon/female_3.png",
+        "bewitchment:textures/entity/living/demon/female_4.png": "outlined_sprite:bewitchment/demon/female_4.png",
+        "bewitchment:textures/entity/living/demon/male_0.png": "outlined_sprite:bewitchment/demon/male_0.png",
+        "bewitchment:textures/entity/living/demon/male_1.png": "outlined_sprite:bewitchment/demon/male_1.png",
+        "bewitchment:textures/entity/living/demon/male_2.png": "outlined_sprite:bewitchment/demon/male_2.png",
+        "bewitchment:textures/entity/living/demon/male_3.png": "outlined_sprite:bewitchment/demon/male_3.png",
+        "bewitchment:textures/entity/living/demon/male_4.png": "outlined_sprite:bewitchment/demon/male_4.png",
+        "layersAllowed": true
+    }
+}

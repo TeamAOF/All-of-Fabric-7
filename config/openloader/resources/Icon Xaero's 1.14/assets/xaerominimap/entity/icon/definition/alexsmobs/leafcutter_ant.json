@@ -1,0 +1,9 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/leafcutter_ant_angry.png" : "outlined_sprite:alexsmobs/leafcutter_ant_angry.png",
+		"alexsmobs:textures/entity/leafcutter_ant.png" : "outlined_sprite:alexsmobs/leafcutter_ant.png",
+		"alexsmobs:textures/entity/leafcutter_ant_queen.png" : "outlined_sprite:alexsmobs/leafcutter_ant_queen.png",
+		"alexsmobs:textures/entity/leafcutter_ant_queen_angry.png" : "outlined_sprite:alexsmobs/leafcutter_ant_queen_angry.png",
+		"layersAllowed":true
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/hell_pig/hell_pig.png" : "outlined_sprite:divinerpg/hell_pig/hell_pig.png",
+	"divinerpg:textures/entity/hell_pig/hell_pig_mad.png" : "outlined_sprite:divinerpg/hell_pig/hell_pig.png",
+    "divinerpg:textures/entity/hell_pig/hell_pig_tamed.png" : "outlined_sprite:divinerpg/hell_pig/hell_pig_tamed.png",
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "goodall:textures/entity/dumbo_octopus_blue.png": "outlined_sprite:goodall/dumbo_octopus_blue.png",
+        "goodall:textures/entity/dumbo_octopus_yellow.png": "outlined_sprite:goodall/dumbo_octopus_yellow.png",
+        "goodall:textures/entity/dumbo_octopus_pink.png": "outlined_sprite:goodall/dumbo_octopus_pink.png",
+        "default": "outlined_sprite:goodall/dumbo_octopus_blue.png"
+    }
+}

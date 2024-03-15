@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:aquamirae/golden_moth.png"
+	,
+	"layersAllowed": true
+    }
+}

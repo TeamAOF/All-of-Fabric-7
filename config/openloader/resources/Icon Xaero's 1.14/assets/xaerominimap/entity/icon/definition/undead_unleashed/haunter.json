@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:undead_unleashed/haunter.png"
+	,
+	"layersAllowed": true
+    }
+}

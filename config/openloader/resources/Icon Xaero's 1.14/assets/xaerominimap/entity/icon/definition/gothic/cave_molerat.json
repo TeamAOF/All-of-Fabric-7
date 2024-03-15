@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:gothic/molerat_cave.png"
+	,
+	"layersAllowed": true
+    }
+}

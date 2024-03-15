@@ -1,0 +1,7 @@
+{"variants":{
+    "untamedwilds:textures/entity/spadefish/atlantic.png":"outlined_sprite:untamedwilds/spadefish/atlantic.png",
+    "untamedwilds:textures/entity/spadefish/dusky.png":"outlined_sprite:untamedwilds/spadefish/dusky.png",
+    "untamedwilds:textures/entity/spadefish/orbicular.png":"outlined_sprite:untamedwilds/spadefish/orbicular.png",
+    "untamedwilds:textures/entity/spadefish/teira.png":"outlined_sprite:untamedwilds/spadefish/teira.png",
+    "layersAllowed": true
+}}

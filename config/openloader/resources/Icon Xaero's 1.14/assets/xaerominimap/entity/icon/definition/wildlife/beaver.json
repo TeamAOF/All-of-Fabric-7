@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/beaver.png": "outlined_sprite:wildlife/beaver/beaver.png",
+        "wildlife:textures/model/entity/beaver_albino.png": "outlined_sprite:wildlife/beaver/beaver_albino.png"
+    }
+}

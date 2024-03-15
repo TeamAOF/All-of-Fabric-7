@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:sons_of_sins/gulber.png"
+	,
+	"layersAllowed": true
+    }
+}

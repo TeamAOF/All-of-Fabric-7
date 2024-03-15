@@ -1,0 +1,8 @@
+{
+
+    "variants": {
+      "default": "outlined_sprite:mca/female_villager.png",
+      "layerAllow":true
+    }
+  
+  }

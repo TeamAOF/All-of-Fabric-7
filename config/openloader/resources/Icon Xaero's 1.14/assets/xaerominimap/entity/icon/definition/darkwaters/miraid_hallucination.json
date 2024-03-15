@@ -1,0 +1,7 @@
+{
+    "variants": {
+      "darkwaters:textures/entity/miraid_hallucination.png": "outlined_sprite:darkwaters/miraid_hallucination.png",
+      "darkwaters:textures/entity/miraid_hallucination_angry.png": "outlined_sprite:darkwaters/miraid_hallucination_angry.png",
+      "layersAllowed": true
+    }
+  }

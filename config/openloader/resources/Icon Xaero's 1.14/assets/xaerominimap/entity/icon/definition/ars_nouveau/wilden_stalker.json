@@ -1,0 +1,6 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/stalker_angry.png" : "outlined_sprite:ars_nouveau/wilden_stalker/wilden_stalker_angry.png",
+        "default" : "outlined_sprite:ars_nouveau/wilden_stalker/wilden_stalker.png","layersAllowed": true
+    }
+}

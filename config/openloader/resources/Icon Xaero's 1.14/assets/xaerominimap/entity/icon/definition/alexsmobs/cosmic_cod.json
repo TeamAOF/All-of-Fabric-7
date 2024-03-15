@@ -1,0 +1,6 @@
+{
+	"variants" : {
+		"default" : "outlined_sprite:alexsmobs/cosmic_cod.png",
+		"layersAllowed":true
+	}
+}

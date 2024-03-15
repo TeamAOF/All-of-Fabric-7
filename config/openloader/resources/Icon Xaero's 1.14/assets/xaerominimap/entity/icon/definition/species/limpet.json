@@ -1,0 +1,17 @@
+{
+    "variants": {
+	"species:textures/entity/limpet/minerals/amethyst.png" : "outlined_sprite:species/limpet/amethyst.png",
+    "species:textures/entity/limpet/minerals/amethyst_gary.png" : "outlined_sprite:species/limpet/amethyst_gary.png",
+    "species:textures/entity/limpet/minerals/coal.png" : "outlined_sprite:species/limpet/coal.png",
+    "species:textures/entity/limpet/minerals/coal_gary.png" : "outlined_sprite:species/limpet/coal_gary.png",
+    "species:textures/entity/limpet/minerals/diamond.png" : "outlined_sprite:species/limpet/diamond.png",
+    "species:textures/entity/limpet/minerals/diamond_gary.png" : "outlined_sprite:species/limpet/diamond_gary.png",
+    "species:textures/entity/limpet/minerals/emerald.png" : "outlined_sprite:species/limpet/emerald.png",
+    "species:textures/entity/limpet/minerals/emerald_gary.png" : "outlined_sprite:species/limpet/emerald_gary.png",
+    "species:textures/entity/limpet/minerals/lapis.png" : "outlined_sprite:species/limpet/lapis.png",
+    "species:textures/entity/limpet/minerals/lapis_gary.png" : "outlined_sprite:species/limpet/lapis_gary.png",
+    "species:textures/entity/limpet/limpet.png" : "outlined_sprite:species/limpet/limpet.png",
+    "species:textures/entity/limpet/limpet_gary.png" : "outlined_sprite:species/limpet/limpet_gary.png",
+	"layersAllowed": true
+    }
+}

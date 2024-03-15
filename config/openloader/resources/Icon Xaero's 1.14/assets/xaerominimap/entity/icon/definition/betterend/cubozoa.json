@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "betterend:textures/entity/cubozoa/cubozoa.png": "outlined_sprite:betterend/cubozoa/cubozoa.png",
+	
+		"betterend:textures/entity/cubozoa/cubozoa_sulphur.png": "outlined_sprite:betterend/cubozoa/cubozoa_sulphur.png",
+
+	"layersAllowed": true
+    }
+}

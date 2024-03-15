@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/wildsplash/coral.png" : "outlined_sprite:fishofthieves/wildsplash/coral.png",
+    "fishofthieves:textures/entity/wildsplash/muddy.png" : "outlined_sprite:fishofthieves/wildsplash/muddy.png",
+    "fishofthieves:textures/entity/wildsplash/ocean.png" : "outlined_sprite:fishofthieves/wildsplash/ocean.png",
+    "fishofthieves:textures/entity/wildsplash/russet.png" : "outlined_sprite:fishofthieves/wildsplash/russet.png",
+    "fishofthieves:textures/entity/wildsplash/sandy.png" : "outlined_sprite:fishofthieves/wildsplash/sandy.png",
+	"layersAllowed": true
+    }
+}

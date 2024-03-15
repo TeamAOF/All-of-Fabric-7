@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "default": "outlined_sprite:adventurez/void_shade.png"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 1.0,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelMainPartFieldAliases": [
+        "net.adventurez.entity.model.VoidShadeModel;body"
+      ],
+      "renderingFullModel": false,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

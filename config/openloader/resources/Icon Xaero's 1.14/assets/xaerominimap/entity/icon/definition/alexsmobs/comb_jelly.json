@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/comb_jelly_blue.png" : "outlined_sprite:alexsmobs/comb_jelly_blue.png",
+		"alexsmobs:textures/entity/comb_jelly_red.png" : "outlined_sprite:alexsmobs/comb_jelly_red.png",
+		"alexsmobs:textures/entity/comb_jelly_green.png" : "outlined_sprite:alexsmobs/comb_jelly_green.png",
+		"layersAllowed" : true
+	}
+}

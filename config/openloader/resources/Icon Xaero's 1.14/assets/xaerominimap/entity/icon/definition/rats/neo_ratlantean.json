@@ -1,0 +1,9 @@
+{
+	"variants" : {
+        "rats:textures/entity/neo_ratlantean/neo_ratlantean_black.png": "outlined_sprite:rats/neo_ratlantean/neo_ratlantean_black.png",
+        "rats:textures/entity/neo_ratlantean/neo_ratlantean_blue.png": "outlined_sprite:rats/neo_ratlantean/neo_ratlantean_blue.png",
+        "rats:textures/entity/neo_ratlantean/neo_ratlantean_brown.png": "outlined_sprite:rats/neo_ratlantean/neo_ratlantean_brown.png",
+        "rats:textures/entity/neo_ratlantean/neo_ratlantean_green.png": "outlined_sprite:rats/neo_ratlantean/neo_ratlantean_green.png",
+        "layersAllowed": true
+	}
+}

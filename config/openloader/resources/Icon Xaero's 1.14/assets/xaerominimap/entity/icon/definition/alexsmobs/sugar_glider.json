@@ -1,0 +1,6 @@
+{
+	"variants" : {
+		"default" : "outlined_sprite:alexsmobs/sugar_glider.png",
+		"layersAllowed":true
+	}
+}

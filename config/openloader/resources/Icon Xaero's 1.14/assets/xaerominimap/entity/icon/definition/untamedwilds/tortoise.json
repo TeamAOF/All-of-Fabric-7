@@ -1,0 +1,9 @@
+{"variants":{
+    "untamedwilds:textures/entity/tortoise/asian_box.png":"outlined_sprite:untamedwilds/tortoise/asian_box.png",
+    "untamedwilds:textures/entity/tortoise/gopher.png":"outlined_sprite:untamedwilds/tortoise/gopher.png",
+    "untamedwilds:textures/entity/tortoise/leopard.png":"outlined_sprite:untamedwilds/tortoise/leopard.png",
+    "untamedwilds:textures/entity/tortoise/marginated.png":"outlined_sprite:untamedwilds/tortoise/marginated.png",
+    "untamedwilds:textures/entity/tortoise/star.png":"outlined_sprite:untamedwilds/tortoise/star.png",
+    "untamedwilds:textures/entity/tortoise/sulcata.png":"outlined_sprite:untamedwilds/tortoise/sulcata.png",
+    "layersAllowed": true
+}}

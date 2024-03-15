@@ -1,0 +1,12 @@
+{
+    "variants": {
+    "hybrid-aquatic:textures/entity/starfish_black.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_black.png",
+    "hybrid-aquatic:textures/entity/starfish_blue.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_blue.png",
+    "hybrid-aquatic:textures/entity/starfish_green.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_green.png",
+    "hybrid-aquatic:textures/entity/starfish_purple.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_purple.png",
+    "hybrid-aquatic:textures/entity/starfish_red.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_red.png",
+    "hybrid-aquatic:textures/entity/starfish_white.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_white.png",
+    "hybrid-aquatic:textures/entity/starfish_yellow.png":"outlined_sprite:hybrid-aquatic/starfish/starfish_yellow.png",
+    "layersAllowed": true
+    }
+} 

@@ -1,0 +1,7 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/crocodile_0.png" : "outlined_sprite:alexsmobs/crocodile_0.png",
+        "alexsmobs:textures/entity/crocodile_1.png" : "outlined_sprite:alexsmobs/crocodile_1.png",
+		"layersAllowed": true
+	}
+}

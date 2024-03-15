@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "default": "model:0"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 0.2,
+      "rotationY": 270,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelMainPartFieldAliases": [
+        "net.adventurez.entity.model.EnderWhaleModel;body2"
+      ],
+      "renderingFullModel": true,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

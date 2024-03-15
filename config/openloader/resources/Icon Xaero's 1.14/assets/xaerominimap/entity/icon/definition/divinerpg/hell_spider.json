@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/hell_spider.png"
+	,
+	"layersAllowed": true
+    }
+}

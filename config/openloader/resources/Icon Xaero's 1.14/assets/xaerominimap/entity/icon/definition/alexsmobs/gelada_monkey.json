@@ -1,0 +1,9 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/gelada_monkey.png" : "outlined_sprite:alexsmobs/gelada_monkey.png",
+		"alexsmobs:textures/entity/gelada_monkey_angry.png" : "outlined_sprite:alexsmobs/gelada_monkey_angry.png",
+		"alexsmobs:textures/entity/gelada_monkey_leader.png" : "outlined_sprite:alexsmobs/gelada_monkey_leader.png",
+		"alexsmobs:textures/entity/gelada_monkey_leader_angry.png" : "outlined_sprite:alexsmobs/gelada_monkey_leader_angry.png",
+		"layersAllowed":true
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:goodending/firefly_swarm.png",
+        "layersAllowed": true
+    }
+}

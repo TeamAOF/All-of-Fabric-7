@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "witherstormmod:textures/entity/wither_storm/wither_storm.png": "outlined_sprite:witherstormmod/wither_storm/wither_storm.png",
+        "witherstormmod:textures/entity/wither_storm/wither_storm_invulnerable.png": "outlined_sprite:witherstormmod/wither_storm/wither_storm_invulnerable.png",
+        "default":"outlined_sprite:witherstormmod/wither_storm/wither_storm.png",
+        "layersAllowed": true
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:naturalist/snake/coral_snake.png",
+        "layersAllowed": true
+    }
+}

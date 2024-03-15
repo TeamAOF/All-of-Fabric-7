@@ -1,0 +1,9 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/orca_ne.png" : "outlined_sprite:alexsmobs/orca_ne.png",
+		"alexsmobs:textures/entity/orca_nw.png" : "outlined_sprite:alexsmobs/orca_nw.png",
+		"alexsmobs:textures/entity/orca_se.png" : "outlined_sprite:alexsmobs/orca_se.png",
+		"alexsmobs:textures/entity/orca_sw.png" : "outlined_sprite:alexsmobs/orca_sw.png",
+		"layersAllowed":true
+	}
+}

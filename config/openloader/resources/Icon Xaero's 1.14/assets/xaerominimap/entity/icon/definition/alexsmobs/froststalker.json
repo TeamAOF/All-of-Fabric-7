@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/froststalker.png" : "outlined_sprite:alexsmobs/froststalker.png",
+		"alexsmobs:textures/entity/froststalker_nospikes.png" : "outlined_sprite:alexsmobs/froststalker_nospikes.png",
+		"layersAllowed":true
+	}
+}

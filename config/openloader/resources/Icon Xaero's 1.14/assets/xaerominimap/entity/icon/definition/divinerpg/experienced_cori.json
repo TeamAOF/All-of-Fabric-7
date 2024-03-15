@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/experienced_cori.png"
+	,
+	"layersAllowed": true
+    }
+}

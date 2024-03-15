@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:endermanoverhaul/crimson_forest_enderman.png"
+	,
+	"layersAllowed": true
+    }
+}

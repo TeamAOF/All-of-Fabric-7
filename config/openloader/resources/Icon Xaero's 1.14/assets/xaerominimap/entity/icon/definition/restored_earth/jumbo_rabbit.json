@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "default": "model:0"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 0.7,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelPartsFields": [
+        "com.itayfeder.restored_earth.client.renderer.entities.models.JumboRabbitModel;rightEar",
+        "com.itayfeder.restored_earth.client.renderer.entities.models.JumboRabbitModel;leftEar"
+      ],
+      "modelMainPartFieldAliases": [
+        "com.itayfeder.restored_earth.client.renderer.entities.models.JumboRabbitModel;head"
+      ],
+      "renderingFullModel": false,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

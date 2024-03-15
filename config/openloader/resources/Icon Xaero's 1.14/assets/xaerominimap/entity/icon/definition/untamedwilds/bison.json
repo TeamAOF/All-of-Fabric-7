@@ -1,0 +1,5 @@
+{"variants":{
+    "untamedwilds:textures/entity/bison/plains.png":"outlined_sprite:untamedwilds/bison/plains.png",
+    "untamedwilds:textures/entity/bison/wisent.png":"outlined_sprite:untamedwilds/bison/wisent.png",
+    "layersAllowed": true
+}}

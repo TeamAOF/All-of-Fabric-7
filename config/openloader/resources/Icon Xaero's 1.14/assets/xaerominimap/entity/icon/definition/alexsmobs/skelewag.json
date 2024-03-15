@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/skelewag_0.png" : "outlined_sprite:alexsmobs/skelewag_0.png",
+		"alexsmobs:textures/entity/skelewag_1.png" : "outlined_sprite:alexsmobs/skelewag_1.png",
+		"layersAllowed":true
+	}
+}

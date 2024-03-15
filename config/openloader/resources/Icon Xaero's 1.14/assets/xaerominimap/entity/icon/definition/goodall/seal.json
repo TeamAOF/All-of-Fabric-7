@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "goodall:textures/entity/seal.png": "outlined_sprite:goodall/seal.png",
+        "goodall:textures/entity/seal_sleeping.png": "outlined_sprite:goodall/seal_sleeping.png",
+        "goodall:textures/entity/snowy_seal.png": "outlined_sprite:goodall/snowy_seal.png",
+        "goodall:textures/entity/snowy_seal_sleeping.png": "outlined_sprite:goodall/snowy_seal_sleeping.png",
+        "default": "outlined_sprite:goodall/seal.png"
+    }
+}

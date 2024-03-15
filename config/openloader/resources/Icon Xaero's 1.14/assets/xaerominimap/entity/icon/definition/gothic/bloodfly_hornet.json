@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:gothic/bloodfly_hornet.png"
+	,
+	"layersAllowed": true
+    }
+}

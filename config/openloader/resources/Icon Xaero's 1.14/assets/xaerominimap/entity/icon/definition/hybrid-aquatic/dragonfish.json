@@ -1,0 +1,6 @@
+{
+    "variants": {
+    "default":"outlined_sprite:hybrid-aquatic/dragonfish.png",
+    "layersAllowed": true
+    }
+} 

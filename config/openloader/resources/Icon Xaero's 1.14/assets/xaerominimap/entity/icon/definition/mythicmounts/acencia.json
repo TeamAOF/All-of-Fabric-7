@@ -1,0 +1,10 @@
+{
+    "variants": {
+      "mythicmounts:textures/model/entity/acencia_mount1.png":"outlined_sprite:mythicmounts/acencia/acencia_1.png",
+      "mythicmounts:textures/model/entity/acencia_mount2.png":"outlined_sprite:mythicmounts/acencia/acencia_2.png",
+      "mythicmounts:textures/model/entity/acencia_mount3.png":"outlined_sprite:mythicmounts/acencia/acencia_3.png",
+      "mythicmounts:textures/model/entity/acencia_mount4.png":"outlined_sprite:mythicmounts/acencia/acencia_4.png",
+      "mythicmounts:textures/model/entity/acencia_mount5.png":"outlined_sprite:mythicmounts/acencia/acencia_5.png"
+
+    }
+}

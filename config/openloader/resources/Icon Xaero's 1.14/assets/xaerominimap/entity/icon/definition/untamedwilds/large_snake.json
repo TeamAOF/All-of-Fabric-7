@@ -1,0 +1,6 @@
+{"variants":{
+    "untamedwilds:textures/entity/large_snake/anaconda.png":"outlined_sprite:untamedwilds/large_snake/anaconda.png",
+    "untamedwilds:textures/entity/large_snake/reticulated_python.png":"outlined_sprite:untamedwilds/large_snake/reticulated_python.png",
+    "untamedwilds:textures/entity/large_snake/titanoboa.png":"outlined_sprite:untamedwilds/large_snake/titanoboa.png",
+    "layersAllowed": true
+}}

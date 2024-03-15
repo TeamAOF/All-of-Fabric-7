@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/small_terrestrial.png": "outlined_sprite:wildlife/small_terrestrial/ferret.png",
+        "wildlife:textures/model/entity/small_terrestrial_albino.png": "outlined_sprite:wildlife/small_terrestrial/ferret_albino.png"
+
+    }
+}

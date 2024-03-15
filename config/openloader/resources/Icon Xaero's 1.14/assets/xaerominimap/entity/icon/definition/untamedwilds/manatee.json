@@ -1,0 +1,8 @@
+{"variants":{
+    "untamedwilds:textures/entity/manatee/african.png":"outlined_sprite:untamedwilds/manatee/african.png",
+    "untamedwilds:textures/entity/manatee/amazon.png":"outlined_sprite:untamedwilds/manatee/amazon.png",
+    "untamedwilds:textures/entity/manatee/dugong.png":"outlined_sprite:untamedwilds/manatee/dugong.png",
+    "untamedwilds:textures/entity/manatee/steller.png":"outlined_sprite:untamedwilds/manatee/steller.png",
+    "untamedwilds:textures/entity/manatee/west.png":"outlined_sprite:untamedwilds/manatee/west.png",
+    "layersAllowed": true
+}}

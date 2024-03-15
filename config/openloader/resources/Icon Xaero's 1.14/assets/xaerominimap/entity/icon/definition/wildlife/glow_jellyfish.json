@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/jellyfish1.png": "outlined_sprite:wildlife/jellyfish/jellyfish1.png",
+        "wildlife:textures/model/entity/jellyfish2.png": "outlined_sprite:wildlife/jellyfish/jellyfish2.png",
+        "wildlife:textures/model/entity/jellyfish3.png": "outlined_sprite:wildlife/jellyfish/jellyfish3.png",
+        "wildlife:textures/model/entity/jellyfish4.png": "outlined_sprite:wildlife/jellyfish/jellyfish4.png",
+        "wildlife:textures/model/entity/jellyfish5.png": "outlined_sprite:wildlife/jellyfish/jellyfish5.png",
+        "wildlife:textures/model/entity/jellyfish6.png": "outlined_sprite:wildlife/jellyfish/jellyfish6.png",
+        "wildlife:textures/model/entity/jellyfish7.png": "outlined_sprite:wildlife/jellyfish/jellyfish7.png"
+
+    }
+}

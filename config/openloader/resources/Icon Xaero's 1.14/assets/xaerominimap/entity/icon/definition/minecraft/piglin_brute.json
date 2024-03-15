@@ -1,0 +1,8 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/piglin/piglin_brute.png"
+		,
+		"layersAllowed": true
+	  }
+  }

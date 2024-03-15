@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"bewitchment:textures/entity/living/owl/0.png" : "outlined_sprite:bewitchment/owl/0.png",
+	"bewitchment:textures/entity/living/owl/1.png" : "outlined_sprite:bewitchment/owl/1.png",
+	"bewitchment:textures/entity/living/owl/2.png" : "outlined_sprite:bewitchment/owl/2.png",
+	"bewitchment:textures/entity/living/owl/3.png" : "outlined_sprite:bewitchment/owl/3.png",
+	"bewitchment:textures/entity/living/owl/4.png" : "outlined_sprite:bewitchment/owl/4.png",
+	"layersAllowed": true
+    }
+}

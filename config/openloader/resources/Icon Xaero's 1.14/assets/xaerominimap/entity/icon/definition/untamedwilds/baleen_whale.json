@@ -1,0 +1,9 @@
+{"variants":{
+    "untamedwilds:textures/entity/baleen_whale/blue.png":"outlined_sprite:untamedwilds/baleen_whale/blue.png",
+    "untamedwilds:textures/entity/baleen_whale/fin.png":"outlined_sprite:untamedwilds/baleen_whale/fin.png",
+    "untamedwilds:textures/entity/baleen_whale/gray.png":"outlined_sprite:untamedwilds/baleen_whale/gray.png",
+    "untamedwilds:textures/entity/baleen_whale/humpback.png":"outlined_sprite:untamedwilds/baleen_whale/humpback.png",
+    "untamedwilds:textures/entity/baleen_whale/minke.png":"outlined_sprite:untamedwilds/baleen_whale/minke.png",
+    "untamedwilds:textures/entity/baleen_whale/sei.png":"outlined_sprite:untamedwilds/baleen_whale/sei.png",
+    "layersAllowed": true
+}}

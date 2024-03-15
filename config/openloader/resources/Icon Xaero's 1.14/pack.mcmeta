@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 18,
+    "supported_formats": [
+      6,
+      22
+    ],
+    "description": "Adds icons mod to Xaero's Minimap and WorldMap"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/islehopper/amethyst.png" : "outlined_sprite:fishofthieves/islehopper/amethyst.png",
+    "fishofthieves:textures/entity/islehopper/honey.png" : "outlined_sprite:fishofthieves/islehopper/honey.png",
+    "fishofthieves:textures/entity/islehopper/moss.png" : "outlined_sprite:fishofthieves/islehopper/moss.png",
+    "fishofthieves:textures/entity/islehopper/raven.png" : "outlined_sprite:fishofthieves/islehopper/raven.png",
+    "fishofthieves:textures/entity/islehopper/stone.png" : "outlined_sprite:fishofthieves/islehopper/stone.png",
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 0.5,
+            "rotationY": 0,
+            "rotationX": 90,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelMainPartFieldAliases": [
+                "net.obscuria.aquamirae.client.model.Modelmaze_rose;maze_rose"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+	"variants" : {
+		"default" : "sprite:knight_quest/kq_fishling.png"
+	},
+	"modelConfigs": [
+	  { 
+		"baseScale": 0.5
+	  }
+	]
+}

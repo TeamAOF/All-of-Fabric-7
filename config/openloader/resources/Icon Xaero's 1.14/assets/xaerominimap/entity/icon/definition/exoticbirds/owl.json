@@ -1,0 +1,26 @@
+{
+	"variants": {
+		"exoticbirds:textures/entity/owl/owl_barn.png": "sprite:exoticbirds/owl_barn.png",
+		"exoticbirds:textures/entity/owl/owl_snowy.png": "sprite:exoticbirds/owl_snowy.png",
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 1.0,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelPartsFields": [
+				"net.pavocado.exoticbirds.client.model.OwlModel;beak"
+			],
+			"modelMainPartFieldAliases": [
+				"net.pavocado.exoticbirds.client.model.OwlModel;head"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{"variants":{
+    "untamedwilds:textures/entity/wildebeest/black.png":"outlined_sprite:untamedwilds/wildebeest/black.png",
+    "untamedwilds:textures/entity/wildebeest/blue.png":"outlined_sprite:untamedwilds/wildebeest/blue.png",
+    "layersAllowed": true
+}}

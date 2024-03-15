@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:betternether/firefly.png"
+	,
+	"layersAllowed": true
+    }
+}

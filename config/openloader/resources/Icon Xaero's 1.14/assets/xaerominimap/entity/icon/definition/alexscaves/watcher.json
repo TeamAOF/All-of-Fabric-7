@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/watcher.png": "outlined_sprite:alexscaves/watcher.png",
+        "alexscaves:textures/entity/watcher_appearance.png": "outlined_sprite:alexscaves/watcher_appearance.png",
+        "layersAllowed": true
+    }
+}

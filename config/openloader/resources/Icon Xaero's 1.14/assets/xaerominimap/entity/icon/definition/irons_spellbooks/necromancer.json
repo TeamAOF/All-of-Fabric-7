@@ -1,0 +1,6 @@
+{
+    "variants": {
+      "default": "outlined_sprite:irons_spellbooks/necromancer.png",
+      "layersAllowed": true
+    }
+  }

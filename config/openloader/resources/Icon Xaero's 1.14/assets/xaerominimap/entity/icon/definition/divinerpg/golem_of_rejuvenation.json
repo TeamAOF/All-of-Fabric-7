@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/golem_of_rejuvenation.png"
+	,
+	"layersAllowed": true
+    }
+}

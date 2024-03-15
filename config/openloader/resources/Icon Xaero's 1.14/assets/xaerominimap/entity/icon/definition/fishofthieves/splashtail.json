@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/splashtail/indigo.png" : "outlined_sprite:fishofthieves/splashtail/indigo.png",
+    "fishofthieves:textures/entity/splashtail/ruby.png" : "outlined_sprite:fishofthieves/splashtail/ruby.png",
+    "fishofthieves:textures/entity/splashtail/seafoam.png" : "outlined_sprite:fishofthieves/splashtail/seafoam.png",
+    "fishofthieves:textures/entity/splashtail/sunny.png" : "outlined_sprite:fishofthieves/splashtail/sunny.png",
+    "fishofthieves:textures/entity/splashtail/umber.png" : "outlined_sprite:fishofthieves/splashtail/umber.png",
+	"layersAllowed": true
+    }
+}

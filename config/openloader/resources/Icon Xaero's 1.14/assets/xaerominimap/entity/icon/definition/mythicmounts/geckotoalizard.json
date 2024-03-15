@@ -1,0 +1,7 @@
+{
+    "variants":{
+        "mythicmounts:textures/model/entity/groundlizard_mount.png":"outlined_sprite:mythicmounts/geckotoalizard/groundlizard.png",
+        "mythicmounts:textures/model/entity/groundlizard_mount2.png":"outlined_sprite:mythicmounts/geckotoalizard/groundlizard_2.png",
+        "mythicmounts:textures/model/entity/groundlizard_mount3.png":"outlined_sprite:mythicmounts/geckotoalizard/groundlizard_3.png"
+    }
+}

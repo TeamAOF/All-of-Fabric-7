@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "goodending:textures/entity/marsh/marsh.png": "outlined_sprite:goodending/marsh/marsh.png",
+        "goodending:textures/entity/marsh/marsh_brewing.png": "outlined_sprite:goodending/marsh/marsh_brewing.png",
+        "goodending:textures/entity/marsh/marsh_ready.png": "outlined_sprite:goodending/marsh/marsh_ready.png",
+        "layersAllowed": true
+    }
+}

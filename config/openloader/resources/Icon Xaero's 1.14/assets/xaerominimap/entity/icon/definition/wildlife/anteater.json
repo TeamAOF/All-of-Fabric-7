@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/anteater.png": "outlined_sprite:wildlife/anteater/anteater.png",
+        "wildlife:textures/model/entity/anteater_albino.png": "outlined_sprite:wildlife/anteater/anteater_albino.png"
+    }
+}

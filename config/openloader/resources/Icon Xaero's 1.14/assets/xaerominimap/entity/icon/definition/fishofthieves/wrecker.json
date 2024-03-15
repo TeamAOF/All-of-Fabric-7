@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/wrecker/blackcloud.png" : "outlined_sprite:fishofthieves/wrecker/blackcloud.png",
+	"fishofthieves:textures/entity/wrecker/moon.png" : "outlined_sprite:fishofthieves/wrecker/moon.png",
+    "fishofthieves:textures/entity/wrecker/rose.png" : "outlined_sprite:fishofthieves/wrecker/rose.png",
+    "fishofthieves:textures/entity/wrecker/snow.png" : "outlined_sprite:fishofthieves/wrecker/snow.png",
+    "fishofthieves:textures/entity/wrecker/sun.png" : "outlined_sprite:fishofthieves/wrecker/sun.png",
+	"layersAllowed": true
+    }
+}

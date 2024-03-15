@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/pondie/bright.png" : "outlined_sprite:fishofthieves/pondie/bright.png",
+    "fishofthieves:textures/entity/pondie/bronze.png" : "outlined_sprite:fishofthieves/pondie/bronze.png",
+    "fishofthieves:textures/entity/pondie/charcoal.png" : "outlined_sprite:fishofthieves/pondie/charcoal.png",
+    "fishofthieves:textures/entity/pondie/moonsky.png" : "outlined_sprite:fishofthieves/pondie/moonsky.png",
+    "fishofthieves:textures/entity/pondie/orchid.png" : "outlined_sprite:fishofthieves/pondie/orchid.png",
+	"layersAllowed": true
+    }
+}

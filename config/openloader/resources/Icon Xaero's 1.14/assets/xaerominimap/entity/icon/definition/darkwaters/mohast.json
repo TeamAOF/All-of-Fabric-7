@@ -1,0 +1,6 @@
+{
+    "variants": {
+      "default": "outlined_sprite:darkwaters/mohast.png",
+      "layersAllowed": true
+    }
+  }

@@ -1,0 +1,7 @@
+{"variants":{
+    "productivebees:textures/entity/bee/digger/bee.png":"outlined_sprite:productivebees/digger/bee.png",
+    "productivebees:textures/entity/bee/digger/bee_angry.png":"outlined_sprite:productivebees/digger/bee_angry.png",
+    "productivebees:textures/entity/bee/digger/bee_angry_nectar.png":"outlined_sprite:productivebees/digger/bee_angry_nectar.png",
+    "productivebees:textures/entity/bee/digger/bee_nectar.png":"outlined_sprite:productivebees/digger/bee_nectar.png",
+    "layersAllowed": true
+}}

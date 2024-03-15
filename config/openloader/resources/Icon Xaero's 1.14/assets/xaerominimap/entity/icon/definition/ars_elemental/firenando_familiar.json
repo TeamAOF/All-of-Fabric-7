@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "ars_elemental:textures/entity/firenando_magma.png": "outlined_sprite:ars_elemental/firenando_magma.png",
+        "ars_elemental:textures/entity/firenando_soul.png": "outlined_sprite:ars_elemental/firenando_soul.png",
+        "ars_elemental:textures/entity/firenando_inactive.png": "outlined_sprite:ars_elemental/firenando_inactive.png",
+        "layersAllowed": true
+    }
+}

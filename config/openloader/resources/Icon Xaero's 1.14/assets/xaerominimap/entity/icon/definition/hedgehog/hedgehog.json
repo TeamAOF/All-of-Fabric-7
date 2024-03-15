@@ -1,0 +1,38 @@
+{
+    "variants": {
+        "hedgehog:textures/entity/scared_hedgehog.png": "model:1",
+        "hedgehog:textures/entity/scared_speed_consumer_hedgehog.png": "model:1",
+        "hedgehog:textures/entity/zefiro_scared_hedgehog.png": "model:1",
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 1.0,
+            "rotationY": 0,
+            "rotationX": 0,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelMainPartFieldAliases": [
+                "net.orcinus.hedgehog.client.models.HedgehogModel;body"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        },
+        {
+            "baseScale": 1.0,
+            "rotationY": 0,
+            "rotationX": 0,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelMainPartFieldAliases": [
+                "net.orcinus.hedgehog.client.models.HedgehogScaredModel;body"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        }
+    ]
+}

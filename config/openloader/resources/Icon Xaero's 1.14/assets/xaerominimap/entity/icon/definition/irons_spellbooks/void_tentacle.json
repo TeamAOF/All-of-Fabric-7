@@ -1,0 +1,6 @@
+{
+    "variants": {
+      "default": "outlined_sprite:irons_spellbooks/void_tentacle.png",
+      "layersAllowed": true
+    }
+  }

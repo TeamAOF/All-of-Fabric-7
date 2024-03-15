@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/elephant/elephant.png" : "outlined_sprite:alexsmobs/elephant/elephant.png",
+		"alexsmobs:textures/entity/elephant/elephant_tusks.png" : "outlined_sprite:alexsmobs/elephant/elephant_tusks.png",
+		"layersAllowed" : true
+	}
+}

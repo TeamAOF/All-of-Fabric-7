@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:witherstormmod/wither_storm_segment.png",
+        "layersAllowed": true
+    }
+}

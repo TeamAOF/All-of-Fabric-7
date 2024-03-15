@@ -1,0 +1,25 @@
+{
+    "variants": {
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 1.0,
+            "rotationY": 0,
+            "rotationX": 0,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelPartsFields": [
+                "com.minecraftserverzone.glare.mob.GlareModel;LeafTop",
+                "com.minecraftserverzone.glare.mob.GlareModel;LeafMid"
+            ],
+            "modelMainPartFieldAliases": [
+                "com.minecraftserverzone.glare.mob.GlareModel;InnerBody"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        }
+    ]
+}

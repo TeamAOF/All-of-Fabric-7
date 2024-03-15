@@ -1,0 +1,7 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/drygmy_brown.png" : "outlined_sprite:ars_nouveau/drygmy/drygmy_brown.png",
+        "ars_nouveau:textures/entity/drygmy_orange.png" : "outlined_sprite:ars_nouveau/drygmy/drygmy_orange.png",
+        "ars_nouveau:textures/entity/drygmy_cyan.png" : "outlined_sprite:ars_nouveau/drygmy/drygmy_cyan.png","layersAllowed": true
+    }
+}

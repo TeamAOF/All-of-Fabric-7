@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/raccoon.png" : "outlined_sprite:alexsmobs/raccoon.png",
+		"alexsmobs:textures/entity/raccoon_rigby.png" : "outlined_sprite:alexsmobs/raccoon_rigby.png",
+		"layersAllowed" : true
+	}
+}

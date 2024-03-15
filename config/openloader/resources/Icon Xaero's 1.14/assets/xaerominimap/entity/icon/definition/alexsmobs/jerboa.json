@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/jerboa.png" : "outlined_sprite:alexsmobs/jerboa.png",
+		"alexsmobs:textures/entity/jerboa_sleeping.png" : "outlined_sprite:alexsmobs/jerboa_sleeping.png",
+		"layersAllowed":true
+	}
+}

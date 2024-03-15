@@ -1,0 +1,12 @@
+{
+    "variants": {
+	"hamsters:textures/entity/hamster/black.png" : "outlined_sprite:hamsters/black.png",
+    "hamsters:textures/entity/hamster/black_white.png" : "outlined_sprite:hamsters/black_white.png",
+    "hamsters:textures/entity/hamster/brown.png" : "outlined_sprite:hamsters/brown.png",
+    "hamsters:textures/entity/hamster/grey_white.png" : "outlined_sprite:hamsters/grey_white.png",
+    "hamsters:textures/entity/hamster/orange.png" : "outlined_sprite:hamsters/orange.png",
+    "hamsters:textures/entity/hamster/peaches_and_cream.png" : "outlined_sprite:hamsters/peaches_and_cream.png",
+    "hamsters:textures/entity/hamster/white.png" : "outlined_sprite:hamsters/white.png",
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "naturalist:textures/entity/duck/donald.png": "outlined_sprite:naturalist/duck/donald.png",
+        "naturalist:textures/entity/duck/duck.png": "outlined_sprite:naturalist/duck/duck.png",
+        "naturalist:textures/entity/duck/queso.png": "outlined_sprite:naturalist/duck/queso.png",
+        "naturalist:textures/entity/duck/rubber_ducky.png": "outlined_sprite:naturalist/duck/rubber_ducky.png",
+        "layersAllowed": true
+    }
+}

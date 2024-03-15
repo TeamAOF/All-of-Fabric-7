@@ -1,0 +1,11 @@
+{"variants":{
+    "untamedwilds:textures/entity/boar/eurasian_1.png":"outlined_sprite:untamedwilds/boar/eurasian_1.png",
+    "untamedwilds:textures/entity/boar/eurasian_2.png":"outlined_sprite:untamedwilds/boar/eurasian_2.png",
+    "untamedwilds:textures/entity/boar/eurasian_3.png":"outlined_sprite:untamedwilds/boar/eurasian_3.png",
+    "untamedwilds:textures/entity/boar/eurasian_4.png":"outlined_sprite:untamedwilds/boar/eurasian_4.png",
+    "untamedwilds:textures/entity/boar/peccary.png":"outlined_sprite:untamedwilds/boar/peccary.png",
+    "untamedwilds:textures/entity/boar/peccary_old.png":"outlined_sprite:untamedwilds/boar/peccary_old.png",
+    "untamedwilds:textures/entity/boar/red_river.png":"outlined_sprite:untamedwilds/boar/red_river.png",
+    "untamedwilds:textures/entity/boar/warthog.png":"outlined_sprite:untamedwilds/boar/warthog.png",
+    "layersAllowed": true
+}}

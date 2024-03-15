@@ -1,0 +1,9 @@
+{
+    "variants": {
+      "graveyard:textures/entity/1_ghouling.png": "outlined_sprite:graveyard/ghouling/1_ghouling.png",
+      "graveyard:textures/entity/2_ghouling.png": "outlined_sprite:graveyard/ghouling/2_ghouling.png",
+      "graveyard:textures/entity/3_ghouling.png": "outlined_sprite:graveyard/ghouling/3_ghouling.png",
+      "graveyard:textures/entity/4_ghouling.png": "outlined_sprite:graveyard/ghouling/4_ghouling.png",
+      "graveyard:textures/entity/5_ghouling.png": "outlined_sprite:graveyard/ghouling/5_ghouling.png"
+    }
+  }

@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/tasmanian_devil.png" : "outlined_sprite:alexsmobs/tasmanian_devil.png",
+		"alexsmobs:textures/entity/tasmanian_devil_angry.png" : "outlined_sprite:alexsmobs/tasmanian_devil_angry.png",
+		"layersAllowed":true
+
+	}
+}

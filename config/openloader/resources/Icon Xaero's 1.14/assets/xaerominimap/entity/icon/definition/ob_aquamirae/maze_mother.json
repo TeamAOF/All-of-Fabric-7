@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 0.35,
+            "rotationY": 0,
+            "rotationX": 90,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 10,
+            "modelMainPartFieldAliases": [
+                "net.obscuria.aquamirae.client.model.Modelmaze_mother;main2"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        }
+    ]
+}

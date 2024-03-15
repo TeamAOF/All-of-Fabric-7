@@ -1,0 +1,8 @@
+{"variants":{
+    "untamedwilds:textures/entity/terror_bird/patagornis.png":"outlined_sprite:untamedwilds/terror_bird/patagornis.png",
+    "untamedwilds:textures/entity/terror_bird/gastornis.png":"outlined_sprite:untamedwilds/terror_bird/gastornis.png",
+    "untamedwilds:textures/entity/terror_bird/kelenken.png":"outlined_sprite:untamedwilds/terror_bird/kelenken.png",
+    "untamedwilds:textures/entity/terror_bird/phorusracos.png":"outlined_sprite:untamedwilds/terror_bird/phorusracos.png",
+    "untamedwilds:textures/entity/terror_bird/titanis.png":"outlined_sprite:untamedwilds/terror_bird/titanis.png",
+    "layersAllowed": true
+}}

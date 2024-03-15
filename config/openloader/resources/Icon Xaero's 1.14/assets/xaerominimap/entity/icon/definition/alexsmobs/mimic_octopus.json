@@ -1,0 +1,11 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/mimic_octopus_creeper.png" : "outlined_sprite:alexsmobs/mimic_octopus_creeper.png",
+        "alexsmobs:textures/entity/mimic_octopus_guardian.png" : "outlined_sprite:alexsmobs/mimic_octopus_guardian.png",
+        "alexsmobs:textures/entity/mimic_octopus_minicube.png" : "outlined_sprite:alexsmobs/mimic_octopus_minicube.png",
+        "alexsmobs:textures/entity/mimic_octopus_pufferfish.png" : "outlined_sprite:alexsmobs/mimic_octopus_pufferfish.png",
+		"alexsmobs:textures/entity/mimic_octopus.png" : "outlined_sprite:alexsmobs/mimic_octopus.png",
+        "alexsmobs:textures/entity/mimic_octopus_overlay.png" : "outlined_sprite:alexsmobs/mimic_octopus_overlay.png",
+        "layersAllowed":true
+	}
+}

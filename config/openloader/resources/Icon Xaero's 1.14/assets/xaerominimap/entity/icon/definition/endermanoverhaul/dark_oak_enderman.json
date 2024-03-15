@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:endermanoverhaul/dark_oak_enderman.png"
+	,
+	"layersAllowed": true
+    }
+}

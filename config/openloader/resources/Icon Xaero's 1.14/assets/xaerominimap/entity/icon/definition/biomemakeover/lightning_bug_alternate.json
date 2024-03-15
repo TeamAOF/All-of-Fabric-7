@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:biomemakeover/lightning_bug_alternate.png"
+	,
+	"layersAllowed": true
+    }
+}

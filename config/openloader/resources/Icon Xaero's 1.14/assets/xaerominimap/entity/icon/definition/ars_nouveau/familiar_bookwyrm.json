@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "ars_nouveau:textures/entity/book_wyrm_blue.png": "outlined_sprite:ars_nouveau/bookwyrm/book_wyrm_blue.png",
+        "ars_nouveau:textures/entity/book_wyrm_black.png": "outlined_sprite:ars_nouveau/bookwyrm/book_wyrm_black.png",
+        "ars_nouveau:textures/entity/book_wyrm_red.png": "outlined_sprite:ars_nouveau/bookwyrm/book_wyrm_red.png",
+        "ars_nouveau:textures/entity/book_wyrm_green.png": "outlined_sprite:ars_nouveau/bookwyrm/book_wyrm_green.png",
+        "ars_nouveau:textures/entity/book_wyrm_purple.png": "outlined_sprite:ars_nouveau/bookwyrm/book_wyrm_purple.png",
+        "ars_nouveau:textures/entity/book_wyrm_white.png": "outlined_sprite:ars_nouveau/bookwyrm/book_wyrm_white.png",
+        "layersAllowed": true
+    }
+}

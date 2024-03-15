@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/wreck_arcanic.png"
+	,
+	"layersAllowed": true
+    }
+}

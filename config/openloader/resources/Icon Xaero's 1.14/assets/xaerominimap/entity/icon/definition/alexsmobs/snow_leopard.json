@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/snow_leopard.png" : "outlined_sprite:alexsmobs/snow_leopard.png",
+		"alexsmobs:textures/entity/snow_leopard_sleeping.png" : "outlined_sprite:alexsmobs/snow_leopard_sleeping.png",
+		"layersAllowed":true
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/blobfish.png" : "outlined_sprite:alexsmobs/blobfish.png",
+		"alexsmobs:textures/entity/blobfish_pressurized.png" : "outlined_sprite:alexsmobs/blobfish_pressurized.png",
+        "alexsmobs:textures/entity/blobfish_depressurized.png" : "outlined_sprite:alexsmobs/blobfish_depressurized.png",
+		"layersAllowed":true
+	}
+}

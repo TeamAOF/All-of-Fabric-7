@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/birds.png": "outlined_sprite:wildlife/birds/bluebird.png",
+        "wildlife:textures/model/entity/birds_albino.png": "outlined_sprite:wildlife/birds/bluebird_albino.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/king_crab.png"
+	,
+	"layersAllowed": true
+    }
+}

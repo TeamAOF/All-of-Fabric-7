@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/deer.png": "outlined_sprite:wildlife/deer/deer.png",
+        "wildlife:textures/model/entity/deer2.png": "outlined_sprite:wildlife/deer/deer2.png",
+        "wildlife:textures/model/entity/deer_albino.png": "outlined_sprite:wildlife/deer/deer_albino.png"      
+}
+}

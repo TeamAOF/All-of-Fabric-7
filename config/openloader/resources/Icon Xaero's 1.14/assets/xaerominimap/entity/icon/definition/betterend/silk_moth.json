@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:betterend/silk_moth.png"
+	,
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,21 @@
+{"variants":{
+    "untamedwilds:textures/entity/big_cat/cave_lion_female.png":"outlined_sprite:untamedwilds/big_cat/cave_lion_female.png",
+    "untamedwilds:textures/entity/big_cat/cave_lion_male.png":"outlined_sprite:untamedwilds/big_cat/cave_lion_male.png",
+    "untamedwilds:textures/entity/big_cat/great_lion_female.png":"outlined_sprite:untamedwilds/big_cat/great_lion_female.png",
+    "untamedwilds:textures/entity/big_cat/jaguar_1.png":"outlined_sprite:untamedwilds/big_cat/jaguar_1.png",
+    "untamedwilds:textures/entity/big_cat/jaguar_2.png":"outlined_sprite:untamedwilds/big_cat/jaguar_2.png",
+    "untamedwilds:textures/entity/big_cat/jaguar_3.png":"outlined_sprite:untamedwilds/big_cat/jaguar_3.png",
+    "untamedwilds:textures/entity/big_cat/leopard_1.png":"outlined_sprite:untamedwilds/big_cat/leopard_1.png",
+    "untamedwilds:textures/entity/big_cat/leopard_2.png":"outlined_sprite:untamedwilds/big_cat/leopard_2.png",
+    "untamedwilds:textures/entity/big_cat/leopard_3.png":"outlined_sprite:untamedwilds/big_cat/leopard_3.png",
+    "untamedwilds:textures/entity/big_cat/lion_1_female.png":"outlined_sprite:untamedwilds/big_cat/lion_1_female.png",
+    "untamedwilds:textures/entity/big_cat/lion_1_male.png":"outlined_sprite:untamedwilds/big_cat/lion_1_male.png",
+    "untamedwilds:textures/entity/big_cat/lion_2_female.png":"outlined_sprite:untamedwilds/big_cat/lion_2_female.png",
+    "untamedwilds:textures/entity/big_cat/lion_2_male.png":"outlined_sprite:untamedwilds/big_cat/lion_2_male.png",
+    "untamedwilds:textures/entity/big_cat/marsupial_lion.png":"outlined_sprite:untamedwilds/big_cat/marsupial_lion.png",
+    "untamedwilds:textures/entity/big_cat/puma.png":"outlined_sprite:untamedwilds/big_cat/puma.png",
+    "untamedwilds:textures/entity/big_cat/sabertooth.png":"outlined_sprite:untamedwilds/big_cat/sabertooth.png",
+    "untamedwilds:textures/entity/big_cat/snow_leopard.png":"outlined_sprite:untamedwilds/big_cat/snow_leopard.png",
+    "untamedwilds:textures/entity/big_cat/tiger.png":"outlined_sprite:untamedwilds/big_cat/tiger.png",
+    "layersAllowed": true
+}}

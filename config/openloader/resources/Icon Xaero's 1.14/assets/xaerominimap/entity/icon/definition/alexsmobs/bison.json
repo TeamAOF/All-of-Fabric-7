@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/bison.png" : "outlined_sprite:alexsmobs/bison.png",
+		"alexsmobs:textures/entity/bison_sheared.png" : "outlined_sprite:alexsmobs/bison_sheared.png",
+		"alexsmobs:textures/entity/bison_baby.png" : "outlined_sprite:alexsmobs/bison_baby.png",
+		"layersAllowed":true
+	}
+}

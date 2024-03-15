@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "default": "model:0"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 0.7,
+      "rotationY": 0,
+      "rotationX": 45,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelPartsFields": [
+        "org.violetmoon.quark.content.mobs.client.model.FrogModel;headBottom",
+        "org.violetmoon.quark.content.mobs.client.model.FrogModel;rightArm",
+        "org.violetmoon.quark.content.mobs.client.model.FrogModel;leftArm",
+        "org.violetmoon.quark.content.mobs.client.model.FrogModel;rightEye",
+        "org.violetmoon.quark.content.mobs.client.model.FrogModel;leftEye"
+      ],
+      "modelMainPartFieldAliases": [
+        "org.violetmoon.quark.content.mobs.client.model.FrogModel;headTop"
+      ],
+      "renderingFullModel": false,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

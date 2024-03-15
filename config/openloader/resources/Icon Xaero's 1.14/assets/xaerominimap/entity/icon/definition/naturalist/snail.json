@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "naturalist:textures/entity/snail/brown.png": "outlined_sprite:naturalist/snail/brown.png",
+        "naturalist:textures/entity/snail/snail.png": "outlined_sprite:naturalist/snail/snail.png",
+        "naturalist:textures/entity/snail/white.png": "outlined_sprite:naturalist/snail/white.png",
+        "naturalist:textures/entity/snail/yellow.png": "outlined_sprite:naturalist/snail/yellow.png",
+        "naturalist:textures/entity/snail/cyan.png": "outlined_sprite:naturalist/snail/cyan.png",
+        "naturalist:textures/entity/snail/gary.png": "outlined_sprite:naturalist/snail/gary.png",
+        "naturalist:textures/entity/snail/gray.png": "outlined_sprite:naturalist/snail/gray.png",
+        "naturalist:textures/entity/snail/green.png": "outlined_sprite:naturalist/snail/green.png",
+        "naturalist:textures/entity/snail/light_blue.png": "outlined_sprite:naturalist/snail/light_blue.png",
+        "naturalist:textures/entity/snail/light_gray.png": "outlined_sprite:naturalist/snail/light_gray.png",
+        "naturalist:textures/entity/snail/lime.png": "outlined_sprite:naturalist/snail/lime.png",
+        "naturalist:textures/entity/snail/magenta.png": "outlined_sprite:naturalist/snail/magenta.png",
+        "naturalist:textures/entity/snail/orange.png": "outlined_sprite:naturalist/snail/orange.png",
+        "naturalist:textures/entity/snail/pink.png": "outlined_sprite:naturalist/snail/pink.png",
+        "naturalist:textures/entity/snail/purple.png": "outlined_sprite:naturalist/snail/purple.png",
+        "naturalist:textures/entity/snail/red.png": "outlined_sprite:naturalist/snail/red.png",
+        "naturalist:textures/entity/snail/black.png": "outlined_sprite:naturalist/snail/black.png",
+        "naturalist:textures/entity/snail/blue.png": "outlined_sprite:naturalist/snail/blue.png",
+        "layersAllowed": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/enthralled_dramcryx.png"
+	,
+	"layersAllowed": true
+    }
+}

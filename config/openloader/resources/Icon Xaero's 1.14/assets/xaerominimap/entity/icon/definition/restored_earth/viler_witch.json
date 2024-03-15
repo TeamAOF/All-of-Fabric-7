@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "default": "model:0"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 1.0,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelPartsFields": [
+        "com.itayfeder.restored_earth.client.renderer.entities.models.VilerWitchModel;hat"
+      ],
+      "modelMainPartFieldAliases": [
+        "com.itayfeder.restored_earth.client.renderer.entities.models.VilerWitchModel;head"
+      ],
+      "renderingFullModel": false,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

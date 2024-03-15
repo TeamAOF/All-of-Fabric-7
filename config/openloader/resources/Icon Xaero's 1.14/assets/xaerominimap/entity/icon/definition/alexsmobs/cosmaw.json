@@ -1,0 +1,6 @@
+{
+	"variants" : {
+		"default" : "outlined_sprite:alexsmobs/cosmaw.png",
+		"layersAllowed":true
+	}
+}

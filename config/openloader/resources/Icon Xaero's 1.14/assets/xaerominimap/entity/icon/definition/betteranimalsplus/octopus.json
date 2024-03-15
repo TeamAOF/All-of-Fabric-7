@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "betteranimalsplus:textures/entity/octopus_blue_ringed.png": "sprite:betteranimalsplus/octopus_blue_ringed.png",
+        "betteranimalsplus:textures/entity/octopus_common.png": "sprite:betteranimalsplus/octopus_common.png",
+        "betteranimalsplus:textures/entity/octopus_east_pacific_red.png": "sprite:betteranimalsplus/octopus_east_pacific_red.png",
+        "betteranimalsplus:textures/entity/octopus_giant_pacific.png": "sprite:betteranimalsplus/octopus_giant_pacific.png",
+        "default": "sprite:betteranimalsplus/octopus_common.png"
+    }
+}

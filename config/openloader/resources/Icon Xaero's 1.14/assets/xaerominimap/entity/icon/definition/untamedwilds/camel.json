@@ -1,0 +1,8 @@
+{"variants":{
+    "untamedwilds:textures/entity/camel/bactrian.png":"outlined_sprite:untamedwilds/camel/bactrian.png",
+    "untamedwilds:textures/entity/camel/dromedary_1.png":"outlined_sprite:untamedwilds/camel/dromedary_1.png",
+    "untamedwilds:textures/entity/camel/dromedary_2.png":"outlined_sprite:untamedwilds/camel/dromedary_2.png",
+    "untamedwilds:textures/entity/camel/dromedary_3.png":"outlined_sprite:untamedwilds/camel/dromedary_3.png",
+    "untamedwilds:textures/entity/camel/wild_bactrian.png":"outlined_sprite:untamedwilds/camel/wild_bactrian.png",
+    "layersAllowed": true
+}}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"species:textures/entity/wraptor/wraptor.png" : "outlined_sprite:species/wraptor/wraptor.png",
+    "species:textures/entity/wraptor/wraptor_goth.png" : "outlined_sprite:species/wraptor/wraptor_goth.png",
+	"layersAllowed": true
+    }
+}

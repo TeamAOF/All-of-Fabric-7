@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "snuffles:textures/entity/snuffle/frosty_default.png": "outlined_sprite:snuffles/frosty_default.png",
+        "snuffles:textures/entity/snuffle/frosty_horseshoe.png": "outlined_sprite:snuffles/frosty_horseshoe.png",
+        "snuffles:textures/entity/snuffle/frosty_poro.png": "outlined_sprite:snuffles/frosty_poro.png",
+        "snuffles:textures/entity/snuffle/frosty_sheepdog.png": "outlined_sprite:snuffles/frosty_sheepdog.png",
+        "snuffles:textures/entity/snuffle/snuffle_default.png": "outlined_sprite:snuffles/snuffle_default.png",
+        "snuffles:textures/entity/snuffle/snuffle_horseshoe.png": "outlined_sprite:snuffles/snuffle_horseshoe.png",
+        "snuffles:textures/entity/snuffle/snuffle_poro.png": "outlined_sprite:snuffles/snuffle_poro.png",
+        "snuffles:textures/entity/snuffle/snuffle_sheepdog.png": "outlined_sprite:snuffles/snuffle_sheepdog.png",
+        "layersAllowed": true
+    }
+}

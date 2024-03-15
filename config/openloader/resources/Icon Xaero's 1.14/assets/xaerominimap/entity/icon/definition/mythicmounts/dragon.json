@@ -1,0 +1,11 @@
+{
+    "variants":{
+        "mythicmounts:textures/model/entity/dragon_mount.png":"outlined_sprite:mythicmounts/dragon/dragon.png",
+        "mythicmounts:textures/model/entity/dragon_mount2.png":"outlined_sprite:mythicmounts/dragon/dragon_2.png",
+        "mythicmounts:textures/model/entity/dragon_mount3.png":"outlined_sprite:mythicmounts/dragon/dragon_3.png",
+        "mythicmounts:textures/model/entity/dragon_mount4.png":"outlined_sprite:mythicmounts/dragon/dragon_4.png",
+        "mythicmounts:textures/model/entity/dragon_mount5.png":"outlined_sprite:mythicmounts/dragon/dragon_5.png",
+        "mythicmounts:textures/model/entity/dragon_mount6.png":"outlined_sprite:mythicmounts/dragon/dragon_6.png",
+        "mythicmounts:textures/model/entity/dragon_mount7.png":"outlined_sprite:mythicmounts/dragon/dragon_7.png"
+    }
+}

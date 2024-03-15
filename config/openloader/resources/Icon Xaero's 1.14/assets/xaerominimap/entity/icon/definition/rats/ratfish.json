@@ -1,0 +1,6 @@
+{
+	"variants" : {
+        "default": "outlined_sprite:rats/ratfish.png",
+        "layersAllowed": true
+	}
+}

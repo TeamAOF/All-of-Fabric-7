@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "creatures_from_the_snow:textures/entity/beluga/blue.png": "outlined_sprite:creatures_from_the_snow/beluga/beluga_blue.png",
+        "creatures_from_the_snow:textures/entity/beluga/tan.png": "outlined_sprite:creatures_from_the_snow/beluga/beluga_tan.png"
+    }
+}

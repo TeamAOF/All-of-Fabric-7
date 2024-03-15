@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/fyracryx.png"
+	,
+	"layersAllowed": true
+    }
+}

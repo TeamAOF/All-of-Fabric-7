@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "bewitchment:textures/entity/living/werewolf/0.png": "outlined_sprite:bewitchment/werewolf/0.png",
+        "bewitchment:textures/entity/living/werewolf/1.png": "outlined_sprite:bewitchment/werewolf/1.png",
+        "bewitchment:textures/entity/living/werewolf/2.png": "outlined_sprite:bewitchment/werewolf/2.png",
+        "bewitchment:textures/entity/living/werewolf/3.png": "outlined_sprite:bewitchment/werewolf/3.png",
+        "bewitchment:textures/entity/living/werewolf/4.png": "outlined_sprite:bewitchment/werewolf/4.png",
+        "bewitchment:textures/entity/living/werewolf/5.png": "outlined_sprite:bewitchment/werewolf/5.png",
+        "bewitchment:textures/entity/living/werewolf/6.png": "outlined_sprite:bewitchment/werewolf/6.png",
+        "layersAllowed": true
+    }
+}

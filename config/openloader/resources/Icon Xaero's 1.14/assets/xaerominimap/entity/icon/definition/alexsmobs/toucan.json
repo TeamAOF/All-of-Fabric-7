@@ -1,0 +1,11 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/toucan/toucan_0.png" : "outlined_sprite:alexsmobs/toucan/toucan_0.png",
+		"alexsmobs:textures/entity/toucan/toucan_1.png" : "outlined_sprite:alexsmobs/toucan/toucan_1.png",
+		"alexsmobs:textures/entity/toucan/toucan_2.png" : "outlined_sprite:alexsmobs/toucan/toucan_2.png",
+		"alexsmobs:textures/entity/toucan/toucan_3.png" : "outlined_sprite:alexsmobs/toucan/toucan_3.png",
+		"alexsmobs:textures/entity/toucan/toucan_gold.png" : "outlined_sprite:alexsmobs/toucan/toucan_gold.png",
+		"alexsmobs:textures/entity/toucan/toucan_sam.png" : "outlined_sprite:alexsmobs/toucan/toucan_sam.png",
+		"layersAllowed": true
+	}
+}

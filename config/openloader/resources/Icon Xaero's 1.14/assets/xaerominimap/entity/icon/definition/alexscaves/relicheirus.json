@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/relicheirus.png": "outlined_sprite:alexscaves/relicheirus/relicheirus.png",
+        "alexscaves:textures/entity/relicheirus_retro.png": "outlined_sprite:alexscaves/tremorsaurus/relicheirus_retro.png",
+        "layersAllowed": true
+    }
+}

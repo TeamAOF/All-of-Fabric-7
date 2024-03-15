@@ -1,0 +1,9 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/gorilla.png" : "outlined_sprite:alexsmobs/gorilla.png",
+		"alexsmobs:textures/entity/gorilla_dk.png" : "outlined_sprite:alexsmobs/gorilla_dk.png",
+        "alexsmobs:textures/entity/gorilla_funky.png" : "outlined_sprite:alexsmobs/gorilla_funky.png",
+        "alexsmobs:textures/entity/gorilla_silverback.png" : "outlined_sprite:alexsmobs/gorilla_silverback.png",
+        "layersAllowed":true
+	}
+}

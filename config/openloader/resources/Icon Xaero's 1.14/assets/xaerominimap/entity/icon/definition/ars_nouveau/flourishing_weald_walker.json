@@ -1,0 +1,6 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/flourishing_weald_walker.png" : "outlined_sprite:ars_nouveau/weald_walker/flourishing_weald_walker.png",
+        "ars_nouveau:textures/entity/flourishing_weald_waddler.png" : "outlined_sprite:ars_nouveau/weald_walker/flourishing_weald_walker.png","layersAllowed": true
+    }
+}

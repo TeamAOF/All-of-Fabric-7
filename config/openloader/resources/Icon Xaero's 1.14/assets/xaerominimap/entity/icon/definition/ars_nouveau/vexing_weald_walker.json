@@ -1,0 +1,6 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/vexing_weald_walker.png" : "outlined_sprite:ars_nouveau/weald_walker/vexing_weald_walker.png",
+        "ars_nouveau:textures/entity/vexing_weald_waddler.png" : "outlined_sprite:ars_nouveau/weald_walker/vexing_weald_walker.png","layersAllowed": true
+    }
+}

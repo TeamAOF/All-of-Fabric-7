@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/laviathan.png" : "outlined_sprite:alexsmobs/laviathan.png",
+		"alexsmobs:textures/entity/laviathan_obsidian.png" : "outlined_sprite:alexsmobs/laviathan_obsidian.png",
+		"layersAllowed":true
+	}
+}

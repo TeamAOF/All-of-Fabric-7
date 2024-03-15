@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "ars_nouveau:textures/entity/flashing_weald_waddler.png": "outlined_sprite:ars_elemental/flashing_weald_walker.png",
+        "ars_nouveau:textures/entity/flashing_weald_walker.png": "outlined_sprite:ars_elemental/flashing_weald_walker.png",
+        "layersAllowed": true
+    }
+}

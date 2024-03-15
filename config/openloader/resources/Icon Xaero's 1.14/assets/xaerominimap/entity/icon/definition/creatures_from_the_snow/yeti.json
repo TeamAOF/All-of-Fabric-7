@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "creatures_from_the_snow:textures/entity/yeti/wild.png": "outlined_sprite:creatures_from_the_snow/yeti/wild.png",
+        "creatures_from_the_snow:textures/entity/yeti/baby.png": "outlined_sprite:creatures_from_the_snow/yeti/baby.png"
+
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+		"bewitchment:textures/entity/living/toad/0.png" : "outlined_sprite:bewitchment/toad/0.png",
+		"bewitchment:textures/entity/living/toad/1.png" : "outlined_sprite:bewitchment/toad/1.png",
+		"bewitchment:textures/entity/living/toad/2.png" : "outlined_sprite:bewitchment/toad/2.png",
+		"bewitchment:textures/entity/living/toad/3.png" : "outlined_sprite:bewitchment/toad/3.png",
+		"bewitchment:textures/entity/living/toad/4.png" : "outlined_sprite:bewitchment/toad/4.png",
+	"layersAllowed": true
+    }
+}

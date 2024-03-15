@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/glinthop.png" : "outlined_sprite:divinerpg/glinthop.png",
+	"divinerpg:textures/entity/glinthop_alt.png" : "outlined_sprite:divinerpg/glinthop_alt.png",
+	"layersAllowed": true
+    }
+}

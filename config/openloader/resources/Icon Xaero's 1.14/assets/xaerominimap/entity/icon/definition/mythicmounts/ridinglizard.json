@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "mythicmounts:textures/model/entity/ridinglizard_mount1.png": "outlined_sprite:mythicmounts/ridinglizard/ridinglizard_1.png",
+    "mythicmounts:textures/model/entity/ridinglizard_mount2.png": "outlined_sprite:mythicmounts/ridinglizard/ridinglizard_2.png",
+    "mythicmounts:textures/model/entity/ridinglizard_mount3.png": "outlined_sprite:mythicmounts/ridinglizard/ridinglizard_3.png",
+    "mythicmounts:textures/model/entity/ridinglizard_mount4.png": "outlined_sprite:mythicmounts/ridinglizard/ridinglizard_4.png"
+  }
+}

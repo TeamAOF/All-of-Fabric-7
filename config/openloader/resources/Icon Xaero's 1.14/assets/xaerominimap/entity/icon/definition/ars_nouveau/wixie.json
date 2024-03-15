@@ -1,0 +1,9 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/wixie_black.png" : "outlined_sprite:ars_nouveau/wixie/wixie_black.png",
+        "ars_nouveau:textures/entity/wixie_green.png" : "outlined_sprite:ars_nouveau/wixie/wixie_green.png",
+        "ars_nouveau:textures/entity/wixie_blue.png" : "outlined_sprite:ars_nouveau/wixie/wixie_blue.png",
+        "ars_nouveau:textures/entity/wixie_red.png" : "outlined_sprite:ars_nouveau/wixie/wixie_red.png",
+        "ars_nouveau:textures/entity/wixie_white.png" : "outlined_sprite:ars_nouveau/wixie/wixie_white.png","layersAllowed": true
+    }
+}

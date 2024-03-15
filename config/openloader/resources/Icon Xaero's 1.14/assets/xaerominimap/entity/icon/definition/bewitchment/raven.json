@@ -1,0 +1,7 @@
+{
+    "variants": {
+		"bewitchment:textures/entity/living/raven/0.png" : "outlined_sprite:bewitchment/raven/0.png",
+		"bewitchment:textures/entity/living/raven/1.png" : "outlined_sprite:bewitchment/raven/1.png",
+	"layersAllowed": true
+    }
+}

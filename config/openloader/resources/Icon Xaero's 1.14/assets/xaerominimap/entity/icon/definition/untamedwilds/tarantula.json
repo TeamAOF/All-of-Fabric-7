@@ -1,0 +1,12 @@
+{"variants":{
+    "untamedwilds:textures/entity/tarantula/black.png":"outlined_sprite:untamedwilds/tarantula/black.png",
+    "untamedwilds:textures/entity/tarantula/black_and_white.png":"outlined_sprite:untamedwilds/tarantula/black_and_white.png",
+    "untamedwilds:textures/entity/tarantula/cobalt.png":"outlined_sprite:untamedwilds/tarantula/cobalt.png",
+    "untamedwilds:textures/entity/tarantula/king.png":"outlined_sprite:untamedwilds/tarantula/king.png",
+    "untamedwilds:textures/entity/tarantula/red_knee.png":"outlined_sprite:untamedwilds/tarantula/red_knee.png",
+    "untamedwilds:textures/entity/tarantula/regalis.png":"outlined_sprite:untamedwilds/tarantula/regalis.png",
+    "untamedwilds:textures/entity/tarantula/rose.png":"outlined_sprite:untamedwilds/tarantula/rose.png",
+    "untamedwilds:textures/entity/tarantula/sling.png":"outlined_sprite:untamedwilds/tarantula/sling.png",
+    "untamedwilds:textures/entity/tarantula/tiger.png":"outlined_sprite:untamedwilds/tarantula/tiger.png",
+    "layersAllowed": true
+}}

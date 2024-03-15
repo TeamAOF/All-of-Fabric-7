@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:naturalist/bass.png",
+        "layersAllowed": true
+    }
+}

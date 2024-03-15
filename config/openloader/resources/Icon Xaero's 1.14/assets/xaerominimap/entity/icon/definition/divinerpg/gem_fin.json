@@ -1,0 +1,8 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/gem_fin/patchy_gem_fin.png" : "outlined_sprite:divinerpg/gem_fin/patchy_gem_fin.png",
+    "divinerpg:textures/entity/gem_fin/precious_gem_fin.png" : "outlined_sprite:divinerpg/gem_fin/precious_gem_fin.png",
+    "divinerpg:textures/entity/gem_fin/ruby_gem_fin.png" : "outlined_sprite:divinerpg/gem_fin/ruby_gem_fin.png",
+	"layersAllowed": true
+    }
+}

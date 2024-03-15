@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/grizzly_bear.png" : "outlined_sprite:alexsmobs/grizzly_bear.png",
+		"alexsmobs:textures/entity/grizzly_bear_freddy.png" : "outlined_sprite:alexsmobs/grizzly_bear_freddy.png",
+		"layersAllowed":true
+	}
+}

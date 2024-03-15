@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/farseer/farseer.png" : "outlined_sprite:alexsmobs/farseer/farseer.png",
+		"alexsmobs:textures/entity/farseer/farseer_angry.png" : "outlined_sprite:alexsmobs/farseer/farseer_angry.png",
+		"layersAllowed":true
+	}
+}

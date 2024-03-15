@@ -1,0 +1,41 @@
+{
+	"variants": {
+		"betteranimalsplus:textures/entity/whale_beluga.png": "model:1",
+		"betteranimalsplus:textures/entity/whale_bottlenose.png": "model:0",
+		"betteranimalsplus:textures/entity/whale_cuviers.png": "model:0",
+		"betteranimalsplus:textures/entity/whale_false_killer.png": "model:1",
+		"betteranimalsplus:textures/entity/whale_narwhal.png": "model:1",
+		"betteranimalsplus:textures/entity/whale_pilot.png": "model:1",
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 0.8,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.ModelBeakedWhale;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 0.8,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.ModelSmallWhale;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": true,
+			"layersAllowed": true
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{"variants":{
+    "untamedwilds:textures/entity/newt/coastal_1.png":"outlined_sprite:untamedwilds/newt/coastal_1.png",
+    "untamedwilds:textures/entity/newt/coastal_2.png":"outlined_sprite:untamedwilds/newt/coastal_2.png",
+    "untamedwilds:textures/entity/newt/coastal_3.png":"outlined_sprite:untamedwilds/newt/coastal_3.png",
+    "untamedwilds:textures/entity/newt/crested_1.png":"outlined_sprite:untamedwilds/newt/crested_1.png",
+    "untamedwilds:textures/entity/newt/crested_2.png":"outlined_sprite:untamedwilds/newt/crested_2.png",
+    "untamedwilds:textures/entity/newt/eastern_1.png":"outlined_sprite:untamedwilds/newt/eastern_1.png",
+    "untamedwilds:textures/entity/newt/eastern_2.png":"outlined_sprite:untamedwilds/newt/eastern_2.png",
+    "untamedwilds:textures/entity/newt/fire_salamander_1.png":"outlined_sprite:untamedwilds/newt/fire_salamander_1.png",
+    "untamedwilds:textures/entity/newt/fire_salamander_2.png":"outlined_sprite:untamedwilds/newt/fire_salamander_2.png",
+    "untamedwilds:textures/entity/newt/fire_salamander_3.png":"outlined_sprite:untamedwilds/newt/fire_salamander_3.png",
+    "untamedwilds:textures/entity/newt/ribbed.png":"outlined_sprite:untamedwilds/newt/ribbed.png",
+    "untamedwilds:textures/entity/newt/tiger_1.png":"outlined_sprite:untamedwilds/newt/tiger_1.png",
+    "untamedwilds:textures/entity/newt/tiger_1r.png":"outlined_sprite:untamedwilds/newt/tiger_1r.png",
+    "untamedwilds:textures/entity/newt/tiger_2.png":"outlined_sprite:untamedwilds/newt/tiger_2.png",
+    "layersAllowed": true
+}}

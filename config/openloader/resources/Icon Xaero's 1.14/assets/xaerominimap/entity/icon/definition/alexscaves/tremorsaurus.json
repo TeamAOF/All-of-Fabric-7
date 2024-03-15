@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/tremorsaurus.png": "outlined_sprite:alexscaves/tremorsaurus/tremorsaurus.png",
+        "alexscaves:textures/entity/tremorsaurus_princess.png": "outlined_sprite:alexscaves/tremorsaurus/tremorsaurus_princess.png",
+        "alexscaves:textures/entity/tremorsaurus_retro.png": "outlined_sprite:alexscaves/tremorsaurus/tremorsaurus_retro.png",
+        "layersAllowed": true
+    }
+}

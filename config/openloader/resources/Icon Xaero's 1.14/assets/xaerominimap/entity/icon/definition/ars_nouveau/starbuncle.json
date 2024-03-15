@@ -1,0 +1,21 @@
+{
+    "variants" : {
+        "ars_nouveau:textures/entity/starbuncle_blue.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_blue.png",
+        "ars_nouveau:textures/entity/starbuncle_green.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_green.png",
+        "ars_nouveau:textures/entity/starbuncle_orange.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_orange.png",
+        "ars_nouveau:textures/entity/starbuncle_purple.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_purple.png",
+        "ars_nouveau:textures/entity/starbuncle_red.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_red.png",
+        "ars_nouveau:textures/entity/starbuncle_black.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_black.png",
+        "ars_nouveau:textures/entity/starbuncle_brown.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_brown.png",
+        "ars_nouveau:textures/entity/starbuncle_cyan.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_cyan.png",
+        "ars_nouveau:textures/entity/starbuncle_gray.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_gray.png",
+        "ars_nouveau:textures/entity/starbuncle_light_blue.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_light_blue.png",
+        "ars_nouveau:textures/entity/starbuncle_light_gray.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_light_gray.png",
+        "ars_nouveau:textures/entity/starbuncle_lime.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_lime.png",
+        "ars_nouveau:textures/entity/starbuncle_magenta.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_magenta.png",
+        "ars_nouveau:textures/entity/starbuncle_mask.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_mask.png",
+        "ars_nouveau:textures/entity/starbuncle_white.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_white.png",
+        "ars_nouveau:textures/entity/starbuncle_pink.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_pink.png",
+        "ars_nouveau:textures/entity/starbuncle_yellow.png" : "outlined_sprite:ars_nouveau/starbuncle/starbuncle_yellow.png","layersAllowed": true
+    }
+}

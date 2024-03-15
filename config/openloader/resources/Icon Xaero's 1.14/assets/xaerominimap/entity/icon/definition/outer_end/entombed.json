@@ -1,0 +1,8 @@
+{
+    "variants": {
+	"outer_end:textures/entity/entombed.png" : "outlined_sprite:outer_end/entombed.png",
+    "outer_end:textures/entity/entombed_amogus.png" : "outlined_sprite:outer_end/entombed_amogus.png"
+	,
+	"layersAllowed": true
+    }
+}

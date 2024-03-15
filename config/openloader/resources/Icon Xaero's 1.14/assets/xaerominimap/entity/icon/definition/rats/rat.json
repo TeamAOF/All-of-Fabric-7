@@ -1,0 +1,9 @@
+{
+	"variants" : {
+        "rats:textures/entity/rat/brown.png": "outlined_sprite:rats/rat/brown.png",
+        "rats:textures/entity/rat/blue.png": "outlined_sprite:rats/rat/blue.png",
+        "rats:textures/entity/rat/green.png": "outlined_sprite:rats/rat/green.png",
+        "rats:textures/entity/rat/black.png": "outlined_sprite:rats/rat/black.png",
+        "layersAllowed": true
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "variants":{
+        "mythicmounts:textures/model/entity/griffon_mount.png":"outlined_sprite:mythicmounts/griffon/griffon.png",
+        "mythicmounts:textures/model/entity/griffon_mount2.png":"outlined_sprite:mythicmounts/griffon/griffon_2.png",
+        "mythicmounts:textures/model/entity/griffon_mount3.png":"outlined_sprite:mythicmounts/griffon/griffon_3.png",
+        "mythicmounts:textures/model/entity/griffon_mount4.png":"outlined_sprite:mythicmounts/griffon/griffon_4.png",
+        "mythicmounts:textures/model/entity/griffon_mount5.png":"outlined_sprite:mythicmounts/griffon/griffon_5.png",
+        "mythicmounts:textures/model/entity/griffon_mount6.png":"outlined_sprite:mythicmounts/griffon/griffon_6.png"
+    }
+}

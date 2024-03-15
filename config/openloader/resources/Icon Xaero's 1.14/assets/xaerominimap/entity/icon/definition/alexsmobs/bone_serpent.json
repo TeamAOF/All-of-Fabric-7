@@ -1,0 +1,6 @@
+{
+	"variants" : {
+		"default" : "outlined_sprite:alexsmobs/bone_serpent_head_with_horns.png",
+		"layersAllowed":true
+	}
+}

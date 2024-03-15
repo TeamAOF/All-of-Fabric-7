@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:gothic/ice_wolf.png"
+	,
+	"layersAllowed": true
+    }
+}

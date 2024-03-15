@@ -1,0 +1,11 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/aequorea_blue.png" : "outlined_sprite:divinerpg/aequorea/blue.png",
+    "divinerpg:textures/entity/aequorea_green.png" : "outlined_sprite:divinerpg/aequorea/green.png",
+    "divinerpg:textures/entity/aequorea_pink.png" : "outlined_sprite:divinerpg/aequorea/pink.png",
+    "divinerpg:textures/entity/aequorea_purple.png" : "outlined_sprite:divinerpg/aequorea/purple.png",
+    "divinerpg:textures/entity/aequorea_red.png" : "outlined_sprite:divinerpg/aequorea/red.png",
+    "divinerpg:textures/entity/aequorea_yellow.png" : "outlined_sprite:divinerpg/aequorea/yellow.png",
+	"layersAllowed": true
+    }
+}

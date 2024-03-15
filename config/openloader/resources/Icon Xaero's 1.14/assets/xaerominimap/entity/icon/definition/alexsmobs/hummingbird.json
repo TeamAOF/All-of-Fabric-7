@@ -1,0 +1,8 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/hummingbird_0.png" : "outlined_sprite:alexsmobs/hummingbird_0.png",
+        "alexsmobs:textures/entity/hummingbird_1.png" : "outlined_sprite:alexsmobs/hummingbird_1.png",
+        "alexsmobs:textures/entity/hummingbird_2.png" : "outlined_sprite:alexsmobs/hummingbird_2.png",
+        "layersAllowed":true
+	}
+}

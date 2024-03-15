@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "naturalist:textures/entity/tortoise/black.png": "outlined_sprite:naturalist/tortoise/black.png",
+        "naturalist:textures/entity/tortoise/brown.png": "outlined_sprite:naturalist/tortoise/brown.png",
+        "naturalist:textures/entity/tortoise/green.png": "outlined_sprite:naturalist/tortoise/green.png",
+        "layersAllowed": true
+    }
+}

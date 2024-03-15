@@ -1,0 +1,6 @@
+{
+	"variants" : {
+        "default": "outlined_sprite:rats/plague_beast.png",
+        "layersAllowed": true
+	}
+}

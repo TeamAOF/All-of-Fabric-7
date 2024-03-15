@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "ars_elemental:textures/entity/mermaid.png": "outlined_sprite:ars_elemental/mermaid.png",
+        "ars_elemental:textures/entity/mermaid_brain.png": "outlined_sprite:ars_elemental/mermaid_brain.png",
+        "ars_elemental:textures/entity/mermaid_bubble.png": "outlined_sprite:ars_elemental/mermaid_bubble.png",
+        "ars_elemental:textures/entity/mermaid_fire.png": "outlined_sprite:ars_elemental/mermaid_fire.png",
+        "ars_elemental:textures/entity/mermaid_horn.png": "outlined_sprite:ars_elemental/mermaid_horn.png",
+        "ars_elemental:textures/entity/mermaid_kelp.png": "outlined_sprite:ars_elemental/mermaid_kelp.png",
+        "ars_elemental:textures/entity/mermaid_tube.png": "outlined_sprite:ars_elemental/mermaid_tube.png",
+        "layersAllowed": true
+    }
+}

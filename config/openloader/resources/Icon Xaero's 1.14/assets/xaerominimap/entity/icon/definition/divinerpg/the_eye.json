@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/the_eye_angry.png" : "outlined_sprite:divinerpg/the_eye_angry.png",
+    "divinerpg:textures/entity/the_eye.png" : "outlined_sprite:divinerpg/the_eye.png",
+	"layersAllowed": true
+    }
+}

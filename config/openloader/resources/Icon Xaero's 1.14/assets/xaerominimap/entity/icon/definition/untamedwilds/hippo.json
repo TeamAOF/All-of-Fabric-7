@@ -1,0 +1,6 @@
+{"variants":{
+    "untamedwilds:textures/entity/hippo/common_1.png":"outlined_sprite:untamedwilds/hippo/common_1.png",
+    "untamedwilds:textures/entity/hippo/common_2.png":"outlined_sprite:untamedwilds/hippo/common_2.png",
+    "untamedwilds:textures/entity/hippo/common_3.png":"outlined_sprite:untamedwilds/hippo/common_3.png",
+    "layersAllowed": true
+}}

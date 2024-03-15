@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"divinerpg:textures/entity/moon_wolf/moon_wolf_default.png" : "outlined_sprite:divinerpg/moon_wolf/moon_wolf_default.png",
+    "divinerpg:textures/entity/moon_wolf/moon_wolf_agro.png" : "outlined_sprite:divinerpg/moon_wolf/moon_wolf_agro.png",
+	"layersAllowed": true
+    }
+}

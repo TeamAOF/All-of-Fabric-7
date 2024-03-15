@@ -1,0 +1,41 @@
+{
+	"variants": {
+		"betteranimalsplus:textures/entity/songbird_small_1.png": "model:1",
+		"betteranimalsplus:textures/entity/songbird_small_2.png": "model:1",
+		"betteranimalsplus:textures/entity/songbird_small_3.png": "model:1",
+		"betteranimalsplus:textures/entity/songbird_small_4.png": "model:1",
+		"betteranimalsplus:textures/entity/songbird_small_5.png": "model:1",
+		"betteranimalsplus:textures/entity/songbird_small_6.png": "model:1",
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 1.0,
+			"rotationY": 0,
+			"rotationX": -30,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.ModelSongbird;head"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": false,
+			"layersAllowed": true
+		},
+		{
+			"baseScale": 1.0,
+			"rotationY": 0,
+			"rotationX": -30,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.ModelSongbirdSmall;head"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": false,
+			"layersAllowed": true
+		}
+	]
+}

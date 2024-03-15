@@ -1,0 +1,10 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/seal/seal_arctic_0.png" : "outlined_sprite:alexsmobs/seal/seal_arctic_0.png",
+		"alexsmobs:textures/entity/seal/seal_arctic_1.png" : "outlined_sprite:alexsmobs/seal/seal_arctic_1.png",
+		"alexsmobs:textures/entity/seal/seal_arctic_baby.png" : "outlined_sprite:alexsmobs/seal/seal_arctic_baby.png",
+		"alexsmobs:textures/entity/seal/seal_brown_0.png" : "outlined_sprite:alexsmobs/seal/seal_brown_0.png",
+		"alexsmobs:textures/entity/seal/seal_brown_1.png" : "outlined_sprite:alexsmobs/seal/seal_brown_1.png",
+		"layersAllowed":true
+	}
+}

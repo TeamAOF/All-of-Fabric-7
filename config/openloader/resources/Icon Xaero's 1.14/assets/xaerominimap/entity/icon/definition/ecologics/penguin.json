@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "ecologics:textures/entity/baby_penguin.png": "outlined_sprite:ecologics/baby_penguin.png",
+        "default": "outlined_sprite:ecologics/penguin.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/acid_hag.png"
+	,
+	"layersAllowed": true
+    }
+}

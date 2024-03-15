@@ -1,0 +1,7 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/seagull_wingull.png" : "outlined_sprite:alexsmobs/seagull_wingull.png",
+		"alexsmobs:textures/entity/seagull.png" : "outlined_sprite:alexsmobs/seagull.png",
+		"layersAllowed":true
+	}
+}

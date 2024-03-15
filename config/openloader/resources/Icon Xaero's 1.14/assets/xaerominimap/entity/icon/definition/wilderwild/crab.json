@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:wilderwild/crab.png"
+	,
+	"layersAllowed": true
+    }
+}

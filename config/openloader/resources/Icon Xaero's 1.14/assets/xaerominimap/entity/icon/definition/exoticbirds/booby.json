@@ -1,0 +1,27 @@
+{
+	"variants": {
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 1.0,
+			"rotationY": 0,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelPartsFields": [
+				"net.pavocado.exoticbirds.client.model.BoobyModel;neck",
+				"net.pavocado.exoticbirds.client.model.BoobyModel;beak",
+				"net.pavocado.exoticbirds.client.model.BoobyModel;lowerBeak",
+				"net.pavocado.exoticbirds.client.model.BoobyModel;upperBeak"
+			],
+			"modelMainPartFieldAliases": [
+				"net.pavocado.exoticbirds.client.model.BoobyModel;head"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": false,
+			"layersAllowed": true
+		}
+	]
+}

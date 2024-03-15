@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/alligator_snapping_turtle.png" : "outlined_sprite:alexsmobs/alligator_snapping_turtle.png",
+		"alexsmobs:textures/entity/alligator_snapping_turtle_moss.png" : "outlined_sprite:alexsmobs/alligator_snapping_turtle_moss.png",
+		"layersAllowed":true
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"variants": {
+		"default": "model:0"
+	},
+	"modelConfigs": [
+		{
+			"baseScale": 0.3,
+			"rotationY": 90,
+			"rotationX": 0,
+			"rotationZ": 0,
+			"offsetX": 0,
+			"offsetY": 0,
+			"modelMainPartFieldAliases": [
+				"dev.itsmeow.betteranimalsplus.client.model.entity.ModelBarracuda;body"
+			],
+			"renderingFullModel": false,
+			"modelPartsRotationReset": false,
+			"layersAllowed": true
+		}
+	]
+}

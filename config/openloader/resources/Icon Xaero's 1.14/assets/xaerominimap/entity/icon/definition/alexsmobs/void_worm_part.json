@@ -1,0 +1,6 @@
+{
+	"variants" : {
+		"default" : "outlined_sprite:alexsmobs/void_worm/void_worm_body.png",
+		"layersAllowed":true
+	}
+}

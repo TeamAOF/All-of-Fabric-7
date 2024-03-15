@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:enemyexpansion/silverqueenbodiless.png"
+	,
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"variants" : {
+        "rats:textures/entity/demon_rat/demon_rat.png": "outlined_sprite:rats/demon_rat/demon_rat.png",
+        "rats:textures/entity/demon_rat/soul_demon_rat.png": "outlined_sprite:rats/demon_rat/soul_demon_rat.png",
+        "layersAllowed": true
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/wreck_ranged.png"
+	,
+	"layersAllowed": true
+    }
+}

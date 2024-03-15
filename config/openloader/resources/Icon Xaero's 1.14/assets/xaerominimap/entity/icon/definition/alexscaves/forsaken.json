@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "default": "outlined_sprite:alexscaves/forsaken.png",
+        "layersAllowed": true
+    }
+}

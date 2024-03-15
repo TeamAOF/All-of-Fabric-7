@@ -1,0 +1,7 @@
+{
+	"variants" : {
+        "alexsmobs:textures/entity/platypus_perry.png" : "outlined_sprite:alexsmobs/platypus_perry.png",
+		"alexsmobs:textures/entity/platypus.png" : "outlined_sprite:alexsmobs/platypus.png",
+		"layersAllowed":true
+	}
+}

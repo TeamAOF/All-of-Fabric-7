@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "twm:textures/entity/frog/frog_cold.png": "outlined_sprite:twm/frog_cold.png",
+    "twm:textures/entity/frog/frog_swamp.png": "outlined_sprite:twm/frog_swamp.png",
+    "twm:textures/entity/frog/frog_tropical.png": "outlined_sprite:twm/frog_tropical.png",
+    "default": "outlined_sprite:twm/frog_swamp.png"
+  }
+}

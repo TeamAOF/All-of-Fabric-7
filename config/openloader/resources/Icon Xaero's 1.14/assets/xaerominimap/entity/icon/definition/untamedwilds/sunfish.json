@@ -1,0 +1,5 @@
+{"variants":{
+    "untamedwilds:textures/entity/sunfish/sunfish.png":"outlined_sprite:untamedwilds/sunfish/sunfish.png",
+    "untamedwilds:textures/entity/sunfish/southern.png":"outlined_sprite:untamedwilds/sunfish/southern.png",
+    "layersAllowed": true
+}}

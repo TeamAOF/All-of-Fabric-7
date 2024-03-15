@@ -1,0 +1,27 @@
+{
+	"variants" : {
+        "rats:textures/entity/rat/brown.png": "outlined_sprite:rats/rat/brown.png",
+        "rats:textures/entity/rat/blue.png": "outlined_sprite:rats/rat/blue.png",
+        "rats:textures/entity/rat/green.png": "outlined_sprite:rats/rat/green.png",
+        "rats:textures/entity/rat/black.png": "outlined_sprite:rats/rat/black.png",
+        "rats:textures/entity/rat/baby.png": "outlined_sprite:rats/rat/baby.png",
+        "rats:textures/entity/rat/upgrades/aquatic.png": "outlined_sprite:rats/rat/upgrades/aquatic.png",
+        "rats:textures/entity/rat/upgrades/bee.png": "outlined_sprite:rats/rat/upgrades/bee.png",
+        "rats:textures/entity/rat/upgrades/carrat.png": "outlined_sprite:rats/rat/upgrades/carrat.png",
+        "rats:textures/entity/rat/upgrades/dragon.png": "outlined_sprite:rats/rat/upgrades/dragon.png",
+        "rats:textures/entity/rat/upgrades/ender.png": "outlined_sprite:rats/rat/upgrades/ender.png",
+        "rats:textures/entity/rat/upgrades/idol.png": "outlined_sprite:rats/rat/upgrades/idol.png",
+        "rats:textures/entity/rat/upgrades/sculked.png": "outlined_sprite:rats/rat/upgrades/sculked.png",
+        "rats:textures/entity/rat/upgrades/undead.png": "outlined_sprite:rats/rat/upgrades/undead.png",
+        "rats:textures/entity/rat/breeding_variants/albino.png": "outlined_sprite:rats/rat/breeding_variants/albino.png",
+        "rats:textures/entity/rat/breeding_variants/brown_hooded.png": "outlined_sprite:rats/rat/breeding_variants/brown_hooded.png", 
+        "rats:textures/entity/rat/breeding_variants/brown_undercoat.png": "outlined_sprite:rats/rat/breeding_variants/brown_undercoat.png", 
+        "rats:textures/entity/rat/breeding_variants/gray_hooded.png": "outlined_sprite:rats/rat/breeding_variants/gray_hooded.png", 
+        "rats:textures/entity/rat/breeding_variants/hairless.png": "outlined_sprite:rats/rat/breeding_variants/hairless.png", 
+        "rats:textures/entity/rat/breeding_variants/hooded.png": "outlined_sprite:rats/rat/breeding_variants/hooded.png", 
+        "rats:textures/entity/rat/breeding_variants/siamese.png": "outlined_sprite:rats/rat/breeding_variants/siamese.png", 
+        "rats:textures/entity/rat/breeding_variants/white.png": "outlined_sprite:rats/rat/breeding_variants/white.png", 
+        "rats:textures/entity/rat/breeding_variants/yellow_hooded.png": "outlined_sprite:rats/rat/breeding_variants/yellow_hooded.png", 
+        "layersAllowed": true
+	}
+}

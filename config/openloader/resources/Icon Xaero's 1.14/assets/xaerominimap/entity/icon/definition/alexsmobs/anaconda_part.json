@@ -1,0 +1,9 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/anaconda_yellow.png" : "outlined_sprite:alexsmobs/anaconda_yellow_part.png", 
+		"alexsmobs:textures/entity/anaconda_shedding.png" : "outlined_sprite:alexsmobs/anaconda_shedding_part.png",
+		"alexsmobs:textures/entity/anaconda.png" : "outlined_sprite:alexsmobs/anaconda_part.png",
+		"alexsmobs:textures/entity/anaconda_yellow_shedding.png" : "outlined_sprite:alexsmobs/anaconda_yellow_part.png",
+		"layersAllowed":true
+	}
+}

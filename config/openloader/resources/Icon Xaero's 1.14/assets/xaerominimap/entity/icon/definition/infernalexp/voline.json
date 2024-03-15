@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "infernalexp:textures/entity/voline.png": "outlined_sprite:infernalexp/voline.png",
+        "infernalexp:textures/entity/voline_tired.png": "outlined_sprite:infernalexp/voline_tired.png",
+        "layersAllowed": true
+    }
+}

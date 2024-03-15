@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/deep_one/deep_one_knight.png": "outlined_sprite:alexscaves/deep_one_knight.png",
+        "alexscaves:textures/entity/deep_one/deep_one_knight_noon.png": "outlined_sprite:alexscaves/deep_one_knight_noon.png",
+        "layersAllowed": true
+    }
+}

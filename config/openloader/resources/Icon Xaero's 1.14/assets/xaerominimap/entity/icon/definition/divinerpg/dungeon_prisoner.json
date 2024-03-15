@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/dungeon_prisoner.png"
+	,
+	"layersAllowed": true
+    }
+}

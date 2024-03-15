@@ -1,0 +1,10 @@
+{
+    "variants": {
+	"fishofthieves:textures/entity/stormfish/ancient.png" : "outlined_sprite:fishofthieves/stormfish/ancient.png",
+	"fishofthieves:textures/entity/stormfish/shadow.png" : "outlined_sprite:fishofthieves/stormfish/shadow.png",
+    "fishofthieves:textures/entity/stormfish/shores.png" : "outlined_sprite:fishofthieves/stormfish/shores.png",
+    "fishofthieves:textures/entity/stormfish/twilight.png" : "outlined_sprite:fishofthieves/stormfish/twilight.png",
+    "fishofthieves:textures/entity/stormfish/wild.png" : "outlined_sprite:fishofthieves/stormfish/wild.png",
+	"layersAllowed": true
+    }
+}

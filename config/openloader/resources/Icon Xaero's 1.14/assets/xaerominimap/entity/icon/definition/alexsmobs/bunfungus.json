@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/bunfungus_sleeping.png" : "outlined_sprite:alexsmobs/bunfungus_sleeping.png",
+		"alexsmobs:textures/entity/bunfungus.png" : "outlined_sprite:alexsmobs/bunfungus.png",
+		"alexsmobs:textures/entity/bunfungus_transforming.png" : "outlined_sprite:alexsmobs/bunfungus_transforming.png",
+		"layersAllowed":true
+	}
+}

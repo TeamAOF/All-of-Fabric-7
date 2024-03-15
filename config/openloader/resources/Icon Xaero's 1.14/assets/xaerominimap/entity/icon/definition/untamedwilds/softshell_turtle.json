@@ -1,0 +1,11 @@
+{"variants":{
+    "untamedwilds:textures/entity/softshell_turtle/black.png":"outlined_sprite:untamedwilds/softshell_turtle/black.png",
+    "untamedwilds:textures/entity/softshell_turtle/chinese_1.png":"outlined_sprite:untamedwilds/softshell_turtle/chinese_1.png",
+    "untamedwilds:textures/entity/softshell_turtle/chinese_2.png":"outlined_sprite:untamedwilds/softshell_turtle/chinese_2.png",
+    "untamedwilds:textures/entity/softshell_turtle/flapshell.png":"outlined_sprite:untamedwilds/softshell_turtle/flapshell.png",
+    "untamedwilds:textures/entity/softshell_turtle/nile.png":"outlined_sprite:untamedwilds/softshell_turtle/nile.png",
+    "untamedwilds:textures/entity/softshell_turtle/peacock.png":"outlined_sprite:untamedwilds/softshell_turtle/peacock.png",
+    "untamedwilds:textures/entity/softshell_turtle/pig_nose.png":"outlined_sprite:untamedwilds/softshell_turtle/pig_nose.png",
+    "untamedwilds:textures/entity/softshell_turtle/spiny.png":"outlined_sprite:untamedwilds/softshell_turtle/spiny.png",
+    "layersAllowed": true
+}}

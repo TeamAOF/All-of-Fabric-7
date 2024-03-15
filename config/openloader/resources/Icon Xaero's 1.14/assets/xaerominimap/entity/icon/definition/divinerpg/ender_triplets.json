@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/ender_triplets.png"
+	,
+	"layersAllowed": true
+    }
+}

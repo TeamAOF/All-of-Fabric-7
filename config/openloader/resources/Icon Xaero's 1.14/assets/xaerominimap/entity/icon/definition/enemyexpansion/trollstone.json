@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:enemyexpansion/troll_stone.png"
+	,
+	"layersAllowed": true
+    }
+}

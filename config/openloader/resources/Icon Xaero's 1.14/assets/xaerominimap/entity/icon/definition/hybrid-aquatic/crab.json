@@ -1,0 +1,6 @@
+{
+    "variants": {
+    "default":"outlined_sprite:hybrid-aquatic/crab.png",
+    "layersAllowed": true
+    }
+} 

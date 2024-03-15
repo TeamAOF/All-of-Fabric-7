@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/monkey.png": "outlined_sprite:wildlife/monkey/monkey.png",
+        "wildlife:textures/model/entity/monkey2.png": "outlined_sprite:wildlife/monkey/monkey2.png",
+        "wildlife:textures/model/entity/monkey3.png": "outlined_sprite:wildlife/monkey/monkey3.png",
+        "wildlife:textures/model/entity/monkey_albino.png": "outlined_sprite:wildlife/monkey/monkey_albino.png"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "default": "model:0"
+    },
+    "modelConfigs": [
+        {
+            "baseScale": 1.0,
+            "rotationY": 90,
+            "rotationX": 0,
+            "rotationZ": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "modelMainPartFieldAliases": [
+                "com.legacy.blue_skies.client.models.entities.passive.ShadeMonitorModel;f_103492_"
+            ],
+            "renderingFullModel": false,
+            "modelPartsRotationReset": true,
+            "layersAllowed": true
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"alexsmobs:textures/entity/mudskipper.png" : "outlined_sprite:alexsmobs/mudskipper.png",
+		"alexsmobs:textures/entity/mudskipper_spit.png" : "outlined_sprite:alexsmobs/mudskipper_spit.png",
+		"layersAllowed":true
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+		"bewitchment:textures/entity/living/ghost/0.png" : "outlined_sprite:bewitchment/ghost/0.png",
+		"bewitchment:textures/entity/living/ghost/1.png" : "outlined_sprite:bewitchment/ghost/1.png",
+        "bewitchment:textures/entity/living/ghost/2.png" : "outlined_sprite:bewitchment/ghost/2.png",
+        "bewitchment:textures/entity/living/ghost/3.png" : "outlined_sprite:bewitchment/ghost/3.png",
+        "bewitchment:textures/entity/living/ghost/4.png" : "outlined_sprite:bewitchment/ghost/4.png",
+	"layersAllowed": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+      "mythicmounts:textures/model/entity/direwolf_mount.png":"outlined_sprite:mythicmounts/direwolf/direwolf.png",
+      "mythicmounts:textures/model/entity/direwolf_mount2.png":"outlined_sprite:mythicmounts/direwolf/direwolf_2.png",
+      "mythicmounts:textures/model/entity/direwolf_mount3.png":"outlined_sprite:mythicmounts/direwolf/direwolf_3.png",
+      "mythicmounts:textures/model/entity/direwolf_mount4.png":"outlined_sprite:mythicmounts/direwolf/direwolf_4.png"
+
+    }
+}

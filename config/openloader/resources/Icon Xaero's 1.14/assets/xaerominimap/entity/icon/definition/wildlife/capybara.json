@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "wildlife:textures/model/entity/capybara.png": "outlined_sprite:wildlife/capybara/capybara.png",
+        "wildlife:textures/model/entity/capybara2.png": "outlined_sprite:wildlife/capybara/capybara2.png",
+        "wildlife:textures/model/entity/capybara3.png": "outlined_sprite:wildlife/capybara/capybara3.png",
+        "wildlife:textures/model/entity/capybara4.png": "outlined_sprite:wildlife/capybara/capybara4.png",
+        "wildlife:textures/model/entity/capybara5.png": "outlined_sprite:wildlife/capybara/capybara5.png",
+        "wildlife:textures/model/entity/capybara_albino.png": "outlined_sprite:wildlife/capybara/capybara_albino.png"
+    }
+}

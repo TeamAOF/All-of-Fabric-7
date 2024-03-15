@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "alexscaves:textures/entity/subterranodon.png": "outlined_sprite:alexscaves/subterranodon/subterranodon.png",
+        "alexscaves:textures/entity/subterranodon_retro.png": "outlined_sprite:alexscaves/subterranodon/subterranodon_retro.png",
+        "alexscaves:textures/entity/subterranodon_rodan.png": "outlined_sprite:alexscaves/subterranodon/subterranodon_rodan.png",
+        "layersAllowed": true
+    }
+}

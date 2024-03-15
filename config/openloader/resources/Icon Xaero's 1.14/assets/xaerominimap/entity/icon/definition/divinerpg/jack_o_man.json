@@ -1,0 +1,7 @@
+{
+    "variants": {
+	"default" : "outlined_sprite:divinerpg/jack_o_man.png"
+	,
+	"layersAllowed": true
+    }
+}
