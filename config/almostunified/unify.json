@@ -144,6 +144,8 @@
     "meadow:piece_of_buffalo_cheese",
     "meadow:piece_of_goat_cheese",
     "meadow:piece_of_warped_cheese",
+    "modern_industrialization:quartz_ore",
+    "minecraft:nether_gold_ore",
     "croptopia:salt"
   ],
   "ignoredRecipeTypes": [
