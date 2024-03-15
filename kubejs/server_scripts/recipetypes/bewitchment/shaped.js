@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
     B: 'bewitchment:cypress_broom',
     C: 'bewitchment:juniper_broom',
     D: 'bewitchment:dragons_blood_broom',
-    E: 'rootsclassic:mutating_powder',
+    E: 'botania:pixie_dust',
     F: 'zenith:vial_of_extraction',
     G: 'botania:rune_autumn',
     H: 'simplyswords:runefused_gem'
