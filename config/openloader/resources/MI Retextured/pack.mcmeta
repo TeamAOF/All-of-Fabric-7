@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": [
+      "Brought to you by: ",
+      {
+        "text": "A",
+        "bold": true,
+        "color": "#d64551"
+      },
+      {
+        "text": "O",
+        "bold": true,
+        "color": "#726778"
+      },
+      {
+        "text": "F",
+        "bold": true,
+        "color": "#77a898"
+      }
+    ]
+  }
+}
