@@ -18,7 +18,23 @@ fertilizerBonusGrowthChance = 1.0
 fertilizerRegressionChance = 0.0
 
 # List of names the merchant can have.
-merchantNames = [ "Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson" ]
+merchantNames = [ 
+    "Swap-O-Matic", 
+    "Emerald Muncher", 
+    "Weathered Salesperson", 
+    "Daisy Daria", 
+    "Farmer Facu", 
+    "Tractor Trent", 
+    "Munchy Monster", 
+    "Innkeeper Irunat", 
+    "Blueberry Bagel", 
+    "Appetite Alpha", 
+    "Angry Adrian", 
+    "I.T Inno", 
+    "Baked Blue", 
+    "Amazing Anam", 
+    "Felony AK"
+ ]
 
 # If true, merchants will be considered babies (on a technical level only), which may resolve exploits based on merchant death loot (like blood)
 treatMerchantsLikeBabies = true
