@@ -1,10 +1,10 @@
 StartupEvents.registry('fluid', event => {
 
   // Mozanite
-  event.create('molten_mozanite')
+  event.create('molten_monazite')
     .thickTexture(0x8D2185)
     .bucketColor(0x8D2185)
-    .displayName('Molten Mozanite')
+    .displayName('Molten Monazite')
     .luminosity(8)
     .noBucket()
 
