@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "51363310CB4EC0AD": {
+    "netherite_scrap": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "minecraft:netherite_scrap",
+        "count": 3
       },
       "type": "heracles:item"
     }

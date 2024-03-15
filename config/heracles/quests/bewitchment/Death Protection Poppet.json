@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "0DB8AA159811F50D": {
+    "demon_heart": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +29,23 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "bewitchment:demon_heart",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "ghast_tear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:ghast_tear",
+        "count": 4
       },
       "type": "heracles:item"
     }
@@ -68,7 +77,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Death-protection Poppet"
+      "translate": "Death-Protection Poppet"
     }
   },
   "settings": {

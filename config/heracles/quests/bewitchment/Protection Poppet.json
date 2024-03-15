@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "4EE10EA390B3E4C2": {
+    "iron_block": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "minecraft:iron_block",
+        "count": 6
       },
       "type": "heracles:item"
     }

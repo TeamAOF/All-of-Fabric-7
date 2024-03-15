@@ -18,29 +18,7 @@
       }
     }
   },
-  "rewards": {
-    "3DA892D969F3279C": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "RARE",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "translate": "Crystal Balls are common divination tools."

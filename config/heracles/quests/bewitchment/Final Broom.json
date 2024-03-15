@@ -37,24 +37,6 @@
       },
       "type": "heracles:item"
     },
-    "witch_gear": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "bewitchment:besmirched_hat",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
-      },
-      "type": "heracles:item"
-    },
     "witch_gear_2": {
       "title": "",
       "icon": {
@@ -66,6 +48,24 @@
       },
       "item": {
         "id": "bewitchment:besmirched_pants",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "witch_gear": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:besmirched_hat",
         "count": 1,
         "nbt": {
           "Damage": 0

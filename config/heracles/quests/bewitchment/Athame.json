@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "campfire": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:campfire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "197B01B3DC9E5C8E": {
       "title": "",
       "icon": {
@@ -29,8 +44,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
+        "id": "modern_industrialization:silver_ingot",
+        "count": 8,
         "nbt": {
           "Type": "COMMON",
           "Color": 16747259,

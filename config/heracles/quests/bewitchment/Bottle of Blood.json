@@ -19,7 +19,20 @@
     }
   },
   "rewards": {
-    "4931A83E80FD8148": {
+    "experience": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 4,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "blood": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +42,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "RARE",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
-        }
+        "id": "bewitchment:bottle_of_blood",
+        "count": 4
       },
       "type": "heracles:item"
     }

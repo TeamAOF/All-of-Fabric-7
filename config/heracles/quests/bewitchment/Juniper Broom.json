@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "4025B11483CCF66D": {
+    "elytra": {
       "title": "",
       "icon": {
         "item": {
@@ -30,44 +30,11 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
+        "id": "minecraft:elytra",
         "count": 1,
         "nbt": {
-          "Type": "RARE",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
+          "Damage": 0
         }
-      },
-      "type": "heracles:item"
-    },
-    "6DA0374A298E1188": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:warped_nylium",
-        "count": 12
-      },
-      "type": "heracles:item"
-    },
-    "482BC1F93336875E": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:crimson_nylium",
-        "count": 12
       },
       "type": "heracles:item"
     }

@@ -19,7 +19,20 @@
     }
   },
   "rewards": {
-    "5932482FE7A9029A": {
+    "experience": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 8,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "grim_elixir": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +42,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "bewitchment:grim_elixir",
+        "count": 3
       },
       "type": "heracles:item"
     }

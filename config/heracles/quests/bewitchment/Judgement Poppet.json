@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "5E7FF792249DA4BF": {
+    "salt": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "bewitchment:salt",
+        "count": 16
       },
       "type": "heracles:item"
     }

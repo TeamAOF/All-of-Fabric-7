@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "37130F49FAD7BE89": {
+    "heaven_extract": {
       "title": "",
       "icon": {
         "item": {
@@ -29,19 +29,12 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "bewitchment:heaven_extract",
+        "count": 3
       },
       "type": "heracles:item"
     },
-    "4BD914AE009D5A45": {
-      "title": "",
+    "experience": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -49,11 +42,10 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "kibe:liquid_xp_bucket",
-        "count": 1
-      },
-      "type": "heracles:item"
+      "xptype": "POINTS",
+      "amount": 8,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {

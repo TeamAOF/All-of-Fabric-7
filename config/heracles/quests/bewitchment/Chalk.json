@@ -20,7 +20,7 @@
     }
   },
   "rewards": {
-    "63432E061B2D2063": {
+    "chalk": {
       "title": "",
       "icon": {
         "item": {
@@ -30,13 +30,10 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
+        "id": "bewitchment:chalk",
+        "count": 6,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
+          "Damage": 0
         }
       },
       "type": "heracles:item"

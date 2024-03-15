@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "13FAF7138F13A241": {
+    "bark_2": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +29,23 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "bewitchment:birch_bark",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "bark": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:oak_bark",
+        "count": 16
       },
       "type": "heracles:item"
     }
@@ -68,7 +77,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Voodoo-protection Poppe"
+      "translate": "Voodoo-Protection Poppet"
     }
   },
   "settings": {

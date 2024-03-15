@@ -1,9 +1,11 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Taglock"
+  ],
   "tasks": {
-    "0BB0332E269A468C": {
+    "6C470769345218F8": {
       "type": "heracles:item",
-      "item": "bewitchment:taglock",
+      "item": "bewitchment:curse_poppet",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -17,7 +19,7 @@
     }
   },
   "rewards": {
-    "4922BE265F6943B0": {
+    "snake_tongue": {
       "title": "",
       "icon": {
         "item": {
@@ -27,42 +29,40 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:glass",
-        "count": 12
+        "id": "bewitchment:snake_tongue",
+        "count": 6
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection."
+      "text": ""
     },
     "description": [
-      "<h2>Yet another essential tool. It can gather an entity's hair, blood, and all things needed to establish a connection.</h2>",
-      "---",
-      "To gather a taglock from an entity, either sneak up from behind or search for their bed.",
-      "",
-      "To gather a taglock from a Bed, use it while sneaking so you don't accidentally sleep.",
       "---"
     ],
     "groups": {
       "Bewitchment": {
         "position": [
-          32,
-          -128
+          -16,
+          -112
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "bewitchment:taglock",
-        "count": 1
+        "id": "bewitchment:curse_poppet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
-      "translate": "Taglocks"
+      "translate": "Curse Poppet"
     }
   },
   "settings": {

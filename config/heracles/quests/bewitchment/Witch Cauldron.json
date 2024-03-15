@@ -17,8 +17,7 @@
     }
   },
   "rewards": {
-    "4F9D60A4F4375B65": {
-      "title": "",
+    "experience": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -26,17 +25,10 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
-      },
-      "type": "heracles:item"
+      "xptype": "LEVEL",
+      "amount": 4,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {

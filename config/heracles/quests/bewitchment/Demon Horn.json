@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "36C67E1882AB1288": {
+    "snake": {
       "title": "",
       "icon": {
         "item": {
@@ -29,14 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "RARE",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
-        }
+        "id": "bewitchment:snake_tongue",
+        "count": 2
       },
       "type": "heracles:item"
     }

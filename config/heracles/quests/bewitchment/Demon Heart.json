@@ -20,8 +20,7 @@
     }
   },
   "rewards": {
-    "2821962D0E9F1AE3": {
-      "title": "",
+    "experience": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -29,17 +28,10 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "RARE",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/rare",
-          "Name": "Magic Rare Lootbag"
-        }
-      },
-      "type": "heracles:item"
+      "xptype": "LEVEL",
+      "amount": 6,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {

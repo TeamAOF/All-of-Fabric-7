@@ -19,7 +19,7 @@
     }
   },
   "rewards": {
-    "2F9E7E82B08AD31E": {
+    "fiery_serum": {
       "title": "",
       "icon": {
         "item": {
@@ -29,16 +29,23 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
+        "id": "bewitchment:fiery_serum",
+        "count": 3
       },
       "type": "heracles:item"
+    },
+    "experience": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 8,
+      "title": "",
+      "type": "heracles:xp"
     }
   },
   "display": {
