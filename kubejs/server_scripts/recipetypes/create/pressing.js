@@ -1223,196 +1223,196 @@ event.custom({
     type: "create:compacting",
     ingredients: [
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
-            item: "blast:gunpowder_block"
+            item: "regions_unexplored:ash"
         },
         {
             item: "kubejs:mixed_stone_ball"
@@ -2021,84 +2021,6 @@ event.custom({
     ],
     heatRequirement: 'heated'
 }).id('z_aof:compacting/soul_sandstone')
-
-event.custom({
-    type: "create:compacting",
-    ingredients: [
-        {
-            fluid: "createdieselgenerators:biodiesel",
-            amount: 40500
-        },
-        {
-            fluid: "minecraft:lava",
-            amount: 81000
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    results: [
-        {
-            item: "minecraft:end_stone"
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    heatRequirement: 'heated'
-}).id('z_aof:compacting/end_stone')
-
-event.custom({
-    type: "create:compacting",
-    ingredients: [
-        {
-            fluid: "minecraft:water",
-            amount: 40500
-        },
-        {
-            fluid: "minecraft:lava",
-            amount: 40500
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    results: [
-        {
-            item: "bygonenether:cobbled_blackstone"
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    heatRequirement: 'heated'
-}).id('z_aof:compacting/cobbled_blackstone')
-
-event.custom({
-    type: "create:compacting",
-    ingredients: [
-        {
-            fluid: "minecraft:water",
-            amount: 40500
-        },
-        {
-            fluid: "minecraft:lava",
-            amount: 40500
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    results: [
-        {
-            item: "bygonenether:withered_blackstone"
-        },
-        {
-            item: "kubejs:ultra_compressed_mixed_stone_ball"
-        }
-    ],
-    heatRequirement: 'heated'
-}).id('z_aof:compacting/withered_blackstone')
 
 event.custom({
     type: "create:compacting",
