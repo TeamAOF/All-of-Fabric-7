@@ -146,7 +146,7 @@
     }
   },
   "rewards": {
-    "33B8F578C9A9D999": {
+    "boss_rush_trophy": {
       "title": "",
       "icon": {
         "item": {
@@ -156,8 +156,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:air",
-        "count": 0,
+        "id": "trofers:medium_pillar",
+        "count": 1,
         "nbt": {
           "BlockEntityTag": {
             "Trophy": "trofers:boss_rush"
