@@ -178,6 +178,31 @@ ServerEvents.recipes((event) => {
         event.remove({ output: output });
     });
 
+    const rei_unification = [
+        'titanium',
+        'aluminum',
+        'bronze',
+        'chrome',
+        'copper',
+        'electrum',
+        'invar',
+        'iridium',
+        'lead',
+        'nickel',
+        'platinum',
+        'silver',
+        'steel',
+        'tin',
+        'tungsten'
+
+    ];
+
+    rei_unification.forEach((item) => {
+        event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_nugget'});
+        event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_block'});
+        event.remove({ id: 'techreborn:crafting_table/storage_block/' + item + '_storage_block'});
+    });
+
     const small_dusts = [
         'emerald',
         'bauxite',
@@ -192,7 +217,6 @@ ServerEvents.recipes((event) => {
         'coal'
 
     ];
-
     small_dusts.forEach((item) => {
         event.remove({ id: 'techreborn:crafting_table/small_dust/' + item + '_small_dust_from_dust'});
     });
