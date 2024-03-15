@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "wildlife:textures/model/entity/stingray.png": "outlined_sprite:wildlife/stingray/stingray.png",
-        "wildlife:textures/model/entity/stingray2.png": "outlined_sprite:wildlife/stingray/stingray2.png"
-    }
-}

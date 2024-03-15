@@ -1,43 +1,57 @@
 {
-  "settings": {},
   "dependencies": [
     "Handy Dandy Utilities"
   ],
   "tasks": {
     "50862BAF848E8B2B": {
       "type": "heracles:item",
-      "item": "kibe:slime_sling"
+      "item": "tconstruct:earth_slime_sling",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "303FED1AD57E48DB": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Slime Sling",
+    "subtitle": {
+      "translate": "Usable item that throws the player in the sky when charged while aiming at a block."
+    },
     "description": [
       "<h2>Usable item that throws the player in the sky when charged while aiming at a block.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:slime_sling"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Usable item that throws the player in the sky when charged while aiming at a block."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +59,27 @@
           -160
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:earth_slime_sling",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Slime Sling"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

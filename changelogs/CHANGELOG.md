@@ -1,3 +1,189 @@
+### All of Fabric 7 | v2.0.0
+
+_Fabric Loader 0.15.7_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.0.0.md)_
+
+# DISCLAIMER: 
+This update WILL break certain areas of your world, a world reset is HIGHLY recommended.
+---
+
+### Added Mods ✅
+
+  * [Backported Wolves](https://www.curseforge.com/minecraft/mc-mods/backported-wolves)
+  * [Bewitchment REI](https://www.curseforge.com/minecraft/mc-mods/befixment)
+  * [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass)
+  * [Create Enchantment Industry Fabric](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry-fabric)
+  * [Create: Copycats+](https://www.curseforge.com/minecraft/mc-mods/copycats)
+  * [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food-fabric)
+  * [Custom Portals](https://www.curseforge.com/minecraft/mc-mods/custom-portals)
+  * [Eclectic Trove (Legendary Tooltips)](https://www.curseforge.com/minecraft/texture-packs/eclectic-trove-legendary-tooltips)
+  * [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium)
+  * [ExtendedAE](https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider)
+  * [Hephaestus (Tinkers Construct)](https://www.curseforge.com/minecraft/mc-mods/hephaestus-fabric)
+  * [HephaestusPlus (Hephaestus Addon)](https://www.curseforge.com/minecraft/mc-mods/hephaestusplus)
+  * [Icon Xaero's](https://www.curseforge.com/minecraft/texture-packs/icon-xaeros)
+  * [Numismatic Overhaul](https://www.curseforge.com/minecraft/mc-mods/numismatic-overhaul)
+  * [Quad](https://www.curseforge.com/minecraft/mc-mods/quad)
+  * [Spectral Utilities](https://www.curseforge.com/minecraft/mc-mods/spectral-utilities)
+  * [Thaumon](https://www.curseforge.com/minecraft/mc-mods/thaumon)
+  * [The Orcs!](https://www.curseforge.com/minecraft/mc-mods/the-orcs)
+  * [TimeOutOut](https://www.curseforge.com/minecraft/mc-mods/timeoutout-fabric)
+  * [Towers of the Wild Modded](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-modded)
+  * [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition)
+  * [Variants & Ventures](https://www.curseforge.com/minecraft/mc-mods/variants-and-ventures)
+  * [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
+  * [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+  * [YUNG's Better Nether Fortresses](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric)
+  
+### Removed Mods ❌ 
+
+  * [AutoTag](https://www.curseforge.com/minecraft/mc-mods/autotag)
+  * [AzureLib](https://www.curseforge.com/minecraft/mc-mods/azurelib)
+  * [Bamboo Combat](https://www.curseforge.com/minecraft/mc-mods/bamboo-combat)
+  * [Banilla Claws](https://www.curseforge.com/minecraft/mc-mods/banilla-claws)
+  * [Better Lily Pads](https://www.curseforge.com/minecraft/mc-mods/better-lily-pads)
+  * [Biome Makeover](https://www.curseforge.com/minecraft/mc-mods/biome-makeover)
+  * [BLAST 💣](https://www.curseforge.com/minecraft/mc-mods/blast)
+  * [Bygone Nether](https://www.curseforge.com/minecraft/mc-mods/bygone-nether-fabric)
+  * [cAn i MiNe thIS bLOCk?](https://www.curseforge.com/minecraft/mc-mods/can-i-mine-this-block) (Featured in WTHIT itself)
+  * [CC:C Bridge](https://www.curseforge.com/minecraft/mc-mods/cccbridge) (Featured in Create itself)
+  * [Chalk (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chalk-fabric)
+  * [Chunk Loaders](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
+  * [Compost Bag](https://www.curseforge.com/minecraft/mc-mods/compost-bag)
+  * [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
+  * [Create Goggles (Create Plus)](https://www.curseforge.com/minecraft/mc-mods/create-goggles)
+  * [Create: Diesel Generators [Fabric]](https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators-fabric)
+  * [CreateFabric&REIBugFix](https://www.curseforge.com/minecraft/mc-mods/createfabricreibugfix)
+  * [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard)
+  * [Delightful Creators (Create and Farmer's Delight Addon)](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) (Replaced by Create: Food)
+  * [Dusk](https://www.curseforge.com/minecraft/mc-mods/dusk)
+  * [Dyed](https://www.curseforge.com/minecraft/mc-mods/dyed)
+  * [Eldritch End](https://www.curseforge.com/minecraft/mc-mods/eldritch-end)
+  * [Frog Legs](https://www.curseforge.com/minecraft/mc-mods/froglegs)
+  * [Grass Overhaul (Sod)](https://www.curseforge.com/minecraft/mc-mods/grass-overhaul)
+  * [Heartbond](https://www.curseforge.com/minecraft/mc-mods/heartbond)
+  * [Indium](https://www.curseforge.com/minecraft/mc-mods/indium) (Replaced by Embeddium)
+  * [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) (Replaced by Xaero's)
+  * [Just Enough Effect Descriptions (JEED)](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed)
+  * [Marium's Soulslike Weaponry](https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry) 
+  * [MCPitanLib (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch)
+  * [Mining Utility](https://www.curseforge.com/minecraft/mc-mods/mining-utility)
+  * [Necronomicon API](https://www.curseforge.com/minecraft/mc-mods/necronomicon)
+  * [Neruina - Ticking Entity Fixer](https://www.curseforge.com/minecraft/mc-mods/neruina)
+  * [NiftyCarts](https://www.curseforge.com/minecraft/mc-mods/niftycarts)
+  * [Noisium](https://www.curseforge.com/minecraft/mc-mods/noisium)
+  * [Roots Classic](https://www.curseforge.com/minecraft/mc-mods/roots-classic-fabric)
+  * [Savage Ender Dragon](https://www.curseforge.com/minecraft/mc-mods/savage-ender-dragon)
+  * [Server Country Flags](https://www.curseforge.com/minecraft/mc-mods/server-country-flags)
+  * [Sneak Through Berries](https://www.curseforge.com/minecraft/mc-mods/sneak-through-berries)
+  * [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (Replaced by Embeddium)
+  * [Speedometer](https://www.curseforge.com/minecraft/mc-mods/speedometer)
+  * [Subterrestrial](https://www.curseforge.com/minecraft/mc-mods/subterrestrial)
+  * [Tidal Towns](https://www.curseforge.com/minecraft/mc-mods/tidal-towns)
+  * [Underground Bunkers](https://www.curseforge.com/minecraft/mc-mods/underground-bunkers)
+  * [Wireless Networks](https://www.curseforge.com/minecraft/mc-mods/wireless-networks)
+  * [Wormhole (Portals)](https://www.curseforge.com/minecraft/mc-mods/wormhole-portals) (Replaced by Custom Portals)
+  * [You've Goat to be Kidding Me!](https://www.curseforge.com/minecraft/mc-mods/goated)
+  * [Zephyr (Zenith - RPG Series compat)](https://www.curseforge.com/minecraft/mc-mods/zephyr)
+
+### Improvements ⭐
+
+* Modern Industrialization Textures/Models have been updated **(Facu)**
+<img src="https://i.imgur.com/vwAagKG.png"/>
+<img src="https://i.imgur.com/zlrwCnX.png"/>
+<img src="https://i.imgur.com/lj9rp8z.png"/>
+<img src="https://i.imgur.com/jPqxzHb.png"/>
+<img src="https://i.imgur.com/fxIizYD.png"/>
+<img src="https://i.imgur.com/PXHI9cb.png"/>
+
+* Over 15 new custom trophies added **(AK)**
+<img src="https://i.imgur.com/rBaC9rw.png"/>
+
+* Industrial Revolution has been fully retextured **(Facu)**
+<img src="https://i.imgur.com/7VXdvjM.png"/>
+<img src="https://i.imgur.com/k22UBUN.png"/>
+
+* Economy System, player shops & improved villager trading **(AK)**
+* Added the Farmer O' Worlds quest trophy upon completing the chapter **(AK)**
+* Advancement Made! text color changed from brown to green, should be easier to read now **(AK)**
+* Improved Ad Astra quest chapter rewards **(AK)**
+* Added lootbags to MI quest chapter **(AK)**
+* Added colors to quest trophy quest names **(AK)**
+* Quest name improvements **(AK/SubordinalBlue)**
+* Getting Started quests are no longer hidden **(AK)**
+* Updated the built-in EU server IP **(AK)**
+* Additions to replicator blacklist **(AK)**
+* Performance improvements to RAM usage **(AK)**
+* Update the questing UI to a darker color scheme for quest backgrounds **(SubordinalBlue)**
+* Glowup of Getting Started quest chapter **(SubordinalBlue)**
+* Glowup of all trophy quests **(SubordinalBlue)**
+* Updated End Delight's quest rewards **(elaniquilador01)**
+* Updated all berries quest rewards **(elaniquilador01)**
+* Updated all drinks quest rewards **(elaniquilador01)**
+* Added info on how to get the other Brewery crops **(elaniquilador01)**
+* Many new FOW quest additions **(elaniquilador01)**
+* Prevent log spam when pressing shift with advanced tooltips **(Trent)**
+
+### New Quest Chapters 🔰  
+* Challenges
+* Adventurer
+* Utilities
+* Tools & Armory
+* Applied Energistics
+* Create
+* Powah
+* Deep Mob Learning
+* Industrial Revolution
+* Tech Reborn
+* Bewitchment
+
+### Recipes 🪵
+
+* Create crushing stone strata unification being broken **(AK)**
+* Unified ALL small/tiny dusts, this should make automation easier **(AK)**
+* Disabled Redstone & Lapis hammers **(AK)**
+* Added a recipe for Nikolite Dust in TR Grinder **(AK)**
+* Added a recipe for Nikolite Dust through Create Crushing **(AK)**
+* Added Enriched Nikolite progression through MI & TR **(AK)**
+* Added MI gears progression through Tinkers casting **(AK)**
+* Lowered power needed for the hyper nitro crystal, from 400M to 200M **(AK)**
+* Fixed Monazite Ore > Dust recipe through create crushing **(AK)**
+* Fixed recipes using Mixed Stone Ball as inputs **(AK)**
+* Cleaned up duplicate recipes for ingots & blocks between TR & MI, this makes REI cleaner **(AK)**
+
+* Angel Ring recipe has been changed **(AK)**
+<img src="https://i.imgur.com/oCBlQbY.png"/>
+
+* Mining Rig & Drills recipes have been changed **(AK)**
+<img src="https://i.imgur.com/5cdZF4n.png"/>
+<img src="https://i.imgur.com/UqKM9ua.png"/>
+
+### Broom recipes have been changed **(AK)**
+<img src="https://i.imgur.com/7Wi94Uc.png"/>
+<img src="https://i.imgur.com/Yn3GCgu.png"/>
+<img src="https://i.imgur.com/IMw3aOB.png"/>
+<img src="https://i.imgur.com/IDdgSZa.png"/>
+<img src="https://i.imgur.com/FlsgWnb.png"/>
+
+### Added a recipe for making eggs **(AK)**
+<img src="https://i.imgur.com/sHw4Hyv.png"/>
+
+### Undead Kebab recipe has been changed **(AK)**
+<img src="https://i.imgur.com/U2oaV2y.png"/>
+
+### Monster Mash recipe has been changed **(AK)**
+<img src="https://i.imgur.com/dNcpUT9.png"/>
+
+
+### Bug Fixes 🪲
+
+* Ad Astra planet ores not showing up in REI or recipes **(AK)**
+* Incorrect granting of Display Case advancement **(AK)**
+* Missing tasks for grapes quests **(elaniquilador01)**
+* Recipe conflicts making FOW quest chapter not completeable **(AK)**
+* Ironchests Barrels not being mineable **(AK)**
+* Incorrect dank quests descriptions **(Slexom)**
+---
+
 ### All of Fabric 7 | v1.3.2
 
 _Fabric Loader 0.14.25_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_1.3.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_1.3.2.md)_

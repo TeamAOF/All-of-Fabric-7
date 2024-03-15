@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
       },
       id: 'ad_astra:recipes/iron_plating'
     },
+
     {
       output: 'ad_astra:cheese_block',
       pattern: ['AAA', 'AAA', 'AAA'],

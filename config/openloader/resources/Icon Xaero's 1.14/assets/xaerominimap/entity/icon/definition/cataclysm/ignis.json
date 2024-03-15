@@ -1,6 +1,0 @@
-{
-	"variants" : {
-		"sprite:cataclysm/ignis_soul.png" :"ignis_soul",
-        "default" : "sprite:cataclysm/ignis.png"
-	}
-}

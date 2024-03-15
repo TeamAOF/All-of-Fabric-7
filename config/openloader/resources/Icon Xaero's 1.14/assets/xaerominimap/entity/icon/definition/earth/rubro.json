@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "earth:textures/entity/rubro/deepslate_rubro.png": "outlined_sprite:earth/rubro_deepslate.png",
-        "default": "outlined_sprite:earth/rubro.png"
-    }
-}

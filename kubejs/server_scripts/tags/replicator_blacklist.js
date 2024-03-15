@@ -259,6 +259,12 @@ ServerEvents.tags('item', event => {
         'indrev:slaughter_creative',
         'indrev:rancher_creative',
         'create:creative_motor',
+        'numismatic-overhaul:bronze_coin',
+        'numismatic-overhaul:silver_coin',
+        'numismatic-overhaul:gold_coin',
+        'numismatic-overhaul:piggy_bank',
+        'numismatic-overhaul:shop',
+        'numismatic-overhaul:money_bag'
         
 
     ];

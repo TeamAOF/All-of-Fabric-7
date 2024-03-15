@@ -1,44 +1,78 @@
 {
-  "settings": {},
   "dependencies": [
     "Andesite Alloy"
   ],
   "tasks": {
     "56A29EFD21A45310": {
       "type": "heracles:item",
+      "item": "create:belt_connector",
       "amount": 8,
-      "item": "create:belt_connector"
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
+    "1217EEBF15A922C9": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 5,
+      "title": "",
+      "type": "heracles:xp"
+    },
     "398B4C3C4FA571FF": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:kelp",
         "count": 64
-      }
-    },
-    "1217EEBF15A922C9": {
-      "type": "heracles:xp",
-      "xptype": "level",
-      "amount": 5
+      },
+      "type": "heracles:item"
     },
     "18CE6AA6D3C60E07": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "COMMON",
           "Color": 15576960,
           "Loot": "aof:loot_bags/create/common",
-          "Name": "Create Common Lootbag",
-          "Type": "COMMON"
+          "Name": "Create Common Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Just like in the factories",
+    "subtitle": {
+      "translate": "You don't put these in your trousers"
+    },
     "description": [
       "<h2>You don't put these in your trousers</h2>",
       "---",
@@ -47,13 +81,6 @@
       "> Second is that it can transfer rotational power",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:belt_connector"
-    },
-    "subtitle": {
-      "text": "You don't put these in your trousers"
-    },
     "groups": {
       "Create": {
         "position": [
@@ -61,6 +88,24 @@
           80
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "create:belt_connector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Just like in the factories"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

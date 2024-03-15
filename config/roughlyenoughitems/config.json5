@@ -1,10 +1,16 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{type:\"heracles:heracles\"}",
+			"{type:\"cadmus:cadmus\"}",
+			"{type:\"argonauts:party_chat\"}",
+			"{type:\"argonauts:party_management\"}",
+			"{type:\"prometheus:prometheus\"}"
+		],
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {

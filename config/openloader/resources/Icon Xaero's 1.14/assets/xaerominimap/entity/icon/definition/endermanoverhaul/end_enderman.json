@@ -1,7 +1,0 @@
-{
-    "variants": {
-	"default" : "outlined_sprite:endermanoverhaul/end_enderman.png"
-	,
-	"layersAllowed": true
-    }
-}

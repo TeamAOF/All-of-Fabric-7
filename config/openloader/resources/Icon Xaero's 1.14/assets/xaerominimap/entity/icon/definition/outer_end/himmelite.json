@@ -1,7 +1,0 @@
-{
-    "variants": {
-	"default" : "outlined_sprite:outer_end/himmelite.png"
-	,
-	"layersAllowed": true
-    }
-}

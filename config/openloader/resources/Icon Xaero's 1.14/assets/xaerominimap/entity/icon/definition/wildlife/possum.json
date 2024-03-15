@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "wildlife:textures/model/entity/possum.png": "outlined_sprite:wildlife/possum/possum.png",
-        "wildlife:textures/model/entity/possum_albino.png": "outlined_sprite:wildlife/possum/possum_albino.png"
-    }
-}

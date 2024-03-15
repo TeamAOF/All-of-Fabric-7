@@ -1,7 +1,0 @@
-{
-    "variants": {
-	"default" : "outlined_sprite:aquamirae/maw.png"
-	,
-	"layersAllowed": true
-    }
-}

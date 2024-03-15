@@ -19,18 +19,18 @@ $CURSEFORGE_PROJECT_ID = 899572
 #  MAIN MODPACK SETTINGS
 # =====================================================================//
 
-# This is the modpack name as seen in its CurseForge url: https://www.curseforge.com/minecraft/modpacks/[all-of-fabric-5]
+# This is the modpack name as seen in its CurseForge url: https://www.curseforge.com/minecraft/modpacks/[all-of-fabric-7]
 $MODPACK_NAME = "All of Fabric 7"
 
 # Name of the Modpack in the ZIP File
 $CLIENT_NAME = "All of Fabric 7"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.3.2"
+$MODPACK_VERSION = "2.0.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.3.1"
+$LAST_MODPACK_VERSION = "1.3.2"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -68,10 +68,10 @@ $CLIENT_RELEASE_TYPE = "release"
 #=====================================================================//
 
 # File name of the latest https://github.com/ModdingX/ModListCreator/releases
-$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
+$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.1.0-fatjar.jar"
 
 # File name of the latest https://github.com/ModdingX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
+$MODLIST_CREATOR_JAR = "ModListCreator-4.1.0-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
@@ -194,4 +194,4 @@ $SERVER_FILE_DISPLAY_NAME = "All of Fabric 7 Server - $MODPACK_VERSION"
 $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
-$FILES_TO_INCLUDE_IN_MODS_FOLDER = @()
+$FILES_TO_INCLUDE_IN_MODS_FOLDER = @("mods/indrez-1.16.5-BETA-Hotfix.jar", "mods/besmirchment-1.20.1-3.jar")

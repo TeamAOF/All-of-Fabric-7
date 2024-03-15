@@ -5,6 +5,8 @@
 ServerEvents.recipes(event => {
 
   const recipes = [
+
+    // Machine Block
     {
       output: 'indrev:machine_block',
       pattern: ['BAB', 'BCB', 'BAB'],
@@ -12,31 +14,33 @@ ServerEvents.recipes(event => {
         A: 'indrev:nikolite_dust',
         B: 'modern_industrialization:iron_plate',
         C: 'indrev:battery',
-    },
+      },
       id: 'indrev:shaped/machine_block'
     },
 
+    // Item Pipe (MK1)
     {
       output: '8x indrev:item_pipe_mk1',
       pattern: ['BAB'],
       key: {
         A: 'minecraft:gold_ingot',
         B: 'modern_industrialization:iron_plate',
-    },
+      },
       id: 'indrev:shaped/item_pipe_mk1'
     },
-    
 
-     {
+    // Fluid Pipe (MK1)
+    {
       output: '8x indrev:fluid_pipe_mk1',
       pattern: ['BAB'],
       key: {
         A: 'kibe:fluid_hopper',
         B: 'modern_industrialization:iron_plate',
-    },
+      },
       id: 'indrev:shaped/fluid_pipe_mk1'
     },
 
+    // Flux Container (MK4)
     {
       output: 'indrev:lazuli_flux_container_mk4',
       pattern: ['BCB', 'CAC', 'BCB'],
@@ -44,11 +48,12 @@ ServerEvents.recipes(event => {
         A: 'indrev:circuit_mk4',
         B: '#c:electrum_plates',
         C: 'indrev:lazuli_flux_container_mk3',
-    },
+      },
       id: 'indrev:shaped/lazuli_flux_container_mk4'
     },
 
-        {
+    // Mining Drill MK4
+    {
       output: 'indrev:mining_drill_mk4',
       pattern: ['DCD', 'EAE', 'BFB'],
       key: {
@@ -58,9 +63,9 @@ ServerEvents.recipes(event => {
         D: 'indrev:enriched_nikolite_ingot',
         E: 'modern_industrialization:steel_large_plate',
         F: 'indrev:modular_core_activated',
-    },
+      },
       id: 'indrev:shaped/mining_drill_mk4'
-    },
+    }
   ];
 
   recipes.forEach((recipe) => {

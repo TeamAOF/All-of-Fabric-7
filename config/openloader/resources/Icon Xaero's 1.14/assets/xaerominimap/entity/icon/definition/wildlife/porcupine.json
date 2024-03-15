@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "wildlife:textures/model/entity/porcupine.png": "outlined_sprite:wildlife/porcupine/porcupine.png",
-        "wildlife:textures/model/entity/porcupine_albino.png": "outlined_sprite:wildlife/porcupine/porcupine_albino.png"
-    }
-}

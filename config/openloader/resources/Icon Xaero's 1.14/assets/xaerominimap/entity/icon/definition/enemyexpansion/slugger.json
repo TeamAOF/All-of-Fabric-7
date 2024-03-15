@@ -1,7 +1,0 @@
-{
-    "variants": {
-	"default" : "outlined_sprite:enemyexpansion/slugger.png"
-	,
-	"layersAllowed": true
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "variants": {
-    "hybrid-aquatic:textures/entity/discus_blue.png":"outlined_sprite:hybrid-aquatic/discus/discus_blue.png",
-    "hybrid-aquatic:textures/entity/discus_green.png":"outlined_sprite:hybrid-aquatic/discus/discus_green.png",
-    "hybrid-aquatic:textures/entity/discus_orange.png":"outlined_sprite:hybrid-aquatic/discus/discus_orange.png",
-    "hybrid-aquatic:textures/entity/discus_purple.png":"outlined_sprite:hybrid-aquatic/discus/discus_purple.png",
-    "layersAllowed": true
-    }
-} 

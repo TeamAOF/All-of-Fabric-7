@@ -44,6 +44,17 @@
         "value": 2048
       }
     },
+    "hephaestusplus:carmot_shield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "obscure_api:dodge": {
       "enabled": false,
       "min": {
@@ -64,6 +75,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "additionalentityattributes:player.collection_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "dml-refabricated:auto_extinguish": {
@@ -176,6 +198,17 @@
         "value": 8
       }
     },
+    "spell_power:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "additionalentityattributes:magic_protection": {
       "enabled": false,
       "min": {
@@ -187,15 +220,26 @@
         "value": 1024
       }
     },
-    "spell_power:critical_damage": {
+    "additionalentityattributes:player.lava_visibility": {
       "enabled": false,
       "min": {
-        "default": 100,
-        "value": 100
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "additionalentityattributes:player.dropped_experience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "dml-refabricated:fall_immunity": {
@@ -229,6 +273,17 @@
       "max": {
         "default": 40000,
         "value": 40000
+      }
+    },
+    "additionalentityattributes:generic.magic_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "spell_power:frost": {
@@ -328,6 +383,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "additionalentityattributes:player.bonus_loot_count_rolls": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
       }
     },
     "additionalentityattributes:water_visibility": {
@@ -517,6 +583,17 @@
         "value": 1
       }
     },
+    "additionalentityattributes:generic.jump_height": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "zenith_attributes:prot_pierce": {
       "enabled": false,
       "min": {
@@ -616,6 +693,17 @@
         "value": 1024
       }
     },
+    "additionalentityattributes:player.critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "zenith_attributes:life_steal": {
       "enabled": false,
       "min": {
@@ -636,6 +724,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "additionalentityattributes:generic.lung_capacity": {
+      "enabled": false,
+      "min": {
+        "default": -40000,
+        "value": -40000
+      },
+      "max": {
+        "default": 40000,
+        "value": 40000
       }
     },
     "dml-refabricated:zombie_friendly": {
@@ -671,6 +770,17 @@
         "value": 100
       }
     },
+    "additionalentityattributes:player.bonus_rare_loot_rolls": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
+      }
+    },
     "obscure_api:resilience": {
       "enabled": false,
       "min": {
@@ -680,6 +790,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "additionalentityattributes:player.dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "dml-refabricated:fly": {
@@ -715,17 +836,6 @@
         "value": 2048
       }
     },
-    "additionalentityattributes:lava_visibility": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "dml-refabricated:fire_immunity": {
       "enabled": false,
       "min": {
@@ -748,6 +858,17 @@
         "value": 1000
       }
     },
+    "additionalentityattributes:lava_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "diet:natural_regeneration": {
       "enabled": false,
       "min": {
@@ -757,6 +878,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "additionalentityattributes:player.water_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "obscure_api:healing_power": {
@@ -856,6 +988,17 @@
       "max": {
         "default": 16,
         "value": 16
+      }
+    },
+    "additionalentityattributes:generic.lava_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "additionalentityattributes:water_speed": {

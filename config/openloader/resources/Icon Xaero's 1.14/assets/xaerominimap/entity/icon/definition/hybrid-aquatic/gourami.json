@@ -1,9 +1,0 @@
-{
-    "variants": {
-    "hybrid-aquatic:textures/entity/gourami_blue.png":"outlined_sprite:hybrid-aquatic/gourami/gourami_blue.png",
-    "hybrid-aquatic:textures/entity/gourami_pink.png":"outlined_sprite:hybrid-aquatic/gourami/gourami_pink.png",
-    "hybrid-aquatic:textures/entity/gourami_purple.png":"outlined_sprite:hybrid-aquatic/gourami/gourami_purple.png",
-    "hybrid-aquatic:textures/entity/gourami_yellow.png":"outlined_sprite:hybrid-aquatic/gourami/gourami_yellow.png",
-    "layersAllowed": true
-    }
-} 

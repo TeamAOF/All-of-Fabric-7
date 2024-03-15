@@ -16,3 +16,4 @@ datagenOnStartup = false
 loadRuntimeGeneratedResources = true
 removeIndustrialistTrades = false
 maxDistillationTowerHeight = 9
+enableInterMachineConnectedTextures = false

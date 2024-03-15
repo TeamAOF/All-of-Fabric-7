@@ -1,8 +1,0 @@
-
-{
-	"variants" : {
-		"default" : "sprite:minecraft/piglin/piglin.png"
-		,
-		"layersAllowed": true
-	  }
-  }

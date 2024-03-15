@@ -1,7 +1,0 @@
-{
-    "variants": {
-	"default" : "outlined_sprite:gothic/shadowbeast.png"
-	,
-	"layersAllowed": true
-    }
-}

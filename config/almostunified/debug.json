@@ -3,5 +3,6 @@
   "dumpDuplicates": false,
   "dumpUnification": false,
   "dumpOverview": false,
-  "dumpRecipes": false
+  "dumpRecipes": false,
+  "dumpUncoveredRecipes": false
 }

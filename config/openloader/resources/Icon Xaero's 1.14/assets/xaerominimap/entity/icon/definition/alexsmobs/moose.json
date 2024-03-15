@@ -1,6 +1,0 @@
-{
-	"variants" : {
-		"alexsmobs:textures/entity/moose.png" : "outlined_sprite:alexsmobs/moose.png",
-        "alexsmobs:textures/entity/moose_antlered.png" : "outlined_sprite:alexsmobs/moose_antlered.png",
-		"layersAllowed" : true
-}}

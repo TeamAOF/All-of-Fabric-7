@@ -11,6 +11,16 @@
         "minecraft": ""
       }
     },
+    "customportals": {
+      "-depends": {
+        "completeconfig": ""
+      }
+    },
+    "zephyr": {
+      "-depends": {
+        "bettercombat": ""
+      }
+    },
     "fakerlib": {
       "-depends": {
         "fabric-api": ""

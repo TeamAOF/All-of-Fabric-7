@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "wildlife:textures/model/entity/birds.png": "outlined_sprite:wildlife/birds/towhee.png",
-        "wildlife:textures/model/entity/birds_albino.png": "outlined_sprite:wildlife/birds/towhee_albino.png"
-    }
-}

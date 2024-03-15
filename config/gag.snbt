@@ -110,11 +110,6 @@
 	
 	# Settings related to miscellaneous items and features
 	misc: {
-		# Maximum number of charges the Labeling Tool can hold, default is 8
-		# Default: 8
-		# Range: 1 ~ 127
-		labelingToolCharges: 8
-		
 		# Radius (in blocks) in which the 'No Solicitors!' sign will stop Wandering Traders from spawning, default is 32
 		# Default: 64
 		# Range: 1 ~ 512

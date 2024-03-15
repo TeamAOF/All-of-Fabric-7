@@ -1,7 +1,0 @@
-{
-    "variants": {
-    "hybrid-aquatic:textures/entity/triggerfish_palestine.png":"outlined_sprite:hybrid-aquatic/triggerfish/triggerfish_palestine.png",
-    "hybrid-aquatic:textures/entity/triggerfish_picasso.png":"outlined_sprite:hybrid-aquatic/triggerfish/triggerfish_picasso.png",
-    "layersAllowed": true
-    }
-} 

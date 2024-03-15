@@ -1,0 +1,145 @@
+{
+  "showApiLogs": true,
+  "dandelionMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "poppyMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "blueOrchidMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "alliumMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "oxeyeDaisyMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "cornflowerMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "witherRoseMoobloom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true,
+    "damagePlayers": true
+  },
+  "suncower": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "bambmoo": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "cowctus": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true,
+    "damagePlayers": true
+  },
+  "cherryMoobloom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "azaleaMoobloom": {
+    "spawnEnabled": true,
+    "weight": 500,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "dripleafMoobloom": {
+    "spawnEnabled": true,
+    "weight": 500,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "chorusMoobloom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 4,
+    "spawnBlocks": true
+  },
+  "crimsonMooshroom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "warpedMooshroom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "redCluckshroom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "brownCluckshroom": {
+    "spawnEnabled": true,
+    "weight": 10,
+    "minGroupSize": 4,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "crimsonCluckshroom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  },
+  "warpedCluckshroom": {
+    "spawnEnabled": true,
+    "weight": 1000,
+    "minGroupSize": 2,
+    "maxGroupSize": 8,
+    "spawnBlocks": true
+  }
+}

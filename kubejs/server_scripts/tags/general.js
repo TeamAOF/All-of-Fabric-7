@@ -25,6 +25,9 @@ ServerEvents.tags('item', event => {
   // Dough
   event.add('c:doughs', 'farmersdelight:wheat_dough')
 
+  // Glass
+  event.add('c:glass', 'connectedglass:borderless_glass')
+
 const bw_fleece = [
   'orange',
   'magenta',

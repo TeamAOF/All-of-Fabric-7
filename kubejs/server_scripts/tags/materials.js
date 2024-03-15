@@ -132,6 +132,9 @@ ServerEvents.tags('item', event => {
     // fix copper block dupe
     event.remove("c:copper_blocks", "minecraft:cut_copper")
 
+    // Netherrack
+    event.add("c:stone", "ad_astra:mercury_cobblestone")
+
 });
 
 ServerEvents.tags('block', event => {

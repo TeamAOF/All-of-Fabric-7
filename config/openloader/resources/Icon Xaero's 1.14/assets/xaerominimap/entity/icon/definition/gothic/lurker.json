@@ -1,7 +1,0 @@
-{
-    "variants": {
-	"default" : "outlined_sprite:gothic/lurker.png"
-	,
-	"layersAllowed": true
-    }
-}
