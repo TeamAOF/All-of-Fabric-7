@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
     */
 
     const ores = [
-        'mozanite',
+        'monazite',
         'salt',
         'tungsten',
         'antimony',
