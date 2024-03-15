@@ -60,7 +60,11 @@ const DELETED_ITEMS = [
     'techreborn:ruby_sword',
     'techreborn:ruby_spade',
     'croptopia:knife',
-    'onlyhammers:obsidian_hammer'
+    'onlyhammers:obsidian_hammer',
+    'onlyhammers:redstone_hammer',
+    'onlyhammers:lapis_hammer',
+    'kibe:slime_boots',
+    'kibe:slime_sling'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

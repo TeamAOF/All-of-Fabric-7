@@ -71,7 +71,6 @@ ServerEvents.recipes((event) => {
         'techreborn:smelting/platinum_ingot_from_c_platinum_dusts',
         'techreborn:blasting/platinum_ingot_from_c_platinum_dusts',
         'ad_astra:hammering/steel_plate',
-        'modern_industrialization:electric_age/machine/assembler/replicator',
         'techreborn:blast_furnace/steel_ingot_from_small_dust',
         'techreborn:crafting_table/dust/steel_dust_from_small',
         'techreborn:crafting_table/small_dust/steel_small_dust_from_dust',
@@ -166,7 +165,9 @@ ServerEvents.recipes((event) => {
         'techreborn:ruby_spade',
         'onlyhammers:obsidian_hammer',
         'onlyhammers:lapis_hammer',
-        'onlyhammers:redstone_hammer'
+        'onlyhammers:redstone_hammer',
+        'kibe:slime_boots',
+        'kibe:slime_sling'
     ];
 
     id.forEach((id) => {
