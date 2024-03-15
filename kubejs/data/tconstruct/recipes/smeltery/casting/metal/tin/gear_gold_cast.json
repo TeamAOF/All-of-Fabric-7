@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:tin_gears"
+      ]
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "cooling_time": 78,
+  "fluid": {
+    "amount": 81000,
+    "tag": "c:molten_tin"
+  },
+  "result": {
+    "tag": "c:tin_gears"
+  }
+}

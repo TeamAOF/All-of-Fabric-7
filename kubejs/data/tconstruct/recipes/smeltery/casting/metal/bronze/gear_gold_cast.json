@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:bronze_gears"
+      ]
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "cooling_time": 114,
+  "fluid": {
+    "amount": 81000,
+    "tag": "c:molten_bronze"
+  },
+  "result": {
+    "tag": "c:bronze_gears"
+  }
+}

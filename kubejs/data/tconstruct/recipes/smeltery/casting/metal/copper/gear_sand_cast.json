@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:copper_gears"
+      ]
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gear"
+  },
+  "cast_consumed": true,
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 81000,
+    "tag": "c:molten_copper"
+  },
+  "result": {
+    "tag": "c:copper_gears"
+  }
+}

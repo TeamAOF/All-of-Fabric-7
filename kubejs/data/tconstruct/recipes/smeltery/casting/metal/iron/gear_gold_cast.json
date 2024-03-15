@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:iron_gears"
+      ]
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "cooling_time": 120,
+  "fluid": {
+    "amount": 81000,
+    "tag": "c:molten_iron"
+  },
+  "result": {
+    "tag": "c:iron_gears"
+  }
+}

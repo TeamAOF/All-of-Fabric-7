@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:aluminum_gears"
+      ]
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gear"
+  },
+  "cast_consumed": true,
+  "cooling_time": 94,
+  "fluid": {
+    "amount": 126000,
+    "tag": "c:molten_aluminum"
+  },
+  "result": {
+    "tag": "c:aluminum_gears"
+  }
+}
