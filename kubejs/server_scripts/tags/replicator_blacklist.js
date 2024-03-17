@@ -264,7 +264,8 @@ ServerEvents.tags('item', event => {
         'numismatic-overhaul:gold_coin',
         'numismatic-overhaul:piggy_bank',
         'numismatic-overhaul:shop',
-        'numismatic-overhaul:money_bag'
+        'numismatic-overhaul:money_bag',
+        'extendedae:package'
         
 
     ];
