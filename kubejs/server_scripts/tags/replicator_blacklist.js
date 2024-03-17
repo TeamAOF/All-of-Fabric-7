@@ -273,7 +273,9 @@ ServerEvents.tags('item', event => {
         'farmersrespite:blazing_chili',
         'frightsdelight:punchbowl_ghasttear',
         'farmersdelight:hamburger',
-        'croptopia:pineapple_pepperoni_pizza'
+        'croptopia:pineapple_pepperoni_pizza',
+        'nethervinery:crimson_nether_bag',
+        'nethervinery:warped_nether_bag'
         
 
     ];
