@@ -2,7 +2,20 @@
   "dependencies": [
     "Adventures and Mysteries"
   ],
-  "tasks": {},
+  "tasks": {
+    "coz im a rocketmaaaaan": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": "ad_astra:tier_1_rocket",
+      "title": "",
+      "type": "heracles:item_interaction"
+    }
+  },
   "rewards": {
     "465969990392BD70": {
       "title": "",

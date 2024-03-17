@@ -2,7 +2,21 @@
   "dependencies": [
     "Adventures and Mysteries"
   ],
-  "tasks": {},
+  "tasks": {
+    "waystone task": {
+      "block": "#fwaystones:waystones",
+      "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
   "rewards": {
     "6137857F9A944F31": {
       "title": "",
