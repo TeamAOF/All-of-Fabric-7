@@ -100,7 +100,21 @@ ServerEvents.recipes((event) => {
         'indrev:shapeless/raw_silver',
         'techreborn:crafting_table/storage_block/raw_raw_silver_storage_block',
         'indrev:shaped/raw_silver_block',
-        'techreborn:crafting_table/dust/coal_dust_from_small'
+        'techreborn:crafting_table/dust/coal_dust_from_small',
+        'tconstruct:smeltery/casting/metal/platinum/ingot_gold_cast',
+        'tconstruct:smeltery/casting/metal/platinum/ingot_sand_cast',
+        'tconstruct:smeltery/casting/metal/tungsten/ingot_sand_cast',
+        'tconstruct:smeltery/casting/metal/tungsten/ingot_gold_cast',
+        'tconstruct:smeltery/casting/metal/platinum/nugget_gold_cast',
+        'tconstruct:smeltery/casting/metal/platinum/nugget_sand_cast',
+        'tconstruct:smeltery/casting/metal/tungsten/nugget_sand_cast',
+        'tconstruct:smeltery/casting/metal/tungsten/nugget_gold_cast',
+        'tconstruct:smeltery/casting/metal/platinum/plate_gold_cast',
+        'tconstruct:smeltery/casting/metal/platinum/plate_sand_cast',
+        'tconstruct:smeltery/casting/metal/tungsten/plate_sand_cast',
+        'tconstruct:smeltery/casting/metal/tungsten/plate_gold_cast',
+        'tconstruct:smeltery/casting/metal/platinum/block',
+        'tconstruct:smeltery/casting/metal/tungsten/block'
     ];
 
     const output = [
@@ -199,6 +213,7 @@ ServerEvents.recipes((event) => {
 
     rei_unification.forEach((item) => {
         event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_nugget'});
+        event.remove({ id: 'techreborn:crafting_table/nugget/' + item + '_nugget'});
         event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_block'});
         event.remove({ id: 'techreborn:crafting_table/storage_block/' + item + '_storage_block'});
     });
