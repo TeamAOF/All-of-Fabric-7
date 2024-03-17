@@ -2,7 +2,22 @@
   "dependencies": [
     "Niotic Crystal"
   ],
-  "tasks": {},
+  "tasks": {
+    "smells like teen spirit": {
+      "type": "heracles:item",
+      "item": "powah:crystal_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "Powah Spirited Crystal Reward": {
       "title": "Powah! Epic Lootbag",

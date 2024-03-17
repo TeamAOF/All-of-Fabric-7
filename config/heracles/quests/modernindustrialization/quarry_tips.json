@@ -2,7 +2,19 @@
   "dependencies": [
     "steel_hatches"
   ],
-  "tasks": {},
+  "tasks": {
+    "use the tip jar please": {
+      "title": "I've been tipped",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

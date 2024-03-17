@@ -2,7 +2,22 @@
   "dependencies": [
     "Weaponry"
   ],
-  "tasks": {},
+  "tasks": {
+    "get a simple sword": {
+      "type": "heracles:item",
+      "item": "#simplyswords:swords",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "1D7FC305AA8EEA7A": {
       "title": "",
@@ -51,13 +66,7 @@
       }
     },
     "icon": {
-      "item": {
-        "id": "simplyswords:stormbringer",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
-      },
+      "item": "#simplyswords:swords",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

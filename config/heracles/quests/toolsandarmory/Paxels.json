@@ -2,7 +2,25 @@
   "dependencies": [
     "Tools"
   ],
-  "tasks": {},
+  "tasks": {
+    "get a paxel": {
+      "type": "heracles:item",
+      "item": "piercingpaxels:iron_paxel",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
   "rewards": {
     "176E6C862D9E4379": {
       "title": "",
@@ -40,7 +58,10 @@
     ],
     "groups": {
       "Tools and Armory": {
-        "position": [-23, -71]
+        "position": [
+          -23,
+          -71
+        ]
       }
     },
     "icon": {
