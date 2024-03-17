@@ -166,7 +166,7 @@
       "healthInCastingPhase": 500.0,
       "healthInHuntingPhase": 400.0,
       "damageCastingPhase": 40.0,
-      "damageHuntingPhaseAddition": 50.0,
+      "damageHuntingPhaseAddition": 55.0,
       "armor": 20.0,
       "armorToughness": 12.0,
       "speedInHuntPhase": 0.15,

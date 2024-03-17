@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     },
 
     {
-      output: Item.of('extendedae:infinity_cell', 'id:"minecraft:cobblestone"}}'),
+      output: Item.of('extendedae:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
       pattern: ['EAD', 'ABA', 'DAE'],
       key: {
         A: 'kibe:cobblestone_generator_mk5',

@@ -1,5 +1,61 @@
 {
+  "animal_baby_separator": {
+    "AnimalBabySeparatorRadius": {
+      "comment": "Animal Baby Separator Radius",
+      "value": 4
+    },
+    "AnimalBabySeparatorMaxEnergy": {
+      "comment": "Animal Baby Separator Max Energy",
+      "value": 1000
+    },
+    "AnimalBabySeparatorTicksPerFeeding": {
+      "comment": "Animal Baby Separator Ticks Per Feeding",
+      "value": 100
+    },
+    "AnimalBabySeparatorInput": {
+      "comment": "Animal Baby Separator Max Input (Energy per tick",
+      "value": 64
+    },
+    "AnimalBabySeparatorEnergyPerFeeding": {
+      "comment": "Animal Baby Separator Energy Per Slaughter",
+      "value": 100
+    },
+    "AnimalBabySeparatorMaxAnimalsInArea": {
+      "comment": "Animal Baby Separator Max Animals In Area",
+      "value": 50
+    }
+  },
+  "animal_feeder": {
+    "AnimalFeederRadius": {
+      "comment": "Animal Feeder Radius",
+      "value": 4
+    },
+    "AnimalFeederInput": {
+      "comment": "Animal Feeder Max Input (Energy per tick",
+      "value": 64
+    },
+    "AnimalFeederMaxAnimalsInArea": {
+      "comment": "Animal Feeder Max Animals In Area",
+      "value": 50
+    },
+    "AnimalFeederEnergyPerFeeding": {
+      "comment": "Animal Feeder Energy Per Slaughter",
+      "value": 100
+    },
+    "AnimalFeederMaxEnergy": {
+      "comment": "Animal Feeder Max Energy",
+      "value": 1000
+    },
+    "AnimalFeederTicksPerFeeding": {
+      "comment": "Animal Feeder Ticks Per Feeding",
+      "value": 100
+    }
+  },
   "powered_spawner": {
+    "PoweredSpawnerMaxEnergy": {
+      "comment": "Powered Spawner Max Energy",
+      "value": 1000000
+    },
     "PoweredSpawnerTicksPerSpawn": {
       "comment": "Powered Spawner Ticks Per Spawn",
       "value": 200
@@ -8,17 +64,83 @@
       "comment": "Powered Spawner Energy Per Spawn",
       "value": 512
     },
-    "PoweredSpawnerMaxEnergy": {
-      "comment": "Powered Spawner Max Energy",
-      "value": 1000000
+    "PoweredSpawnerSpawnRange": {
+      "comment": "Powered Spawner Spawn Range",
+      "value": 8
     },
     "PoweredSpawnerInput": {
       "comment": "Powered Spawner Max Input (Energy per tick",
       "value": 512
+    }
+  },
+  "fluid_transposer": {
+    "FluidTransposerMaxEnergy": {
+      "comment": "Fluid Transposer Max Energy",
+      "value": 1000
     },
-    "PoweredSpawnerSpawnRange": {
-      "comment": "Powered Spawner Spawn Range",
-      "value": 8
+    "FluidTransposerMaxInput": {
+      "comment": "Fluid Transposer Max Input",
+      "value": 32
+    }
+  },
+  "soul_extractor": {
+    "SoulExtractorInput": {
+      "comment": "Soul Extractor Max Input (Energy per tick",
+      "value": 128
+    },
+    "SoulExtractorEnergyPerSlaughter": {
+      "comment": "Soul Extractor Energy Per Slaughter",
+      "value": 200
+    },
+    "SoulExtractorAttackDamage": {
+      "comment": "Soul Extractor Attack Damage",
+      "value": 5.0
+    },
+    "SoulExtractorRadius": {
+      "comment": "Soul Extractor Radius",
+      "value": 4
+    },
+    "SoulExtractorTicksPerSlaughter": {
+      "comment": "Soul Extractor Ticks Per Extraction",
+      "value": 80
+    },
+    "SoulExtractorMaxEnergy": {
+      "comment": "Soul Extractor Max Energy",
+      "value": 10000
+    },
+    "SoulExtractorExperienceMultiplier": {
+      "comment": "Soul Extractor Essence Multiplier",
+      "value": 20
+    }
+  },
+  "mob_slaughter": {
+    "MobSlaughterAttackDamage": {
+      "comment": "Mob Slaughter Attack Damage",
+      "value": 75.0
+    },
+    "MobSlaughterExperienceMultiplier": {
+      "comment": "Mob Slaughter Experience Multiplier",
+      "value": 20
+    },
+    "MobSlaughterEnergyPerSlaughter": {
+      "comment": "Mob Slaughter Energy Per Slaughter",
+      "value": 256
+    },
+    "MobSlaughterInput": {
+      "comment": "Mob Slaughter Max Input (Energy per tick",
+      "value": 128
+    },
+    "MobSlaughterRadius": {
+      "comment": "Mob Slaughter Radius",
+      "value": 4
+    },
+    "MobSlaughterTicksPerSlaughter": {
+      "comment": "Mob Slaughter Ticks Per Slaughter",
+      "value": 200
+    },
+    "MobSlaughterMaxEnergy": {
+      "comment": "Mob Slaughter Max Energy",
+      "value": 10000
     }
   }
 }

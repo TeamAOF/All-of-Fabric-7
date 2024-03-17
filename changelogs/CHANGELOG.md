@@ -20,6 +20,7 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
   * [ExtendedAE](https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider)
   * [Hephaestus (Tinkers Construct)](https://www.curseforge.com/minecraft/mc-mods/hephaestus-fabric)
   * [HephaestusPlus (Hephaestus Addon)](https://www.curseforge.com/minecraft/mc-mods/hephaestusplus)
+  * [IndustrialReborn](https://www.curseforge.com/minecraft/mc-mods/industrialreborn)
   * [Icon Xaero's](https://www.curseforge.com/minecraft/texture-packs/icon-xaeros)
   * [Numismatic Overhaul](https://www.curseforge.com/minecraft/mc-mods/numismatic-overhaul)
   * [Quad](https://www.curseforge.com/minecraft/mc-mods/quad)
@@ -48,6 +49,7 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
   * [CC:C Bridge](https://www.curseforge.com/minecraft/mc-mods/cccbridge) (Featured in Create itself)
   * [Chalk (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chalk-fabric)
   * [Chunk Loaders](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
+  * [Colorful Hearts](https://www.curseforge.com/minecraft/mc-mods/colorful-hearts) (Replaced by Mantle)
   * [Compost Bag](https://www.curseforge.com/minecraft/mc-mods/compost-bag)
   * [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
   * [Create Goggles (Create Plus)](https://www.curseforge.com/minecraft/mc-mods/create-goggles)
@@ -58,6 +60,7 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
   * [Dusk](https://www.curseforge.com/minecraft/mc-mods/dusk)
   * [Dyed](https://www.curseforge.com/minecraft/mc-mods/dyed)
   * [Eldritch End](https://www.curseforge.com/minecraft/mc-mods/eldritch-end)
+  * [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling) (Feature in Embeddium)
   * [Frog Legs](https://www.curseforge.com/minecraft/mc-mods/froglegs)
   * [Grass Overhaul (Sod)](https://www.curseforge.com/minecraft/mc-mods/grass-overhaul)
   * [Heartbond](https://www.curseforge.com/minecraft/mc-mods/heartbond)
@@ -105,8 +108,10 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Economy System, player shops & improved villager trading **(AK)**
 * Added the Farmer O' Worlds quest trophy upon completing the chapter **(AK)**
 * Buffed all BOMD bosses, health, armor & damage **(AK)**
+* Buffed the Corrupted Champion from Graveyard, health, armor & damage **(AK)**
 * Advancement Made! text color changed from brown to green, should be easier to read now **(AK)**
 * Improved Ad Astra quest chapter rewards **(AK)**
+* Added an infinite UU Matter cell **(AK)**
 * Added lootbags to MI quest chapter **(AK)**
 * Added colors to quest trophy quest names **(AK)**
 * Quest name improvements **(AK/SubordinalBlue)**
@@ -182,6 +187,7 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Missing tasks for grapes quests **(elaniquilador01)**
 * Recipe conflicts making FOW quest chapter not completeable **(AK)**
 * Ironchests Barrels not being mineable **(AK)**
+* Spectrum progression issues due to how bedrock was placed **(AK)**
 * Fixed an issue where fluids in REI wouldnt be animated **(AK)**
 * Incorrect dank quests descriptions **(Slexom)**
 ---

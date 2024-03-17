@@ -11,20 +11,13 @@
     // default: 10.0, min: 0.0, max: 20.0
     "damage": 10.0
   },
-  "entities": {
-    // default: 1.0, min: 0.1, max: 10.0
-    "cellDropChanceModifier": 1.0,
-    // default: false
-    "allMobsDropCells": false,
-    // Which mobs outside of Mine Cells should drop cells (default: empty)
-    "cellDropWhitelist": []
-  },
-  "items": {
-    // default: false
-    "enableDevelopmentTab": false
-  },
   // Whether the entry door to boss rooms should remain unlocked
   "unlockedBossEntry": false,
+  // Forces the teleport between dimensions method to be used from the main server thread
+  // Might be necessary when used with mods that mess with threading, like C2ME  (if DEFAULT is set, this option will enable itself if that mod is present)
+  // Warning: This may cause weird desync issues, so use at your own risk and only if it crashes without it
+  // Possible values: ALWAYS | NEVER | DEFAULT
+  "teleportForceMainThread": "DEFAULT",
   // Whether the Mine Cells data should automatically get wiped after major updates
   "autoWipeData": true
 }

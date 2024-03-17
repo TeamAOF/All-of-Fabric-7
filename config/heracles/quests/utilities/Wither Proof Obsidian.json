@@ -1,43 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Wither Machine"
   ],
   "tasks": {
     "0DBD9671347434C7": {
       "type": "heracles:item",
-      "item": "indrev:wither_proof_obsidian"
+      "item": "indrev:wither_proof_obsidian",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "51CECB1E21D8B3CE": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Wither-proof Obsidian",
+    "subtitle": {
+      "translate": "Cannot be destroyed by the wither boss."
+    },
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "indrev:wither_proof_obsidian"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Cannot be destroyed by the wither boss."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +56,24 @@
           -192
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:wither_proof_obsidian",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Wither-proof Obsidian"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
