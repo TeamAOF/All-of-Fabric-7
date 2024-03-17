@@ -2,9 +2,8 @@
   "dependencies": [
     "fluid_transportation"
   ],
-  "tasks": {},
-  "rewards": {
-    "mi_common_lootbag": {
+  "tasks": {
+    "check": {
       "title": "",
       "icon": {
         "item": {
@@ -13,19 +12,10 @@
         },
         "type": "heracles:item"
       },
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16425539,
-          "Loot": "aof:loot_bags/mi/common",
-          "Name": "Modern Industrialization Common Lootbag"
-        }
-      },
-      "type": "heracles:item"
+      "type": "heracles:check"
     }
   },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
