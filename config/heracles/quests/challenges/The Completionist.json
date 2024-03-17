@@ -101,6 +101,27 @@
       },
       "type": "heracles:item"
     },
+    "inf_uu_cell": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "extendedae:infinity_cell",
+        "count": 1,
+        "nbt": {
+          "record": {
+            "#c": "ae2:f",
+            "id": "modern_industrialization:uu_matter"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
     "completionist_rewards": {
       "title": "",
       "icon": {
@@ -131,6 +152,21 @@
         "nbt": {
           "Damage": 0
         }
+      },
+      "type": "heracles:item"
+    },
+    "everlasting_mana_pool": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "botania:creative_pool",
+        "count": 1
       },
       "type": "heracles:item"
     }

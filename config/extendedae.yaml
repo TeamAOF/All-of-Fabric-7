@@ -2,12 +2,13 @@
 busSpeed: 8
 
 # ME Infinity Cell idle energy cost (unit: AE/t)
-infCellCost: 8.0
+infCellCost: 16.0
 
 # ME Infinity Cell types (item or fluid's id)
 infCellTypeID:
   - minecraft:water
   - minecraft:cobblestone
+  - modern_industrialization:uu_matter
 
 # The max range between two wireless connector
 wirelessConnectorMaxRange: 1000.0
