@@ -265,7 +265,15 @@ ServerEvents.tags('item', event => {
         'numismatic-overhaul:piggy_bank',
         'numismatic-overhaul:shop',
         'numismatic-overhaul:money_bag',
-        'extendedae:package'
+        'extendedae:package',
+        'farmersdelight:rice_roll_medley_block',
+        'croptopia:kale_smoothie',
+        'farmersdelight:roasted_mutton_chops',
+        'vinery:cristel_wine',
+        'farmersrespite:blazing_chili',
+        'frightsdelight:punchbowl_ghasttear',
+        'farmersdelight:hamburger',
+        'croptopia:pineapple_pepperoni_pizza'
         
 
     ];
