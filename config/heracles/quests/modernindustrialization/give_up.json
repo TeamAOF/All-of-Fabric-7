@@ -2,7 +2,19 @@
   "dependencies": [
     "nuclear_reactor"
   ],
-  "tasks": {},
+  "tasks": {
+    "check": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "mi_epic_lootbag": {
       "title": "",
@@ -68,8 +80,8 @@
     "groups": {
       "Modern Industrialization": {
         "position": [
-          1237,
-          35
+          1287,
+          57
         ]
       }
     },
