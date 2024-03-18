@@ -10,6 +10,9 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier("minecraft:warden").addWeightedLoot([3,5],[Item.of("numismatic-overhaul:silver_coin").withChance(50)]);
   event
     .addEntityLootModifier("minecells:conjunctivius").addWeightedLoot([5,13],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
+  event
+  .addEntityLootModifier("graveyard:lich").addWeightedLoot([7,15],[Item.of("numismatic-overhaul:silver_coin").withChance(100)])
+  .addLoot(Item.of("numismatic-overhaul:gold_coin").withChance(2));
 });
 
 ServerEvents.tags('entity_type', event => {
