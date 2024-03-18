@@ -280,7 +280,8 @@ ServerEvents.tags('item', event => {
         'farmersdelight:hamburger',
         'croptopia:pineapple_pepperoni_pizza',
         'nethervinery:crimson_nether_bag',
-        'nethervinery:warped_nether_bag'
+        'nethervinery:warped_nether_bag',
+        'bosses_of_mass_destruction:soul_star'
         
 
     ];
