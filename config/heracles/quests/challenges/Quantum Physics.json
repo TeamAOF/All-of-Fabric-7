@@ -116,7 +116,6 @@
     },
     "description": [
       "---",
-      "",
       "<columns template=\"1 100\">",
       "  <column>",
       "    <columns>",
@@ -134,7 +133,7 @@
       "  <column>",
       "<columns template=\"33 66\">",
       "    <column>",
-      "<entity type=\"skeleton\" scale=\"2.5\" tag='{HandItems:[{Count:1,id:\"modern_industrialization:quantum_sword\"}],ArmorItems:[{Count:1,id:\"modern_industrialization:quantum_boots\"},{Count:1,id:\"modern_industrialization:quantum_leggings\"},{Count:1,id:\"modern_industrialization:quantum_chestplate\"},{Count:1,id:\"modern_industrialization:quantum_helmet\"}]}'> </entity>",
+      "<entity type=\"armor_stand\" scale=\"2.5\" tag='{Invisible:1,HandItems:[{Count:1,id:\"modern_industrialization:quantum_sword\"}],ArmorItems:[{Count:1,id:\"modern_industrialization:quantum_boots\"},{Count:1,id:\"modern_industrialization:quantum_leggings\"},{Count:1,id:\"modern_industrialization:quantum_chestplate\"},{Count:1,id:\"modern_industrialization:quantum_helmet\"}]}'> </entity>",
       "    </column>",
       "    <column>",
       "  You have reached the final step to /b/invincibility/b/. Armor infused with /5/Quantum/5/ technology to repel all physical and magical attacks. You cannot die, not even by a /6/God's Smite/6/. You can now fly freely without the need of electricity. This set of armor interacts directly with the quantum realm to alter space and time surrounding you. Theoretically, you sitll be stationary, and space will just be moving relative to you. --This-- is the power you wield.",
