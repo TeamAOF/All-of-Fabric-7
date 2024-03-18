@@ -11,6 +11,8 @@ LootJS.modifiers((event) => {
     .addEntityLootModifier("minecells:conjunctivius").addWeightedLoot([5,13],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
   event
   .addEntityLootModifier("graveyard:lich").addWeightedLoot([10,23],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
+  event
+  .addEntityLootModifier("aquamirae:captain_cornelia").addWeightedLoot([9,22],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
 });
 
 ServerEvents.tags('entity_type', event => {
@@ -18,7 +20,11 @@ ServerEvents.tags('entity_type', event => {
   // This list ADDS coins to loottable.
   const ADD_COINS = [
     'minecraft:wither',
-    'theorcs:orc_boss'
+    'theorcs:orc_boss',
+    'minecraft:elder_guardian',
+    'adventurez:blaze_guardian',
+    'aquamirae:eel',
+    'artifacts:mimic'
   ];
 
   // This list REMOVES coins from loottable.
