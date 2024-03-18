@@ -2,8 +2,7 @@ LootJS.modifiers((event) => {
 
   // Bosses
   event
-    .addEntityLootModifier("bosses_of_mass_destruction:lich").addWeightedLoot([7,15],[Item.of("numismatic-overhaul:silver_coin").withChance(100)])
-    .addLoot(Item.of("numismatic-overhaul:gold_coin").withChance(1));
+    .addEntityLootModifier("bosses_of_mass_destruction:lich").addWeightedLoot([7,18],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
   event
     .addEntityLootModifier("minecraft:ender_dragon").addWeightedLoot([4,10],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
   event
@@ -11,8 +10,7 @@ LootJS.modifiers((event) => {
   event
     .addEntityLootModifier("minecells:conjunctivius").addWeightedLoot([5,13],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
   event
-  .addEntityLootModifier("graveyard:lich").addWeightedLoot([7,15],[Item.of("numismatic-overhaul:silver_coin").withChance(100)])
-  .addLoot(Item.of("numismatic-overhaul:gold_coin").withChance(2));
+  .addEntityLootModifier("graveyard:lich").addWeightedLoot([10,23],[Item.of("numismatic-overhaul:silver_coin").withChance(100)]);
 });
 
 ServerEvents.tags('entity_type', event => {
