@@ -24,7 +24,8 @@ ServerEvents.tags('entity_type', event => {
     'minecraft:elder_guardian',
     'adventurez:blaze_guardian',
     'aquamirae:eel',
-    'artifacts:mimic'
+    'artifacts:mimic',
+    'adventurez:blackstone_golem',
   ];
 
   // This list REMOVES coins from loottable.
