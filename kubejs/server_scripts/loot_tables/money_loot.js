@@ -23,6 +23,6 @@ ServerEvents.tags('entity_type', event => {
     });
   
     REMOVE_COINS.forEach((entity) => {
-      event.('numismatic-overhaul:the_bourgeoisie', entity)
+      event.remove('numismatic-overhaul:the_bourgeoisie', entity)
     });
   });
