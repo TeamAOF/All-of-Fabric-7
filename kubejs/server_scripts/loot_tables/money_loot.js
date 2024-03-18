@@ -19,7 +19,7 @@ ServerEvents.tags('entity_type', event => {
 
   // This list ADDS coins to loottable.
   const ADD_COINS = [
-    'minecraft:creeper'
+    'minecraft:wither'
   ];
 
   // This list REMOVES coins from loottable.
