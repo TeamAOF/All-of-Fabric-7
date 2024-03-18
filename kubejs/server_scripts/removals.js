@@ -216,6 +216,7 @@ ServerEvents.recipes((event) => {
         event.remove({ id: 'techreborn:crafting_table/nugget/' + item + '_nugget'});
         event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_block'});
         event.remove({ id: 'techreborn:crafting_table/storage_block/' + item + '_storage_block'});
+        event.remove({ id: 'techreborn:crafting_table/raw/raw_' + item + '_from_block'});
     });
 
     const small_dusts = [
