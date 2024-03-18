@@ -281,7 +281,15 @@ ServerEvents.tags('item', event => {
         'croptopia:pineapple_pepperoni_pizza',
         'nethervinery:crimson_nether_bag',
         'nethervinery:warped_nether_bag',
-        'bosses_of_mass_destruction:soul_star'
+        'bosses_of_mass_destruction:soul_star',
+        'botania:creative_pool',
+        'extendedae:infinity_cell',
+        'trofers:small_pillar',
+        'trofers:medium_pillar',
+        'trofers:large_pillar',
+        'trofers:small_plate',
+        'trofers:medium_plate',
+        'trofers:large_plate'
         
 
     ];
