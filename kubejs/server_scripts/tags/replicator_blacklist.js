@@ -284,6 +284,12 @@ ServerEvents.tags('item', event => {
         'bosses_of_mass_destruction:soul_star',
         'botania:creative_pool',
         'extendedae:infinity_cell',
+        'trofers:small_pillar',
+        'trofers:medium_pillar',
+        'trofers:large_pillar',
+        'trofers:small_plate',
+        'trofers:medium_plate',
+        'trofers:large_plate'
         
 
     ];
