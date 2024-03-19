@@ -77,9 +77,9 @@
     },
     "description": [
       "<hr/>",
-      "# Heat Exchanger",
+      "# &&eHeat Exchanger",
       "<br/>",
-      "  You can use the /b/Heat Exchanger/b/ to, well, exchange heat. You can recover the /b/High Pressure Water/b/ to be used for another cycle. Remember that pressurizing water into High Pressure water costs a lot of energy, but the turbine wont necessarily give it back.",
+      "  You can use the /b/Heat Exchanger/b/ to, well, exchange heat. You can recover the /b/High Pressure Water/b/ to be used for another cycle. Remember that /6/pressurizing /b/Water/b/ into /b/High Pressure Water/b/ costs a lot of energy/6/, but the turbine wont necessarily give it back.",
       "<hr/>"
     ],
     "groups": {

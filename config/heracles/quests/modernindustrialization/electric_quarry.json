@@ -76,21 +76,6 @@
       },
       "type": "heracles:item"
     },
-    "electric_quarry_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "modern_industrialization:steel_drill_head",
-        "count": 4
-      },
-      "type": "heracles:item"
-    },
     "mi_rare_lootbag": {
       "title": "",
       "icon": {
@@ -111,6 +96,21 @@
         }
       },
       "type": "heracles:item"
+    },
+    "electric_quarry_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_drill_head",
+        "count": 4
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -120,10 +120,11 @@
     "description": [
       "<hr/>",
       "# &&eElectric Quarry",
+      "# &&eElectric Quarry",
       "<br/>",
-      "  &&5RESOURCES GO BRRR!!!&&r You've reached the electric version of the &&bQuarry&&r! This one allows you to &&6produce ores&&r at an even faster rate than before --and-- gives you more options for drills. Now you'll be able to use &&bSteel&&r, &&bGold&&r, &&bStainless Steel&&r, and &&bTitanium Drills&&r to finish off the rest of the ore production and truly fulfill my promise of never needing to mine for ores ever again!",
+      "  RESOURCES GO BRRR!!! You've reached the electric version of the /b/Quarry/b/! This one allows you to produce ores at an even faster rate than before --and-- gives you more options for drills. /6/Now you'll be able to use /b/Steel/b/, /b/Gold/b/, /b/Stainless Steel/b/, and /b/Titanium Drills/b//6/ to finish off the rest of the ore production and truly fulfill my promise of never needing to mine for ores ever again!",
       "<br/>",
-      "  The &&6structure is --exactly-- the same as the&&r &&bSteam Quarry's&&r aside from needing an &&bEnergy Input Hatch&&r instead of a &&bFluid Input Hatch&&r. Make sure you've automated your &&bBronze Drills&&r by now or else it'll be a pain to keep your quarries running.",
+      "  The structure is --exactly-- the same as the /b/Steam Quarry's/b/ aside from needing an /b/Energy Input Hatch/b/ instead of a /b/Fluid Input Hatch/b/./6/ Make sure you've automated your /b/Bronze Drills/b//6/ by now or else it'll be a pain to keep your quarries running.",
       "<hr/>"
     ],
     "groups": {
