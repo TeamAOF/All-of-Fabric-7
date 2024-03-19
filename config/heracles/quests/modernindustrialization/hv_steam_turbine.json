@@ -19,21 +19,6 @@
     }
   },
   "rewards": {
-    "hv_steam_turbine_reward_1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "modern_industrialization:mv_hv_transformer",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
     "mi_epic_lootbag": {
       "title": "",
       "icon": {
@@ -52,6 +37,21 @@
           "Loot": "aof:loot_bags/mi/epic",
           "Name": "Modern Industrialization Epic Lootbag"
         }
+      },
+      "type": "heracles:item"
+    },
+    "hv_steam_turbine_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:mv_hv_transformer",
+        "count": 1
       },
       "type": "heracles:item"
     },
@@ -77,9 +77,9 @@
     },
     "description": [
       "<hr/>",
-      "# HV Steam Turbine",
+      "# &&eHV Steam Turbine",
       "<br/>",
-      "  Time for another major upgrade! Now you'll be able to make a maximum of 512 eu/t out of the new /b/HV Steam Turbine/b/! Aside from the increase in energy production four-fold (again), it acts just like the LV and MV Steam Turbine.",
+      "  Time for another major upgrade! Now you'll be able to make a /6/maximum of 512 eu/t/6/ out of the new /b/HV Steam Turbine/b/! Aside from the increase in energy production four-fold (again), it acts just like the LV and /b/MV Steam Turbine/b/.",
       "<br/>",
       "  You'll need to use a new set of cables for HV now. You'll need to use /b/Aluminum/b/ or /b/Kanthal/b/ cables to be able to transfer this new HV tier of power.",
       "<hr/>"

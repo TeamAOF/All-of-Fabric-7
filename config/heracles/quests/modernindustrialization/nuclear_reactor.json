@@ -62,21 +62,6 @@
       },
       "type": "heracles:item"
     },
-    "nuclear_reactor_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "modern_industrialization:uranium_fuel_rod_quad",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
     "mi_epic_lootbag": {
       "title": "",
       "icon": {
@@ -97,6 +82,21 @@
         }
       },
       "type": "heracles:item"
+    },
+    "nuclear_reactor_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:uranium_fuel_rod_quad",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -105,9 +105,9 @@
     },
     "description": [
       "<hr/>",
-      "# Nuclear Reactor",
+      "# &&eNuclear Reactor",
       "<br/>",
-      "  Anyone call for /b/Nuclear Fission/b/? Well, it's here whether you like it or not! You'll finally be able to construct a /b/Nuclear Reactor/b/ that uses different types of fluid and fuel rods to produce various gaseous fuels, steam in massive quantities, and radioactive materials.",
+      "  Anyone call for /b/Nuclear Fission/b/? Well, it's here whether you like it or not! You'll finally be able to construct a /b/Nuclear Reactor/b/ that uses different types of /b/Fluid/b/ and /b/Fuel Rods/b/ to produce various gaseous fuels, /b/Steam/b/ in massive quantities, and radioactive materials.",
       "<br/>",
       "  The /b/Nuclear Reactor/b/ is not for the faint of heart. You'll need to keep watch on the gauges for thermal and neutron interaction when constructing one of four different sized reactors. If you give up with developing your knowledge and patterns on the reactor, come back to me and I'll explain all about how it works. But for now, I wish you luck!",
       "<hr/>"

@@ -84,15 +84,15 @@
     },
     "description": [
       "<hr/>",
-      "# Electric Blast Furnace",
+      "# &&eElectric Blast Furnace (EBF)",
       "<br/>",
-      "  Time to heat things up by a few notches? This is the electric version of the steam blast furnace. The /b/Electric Blast Furnace/b/ uses induction heating to produce extreme temperatures, unlocking a plethora of new recipes. Plus, it's overclock is bounded to 128 EU/t by default, just like other multiblock electric machines.",
+      "  Time to heat things up by a few notches? This is the electric version of the /b/Steam Blast Furnace/b/. The /b/Electric Blast Furnace/b/ uses induction heating to produce extreme temperatures, unlocking a plethora of new recipes. Plus, it's /6/overclock is bounded to 128 EU/t by default/6/, just like other multiblock electric machines.",
       "<br/>",
-      "  The /b/Electronic Blast Furnace/b/ or /b/EBF/b/ is made out of purely Heatproof Machine Casings and /b/Cupronickel Coils/b/. Use your wrench to see the mutliblock's shape and block placement. The controller is placed on the bottom layer and hatches and be placed on the top or bottom layer.",
+      "  The /b/Electronic Blast Furnace/b/ or /b/EBF/b/ is made out of purely /b/Heatproof Machine Casings/b/ and /b/Cupronickel Coils/b/. /6/Use your /b/Wrench/b/ to see the mutliblock's shape and block placement/6/. The controller is placed on the bottom layer and hatches and be placed on the top or bottom layer.",
       "<br/>",
-      "  Don't forget to add an Energy Input Hatch(es) or the EBF won't have any energy to run! Start with a LV Energy Input Hatch and you can upgrade to higher tier Energy Input Hatches when you have the appropriate power tiers. Remember, the LV Energy Input Hatch will only connect to LV cables.",
+      " /6/ Don't forget to add an Energy Input Hatch(es)/6/ or the EBF won't have any energy to run! Start with a /b/LV Energy Input Hatch/b/ and you can upgrade to higher tier /b/Energy Input Hatches/b/ when you have the appropriate power tiers. Remember, the /b/LV Energy Input Hatch/b/ will only connect to /b/LV cables/b/.",
       "<br/>",
-      "  You'll also need item or fluid input hatches and item or fluid output hatches based off of the use case of the EBF. Check your REI for it's new recipes and choose hatches based off your needs.",
+      "  You'll also need item or fluid input hatches and item or fluid output hatches based off of the use case of the /b/EBF/b/. Check your REI for it's new recipes and choose hatches based off your needs.",
       "<hr/>"
     ],
     "groups": {
