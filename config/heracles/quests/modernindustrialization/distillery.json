@@ -62,9 +62,9 @@
     },
     "description": [
       "<hr/>",
-      "# Distillery",
+      "# &&eDistillery",
       "<br/>",
-      "  With your new found crude oil, you need to refine it to use it. Currently it's pretty useless in an industrial sense. That's where the /b/Distillery/b/ comes into play! You can refine or --distill-- fluids into it's lighter parts. With this distillery you can only refine down to one fluid at a time. Just keep working, soon enough you'll be able to extract many fluids at once.",
+      "  With your new found &&bCrude Oil&&r, you need to &&6refine&&r it to use it. Currently it's pretty useless in an industrial sense. That's where the /b/Distillery/b/ comes into play! You can &&6refine&&r or &&6--distill--&&r fluids into it's lighter parts. With this &&bDistillery&&r you can only refine down to one fluid at a time. Just keep working, soon enough you'll be able to extract many fluids at once.",
       "<hr/>"
     ],
     "groups": {

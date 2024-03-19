@@ -62,13 +62,13 @@
     },
     "description": [
       "<hr/>",
-      "# Diesel Generator",
+      "# &&eDiesel Generator",
       "<br/>",
-      "  There are three small diesel generators that are the beginning of power generation via fluids or gases. You can use your REI to check for how much EU will be produced per millibucket of each type of fuel.",
+      "  There are three small diesel generators that are the beginning of power generation via fluids or gases. You can use your &&6REI&&r to check for how much EU will be produced per millibucket of each type of fuel.",
       "<br/>",
       "  The /b/LV Diesel Generator/b/ will produce up to 64 eu/t, the /b/MV Diesel Generator/b/ will produce up to 256 eu/t, and the /b/HV Diesel Generator/b/ will produce up to 1024 eu/t.",
       "<br/>",
-      "  Diesel Generators will only use fuel when they need to, so don't worry about wasting fuel when you aren't actually using any power. Although, if you need a constant supply of energy, you can put these fluid fuels into the /b/Large Steam Boiler/b/ (and higher tiers of of it) instead of only items.",
+      "  Diesel Generators will only use fuel when they need to, so don't worry about wasting fuel when you aren't actually using any power. Although, if you need a &&6constant supply of energy&&r, you can put these fluid fuels into the /b/Large Steam Boiler/b/ (and higher tiers of of it) instead of only items.",
       "<br/>",
       "  A fully heated /b/Large Steam Boiler/b/ will produce the same amount of energy as a MV Diesel Generator would produce using the same quantity of fuel.",
       "<hr/>"

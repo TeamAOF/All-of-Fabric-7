@@ -119,11 +119,11 @@
     },
     "description": [
       "<hr/>",
-      "# Electric Quarry",
+      "# &&eElectric Quarry",
       "<br/>",
-      "  RESOURCES GO BRRR!!! You've reached the electric version of the Quarry! This one allows you to produce ores at an even faster rate than before --and-- gives you more options for drills. Now you'll be able to use Steel, Gold, Stainless Steel, and Titanium Drills to finish off the rest of the ore production and truly fulfill my promise of never needing to mine for ores ever again!",
+      "  &&5RESOURCES GO BRRR!!!&&r You've reached the electric version of the &&bQuarry&&r! This one allows you to &&6produce ores&&r at an even faster rate than before --and-- gives you more options for drills. Now you'll be able to use &&bSteel&&r, &&bGold&&r, &&bStainless Steel&&r, and &&bTitanium Drills&&r to finish off the rest of the ore production and truly fulfill my promise of never needing to mine for ores ever again!",
       "<br/>",
-      "  The structure is --exactly-- the same as the Steam Quarry's aside from needing an energy input hatch instead of a fluid input hatch. Make sure you've automated your bronze drills by now or else it'll be a pain to keep your quarries running.",
+      "  The &&6structure is --exactly-- the same as the&&r &&bSteam Quarry's&&r aside from needing an &&bEnergy Input Hatch&&r instead of a &&bFluid Input Hatch&&r. Make sure you've automated your &&bBronze Drills&&r by now or else it'll be a pain to keep your quarries running.",
       "<hr/>"
     ],
     "groups": {
