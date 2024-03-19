@@ -41,9 +41,9 @@
     },
     "description": [
       "<hr/>",
-      "# Energy Transfer",
+      "# &&eEnergy Transfer",
       "<br/>",
-      "  We have a lot to cover. Cable networks have hard limitations on the amount of energy they will pull into the network depending on the tier.  LV or Low Voltage cables have a maximum transfer rate of 256 EU/t and will not transfer at any higher rate no matter how large the network is. MV or Medium Voltage cables have a maximum transfer rate of 1024 EU/t. Finally, HV or High Voltage cables have a maximum transfer rate of 8192 EU/t. LV cables are made of Copper, Silver or Tin; MV cables are made of Cupronickel or Electrum; and so on...",
+      "  We have a lot to cover. &&bCable&&r networks have hard limitations on the amount of energy they will pull into the network depending on the tier.  &&bLV&&r or &&bLow Voltage&7r cables have a maximum transfer rate of &&6256 EU/t&&6 and will not transfer at any higher rate no matter how large the network is. &&bMV&&r or &&bMedium Voltage&&r cables have a maximum transfer rate of &&61024 EU/t&&r. Finally, &&bHV&&r or &&bHigh Voltage&&r cables have a maximum transfer rate of &&68192 EU/t&&r. &&bLV&&r cables are made of &&bCopper&&r, &&bSilver&&r or &&bTin&&r; &&bMV&&r cables are made of &&bCupronickel&&r or &&bElectrum&&r; and so on...",
       "<br/>",
       "  Now, the input and transfer rate is hard capped, but the discharge rate is infinite. This mean, for example, a LV cable network can provide more than 256 EU/t for a short amount of time. The larger the cable network, the larger the internal cable buffer. All this \"stored\" energy can be discharged almost instantaneously if given a place to go to.",
       "<br/>",

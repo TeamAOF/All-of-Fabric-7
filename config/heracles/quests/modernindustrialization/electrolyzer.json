@@ -62,9 +62,9 @@
     },
     "description": [
       "<hr/>",
-      "# Electrolyzer",
+      "# &&eElectrolyzer",
       "<br/>",
-      "  This is a new electric machine that uses strong electric currents to split materials into different parts. Most notably, you can split water into it's two major components: Hydrogen and Oxygen. This process is called /b/Electrolysis/b/ and it works by using electric current to split ||ionic compounds|| into their elements.",
+      "  This is a new electric machine that uses strong electric currents to &&6split materials&&r into different parts. Most notably, you can split water into it's two major components: &&bHydrogen&&r and &&bOxygen&&r. This process is called /b/Electrolysis/b/ and it works by using electric current to split ||ionic compounds|| into their elements.",
       "<hr/>"
     ],
     "groups": {
