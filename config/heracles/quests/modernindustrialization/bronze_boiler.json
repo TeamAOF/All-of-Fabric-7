@@ -47,17 +47,17 @@
     },
     "description": [
       "<hr/>",
-      "# Bronze Boiler",
+      "# &&eBronze Boiler",
       "<br/>",
-      "  Steam machines need, well, steam! The way to get it is to make a steam boiler! The steam boiler will gradually consume almost any fuel you give it to heat up. When it's at a high enough temperature, it will begin to produce steam so long as there is water in it's internal tank; if not, you'd be wasting fuel.",
+      "  Steam machines need, well, /b/Steam/b/! The way to get it is to make a /b/Steam Boiler/b/! The /b/Steam Boiler/b/ will gradually consume almost any /6/fuel/6/ you give it to heat up. When it's at a high enough temperature, it will begin to produce /b/Steam/b/ so long as there is /b/Water/b/ in it's /6/internal tank/6/; if not, you'd be wasting fuel.",
       "<br/>",
-      "  Or you can put a bucket of water into a furnace to obtain a bucket of steam. In this world is seems that buckets keep any fluid inside of them, having a persistent temperature and bound to the confined of bucket; so don't worry about it condensing down into water or escaping. With steam pre-boiler, you can make a compressor to save on bronze plates.",
+      "  Or you can put a /b/Water Bucket/b/ into a /b/Furnace/b/ to obtain a /b/Steam Bucket/b/. In this world is seems that fluid containers keep any fluid inside of them, having a persistent temperature and bound to the confined container; so don't worry about it condensing down into water or escaping. With /b/Steam/b/ pre-boiler, you can make a /b/Compressor/b/ to save on /b/Bronze Plates/b/.",
       "<br/>",
-      "  It might seem a bit expensive at this current moment, but remember that you can practically triple your ores using the forge hammer. Not to mention that in due time, when you have your first two machines, it will become more than twice less expensive than before!",
+      "  It might seem a bit expensive at this current moment, but remember that you can practically triple your ores using the /b/Forge Hammer/b/. Not to mention that in due time, when you have your first two machines, it will become more than twice less expensive than before!",
       "<br/>",
-      "  The boiler will automatically begin to produce and send the steam to adjacent machines or connected pipes, up to 8 millibuckets per tick. ",
+      "  The /b/Boiler/b/ will automatically begin to produce and send the /b/Steam/b/ to adjacent machines or connected pipes, /6/up to 8 millibuckets per tick./6/ ",
       "<br/>",
-      "  Bronze machines can only process recipes up to 2 energy unit per tick. You might see it as \"2 EU/t\" when using the machines. 1 millibucket of steam is the same as 1 EU; I for one am really glad it's a very simple conversion cause I'm not a fan of math. Once your boiler is at maximum temperature, it can supply 4 machines with steam simultaneously! Now --that's-- hot.",
+      "  Bronze machines can only process recipes up to 2 energy unit per tick. You might see it as \"2 EU/t\" when using the machines. 1 millibucket of steam is the same as 1 EU; I for one am really glad it's a very simple conversion cause I'm not a fan of math. Once your /b/Boiler/b/ is at maximum temperature, it can supply 4 machines with /b/Steam/b/ simultaneously! Now --that's-- hot.",
       "<hr/>"
     ],
     "groups": {

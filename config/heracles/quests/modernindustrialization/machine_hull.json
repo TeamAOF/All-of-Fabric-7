@@ -62,9 +62,9 @@
     },
     "description": [
       "<hr/>",
-      "# Machine Hulls",
+      "# &&eMachine Hulls",
       "<br/>",
-      "  The electronic heart. Machine hulls contain the main electronics to allow machines to run. There are different tiers to machine hulls, each allowing you to upgrade your machines. The /b/Basic Machine Hull/b/ is the base of every machine that takes LV power. If you want your machine to accept MV power, you must upgrade it using an /b/Advanced Machine Hull/b/. You can do this by right clicking the machine with the upgraded hull in your hand or by placing it in the top right slot of the machine's GUI that seems to have a small isometric cube depiction. You can do the same with higher tier hulls as they will allow for higher tier power sources.",
+      "  The electronic heart. /b/Machine Hulls/b/ contain the main electronics to allow machines to run. There are different tiers to machine hulls, each allowing you to upgrade your machines. The /b/Basic Machine Hull/b/ is the base of every machine that takes LV power. If you want your machine to accept MV power, you must upgrade it using an /b/Advanced Machine Hull/b/. You can do this by /6/right clicking the machine with the upgraded hull/6/ in your hand or by placing it in the top right slot of the machine's GUI that seems to have a small isometric cube depiction. You can do the same with higher tier hulls as they will allow for higher tier power sources.",
       "<hr/>"
     ],
     "groups": {
