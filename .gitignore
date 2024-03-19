@@ -131,3 +131,6 @@ heracles_options.json
 defaultconfigs/
 
 .DS_Store
+
+# idea
+.idea/
