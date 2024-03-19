@@ -20,13 +20,13 @@ body:
       required: true
 
   - type: textarea
-    id: describe
+    id: description
     attributes:
-      label: Describe your issue
+      label: Describe your issue.
     validations:
       required: true
 
-    - type: input
+  - type: input
     id: crashlog
     attributes:
       label: Crash Report
@@ -34,7 +34,7 @@ body:
     validations:
       required: false
 
-    - type: input
+  - type: input
     id: latestlog
     attributes:
       label: Latest Log
@@ -42,7 +42,7 @@ body:
     validations:
       required: false
 
-    - type: dropdown
+  - type: dropdown
     id: modified-modpack
     attributes:
       label: "Have you modified the modpack?"
@@ -53,7 +53,7 @@ body:
     validations:
       required: true
 
-    - type: textarea
+  - type: textarea
     id: user-modifications
     attributes:
       label: User Modifications
@@ -61,7 +61,7 @@ body:
     validations:
       required: false
 
-    - type: dropdown
+  - type: dropdown
     id: environment
     attributes:
       label: "Did the issue happen in singleplayer or on a server?"
@@ -72,7 +72,7 @@ body:
     validations:
       required: true
 
-    - type: input
+  - type: input
     id: discord-username
     attributes:
       label: Discord Username
