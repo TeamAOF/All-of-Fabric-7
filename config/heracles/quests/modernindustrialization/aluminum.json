@@ -62,9 +62,9 @@
     },
     "description": [
       "<hr/>",
-      "# Aluminum",
+      "# &&eAluminum",
       "<br/>",
-      "  Time to make aluminum! It is a third the weight of steel, yet ductile and highly malleable. It's made from heating up and extracting it from bauxite. You can do this in your newly formed EBF. Make sure to automate aluminum production as you'll end up using a lot of it.",
+      "  Time to make &&bAluminum&&r! It is a &&6third the weight of steel, yet ductile and highly malleable&&r. It's made from &&6heating up and extracting&&r it from &&bBauxite&&r. You can do this in your newly formed &&6EBF&&r. Make sure to automate &&bAluminum&&r production as you'll end up using a lot of it.",
       "<hr/>"
     ],
     "groups": {
