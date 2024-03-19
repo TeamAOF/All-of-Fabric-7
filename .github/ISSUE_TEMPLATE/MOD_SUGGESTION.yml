@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Points before submitting a suggestion:
+        ## Pointers before submitting a suggestion:
         - Double check the **Issue Tracker** if said mod has already been suggested.
         - Said mod has to support the **Fabric Loader**
   - type: input
