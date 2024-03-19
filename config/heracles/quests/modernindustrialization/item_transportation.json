@@ -62,13 +62,13 @@
     },
     "description": [
       "<hr/>",
-      "# Item Transportation",
+      "# &&eItem Transportation",
       "<br/>",
-      "  Item pipes work just about the same as fluid pipes, aside from they will transport items and is much more configurable. Just like fluid pipes, they will not connect to inventories by default, but you still can force a connection. If you right click a connection without a wrench, you'll see a filter.",
+      "  /b/Item Pipes/b/ work just about the same as /b/Fluid Pipes/b/, aside from /6/they will transport items and is much more configurable/6/. Just like /b/Fluid pipes/b/, they will not connect to inventories by default, but you still can force a connection. If you right click a connection without a /b/Wrench/b/, you'll see a filter.",
       "<br/>",
       "  This filter can be set to many different items at the same time and by default is set to whitelist. This means only items in the filter will be transported through the connection. Blacklist will disallow any items set to the filter to be transported through the connection.",
       "<br/>",
-      "  Item pipes will insert items into higher priorities first, and transfer 16 items every 3 seconds.",
+      "  Item pipes will insert items into higher priorities first, and transfer 16 items /6/every 3 seconds/6/, but can be upgraded with /b/Motors/b/ for higher thoughput.",
       "<hr/>"
     ],
     "groups": {
