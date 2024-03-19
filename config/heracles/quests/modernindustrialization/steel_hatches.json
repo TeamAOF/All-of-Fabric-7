@@ -69,13 +69,13 @@
     },
     "description": [
       "<hr/>",
-      "# Steel Hatches",
+      "# &&eSteel Hatches",
       "<br/>",
-      "  /b/Steel Hatches/b/ have double the capacity of bronze hatches, increasing one inventory slot to 2, and increasing a multiblock's max steam usage rate from 2 EU/t to 4 EU/t. As long as there is a single steel fluid input hatch receiving steam, your entire mutliblock is upgraded to a \"steel tier.\"",
+      "  /b/Steel Hatches/b/ have /6/double the capacity of bronze hatches/6/, increasing one inventory slot to 2, and increasing a multiblock's max steam usage rate from 2 EU/t to 4 EU/t. As long as there is a single steel fluid input hatch receiving steam, your entire mutliblock is upgraded to a \"steel tier.\"",
       "<br/>",
       "  Allowing multiblocks to use 4 EU/t means exactly what you think it does, it doubles the top speed of the processes.",
       "<br/>",
-      "  A steel boiler will produce twice as much steam as a bronze one. That means it will max out at --16 EU/t-- instead of 8. The steel water pump will also produce twice as much water as it's bronze counterpart, so a max of 1/4th bucket of water from every adjacent source of water for up to 2 buckets of water every 5 seconds.",
+      "  A /b/Steel Boiler/b/ will produce twice as much steam as a bronze one. That means it will max out at --16 EU/t-- instead of 8. The /b/Steel Water Pump/b/ will also produce twice as much /b/Water/b/ as it's bronze counterpart, so a max of 250mb of /b/Water/b/ fro every adjacent water source for up to 2000mb of /b/Water/b/ every 5 seconds.",
       "<hr/>"
     ],
     "groups": {
