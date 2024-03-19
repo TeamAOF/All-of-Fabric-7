@@ -47,7 +47,7 @@
     },
     "icon": {
       "item": {
-        "id": "computercraft:monitor_normal",
+        "id": "computercraft:wired_modem_full",
         "count": 1
       },
       "type": "heracles:item"

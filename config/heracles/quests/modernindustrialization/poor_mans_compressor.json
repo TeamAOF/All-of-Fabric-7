@@ -5,13 +5,29 @@
   "tasks": {
     "poor_mans_compressor_task": {
       "type": "heracles:item",
+      "item": "modern_industrialization:forge_hammer",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "modern_industrialization:forge_hammer"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "poor_mans_compressor_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "modern_industrialization:iron_hammer",
         "count": 1,
@@ -28,11 +44,11 @@
     },
     "description": [
       "<hr/>",
-      "## Poor Man's Compressor",
+      "## &&ePoor Man's Compressor",
       "<br/>",
-      "  Before you can even make bronze, you'll need to put together a --Forge Hammer--. It's pretty much a bigger anvil, but it's just got a flat top so you won't be able to use it as an anvil. Use it to make the basics such as plates and rods. Though, slamming the forge hammer with an ingot can be very inefficient and you'll get less out of your ingot due to damaged or chipped metal. If you make yourself one of the various hammers, you'll increase the efficiency and your output; AKA the ratio increases. Once you use a hammer, more formations of that ingot will open up to you. Be smart with your resources because that hammer won't last forever as its durability will eventually diminish till it breaks.",
+      "  Before you can even make /b/Bronze/b/, you'll need to put together a /b/--Forge Hammer--/b/. It's pretty much a bigger /b/Anvil/b/, but it's just got a flat top so you won't be able to use it as an anvil. Use it to make the basics such as /b/Plates/b/ and /b/Rods/b/. Though, /6/slamming/6/ the /b/Forge Hammer/b/ with an /b/Ingot/b/ can be very /6/inefficient/6/ and you'll get /6/less/6/ out of your /b/Ingot/b/ due to /6/damaged/6/ or /6/chipped/6/ metal. If you /6/craft yourself/6/ one of the various /b/Hammers/b/, you'll /6/increase the efficiency/6/ and your output; AKA the ratio increases. Once you use a /b/Hammer/b/, more formations of that /b/Ingot/b/ will open up to you. Be smart with your resources as the /b/Hammer/b/ won't last forever as its durability will eventually /6/diminish/6/ till it breaks.",
       "<br/>",
-      "  You can also use the forge hammer as a way of getting more raw ore out of your ore blocks. Again, using the hammer will give you more at the cost of durability.",
+      "  You can also use the /b/Forge Hammer/b/ as a way of getting more /b/Raw Ore/b/ out of your /b/Ores/b/. Again, using the /b/Hammer/b/ will give you /6/more/6/ at the cost of durability.",
       "<hr/>"
     ],
     "groups": {
@@ -44,7 +60,10 @@
       }
     },
     "icon": {
-      "item": "modern_industrialization:forge_hammer",
+      "item": {
+        "id": "modern_industrialization:forge_hammer",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +72,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
