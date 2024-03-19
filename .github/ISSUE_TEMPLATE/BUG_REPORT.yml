@@ -10,6 +10,7 @@ body:
       value: |
         ## Pointers before submitting a bug report:
         - Double check the **Issue Tracker** if said issue has already been reported.
+        
   - type: input
     id: version
     attributes:
@@ -17,12 +18,14 @@ body:
       placeholder: ex. 2.0.0
     validations:
       required: true
+
   - type: textarea
     id: describe
     attributes:
       label: Describe your issue
     validations:
       required: true
+
     - type: input
     id: crashlog
     attributes:
@@ -30,7 +33,8 @@ body:
       description: Crashed? Upload your crash report to https://gist.github.com, paste the link here.
     validations:
       required: false
-       - type: input
+
+    - type: input
     id: latestlog
     attributes:
       label: Latest Log
@@ -68,7 +72,7 @@ body:
     validations:
       required: true
 
-      - type: input
+    - type: input
     id: discord-username
     attributes:
       label: Discord Username
