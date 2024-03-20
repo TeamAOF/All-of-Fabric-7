@@ -63,6 +63,17 @@ ServerEvents.recipes(event => {
     C: '#c:raw_chicken',
   },
   id: 'aof:egg'
+},
+
+// Eye of Ender
+{
+  output: 'minecraft:ender_eye',
+  pattern: ['AB'],
+  key: {
+    A: 'minecraft:blaze_powder',
+    B: '#c:ender_pearls',
+  },
+  id: 'minecraft:ender_eye'
 }
 ];
 
