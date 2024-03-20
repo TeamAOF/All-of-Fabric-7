@@ -106,6 +106,9 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 <img src="https://i.imgur.com/k22UBUN.png"/>
 
 * Economy System, player shops & improved villager trading **(AK)**
+<img src="https://i.imgur.com/DoY6DMV.png"/>
+<img src="https://i.imgur.com/a00CPoY.png"/>
+
 * Added the Farmer O' Worlds quest trophy upon completing the chapter **(AK)**
 * Buffed all BOMD bosses, health, armor & damage **(AK)**
 * Buffed the Corrupted Champion from Graveyard, health, armor & damage **(AK)**
@@ -116,10 +119,16 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Added colors to quest trophy quest names **(AK)**
 * Quest name improvements **(AK/SubordinalBlue)**
 * Getting Started quests are no longer hidden **(AK)**
+* Added chickens to overworld mobs datamodel **(AK)**
 * Animate Only Visible Textures feature has been turned off, enable in video settings if having FPS issues **(AK)**
 * Updated the built-in EU server IP **(AK)**
 * Additions to replicator blacklist **(AK)**
+* Allow zenith affixes to be applied to Quantum Sword **(AK)**
+* Improved log spam suppression **(AK)**
 * Performance improvements to RAM usage **(AK)**
+* Text color has been added to MI quests to make reading easier **(RainbowIris323)**
+* Added info about coins & the purge to Assistance Needed! quest **(Inno)**
+* Disabled Creative flight potions **(AK)**
 * Update the questing UI to a darker color scheme for quest backgrounds **(SubordinalBlue)**
 * Glowup of Getting Started quest chapter **(SubordinalBlue)**
 * Glowup of all trophy quests **(SubordinalBlue)**
@@ -174,7 +183,8 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Added a recipe for Nikolite Dust in TR Grinder **(AK)**
 * Added a recipe for Nikolite Dust through Create Crushing **(AK)**
 * Added Enriched Nikolite progression through MI & TR **(AK)**
-* Added MI gears progression through Tinkers casting **(AK)**
+* Added MI ores > raw ores recipes through Indrev Pulverizer **(AK)**
+* Allow ender pearls from Enderman Overhaul to be used in Eye of Ender recipe **(AK)**
 * Lowered power needed for the hyper nitro crystal, from 400M to 200M **(AK)**
 * Fixed Monazite Ore > Dust recipe through create crushing **(AK)**
 * Fixed recipes using Mixed Stone Ball as inputs **(AK)**
@@ -182,14 +192,16 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 
 ### Bug Fixes 🪲
 
-* Ad Astra planet ores not showing up in REI or recipes **(AK)**
-* Incorrect granting of Display Case advancement **(AK)**
-* Missing tasks for grapes quests **(elaniquilador01)**
-* Recipe conflicts making FOW quest chapter not completeable **(AK)**
-* Ironchests Barrels not being mineable **(AK)**
-* Spectrum progression issues due to how bedrock was placed **(AK)**
+* Fixed Ad Astra planet ores not showing up in REI or recipes **(AK)**
+* Fixed incorrect granting of Display Case advancement **(AK)**
+* Fixed missing tasks for grapes quests **(elaniquilador01)**
+* Fixed recipe conflicts making FOW quest chapter not completeable **(AK)**
+* Fixed resummoned dragons not dropping the egg **(AK)**
+* Fixed Ironchests Barrels not being mineable **(AK)**
+* Fixed Forager village missing loot tables **(AK)**
+* Fixed Spectrum progression issues due to how bedrock was placed **(AK)**
 * Fixed an issue where fluids in REI wouldnt be animated **(AK)**
-* Incorrect dank quests descriptions **(Slexom)**
+* Fixed incorrect dank quests descriptions **(Slexom)**
 ---
 
 ### All of Fabric 7 | v1.3.2
