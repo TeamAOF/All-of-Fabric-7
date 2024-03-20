@@ -76,7 +76,7 @@ body:
     id: discord-username
     attributes:
       label: Discord Username
-      description: If you are in the [All of Fabric](https://discord.com/invite/aof) and wouldn't mind being asked further questions there, leave your username here.
+      description: If you are in the [All of Fabric Discord](https://discord.com/invite/aof) and wouldn't mind being asked further questions there, leave your username here.
       placeholder: username#0000
     validations:
       required: false
