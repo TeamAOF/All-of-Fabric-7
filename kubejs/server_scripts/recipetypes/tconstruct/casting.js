@@ -1,4 +1,3 @@
-/*
 ServerEvents.recipes(event => {
 
   const aof_materials = [
@@ -93,4 +92,3 @@ ServerEvents.recipes(event => {
     })
   })
 })
-*/
