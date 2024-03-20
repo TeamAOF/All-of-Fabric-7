@@ -1,6 +1,6 @@
 {
 	// Whether villagers should use Numismatic currency for trading
-	"enableVillagerTrading": false,
+	"enableVillagerTrading": true,
 	// Whether Numismatic currency should be injected into the loot tables of loot chests
 	"generateCurrencyInChests": true,
 	// Where the purse in your inventory should be placed on the X axis
