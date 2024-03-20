@@ -44,7 +44,7 @@ phrases = [
 	"Falling back to vanilla logic",
 	"Couldn't parse element",
 	"Parsing error loading custom advancement",
-	"Durations have no impact on this type of recipe."
+	"Durations have no impact on this type of recipe.",
 	"suppressed exception",
 	"Using missing texture",
 	"Unable to load model",
