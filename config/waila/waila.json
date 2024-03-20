@@ -32,7 +32,7 @@
     "fps": 30
   },
   "formatter": {
-    "modName": "§9§o%s",
+    "modName": "§3§o%s",
     "blockName": "§f%s",
     "fluidName": "§f%s",
     "entityName": "§f%s",
