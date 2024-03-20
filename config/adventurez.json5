@@ -27,7 +27,7 @@
 	"allow_dragon_hatching": true,
 	"allow_guardian_spawner_spawn": true,
 	"allow_source_stone_tp": true,
-	"resummoned_ender_dragon_drops_egg": true,
+	"resummoned_ender_dragon_drops_egg": false,
 	"allow_ender_dragon_nether_portal": false,
 	"heavy_dragon_flight": true,
 	"allow_special_enchant_loot": true,
