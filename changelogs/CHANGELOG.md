@@ -10,18 +10,17 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 
   * [Backported Wolves](https://www.curseforge.com/minecraft/mc-mods/backported-wolves)
   * [Bewitchment REI](https://www.curseforge.com/minecraft/mc-mods/befixment)
+  * [Blur](https://www.curseforge.com/minecraft/mc-mods/blur-fabric)
   * [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass)
-  * [Create Enchantment Industry Fabric](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry-fabric)
+  * [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks-fabric)
+  * [Create Enchantment Industry](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry-fabric)
   * [Create: Copycats+](https://www.curseforge.com/minecraft/mc-mods/copycats)
   * [Create: Food](https://www.curseforge.com/minecraft/mc-mods/create-food-fabric)
   * [Custom Portals](https://www.curseforge.com/minecraft/mc-mods/custom-portals)
-  * [Eclectic Trove (Legendary Tooltips)](https://www.curseforge.com/minecraft/texture-packs/eclectic-trove-legendary-tooltips)
   * [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium)
   * [ExtendedAE](https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider)
-  * [Hephaestus (Tinkers Construct)](https://www.curseforge.com/minecraft/mc-mods/hephaestus-fabric)
-  * [HephaestusPlus (Hephaestus Addon)](https://www.curseforge.com/minecraft/mc-mods/hephaestusplus)
-  * [IndustrialReborn](https://www.curseforge.com/minecraft/mc-mods/industrialreborn)
   * [Icon Xaero's](https://www.curseforge.com/minecraft/texture-packs/icon-xaeros)
+  * [IndustrialReborn](https://www.curseforge.com/minecraft/mc-mods/industrialreborn)
   * [Numismatic Overhaul](https://www.curseforge.com/minecraft/mc-mods/numismatic-overhaul)
   * [Quad](https://www.curseforge.com/minecraft/mc-mods/quad)
   * [Spectral Utilities](https://www.curseforge.com/minecraft/mc-mods/spectral-utilities)
@@ -29,6 +28,7 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
   * [The Orcs!](https://www.curseforge.com/minecraft/mc-mods/the-orcs)
   * [TimeOutOut](https://www.curseforge.com/minecraft/mc-mods/timeoutout-fabric)
   * [Towers of the Wild Modded](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-modded)
+  * [Trade Cycling](https://www.curseforge.com/minecraft/mc-mods/trade-cycling)
   * [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition)
   * [Variants & Ventures](https://www.curseforge.com/minecraft/mc-mods/variants-and-ventures)
   * [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
@@ -45,46 +45,50 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
   * [Biome Makeover](https://www.curseforge.com/minecraft/mc-mods/biome-makeover)
   * [BLAST 💣](https://www.curseforge.com/minecraft/mc-mods/blast)
   * [Bygone Nether](https://www.curseforge.com/minecraft/mc-mods/bygone-nether-fabric)
-  * [cAn i MiNe thIS bLOCk?](https://www.curseforge.com/minecraft/mc-mods/can-i-mine-this-block) (Featured in WTHIT itself)
-  * [CC:C Bridge](https://www.curseforge.com/minecraft/mc-mods/cccbridge) (Featured in Create itself)
-  * [Chalk (Fabric)](https://www.curseforge.com/minecraft/mc-mods/chalk-fabric)
+  * [cAn i MiNe thIS bLOCk?](https://www.curseforge.com/minecraft/mc-mods/can-i-mine-this-block)
+  * [CC:C Bridge](https://www.curseforge.com/minecraft/mc-mods/cccbridge)
+  * [Chalk](https://www.curseforge.com/minecraft/mc-mods/chalk-fabric)
   * [Chunk Loaders](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
-  * [Colorful Hearts](https://www.curseforge.com/minecraft/mc-mods/colorful-hearts) (Replaced by Mantle)
   * [Compost Bag](https://www.curseforge.com/minecraft/mc-mods/compost-bag)
   * [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
   * [Create Goggles (Create Plus)](https://www.curseforge.com/minecraft/mc-mods/create-goggles)
-  * [Create: Diesel Generators [Fabric]](https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators-fabric)
+  * [Create: Diesel Generators](https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators-fabric)
   * [CreateFabric&REIBugFix](https://www.curseforge.com/minecraft/mc-mods/createfabricreibugfix)
   * [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard)
-  * [Delightful Creators (Create and Farmer's Delight Addon)](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) (Replaced by Create: Food)
+  * [Delightful Creators (Create and Farmer's Delight Addon)](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric)
   * [Dusk](https://www.curseforge.com/minecraft/mc-mods/dusk)
   * [Dyed](https://www.curseforge.com/minecraft/mc-mods/dyed)
   * [Eldritch End](https://www.curseforge.com/minecraft/mc-mods/eldritch-end)
-  * [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling) (Feature in Embeddium)
+  * [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling)
+  * [Flat Bedrock](https://www.curseforge.com/minecraft/mc-mods/flat-bedrock)
+  * [Forge Config API Port](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric)
   * [Frog Legs](https://www.curseforge.com/minecraft/mc-mods/froglegs)
+  * [FuelInfo](https://www.curseforge.com/minecraft/mc-mods/fuel-info)
   * [Grass Overhaul (Sod)](https://www.curseforge.com/minecraft/mc-mods/grass-overhaul)
   * [Heartbond](https://www.curseforge.com/minecraft/mc-mods/heartbond)
-  * [Indium](https://www.curseforge.com/minecraft/mc-mods/indium) (Replaced by Embeddium)
-  * [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) (Replaced by Xaero's)
+  * [Indium](https://www.curseforge.com/minecraft/mc-mods/indium)
+  * [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
   * [Just Enough Effect Descriptions (JEED)](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed)
-  * [Marium's Soulslike Weaponry](https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry) 
-  * [MCPitanLib (Fabric/Forge)](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch)
+  * [Marium's Soulslike Weaponry](https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry)
+  * [MCPitanLib](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch)
   * [Mining Utility](https://www.curseforge.com/minecraft/mc-mods/mining-utility)
   * [Necronomicon API](https://www.curseforge.com/minecraft/mc-mods/necronomicon)
   * [Neruina - Ticking Entity Fixer](https://www.curseforge.com/minecraft/mc-mods/neruina)
   * [NiftyCarts](https://www.curseforge.com/minecraft/mc-mods/niftycarts)
   * [Noisium](https://www.curseforge.com/minecraft/mc-mods/noisium)
+  * [Prominent Create](https://www.curseforge.com/minecraft/mc-mods/prominent-create)
   * [Roots Classic](https://www.curseforge.com/minecraft/mc-mods/roots-classic-fabric)
   * [Savage Ender Dragon](https://www.curseforge.com/minecraft/mc-mods/savage-ender-dragon)
   * [Server Country Flags](https://www.curseforge.com/minecraft/mc-mods/server-country-flags)
   * [Sneak Through Berries](https://www.curseforge.com/minecraft/mc-mods/sneak-through-berries)
-  * [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (Replaced by Embeddium)
+  * [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
   * [Speedometer](https://www.curseforge.com/minecraft/mc-mods/speedometer)
   * [Subterrestrial](https://www.curseforge.com/minecraft/mc-mods/subterrestrial)
   * [Tidal Towns](https://www.curseforge.com/minecraft/mc-mods/tidal-towns)
   * [Underground Bunkers](https://www.curseforge.com/minecraft/mc-mods/underground-bunkers)
+  * [Villager Trading Station](https://www.curseforge.com/minecraft/mc-mods/villager-trading-station)
   * [Wireless Networks](https://www.curseforge.com/minecraft/mc-mods/wireless-networks)
-  * [Wormhole (Portals)](https://www.curseforge.com/minecraft/mc-mods/wormhole-portals) (Replaced by Custom Portals)
+  * [Wormhole (Portals)](https://www.curseforge.com/minecraft/mc-mods/wormhole-portals)
   * [You've Goat to be Kidding Me!](https://www.curseforge.com/minecraft/mc-mods/goated)
   * [Zephyr (Zenith - RPG Series compat)](https://www.curseforge.com/minecraft/mc-mods/zephyr)
 
@@ -106,6 +110,9 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 <img src="https://i.imgur.com/k22UBUN.png"/>
 
 * Economy System, player shops & improved villager trading **(AK)**
+<img src="https://i.imgur.com/DoY6DMV.png"/>
+<img src="https://i.imgur.com/a00CPoY.png"/>
+
 * Added the Farmer O' Worlds quest trophy upon completing the chapter **(AK)**
 * Buffed all BOMD bosses, health, armor & damage **(AK)**
 * Buffed the Corrupted Champion from Graveyard, health, armor & damage **(AK)**
@@ -116,10 +123,16 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Added colors to quest trophy quest names **(AK)**
 * Quest name improvements **(AK/SubordinalBlue)**
 * Getting Started quests are no longer hidden **(AK)**
+* Added chickens to overworld mobs datamodel **(AK)**
 * Animate Only Visible Textures feature has been turned off, enable in video settings if having FPS issues **(AK)**
 * Updated the built-in EU server IP **(AK)**
 * Additions to replicator blacklist **(AK)**
+* Allow zenith affixes to be applied to Quantum Sword **(AK)**
+* Improved log spam suppression **(AK)**
 * Performance improvements to RAM usage **(AK)**
+* Text color has been added to MI quests to make reading easier **(RainbowIris323)**
+* Added info about coins & the purge to Assistance Needed! quest **(Inno)**
+* Disabled Creative flight potions **(AK)**
 * Update the questing UI to a darker color scheme for quest backgrounds **(SubordinalBlue)**
 * Glowup of Getting Started quest chapter **(SubordinalBlue)**
 * Glowup of all trophy quests **(SubordinalBlue)**
@@ -174,7 +187,8 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 * Added a recipe for Nikolite Dust in TR Grinder **(AK)**
 * Added a recipe for Nikolite Dust through Create Crushing **(AK)**
 * Added Enriched Nikolite progression through MI & TR **(AK)**
-* Added MI gears progression through Tinkers casting **(AK)**
+* Added MI ores > raw ores recipes through Indrev Pulverizer **(AK)**
+* Allow ender pearls from Enderman Overhaul to be used in Eye of Ender recipe **(AK)**
 * Lowered power needed for the hyper nitro crystal, from 400M to 200M **(AK)**
 * Fixed Monazite Ore > Dust recipe through create crushing **(AK)**
 * Fixed recipes using Mixed Stone Ball as inputs **(AK)**
@@ -182,14 +196,16 @@ This update WILL break certain areas of your world, a world reset is HIGHLY reco
 
 ### Bug Fixes 🪲
 
-* Ad Astra planet ores not showing up in REI or recipes **(AK)**
-* Incorrect granting of Display Case advancement **(AK)**
-* Missing tasks for grapes quests **(elaniquilador01)**
-* Recipe conflicts making FOW quest chapter not completeable **(AK)**
-* Ironchests Barrels not being mineable **(AK)**
-* Spectrum progression issues due to how bedrock was placed **(AK)**
+* Fixed Ad Astra planet ores not showing up in REI or recipes **(AK)**
+* Fixed incorrect granting of Display Case advancement **(AK)**
+* Fixed missing tasks for grapes quests **(elaniquilador01)**
+* Fixed recipe conflicts making FOW quest chapter not completeable **(AK)**
+* Fixed resummoned dragons not dropping the egg **(AK)**
+* Fixed Ironchests Barrels not being mineable **(AK)**
+* Fixed Forager village missing loot tables **(AK)**
+* Fixed Spectrum progression issues due to how bedrock was placed **(AK)**
 * Fixed an issue where fluids in REI wouldnt be animated **(AK)**
-* Incorrect dank quests descriptions **(Slexom)**
+* Fixed incorrect dank quests descriptions **(Slexom)**
 ---
 
 ### All of Fabric 7 | v1.3.2
