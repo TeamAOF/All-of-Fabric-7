@@ -46,10 +46,11 @@
       "text": ""
     },
     "description": [
+      "<hr/>",
       "<task task=\"006B723E69E57816\" quest=\"Import Bus\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"3BF763104481DA3F\" quest=\"Import Bus\"/>"
+      "<reward reward=\"utilities_lootbag\" quest=\"Import Bus\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

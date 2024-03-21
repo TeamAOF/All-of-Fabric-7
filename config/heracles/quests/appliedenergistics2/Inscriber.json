@@ -46,12 +46,17 @@
       "translate": "Used to press items using various Inscriber Plates."
     },
     "description": [
-      "<h2>Used to press items using various Inscriber Plates.</h2>",
       "<hr/>",
+      "# &&eInscibers, Inscibe!",
+      "<br/>",
+      "  Used to press items using various /b/Inscriber Plates/b/. can also crush /b/skystone/b/ and crystals to dust!",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"2BDA459026191334\" quest=\"Inscriber\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"595FF2C171F73766\" quest=\"Inscriber\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Inscriber\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

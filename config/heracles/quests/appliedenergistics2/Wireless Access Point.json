@@ -46,17 +46,21 @@
       "translate": "Allows wireless access via a Wireless Terminal."
     },
     "description": [
-      "<h2>Allows wireless access via a Wireless Terminal.</h2>",
       "<hr/>",
+      "# &&eWireless Networking!",
+      "<br/>",
+      "  Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.",
+      "<br/>",
+      "  A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup.",
+      "<br/>",
+      "  Requires a channel to be operational.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"4E38E22FE7B37FE6\" quest=\"Wireless Access Point\"/>",
       "<hr/>",
-      "Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.",
-      "<br/>",
-      "A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup.",
-      "<br/>",
-      "Requires a channel to be operational.",
-      "<hr/>",
-      "<reward reward=\"040F18CE77CA8AB1\" quest=\"Wireless Access Point\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Wireless Access Point\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

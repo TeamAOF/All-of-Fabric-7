@@ -46,12 +46,17 @@
       "translate": "Read ME Pattern Provider quest for more info."
     },
     "description": [
-      "<h2>Read ME Pattern Provider quest for more info.</h2>",
       "<hr/>",
+      "# &&eMolecular Assembler",
+      "<br/>",
+      "Read ME Pattern Provider quest for more info.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"1E101186DD63E8A3\" quest=\"Molecular Assembler\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"178F2BFE35FEC675\" quest=\"Molecular Assembler\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Molecular Assembler\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

@@ -46,12 +46,18 @@
       "translate": "Used to increase the range of the ME Wireless Access Point."
     },
     "description": [
-      "<h2>Used to increase the range of the ME Wireless Access Point.</h2>",
       "<hr/>",
+      "# &&eToo Far Away...",
+      "<br/>",
+      "  Wireless Bosters are used to increase the range of the /b/ME Wireless Access Point/b/.",
+      "  It's worth noting that with a /b/Quantum Ring/b/ this is not a worry.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"6C0BA4228CC4B8B0\" quest=\"Wireless Booster\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5CDAAC778DF57F6F\" quest=\"Wireless Booster\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Wireless Booster\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

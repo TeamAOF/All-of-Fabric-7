@@ -46,15 +46,19 @@
       "translate": "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
     },
     "description": [
-      "<h2>Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.</h2>",
       "<hr/>",
+      "# &&eYou Can Do Better!",
+      "<br/>",
+      "  Lowest Tier Storage Cell, which can contain /6/1,024 bytes of storage/6/.",
+      "1,024 bytes of storage can hold /6/127 Stacks of a single item. or 65 Stacks,while holding 63 Different items/6/. The 1k Storage Cell uses 8 bytes of data to store a single type.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"3FDDED57431181C3\" quest=\"Item Storage Cell 1K\"/>",
       "<hr/>",
-      "1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items.",
-      "<br/>",
-      "The 1k Storage Cell uses 8 bytes of data to store a single type.",
-      "<hr/>",
-      "<reward reward=\"3862AF9AC3809275\" quest=\"Item Storage Cell 1K\"/>"
+      "## &&eRewards",
+      "<reward reward=\"utilities_lootbag\" quest=\"Item Storage Cell 1K\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

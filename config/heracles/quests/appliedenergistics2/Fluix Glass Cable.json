@@ -46,17 +46,23 @@
       "translate": "The simplest cable to make, transfers power."
     },
     "description": [
-      "<h2>The simplest cable to make, transfers power.</h2>",
       "<hr/>",
+      "# &&eFluix Glass Cables",
+      "<br/>",
+      "  The simplest cable to make, transfers power.",
+      "<br/>",
+      "  To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world.",
+      "<br/>",
+      "  You can craft any colored cable with a water bucket to remove the dye.",
+      "<br/>",
+      "  You can cover the cable with wool to create /b/Fluix ME Covered Cable/b/, and craft/b/ Fluix ME Smart Cable/b/ to get a better idea of what is going on with your Channels.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"1582C3D80B414E43\" quest=\"Fluix Glass Cable\"/>",
       "<hr/>",
-      "To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world.",
-      "<br/>",
-      "You can craft any colored cable with a water bucket to remove the dye.",
-      "<br/>",
-      "You can cover the cable with wool to create Fluix ME Covered Cable, and craft Fluix ME Smart Cable to get a better idea of what is going on with your Channels.",
-      "<hr/>",
-      "<reward reward=\"593C15EE90684F09\" quest=\"Fluix Glass Cable\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Fluix Glass Cable\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

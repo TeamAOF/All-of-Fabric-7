@@ -46,15 +46,21 @@
       "text": ""
     },
     "description": [
-      "<task task=\"58065B40437B33DA\" quest=\"Fluix Crystal\"/>",
       "<hr/>",
+      "# &&eFluix Crystals",
+      "<br/>",
       "To progress, you need to create &&bFluix Crystal&&r. You have two options:",
       "<br/>",
       "- Use the compass to find a &&6meteorite&&r, where you might find some &&bFluix Crystal&&r.",
       "<br/>",
       "- Throw &&bCharged Certus Quartz Crystal&&r, &&bNether Quartz&&r, and &&bRedstone Dust&&r into a pool of water and wait.",
       "<hr/>",
-      "<reward reward=\"58F4C75D516E78DA\" quest=\"Fluix Crystal\"/>"
+      "## &&eTasks:",
+      "<task task=\"58065B40437B33DA\" quest=\"Fluix Crystal\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Fluix Crystal\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

@@ -19,9 +19,13 @@
       "text": ""
     },
     "description": [
-      "<task task=\"35DEBD075D82821D\" quest=\"Storage and Transport\"/>",
       "<hr/>",
-      "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
+      "# &&eStorage and Transport",
+      "<br/>",
+      "  The main feature of /2/Applied Energistics 2/2/ is the /6/ME Network/6/ (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and /b/Fluix Cables/b/ grouped into a system, where storage, power and functions cooperate between multiple components.",
+      "---",
+      "<task task=\"35DEBD075D82821D\" quest=\"Storage and Transport\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

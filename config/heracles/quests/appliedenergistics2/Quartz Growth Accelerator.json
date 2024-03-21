@@ -46,13 +46,19 @@
       "translate": "Used to accelerate crystal growth."
     },
     "description": [
-      "<h2>Used to accelerate crystal growth.</h2>",
       "<hr/>",
-      "<task task=\"7AA503B6ABF481D7\" quest=\"Quartz Growth Accelerator\"/>",
+      "# &&eGrow Crystals Grow!",
+      "<br/>",
+      "  Used to accelerate crystal growth.",
+      "<br/>",
+      "  Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into building as many &&bCrystal Growth Accelerators&&r as you can.",
       "<hr/>",
-      "Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into building as many &&bCrystal Growth Accelerators&&r as you can.",
+      "## &&eTasks:",
+      "<task task=\"growth_accelerator\" quest=\"Quartz Growth Accelerator\"/>",
       "<hr/>",
-      "<reward reward=\"1EB59762D58C2812\" quest=\"Quartz Growth Accelerator\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Quartz Growth Accelerator\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

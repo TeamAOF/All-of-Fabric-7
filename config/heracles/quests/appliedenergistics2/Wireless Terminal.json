@@ -46,12 +46,16 @@
       "translate": "Links up the WAT to the network."
     },
     "description": [
-      "<h2>Links up the WAT to the network.</h2>",
       "<hr/>",
+      "# &&eLinks up the WAT to the network.",
+      "<hr/>",
+      "  Insert the /b/Wireless Access Terminal/b/ into the device and wait for it to move to the lower slot.",
+      "## &&eTasks:",
       "<task task=\"1CFC818DEC3E5B6C\" quest=\"Wireless Terminal\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"11FF7CC765FBADB7\" quest=\"Wireless Terminal\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Wireless Terminal\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {
