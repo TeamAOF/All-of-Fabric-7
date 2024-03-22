@@ -1,0 +1,11 @@
+{
+  // Amount of time that each background is displayed for
+  "secondsStay": 5.0,
+  // Amount of time it takes to fade between backgrounds
+  "secondsFade": 0.5,
+  // Background brightness, between 0.0 and 1.0
+  "brightness": 1.0,
+  // Level loading indicator position
+  // One of "CENTER", "BOTTOM_LEFT", "BOTTOM_RIGHT", "TOP_LEFT", or "TOP_RIGHT"
+  "position": "BOTTOM_RIGHT"
+}

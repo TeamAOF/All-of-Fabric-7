@@ -1,7 +1,5 @@
 logs/
 
-mods/
-
 crash-reports/
 
 saves/
@@ -21,6 +19,8 @@ servers.dat_old
 .mixin.out/
 
 .fabric/
+
+mods/
 
 slotlock.json
 

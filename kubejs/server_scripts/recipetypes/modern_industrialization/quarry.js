@@ -77,18 +77,6 @@ ServerEvents.recipes(event => {
         "amount": 1,
         "probability": 0.08
       }
-      /*
-      {
-        "item": "mysticalagriculture:inferium_ore",
-        "amount": 1,
-        "probability": 0.09
-      },
-      {
-        "item": "mysticalagriculture:prosperity_ore",
-        "amount": 1,
-        "probability": 0.09
-      }
-      */
     ]
   })
 
@@ -241,10 +229,10 @@ ServerEvents.recipes(event => {
         "probability": 0.1
       },
       {
-      "item": "modern_industrialization:lignite_coal_ore",
-      "amount": 1,
-      "probability": 0.24
-    }
+        "item": "modern_industrialization:lignite_coal_ore",
+        "amount": 1,
+        "probability": 0.24
+      }
     ]
   })
 

@@ -21,5 +21,6 @@
   "cookingforblockheads:wthit": true,
   "zenith:ench": true,
   "zenith:spawner": true,
-  "zenith:adventure": true
+  "zenith:adventure": true,
+  "megane:alloy-forgery": true
 }

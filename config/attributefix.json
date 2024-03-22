@@ -583,6 +583,17 @@
         "value": 1
       }
     },
+    "mythicmetals:fire_vulnerability": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "additionalentityattributes:generic.jump_height": {
       "enabled": false,
       "min": {
@@ -834,6 +845,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "mythicmetals:elytra_rocket_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "dml-refabricated:fire_immunity": {

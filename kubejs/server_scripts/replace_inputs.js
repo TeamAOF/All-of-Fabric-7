@@ -1,8 +1,9 @@
 ServerEvents.recipes(event => {
 
-    
+    // Knives
     event.replaceInput({}, 'croptopia:knife', '#c:knives');
 
+    // Eggs
     event.replaceInput({}, 'minecraft:egg', '#c:eggs')
 
     // Chests
