@@ -3,11 +3,10 @@
     "Handy Dandy Utilities"
   ],
   "tasks": {
-    "261D286BDF009198": {
+    "slime_boots": {
       "type": "heracles:item",
-      "item": "tconstruct:slime_boots",
+      "item": "kibe:slime_boots",
       "nbt": {
-        "tic_broken": 0,
         "Damage": 0
       },
       "amount": 1,
@@ -63,36 +62,10 @@
     },
     "icon": {
       "item": {
-        "id": "tconstruct:slime_boots",
+        "id": "kibe:slime_boots",
         "count": 1,
         "nbt": {
-          "tic_stats": {
-            "tconstruct:durability": 546.0,
-            "tconstruct:armor": 0.0
-          },
-          "tic_broken": 0,
-          "tic_modifiers": [
-            {
-              "level": 1,
-              "name": "tconstruct:overslime_friend"
-            },
-            {
-              "level": 1,
-              "name": "tconstruct:bouncy"
-            },
-            {
-              "level": 1,
-              "name": "tconstruct:leaping"
-            }
-          ],
-          "Damage": 0,
-          "tic_volatile_data": {
-            "tconstruct:overslime_friend": 1
-          },
-          "tic_persistent_data": {
-            "abilities": 1,
-            "upgrades": 5
-          }
+          "Damage": 0
         }
       },
       "type": "heracles:item"
