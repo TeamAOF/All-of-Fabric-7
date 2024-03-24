@@ -1,43 +1,54 @@
 {
-  "settings": {},
   "dependencies": [
     "Wither Machine"
   ],
   "tasks": {
     "5F64773A4D914C46": {
       "type": "heracles:item",
-      "item": "kibe:wither_proof_block"
+      "item": "kibe:wither_proof_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "0FA2F773EB28398D": {
-      "type": "heracles:item",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Wither-proof Block",
+    "subtitle": {
+      "text": "Cannot be destroyed by the wither boss."
+    },
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:wither_proof_block"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Cannot be destroyed by the wither boss."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +56,24 @@
           -224
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:wither_proof_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Wither-proof Block"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

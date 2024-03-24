@@ -690,31 +690,7 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "dankstorage:dock",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
-          },
-
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "dankstorage:1_to_2",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
-          },
-
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "dankstorage:2_to_3",
+            "name": "bankstorage:bank_dock",
             "functions": [
               {
                 "function": "set_count",
@@ -727,6 +703,18 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "mi_sound_addon:mallet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "numismatic-overhaul:piggy_bank",
             "functions": [
               {
                 "function": "set_count",

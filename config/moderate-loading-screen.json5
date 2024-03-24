@@ -1,0 +1,17 @@
+{
+	"backgroundColor": "#FF161616",
+	"logoOpacity": 100,
+	"barOpacity": 100,
+	"showTater": true,
+	"modsOnlyOnce": false,
+	"hideLibraries": false,
+	"modIdBlacklist": [
+		"fabric-*",
+		"fabric"
+	],
+	"iconSize": 48,
+	"screenType": "SNOWFLAKES",
+	"stackingConfig": {
+		"cycleSeconds": 20
+	}
+}

@@ -43,7 +43,7 @@
   },
   "display": {
     "subtitle": {
-      "text": "Cannot be destroyed by the wither boss."
+      "translate": "Cannot be destroyed by the wither boss."
     },
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
