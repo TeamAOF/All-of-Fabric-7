@@ -22,9 +22,6 @@
     "100B2DCB7CD6C455": {
       "type": "heracles:item",
       "item": "create:filter",
-      "nbt": {
-        "Items": {}
-      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
