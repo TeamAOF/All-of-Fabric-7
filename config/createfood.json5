@@ -648,5 +648,25 @@
 	// Enable Raw Sweet Berry Cookie.
 	"isRawSweetBerryCookieEnabled": true,
 	// Enable Sliced Tomato.
-	"isSlicedTomatoEnabled": true
+	"isSlicedTomatoEnabled": true,
+	// Enable Beef Bun (Peanut Butter).
+	"isBeefBunPeanutButterEnabled": true,
+	// Enable Beef Bun (Peanut Butter, Bacon).
+	"isBeefBunPeanutButterBaconEnabled": true,
+	// Enable Hamburger (Peanut Butter, Bacon).
+	"isHamburgerPeanutButterBaconEnabled": true,
+	// Enable Cinnamon Sweet Roll Base.
+	"isCinnamonSweetRollBaseEnabled": true,
+	// Enable Paprika.
+	"isPaprikaEnabled": true,
+	// Enable Raw Cinnamon Sweet Roll Base.
+	"isRawCinnamonSweetRollBaseEnabled": true,
+	// Enable Raw Snickerdoodle.
+	"isRawSnickerdoodleEnabled": true,
+	// Enable Raw Sugar Cookie.
+	"isRawSugarCookieEnabled": true,
+	// Enable Spicy Breakfast Sausages.
+	"isSpicyBreakfastSausagesEnabled": true,
+	// Enable Spicy Chicken Nuggets.
+	"isSpicyChickenNuggetsEnabled": true
 }

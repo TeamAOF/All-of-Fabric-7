@@ -44,6 +44,10 @@
       "spill_items": true,
       "fill_entities_below": false
     },
+    "crystal_display": {
+      "enabled": true,
+      "chaining": true
+    },
     "wind_vane": true,
     "clock_block": true,
     "redstone_illuminator": true,
@@ -52,7 +56,6 @@
     "gold_door": true,
     "gold_trapdoor": true,
     "lock_block": true,
-    "crystal_display": true,
     "relayer": true
   },
   "functional": {

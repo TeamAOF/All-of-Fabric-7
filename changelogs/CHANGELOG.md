@@ -1,3 +1,31 @@
+### All of Fabric 7 | v2.0.1
+
+_Fabric Loader 0.15.7_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.0.1.md)_
+
+### Added Mods ✅
+
+* [FindMe](https://www.curseforge.com/minecraft/mc-mods/findme)
+
+### Changes/Improvements ⭐
+
+* Allow items to be used with pressure plates in claims **(Trent)**
+* Indrev Rancher & Modular Workbench has both been disabled for now due to server crashes, waiting for a fix **(AK)**
+* Added c:budding_blocks tag to Mythic Upgrades budding blocks **(AK)**
+* Quest title improvements **(SubordinalBlue)**
+
+### Recipes 🪵
+
+* Added a recipe for Core of Modularity through Energizing, a more safe option compared to Lasers **(AK)**
+
+### Bug Fixes 🪲
+
+* Fixed incorrect entries of slime sling/boots in Utilities quest line **(AK)**
+* Fixed an issue where coins would duplicate on death **(AK)**
+* Fixed Shatterer of Worlds quest entry not reading NBT of amount of mana needed **(SubordinalBlue)**
+* Fixed crash when applying zenith gems to armor **(TheWinABagel)**
+* Fixed missing active overlay for Steam Turbine **(AK)**
+---
+
 ### All of Fabric 7 | v2.0.0
 
 _Fabric Loader 0.15.7_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.0.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.0.0.md)_

@@ -1,0 +1,98 @@
+{
+  "dataModel": {
+    "basicDataRequired": 8,
+    "advancedDataRequired": 16,
+    "superiorDataRequired": 32,
+    "selfAwareDataRequired": 64,
+    "hasSimulatedDataRestrictions": false,
+    "dataCollection": {
+      "dataGainPerKill": 1,
+      "glitchSwordDataGainPerKill": 2
+    }
+  },
+  "trial": {
+    "systemGlitch": {
+      "teleportChance": 0.05,
+      "teleportMinDistance": 5,
+      "teleportDelay": 100,
+      "teleportAroundPlayerRadius": 2,
+      "damageLimiter": 20.0
+    },
+    "maxMobsInArena": 8,
+    "arenaRadius": 12,
+    "warmupTime": 60,
+    "maxTime": 24000,
+    "allowStartInWrongTerrain": false,
+    "allowPlayersLeavingArena": false,
+    "allowMobsLeavingArena": false,
+    "buildGriefPrevention": true,
+    "interactGriefPrevention": true,
+    "explosionGriefPrevention": true,
+    "trialKeyConsume": true,
+    "trialKeyReturnIfSucceed": true,
+    "faultyGlitchUpgradeOdds": 0.0,
+    "basicGlitchUpgradeOdds": 0.0,
+    "advancedGlitchUpgradeOdds": 0.15,
+    "superiorGlitchUpgradeOdds": 0.65,
+    "selfAwareGlitchUpgradeOdds": 1.0,
+    "affixes": {
+      "maxAffixesInKey": 3,
+      "enableMobStrength": true,
+      "enableMobSpeed": true,
+      "enableMobResistance": true,
+      "enableThunderstorm": true,
+      "enablePartyPoison": true,
+      "thunderstormBoltChance": 0.05,
+      "partyPoisonChance": 0.005
+    }
+  },
+  "machines": {
+    "dataSynthesizer": {
+      "overworldDataEnergyValue": 400,
+      "zombieDataEnergyValue": 1200,
+      "skeletonDataEnergyValue": 320,
+      "slimyDataEnergyValue": 640,
+      "illagerDataEnergyValue": 1648,
+      "oceanDataEnergyValue": 640,
+      "ghostDataEnergyValue": 1488,
+      "netherDataEnergyValue": 1200,
+      "endDataEnergyValue": 2048,
+      "energyCapacity": 200000,
+      "energyIO": 10000
+    },
+    "lootFabricator": {
+      "overworldExchangeRatio": 16,
+      "zombieExchangeRatio": 16,
+      "skeletonExchangeRatio": 16,
+      "slimyExchangeRatio": 16,
+      "illagerExchangeRatio": 13,
+      "oceanExchangeRatio": 16,
+      "ghostExchangeRatio": 16,
+      "netherExchangeRatio": 10,
+      "endExchangeRatio": 14,
+      "unstackableNullificationChance": 0.75,
+      "processTime": 200,
+      "isEnergyCostScaledToMatterType": false,
+      "fixedCost": 75,
+      "energyCostMultiplier": 0.125,
+      "energyCapacity": 16500,
+      "energyInput": 8192
+    }
+  },
+  "misc": {
+    "glitchSword": {
+      "energyCapacity": 101550,
+      "energyInput": 5000,
+      "usageCost": 50
+    },
+    "energyOctahedron": {
+      "energyCapacity": 50000,
+      "energyIO": 5000
+    },
+    "disruption": {
+      "maxDataModelData": 14,
+      "maxPristineMatterStackSize": 3,
+      "maxEnergyOctahedronEnergyPercentage": 0.65
+    }
+  }
+}
