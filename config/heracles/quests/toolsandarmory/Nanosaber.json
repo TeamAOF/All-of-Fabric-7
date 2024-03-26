@@ -6,9 +6,6 @@
     "27F4E72D06FE60DD": {
       "type": "heracles:item",
       "item": "techreborn:nanosaber",
-      "nbt": {
-        "isActive": 0
-      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
