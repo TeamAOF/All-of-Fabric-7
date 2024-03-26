@@ -63,6 +63,11 @@ const DELETED_ITEMS = [
     'onlyhammers:obsidian_hammer',
     'onlyhammers:redstone_hammer',
     'onlyhammers:lapis_hammer',
+    'indrev:modular_workbench_mk4',
+    'indrev:rancher_mk1',
+    'indrev:rancher_mk2',
+    'indrev:rancher_mk3',
+    'indrev:rancher_mk4'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
