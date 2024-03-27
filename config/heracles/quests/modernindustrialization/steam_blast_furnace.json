@@ -5,7 +5,7 @@
     "bronze_water_pump"
   ],
   "tasks": {
-    "steam_blast_furance_task_4": {
+    "steam_blast_furnace_task_4": {
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_item_input_hatch",
       "amount": 1,
@@ -19,7 +19,7 @@
         "type": "heracles:item"
       }
     },
-    "steam_blast_furance_task_3": {
+    "steam_blast_furnace_task_3": {
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_fluid_input_hatch",
       "amount": 1,
@@ -33,7 +33,7 @@
         "type": "heracles:item"
       }
     },
-    "steam_blast_furance_task_5": {
+    "steam_blast_furnace_task_5": {
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_item_output_hatch",
       "amount": 1,
@@ -47,7 +47,7 @@
         "type": "heracles:item"
       }
     },
-    "steam_blast_furance_task_2": {
+    "steam_blast_furnace_task_2": {
       "type": "heracles:item",
       "item": "modern_industrialization:steam_blast_furnace",
       "amount": 1,
@@ -61,7 +61,7 @@
         "type": "heracles:item"
       }
     },
-    "steam_blast_furance_task_1": {
+    "steam_blast_furnace_task_1": {
       "type": "heracles:item",
       "item": "modern_industrialization:fire_clay_bricks",
       "amount": 29,
@@ -131,7 +131,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Steam Blast Furance"
+      "translate": "Steam Blast Furnace"
     }
   },
   "settings": {

@@ -74,7 +74,6 @@ ServerEvents.tags('block', event => {
     'spectrum:budding_citrine',
     'spectrum:budding_onyx',
     'spectrum:budding_moonstone',
-    'biomemakeover:budding_illunite',
     'geode_plus:budding_pink_topaz',
     'geode_plus:budding_celestite',
     'geode_plus:budding_prismarine',
@@ -108,7 +107,13 @@ ServerEvents.tags('block', event => {
     'ae2:flawless_budding_quartz',
     'ae2:flawed_budding_quartz',
     'ae2:chipped_budding_quartz',
-    'ae2:damaged_budding_quartz'
+    'ae2:damaged_budding_quartz',
+    'mythicupgrades:budding_jade_crystal',
+    'mythicupgrades:budding_topaz_crystal',
+    'mythicupgrades:budding_aquamarine_crystal',
+    'mythicupgrades:budding_sapphire_crystal',
+    'mythicupgrades:budding_ruby_crystal',
+    'mythicupgrades:budding_ametrine_crystal'
   ];
 
   budding_blocks.forEach((block) => {

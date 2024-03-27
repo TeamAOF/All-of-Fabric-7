@@ -279,6 +279,7 @@ ServerEvents.tags('item', event => {
         'frightsdelight:punchbowl_ghasttear',
         'farmersdelight:hamburger',
         'croptopia:pineapple_pepperoni_pizza',
+        'spectrum:fishcake',
         'nethervinery:crimson_nether_bag',
         'nethervinery:warped_nether_bag',
         'bosses_of_mass_destruction:soul_star',

@@ -3,6 +3,7 @@
   "general": {
     "merge_dynamic_packs": true,
     "lazy_map_upload": true,
-    "maps_mipmap": 3
+    "maps_mipmap": 3,
+    "fix_entity_renderer_shade": true
   }
 }

@@ -1,0 +1,15 @@
+{
+  "simulationChamber": {
+    "basicTierPristineChance": 5,
+    "advancedTierPristineChance": 11,
+    "superiorTierPristineChance": 24,
+    "selfAwareTierPristineChance": 42,
+    "energyCostMultiplier": 0.25,
+    "dataBonus": 1
+  },
+  "matterXP": {
+    "overworldMatterXP": 10,
+    "hellishMatterXP": 14,
+    "extraterrestrialMatterXP": 20
+  }
+}

@@ -75,4 +75,18 @@ ServerEvents.recipes(event => {
       "count": 2
     }
   })
+
+  // Modular Core
+  event.custom({
+    "type": "powah:energizing",
+    "id": "aof:powah/modular_core",
+    "ingredients": [
+      { "item": 'indrev:modular_core' }
+    ],
+    "energy": "200000000",
+    "result": {
+      "item": 'indrev:modular_core_activated',
+      "count": 1
+    }
+  })
 })

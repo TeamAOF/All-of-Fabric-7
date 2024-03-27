@@ -190,7 +190,8 @@
       "enabled": false,
       "rebindable": false,
       "receiveOnRespawn": false,
-      "clickFunction": "VIEW_CONTENTS"
+      "clickFunction": "VIEW_CONTENTS",
+      "consumeOnUse": false
     },
     "graveCompass": {
       "receiveOnRespawn": false,

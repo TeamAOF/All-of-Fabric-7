@@ -35,8 +35,8 @@
         "nbt": {
           "Type": "UNCOMMON",
           "Color": 16747259,
-          "Loot": "aof:loot_bags/misc/logistics",
-          "Name": "Logistics & Storage Lootbag"
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
         }
       },
       "type": "heracles:item"

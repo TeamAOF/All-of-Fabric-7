@@ -26,11 +26,11 @@ $MODPACK_NAME = "All of Fabric 7"
 $CLIENT_NAME = "All of Fabric 7"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "2.0.0"
+$MODPACK_VERSION = "2.0.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.3.2"
+$LAST_MODPACK_VERSION = "2.0.0"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -194,4 +194,4 @@ $SERVER_FILE_DISPLAY_NAME = "All of Fabric 7 Server - $MODPACK_VERSION"
 $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
-$FILES_TO_INCLUDE_IN_MODS_FOLDER = @("mods/indrez-1.16.5-BETA-Hotfix.jar", "mods/besmirchment-1.20.1-3.jar", "mods/create-fabric-0.5.1-f-build.1354+mc1.20.1.jar")
+$FILES_TO_INCLUDE_IN_MODS_FOLDER = @("mods/indrev-1.16.5-BETA-Hotfix.jar", "mods/create-fabric-0.5.1-f-build.1366+mc1.20.1.jar")

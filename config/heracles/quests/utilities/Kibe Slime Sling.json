@@ -3,12 +3,9 @@
     "Handy Dandy Utilities"
   ],
   "tasks": {
-    "50862BAF848E8B2B": {
+    "slime_sling": {
       "type": "heracles:item",
-      "item": "tconstruct:earth_slime_sling",
-      "nbt": {
-        "Damage": 0
-      },
+      "item": "kibe:slime_sling",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
@@ -62,11 +59,8 @@
     },
     "icon": {
       "item": {
-        "id": "tconstruct:earth_slime_sling",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "kibe:slime_sling",
+        "count": 1
       },
       "type": "heracles:item"
     },

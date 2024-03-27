@@ -1,0 +1,49 @@
+{
+  "machines": {
+    "matterCondenser": {
+      "normalToPristineEnergyMultiplier": 8,
+      "energyCapacity": 262144,
+      "energyIO": 8192
+    }
+  },
+  "glitchArmor": {
+    "energyCapacityMultiplier": 125000,
+    "energyIOMultiplier": 625,
+    "allowEnergyOutput": false,
+    "soulVisionRangeMultiplier": 6,
+    "undyingCooldownTime": 36000,
+    "costs": {
+      "fireProtection": 16,
+      "piglinTruce": 8,
+      "autoExtinguish": 25,
+      "featherFalling": 15,
+      "fireImmunity": 32,
+      "jumpBoost": 10,
+      "plenty": 8,
+      "rotResistance": 5,
+      "unrottenFlesh": 20,
+      "zombieFriendly": 5,
+      "archery": 0,
+      "skeletonFriendly": 7,
+      "fallImmunity": 30,
+      "endermenProofVision": 10,
+      "shulkerFriendly": 10,
+      "teleports": 25,
+      "soulVision": 16,
+      "nightVision": 8,
+      "fly": 20,
+      "underwaterHaste": 2,
+      "depthStrider": 4,
+      "waterBreathing": 8,
+      "poseidonBless": 10,
+      "resistance": 20,
+      "undying": 1000
+    }
+  },
+  "misc": {
+    "pristineEnergyCube": {
+      "energyCapacity": 250000,
+      "energyIO": 25000
+    }
+  }
+}

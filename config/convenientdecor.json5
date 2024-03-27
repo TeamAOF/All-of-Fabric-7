@@ -1,0 +1,21 @@
+{
+  //Turn individual functionalities on or off.
+  "features": {
+    // Right-clicking a farmland block with a watering can will permanently hydrate it.
+    //
+    // -- WARNING --
+    // This MUST be set the same on both the client and server, and changing it requires a full restart to take effect!
+    // Contact your server administrator if you are unsure, and preferably leave this as it was provided by default.
+    "wateringCanPermanentFarmland": true,
+    // Umbrella attracts lightning in the thunderstorm
+    "umbrellaAttractsLightning": true,
+    // Umbrella slows down the player's falling speed and reduces fall damage.
+    "umbrellaSlowsDownFalling": true,
+    // Rain clothes grant additional hearts in the rain and thunderstorm.
+    "rainclothesIncreasedHp": true,
+    // The umbrella protects players from rain and sunlight when used with the Origins mod.
+    "umbrellaOriginsIntegration": true,
+    // Rainhats and Raincoats (with the hood activated) protect players from rain when used with the Origins mod
+    "rainclothesOriginsIntegration": true
+  }
+}

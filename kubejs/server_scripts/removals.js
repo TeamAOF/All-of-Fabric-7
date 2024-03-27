@@ -180,8 +180,11 @@ ServerEvents.recipes((event) => {
         'onlyhammers:obsidian_hammer',
         'onlyhammers:lapis_hammer',
         'onlyhammers:redstone_hammer',
-        'kibe:slime_boots',
-        'kibe:slime_sling'
+        'indrev:modular_workbench_mk4',
+        'indrev:rancher_mk1',
+        'indrev:rancher_mk2',
+        'indrev:rancher_mk3',
+        'indrev:rancher_mk4'
     ];
 
     id.forEach((id) => {
