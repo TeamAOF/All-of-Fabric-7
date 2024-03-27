@@ -5,7 +5,7 @@
   "tasks": {
     "1": {
       "type": "heracles:item",
-      "item": "botania:magnet_ring",
+      "item": "botania:mining_ring",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
