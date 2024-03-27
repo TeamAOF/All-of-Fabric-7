@@ -1,4 +1,8 @@
 {
+	// So Void Shadow is not once-per-world
+	"allow_boss_respawn": true,
+	// Ya got five minutes get collect your loot and bale
+	"boss_respawn_time": 6000,
 	"necromancer_spawn_weight": 1,
 	"nightmare_spawn_weight": 5,
 	// Chance for spawning when mining gold ore in nether; 1/Value
