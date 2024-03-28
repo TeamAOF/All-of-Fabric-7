@@ -8,11 +8,11 @@
       "type": "heracles:item",
       "item": "spectrum:infused_beverage",
       "nbt": {
-        "Variant": "myceylon_liqour"
+        "Variant": "myceylon_liquor"
       },
       "amount": 8,
       "collection": "AUTOMATIC",
-      "title": "Myceylon Liqour",
+      "title": "Myceylon Liquor",
       "icon": {
         "item": {
           "id": "minecraft:air",
