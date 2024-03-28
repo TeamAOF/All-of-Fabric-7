@@ -46,15 +46,18 @@
       "translate": "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
     },
     "description": [
-      "<h2>Low Tier Storage Cell, which can contain 4,096 bytes of storage.</h2>",
       "<hr/>",
+      "# &&eBetter But Not The Best!",
+      "<br/>",
+      "  Low Tier Storage Cell, which can contain /6/4,096 bytes of storage/6/.",
+      "4,096 bytes of storage can hold /6/508 Stacks of a single item. or 260 Stacks,while holding 63 Different items/6/. The 4k Storage Cell uses 32 bytes of data to store a single type.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"2E155470D8151510\" quest=\"Item Storage Cell 4K\"/>",
       "<hr/>",
-      "4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks,while holding 63 Different items.",
-      "<br/>",
-      "The 4k Storage Cell uses 32 bytes of data to store a single type.",
-      "<hr/>",
-      "<reward reward=\"7871D12FA7E70681\" quest=\"Item Storage Cell 4K\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Item Storage Cell 4K\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

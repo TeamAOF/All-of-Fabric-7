@@ -46,12 +46,18 @@
       "translate": "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
     },
     "description": [
-      "<h2>Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage.</h2>",
       "<hr/>",
+      "## &&eCrafting Terminal",
+      "<br/>",
+      "  Upgraded version of the /b/ME Terminal/b/ which has an integrated crafting grid with access to a ME Network's Networked Storage.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"0FCC6C4E3FB97D07\" quest=\"Crafting Terminal\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"75CE478D2B8FB8D3\" quest=\"Crafting Terminal\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Crafting Terminal\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

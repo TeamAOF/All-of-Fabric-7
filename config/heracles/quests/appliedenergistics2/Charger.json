@@ -46,15 +46,20 @@
       "translate": "Provides a way to charge supported tools through the ME Network."
     },
     "description": [
-      "<h2>Provides a way to charge supported tools through the ME Network.</h2>",
       "<hr/>",
+      "# &&eCharge Away!",
+      "<br/>",
+      "  Provides a way to charge supported tools through the ME Network.",
+      "Build a /b/Charger/b/, and power it with a /b/Vibration Chamber/b/ or a generators from others mods.",
+      "<br/>",
+      "  You can also power it by hand using a /b/Wooden Crank/b/.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"283357E45102D87C\" quest=\"Charger\"/>",
       "<hr/>",
-      "Build a &&bCharger&&r, and power it with a &&bVibration Chamber&&r or a generators from others mods.",
-      "<br/>",
-      "You can also power it by hand using a &&bWooden Crank&&r.",
-      "<hr/>",
-      "<reward reward=\"1B79CC50243E5337\" quest=\"Charger\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Charger\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

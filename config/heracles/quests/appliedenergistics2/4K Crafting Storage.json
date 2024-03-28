@@ -46,12 +46,17 @@
       "translate": "Provides 4,096 bytes of storage for crafting."
     },
     "description": [
-      "<h2>Provides 4,096 bytes of storage for crafting.</h2>",
       "<hr/>",
+      "# &&eCrafting Storage 4K",
+      "<br/>",
+      "Provides /6/4,096 bytes/6/ of storage for crafting.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"640B719C25B50B4B\" quest=\"4K Crafting Storage\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"13598BC5905E2209\" quest=\"4K Crafting Storage\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"4K Crafting Storage\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

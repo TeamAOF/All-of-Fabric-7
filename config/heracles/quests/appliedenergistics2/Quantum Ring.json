@@ -46,13 +46,20 @@
       "translate": "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
     },
     "description": [
-      "<h2>Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge.</h2>",
       "<hr/>",
+      "# &&eThe Final Step",
+      "<br/>",
+      "  Eight of these blocks placed around a /b/ME Quantum Link Chamber/b/ will create a /6/Quantum Network Bridge/6/.",
+      "<br/>",
+      "  Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, /6/the 4 corner blocks cannot connect to cables/6/.",
+      "<br/>",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"422C32A11B9803B4\" quest=\"Quantum Ring\"/>",
       "<hr/>",
-      "Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables.",
-      "<hr/>",
-      "<reward reward=\"63263DBFF0651EE0\" quest=\"Quantum Ring\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Quantum Ring\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

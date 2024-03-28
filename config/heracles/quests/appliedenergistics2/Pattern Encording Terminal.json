@@ -47,19 +47,23 @@
       "translate": "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
     },
     "description": [
-      "<h2>A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern.</h2>",
       "<hr/>",
+      "## &&ePatterns For Dayz!",
+      "<br/>",
+      "  A specialized version of the /b/ME Crafting Terminal/b/ designed to encode /b/Blank Patterns/b/ into a /b/Crafting Pattern/b/ or /b/Processing Pattern/b/. It also Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns.",
+      "<br/>",
+      "  There are two modes for pattern encoding. /b/Crafting Patterns/b/, and /b/Processing Patterns/b/.",
+      "<br/>",
+      "  /b/Processing patterns/b/ are designed for use with /6/machines that do not use standard crafting recipes/6/; such as furnaces, or other machines. ",
+      "<br/>",
+      "  To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create /b/Crafting Patterns/b/, and when it shows a furnace, it will create /b/Processing Patterns/b/.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"2A1935843BEBBF9F\" quest=\"Pattern Encording Terminal\"/>",
       "<hr/>",
-      "Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns.",
-      "<br/>",
-      "There are two modes for pattern encoding. Crafting Patterns, and Processing Patterns.",
-      "<br/>",
-      "Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. ",
-      "<br/>",
-      "To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns.",
-      "<hr/>",
-      "<reward reward=\"7C6A62A9D5588C0E\" quest=\"Pattern Encording Terminal\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Pattern Encording Terminal\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

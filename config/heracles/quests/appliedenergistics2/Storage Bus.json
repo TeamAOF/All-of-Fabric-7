@@ -46,10 +46,11 @@
       "text": ""
     },
     "description": [
+      "<hr/>",
       "<task task=\"6DD06942CEC418CB\" quest=\"Storage Bus\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"5DAFFE8DA3C58AF6\" quest=\"Storage Bus\"/>"
+      "<reward reward=\"utilities_lootbag\" quest=\"Storage Bus\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

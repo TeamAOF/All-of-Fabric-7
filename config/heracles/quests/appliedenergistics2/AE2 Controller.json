@@ -46,12 +46,17 @@
       "translate": "A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network."
     },
     "description": [
-      "<h2>A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network.</h2>",
       "<hr/>",
+      "# &&eME Controller",
+      "<br/>",
+      "  The /b/ME Controller/b/ is the heart of the ME network allowing to not only accept power from any mod but also store a small ammount of it. It also has a interface to see what is consuming power the total power stored in the network and drain/charge rates. Ever have a power bottleneck this is the place to go!",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"6CB5F66C1E628B0E\" quest=\"AE2 Controller\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1A3D29A06813FDB2\" quest=\"AE2 Controller\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"AE2 Controller\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

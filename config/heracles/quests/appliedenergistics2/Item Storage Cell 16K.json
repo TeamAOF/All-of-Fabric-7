@@ -46,15 +46,19 @@
       "translate": "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
     },
     "description": [
-      "<h2>Middle Tier Storage Cell, which can contain 16,384 bytes of storage.</h2>",
       "<hr/>",
+      "## &&eAcceptable, BUT NOT THE BEST!",
+      "<br/>",
+      "Middle Tier Storage Cell, which can contain /6/16,384 bytes of storage/6/.",
+      "16,384 bytes of storage can hold /6/2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items/6/. The 16k Storage Cell uses 128 bytes of data to store a single type.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"0950907AA16E55FA\" quest=\"Item Storage Cell 16K\"/>",
       "<hr/>",
-      "16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items.",
-      "<br/>",
-      "The 16k Storage Cell uses 128 bytes of data to store a single type.",
-      "<hr/>",
-      "<reward reward=\"5D2F3FC017AB8F28\" quest=\"Item Storage Cell 16K\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Item Storage Cell 16K\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

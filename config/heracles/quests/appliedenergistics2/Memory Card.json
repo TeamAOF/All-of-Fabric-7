@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "dyes": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:red_dye",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "utilities_lootbag": {
       "title": "",
       "icon": {
@@ -46,10 +61,18 @@
       "text": ""
     },
     "description": [
+      "<hr/>",
+      "# &&eMemory Cards",
+      "<br/>",
+      "  As stated before /b/Memory Cards/b/ are used to configure /b/ME P2P Tunnels/b/ and come in different colors so you can configure multiple at time. Better get on those mega-factories!",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"07906B740B4ADB80\" quest=\"Memory Card\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"01D6378FA78301D9\" quest=\"Memory Card\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Memory Card\"/>",
+      "<reward reward=\"dyes\" quest=\"Memory Card\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

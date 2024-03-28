@@ -46,15 +46,19 @@
       "translate": "Highest Tier Storage Cell, which can contain 65,536 bytes of storage."
     },
     "description": [
-      "<h2>Highest Tier Storage Cell, which can contain 65,536 bytes of storage.</h2>",
       "<hr/>",
+      "## &&eThe Best! Or Is It?",
+      "<br/>",
+      "  Highest Tier Storage Cell, which can contain /6/65,536 bytes of storage/6/.",
+      "65,536 bytes of storage can hold /6/8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items/6/. The 64k Storage Cell uses 512 bytes of data to store a single type.",
+      "/4/This is truly the best... unless... theres something more /d/mega/d/-uber-elite out there./4/",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"7FAF15C54C21DDF8\" quest=\"Item Storage Cell 64K\"/>",
       "<hr/>",
-      "65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items.",
-      "<br/>",
-      "The 64k Storage Cell uses 512 bytes of data to store a single type.",
-      "<hr/>",
-      "<reward reward=\"1A6F41E491B21E42\" quest=\"Item Storage Cell 64K\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Item Storage Cell 64K\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {
