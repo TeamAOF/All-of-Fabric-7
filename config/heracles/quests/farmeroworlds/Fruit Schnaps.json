@@ -74,7 +74,7 @@
         "id": "spectrum:infused_beverage",
         "count": 4,
         "nbt": {
-          "Variant": "fruit_shnaps",
+          "Variant": "fruit_shnapps",
           "Thickness": 1,
           "AgeDays": 216,
           "CustomPotionEffects": [
