@@ -25,7 +25,10 @@
       },
       "item": {
         "id": "patchouli:guide_book",
-        "count": 1
+        "count": 1,
+        "nbt": {
+          "patchouli:book": "ad_astra:astrodux"
+        }
       },
       "type": "heracles:item"
     }
