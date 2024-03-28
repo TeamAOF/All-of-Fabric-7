@@ -43,10 +43,7 @@
       },
       "item": {
         "id": "powah:wrench",
-        "count": 1,
-        "nbt": {
-          "PowahWrenchNBT": {}
-        }
+        "count": 1
       },
       "type": "heracles:item"
     },
