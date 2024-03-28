@@ -32,7 +32,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "delightfulcreators:apple_cider_bucket",
+        "id": "farmersdelight:apple_cider",
         "count": 2
       },
       "type": "heracles:item"
