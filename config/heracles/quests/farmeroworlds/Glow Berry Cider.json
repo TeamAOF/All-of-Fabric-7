@@ -47,8 +47,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "delightfulcreators:glow_berry_custard_bucket",
-        "count": 1
+        "id": "farmersdelight:glow_berry_custard",
+        "count": 4
       },
       "type": "heracles:item"
     }

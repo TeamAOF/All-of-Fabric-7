@@ -48,8 +48,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "delightfulcreators:beetroot_soup_bucket",
-        "count": 1
+        "id": "minecraft:beetroot_soup",
+        "count": 4
       },
       "type": "heracles:item"
     }
