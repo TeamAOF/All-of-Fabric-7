@@ -46,10 +46,11 @@
       "text": ""
     },
     "description": [
+      "<hr/>",
       "<task task=\"3D82F453CBD0740A\" quest=\"Export Bus\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"7BD6535BC687C272\" quest=\"Export Bus\"/>"
+      "<reward reward=\"utilities_lootbag\" quest=\"Export Bus\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

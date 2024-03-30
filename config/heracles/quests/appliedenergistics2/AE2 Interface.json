@@ -46,12 +46,17 @@
       "translate": "Read ME Pattern Provider quest for more info."
     },
     "description": [
-      "<h2>Read ME Pattern Provider quest for more info.</h2>",
       "<hr/>",
+      "# &&eME Interface",
+      "<br/>",
+      "Read ME Pattern Provider quest for more info.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"5F3D81B7D3F27CA2\" quest=\"AE2 Interface\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"0B4FDBCBAA5831A2\" quest=\"AE2 Interface\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"AE2 Interface\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {
