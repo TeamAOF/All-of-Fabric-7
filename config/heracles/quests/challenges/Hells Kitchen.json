@@ -62,9 +62,6 @@
     "cristel_wine": {
       "type": "heracles:item",
       "item": "vinery:cristel_wine",
-      "nbt": {
-        "Year": 0
-      },
       "amount": 3000,
       "collection": "MANUAL",
       "title": "",
