@@ -43,7 +43,7 @@ ServerEvents.recipes(e => {
         "item": "kubejs:hyper_nitro_crystal"
       },
       "T": {
-        "item": 'indrev:module_feather_falling'
+        "item": 'ad_astra:gravity_normalizer'
       },
       "C": {
         "item": 'piercingpaxels:upgrade_unbreakable'
