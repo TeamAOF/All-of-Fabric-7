@@ -8,7 +8,7 @@
       "type": "heracles:item",
       "item": "spectrum:infused_beverage",
       "nbt": {
-        "Variant": "fruit_schnapps"
+        "Variant": "fruit_shnaps"
       },
       "amount": 8,
       "collection": "AUTOMATIC",
