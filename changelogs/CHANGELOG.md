@@ -1,3 +1,32 @@
+### All of Fabric 7 | v2.0.2
+
+_Fabric Loader 0.15.7_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.0.2.md)_
+
+### Changes/Improvements ⭐
+
+* Render animated textures only when visible has been re-enabled **(AK)**
+* AE2 quests improvements & additions **(RainbowIris323)**
+* Removed Lager quest **(SubordinalBlue)**
+* Allow Void Shadow to be respawned **(SubordinalBlue)**
+
+### Recipes 🪵
+
+* Updated Angel Ring recipe to no longer include removed entries from Indrev **(AK)**
+
+### Bug Fixes 🪲
+
+* Fixed Nanosaber quest task including wrong NBT **(SubordinalBlue)**
+* Fixed can_grief tag not loading custom entries properly **(Trent)**
+* Fixed incorrect item task for Ring of the Mantle quest **(SubordinalBlue)**
+* Fixed Ad Astra chapter entry quest giving incorrect book reward **(SubordinalBlue)**
+* Fixed missing rewards for Capacitors quest **(SubordinalBlue)**
+* Fixed conflicts between popsicle recipes **(SubordinalBlue)**
+* Fixed certain liquors quests not completing in FOW **(SubordinalBlue)**
+* Fixed regular matter not producing from any simulation **(AK)**
+* Fixed Werepyre entity crashing your client/server **(AK)**
+* Fixed Bakery recipes missing REI compat **(AK)**
+---
+
 ### All of Fabric 7 | v2.0.1
 
 _Fabric Loader 0.15.7_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.0.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.0.1.md)_

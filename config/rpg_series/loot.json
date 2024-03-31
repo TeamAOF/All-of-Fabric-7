@@ -1,0 +1,189 @@
+{
+  "item_groups": {
+    "armors_tier_2_enchanted": {
+      "ids": [
+        "#rpg_series:tier_2_armors"
+      ],
+      "chance": 0.5,
+      "bonus_roll": 0.2,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
+    "weapons_tier_0": {
+      "ids": [
+        "#rpg_series:tier_0_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.0,
+      "weight": 1
+    },
+    "weapons_tier_1_enchanted": {
+      "ids": [
+        "#rpg_series:tier_1_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.2,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
+    "armors_tier_2": {
+      "ids": [
+        "#rpg_series:tier_2_armors"
+      ],
+      "chance": 0.5,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "weapons_tier_1": {
+      "ids": [
+        "#rpg_series:tier_1_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "weapons_tier_2": {
+      "ids": [
+        "#rpg_series:tier_2_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "weapons_tier_3": {
+      "ids": [
+        "#rpg_series:tier_3_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "weapons_tier_4": {
+      "ids": [
+        "#rpg_series:tier_4_weapons"
+      ],
+      "chance": 0.5,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "armors_tier_1": {
+      "ids": [
+        "#rpg_series:tier_1_armors"
+      ],
+      "chance": 0.25,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "weapons_tier_2_enchanted": {
+      "ids": [
+        "#rpg_series:tier_2_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.2,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
+    "golden_weapons": {
+      "ids": [
+        "#rpg_series:golden_weapons"
+      ],
+      "chance": 0.3,
+      "bonus_roll": 0.2,
+      "weight": 1
+    },
+    "armors_tier_1_enchanted": {
+      "ids": [
+        "#rpg_series:tier_1_armors"
+      ],
+      "chance": 0.25,
+      "bonus_roll": 0.2,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    }
+  },
+  "loot_tables": {
+    "minecraft:chests/bastion_treasure": [
+      "weapons_tier_3"
+    ],
+    "minecraft:chests/underwater_ruin_small": [
+      "weapons_tier_1_enchanted",
+      "armors_tier_1_enchanted"
+    ],
+    "minecraft:chests/woodland_mansion": [
+      "weapons_tier_1_enchanted",
+      "armors_tier_1_enchanted"
+    ],
+    "minecraft:chests/end_city_treasure": [
+      "weapons_tier_4",
+      "armors_tier_2"
+    ],
+    "minecraft:chests/abandoned_mineshaft": [
+      "weapons_tier_0"
+    ],
+    "minecraft:chests/shipwreck_supply": [
+      "weapons_tier_0"
+    ],
+    "minecraft:chests/nether_bridge": [
+      "weapons_tier_2"
+    ],
+    "minecraft:chests/underwater_ruin_big": [
+      "weapons_tier_2"
+    ],
+    "minecraft:chests/simple_dungeon": [
+      "weapons_tier_1"
+    ],
+    "minecraft:chests/pillager_outpost": [
+      "weapons_tier_1_enchanted",
+      "armors_tier_1_enchanted"
+    ],
+    "minecraft:chests/ruined_portal": [
+      "golden_weapons"
+    ],
+    "minecraft:chests/desert_pyramid": [
+      "weapons_tier_1_enchanted",
+      "armors_tier_1_enchanted"
+    ],
+    "minecraft:chests/bastion_bridge": [
+      "weapons_tier_1"
+    ],
+    "minecraft:chests/shipwreck_treasure": [
+      "armors_tier_1"
+    ],
+    "minecraft:chests/jungle_temple": [
+      "weapons_tier_1_enchanted",
+      "armors_tier_1_enchanted"
+    ],
+    "minecraft:chests/ancient_city": [
+      "armors_tier_2"
+    ],
+    "minecraft:chests/stronghold_crossing": [
+      "weapons_tier_1_enchanted",
+      "armors_tier_1_enchanted"
+    ],
+    "minecraft:chests/spawn_bonus_chest": [
+      "weapons_tier_0"
+    ],
+    "minecraft:chests/igloo_chest": [
+      "weapons_tier_0"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "armors_tier_2"
+    ]
+  }
+}

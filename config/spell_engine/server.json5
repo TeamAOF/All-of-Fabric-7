@@ -17,6 +17,8 @@
 	"spell_book_binding_level_requirement": 3,
 	// Spell book creation level cost
 	"spell_book_binding_level_cost": 1,
+	// Should the player be able to cast spells from the offhand spell book?
+	"spell_book_offhand": false,
 	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
 	"add_spell_casting_to_swords": true,
 	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
