@@ -19,9 +19,12 @@
       "text": ""
     },
     "description": [
-      "<task task=\"057AFA385B6AD0B6\" quest=\"Crystals are the way\"/>",
       "<hr/>",
-      "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
+      "# &&eCrystals!",
+      "<br/>",
+      "  You will need a lot of crystals of 3 types /b/Certus Quartz/b/, /b/Charged Certus Quartz/b/, and /b/Fluix Crystals/b/.",
+      "<task task=\"057AFA385B6AD0B6\" quest=\"Crystals are the way\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

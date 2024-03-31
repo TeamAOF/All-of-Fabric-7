@@ -46,12 +46,17 @@
       "translate": "Use a powered Charger to charge Certus Quartz Crystal."
     },
     "description": [
-      "<h2>Use a powered Charger to charge Certus Quartz Crystal.</h2>",
       "<hr/>",
+      "# &&eCharged Certus Quartz.",
+      "<br/>",
+      "  Use a powered /b/Charger/b/ to charge /b/Certus Quartz/b/ and make /b/Charged Certus Quartz/b/.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"2BCC42993452589F\" quest=\"Charged Certus Quartz Crystal\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"491253597D5084B5\" quest=\"Charged Certus Quartz Crystal\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Charged Certus Quartz Crystal\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

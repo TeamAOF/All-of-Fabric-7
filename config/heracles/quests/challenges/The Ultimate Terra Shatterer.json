@@ -7,9 +7,7 @@
       "type": "heracles:item",
       "item": "botania:terra_pick",
       "nbt": {
-        "mana": 2147483646,
-        "Damage": 0,
-        "enabled": 0
+        "mana": 2147483647
       },
       "amount": 1,
       "collection": "AUTOMATIC",

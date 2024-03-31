@@ -46,13 +46,18 @@
       "translate": "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
     },
     "description": [
-      "<h2>Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8.</h2>",
       "<hr/>",
+      "# &&eSmarter Denser Cable",
+      "<br/>",
+      "  Higher Capacity cable, /6/can carry 32 channels/6/ unlike standard cable which can only carry 8.",
+      "  However it doesn't support buses so you must first step down from dense to a smaller cable (such as /b/Fluix ME Glass Cable/b/ or /b/Fluix ME Smart Cable/b/) before using buses or panels. Shows load similarly to /b/Fluix ME Smart Cable/b/, with each line lit representing four channels in use.",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"4D657D4CBB6A2016\" quest=\"Fluix Smart Dense Cable\"/>",
       "<hr/>",
-      "However it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels. Shows load similarly to Fluix ME Smart Cable, with each line lit representing four channels in use.",
-      "<hr/>",
-      "<reward reward=\"20148FD6ABF3A786\" quest=\"Fluix Smart Dense Cable\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Fluix Smart Dense Cable\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

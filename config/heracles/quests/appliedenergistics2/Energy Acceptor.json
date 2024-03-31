@@ -46,12 +46,18 @@
       "translate": "Converts energy from external systems into AE and stores it in the network."
     },
     "description": [
-      "<h2>Converts energy from external systems into AE and stores it in the network.</h2>",
       "<hr/>",
+      "# &&eEnergy Acceptor",
+      "<br/>",
+      "Converts energy from external systems into AE and stores it in the network.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"7C8924F839D8D61E\" quest=\"Energy Acceptor\"/>",
       "<hr/>",
-      "<hr/>",
-      "<reward reward=\"1B210AE5834986EE\" quest=\"Energy Acceptor\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Energy Acceptor\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {

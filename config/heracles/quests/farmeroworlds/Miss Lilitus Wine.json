@@ -29,8 +29,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:air",
-        "count": 0
+        "id": "vinery:lilitu_wine",
+        "count": 2
       },
       "type": "heracles:item"
     }

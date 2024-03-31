@@ -46,15 +46,22 @@
       "translate": "One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge."
     },
     "description": [
-      "<h2>One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge.</h2>",
       "<hr/>",
+      "# &&eQuantum Links",
+      "<br/>",
+      "  One of these blocks surrounded by 8 /b/ME Quantum Ring/b/ will create a /b/Quantum Network Bridge/b/.",
+      "<br/>",
+      "  This block doesn't connect to any cables and only registers as part of the network with the full bridge is made.",
+      "<br/>",
+      "  This blocks inventory can only hold a single /b/Quantum Entangled Singularity/b/ and is automation accessible.",
+      "<br/>",
+      "<hr/>",
+      "## &&eTasks:",
       "<task task=\"0DAFE1BDC893DE5F\" quest=\"Quantum Link\"/>",
       "<hr/>",
-      "This block doesn't connect to any cables and only registers as part of the network with the full bridge is made.",
-      "<br/>",
-      "This blocks inventory can only hold a single Quantum Entangled Singularity and is automation accessible.",
-      "<hr/>",
-      "<reward reward=\"0C4F350123A5E240\" quest=\"Quantum Link\"/>"
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Quantum Link\"/>",
+      "<hr/>"
     ],
     "groups": {
       "Applied Energistics 2": {
