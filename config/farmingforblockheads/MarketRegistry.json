@@ -384,6 +384,33 @@
       },
       {
          "output":{
+            "item":"brewery:hops_seeds"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"brewery:barley_seeds"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"brewery:kernels"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
             "item":"croptopia:soybean_seed"
          },
          "payment":{
@@ -439,6 +466,24 @@
       {
          "output":{
             "item":"vinery:white_grape_seeds"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"nethervinery:crimson_grape_seeds"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"nethervinery:warped_grape_seeds"
          },
          "payment":{
             "item":"minecraft:emerald"
