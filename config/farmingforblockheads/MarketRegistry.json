@@ -402,7 +402,7 @@
       },
       {
          "output":{
-            "item":"brewery:kernels"
+            "item":"brewery:corn_seeds"
          },
          "payment":{
             "item":"minecraft:emerald"
