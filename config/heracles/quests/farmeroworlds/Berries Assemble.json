@@ -50,6 +50,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "COMPLETED_CLAIMED"
+    "hidden": "IN_PROGRESS"
   }
 }
