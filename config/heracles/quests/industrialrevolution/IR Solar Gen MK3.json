@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:solar_generator_mk3",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "RARE",

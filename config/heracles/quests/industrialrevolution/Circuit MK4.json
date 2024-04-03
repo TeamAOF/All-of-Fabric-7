@@ -30,7 +30,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:enriched_nikolite_ingot",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "RARE",

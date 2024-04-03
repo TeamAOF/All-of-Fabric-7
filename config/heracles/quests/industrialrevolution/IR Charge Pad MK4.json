@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:battery",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "RARE",

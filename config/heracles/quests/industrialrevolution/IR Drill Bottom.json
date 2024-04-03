@@ -58,7 +58,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:netherite_drill_head",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "RARE",

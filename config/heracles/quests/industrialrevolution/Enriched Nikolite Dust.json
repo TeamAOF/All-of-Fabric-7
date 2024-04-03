@@ -30,8 +30,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:enriched_nikolite_dust",
-        "count": 2,
+        "id": "lootbags:loot_bag",
+        "count": 1,
         "nbt": {
           "Type": "RARE",
           "Color": 8090608,

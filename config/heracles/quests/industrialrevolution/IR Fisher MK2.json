@@ -29,7 +29,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:fishing_rod",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "COMMON",
