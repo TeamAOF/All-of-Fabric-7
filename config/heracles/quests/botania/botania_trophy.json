@@ -1,30 +1,42 @@
 {
   "dependencies": [
-    "gaia"
+	"Band of Aura",
+	"Band of Mana",
+	"Benevolent Godesses' Charm",
+	"Botania Emblem",
+	"Cloaks of Judgement",
+	"Floramancy",
+	"Ring of Magnetization",
+	"Ring of the Mantle",
+	"The Spectator",
+	"Third Eye",
+	"Trinkets",
+	"alfheim",
+	"assembly halo",
+	"botania_trophy",
+	"botanical brewery",
+	"entity flowers",
+	"gaia",
+	"item flowers",
+	"livingstuff",
+	"mana basics",
+	"mana enchanter",
+	"more generating flora",
+	"mystical flower collection",
+	"orechid",
+	"petal apothecary",
+	"rods",
+	"runecrafting",
+	"terrasteel"
   ],
   "tasks": {
     "botania_trophy": {
       "title": "§aBotania 100%",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "trophy": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
