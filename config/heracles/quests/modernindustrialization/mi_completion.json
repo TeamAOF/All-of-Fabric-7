@@ -188,7 +188,7 @@
     "groups": {
       "Modern Industrialization": {
         "position": [
-          1485,
+          1500,
           -16
         ]
       }
@@ -212,7 +212,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
