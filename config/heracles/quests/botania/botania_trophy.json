@@ -1,33 +1,32 @@
 {
   "dependencies": [
-	"Band of Aura",
-	"Band of Mana",
-	"Benevolent Godesses' Charm",
-	"Botania Emblem",
-	"Cloaks of Judgement",
-	"Floramancy",
-	"Ring of Magnetization",
-	"Ring of the Mantle",
-	"The Spectator",
-	"Third Eye",
-	"Trinkets",
-	"alfheim",
-	"assembly halo",
-	"botania_trophy",
-	"botanical brewery",
-	"entity flowers",
-	"gaia",
-	"item flowers",
-	"livingstuff",
-	"mana basics",
-	"mana enchanter",
-	"more generating flora",
-	"mystical flower collection",
-	"orechid",
-	"petal apothecary",
-	"rods",
-	"runecrafting",
-	"terrasteel"
+    "entity flowers",
+    "gaia",
+    "mana basics",
+    "Ring of Magnetization",
+    "Cloaks of Judgement",
+    "Floramancy",
+    "Band of Aura",
+    "Trinkets",
+    "more generating flora",
+    "Third Eye",
+    "livingstuff",
+    "runecrafting",
+    "The Spectator",
+    "Benevolent Godesses' Charm",
+    "terrasteel",
+    "botanical brewery",
+    "Botania Emblem",
+    "mana enchanter",
+    "Band of Mana",
+    "alfheim",
+    "item flowers",
+    "petal apothecary",
+    "mystical flower collection",
+    "assembly halo",
+    "orechid",
+    "rods",
+    "Ring of the Mantle"
   ],
   "tasks": {
     "botania_trophy": {
@@ -95,8 +94,8 @@
     "groups": {
       "Botania": {
         "position": [
-          200,
-          -12
+          -100,
+          80
         ]
       }
     },
@@ -119,7 +118,7 @@
   },
   "settings": {
     "unlockNotification": true,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"
