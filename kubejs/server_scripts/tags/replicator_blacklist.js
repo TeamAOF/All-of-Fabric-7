@@ -6,6 +6,9 @@
 ServerEvents.tags('item', event => {
 
     const replicator = [
+	    'mighty_mail:package',
+        'portable_tables:portable_furnace',
+        'portable_tables:portable_blast_furnace',
         'indrev:tank',
         'indrev:portable_charger',
         'indrev:modular_armor_helmet',
