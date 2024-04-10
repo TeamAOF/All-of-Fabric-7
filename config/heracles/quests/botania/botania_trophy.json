@@ -1,30 +1,41 @@
 {
   "dependencies": [
-    "gaia"
+    "entity flowers",
+    "gaia",
+    "mana basics",
+    "Ring of Magnetization",
+    "Cloaks of Judgement",
+    "Floramancy",
+    "Band of Aura",
+    "Trinkets",
+    "more generating flora",
+    "Third Eye",
+    "livingstuff",
+    "runecrafting",
+    "The Spectator",
+    "Benevolent Godesses' Charm",
+    "terrasteel",
+    "botanical brewery",
+    "Botania Emblem",
+    "mana enchanter",
+    "Band of Mana",
+    "alfheim",
+    "item flowers",
+    "petal apothecary",
+    "mystical flower collection",
+    "assembly halo",
+    "orechid",
+    "rods",
+    "Ring of the Mantle"
   ],
   "tasks": {
     "botania_trophy": {
       "title": "§aBotania 100%",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "trophy": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
@@ -83,8 +94,8 @@
     "groups": {
       "Botania": {
         "position": [
-          200,
-          -12
+          -100,
+          80
         ]
       }
     },
@@ -107,7 +118,7 @@
   },
   "settings": {
     "unlockNotification": true,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

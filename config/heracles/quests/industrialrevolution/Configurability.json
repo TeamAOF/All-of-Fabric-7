@@ -43,8 +43,8 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "modern_industrialization:tin_ingot",
-        "count": 8,
+        "id": "lootbags:loot_bag",
+        "count": 1,
         "nbt": {
           "Type": "COMMON",
           "Color": 8090608,

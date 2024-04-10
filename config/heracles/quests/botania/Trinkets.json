@@ -7,27 +7,11 @@
       "type": "heracles:item",
       "item": "botania:bauble_box",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "botania:cosmetic_tiny_potato_mask",
         "count": 1

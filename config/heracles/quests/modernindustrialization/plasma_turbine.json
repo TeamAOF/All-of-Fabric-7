@@ -7,55 +7,23 @@
       "type": "heracles:item",
       "item": "modern_industrialization:iridium_machine_casing_pipe",
       "amount": 18,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "plasma_turbine_task_3": {
       "type": "heracles:item",
       "item": "modern_industrialization:plasma_handling_iridium_machine_casing",
       "amount": 17,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "plasma_turbine_task": {
       "type": "heracles:item",
       "item": "modern_industrialization:plasma_turbine",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "plasma_turbine_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "modern_industrialization:helium_plasma_bucket",
         "count": 2
@@ -63,14 +31,6 @@
       "type": "heracles:item"
     },
     "mi_legendary_lootbag": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,

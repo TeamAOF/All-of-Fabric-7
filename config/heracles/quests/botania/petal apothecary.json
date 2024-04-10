@@ -8,28 +8,14 @@
       "item": "botania:apothecary_default",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "Imbue a Basin",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "title": "Imbue a Basin"
     },
     "pure daisy": {
       "type": "heracles:item",
       "item": "botania:pure_daisy",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "Craft a White Flower",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "title": "Craft a White Flower"
     }
   },
   "rewards": {},

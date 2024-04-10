@@ -43,7 +43,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:servo_retriever",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "COMMON",

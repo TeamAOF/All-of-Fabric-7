@@ -57,7 +57,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "modern_industrialization:steel_hammer",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "COMMON",

@@ -1,0 +1,428 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "bewitchment:aconite_seeds",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "wizards:wand_novice",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "count": 12,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "bewitchment:belladonna_seeds",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:black_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:blue_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:brown_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runes:arcane_stone",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:cyan_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runes:fire_stone",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:fertilizer",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:gray_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:green_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runes:frost_stone",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:light_blue_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:light_gray_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:lime_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:livingrock",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:livingwood_log",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:magenta_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:mana_cookie",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:mana_pearl",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:mana_powder",
+          "functions": [
+            {
+              "count": 12,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:manasteel_ingot",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "bewitchment:mandrake_seeds",
+          "functions": [
+            {
+              "count": 2,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:orange_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:pink_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:purple_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:red_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runes:healing_stone",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runes:lightning_stone",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runes:soul_stone",
+          "functions": [
+            {
+              "count": 4,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "wizards:wizard_robe_head",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "wizards:wizard_robe_chest",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "wizards:wizard_robe_legs",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "wizards:wizard_robe_feet",
+          "functions": [
+            {
+              "count": 1,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:white_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:yellow_mystical_flower",
+          "functions": [
+            {
+              "count": 8,
+              "function": "set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -57,7 +57,7 @@
         "type": "heracles:item"
       },
       "item": {
-        "id": "indrev:modular_core",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "RARE",
