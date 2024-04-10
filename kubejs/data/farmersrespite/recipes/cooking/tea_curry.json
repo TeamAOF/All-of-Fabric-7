@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "c:crops/yellow_tea_leaves"
+    },
+    {
+      "tag": "c:crops/yellow_tea_leaves"
+    },
+    {
+      "tag": "c:foods/raw_meats/raw_chicken"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/rice"
+    }
+  ],
+  "result": {
+    "item": "farmersrespite:tea_curry"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
