@@ -1,0 +1,31 @@
+{
+  "style_name": "Default",
+  "update_tick_time": 20,
+  "list_header": [
+    "<font:'aof:icons'>a.b.c</font>",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "<color:#6b4647>  ⛏  <color:#f1adb7>All of Fabric 7 <color:#6b4647> ⛏  ",
+    "",
+    "<color:#6b4647><strikethrough>        </strikethrough>[ </color><color:#f1adb7>%server:online%<color:#6b4647> / </color>%server:max_players%</color><color:#6b4647> ]<strikethrough>        </strikethrough></color>",
+    ""
+  ],
+  "list_footer": [
+    "<color:#555555><strikethrough>                          </strikethrough></color>",
+    "",
+    "<color:#6b4647>TPS: <color:#f1adb7>%server:tps%     <color:#6b4647>MSPT: <color:#f1adb7>%server:mspt%     <color:#6b4647>Ping: <color:#f1adb7>%player:ping%</color>",
+    "",
+    "<color:#6b4647>Time: <color:#f1adb7>%world:time%</color>    <color:#6b4647>Day: <color:#f1adb7>%world:day%</color>    <color:#6b4647>Deaths: <color:#f1adb7>%player:statistic deaths%</color>",
+    "",
+    "<color:#6b4647>Playtime: <color:#f1adb7>%player:playtime HH'§ah§r' mm'§am§r' ss'§as§r'%</color>",
+    "",
+    "<color:#6b4647>Guild: <color:#f1adb7>%argonauts:guild%  <color:#6b4647>Party: <color:#f1adb7>%argonauts:party%</color>",
+    ""
+  ],
+  "hidden_in_commands": false,
+  "legacy_line_joining (Remove once updating!)": true
+}

@@ -1,0 +1,81 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 3,
+  "_comment": "Before changing anything, see https://github.com/Patbox/StyledChat#configuration",
+  "text_formatting": {
+    "legacy_formatting": false,
+    "parse_links": true,
+    "parse_mentions": false,
+    "markdown": true,
+    "respect_colors_client_setting": true
+  },
+  "auto_completion": {
+    "tags": false,
+    "tag_aliases": false,
+    "emoticons": false
+  },
+  "default": {
+    "display_name": "${default}",
+    "message_formats": {
+      "chat": "${player} <dark_gray>❯❯</dark_gray> ${message}",
+      "joined_the_game": "<yellow><lang:multiplayer.player.joined:'${player}'></yellow>",
+      "joined_after_name_change": "<yellow><lang:multiplayer.player.joined.renamed:'${player}':'${old_name}'></yellow>",
+      "joined_for_first_time": "<yellow><lang:multiplayer.player.joined:'${player}'></yellow>",
+      "left_game": "<yellow><lang:multiplayer.player.left:'${player}'></yellow>",
+      "base_death": "${default_message}",
+      "advancement_task": "<lang:chat.type.advancement.task:'${player}':'${advancement}'>",
+      "advancement_challenge": "<lang:chat.type.advancement.challenge:'${player}':'${advancement}'>",
+      "advancement_goal": "<lang:chat.type.advancement.goal:'${player}':'${advancement}'>",
+      "sent_team_chat": "<lang:'chat.type.team.sent':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
+      "received_team_chat": "<lang:'chat.type.team.text':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
+      "sent_private_message": "<gray><italic><lang:commands.message.display.outgoing:'${receiver}':'${message}'>",
+      "received_private_message": "<gray><italic><lang:commands.message.display.incoming:'${sender}':'${message}'>",
+      "say_command": "[${player}] ${message}",
+      "me_command": "<lang:'chat.type.emote':'${player}':'${message}'>",
+      "pet_death": "${default_message}"
+    },
+    "link_style": "<underline><c:#7878ff>${link}",
+    "mention_style": "<c:#7878ff>%player:displayname%",
+    "spoiler_style": "<gray>${spoiler}",
+    "spoiler_symbol": "▌",
+    "formatting": {
+      "dark_red": true,
+      "green": true,
+      "underline": true,
+      "dark_green": true,
+      "black": true,
+      "yellow": true,
+      "bold": true,
+      "italic": true,
+      "dark_blue": true,
+      "dark_purple": true,
+      "gold": true,
+      "red": true,
+      "aqua": true,
+      "gray": true,
+      "light_purple": true,
+      "blue": true,
+      "white": true,
+      "dark_aqua": true,
+      "dark_gray": true,
+      "spoiler": true,
+      "strikethrough": true
+    },
+    "emoticons": {
+      "$emojibase:builtin:joypixels": "${emoji}",
+      "shrug": "¯\\_(ツ)_/¯",
+      "table": "(╯°□°）╯︵ ┻━┻",
+      "sword": "🗡",
+      "bow": "🏹",
+      "trident": "🔱",
+      "rod": "🎣",
+      "potion": "🧪",
+      "shears": "✂",
+      "bucket": "🪣",
+      "bell": "🔔",
+      "item": "[%player:equipment_slot mainhand%]",
+      "pos": "%player:pos_x% %player:pos_y% %player:pos_z%"
+    },
+    "custom_message_types": {}
+  },
+  "styles": []
+}
