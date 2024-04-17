@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Steel Plate from IR"
+  ],
+  "tasks": {
+    "140BC8875C9E1DB1": {
+      "type": "heracles:item",
+      "item": "indrev:modular_workbench_mk4",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1C33ED6AFA03FA1F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "indrev:circuit_mk4",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 8090608,
+          "Loot": "aof:loot_bags/ind_rev/rare",
+          "Name": "Industrial Revolution Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to craft and install modules."
+    },
+    "description": [
+      "<h2>Used to install modules onto Modular Armor parts.</h2>",
+      "---",
+      "The modular workbench allows to craft and install modules.",
+      "",
+      "Notice that installing modules cost time and some energy!",
+      "",
+      "The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!",
+      "",
+      "Modules can also be used on the modular mining drill and the gamer axe.",
+      "---"
+    ],
+    "groups": {
+      "Industrial Revolution": {
+        "position": [
+          96,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "indrev:modular_workbench_mk4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modular Workbench"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
