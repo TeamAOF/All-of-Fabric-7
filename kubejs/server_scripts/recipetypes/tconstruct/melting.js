@@ -1,4 +1,3 @@
-/*
 ServerEvents.recipes(event => {
 
   const materials = [
@@ -120,4 +119,3 @@ ServerEvents.recipes(event => {
     })
   })
 })
-*/

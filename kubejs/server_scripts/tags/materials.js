@@ -135,7 +135,22 @@ ServerEvents.tags('item', event => {
     // Netherrack
     event.add("c:stone", "ad_astra:mercury_cobblestone")
 
-});
+    // Mythic Metals
+
+    const mythicmetals_nuggets = [
+        'platinum',
+        'steel',
+        'silver',
+        'tin',
+        'bronze',
+        'copper',
+
+    ];
+
+    mythicmetals_nuggets.forEach((item) => {
+        event.add("c:" + item + "_nuggets", "mythicmetals:" + item + "_nugget")
+    })
+})
 
 ServerEvents.tags('block', event => {
 

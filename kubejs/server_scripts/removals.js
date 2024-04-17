@@ -76,6 +76,7 @@ ServerEvents.recipes((event) => {
         'tconstruct:smeltery/casting/metal/platinum/nugget_sand_cast',
         'tconstruct:smeltery/casting/metal/platinum/plate_gold_cast',
         'tconstruct:smeltery/casting/metal/platinum/plate_sand_cast',
+        'tconstruct:smeltery/melting/metal/platinum/dust',
         'tconstruct:smeltery/casting/metal/tungsten/block',
         'tconstruct:smeltery/casting/metal/tungsten/ingot_gold_cast',
         'tconstruct:smeltery/casting/metal/tungsten/ingot_sand_cast',
@@ -83,6 +84,14 @@ ServerEvents.recipes((event) => {
         'tconstruct:smeltery/casting/metal/tungsten/nugget_sand_cast',
         'tconstruct:smeltery/casting/metal/tungsten/plate_gold_cast',
         'tconstruct:smeltery/casting/metal/tungsten/plate_sand_cast',
+        'tconstruct:smeltery/casting/metal/aluminum/block',
+        'tconstruct:smeltery/casting/metal/aluminum/ingot_gold_cast',
+        'tconstruct:smeltery/casting/metal/aluminum/ingot_sand_cast',
+        'tconstruct:smeltery/casting/metal/aluminum/nugget_gold_cast',
+        'tconstruct:smeltery/casting/metal/aluminum/nugget_sand_cast',
+        'tconstruct:smeltery/casting/metal/aluminum/plate_gold_cast',
+        'tconstruct:smeltery/casting/metal/aluminum/plate_sand_cast',
+        'tconstruct:smeltery/melting/metal/aluminum/dust',
         'techreborn:blast_furnace/chrome_ingot_from_small_dust',
         'techreborn:blast_furnace/steel_ingot_from_small_dust',
         'techreborn:blast_furnace/titanium_ingot',
@@ -118,7 +127,13 @@ ServerEvents.recipes((event) => {
         'techreborn:smelting/silver_ingot_from_c_silver_ores_exported_mi_furnace',
         'travelersbackpack:travelers_backpack',
         'vinery:dough',
-        'wands:stone_wand2'
+        'wands:stone_wand2',
+        'create:smelting/platinum_ingot_compat_mythicmetals',
+        'mythicmetals:smelting/platinum_ingot_from_ores',
+        'mythicmetals:smelting/platinum_ingot_from_raw_ore',
+        'create:blasting/platinum_ingot_compat_mythicmetals',
+        'mythicmetals:blasting/blast_platinum_ingot_from_ores',
+        'mythicmetals:blasting/blast_platinum_ingot_from_raw_ore',
     ];
 
     const output = [
@@ -183,7 +198,7 @@ ServerEvents.recipes((event) => {
         'techreborn:ruby_spade',
         'onlyhammers:obsidian_hammer',
         'onlyhammers:lapis_hammer',
-        'onlyhammers:redstone_hammer',
+        'onlyhammers:redstone_hammer'
     ];
 
     id.forEach((id) => {
@@ -194,7 +209,8 @@ ServerEvents.recipes((event) => {
         event.remove({ output: output });
     });
 
-    const rei_unification = [
+    // REI Unification
+    const rei_unification_tr = [
         'titanium',
         'aluminum',
         'bronze',
@@ -213,13 +229,29 @@ ServerEvents.recipes((event) => {
 
     ];
 
-    rei_unification.forEach((item) => {
+    rei_unification_tr.forEach((item) => {
         event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_nugget'});
         event.remove({ id: 'techreborn:crafting_table/nugget/' + item + '_nugget'});
         event.remove({ id: 'techreborn:crafting_table/ingot/' + item + '_ingot_from_block'});
         event.remove({ id: 'techreborn:crafting_table/storage_block/' + item + '_storage_block'});
         event.remove({ id: 'techreborn:crafting_table/raw/raw_' + item + '_from_block'});
     });
+
+    const rei_unification_mythicmetals = [
+        'platinum',
+        'steel',
+        'silver',
+        'tin',
+        'bronze',
+        'copper',
+
+    ];
+
+    rei_unification_mythicmetals.forEach((item) => {
+        event.remove({ id: 'mythicmetals:ingots/' + item + '_ingot_from_block'});
+        event.remove({ id: 'mythicmetals:crafting/' + item + '_nugget'});
+    });
+
 
     const small_dusts = [
         'emerald',
