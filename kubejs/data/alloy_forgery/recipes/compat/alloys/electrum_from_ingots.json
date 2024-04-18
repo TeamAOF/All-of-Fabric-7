@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:item_tags_populated",
+      "values": [
+        "c:gold_ingots",
+        "c:silver_ingots",
+        "c:electrum_ingots"
+      ]
+    }
+  ],
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "c:gold_ingots"
+    },
+	  {
+      "tag": "c:silver_ingots"
+    }
+  ],
+  "output": {
+    "priority": [
+      "modern_industrialization:electrum_ingot"
+    ],
+    "default": "c:electrum_ingots",
+    "count": 2
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 10
+}
