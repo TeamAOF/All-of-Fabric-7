@@ -134,6 +134,18 @@ ServerEvents.recipes((event) => {
         'create:blasting/platinum_ingot_compat_mythicmetals',
         'mythicmetals:blasting/blast_platinum_ingot_from_ores',
         'mythicmetals:blasting/blast_platinum_ingot_from_raw_ore',
+        'ad_astra:steel_rod',
+        'alloy_forgery:compat/aluminum_ingot_from_ores',
+        'alloy_forgery:compat/titanium_ingot_from_raw_ores',
+        'alloy_forgery:compat/titanium_ingot_from_ores',
+        'alloy_forgery:compat/platinum_ingot_from_raw_ores',
+        'alloy_forgery:compat/platinum_ingot_from_ores',
+        'alloy_forgery:compat/tungsten_ingot_from_raw_ores',
+        'alloy_forgery:compat/tungsten_ingot_from_ores',
+        'bewitchment:silver_ingot_from_silver_block',
+        'techreborn:blast_furnace/tungsten_ingot',
+        'techreborn:blast_furnace/tungsten_ingot_from_small_dust',
+        'techreborn:crafting_table/machine/industrial_centrifuge'
     ];
 
     const output = [
@@ -237,6 +249,19 @@ ServerEvents.recipes((event) => {
         event.remove({ id: 'techreborn:crafting_table/raw/raw_' + item + '_from_block'});
     });
 
+    const rei_unification_indrev = [
+        'tungsten',
+        'electrum',
+        'tin',
+        'bronze'
+
+    ];
+
+    rei_unification_indrev.forEach((item) => {
+        event.remove({ id: 'indrev:shapeless/' + item + '_ingot_from_block'});
+        event.remove({ id: 'indrev:shapeless/' + item + '_nugget'});
+    });
+
     const rei_unification_mythicmetals = [
         'platinum',
         'steel',
@@ -269,7 +294,9 @@ ServerEvents.recipes((event) => {
     ];
     small_dusts.forEach((item) => {
         event.remove({ id: 'techreborn:crafting_table/small_dust/' + item + '_small_dust_from_dust'});
+        event.remove({ id: 'techreborn:crafting_table/dust/' + item + '_from_dust'});
     });
+    
 
     const plates = [
         'tin',
