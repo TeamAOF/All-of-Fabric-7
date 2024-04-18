@@ -5,155 +5,67 @@
   "tasks": {
     "rice_roll_medley": {
       "type": "heracles:item",
-      "item": "farmersdelight:rice_roll_medley_block",
+      "item": "croptopia:ratatouille",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "fish_cake": {
       "type": "heracles:item",
       "item": "spectrum:fishcake",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "kale_smoothie": {
       "type": "heracles:item",
       "item": "croptopia:kale_smoothie",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "roasted_mutton_chops": {
       "type": "heracles:item",
       "item": "farmersdelight:roasted_mutton_chops",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "cristel_wine": {
       "type": "heracles:item",
       "item": "vinery:cristel_wine",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "blazing_chili": {
       "type": "heracles:item",
       "item": "farmersrespite:blazing_chili",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "ghast_tear_punch_bowl": {
       "type": "heracles:item",
       "item": "frightsdelight:punchbowl_ghasttear",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "chorus_popsicle": {
       "type": "heracles:item",
       "item": "ends_delight:chorus_fruit_popsicle",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "hamburger": {
       "type": "heracles:item",
       "item": "farmersdelight:hamburger",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     },
     "pineapple_pepperoni_pizza": {
       "type": "heracles:item",
       "item": "croptopia:pineapple_pepperoni_pizza",
       "amount": 3000,
-      "collection": "MANUAL",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "MANUAL"
     }
   },
   "rewards": {
     "7D84DE2A7D4C2586": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,
