@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "hephaestus intro"
+  ],
+  "tasks": {
+    "Use a Foundry": {
+      "block": "tconstruct:foundry_controller",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "Foundry Reward": {
+      "item": {
+        "id": "tconstruct:molten_refined_glowstone_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<h1 align=\"center\">Foundry</h1>",
+      "",
+      "<p align=\"center\">/ˈfoundrē/</p>",
+      "",
+      "<p align=\"center\">a workshop or factory for casting metal.</p>",
+      "",
+      "<item id=\"tconstruct:foundry_controller\" scale=\"4\" />",
+      "",
+      "<h1 align=\"center\">🤘</h1>",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -50,
+          148
+        ]
+      }
+    },
+    "icon": {
+      "item": "#tconstruct:foundry",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Foundry"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

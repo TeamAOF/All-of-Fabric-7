@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "hephaestus intro"
+  ],
+  "tasks": {
+    "Advancement Tinker Station": {
+      "advancements": [
+        "tconstruct:tools/tinker_station"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "Tinker Table Reward": {
+      "item": {
+        "id": "tconstruct:molten_slimesteel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<h2 align=\"center\">Gotta catch them all.</h2>",
+      "",
+      "",
+      "<item id=\"tconstruct:crafting_station\" scale=\"4\"/>",
+      "<p align=\"center\">Crafting Station</p>",
+      "",
+      "<item id=\"tconstruct:tinker_station\" scale=\"4\"/>",
+      "<p align=\"center\">Tinker Station</p>",
+      "",
+      "<item id=\"tconstruct:part_builder\" scale=\"4\"/>",
+      "<p align=\"center\">Parts Builder</p>",
+      "",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -64,
+          222
+        ]
+      }
+    },
+    "icon": {
+      "item": "#tconstruct:tables",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tables"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

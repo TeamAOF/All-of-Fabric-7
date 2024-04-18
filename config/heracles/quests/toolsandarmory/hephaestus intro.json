@@ -1,0 +1,90 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Begin Hephaestus": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "First Guide": {
+      "item": {
+        "id": "tconstruct:puny_smelting",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<p style=\"align:center\">All</p>",
+      "<h2 style=\"align:center\">Hail</h2>",
+      "",
+      "<p style=\"st;align:center;color:linen\">Tinker's Construct</p>",
+      "",
+      "<h1 style=\"i;b;align:center;color:#ce9f00;bg:0 #66e41eff;border:2 #44e41eff; shadowed\">Hephaestus!</h1>",
+      "",
+      "",
+      "<p align=\"center\">  <b>This</b> is the way—the way to work a wide array of materials into a wider array of tools and weapons, bespoke like no other.</p>",
+      "",
+      "<p align=\"center\">First time? My advice... read the guides. All of 'em.</p>",
+      "",
+      "<columns template=\"40 20 40\">",
+      "<column>",
+      "<columns template=\"50 50\">",
+      "<column>",
+      "<item id=\"tconstruct:materials_and_you\" scale=\"2\"> </item>",
+      "</column>",
+      "<column>",
+      "<item id=\"tconstruct:puny_smelting\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<item id=\"tconstruct:mighty_smelting\" scale=\"2\"> </item>",
+      "</column>",
+      "<column>",
+      "<columns template=\"50 50\">",
+      "<column>",
+      "<item id=\"tconstruct:fantastic_foundry\" scale=\"2\"> </item>",
+      "</column>",
+      "<column>",
+      "<item id=\"tconstruct:tinkers_gadgetry\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "",
+      "<p align=\"center\">Oh... and this one too.</p>",
+      "<item style=\"id:tconstruct:encyclopedia;scale:2;border:10 #01000000\"/>",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          0,
+          200
+        ]
+      }
+    },
+    "icon": {
+      "item": "#tconstruct:guides",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Hephaestus Intro"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

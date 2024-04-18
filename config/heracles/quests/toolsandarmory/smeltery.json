@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "hephaestus intro"
+  ],
+  "tasks": {
+    "Use A Smeltery": {
+      "block": "tconstruct:smeltery_controller",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "Smeltery Reward": {
+      "item": {
+        "id": "tconstruct:molten_knightslime_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<h2 align=\"center\">Bring me...</h2>",
+      "",
+      "<h1 align=\"center\">a <i>smeltery!</i></h1>",
+      "",
+      "",
+      "<item id=\"tconstruct:smeltery_controller\" scale=\"4\"/>",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          50,
+          148
+        ]
+      }
+    },
+    "icon": {
+      "item": "#tconstruct:smeltery",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smeltery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

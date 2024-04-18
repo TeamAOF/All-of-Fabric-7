@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "hephaestus intro"
+  ],
+  "tasks": {
+    "Make Parts": {
+      "advancements": [
+        "tconstruct:tools/make_part"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "Tinker Toys Reward": {
+      "item": {
+        "id": "tconstruct:molten_rose_gold_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<p align=\"center\">The Whole Will Be Greater Than the Sum of Its</p>",
+      "",
+      "<h1 align=\"center\">Parts</h1>",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          0,
+          265
+        ]
+      }
+    },
+    "icon": {
+      "item": "#tconstruct:parts",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Parts"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
