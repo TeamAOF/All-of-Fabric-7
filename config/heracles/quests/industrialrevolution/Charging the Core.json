@@ -7,55 +7,23 @@
       "type": "heracles:item",
       "item": "indrev:laser_emitter_mk4",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "4496671EA77E9495": {
       "type": "heracles:item",
       "item": "indrev:capsule",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "70BE041B9B65C2DF": {
       "type": "heracles:item",
       "item": "indrev:modular_core",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "789B8EBA44137D09": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,

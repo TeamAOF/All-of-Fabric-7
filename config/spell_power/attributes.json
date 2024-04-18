@@ -1,5 +1,25 @@
 {
+  "attributes_container_injection_scope": "PLAYER_ENTITY",
   "use_vanilla_magic_damage_type": true,
   "base_spell_critical_chance_percentage": 5.0,
-  "base_spell_critical_damage_percentage": 50.0
+  "base_spell_critical_damage_percentage": 50.0,
+  "status_effect_raw_id_starts_at": 730,
+  "spell_power_effect": {
+    "uuid": "446cf95e-be63-40d9-ad90-6cc388c08460",
+    "bonus_per_stack": 0.1
+  },
+  "secondary_effects": {
+    "critical_damage": {
+      "uuid": "0612ed2a-3ce5-11ed-b878-0242ac120002",
+      "bonus_per_stack": 0.1
+    },
+    "haste": {
+      "uuid": "092f4f58-3ce5-11ed-b878-0242ac120002",
+      "bonus_per_stack": 0.05
+    },
+    "critical_chance": {
+      "uuid": "0e0ddd12-0646-42b7-8daf-36b4ccf524df",
+      "bonus_per_stack": 0.05
+    }
+  }
 }

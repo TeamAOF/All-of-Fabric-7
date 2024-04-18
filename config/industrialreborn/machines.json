@@ -71,6 +71,10 @@
     "PoweredSpawnerInput": {
       "comment": "Powered Spawner Max Input (Energy per tick",
       "value": 512
+    },
+    "PoweredSpawnerExactCopy": {
+      "comment": "Should Powered Spawner Spawn Exact Copies Of Provided Entity",
+      "value": false
     }
   },
   "fluid_transposer": {

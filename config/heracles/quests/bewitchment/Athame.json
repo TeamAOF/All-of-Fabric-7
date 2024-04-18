@@ -7,27 +7,11 @@
       "type": "heracles:item",
       "item": "bewitchment:athame",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "campfire": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:campfire",
         "count": 1
@@ -35,14 +19,6 @@
       "type": "heracles:item"
     },
     "197B01B3DC9E5C8E": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "modern_industrialization:silver_ingot",
         "count": 8,

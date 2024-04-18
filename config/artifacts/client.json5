@@ -11,5 +11,7 @@
 	   Distance from the hotbar measured in pixels
 	   Negative values place the element left of the hotbar
 	*/
-	"cooldownOverlayOffset": 10
+	"cooldownOverlayOffset": 10,
+	// Whether the cosmetics toggle tooltip should be shown even when cosmetics are toggled on
+	"alwaysShowCosmeticsToggleTooltip": true
 }

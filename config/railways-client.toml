@@ -5,15 +5,15 @@
 	#Use a scanline shader when spying through a conductor
 	useConductorSpyShader = true
 	#.
-	#Disable the optifine warning screen [DANGER]: Using optifine With Steam 'n' Rails may cause issues and you will not get any support for optifine related issues.
-	disableOptifineNag = false
-	#.
 	#Whether to actually apply the dev cape (ignored for non-devs)
 	#This setting may require a relog to take effect
 	useDevCape = true
 	#.
 	#Show extended debug info in coupler goggle overlay
 	showExtendedCouplerDebug = false
+	#.
+	#Should the normal create conductor cap be rendered on top of the conductors existing hat?
+	renderNormalCap = true
 	#.
 	#Vertical offset for track overlays
 	#Range: -256.0 ~ 256.0
@@ -26,18 +26,38 @@
 	#Smoke Settings
 	[client.smoke]
 		#.
-		#Smoke emission rate on contraptions
-		#Range: 0.0 ~ 10.0
-		smokePercentage = 0.75
+		#Smoke particle style
+		#Allowed Values: VANILLA, OLD, CARTOON
+		smokeType = "CARTOON"
+
 		#.
-		#[in Ticks]
-		#Lifetime of smoke particles emitted by contraptions
-		#Range: 20 ~ 1000
-		smokeLifetime = 500
+		#Cartoon-style Smoke Settings
+		[client.smoke.cartoon]
+			#.
+			#Spawn faster-rising small puffs of smoke on an interval
+			spawnFasterPuffs = true
+			#.
+			#Spawn steam on an interval
+			spawnSteam = false
 		#.
-		#Smoke texture quality
-		#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
-		smokeQuality = "HIGH"
+		#Old-style Smoke Settings
+		[client.smoke.old]
+			#.
+			#Smoke emission rate on contraptions
+			#Range: 0.0 ~ 10.0
+			smokePercentage = 0.75
+			#.
+			#Thicker smoke (renders 2 extra layers per particle)
+			thickerSmoke = true
+			#.
+			#[in Ticks]
+			#Lifetime of smoke particles emitted by contraptions
+			#Range: 20 ~ 1000
+			smokeLifetime = 500
+			#.
+			#Smoke texture quality
+			#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
+			smokeQuality = "HIGH"
 	#.
 	#Journeymap Settings
 	[client.journeymap]
