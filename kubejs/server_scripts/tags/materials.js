@@ -65,6 +65,7 @@ ServerEvents.tags('item', event => {
     event.add("c:rods/gold", "modern_industrialization:gold_rod")
     event.add("c:rods/iron", "modern_industrialization:iron_rod")
     event.add("c:iron_rods", "modern_industrialization:iron_rod")
+    event.add("c:steel_rods", "modern_industrialization:steel_rod")
     event.add("c:dusts/diamond", "modern_industrialization:diamond_dust")
 
     const small_dusts = [
