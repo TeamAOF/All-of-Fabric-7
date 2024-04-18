@@ -26,6 +26,19 @@ ServerEvents.recipes(event => {
     A: 'modern_industrialization:lignite_coal',
 },
   id: 'modern_industrialization:materials/lignite_coal/craft/block_from_gem'
+},
+
+// Industrial TNT
+{
+  output: 'modern_industrialization:industrial_tnt',
+  pattern: ['DCD', 'ABA', 'DCD'],
+  key: {
+    A: 'techreborn:sulfuric_acid_bucket',
+    B: 'supplementaries:flint_block',
+    C: 'techreborn:nitrogen_bucket',
+    D: 'tconstruct:nether_grout'
+},
+  id: 'aof:industrial_tnt_tr'
 }
 ];
 
