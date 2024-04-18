@@ -5,38 +5,14 @@
       "type": "heracles:item",
       "item": "bewitchment:book_of_shadows",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
-    "148678122C840FA1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 16747259,
-          "Loot": "aof:loot_bags/magic/common",
-          "Name": "Magic Common Lootbag"
-        }
-      },
-      "type": "heracles:item"
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
     }
   },
   "display": {
