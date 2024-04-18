@@ -1,6 +1,28 @@
 {
+	// Enable Apple Cream Chocolate.
+	"isAppleCreamChocolateEnabled": true,
+	// Enable Apple Cream Dark Chocolate.
+	"isAppleCreamDarkChocolateEnabled": true,
+	// Enable Apple Cream Frosting.
+	"isAppleCreamFrostingBottleEnabled": true,
+	// Enable Apple Cream White Chocolate.
+	"isAppleCreamWhiteChocolateEnabled": true,
+	// Enable Apple Cream Frosted Chocolate Sweet Roll.
+	"isAppleCreamFrostedChocolateSweetRollEnabled": true,
+	// Enable Apple Cream Frosted Sweet Roll.
+	"isAppleCreamFrostedSweetRollEnabled": true,
+	// Enable Apple Cream Glazed Chocolate Donut.
+	"isAppleCreamGlazedChocolateDonutEnabled": true,
+	// Enable Apple Cream Glazed Donut.
+	"isAppleCreamGlazedDonutEnabled": true,
+	// Enable Apple Cream Chocolate Pastry Bar.
+	"isAppleCreamChocolatePastryBarEnabled": true,
+	// Enable Apple Cream Pastry Bar.
+	"isAppleCreamPastryBarEnabled": true,
 	// Enable Apple Popsicle.
 	"isApplePopsicleEnabled": true,
+	// Enable Apple Slice.
+	"isAppleSliceEnabled": true,
 	// Enable Bar of Dark Chocolate.
 	"isDarkChocolateBarEnabled": true,
 	// Enable Bar of White Chocolate.
@@ -39,10 +61,14 @@
 	"isBiscuitEnabled": true,
 	// Enable Black Gelatin Dessert Slice.
 	"isBlackGelatinDessertSliceEnabled": true,
+	// Enable Blackstrap Molasses.
+	"isBlackstrapMolassesBottleEnabled": true,
 	// Enable Blue Gelatin Dessert Slice.
 	"isBlueGelatinDessertSliceEnabled": true,
 	// Enable Brown Gelatin Dessert Slice.
 	"isBrownGelatinDessertSliceEnabled": true,
+	// Enable Brown Sugar.
+	"isBrownSugarEnabled": true,
 	// Enable Bread (Lettuce).
 	"isBreadLettuceEnabled": true,
 	// Enable Bread (Lettuce, Carrot).
@@ -63,6 +89,16 @@
 	"isButterEnabled": true,
 	// Enable Butter Dough.
 	"isButterDoughEnabled": true,
+	// Enable Butterscotch.
+	"isButterscotchEnabled": true,
+	// Enable Butterscotch Chips.
+	"isButterscotchChipsEnabled": true,
+	// Enable Butterscotch Chips Chocolate Cookie.
+	"isButterscotchChipsChocolateCookieEnabled": true,
+	// Enable Butterscotch Chips Cookie.
+	"isButterscotchChipsCookieEnabled": true,
+	// Enable Butterscotch Fudge.
+	"isButterscotchFudgeEnabled": true,
 	// Enable Cacao Butter.
 	"isCacaoButterEnabled": true,
 	// Enable Cacao Nibs.
@@ -71,6 +107,14 @@
 	"isCakeBaseEnabled": true,
 	// Enable Caramel.
 	"isCaramelEnabled": true,
+	// Enable Caramel Apple Slice.
+	"isCaramelAppleSliceEnabled": true,
+	// Enable Caramel Chips.
+	"isCaramelChipsEnabled": true,
+	// Enable Caramel Chips Chocolate Cookie.
+	"isCaramelChipsChocolateCookieEnabled": true,
+	// Enable Caramel Chips Cookie.
+	"isCaramelChipsCookieEnabled": true,
 	// Enable Caramel Filled Chocolate.
 	"isCaramelChocolateEnabled": true,
 	// Enable Caramel Filled Dark Chocolate.
@@ -81,6 +125,8 @@
 	"isCaramelPastryBarEnabled": true,
 	// Enable Caramel Filled White Chocolate.
 	"isCaramelWhiteChocolateEnabled": true,
+	// Enable Caramel Fudge.
+	"isCaramelFudgeEnabled": true,
 	// Enable Caramel Glazed Apple.
 	"isCaramelGlazedAppleEnabled": true,
 	// Enable Caramel Glazed Berries.
@@ -147,6 +193,8 @@
 	"isChocolateFrostedChocolateSweetRollEnabled": true,
 	// Enable Chocolate Frosted Sweet Roll.
 	"isChocolateFrostedSweetRollEnabled": true,
+	// Enable Chocolate Fudge.
+	"isChocolateFudgeEnabled": true,
 	// Enable Chocolate Glazed Apple.
 	"isChocolateGlazedAppleEnabled": true,
 	// Enable Chocolate Glazed Chocolate Donut.
@@ -173,6 +221,8 @@
 	"isClothFilterCacaoMassEnabled": true,
 	// Enable Cocoa Powder.
 	"isCocoaPowderEnabled": true,
+	// Enable Condensed Milk.
+	"isCondensedMilkBottleEnabled": true,
 	// Enable Chorus Fruit Cream Filled Chocolate.
 	"isChorusFruitCreamChocolateEnabled": true,
 	// Enable Chorus Fruit Cream Filled Dark Chocolate.
@@ -225,6 +275,8 @@
 	"isDarkChocolateChocolatePastryEnabled": true,
 	// Enable Dark Chocolate Filled Pastry.
 	"isDarkChocolatePastryEnabled": true,
+	// Enable Dark Chocolate Fudge.
+	"isDarkChocolateFudgeEnabled": true,
 	// Enable Dark Chocolate Glazed Apple.
 	"isDarkChocolateGlazedAppleEnabled": true,
 	// Enable Dark Chocolate Glazed Berries.
@@ -329,6 +381,18 @@
 	"isMagentaGelatinDessertSliceEnabled": true,
 	// Enable Marshmallow.
 	"isMarshmallowEnabled": true,
+	// Enable Marshmallow Butterscotch Fudge.
+	"isMarshmallowButterscotchFudgeEnabled": true,
+	// Enable Marshmallow Caramel Fudge.
+	"isMarshmallowCaramelFudgeEnabled": true,
+	// Enable Marshmallow Chocolate Fudge.
+	"isMarshmallowChocolateFudgeEnabled": true,
+	// Enable Marshmallow Dark Chocolate Fudge.
+	"isMarshmallowDarkChocolateFudgeEnabled": true,
+	// Enable Marshmallow Toffee Fudge.
+	"isMarshmallowToffeeFudgeEnabled": true,
+	// Enable Marshmallow White Chocolate Fudge.
+	"isMarshmallowWhiteChocolateFudgeEnabled": true,
 	// Enable Marshmallow Filled Chocolate.
 	"isMarshmallowChocolateEnabled": true,
 	// Enable Marshmallow Filled Dark Chocolate.
@@ -347,6 +411,10 @@
 	"isMiniGrahamCrackerPieCrustEnabled": true,
 	// Enable Mini S'mores Pie.
 	"isMiniSmoresPieEnabled": true,
+	// Enable Milk Powder.
+	"isMilkPowderEnabled": true,
+	// Enable Molasses.
+	"isMolassesBottleEnabled": true,
 	// Enable Orange Gelatin Dessert Slice.
 	"isOrangeGelatinDessertSliceEnabled": true,
 	// Enable Pasta.
@@ -363,12 +431,28 @@
 	"isPinkGelatinDessertSliceEnabled": true,
 	// Enable Potato Chips.
 	"isPotatoChipsEnabled": true,
-	// Enable Purple Gelatin Dessert Slice.
-	"isPurpleGelatinDessertSliceEnabled": true,
+	// Enable Powdered Sugar.
+	"isPowderedSugarEnabled": true,
 	// Enable Pressed Cocoa.
 	"isPressedCocoaEnabled": true,
+	// Enable Pumpernickel Bread.
+	"isPumpernickelBreadEnabled": true,
+	// Enable Pumpernickel Bread Slice.
+	"isPumpernickelBreadSliceEnabled": true,
+	// Enable Pumpernickel Dough.
+	"isPumpernickelDoughEnabled": true,
+	// Enable Purple Gelatin Dessert Slice.
+	"isPurpleGelatinDessertSliceEnabled": true,
+	// Enable Raw Butterscotch Chips Chocolate Cookie.
+	"isRawButterscotchChipsChocolateCookieEnabled": true,
+	// Enable Raw Butterscotch Chips Cookie.
+	"isRawButterscotchChipsCookieEnabled": true,
 	// Enable Raw Cake Base. Recommend 'disable' if Create Additions installed.
 	"isRawCakeBaseEnabled": true,
+	// Enable Raw Caramel Chips Chocolate Cookie.
+	"isRawCaramelChipsChocolateCookieEnabled": true,
+	// Enable Raw Caramel Chips Cookie.
+	"isRawCaramelChipsCookieEnabled": true,
 	// Enable Raw Chocolate Cookie.
 	"isRawChocolateCookieEnabled": true,
 	// Enable Raw Chocolate Pastry Bar Base.
@@ -393,6 +477,10 @@
 	"isRawSausagePattyEnabled": true,
 	// Enable Raw Sweet Roll Base.
 	"isRawSweetRollBaseEnabled": true,
+	// Enable Raw Toffee Chips Chocolate Cookie.
+	"isRawToffeeChipsChocolateCookieEnabled": true,
+	// Enable Raw Toffee Chips Cookie.
+	"isRawToffeeChipsCookieEnabled": true,
 	// Enable Raw White Chips Chocolate Cookie.
 	"isRawWhiteChipsChocolateCookieEnabled": true,
 	// Enable Raw White Chips Cookie.
@@ -427,6 +515,16 @@
 	"isSweetRollBaseEnabled": true,
 	// Enable Toast Slice.
 	"isToastSliceEnabled": true,
+	// Enable Toffee.
+	"isToffeeEnabled": true,
+	// Enable Toffee Chips.
+	"isToffeeChipsEnabled": true,
+	// Enable Toffee Chips Chocolate Cookie.
+	"isToffeeChipsChocolateCookieEnabled": true,
+	// Enable Toffee Chips Cookie.
+	"isToffeeChipsCookieEnabled": true,
+	// Enable Toffee Fudge.
+	"isToffeeFudgeEnabled": true,
 	// Enable Unbreaded Chicken Patty.
 	"isUnbreadedChickenPattyEnabled": true,
 	// Enable White Chips Chocolate Cookie.
@@ -443,6 +541,8 @@
 	"isWhiteChocolateChocolatePastryEnabled": true,
 	// Enable White Chocolate Filled Pastry.
 	"isWhiteChocolatePastryEnabled": true,
+	// Enable White Chocolate Fudge.
+	"isWhiteChocolateFudgeEnabled": true,
 	// Enable White Chocolate Glazed Apple.
 	"isWhiteChocolateGlazedAppleEnabled": true,
 	// Enable White Chocolate Glazed Berries.
@@ -483,38 +583,64 @@
 	"isRedGelatinDessertBlockEnabled": true,
 	// Enable Yellow Gelatin Dessert Block.
 	"isYellowGelatinDessertBlockEnabled": true,
+	// Enable Apple Cream Frosting Fluid.
+	"isAppleCreamFrostingFluidEnabled": true,
+	// Enable Berry Cream Frosting Fluid.
+	"isBerryCreamFrostingFluidEnabled": true,
+	// Enable Blackstrap Molasses Fluid.
+	"isBlackstrapMolassesFluidEnabled": true,
 	// Enable Black Gelatin Mix Fluid.
 	"isBlackGelatinMixFluidEnabled": true,
 	// Enable Blue Gelatin Mix Fluid.
 	"isBlueGelatinMixFluidEnabled": true,
 	// Enable Brown Gelatin Mix Fluid.
 	"isBrownGelatinMixFluidEnabled": true,
-	// Enable Berry Cream Frosting Fluid.
-	"isBerryCreamFrostingFluidEnabled": true,
+	// Enable Butterscotch Fluid.
+	"isButterscotchFluidEnabled": true,
+	// Enable Butterscotch Fudge Fluid.
+	"isButterscotchFudgeFluidEnabled": true,
 	// Enable Cacao Butter Fluid.
 	"isCacaoButterFluidEnabled": true,
 	// Enable Cacao Mass Fluid.
 	"isCacaoMassFluidEnabled": true,
+	// Enable Cane Syrup Fluid.
+	"isCaneSyrupFluidEnabled": true,
 	// Enable Caramel Fluid.
 	"isCaramelFluidEnabled": true,
+	// Enable Caramel Fudge Fluid.
+	"isCaramelFudgeFluidEnabled": true,
 	// Enable Chocolate Cream Frosting Fluid.
 	"isChocolateCreamFrostingFluidEnabled": true,
 	// Enable Chorus Fruit Cream Frosting Fluid.
 	"isChorusFruitCreamFrostingFluidEnabled": true,
+	// Enable Chocolate Fudge Fluid.
+	"isChocolateFudgeFluidEnabled": true,
 	// Enable Chocolate Milk Fluid.
 	"isChocolateMilkFluidEnabled": true,
+	// Enable Condensed Milk Fluid.
+	"isCondensedMilkFluidEnabled": true,
 	// Enable Cream Frosting Fluid.
 	"isCreamFrostingFluidEnabled": true,
 	// Enable Cyan Gelatin Mix Fluid.
 	"isCyanGelatinMixFluidEnabled": true,
 	// Enable Dark Chocolate Fluid.
 	"isDarkChocolateFluidEnabled": true,
+	// Enable Dark Chocolate Fudge Fluid.
+	"isDarkChocolateFudgeFluidEnabled": true,
 	// Enable Gelatin Mix Fluid.
 	"isGelatinMixFluidEnabled": true,
+	// Enable Glow Berry Cream Frosting Fluid.
+	"isGlowBerryCreamFrostingFluidEnabled": true,
 	// Enable Gray Gelatin Mix Fluid.
 	"isGrayGelatinMixFluidEnabled": true,
 	// Enable Green Gelatin Mix Fluid.
 	"isGreenGelatinMixFluidEnabled": true,
+	// Enable Hot Chocolate Fluid.
+	"isHotChocolateFluidEnabled": true,
+	// Enable Hot Dark Chocolate Fluid.
+	"isHotDarkChocolateFluidEnabled": true,
+	// Enable Hot White Chocolate Fluid.
+	"isHotWhiteChocolateFluidEnabled": true,
 	// Enable Light Blue Gelatin Mix Fluid.
 	"isLightBlueGelatinMixFluidEnabled": true,
 	// Enable Light Gray Gelatin Mix Fluid.
@@ -523,6 +649,8 @@
 	"isLimeGelatinMixFluidEnabled": true,
 	// Enable Magenta Gelatin Mix Fluid.
 	"isMagentaGelatinMixFluidEnabled": true,
+	// Enable Molasses Fluid.
+	"isMolassesFluidEnabled": true,
 	// Enable Orange Gelatin Mix Fluid.
 	"isOrangeGelatinMixFluidEnabled": true,
 	// Enable Pink Gelatin Mix Fluid.
@@ -531,18 +659,20 @@
 	"isPurpleGelatinMixFluidEnabled": true,
 	// Enable Red Gelatin Mix Fluid.
 	"isRedGelatinMixFluidEnabled": true,
-	// Enable Glow Berry Cream Frosting Fluid.
-	"isGlowBerryCreamFrostingFluidEnabled": true,
-	// Enable Hot Chocolate Fluid.
-	"isHotChocolateFluidEnabled": true,
-	// Enable Hot Dark Chocolate Fluid.
-	"isHotDarkChocolateFluidEnabled": true,
-	// Enable Hot White Chocolate Fluid.
-	"isHotWhiteChocolateFluidEnabled": true,
+	// Enable Slime Fluid.
+	"isSlimeFluidEnabled": true,
+	// Enable Sugar Cane Juice Fluid.
+	"isSugarCaneJuiceFluidEnabled": true,
+	// Enable Toffee Fluid.
+	"isToffeeFluidEnabled": true,
+	// Enable Toffee Fudge Fluid.
+	"isToffeeFudgeFluidEnabled": true,
 	// Enable Vegetable Oil Fluid.
 	"isVegetableOilFluidEnabled": true,
 	// Enable White Chocolate Fluid.
 	"isWhiteChocolateFluidEnabled": true,
+	// Enable White Chocolate Fudge Fluid.
+	"isWhiteChocolateFudgeFluidEnabled": true,
 	// Enable Yellow Gelatin Mix Fluid.
 	"isYellowGelatinMixFluidEnabled": true,
 	// Enable Beef Bun (Bacon, Lettuce).
@@ -653,6 +783,8 @@
 	"isBeefBunPeanutButterEnabled": true,
 	// Enable Beef Bun (Peanut Butter, Bacon).
 	"isBeefBunPeanutButterBaconEnabled": true,
+	// Enable Hamburger (Peanut Butter).
+	"isHamburgerPeanutButterEnabled": false,
 	// Enable Hamburger (Peanut Butter, Bacon).
 	"isHamburgerPeanutButterBaconEnabled": true,
 	// Enable Cinnamon Sweet Roll Base.

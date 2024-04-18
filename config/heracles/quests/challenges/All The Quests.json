@@ -17,26 +17,11 @@
   "tasks": {
     "406DD97392361D8E": {
       "title": "All The Quests",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "18FE9FDF00364A9A": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,

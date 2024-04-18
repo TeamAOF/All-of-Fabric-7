@@ -1,0 +1,11 @@
+{
+	"favorites": [
+		"{type:\"heracles:heracles\"}",
+		"{type:\"cadmus:cadmus\"}",
+		"{type:\"argonauts:party_management\"}",
+		"{type:\"argonauts:party_chat\"}",
+		"{type:\"prometheus:prometheus\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

@@ -19,5 +19,9 @@
   // Possible values: ALWAYS | NEVER | DEFAULT
   "teleportForceMainThread": "DEFAULT",
   // Whether the Mine Cells data should automatically get wiped after major updates
-  "autoWipeData": true
+  "autoWipeData": true,
+  // Disable the fall protection feature of the Ramparts. 
+  // This will let players explore the bottom of the dimension freely, but keep in mind: 
+  // that isn't the intended way to explore the dimension.
+  "disableFallProtection": false
 }

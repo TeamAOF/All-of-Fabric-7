@@ -1,0 +1,58 @@
+{
+	/* 
+	   
+	   ***********************
+	   Extra Overworld Deepslate Ores
+	    (Also affects the Mining, Climbing, & Caving Dims)
+	   ***********************
+	*/
+	"extraDiamondDeepslateVeinSize": 3,
+	"extraDiamondDeepslateVeinsPerChunk": 8,
+	"extraDiamondDeepslateMaxHeight": -50,
+	/* 
+	   
+	   ***********************
+	   Extra Nether Ores
+	    (Also affects the Nethering Dim)
+	   ***********************
+	*/
+	"extraAncientDebrisVeinSize": 3,
+	"extraAncientDebrisVeinsPerChunk": 8,
+	"extraAncientDebrisMaxHeight": 40,
+	/* 
+	   
+	   ***********************
+	   Hunting Dim Mobs
+	    - settings for mob attributes
+	   ***********************
+	*/
+	"zombieMaxHealth": 80.0,
+	"zombieAttackDamageBonus": 10.0,
+	"zombieArmorBonus": 10.0,
+	"zombieMovementBonus": 0.05,
+	"piglinMaxHealth": 80.0,
+	"piglinAttackDamageBonus": 25.0,
+	"piglinArmorBonus": 25.0,
+	"piglinMovementBonus": 0.05,
+	"piglinBruteMaxHealth": 120.0,
+	"piglinBruteAttackDamageBonus": 30.0,
+	"piglinBruteArmorBonus": 25.0,
+	"piglinBruteMovementBonus": 0.075,
+	"witherSkeletonMaxHealth": 120.0,
+	"witherSkeletonDamageBonus": 30.0,
+	"witherSkeletonArmorBonus": 25.0,
+	"witherSkeletonMovementBonus": 0.09,
+	/* 
+	   
+	   ***********************
+	   Hunting Dim Mobs
+	    - settings for armor/weapon
+	   ***********************
+	*/
+	"enableZombieGear": true,
+	"enablePiglinGear": true,
+	"enablePiglinBruteGear": true,
+	"enableWitherSkeletonGear": true,
+	"enableVexGear": true,
+	"gearDropChannce": 0.05
+}

@@ -4,157 +4,71 @@
   ],
   "tasks": {
     "obsidilith": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "bosses_of_mass_destruction:obsidilith"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "the_eye": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "adventurez:the_eye"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "void_shadow": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "adventurez:void_shadow"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "night_lich": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "bosses_of_mass_destruction:lich"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "conjunctivius": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0,
-          "nbt": {
-            "Damage": 0
-          }
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "minecraft:pig"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "gauntlet": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0,
-          "nbt": {
-            "Damage": 0
-          }
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "bosses_of_mass_destruction:gauntlet"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "blackstone_golem": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "adventurez:blackstone_golem"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "corrupted_champion": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "graveyard:lich"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     },
     "void_blossom": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "entity": {
         "type": "bosses_of_mass_destruction:void_blossom"
       },
       "amount": 1,
-      "title": "",
       "type": "heracles:kill_entity"
     }
   },
   "rewards": {
     "boss_rush_trophy": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "trofers:medium_pillar",
         "count": 1,

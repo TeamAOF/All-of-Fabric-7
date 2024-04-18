@@ -113,6 +113,9 @@
 		enableRedstoneControl = true
 		#Enables ender cell integration
 		enableEnderCell = true
+	[integrations.alloy_forgery]
+		#Enables alloy forgery integration
+		enableAlloyForgery = true
 	[integrations.team_reborn_energy]
 		#Enables energy storage integration
 		enableEnergyStorage = true
