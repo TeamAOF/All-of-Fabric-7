@@ -1,3 +1,58 @@
+# All of Fabric 7 | v2.1.0
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.1.0.md)_
+
+## DISCLAIMER: 
+* Bridges from Macaw's needs block updating.
+> Place any block above/next to the affected bridge or stairs, or break and replace the affected bridge or stairs, which will trigger an update for neighboring bridges.
+* New ores have been added. For existing worlds we highly recommend using the new Mining Dimension.
+> Search in REI for "@Mining" and you should see the tools needed to get yourself to one of the new 5 dimensions.
+
+### Added Mods ✅
+
+* [Alloy Forgery](https://www.curseforge.com/minecraft/mc-mods/alloy-forgery)
+* [Create: Interiors](https://www.curseforge.com/minecraft/mc-mods/interiors)
+* [Harmonia](https://www.curseforge.com/minecraft/mc-mods/harmonia)
+* [Hephaestus](https://www.curseforge.com/minecraft/mc-mods/hephaestus-fabric) (Tinkers Construct)
+* [HephaestusPlus (Hephaestus Addon)](https://www.curseforge.com/minecraft/mc-mods/hephaestusplus)
+* [Mining Dimensions](https://www.curseforge.com/minecraft/mc-mods/mining-dimensions-fabric)
+* [Mythic Metals](https://www.curseforge.com/minecraft/mc-mods/mythicmetals)
+* [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric)
+* [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
+* [Storage Delight](https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric)
+* [Styled Chat](https://www.curseforge.com/minecraft/mc-mods/styled-chat)
+* [Styled Player List](https://www.curseforge.com/minecraft/mc-mods/styled-player-list)
+
+### Removed Mods ❌ 
+
+* [Enhanced Celestials - Blood Moons & Harvest Moons](https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials-fabric)
+
+### Changes/Improvements ⭐
+
+* Rice Roll Medley entry in Hell's Kitchen has been replaced by Ratatouille **(AK)**
+* Added quests for Hephaestus (Tinkers) **(SubordinalBlue)**
+* Include our own custom Styled Player List & Styled Chat, same setup as our official servers **(Trent)**
+* Added back Modular Workbench & Rancher from Indrev **(AK)**
+* Added back Modular Workbench quest **(AK)**
+* MI trophy now depends on all MI quests **(SubordinalBlue)**
+* Botania trophy now depends on all Botania quests **(SubordinalBlue)**
+* Ad Astra trophy now depends on all Ad Astra quests **(SubordinalBlue)**
+* Clean up of formatting & categories within the Market **(VES)**
+* Added Hops Seeds, Barley Seeds, and Kernels from [Let's Do] Brewery to the Market **(VES)**
+* Added Crimson Grape Seeds and Warped Grape Seeds from [Let's Do] Vinery to the Market **(VES)**
+* Removed Blank Cake quest **(SubordinalBlue)**
+
+### Recipes 🪵
+
+* Unified paprika between Create Food & Croptopia **(AK)**
+* Fixed a couple blank Farmers Delight recipes through the Cooking Pot (Let's Do Meadow) **(AK)**
+
+### Bug Fixes 🪲
+
+* Fixed indrev quest lootbag entries **(SubordinalBlue)**
+* Fixed typos in MI quests **(SubordinalBlue)**
+---
+
 ### All of Fabric 7 | v2.0.2
 
 _Fabric Loader 0.15.7_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.0.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.0.2.md)_

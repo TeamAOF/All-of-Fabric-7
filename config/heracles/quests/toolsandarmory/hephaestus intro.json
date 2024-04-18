@@ -77,7 +77,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Hephaestus Intro"
+      "translate": "Hephaestus"
     }
   },
   "settings": {
