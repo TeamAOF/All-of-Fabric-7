@@ -1,4 +1,30 @@
-# All of Fabric 7 | v2.1.0
+## All of Fabric 7 | v2.1.1
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.1.1.md)_
+
+### Changes/Improvements ⭐
+
+* Set HARD difficulty as default when creating a world **(AK)**
+
+### Bug Fixes 🪲
+
+* Fixed keybind conflicts with Shift key (Sprint/Crouch) **(AK)**
+* Fixed keybind conflicts with T key (Chat) **(AK)**
+
+### Recipes 🪵
+
+* Added recipes for steel, bronze & tin rods through Rolling **(AK)**
+* Unified steel rods between MI & Ad Astra **(AK)**
+* Fixed unification not being applied to Alloy Forgery recipes **(AK)**
+* Removed Aluminum, Platinum, Titanium & Tungsten Ingot recipes from Alloy Forgery **(AK)**
+* Moved Tungsten Ingot recipe from Blast Furnace to Implosion Compressor (Tech Reborn) **(AK)**
+* Changed Tungsten Ingot recipe made through Tech Reborn **(AK)**
+* Removed alternative Industrial Centrifuge recipe using Refined Iron Ingots as input **(AK)**
+* Fixed duplication methods through small dusts **(AK)**
+* Added alternative Industrial TNT shaped recipe through TR progression **(AK)**
+---
+
+## All of Fabric 7 | v2.1.0
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.1.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.1.0.md)_
 
