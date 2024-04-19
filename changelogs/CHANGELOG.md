@@ -1,3 +1,16 @@
+## All of Fabric 7 | v2.1.2
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.1.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.1.2.md)_
+
+### Bug Fixes 🪲
+
+* Fixed config syncing on server join **(AK)**
+
+### Recipes 🪵
+
+* Removed Crafting Station variant from Hephaestus due to bugs, use the one from Enhanced Workstations **(AK)**
+---
+
 ## All of Fabric 7 | v2.1.1
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.1.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.1.1.md)_

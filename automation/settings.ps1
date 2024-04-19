@@ -26,11 +26,11 @@ $MODPACK_NAME = "All of Fabric 7"
 $CLIENT_NAME = "All of Fabric 7"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "2.1.1"
+$MODPACK_VERSION = "2.1.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "2.1.0"
+$LAST_MODPACK_VERSION = "2.1.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -194,4 +194,4 @@ $SERVER_FILE_DISPLAY_NAME = "All of Fabric 7 Server - $MODPACK_VERSION"
 $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
-$FILES_TO_INCLUDE_IN_MODS_FOLDER = @("mods/porting_lib-2.3.3.jar")
+$FILES_TO_INCLUDE_IN_MODS_FOLDER = @()
