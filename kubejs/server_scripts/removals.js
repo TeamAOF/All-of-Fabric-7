@@ -210,7 +210,8 @@ ServerEvents.recipes((event) => {
         'techreborn:ruby_spade',
         'onlyhammers:obsidian_hammer',
         'onlyhammers:lapis_hammer',
-        'onlyhammers:redstone_hammer'
+        'onlyhammers:redstone_hammer',
+        'tconstruct:crafting_station'
     ];
 
     id.forEach((id) => {

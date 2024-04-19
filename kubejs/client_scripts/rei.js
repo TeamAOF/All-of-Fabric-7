@@ -63,6 +63,7 @@ const DELETED_ITEMS = [
     'onlyhammers:obsidian_hammer',
     'onlyhammers:redstone_hammer',
     'onlyhammers:lapis_hammer',
+    'tconstruct:crafting_station'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
