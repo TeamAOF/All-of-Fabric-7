@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "casts",
     "hephaestus intro"
   ],
   "tasks": {
@@ -35,8 +36,8 @@
     "groups": {
       "Tools and Armory": {
         "position": [
-          0,
-          265
+          -50,
+          148
         ]
       }
     },

@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "hephaestus intro"
+    "hephaestus intro",
+    "smeltery"
   ],
   "tasks": {
     "Use a Foundry": {
@@ -40,8 +41,8 @@
     "groups": {
       "Tools and Armory": {
         "position": [
-          -50,
-          148
+          64,
+          222
         ]
       }
     },

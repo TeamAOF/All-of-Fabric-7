@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "parts",
     "hephaestus intro"
   ],
   "tasks": {
@@ -28,10 +29,11 @@
       "<h2 align=\"center\">Bring me...</h2>",
       "",
       "<h1 align=\"center\">a <i>smeltery!</i></h1>",
-      "",
-      "",
+      "\\",
       "<item id=\"tconstruct:smeltery_controller\" scale=\"4\"/>",
       "",
+      "",
+      "The smeltery",
       "---"
     ],
     "groups": {
