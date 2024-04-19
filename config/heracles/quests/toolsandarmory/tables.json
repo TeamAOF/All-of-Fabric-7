@@ -24,28 +24,36 @@
       "text": ""
     },
     "description": [
-      "---",
-      "",
-      "<h2 align=\"center\">Gotta catch them all.</h2>",
-      "",
-      "",
-      "<item id=\"tconstruct:crafting_station\" scale=\"4\"/>",
-      "<p align=\"center\">Crafting Station</p>",
-      "",
-      "<item id=\"tconstruct:tinker_station\" scale=\"4\"/>",
-      "<p align=\"center\">Tinker Station</p>",
-      "",
-      "<item id=\"tconstruct:part_builder\" scale=\"4\"/>",
-      "<p align=\"center\">Parts Builder</p>",
-      "",
-      "",
-      "---"
+      "<hr/>",
+      "<br/>",
+      "<h2 align='center'>Let's Table This Discussion</h2>",
+      "<br/>",
+      "<br/>",
+      "<p>Er... let's discuss tables. You will need at least one of each of three kinds:</p>",
+      "<br/>",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<item style='id:tconstruct:crafting_station;scale:4'>&#32;</item>",
+      "<p align='center'>Crafting Station</p>",
+      "</column>",
+      "<column>",
+      "<item style='id:tconstruct:part_builder;scale:4'>&#32;</item>",
+      "<p align='center'>Parts Builder</p>",
+      "</column>",
+      "<column>",
+      "<item style='id:tconstruct:tinker_station;scale:4'>&#32;</item>",
+      "<p align='center'>Tinker Station</p>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<hr/>"
     ],
     "groups": {
       "Tools and Armory": {
         "position": [
-          -64,
-          222
+          0,
+          265
         ]
       }
     },
