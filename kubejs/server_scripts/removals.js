@@ -145,7 +145,13 @@ ServerEvents.recipes((event) => {
         'bewitchment:silver_ingot_from_silver_block',
         'techreborn:blast_furnace/tungsten_ingot',
         'techreborn:blast_furnace/tungsten_ingot_from_small_dust',
-        'techreborn:crafting_table/machine/industrial_centrifuge'
+        'techreborn:crafting_table/machine/industrial_centrifuge',
+        'alloy_forgery:compat/alloys/steel_from_raw_ores',
+        'alloy_forgery:compat/alloys/steel_from_ores',
+        'mythicmetals:alloy_forge/alloy_steel_from_ingots',
+        'mythicmetals:alloy_forge/alloy_steel_from_raw_ores',
+        'mythicmetals:alloy_forge/alloy_steel_from_ores',
+        'alloy_forgery:compat/alloys/steel_from_ingots'
     ];
 
     const output = [
@@ -254,7 +260,8 @@ ServerEvents.recipes((event) => {
         'tungsten',
         'electrum',
         'tin',
-        'bronze'
+        'bronze',
+        'steel'
 
     ];
 
@@ -296,6 +303,7 @@ ServerEvents.recipes((event) => {
     small_dusts.forEach((item) => {
         event.remove({ id: 'techreborn:crafting_table/small_dust/' + item + '_small_dust_from_dust'});
         event.remove({ id: 'techreborn:crafting_table/dust/' + item + '_from_dust'});
+        event.remove({ id: 'techreborn:crafting_table/dust/' + item + '_dust_from_small'});
     });
     
 
