@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "parts",
-    "hephaestus intro"
+    "casts"
   ],
   "tasks": {
     "Use A Smeltery": {
@@ -29,18 +28,18 @@
       "<h2 align=\"center\">Bring me...</h2>",
       "",
       "<h1 align=\"center\">a <i>smeltery!</i></h1>",
-      "\\",
+      "",
       "<item id=\"tconstruct:smeltery_controller\" scale=\"4\"/>",
       "",
+      "<p style=\"align:center\">Mass melting, alloying, and even, um... entity <i>recycling</i>.</p>",
       "",
-      "The smeltery",
       "---"
     ],
     "groups": {
       "Tools and Armory": {
         "position": [
-          50,
-          148
+          69,
+          142
         ]
       }
     },

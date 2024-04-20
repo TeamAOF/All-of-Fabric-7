@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "hephaestus intro",
     "smeltery"
   ],
   "tasks": {
@@ -30,9 +29,11 @@
       "",
       "<p align=\"center\">/ˈfoundrē/</p>",
       "",
-      "<p align=\"center\">a workshop or factory for casting metal.</p>",
+      "<p align=\"center\"><i>a workshop or factory for casting metal.</i></p>",
       "",
       "<item id=\"tconstruct:foundry_controller\" scale=\"4\" />",
+      "",
+      "<p align=\"center\">Unalloyed. For your pleasure.</p>",
       "",
       "<h1 align=\"center\">🤘</h1>",
       "",
@@ -41,8 +42,8 @@
     "groups": {
       "Tools and Armory": {
         "position": [
-          64,
-          222
+          115,
+          142
         ]
       }
     },

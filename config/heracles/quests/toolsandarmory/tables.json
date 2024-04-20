@@ -29,7 +29,9 @@
       "<h2 align='center'>Let's Table This Discussion</h2>",
       "<br/>",
       "<br/>",
-      "<p>Er... let's discuss tables. You will need at least one of each of three kinds:</p>",
+      "<p>&#32; Er... let's discuss tables.</p>",
+      "<br/>",
+      "<p>&#32; You will need at least one of each of three kinds. When placed together, using any one will let you access the UI for all.</p>",
       "<br/>",
       "<br/>",
       "<columns>",
@@ -54,8 +56,8 @@
     "groups": {
       "Tools and Armory": {
         "position": [
-          0,
-          265
+          -69,
+          142
         ]
       }
     },
