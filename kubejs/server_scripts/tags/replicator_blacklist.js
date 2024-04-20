@@ -293,7 +293,8 @@ ServerEvents.tags('item', event => {
         'trofers:large_pillar',
         'trofers:small_plate',
         'trofers:medium_plate',
-        'trofers:large_plate'
+        'trofers:large_plate',
+        'industrialreborn:filled_soul_vial'
         
 
     ];
