@@ -13,7 +13,7 @@
   "rewards": {
     "1C33ED6AFA03FA1F": {
       "item": {
-        "id": "indrev:circuit_mk4",
+        "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
           "Type": "RARE",

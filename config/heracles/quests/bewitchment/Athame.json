@@ -20,8 +20,8 @@
     },
     "197B01B3DC9E5C8E": {
       "item": {
-        "id": "modern_industrialization:silver_ingot",
-        "count": 8,
+        "id": "lootbags:loot_bag",
+        "count": 1,
         "nbt": {
           "Type": "COMMON",
           "Color": 16747259,

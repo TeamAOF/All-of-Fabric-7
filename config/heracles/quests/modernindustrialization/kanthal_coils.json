@@ -65,6 +65,8 @@
       "# &&eKanthal Coils",
       "<br/>",
       "  /b/Kanthal Coils/b/ are a new type of coiling for your /b/EBF/b/, /6/allowing for a higher power draw/6/ and the capability to generate even more heat. Be careful, don't want to get burned. Ouch!",
+      "<br/>",
+      "/b/Kanthal Coils/b/ wont automatically cause your /b/EBF/b/ to start heating up to the /6/higher temperatures/6/. The controlling computer has the capabilities, you just need to adjust values to allow it to take full advantage of the upgrade. In this case, it's been simplified for you. Enter the /b/controller GUI/b/ and in the /6/top left corner/6/, you'll see a set of arrows. Press the one pointing to the right and it will change the settings from /b/Cupronickel/b/ tier to /b/Kanthal/b/ tier. Easy, right?",
       "<hr/>"
     ],
     "groups": {

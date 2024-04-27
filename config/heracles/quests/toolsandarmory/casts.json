@@ -1,14 +1,14 @@
 {
   "dependencies": [
-    "tables",
-    "hephaestus intro"
+    "parts"
   ],
   "tasks": {
     "Cast-away": {
       "type": "heracles:item",
-      "item": "#tconstruct:casts",
+      "item": "#tconstruct:casts/gold",
       "amount": 3,
-      "collection": "AUTOMATIC"
+      "collection": "AUTOMATIC",
+      "title": "Make any 3 Gold Casts"
     }
   },
   "rewards": {
@@ -25,26 +25,41 @@
       "text": ""
     },
     "description": [
-      "---",
-      "",
-      "<h1 align=\"center\">Cast Away!</h1>",
-      "",
-      "",
-      "",
-      "<item id=\"tconstruct:ingot_cast\" scale=\"4\"/>",
-      "",
-      "---"
+      "<hr/>",
+      "<br/>",
+      "<h1 style='align:center;italic'>Casts Away!</h1>",
+      "<br/>",
+      "<p>&#32; There are sand cast blanks that are cheap and good for one use only. Gold casts last, but must themselves be made by pouring molten gold over an part or item.</p>",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<item style='id:tconstruct:small_blade_sand_cast;scale:3'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item style='id:tconstruct:ingot_cast;scale:3'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item style='id:tconstruct:hammer_head_red_sand_cast;scale:3'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<br/>",
+      "<p>&#32; A Cast Chest is handy for storing your casts, and also shares it's UI with the other tables placed alongside.</p>",
+      "<br/>",
+      "<item style='id:tconstruct:cast_chest;scale:4'>&#32;</item>",
+      "<br/>",
+      "<hr/>"
     ],
     "groups": {
       "Tools and Armory": {
         "position": [
-          -64,
-          222
+          23,
+          142
         ]
       }
     },
     "icon": {
-      "item": "#tconstruct:casts",
+      "item": "#tconstruct:casts/gold",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

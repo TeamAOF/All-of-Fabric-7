@@ -104,6 +104,14 @@
 		{
 			"id": "universal_shops:admin_trade_block",
 			"required": false
+		},
+		{
+			"id": "numismatic-overhaul.shop",
+			"required": false
+		},
+		{
+			"id": "numismatic-overhaul.inexhaustible_shop",
+			"required": false
 		}
 	]
 }
