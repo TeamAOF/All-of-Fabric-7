@@ -9,8 +9,4 @@ ServerEvents.recipes(event => {
     // Chests
     event.replaceInput({}, '#c:wooden_chests', '#c:wooden_chests')
     event.replaceInput({}, 'minecraft:chest', '#c:wooden_chests')
-
-    // Bacon
-    event.replaceInput({}, 'croptopia:bacon', '#c:raw_bacon')
-    event.replaceInput({}, 'croptopia:cooked_bacon', '#c:cooked_bacon')
 });
