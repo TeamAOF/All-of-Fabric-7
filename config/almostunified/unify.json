@@ -20,7 +20,8 @@
     "bakery",
     "createfood",
     "createdeco",
-    "mythicmetals"
+    "mythicmetals",
+    "naturalist"
   ],
   "stoneStrata": [
     "stone",
@@ -70,7 +71,8 @@
     "c:bun",
     "c:salts",
     "c:netherrack_dusts",
-    "c:paprika"
+    "c:paprika",
+    "c:cooked_eggs"
   ],
   "materials": [
     "aluminum",

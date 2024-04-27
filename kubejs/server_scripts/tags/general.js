@@ -65,8 +65,11 @@ bw_wooden_chests.forEach((item) => {
 
 ServerEvents.tags('block', event => {
 
-  //fix BYG bookshelves not working for enchanting
-  event.add('chipped:bookshelf', /^byg:.+_bookshelf$/)
+  // Soul Sand
+  event.remove('spectrum:primordial_fire_base_blocks', 'minecraft:soul_fire_base_blocks')
+
+  // fix BYG bookshelves not working for enchanting
+  // event.add('chipped:bookshelf', /^byg:.+_bookshelf$/)
 
   // AE2 growth accelerator support for additional budding blocks
   const budding_blocks = [

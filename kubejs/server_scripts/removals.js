@@ -151,7 +151,10 @@ ServerEvents.recipes((event) => {
         'mythicmetals:alloy_forge/alloy_steel_from_ingots',
         'mythicmetals:alloy_forge/alloy_steel_from_raw_ores',
         'mythicmetals:alloy_forge/alloy_steel_from_ores',
-        'alloy_forgery:compat/alloys/steel_from_ingots'
+        'alloy_forgery:compat/alloys/steel_from_ingots',
+        'naturalist:cooked_egg',
+        'naturalist:cooked_egg_from_smoking',
+        'naturalist:cooked_egg_from_campfire_cooking'
     ];
 
     const output = [
@@ -261,7 +264,8 @@ ServerEvents.recipes((event) => {
         'electrum',
         'tin',
         'bronze',
-        'steel'
+        'steel',
+        'lead'
 
     ];
 
