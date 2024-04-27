@@ -36,3 +36,4 @@ key_packedup.keys.openbag:key.keyboard.b:NONE
 key_key.portable_tables.open_furnace:key.keyboard.unknown:NONE
 key_key.travelersbackpack.inventory:key.keyboard.b:NONE
 key_key.trashslot.toggle:key.keyboard.unknown:NONE
+key_key.mute_microphone:key.keyboard.unknown:NONE
