@@ -490,10 +490,63 @@
          },
          "category":"farmingforblockheads:seeds"
       },
+      {
+         "output":{
+            "item":"vinery:savanna_grape_seeds_red"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"vinery:savanna_grape_seeds_white"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"vinery:taiga_grape_seeds_red"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"vinery:taiga_grape_seeds_white"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"vinery:jungle_grape_seeds_red"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
+      {
+         "output":{
+            "item":"vinery:jungle_grape_seeds_white"
+         },
+         "payment":{
+            "item":"minecraft:emerald"
+         },
+         "category":"farmingforblockheads:seeds"
+      },
 
 
-
-
+      
       
       {
          "output":{
