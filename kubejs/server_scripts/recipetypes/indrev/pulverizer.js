@@ -145,4 +145,41 @@ ServerEvents.recipes(event => {
             processTime: 300
         });
     });
+
+    // Mythic Metals
+    const mythicmetals = [
+        'adamantite',
+        'aqaurium',
+        'banglum',
+        'carmot',
+        'kyber',
+        'morkite',
+        'mythril',
+        'orichalcum',
+        'osmium',
+        'palladium',
+        'prometheum',
+        'quadrillum',
+        'runite',
+        'starrite',
+        'stormyx'
+    ];
+
+    mythicmetals.forEach((item) => {
+        event.recipes.indrev.pulverize({
+
+            type: "indrev:pulverize",
+            ingredients: {
+
+                tag: "c:" + item + "_ores",
+                count: 1
+            },
+            output: {
+                item: "mythicmetals:raw_" + item,
+                count: 2
+            },
+            processTime: 300
+
+        });
+    });
 });

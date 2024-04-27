@@ -166,4 +166,42 @@ ServerEvents.recipes(event => {
   })
 });
 
+const mythicmetals = [
+  'adamantite',
+  'aqaurium',
+  'banglum',
+  'carmot',
+  'kyber',
+  'morkite',
+  'mythril',
+  'orichalcum',
+  'osmium',
+  'palladium',
+  'prometheum',
+  'quadrillum',
+  'runite',
+  'starrite',
+  'stormyx'
+];
+
+mythicmetals.forEach((item) => { 
+event.custom({
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "tag": "c:" + item + "_ores",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "mythicmetals:raw_" + item,
+      "amount": 3
+    }
+  ]
+})
+});
+
 })

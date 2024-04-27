@@ -30,7 +30,9 @@ ServerEvents.tags('item', event => {
 
   // Bacon
   event.add('c:raw_bacon', 'croptopia:bacon')
+  event.add('c:raw_bacon', 'farmersdelight:bacon')
   event.add('c:cooked_bacon', 'croptopia:cooked_bacon')
+  event.add('c:cooked_bacon', 'farmersdelight:cooked_bacon')
 
   // Eggs
   event.add('c:eggs', 'duckling:duck_egg')
