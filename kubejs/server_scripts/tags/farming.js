@@ -24,13 +24,15 @@ ServerEvents.tags('item', event => {
   event.add('c:doughs', 'create:dough')
   event.add('c:doughs', 'bakery:dough')
 
-   // Garlic
-   event.add('c:garlic', 'bewitchment:garlic')
-   event.add('c:crops/garlic', 'bewitchment:garlic')
+  // Garlic
+  event.add('c:garlic', 'bewitchment:garlic')
+  event.add('c:crops/garlic', 'bewitchment:garlic')
 
   // Bacon
   event.add('c:raw_bacon', 'croptopia:bacon')
+  event.add('c:raw_bacon', 'farmersdelight:bacon')
   event.add('c:cooked_bacon', 'croptopia:cooked_bacon')
+  event.add('c:cooked_bacon', 'farmersdelight:cooked_bacon')
 
   // Duck eggs
   event.add('c:eggs', 'duckling:duck_egg')
@@ -38,13 +40,13 @@ ServerEvents.tags('item', event => {
   // event.add('naturalist:snake_temp_items', 'duckling:duck_egg')
   event.add('farmersdelight:cabbage_roll_ingredients', 'duckling:duck_egg')
 
-   // Strawberries
-   event.add('c:strawberries', 'bakery:strawberry')
+  // Strawberries
+  event.add('c:strawberries', 'bakery:strawberry')
 
-   // Cheese
-   event.add('c:cheese', 'croptopia:cheese')
-   event.add('c:cheeses', 'meadow:piece_of_cheese')
+  // Cheese
+  event.add('c:cheese', 'croptopia:cheese')
+  event.add('c:cheeses', 'meadow:piece_of_cheese')
 
-   // Seeds
-   event.add('c:seeds', 'supplementaries:flax_seeds')
+  // Seeds
+  event.add('c:seeds', 'supplementaries:flax_seeds')
 });
