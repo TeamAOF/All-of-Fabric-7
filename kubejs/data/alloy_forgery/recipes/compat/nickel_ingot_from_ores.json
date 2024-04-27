@@ -16,7 +16,6 @@
   ],
   "output": {
     "priority": [
-      "techreborn:nickel_ingot",
       "modern_industrialization:nickel_ingot"
     ],
     "default": "c:nickel_ingots",
