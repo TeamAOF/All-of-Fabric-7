@@ -63,7 +63,16 @@ const DELETED_ITEMS = [
     'onlyhammers:obsidian_hammer',
     'onlyhammers:redstone_hammer',
     'onlyhammers:lapis_hammer',
-    'tconstruct:crafting_station'
+    'tconstruct:crafting_station',
+    'mythicmetals:copper_sword',
+    'mythicmetals:copper_axe',
+    'mythicmetals:copper_pickaxe',
+    'mythicmetals:copper_shovel',
+    'mythicmetals:copper_hoe',
+    'mythicmetals:copper_helmet',
+    'mythicmetals:copper_chestplate',
+    'mythicmetals:copper_leggings',
+    'mythicmetals:copper_boots'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));

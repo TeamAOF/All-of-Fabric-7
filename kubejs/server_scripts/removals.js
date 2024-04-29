@@ -220,7 +220,16 @@ ServerEvents.recipes((event) => {
         'onlyhammers:obsidian_hammer',
         'onlyhammers:lapis_hammer',
         'onlyhammers:redstone_hammer',
-        'tconstruct:crafting_station'
+        'tconstruct:crafting_station',
+        'mythicmetals:copper_sword',
+        'mythicmetals:copper_axe',
+        'mythicmetals:copper_pickaxe',
+        'mythicmetals:copper_shovel',
+        'mythicmetals:copper_hoe',
+        'mythicmetals:copper_helmet',
+        'mythicmetals:copper_chestplate',
+        'mythicmetals:copper_leggings',
+        'mythicmetals:copper_boots'
     ];
 
     id.forEach((id) => {
