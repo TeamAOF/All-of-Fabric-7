@@ -1,7 +1,7 @@
 StartupEvents.registry('item', event => {
 
 	event.create('aof7_logo').displayName('AOF7')
-	event.create('completionist').displayName('Completionist Medal')
+	event.create('completionist').displayName('Completionist Medal').rarity('Epic')
 	event.create('quester').displayName('All The Quests')
 	event.create('check').displayName('check mark')
 	// event.create('croptopia_fertilizer').displayName('Croptopia Fertilizer') //original bag texture from sukuro120 on planetminecraft

@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "base": "#dc143c",
+    "accent": "#606060"
+  },
+  "display": {
+    "offset": {
+      "y": 5.5
+    },
+    "scale": 1.1
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "kubejs:completionist_cup",
+    "count": 1
+  },
+  "animation": {
+      "type": "spinning",
+      "speed": 0.20
+    },
+  "name": {
+    "color": "#F6D227",
+    "text": "Completionist Trophy"
+  }
+}
