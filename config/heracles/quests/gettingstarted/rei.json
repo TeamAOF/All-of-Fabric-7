@@ -41,12 +41,8 @@
       "  Yes, there is a lot to do, but I will let you in on a really helpful feature of this world. Look at your inventory; see the things to the left and right of it? You should see a bunch of items and blocks. That's your /b/Recipe Electronic Interface/b/ or as I will refer to it: **/b/REI/b/**. This is a massive database of everything in your world.",
       "<br/>",
       "  Your REI, using the electrical signals in your nervous system to power the knowledge center in your brain, displays recipes and uses for items, blocks, tools, armor, plants, foods, entities, structures, special procedures, and more. Use your REI to your advantage as it will be a huge help on your journey.",
-      "<hr/>",
-      "",
-      "<p>Hello ",
-      "<span style=\"color:lawngreen;italic\">green</span> World!</p>",
-      "",
-      "<p style=\"align:center;bold;color:goldenrod\">Hello.</p>"
+      "<br/>",
+      "<hr/>"
     ],
     "groups": {
       "Getting Started": {
