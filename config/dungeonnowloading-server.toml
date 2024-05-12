@@ -1,0 +1,35 @@
+[general-settings]
+	#Whether the items show helpful tooltip
+	toggle_helpful_tooltip = true
+	#Whether the blocks added by the mod cause destruction
+	toggle_destructive_blocks = false
+[multiplayer-boss-scaling]
+	#Whether the boss scales with number of players.
+	toggle_multiplayer_scaling = true
+	#Multiplies the boss health by this value per additional player.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	multiplayer_boss_health_scale = 0.5
+	#Multiplies the boss attack by this value per additional player.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	multiplayer_boss_attack_scale = 0.0
+	#Whether the boss drops loot for all the players that fought the boss.
+	toggle_multiplayer_boss_loot = true
+[boss-scaling]
+	#Multiplies the boss health by this value.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	boss_health_scale = 1.0
+	#Multiplies the boss attack damage by this value.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	boss_damage_scale = 1.0
+	#Enables the boss to reset when no player is near the boss.
+	toggle_boss_reset = true
+[mob-scaling-config]
+	#Multiplies the health of the pre spawned mob in the dungeon by this value.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	dungeon_mob_health_scale = 1.0
+	#Multiplies the attack of the pre spawned mob in the dungeon by this value.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	dungeon_mob_attack_scale = 1.0
+[pvp-settings]
+	#Whether some features work for Pvp purpose
+	toggle_pvp = false

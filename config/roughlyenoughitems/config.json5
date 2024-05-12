@@ -71,6 +71,7 @@
 		"scrollingEntryListWidget": false,
 		// Declares whether entry panel should be invisible when not searching
 		"hideEntryPanelIfIdle": false,
+		"rainbow": false,
 		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
 		"horizontalEntriesBoundariesColumns": 50,

@@ -229,7 +229,8 @@ ServerEvents.recipes((event) => {
         'mythicmetals:copper_helmet',
         'mythicmetals:copper_chestplate',
         'mythicmetals:copper_leggings',
-        'mythicmetals:copper_boots'
+        'mythicmetals:copper_boots',
+        'kubejs:completionist_cup'
     ];
 
     id.forEach((id) => {

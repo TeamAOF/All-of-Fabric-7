@@ -5,89 +5,11 @@
       "name": "HeyAmAK",
       "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
     },
-    "time": 1709765790128,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/skaKQgGP7G"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "HeyAmAK",
-      "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
-    },
-    "time": 1709765679096,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/mx1mPHko4z"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "HeyAmAK",
-      "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
-    },
-    "time": 1709765377098,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/7pPWhm2HYh"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "HeyAmAK",
-      "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
-    },
     "time": 1709764862257,
     "type": "Heap dump",
     "data": {
       "type": "file",
       "value": "C:\\Users\\antho\\Documents\\AOF\\Curseforge\\minecraft\\Instances\\All-of-Fabric-7\\config\\spark\\heap-2024-03-06_23.40.53.hprof"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "HeyAmAK",
-      "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
-    },
-    "time": 1709764786660,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/TvxaiHiwL5"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "HeyAmAK",
-      "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
-    },
-    "time": 1709764741207,
-    "type": "Heap dump summary",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/bdJoQnrUie"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "HeyAmAK",
-      "uniqueId": "38113444-0bc0-4502-9a4c-17903067907c"
-    },
-    "time": 1709764652507,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/mUJkhJDRyF"
     }
   }
 ]

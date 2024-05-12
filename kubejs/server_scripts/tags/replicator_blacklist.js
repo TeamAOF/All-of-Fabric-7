@@ -294,7 +294,8 @@ ServerEvents.tags('item', event => {
         'trofers:small_plate',
         'trofers:medium_plate',
         'trofers:large_plate',
-        'industrialreborn:filled_soul_vial'
+        'industrialreborn:filled_soul_vial',
+        'kubejs:completionist_cup'
         
 
     ];

@@ -7,7 +7,6 @@
 ServerEvents.tags('item', event => {
 
   // Farmland
-  event.add('c:farmland', 'byg:lush_farmland')
   event.add('c:farmland', 'farmersdelight:rich_soil_farmland')
   event.add('c:farmland', 'farmingforblockheads:fertilized_farmland_rich')
   event.add('c:farmland', 'farmingforblockheads:fertilized_farmland_rich_stable')
@@ -37,7 +36,7 @@ ServerEvents.tags('item', event => {
   // Eggs
   event.add('c:eggs', 'duckling:duck_egg')
   event.add('balm:eggs', 'duckling:duck_egg')
-  // event.add('naturalist:snake_temp_items', 'duckling:duck_egg')
+  event.add('naturalist:snake_temp_items', 'duckling:duck_egg')
   event.add('farmersdelight:cabbage_roll_ingredients', 'duckling:duck_egg')
   event.add('c:cooked_eggs', 'farmersdelight:fried_egg')
 

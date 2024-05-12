@@ -47,7 +47,8 @@
     "disable_notifications": false,
     "disable_message_styles": false
   },
-  "vanilla": {
-    "vanilla_textures": false
+  "client": {
+    "vanilla_textures": false,
+    "old_textures": false
   }
 }

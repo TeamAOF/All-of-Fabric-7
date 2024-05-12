@@ -21,6 +21,9 @@
 	#.
 	#Skip clientside train derailing. This prevents stuttering when a train places tracks, but trains will not appear derailed when they crash
 	skipClientDerailing = false
+	#.
+	#Should flywheels and blocks extending the FlywheelBlock class be animated when apart of trains?
+	animatedFlywheels = true
 
 	#.
 	#Smoke Settings

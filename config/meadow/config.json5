@@ -1,0 +1,12 @@
+/*
+Meadow Config
+
+===========
+Discord: https://discord.gg/Vqu6wYZwdZ
+Modrinth: https://modrinth.com/mod/lets-do-meadow
+CurseForge: https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow
+*/
+{
+	// Enable or disable custom entity textures.
+	"custom_entity_textures": true
+}

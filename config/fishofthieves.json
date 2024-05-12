@@ -7,7 +7,7 @@
     "simpleSpawningCondition": false,
     "neutralFishBehavior": false,
     "displayAllFishVariantInCreativeTab": false,
-    "dropAndPickFishesWithVariant": false,
+    "enableFishItemWithAllVariant": false,
     "displayTrophySpawnEggInCreativeTab": false
   },
   "spawnRate": {

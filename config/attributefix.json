@@ -209,17 +209,6 @@
         "value": 1000
       }
     },
-    "additionalentityattributes:magic_protection": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "additionalentityattributes:player.lava_visibility": {
       "enabled": false,
       "min": {
@@ -251,28 +240,6 @@
       "max": {
         "default": 16,
         "value": 16
-      }
-    },
-    "additionalentityattributes:bonus_loot_count_rolls": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 128,
-        "value": 128
-      }
-    },
-    "additionalentityattributes:lung_capacity": {
-      "enabled": false,
-      "min": {
-        "default": -40000,
-        "value": -40000
-      },
-      "max": {
-        "default": 40000,
-        "value": 40000
       }
     },
     "spell_power:frost": {
@@ -308,17 +275,6 @@
         "value": 16
       }
     },
-    "tiered:generic.crit_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -352,28 +308,6 @@
         "value": 1000000
       }
     },
-    "eldritch_end:corruption_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "additionalentityattributes:dig_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "obscure_api:accuracy": {
       "enabled": false,
       "min": {
@@ -394,17 +328,6 @@
       "max": {
         "default": 128,
         "value": 128
-      }
-    },
-    "additionalentityattributes:water_visibility": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "zenith_attributes:armor_shred": {
@@ -495,17 +418,6 @@
         "value": 1024
       }
     },
-    "tiered:generic.durable": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "spell_power:haste": {
       "enabled": false,
       "min": {
@@ -537,17 +449,6 @@
       "max": {
         "default": 16,
         "value": 16
-      }
-    },
-    "additionalentityattributes:critical_bonus_damage": {
-      "enabled": false,
-      "min": {
-        "default": -1,
-        "value": -1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "minecraft:generic.flying_speed": {
@@ -645,7 +546,7 @@
         "value": 1
       },
       "max": {
-        "default": 1024,
+        "default": 1000000,
         "value": 1000000
       }
     },
@@ -691,17 +592,6 @@
       "max": {
         "default": 1,
         "value": 1
-      }
-    },
-    "additionalentityattributes:dropped_experience": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "additionalentityattributes:player.critical_bonus_damage": {
@@ -770,17 +660,6 @@
         "value": 2048
       }
     },
-    "eldritch_end:corruption": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "additionalentityattributes:player.bonus_rare_loot_rolls": {
       "enabled": false,
       "min": {
@@ -790,6 +669,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "additionalentityattributes:generic.water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "obscure_api:resilience": {
@@ -847,17 +737,6 @@
         "value": 16
       }
     },
-    "tiered:generic.range_attack_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "mythicmetals:elytra_rocket_speed": {
       "enabled": false,
       "min": {
@@ -889,17 +768,6 @@
       "max": {
         "default": 1000,
         "value": 1000
-      }
-    },
-    "additionalentityattributes:lava_visibility": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "diet:natural_regeneration": {
@@ -1034,17 +902,6 @@
         "value": 1
       }
     },
-    "additionalentityattributes:water_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "dml-refabricated:unrotten_flesh": {
       "enabled": false,
       "min": {
@@ -1054,17 +911,6 @@
       "max": {
         "default": 16,
         "value": 16
-      }
-    },
-    "biomemakeover:projectile_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 30,
-        "value": 30
       }
     },
     "obscure_api:parry": {
@@ -1254,28 +1100,6 @@
         "value": 10
       }
     },
-    "additionalentityattributes:lava_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
-    "additionalentityattributes:bonus_rare_loot_rolls": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 128,
-        "value": 128
-      }
-    },
     "dml-refabricated:feather_falling": {
       "enabled": false,
       "min": {
@@ -1288,17 +1112,6 @@
       }
     },
     "spell_power:healing": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
-    "tiered:generic.dig_speed": {
       "enabled": false,
       "min": {
         "default": 0,

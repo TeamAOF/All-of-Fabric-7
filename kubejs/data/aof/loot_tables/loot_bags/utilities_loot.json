@@ -450,18 +450,6 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "kibe:cooler",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
-          },
-
-          {
-            "type": "minecraft:item",
-            "weight": 1,
             "name": "wands:iron_wand",
             "functions": [
               {

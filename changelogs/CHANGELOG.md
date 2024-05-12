@@ -1,3 +1,58 @@
+## All of Fabric 7 | v2.2.0
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.0.md)_
+
+### Added Mods ✅
+
+  * [Amecs](https://www.curseforge.com/minecraft/mc-mods/amecs)
+  * [Dungeon Now Loading 1%](https://www.curseforge.com/minecraft/mc-mods/dungeon-now-loading)
+  * [Farmer's Knives](https://www.curseforge.com/minecraft/mc-mods/farmers-knives)
+  * [Kibe Compat](https://www.curseforge.com/minecraft/mc-mods/kibe-compat)
+  * [Nether's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated)
+  * [PlayerAbilityLib](https://www.curseforge.com/minecraft/mc-mods/pal)
+  * [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-unofficial-fabric-port)
+  * [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core-unofficial-fabric-port)
+  * [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-unofficial-fabric-port)
+  * [Tamago](https://www.curseforge.com/minecraft/mc-mods/tamago)
+  * [TechReborn Player Ability Lib Compat](https://www.curseforge.com/minecraft/mc-mods/techreborn-player-ability-lib-compat)
+
+### Removed Mods ❌
+
+  * [Backported Wolves](https://www.curseforge.com/minecraft/mc-mods/backported-wolves)
+  * [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
+  * [CorgiLib](https://www.curseforge.com/minecraft/mc-mods/corgilib)
+  * [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric)
+  * [Reese's Sodium Options](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options)
+
+### Changes/Improvements ⭐
+
+* Added the Completionist Cup **(AK)**
+* Blacklisted soul vials in Replicator **(AK)**
+* Removed Copper tools & gear from Mythic Metals **(AK)**
+* Lowered rates of Jewelry RPG in loottables **(Nitrofenix)**
+
+### Bug Fixes 🪲
+
+* Fixed flight not working with the Quantum Chestplate from TR **(Thanks Linguardium)**
+* Fixed an issue with not being able to pour liquids into casting channels **(AlphaMode)**
+* Fixed keybind conflict with M key **(AK)**
+* Fixed an issues where the wrong type of fire would form on Soul Sand blocks **(AK)**
+* Fixed an issue where sheep variants wouldnt render properly **(satisfy)**
+* Fixed an issue where ultimine wouldnt work with Tinkers tools **(AlphaMode)**
+* Fixed missing elytra chest loottable **(AK)**
+
+### Recipes 🪵
+
+* Added mythic metals raw ore processing to MI, TR & Indrev **(AK)**
+* Added missing grape variants to the CFB market **(VES)**
+* Allow flax seeds into recipes using c:seeds tag **(nitrofenix)**
+* Fixed advanced netherite recipes **(AK)**
+* Fixed more duplication methods through small dusts **(AK)**
+* Fixed an issue where cooked eggs wouldnt be unified correctly **(AK)**
+* Fixed an issue where bacon wouldnt be unified correctly **(AK)**
+* Removed unintentional progression of Steel through Alloy Forgery **(AK)**
+---
+
 ## All of Fabric 7 | v2.1.2
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.1.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.1.2.md)_

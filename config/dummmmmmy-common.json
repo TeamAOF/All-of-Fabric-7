@@ -13,7 +13,8 @@
     "DPS_mode": "DYNAMIC",
     "disable_equipment_damage": true,
     "maximum_out_of_combat_interval": 120,
-    "dummy_decoy": false
+    "dummy_decoy": false,
+    "xp_per_damage_on_hit": 0.0
   },
   "mobs_damage_numbers": {
     "damage_mode": "NONE",
