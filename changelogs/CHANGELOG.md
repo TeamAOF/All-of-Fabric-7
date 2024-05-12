@@ -4,11 +4,12 @@ _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 
 ### Added Mods ✅
 
-  * [Modern KeyBinding](https://www.curseforge.com/minecraft/mc-mods/modern-keybinding-fabric)
+* [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
+* [Modern KeyBinding](https://www.curseforge.com/minecraft/mc-mods/modern-keybinding-fabric)
 
 ### Removed Mods ❌
 
-  * [Amecs](https://www.curseforge.com/minecraft/mc-mods/amecs)
+* [Amecs](https://www.curseforge.com/minecraft/mc-mods/amecs)
 
 ### Bug Fixes 🪲
 

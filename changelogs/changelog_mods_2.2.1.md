@@ -2,6 +2,7 @@
 
 ### Added
 
+  * [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) (by [Jaredlll08](https://www.curseforge.com/members/Jaredlll08/projects))
   * [Modern KeyBinding [Fabric]](https://www.curseforge.com/minecraft/mc-mods/modern-keybinding-fabric) (by [MikhailTapio](https://www.curseforge.com/members/MikhailTapio/projects))
 
 ### Removed

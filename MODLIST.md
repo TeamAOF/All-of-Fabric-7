@@ -87,6 +87,7 @@
   * [compressed_blocks-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/compressed-blocks-for-fabric/files/4810096) (by [TheWinABagel](https://www.curseforge.com/members/TheWinABagel/projects))
   * [connectedglass-1.1.11-fabric-mc1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/connected-glass/files/5002585) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
   * [connectiblechains-2.2.1+1.20.1.jar](https://www.curseforge.com/minecraft/mc-mods/connectible-chains/files/4615622) (by [legoatoom](https://www.curseforge.com/members/legoatoom/projects))
+  * [Controlling-fabric-1.20.1-12.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/controlling/files/4646681) (by [Jaredlll08](https://www.curseforge.com/members/Jaredlll08/projects))
   * [convenientdecor-0.4.1.jar](https://www.curseforge.com/minecraft/mc-mods/convenient-decor/files/5192637) (by [mim1q](https://www.curseforge.com/members/mim1q/projects))
   * [cookingforblockheads-fabric-1.20.1-16.0.4.jar](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads-fabric/files/5263522) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
   * [Copycats-fabric.1.20.1-1.2.6.jar](https://www.curseforge.com/minecraft/mc-mods/copycats/files/5223591) (by [Lysine](https://www.curseforge.com/members/Lysine/projects))
