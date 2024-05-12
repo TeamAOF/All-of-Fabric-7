@@ -1,3 +1,20 @@
+## All of Fabric 7 | v2.2.1
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.1.md)_
+
+### Added Mods ✅
+
+  * [Modern KeyBinding](https://www.curseforge.com/minecraft/mc-mods/modern-keybinding-fabric)
+
+### Removed Mods ❌
+
+  * [Amecs](https://www.curseforge.com/minecraft/mc-mods/amecs)
+
+### Bug Fixes 🪲
+
+* Issues with launching the modpack due to missing dependencies **(AK)**
+---
+
 ## All of Fabric 7 | v2.2.0
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.0.md)_
