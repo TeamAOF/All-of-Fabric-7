@@ -1,3 +1,13 @@
+## All of Fabric 7 | v2.2.2
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.2.md)_
+
+### Recipes 🪵
+
+* Fixed an issue where Furnace wouldnt be craftable **(AK)**
+* Fixed broken starrite & aquarium ores to raw variant recipes through MI & TR **(AK)**
+---
+
 ## All of Fabric 7 | v2.2.1
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.1.md)_

@@ -44,11 +44,10 @@ ServerEvents.recipes(event => {
   // Mythic Metals
   const mythicmetals = [
     'adamantite',
-    'aqaurium',
+    'aquarium',
     'banglum',
     'carmot',
     'kyber',
-    'morkite',
     'mythril',
     'orichalcum',
     'osmium',
@@ -56,8 +55,12 @@ ServerEvents.recipes(event => {
     'prometheum',
     'quadrillum',
     'runite',
-    'starrite',
     'stormyx'
+  ];
+
+  const mythicmetals_1 = [
+    'morkite',
+    'starrite',
   ];
 
   mythicmetals.forEach((item) => {
@@ -73,6 +76,25 @@ ServerEvents.recipes(event => {
       "results": [
         {
           "item": "mythicmetals:raw_" + item,
+          "count": 2
+        }
+      ]
+    })
+  })
+
+  mythicmetals_1.forEach((item) => {
+    event.custom({
+      "type": "techreborn:grinder",
+      "power": 3,
+      "time": 200,
+      "ingredients": [
+        {
+          "tag": "c:" + item + "_ores"
+        }
+      ],
+      "results": [
+        {
+          "item": "mythicmetals:" + item,
           "count": 2
         }
       ]

@@ -23,5 +23,10 @@
   // Disable the fall protection feature of the Ramparts. 
   // This will let players explore the bottom of the dimension freely, but keep in mind: 
   // that isn't the intended way to explore the dimension.
-  "disableFallProtection": false
+  "disableFallProtection": false,
+  // The maximum distance (in blocks) the Conjunctivius' Tentacle weapon can stretch when activated
+  // Breaks at large distances (above around 64 blocks), so be careful with high values.
+  "baseTentacleMaxDistance": 24,
+  //The additional time (in ticks) after holding up a shield that allows you to parry an attack
+  "additionalParryTime": 0
 }

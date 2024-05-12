@@ -16,5 +16,32 @@
     "rancidRatGlow": true,
     // default: true
     "scorpionGlow": true
-  }
+  },
+  // The screen shake intensity for various events.
+  "screenShake": {
+    // Affects all screen shake events. Can also be adjusted in the game's accessibility settings.
+    "global": 1.0,
+    // Weapons
+    "weaponFlint": 1.5,
+    "weaponLightningBolt": 0.5,
+    // Shields
+    "shieldBlock": 0.4,
+    "shieldParry": 0.8,
+    // Conjunctivius Boss
+    "conjunctiviusSmash": 1.0,
+    "conjunctiviusRoar": 1.0,
+    "conjunctiviusDeath": 2.0,
+    // Concierge Boss
+    "conciergeLeap": 2.0,
+    "conciergeStep": 0.25,
+    "conciergeRoar": 1.0,
+    "conciergeDeath": 2.0,
+    // Other
+    "explosion": 0.75
+  },
+  // If you enable this and have the 3D Weapon Pack installed, weapons will only be displayed as 3D in hand.
+  // In the inventory, they will be displayed as the original 2D textures.
+  "keepOriginalGuiModels": false,
+  // Whether to show a little red sword icon next to your crosshair if the weapon you are holding will deal critical damage on the next hit.
+  "showCritIndicator": true
 }

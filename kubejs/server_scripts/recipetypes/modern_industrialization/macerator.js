@@ -168,11 +168,10 @@ ServerEvents.recipes(event => {
 
 const mythicmetals = [
   'adamantite',
-  'aqaurium',
+  'aquarium',
   'banglum',
   'carmot',
   'kyber',
-  'morkite',
   'mythril',
   'orichalcum',
   'osmium',
@@ -180,8 +179,12 @@ const mythicmetals = [
   'prometheum',
   'quadrillum',
   'runite',
-  'starrite',
   'stormyx'
+];
+
+const mythicmetals_1 = [
+  'morkite',
+  'starrite',
 ];
 
 mythicmetals.forEach((item) => { 
@@ -203,5 +206,25 @@ event.custom({
   ]
 })
 });
+
+mythicmetals_1.forEach((item) => { 
+  event.custom({
+    "type": "modern_industrialization:macerator",
+    "eu": 2,
+    "duration": 200,
+    "item_inputs": [
+      {
+        "tag": "c:" + item + "_ores",
+        "amount": 1
+      }
+    ],
+    "item_outputs": [
+      {
+        "item": "mythicmetals:" + item,
+        "amount": 3
+      }
+    ]
+  })
+  });
 
 })
