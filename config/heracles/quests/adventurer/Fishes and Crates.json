@@ -5,26 +5,11 @@
   "tasks": {
     "gone fishing": {
       "title": "Gone Fishin'",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "401B0FCEDA6E06C3": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -80,6 +65,7 @@
       "",
       "&&6The End:",
       "- &&bBaked Endfish",
+      "",
       "---"
     ],
     "groups": {
