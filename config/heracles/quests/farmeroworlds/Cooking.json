@@ -19,7 +19,7 @@
     },
     "meadow_cauldron": {
       "type": "heracles:item",
-      "item": "meadow:cooking_pot",
+      "item": "meadow:cooking_cauldron",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
