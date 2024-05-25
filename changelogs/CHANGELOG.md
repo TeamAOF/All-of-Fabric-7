@@ -1,3 +1,29 @@
+## All of Fabric 7 | v2.2.3
+
+_Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.3.md)_
+
+### Added Mods ✅
+
+* [Mythic Lib](https://www.curseforge.com/minecraft/mc-mods/mythic-lib)
+* [Spectral Decorations](https://www.curseforge.com/minecraft/mc-mods/spectral-decorations)
+
+### Removed Mods ❌
+
+* [Sawmill](https://www.curseforge.com/minecraft/mc-mods/sawmill) (Performance/Loading Time issues)
+
+### Changes/Improvements ⭐
+
+* Mobs no longer spawn with backpacks **(AK)**
+* Disabled being able to put items in ice blocks **(AK)**
+
+### Bug Fixes 🪲
+
+* Fixed an issue where you'd crash when interacting with the Honey Slime **(AK)**
+* Fixed an issue where certain mobs with backpacks would crash your game **(AK)**
+* Fixed quest typo/rendering issues **(SubordinalBlue)**
+* Fixed dupe exploits with Sophisticated Storage **(salandora)**
+---
+
 ## All of Fabric 7 | v2.2.2
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.2.md)_
