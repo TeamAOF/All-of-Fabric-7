@@ -63,7 +63,7 @@
         "jewelry:netherite_tanzanite_necklace"
       ],
       "chance": 0.2,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll_chance": 0.2,
       "weight": 1
     },
     "jewelry_tier_3": {
@@ -86,7 +86,7 @@
         "jewelry:unique_healing_necklace"
       ],
       "chance": 0.5,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll_chance": 0.2,
       "weight": 1
     },
     "jewelry_tier_0": {
@@ -96,7 +96,7 @@
         "jewelry:gold_ring"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll_chance": 0.2,
       "weight": 1
     },
     "jewelry_tier_1": {
@@ -115,7 +115,7 @@
         "jewelry:tanzanite_necklace"
       ],
       "chance": 0.2,
-      "bonus_roll_chance": 1.2,
+      "bonus_roll_chance": 0.2,
       "weight": 1
     }
   }
