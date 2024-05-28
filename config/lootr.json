@@ -49,6 +49,6 @@
   },
   "client": {
     "vanilla_textures": false,
-    "old_textures": false
+    "old_textures": true
   }
 }
