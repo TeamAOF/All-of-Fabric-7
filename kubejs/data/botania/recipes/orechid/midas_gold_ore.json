@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:netherrack"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:midas_gold_ore"
+  },
+  "weight": 165
+}

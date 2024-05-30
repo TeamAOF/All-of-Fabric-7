@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:end_stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:aquarium_ore"
+  },
+  "weight": 48
+}

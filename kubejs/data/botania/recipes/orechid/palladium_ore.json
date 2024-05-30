@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:netherrack"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:palladium_ore"
+  },
+  "weight": 846
+}

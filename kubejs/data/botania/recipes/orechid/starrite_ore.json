@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:calcite"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:starrite_ore"
+  },
+  "weight": 42
+}

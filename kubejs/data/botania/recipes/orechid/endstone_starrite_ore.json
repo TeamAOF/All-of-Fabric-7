@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:end_stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:endstone_starrite_ore"
+  },
+  "weight": 98
+}

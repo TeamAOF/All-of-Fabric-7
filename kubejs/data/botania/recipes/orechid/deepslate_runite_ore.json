@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:deepslate"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:deepslate_runite_ore"
+  },
+  "weight": 1149
+}

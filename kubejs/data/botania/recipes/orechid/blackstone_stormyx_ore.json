@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:end_stone"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:blackstone_stormyx_ore"
+  },
+  "weight": 101
+}

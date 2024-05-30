@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:basalt"
+  },
+  "output": {
+    "type": "block",
+    "block": "mythicmetals:smooth_basalt_orichalcum_ore"
+  },
+  "weight": 1
+}
