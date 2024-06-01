@@ -10,13 +10,6 @@
     }
   },
   "rewards": {
-    "20A06AADE98CDC98": {
-      "type": "heracles:item",
-      "item": {
-        "id": "vanilla-hammers:stone_hammer",
-        "count": 1
-      }
-    },
     "7B014F52554B0474": {
       "type": "heracles:item",
       "item": {
