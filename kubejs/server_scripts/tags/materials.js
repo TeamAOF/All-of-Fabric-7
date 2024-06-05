@@ -193,5 +193,26 @@ ServerEvents.tags('block', event => {
         event.add("ae2:growth_acceleratable", "geode_plus:" + item)
     });
 
+    // Mythic Upgrades ores
+	const mythicupgrades_ores = [
+		"aquamarine_ore",
+		"deepslate_aquamarine_ore",
+		"citrine_ore",
+		"deepslate_citrine_ore",
+		"peridot_ore",
+		"deepslate_peridot_ore",
+		"zircon_ore",
+		"deepslate_zircon_ore",
+		"ruby_ore",
+		"sapphire_ore",
+		"topaz_ore",
+		"ametrine_ore",
+		"jade_ore",
+		"necoium_ore"
+	];
+
+    mythicupgrades_ores.forEach((item) => {
+        event.add("c:mythicupgrades_ores", "mythicupgrades:" + item)
+    });
 
 });
