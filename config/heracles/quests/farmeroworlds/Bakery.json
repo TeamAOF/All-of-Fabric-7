@@ -40,7 +40,16 @@
       "text": ""
     },
     "description": [
-      "Bakery has a collection of decorations and foods mostly from traditional European bakeries, it also adds a few new cooking methods"
+      "Bakery has a collection of decorations and foods mostly from traditional European bakeries. It also adds a few new cooking and food processing methods:",
+      "<br />",
+      "<br />",
+      "Brick Oven: Primarily used for baking various breads, pastries, and other delicious treats. The Oven also counts as a heat source for things like Cooking Pots and Kettles.",
+      "<br />",
+      "Caking Station: Processes cake dough into various confectionary treats. Place some Cake Dough on top of the Caking Station, then add your favorite topping via right-click. To make cupcakes, cut the placed Cake Dough with a bread knife. To make cookies, cut Cake Dough with a knife and then use a Rolling Pin to flatten them. Pick up your confectionary treat with a right-click!",
+      "<br />",
+      "Crafting Bowl: Used for making various doughs. Place the Crafting Bowl into the world and insert items by right-clicking them into the Bowl. Spin the ingredients until thoroughly mixed!",
+      "<br />",
+      "Small Cooking Pot: Place on a heat source, such as a Stove. Used for cooking a variety of foods - many of which need a container to be put in, such as a bowl or a jar, which is inserted into the bottommost slot in the GUI."
     ],
     "groups": {
       "Farmer O' Worlds": {
