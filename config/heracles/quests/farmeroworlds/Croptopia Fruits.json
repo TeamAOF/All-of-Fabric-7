@@ -394,7 +394,10 @@
       "text": ""
     },
     "description": [
-      "In this quest your goal will be to obtain all the /6/fruits/6/ from /a/Croptopia/a/ that grow on trees, a good tip is to not plant trees too close since this will reduce the number of possible fruit leaves that spawn"
+      "In this quest your goal will be to obtain all the /6/fruits/6/ from /a/Croptopia/a/ that grow on trees.",
+      "<br />",
+      "<br />",
+      "/a/Tip/a/: Don't plant trees too close together! Doing so will cause the leaves to overlap, meaning there will be fewer fruit-bearing leaves in total."
     ],
     "groups": {
       "Farmer O' Worlds": {
