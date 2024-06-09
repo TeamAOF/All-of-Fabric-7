@@ -20,9 +20,6 @@
     "0EBC1A262BACB90E": {
       "type": "heracles:item",
       "item": "botania:terra_pick",
-      "nbt": {
-        "mana": 9999
-      },
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
