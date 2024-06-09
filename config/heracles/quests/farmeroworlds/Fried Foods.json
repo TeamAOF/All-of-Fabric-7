@@ -280,7 +280,7 @@
       "text": ""
     },
     "description": [
-      "It seems like the unhealthyness of food is directly proportional to it's tastyness"
+      "It seems like the healthiness of food is inversely proportional to its tastiness."
     ],
     "groups": {
       "Farmer O' Worlds": {
