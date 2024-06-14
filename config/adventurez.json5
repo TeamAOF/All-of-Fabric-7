@@ -15,7 +15,7 @@
 	"ender_whale_spawn_weight": 5,
 	"iguana_spawn_weight": 10,
 	// Chance for spawning when geode generates; 1/Value
-	"amethyst_golem_spawn_chance": 20,
+	"amethyst_golem_spawn_chance": 0,
 	"desert_rhino_spawn_weight": 1,
 	// Chance for spawning when desert well generates; 1/Value
 	"desert_rhino_well_spawn_chance": 1,
