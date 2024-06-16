@@ -1,0 +1,44 @@
+#General Settings for the mod.
+[general]
+	#Chance of the mob having no trims at all
+	no_trims_chance = 25
+	#Select the System of how to select, what trims to give mobs.
+	#- RANDOM_TRIMS: Randomly choose the trim, but also take the previous trim highly into account.
+	#- CUSTOM_TRIMS: Choose the trim from a list of custom trims. You can manage the trims yourself
+	enabled_system = "RANDOM_TRIMS"
+
+#Settings for the Custom Trims system.
+#These settings will only make a difference, if the CUSTOM_TRIMS system is enabled
+[custom_trims]
+	#The list of custom trims.
+	#
+	#To create a new custom trim, add a new list with two String fields inside the brackets. For example: [["", ""]]
+	#Make sure to have it separated with a comma from other custom trims.
+	#
+	#In the left string field, enter a valid trim material.
+	#As an example: "quartz".
+	#
+	#In the right string field, enter a valid trim pattern.
+	#As an example: "silence"
+	#
+	#To not have to specify the whole trim pattern, you can leave out the "_armor_trim_smithing_template" part of the pattern, as it is the same for every pattern.
+	custom_trims_list = []
+	#Should the custom armor trim be applied to the entire armor.
+	#If false, a new custom trim will be chosen for each armor piece
+	apply_to_entire_armor = true
+
+#Settings for the Random Trims system.
+#These settings will only make a difference, if the RANDOM_TRIMS system is enabled
+[random_trims]
+	#Chance of each armor piece having a similar armor trim as the previous armor piece.
+	similar_trim_chance = 75
+	#Chance of each armor piece from a mob having an armor trim.
+	trim_chance = 50
+
+#Settings for the Stacked Armor Trims Mod Compatibility.
+#These settings will only make a difference, if the STACKED_TRIMS system is enabled and the stacked armor trims mod is used
+[stacked_trims]
+	#Chance of each armor piece having an additional armor trim on it.
+	stacked_trim_chance = 10
+	#The maximum amount of armor trims that can be stacked on each other.
+	max_stacked_trims = 3

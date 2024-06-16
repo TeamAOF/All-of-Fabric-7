@@ -1,4 +1,11 @@
 #.
+#Enables/Disables the data fixers. (Currently none available)
+disableDataFixers = false
+#.
+#Enables/Disables the conversion of placed copycats from the single material to the multi material(where applicable) block entity. Set this to false to enable conversion! (only happens on world load, so if changed while ingame you will need to load the world again)
+disableConversion = true
+
+#.
 #Enable/disable features. Values on server override clients
 [features]
 	copycat_wooden_button = true
@@ -7,6 +14,7 @@
 	copycat_half_panel = true
 	copycat_byte = true
 	copycat_wooden_pressure_plate = true
+	copycat_ladder = true
 	copycat_stone_pressure_plate = true
 	copycat_vertical_slice = true
 	copycat_fence_gate = true
@@ -21,6 +29,7 @@
 	copycat_beam = true
 	copycat_slab = true
 	copycat_heavy_weighted_pressure_plate = true
+	copycat_ghost_block = true
 	copycat_half_layer = true
 	copycat_layer = true
 	copycat_stone_button = true

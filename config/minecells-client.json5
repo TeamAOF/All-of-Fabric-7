@@ -43,5 +43,9 @@
   // In the inventory, they will be displayed as the original 2D textures.
   "keepOriginalGuiModels": false,
   // Whether to show a little red sword icon next to your crosshair if the weapon you are holding will deal critical damage on the next hit.
-  "showCritIndicator": true
+  "showCritIndicator": true,
+  //Loops the song playing in a given dimension. If disabled, the Vanilla music algorithm will be used.
+  "experimentalMusicLooping": true,
+  //Enables the MineCells custom boss bar rendering.
+  "customBossBars": true
 }

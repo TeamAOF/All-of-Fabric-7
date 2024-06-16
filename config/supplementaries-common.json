@@ -12,7 +12,6 @@
       "base_period": 78,
       "power_scaling": 2.0,
       "base_velocity_scaling": 5.0,
-      "velocity_changed_flag": true,
       "range": 5
     },
     "spring_launcher": {
@@ -170,7 +169,7 @@
     },
     "ash": {
       "enabled": true,
-      "ash_from_fire": true,
+      "ash_from_fire_chance": 1.0,
       "rain_wash_ash": true
     },
     "flag": {
@@ -222,7 +221,8 @@
     "flower_box": true,
     "doormat": true,
     "flint_block": true,
-    "candle_holder": true
+    "candle_holder": true,
+    "fire_pit": true
   },
   "tools": {
     "quiver": {

@@ -1,3 +1,25 @@
+## All of Fabric 7 | v2.3.0
+
+_Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.3.0.md)_
+
+### Added Mods ✅
+
+* [Ribbits](https://www.curseforge.com/minecraft/mc-mods/ribbits)
+
+### Changes/Improvements ⭐
+
+* Amethyst Golem will no longer spawn **(SubordinalBlue)**
+* Added a clam all rewards button for quests **(ThatGravyBoat)**
+* Added mythic upgrades ore to indrev mining rig **(nitrofenix)**
+* Changed back to old Lootr textures **(AK)**
+* Removed mana requirement for Terra Shatterer in Terra Tools quest **(nitrofenix)**
+
+### Bug Fixes 🪲
+
+* Fixed an issue with mob densities **(SubordinalBlue)**
+* Fixed many quest typos/rewards **(SubordinalBlue)**
+---
+
 ## All of Fabric 7 | v2.2.3
 
 _Fabric Loader 0.15.10_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.2.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.2.3.md)_

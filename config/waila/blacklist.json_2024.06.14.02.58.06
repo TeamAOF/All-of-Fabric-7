@@ -23,26 +23,28 @@
     "The #waila:blacklist tag rule can not be removed"
   ],
   "blocks": [
+    "#waila:blacklist",
     "minecraft:barrier",
-    "minecraft:structure_void",
-    "#waila:blacklist"
+    "minecraft:structure_void"
   ],
   "blockEntityTypes": [
     "#waila:blacklist"
   ],
   "entityTypes": [
+    "#waila:blacklist",
     "minecraft:area_effect_cloud",
     "minecraft:experience_orb",
     "minecraft:fireball",
     "minecraft:firework_rocket",
-    "minecraft:interaction",
     "minecraft:snowball",
-    "#waila:blacklist"
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:interaction"
   ],
   "configVersion": 0,
   "pluginHash": [
-    981800043,
-    1449661236,
-    2021915756
+    -467861193,
+    0,
+    572254520
   ]
 }

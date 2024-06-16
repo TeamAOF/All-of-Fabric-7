@@ -8,9 +8,6 @@
     "notice_board": {
       "centered_text": true
     },
-    "bunting": {
-      "fast_buntings": false
-    },
     "clock_block": {
       "24h_format": true
     },

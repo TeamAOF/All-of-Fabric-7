@@ -1,6 +1,6 @@
 {
-	// Default `0.2` matches the same as movement speed during vanilla item usage (such as bow)
-	"movement_speed_while_casting_spell": 0.20000000298023224,
+	// Applied as multiplier on top of spell.cast.movement_speed. Default value of 1.0 means no change.
+	"movement_multiplier_speed_while_casting": 1.0,
 	// Allow spells to bypass invulnerability frames. This is required in order for high attack frequency spells (such as beams) to work.
 	"bypass_iframes": true,
 	// Spell haste reduces the cooldown time of abilities
@@ -11,6 +11,8 @@
 	"spell_cost_item_allowed": true,
 	// Spells should damage items on use. Set `false` to disable.
 	"spell_cost_durability_allowed": true,
+	// The time in ticks of global cooldown to apply to all instant cast spells when casted.
+	"spell_instant_cast_gcd": 0,
 	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
 	"projectiles_pass_thru_irrelevant_targets": true,
 	// Spell book creation level requirement

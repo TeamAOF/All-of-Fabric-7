@@ -19,10 +19,24 @@
 	"isAppleCreamChocolatePastryBarEnabled": true,
 	// Enable Apple Cream Pastry Bar.
 	"isAppleCreamPastryBarEnabled": true,
+	// Enable Apple Ice Cream Bowl.
+	"isAppleIceCreamBowlEnabled": true,
+	// Enable Apple Jam Bottle.
+	"isAppleJamBottleEnabled": true,
+	// Enable Apple Jam Sandwich.
+	"isAppleJamSandwichEnabled": true,
+	// Enable Apple Juice Bottle.
+	"isAppleJuiceBottleEnabled": true,
+	// Enable Apple Milkshake.
+	"isAppleMilkshakeBottleEnabled": true,
 	// Enable Apple Popsicle.
 	"isApplePopsicleEnabled": true,
 	// Enable Apple Slice.
 	"isAppleSliceEnabled": true,
+	// Enable Bacon Sandwich.
+	"isBaconSandwichEnabled": true,
+	// Enable Bacon Sandwich (Lettuce).
+	"isBaconSandwichLettuceEnabled": true,
 	// Enable Bar of Dark Chocolate.
 	"isDarkChocolateBarEnabled": true,
 	// Enable Bar of White Chocolate.
@@ -55,6 +69,16 @@
 	"isBerryCreamGlazedChocolateDonutEnabled": true,
 	// Enable Berry Cream Glazed Donut.
 	"isBerryCreamGlazedDonutEnabled": true,
+	// Enable Berry Ice Cream Bowl.
+	"isBerryIceCreamBowlEnabled": true,
+	// Enable Berry Jam Bottle.
+	"isBerryJamBottleEnabled": true,
+	// Enable Berry Jam Sandwich.
+	"isBerryJamSandwichEnabled": true,
+	// Enable Berry Juice Bottle.
+	"isBerryJuiceBottleEnabled": true,
+	// Enable Berry Milkshake.
+	"isBerryMilkshakeBottleEnabled": true,
 	// Enable Berry Popsicle.
 	"isBerryPopsicleEnabled": true,
 	// Enable Biscuit.
@@ -69,18 +93,46 @@
 	"isBrownGelatinDessertSliceEnabled": true,
 	// Enable Brown Sugar.
 	"isBrownSugarEnabled": true,
+	// Enable Bread (Fried Egg).
+	"isBreadFriedEggEnabled": true,
 	// Enable Bread (Lettuce).
 	"isBreadLettuceEnabled": true,
 	// Enable Bread (Lettuce, Carrot).
 	"isBreadLettuceCarrotEnabled": true,
 	// Enable Bread Slice.
 	"isBreadSliceEnabled": true,
+	// Enable Bread Slice (Apple Jam).
+	"isBreadSliceAppleJamEnabled": true,
+	// Enable Bread Slice (Bacon).
+	"isBreadSliceBaconEnabled": true,
+	// Enable Bread Slice (Bacon, Lettuce).
+	"isBreadSliceBaconLettuceEnabled": true,
 	// Enable Bread Slice (Bacon, Lettuce, Tomato).
 	"isBreadSliceBaconLettuceTomatoEnabled": true,
+	// Enable Bread Slice (Beetroot).
+	"isBreadSliceBeetrootEnabled": true,
+	// Enable Bread Slice (Beetroot, Lettuce).
+	"isBreadSliceBeetrootLettuceEnabled": true,
+	// Enable Bread Slice (Berry Jam).
+	"isBreadSliceBerryJamEnabled": true,
+	// Enable Bread Slice (Cheese).
+	"isBreadSliceCheeseEnabled": true,
+	// Enable Bread Slice (Chorus Fruit Jam).
+	"isBreadSliceChorusFruitJamEnabled": true,
+	// Enable Bread Slice (Glow Berry Jam).
+	"isBreadSliceGlowBerryJamEnabled": true,
+	// Enable Bread Slice (Honey).
+	"isBreadSliceHoneyEnabled": true,
 	// Enable Bread Slice (Lettuce).
 	"isBreadSliceLettuceEnabled": true,
 	// Enable Bread Slice (Lettuce, Tomato).
 	"isBreadSliceLettuceTomatoEnabled": true,
+	// Enable Bread Slice (Melon Jam).
+	"isBreadSliceMelonJamEnabled": true,
+	// Enable Bread Slice (Mutton).
+	"isBreadSliceMuttonEnabled": true,
+	// Enable Bread Slice (Mutton, Beetroot).
+	"isBreadSliceMuttonBeetrootEnabled": true,
 	// Enable Breakfast Sausages.
 	"isBreakfastSausagesEnabled": true,
 	// Enable Bun. Recommend 'disable' with Bakery installed.
@@ -97,8 +149,12 @@
 	"isButterscotchChipsChocolateCookieEnabled": true,
 	// Enable Butterscotch Chips Cookie.
 	"isButterscotchChipsCookieEnabled": true,
+	// Enable Butterscotch Chip Milkshake.
+	"isButterscotchChipMilkshakeBottleEnabled": true,
 	// Enable Butterscotch Fudge.
 	"isButterscotchFudgeEnabled": true,
+	// Enable Buttered Toast.
+	"isButteredToastEnabled": true,
 	// Enable Cacao Butter.
 	"isCacaoButterEnabled": true,
 	// Enable Cacao Nibs.
@@ -115,6 +171,8 @@
 	"isCaramelChipsChocolateCookieEnabled": true,
 	// Enable Caramel Chips Cookie.
 	"isCaramelChipsCookieEnabled": true,
+	// Enable Caramel Chip Milkshake.
+	"isCaramelChipMilkshakeBottleEnabled": true,
 	// Enable Caramel Filled Chocolate.
 	"isCaramelChocolateEnabled": true,
 	// Enable Caramel Filled Dark Chocolate.
@@ -153,6 +211,8 @@
 	"isCheeseBiscuitSandwichEnabled": true,
 	// Enable Cheese (Block & Slice). Recommend 'disable' if Expanded Delight, Brewin' and Chewin', or Meadow installed.
 	"isCheeseEnabled": true,
+	// Enable Cheese Sandwich.
+	"isCheeseSandwichEnabled": true,
 	// Enable Cheeseburger.
 	"isCheeseburgerEnabled": true,
 	// Enable Cheeseburger (Bacon).
@@ -171,6 +231,8 @@
 	"isChocolateBottleEnabled": true,
 	// Enable Chocolate Chips.
 	"isChocolateChipsEnabled": true,
+	// Enable Chocolate Chip Milkshake.
+	"isChocolateChipMilkshakeBottleEnabled": true,
 	// Enable Chocolate Cookie. Recommend 'disable' with Expanded Delight installed.
 	"isChocolateCookieEnabled": true,
 	// Enable Chocolate Covered Marshmallow Stick.
@@ -183,6 +245,8 @@
 	"isChocolateDonutHoleEnabled": true,
 	// Enable Chocolate Donut Hole (Sugar).
 	"isChocolateDonutHoleSugarEnabled": true,
+	// Enable Chocolate Donut (Sugar).
+	"isChocolateDonutSugarEnabled": true,
 	// Enable Chocolate Filled Chocolate Pastry.
 	"isChocolateChocolatePastryEnabled": true,
 	// Enable Chocolate Filled Pastry.
@@ -201,8 +265,12 @@
 	"isChocolateGlazedChocolateDonutEnabled": true,
 	// Enable Chocolate Glazed Donut.
 	"isChocolateGlazedDonutEnabled": true,
+	// Enable Chocolate Ice Cream Bowl.
+	"isChocolateIceCreamBowlEnabled": true,
 	// Enable Chocolate Milk Bottle.
 	"isChocolateMilkBottleEnabled": true,
+	// Enable Chocolate Milkshake.
+	"isChocolateMilkshakeBottleEnabled": true,
 	// Enable Chocolate Pastry Bar Base.
 	"isChocolatePastryBarBaseEnabled": true,
 	// Enable Chocolate Pastry Base.
@@ -247,6 +315,20 @@
 	"isChorusFruitCreamGlazedChocolateDonutEnabled": true,
 	// Enable Chorus Fruit Cream Glazed Donut.
 	"isChorusFruitCreamGlazedDonutEnabled": true,
+	// Enable Chorus Fruit Ice Cream Bowl.
+	"isChorusFruitIceCreamBowlEnabled": true,
+	// Enable Chorus Fruit Jam Bottle.
+	"isChorusFruitJamBottleEnabled": true,
+	// Enable Chorus Fruit Jam Sandwich.
+	"isChorusFruitJamSandwichEnabled": true,
+	// Enable Chorus Fruit Juice Bottle.
+	"isChorusFruitJuiceBottleEnabled": true,
+	// Enable Chorus Fruit Milkshake.
+	"isChorusFruitMilkshakeBottleEnabled": true,
+	// Enable Chorus Fruit Popsicle.
+	"isChorusFruitPopsicleEnabled": true,
+	// Enable Chorus Fruit Slice.
+	"isChorusFruitSliceEnabled": true,
 	// Enable Cream Chocolate.
 	"isCreamChocolateEnabled": true,
 	// Enable Cream Dark Chocolate.
@@ -289,8 +371,12 @@
 	"isDonutHoleEnabled": true,
 	// Enable Donut Hole (Sugar).
 	"isDonutHoleSugarEnabled": true,
+	// Enable Donut (Sugar).
+	"isDonutSugarEnabled": true,
 	// Enable Frosted Cake.
 	"isFrostedCakeEnabled": true,
+	// Enable Fried Egg & Hash Brown Sandwich.
+	"isFriedEggAndHashBrownSandwichEnabled": true,
 	// Enable Glazed Chocolate Donut.
 	"isCreamGlazedChocolateDonutEnabled": true,
 	// Enable Glazed Donut.
@@ -323,6 +409,16 @@
 	"isGlowBerryCreamGlazedChocolateDonutEnabled": true,
 	// Enable Glow Berry Cream Glazed Donut.
 	"isGlowBerryCreamGlazedDonutEnabled": true,
+	// Enable Glow Berry Ice Cream Bowl.
+	"isGlowBerryIceCreamBowlEnabled": true,
+	// Enable Glow Berry Jam Bottle.
+	"isGlowBerryJamBottleEnabled": true,
+	// Enable Glow Berry Jam Sandwich.
+	"isGlowBerryJamSandwichEnabled": true,
+	// Enable Glow Berry Juice Bottle.
+	"isGlowBerryJuiceBottleEnabled": true,
+	// Enable Glow Berry Milkshake.
+	"isGlowBerryMilkshakeBottleEnabled": true,
 	// Enable Glow Berry Popsicle.
 	"isGlowBerryPopsicleEnabled": true,
 	// Enable Graham Cracker.
@@ -335,10 +431,14 @@
 	"isGreenGelatinDessertSliceEnabled": true,
 	// Enable Ground Beef.
 	"isGroundBeefEnabled": true,
+	// Enable Grilled Cheese Sandwich.
+	"isGrilledCheeseSandwichEnabled": true,
 	// Enable Hamburger.
 	"isHamburgerEnabled": true,
 	// Enable Hamburger (Bacon).
 	"isHamburgerBaconEnabled": true,
+	// Enable Hash Browns.
+	"isHashBrownsEnabled": true,
 	// Enable Hollow Chocolate.
 	"isHollowChocolateEnabled": true,
 	// Enable Hollow Dark Chocolate.
@@ -371,6 +471,8 @@
 	"isHotSausageBiscuitSandwichEnabled": true,
 	// Enable Hot White Chocolate Bottle.
 	"isHotWhiteChocolateBottleEnabled": true,
+	// Enable Ice Cream Bowl.
+	"isIceCreamBowlEnabled": true,
 	// Enable Light Blue Gelatin Dessert Slice.
 	"isLightBlueGelatinDessertSliceEnabled": true,
 	// Enable Light Gray Gelatin Dessert Slice.
@@ -407,6 +509,36 @@
 	"isMeatballSandwichEnabled": true,
 	// Enable Meatball Stick.
 	"isMeatballStickEnabled": true,
+	// Enable Melon Cream Filled Chocolate.
+	"isMelonCreamChocolateEnabled": true,
+	// Enable Melon Cream Filled Dark Chocolate.
+	"isMelonCreamDarkChocolateEnabled": true,
+	// Enable Melon Cream Filled Chocolate Pastry Bar.
+	"isMelonCreamChocolatePastryBarEnabled": true,
+	// Enable Melon Cream Filled Pastry Bar.
+	"isMelonCreamPastryBarEnabled": true,
+	// Enable Melon Cream Filled White Chocolate.
+	"isMelonCreamWhiteChocolateEnabled": true,
+	// Enable Melon Cream Frosted Chocolate Sweet Roll.
+	"isMelonCreamFrostedChocolateSweetRollEnabled": true,
+	// Enable Melon Cream Frosted Sweet Roll.
+	"isMelonCreamFrostedSweetRollEnabled": true,
+	// Enable Melon Cream Frosting.
+	"isMelonCreamFrostingBottleEnabled": true,
+	// Enable Melon Cream Glazed Chocolate Donut.
+	"isMelonCreamGlazedChocolateDonutEnabled": true,
+	// Enable Melon Cream Glazed Donut.
+	"isMelonCreamGlazedDonutEnabled": true,
+	// Enable Melon Ice Cream.
+	"isMelonIceCreamBowlEnabled": true,
+	// Enable Melon Jam.
+	"isMelonJamBottleEnabled": true,
+	// Enable Melon Jam Sandwich.
+	"isMelonJamSandwichEnabled": true,
+	// Enable Melon Milkshake.
+	"isMelonMilkshakeBottleEnabled": true,
+	// Enable Milkshake.
+	"isMilkshakeBottleEnabled": true,
 	// Enable Mini Graham Cracker Pie Crust.
 	"isMiniGrahamCrackerPieCrustEnabled": true,
 	// Enable Mini S'mores Pie.
@@ -415,14 +547,40 @@
 	"isMilkPowderEnabled": true,
 	// Enable Molasses.
 	"isMolassesBottleEnabled": true,
+	// Enable Mutton Sandwich.
+	"isMuttonSandwichEnabled": true,
+	// Enable Mutton Sandwich (Beetroot).
+	"isMuttonSandwichBeetrootEnabled": true,
+	// Enable Nacho Bowl.
+	"isNachoBowlEnabled": true,
 	// Enable Orange Gelatin Dessert Slice.
 	"isOrangeGelatinDessertSliceEnabled": true,
 	// Enable Pasta.
 	"isPastaEnabled": true,
 	// Enable Pasta Plate. Recommend 'disable' with Delightful Creators installed.
 	"isPastaPlateEnabled": true,
-	// Enable Pasta Plate (Butter).
+	// Enable Pasta Plate with Butter.
 	"isPastaPlateButterEnabled": true,
+	// Enable Pasta with Endermite Meatballs.
+	"isPastaPlateEndermiteMeatballsEnabled": true,
+	// Enable Pasta With Endermite Meatballs & Tomato Sauce.
+	"isPastaPlateEndermiteMeatballsTomatoSauceEnabled": true,
+	// Enable Pasta with Fish.
+	"isPastaPlateFishEnabled": true,
+	// Enable Pasta with Meatballs.
+	"isPastaPlateMeatballsEnabled": true,
+	// Enable Pasta with Mutton Chop.
+	"isPastaPlateMuttonChopEnabled": true,
+	// Enable Pasta with Slime.
+	"isPastaPlateSlimeEnabled": true,
+	// Enable Pasta with Slimeballs.
+	"isPastaPlateSlimeballsEnabled": true,
+	// Enable Pasta with Strider Meatballs.
+	"isPastaPlateStriderMeatballsEnabled": true,
+	// Enable Pasta with Strider Meatballs & Tomato Sauce.
+	"isPastaPlateStriderMeatballsTomatoSauceEnabled": true,
+	// Enable Pasta with Squid Ink.
+	"isPastaPlateSquidInkEnabled": true,
 	// Enable Pastry Bar Base.
 	"isPastryBarBaseEnabled": true,
 	// Enable Pastry Base.
@@ -431,6 +589,8 @@
 	"isPinkGelatinDessertSliceEnabled": true,
 	// Enable Potato Chips.
 	"isPotatoChipsEnabled": true,
+	// Enable Potato Chip Bowl.
+	"isPotatoChipBowlEnabled": true,
 	// Enable Powdered Sugar.
 	"isPowderedSugarEnabled": true,
 	// Enable Pressed Cocoa.
@@ -441,6 +601,8 @@
 	"isPumpernickelBreadSliceEnabled": true,
 	// Enable Pumpernickel Dough.
 	"isPumpernickelDoughEnabled": true,
+	// Enable Pumpernickel Toast Slice.
+	"isPumpernickelToastSliceEnabled": true,
 	// Enable Purple Gelatin Dessert Slice.
 	"isPurpleGelatinDessertSliceEnabled": true,
 	// Enable Raw Butterscotch Chips Chocolate Cookie.
@@ -503,12 +665,18 @@
 	"isSausagePattyEnabled": true,
 	// Enable Shredded Chicken.
 	"isShreddedChickenEnabled": true,
+	// Enable Shredded Potato.
+	"isShreddedPotatoEnabled": true,
+	// Enable Sliced Beetroot.
+	"isSlicedBeetrootEnabled": true,
 	// Enable Sliced Potato.
 	"isSlicedPotatoEnabled": true,
 	// Enable Sliced Carrot.
 	"isSlicedCarrotEnabled": true,
 	// Enable Small Meatballs.
 	"isSmallMeatballsEnabled": true,
+	// Enable Small Slimeballs.
+	"isSmallSlimeballsEnabled": true,
 	// Enable Sugar Dough. Recommend 'disable' with Bakery installed.
 	"isSugarDoughEnabled": true,
 	// Enable Sweet Roll Base.
@@ -523,10 +691,18 @@
 	"isToffeeChipsChocolateCookieEnabled": true,
 	// Enable Toffee Chips Cookie.
 	"isToffeeChipsCookieEnabled": true,
+	// Enable Toffee Chip Milkshake.
+	"isToffeeChipMilkshakeBottleEnabled": true,
 	// Enable Toffee Fudge.
 	"isToffeeFudgeEnabled": true,
+	// Enable Tortilla Chip Bowl.
+	"isTortillaChipBowlEnabled": true,
 	// Enable Unbreaded Chicken Patty.
 	"isUnbreadedChickenPattyEnabled": true,
+	// Enable Vegetable Sandwich (Beetroot, Lettuce).
+	"isVegetableSandwichBeetrootLettuceEnabled": true,
+	// Enable Vegetable Sandwich (Lettuce, Tomato).
+	"isVegetableSandwichLettuceTomatoEnabled": true,
 	// Enable White Chips Chocolate Cookie.
 	"isWhiteChipsChocolateCookieEnabled": true,
 	// Enable White Chips Cookie.
@@ -585,8 +761,24 @@
 	"isYellowGelatinDessertBlockEnabled": true,
 	// Enable Apple Cream Frosting Fluid.
 	"isAppleCreamFrostingFluidEnabled": true,
+	// Enable Apple Ice Cream Fluid.
+	"isAppleIceCreamFluidEnabled": true,
+	// Enable Apple Jam Fluid.
+	"isAppleJamFluidEnabled": true,
+	// Enable Apple Juice Fluid.
+	"isAppleJuiceFluidEnabled": true,
+	// Enable Apple Milkshake Fluid.
+	"isAppleMilkshakeFluidEnabled": true,
 	// Enable Berry Cream Frosting Fluid.
 	"isBerryCreamFrostingFluidEnabled": true,
+	// Enable Berry Ice Cream Fluid.
+	"isBerryIceCreamFluidEnabled": true,
+	// Enable Berry Jam Fluid.
+	"isBerryJamFluidEnabled": true,
+	// Enable Berry Juice Fluid.
+	"isBerryJuiceFluidEnabled": true,
+	// Enable Berry Milkshake Fluid.
+	"isBerryMilkshakeFluidEnabled": true,
 	// Enable Blackstrap Molasses Fluid.
 	"isBlackstrapMolassesFluidEnabled": true,
 	// Enable Black Gelatin Mix Fluid.
@@ -611,12 +803,24 @@
 	"isCaramelFudgeFluidEnabled": true,
 	// Enable Chocolate Cream Frosting Fluid.
 	"isChocolateCreamFrostingFluidEnabled": true,
-	// Enable Chorus Fruit Cream Frosting Fluid.
-	"isChorusFruitCreamFrostingFluidEnabled": true,
 	// Enable Chocolate Fudge Fluid.
 	"isChocolateFudgeFluidEnabled": true,
+	// Enable Chocolate Ice Cream Fluid.
+	"isChocolateIceCreamFluidEnabled": true,
 	// Enable Chocolate Milk Fluid.
 	"isChocolateMilkFluidEnabled": true,
+	// Enable Chocolate Milkshake Fluid.
+	"isChocolateMilkshakeFluidEnabled": true,
+	// Enable Chorus Fruit Cream Frosting Fluid.
+	"isChorusFruitCreamFrostingFluidEnabled": true,
+	// Enable Chorus Fruit Ice Cream Fluid.
+	"isChorusFruitIceCreamFluidEnabled": true,
+	// Enable Chorus Fruit Jam Fluid.
+	"isChorusFruitJamFluidEnabled": true,
+	// Enable Chorus Fruit Juice Fluid.
+	"isChorusFruitJuiceFluidEnabled": true,
+	// Enable Chorus Fruit Milkshake Fluid.
+	"isChorusFruitMilkshakeFluidEnabled": true,
 	// Enable Condensed Milk Fluid.
 	"isCondensedMilkFluidEnabled": true,
 	// Enable Cream Frosting Fluid.
@@ -631,16 +835,28 @@
 	"isGelatinMixFluidEnabled": true,
 	// Enable Glow Berry Cream Frosting Fluid.
 	"isGlowBerryCreamFrostingFluidEnabled": true,
+	// Enable Glow Berry Ice Cream Fluid.
+	"isGlowBerryIceCreamFluidEnabled": true,
+	// Enable Glow Berry Jam Fluid.
+	"isGlowBerryJamFluidEnabled": true,
+	// Enable Glow Berry Juice Fluid.
+	"isGlowBerryJuiceFluidEnabled": true,
+	// Enable Glow Berry Milkshake Fluid.
+	"isGlowBerryMilkshakeFluidEnabled": true,
 	// Enable Gray Gelatin Mix Fluid.
 	"isGrayGelatinMixFluidEnabled": true,
 	// Enable Green Gelatin Mix Fluid.
 	"isGreenGelatinMixFluidEnabled": true,
+	// Enable Heavy Cream Fluid.
+	"isHeavyCreamFluidEnabled": true,
 	// Enable Hot Chocolate Fluid.
 	"isHotChocolateFluidEnabled": true,
 	// Enable Hot Dark Chocolate Fluid.
 	"isHotDarkChocolateFluidEnabled": true,
 	// Enable Hot White Chocolate Fluid.
 	"isHotWhiteChocolateFluidEnabled": true,
+	// Enable Ice Cream Fluid.
+	"isIceCreamFluidEnabled": true,
 	// Enable Light Blue Gelatin Mix Fluid.
 	"isLightBlueGelatinMixFluidEnabled": true,
 	// Enable Light Gray Gelatin Mix Fluid.
@@ -649,6 +865,16 @@
 	"isLimeGelatinMixFluidEnabled": true,
 	// Enable Magenta Gelatin Mix Fluid.
 	"isMagentaGelatinMixFluidEnabled": true,
+	// Enable Melon Cream Frosting Fluid.
+	"isMelonCreamFrostingFluidEnabled": true,
+	// Enable Melon Ice Cream Fluid.
+	"isMelonIceCreamFluidEnabled": true,
+	// Enable Melon Jam Fluid.
+	"isMelonJamFluidEnabled": true,
+	// Enable Melon Milkshake Fluid.
+	"isMelonMilkshakeFluidEnabled": true,
+	// Enable Milkshake Fluid.
+	"isMilkshakeFluidEnabled": true,
 	// Enable Molasses Fluid.
 	"isMolassesFluidEnabled": true,
 	// Enable Orange Gelatin Mix Fluid.
@@ -663,6 +889,8 @@
 	"isSlimeFluidEnabled": true,
 	// Enable Sugar Cane Juice Fluid.
 	"isSugarCaneJuiceFluidEnabled": true,
+	// Enable Squid Ink Fluid.
+	"isSquidInkFluidEnabled": true,
 	// Enable Toffee Fluid.
 	"isToffeeFluidEnabled": true,
 	// Enable Toffee Fudge Fluid.
@@ -779,6 +1007,8 @@
 	"isRawSweetBerryCookieEnabled": true,
 	// Enable Sliced Tomato.
 	"isSlicedTomatoEnabled": true,
+	// Enable Bread Slice (Peanut Butter).
+	"isBreadSlicePeanutButterEnabled": false,
 	// Enable Beef Bun (Peanut Butter).
 	"isBeefBunPeanutButterEnabled": true,
 	// Enable Beef Bun (Peanut Butter, Bacon).
@@ -791,6 +1021,12 @@
 	"isCinnamonSweetRollBaseEnabled": true,
 	// Enable Paprika.
 	"isPaprikaEnabled": true,
+	// Enable Peanut Butter & Apple Jam Sandwich.
+	"isPeanutButterAppleJamSandwichEnabled": false,
+	// Enable Peanut Butter & Chorus Fruit Jam Sandwich.
+	"isPeanutButterChorusFruitJamSandwichEnabled": false,
+	// Enable Peanut Butter & Melon Jam Sandwich.
+	"isPeanutButterMelonJamSandwichEnabled": false,
 	// Enable Raw Cinnamon Sweet Roll Base.
 	"isRawCinnamonSweetRollBaseEnabled": true,
 	// Enable Raw Snickerdoodle.
@@ -800,5 +1036,117 @@
 	// Enable Spicy Breakfast Sausages.
 	"isSpicyBreakfastSausagesEnabled": true,
 	// Enable Spicy Chicken Nuggets.
-	"isSpicyChickenNuggetsEnabled": true
+	"isSpicyChickenNuggetsEnabled": true,
+	// Enable Coffee Toffee.
+	"isCoffeeToffeeEnabled": false,
+	// Enable Coffee Toffee Fluid.
+	"isCoffeeToffeeFluidEnabled": false,
+	// Enable Coffee Toffee Fudge.
+	"isCoffeeToffeeFudgeEnabled": false,
+	// Enable Coffee Toffee Fudge Fluid.
+	"isCoffeeToffeeFudgeFluidEnabled": false,
+	// Enable Dried Coffee Beans.
+	"isDriedCoffeeBeansEnabled": false,
+	// Enable Espresso Powder.
+	"isEspressoPowderEnabled": false,
+	// Enable Marshmallow Coffee Toffee Fudge.
+	"isMarshmallowCoffeeToffeeFudgeEnabled": false,
+	// Enable Raw Green Tea Cookie.
+	"isRawGreenTeaCookieEnabled": false,
+	// Enable Dragon Bun.
+	"isDragonBunEnabled": false,
+	// Enable Dragon Bun (Crimson Fungus).
+	"isDragonBunCrimsonFungusEnabled": false,
+	// Enable Dragon Bun (Warped Fungus).
+	"isDragonBunWarpedFungusEnabled": false,
+	// Enable Dragon Burger.
+	"isDragonBurgerEnabled": false,
+	// Enable Dragon Burger (Crimson Fungus).
+	"isDragonBurgerCrimsonFungusEnabled": false,
+	// Enable Dragon Burger (Warped Fungus).
+	"isDragonBurgerWarpedFungusEnabled": false,
+	// Enable Dragon Patty.
+	"isDragonPattyEnabled": false,
+	// Enable Endermite Meatball.
+	"isEndermiteMeatballEnabled": false,
+	// Enable Endermite Meatball Sandwich.
+	"isEndermiteMeatballSandwichEnabled": false,
+	// Enable Endermite Meatball Stick.
+	"isEndermiteMeatballStickEnabled": false,
+	// Enable Ground Endermite.
+	"isGroundEndermiteEnabled": false,
+	// Enable Minced Dragon.
+	"isMincedDragonEnabled": false,
+	// Enable Raw Chorus Cookie.
+	"isRawChorusCookieEnabled": false,
+	// Enable Raw Endermite Meatball.
+	"isRawEndermiteMeatballEnabled": false,
+	// Enable Small Endermite Meatballs.
+	"isSmallEndermiteMeatballsEnabled": false,
+	// Enable Caramel Popcorn.
+	"isCaramelPopcornEnabled": false,
+	// Enable Cheese and Eggplant Bun.
+	"isCheeseAndEggplantBunEnabled": false,
+	// Enable Cheese and Eggplant Bun (Lettuce).
+	"isCheeseAndEggplantBunLettuceEnabled": false,
+	// Enable Cheese and Eggplant Bun (Lettuce, Tomato).
+	"isCheeseAndEggplantBunLettuceTomatoEnabled": false,
+	// Enable Corn Flour.
+	"isCornFlourEnabled": false,
+	// Enable Eggplant Bun.
+	"isEggplantBunEnabled": false,
+	// Enable Eggplant Bun (Lettuce).
+	"isEggplantBunLettuceEnabled": false,
+	// Enable Eggplant Bun (Lettuce, Tomato).
+	"isEggplantBunLettuceTomatoEnabled": false,
+	// Enable Eggplant Burger.
+	"isEggplantBurgerEnabled": false,
+	// Enable Eggplant Burger (Lettuce).
+	"isEggplantBurgerLettuceEnabled": false,
+	// Enable Eggplant Cheeseburger.
+	"isEggplantCheeseburgerEnabled": false,
+	// Enable Eggplant Cheeseburger (Lettuce).
+	"isEggplantCheeseburgerLettuceEnabled": false,
+	// Enable Eggplant Cheeseburger (Lettuce, Tomato).
+	"isEggplantCheeseburgerLettuceTomatoEnabled": false,
+	// Enable Pasta with Eggplant.
+	"isPastaPlateEggplantEnabled": true,
+	// Enable Smoked Corn Stick.
+	"isSmokedCornStickEnabled": false,
+	// Enable Frosted Ube Cake.
+	"isFrostedUbeCakeEnabled": false,
+	// Enable Raw Ginger Cookie.
+	"isRawGingerCookieEnabled": false,
+	// Enable Raw Ube Cake Base.
+	"isRawUbeCakeBaseEnabled": false,
+	// Enable Raw Ube Cookie.
+	"isRawUbeCookieEnabled": false,
+	// Enable Ube Cake Base.
+	"isUbeCakeBaseEnabled": false,
+	// Enable Ube Cream Frosting.
+	"isUbeCreamFrostingBottleEnabled": false,
+	// Enable Ube Cream Frosting Fluid.
+	"isUbeCreamFrostingFluidEnabled": false,
+	// Enable Ube Sugar Dough.
+	"isUbeSugarDoughEnabled": false,
+	// Enable Raw Flesh Cookie.
+	"isRawFleshCookieEnabled": false,
+	// Enable Raw Soul Berry Cookie.
+	"isRawSoulBerryCookieEnabled": false,
+	// Enable Raw Spider Eye Cookie.
+	"isRawSpiderEyeCookieEnabled": false,
+	// Enable Magma Cream Marshmallow.
+	"isMagmaCreamMarshmallowEnabled": false,
+	// Enable Magma Cream Marshmallow Stick.
+	"isMagmaCreamMarshmallowStickEnabled": false,
+	// Enable Raw Strider Meatball.
+	"isRawStriderMeatballEnabled": false,
+	// Enable Small Strider Meatballs.
+	"isSmallStriderMeatballsEnabled": false,
+	// Enable Strider Meatball.
+	"isStriderMeatballEnabled": false,
+	// Enable Strider Meatball Sandwich.
+	"isStriderMeatballSandwichEnabled": false,
+	// Enable Strider Meatball Stick.
+	"isStriderMeatballStickEnabled": false
 }
