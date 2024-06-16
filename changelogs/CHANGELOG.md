@@ -9,7 +9,7 @@ _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabri
 ### Changes/Improvements ⭐
 
 * Amethyst Golem will no longer spawn **(SubordinalBlue)**
-* Added a clam all rewards button for quests **(ThatGravyBoat)**
+* Added a claim all rewards button for quests **(ThatGravyBoat)**
 * Added mythic upgrades ore to indrev mining rig **(nitrofenix)**
 * Changed back to old Lootr textures **(AK)**
 * Removed mana requirement for Terra Shatterer in Terra Tools quest **(nitrofenix)**
