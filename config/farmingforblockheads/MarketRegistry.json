@@ -12,10 +12,15 @@
          "icon":{
             "item":"regions_unexplored:pine_shrub"
          }
+      },
+      "ribbits":{
+         "name":"Ribbits",
+         "icon":{
+            "item":"ribbits:toadstool"
+         }
       }
    },
-
-   "customEntries":[      
+   "customEntries":[
       {
          "output":{
             "item":"regions_unexplored:acacia_shrub"
@@ -331,12 +336,6 @@
          },
          "category":"shrubs"
       },
-
-
-
-
-
-      
       {
          "output":{
             "item":"bakery:oat_seeds"
@@ -544,10 +543,6 @@
          },
          "category":"farmingforblockheads:seeds"
       },
-
-
-      
-      
       {
          "output":{
             "item":"beachparty:palm_sapling"
@@ -1025,11 +1020,6 @@
          },
          "category":"farmingforblockheads:saplings"
       },
-
-
-
-
-      
       {
          "output":{
             "item":"minecraft:brown_mushroom"
@@ -1101,6 +1091,78 @@
             "item":"minecraft:emerald"
          },
          "category":"fungi"
+      },
+      {
+         "output":{
+            "item":"ribbits:brown_toadstool"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:giant_lilypad"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:red_toadstool"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:swamp_daisy"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:toadstool"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:toadstool_stem"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:umbrella_leaf"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
+      },
+      {
+         "output":{
+            "item":"ribbits:swamp_lantern"
+         },
+         "payment":{
+            "item":"minecraft:amethyst_shard"
+         },
+         "category":"ribbits"
       }
    ]
 }
