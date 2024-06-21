@@ -1,0 +1,66 @@
+{
+  "wants" : [
+    {
+      "id": "blockus:polished_amethyst",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "ribbits:toadstool",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:toadstool_stem",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:brown_toadstool",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:red_toadstool",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:giant_lilypad",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:umbrella_leaf",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:swamp_daisy",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "ribbits:swamp_lantern",
+      "count": 16,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    }
+  ]
+}
