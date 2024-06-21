@@ -1,63 +1,63 @@
 {
   "wants" : [
     {
-      "id": "minecraft:amethyst_block",
+      "id": "blockus:polished_amethyst",
       "required": true
     }
   ],
   "possible_rewards": [
     {
-      "id": "ribbit:toadstool",
-      "count": 4,
+      "id": "ribbits:toadstool",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:toadstool_stem",
-      "count": 4,
+      "id": "ribbits:toadstool_stem",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:brown_toadstool",
-      "count": 4,
+      "id": "ribbits:brown_toadstool",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:red_toadstool",
-      "count": 4,
+      "id": "ribbits:red_toadstool",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:giant_lilypad",
-      "count": 4,
+      "id": "ribbits:giant_lilypad",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:umbrella_leaf",
-      "count": 4,
+      "id": "ribbits:umbrella_leaf",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:swamp_daisy",
-      "count": 4,
+      "id": "ribbits:swamp_daisy",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
     },
     {
-      "id": "ribbit:swamp_lantern",
-      "count": 4,
+      "id": "ribbits:swamp_lantern",
+      "count": 16,
       "xp_reward": 0,
       "weight": 1,
       "required": true
