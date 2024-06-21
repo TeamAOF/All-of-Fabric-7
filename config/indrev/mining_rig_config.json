@@ -12,7 +12,7 @@
     "c:cinnabar_ores": 4,
     "c:diamond_ores": 4,
     "c:galena_ores": 4,
-    "jewelry:gem_veins": 4,
+    "c:jewelry_gem_vein": 4,
     "c:gold_ores": 4,
     "c:iron_ores": 4,
     "c:lapis_ores": 4,
@@ -38,7 +38,7 @@
     "c:tungsten_ores": 10,
     "c:uranium_ores": 10,
     "c:uraninite_ores": 10,
-    "mythicmetals:ores": 10,
+    "c:mythicmetals_ores": 10,
     "c:mythicupgrades_ores": 10
   }
 }
