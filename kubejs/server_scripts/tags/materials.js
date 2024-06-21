@@ -150,7 +150,77 @@ ServerEvents.tags('item', event => {
 
     mythicmetals_nuggets.forEach((item) => {
         event.add("c:" + item + "_nuggets", "mythicmetals:" + item + "_nugget")
+    });
+    
+    // JewelryRPG
+    event.add("c:jewelry_gem_vein", "jewelry:gem_vein")
+    
+    // Mythic Metals ores
+    const mythicmetals_ores = [
+        "adamantite_ore",
+        "aquarium_ore",
+        "banglum_ore",
+        "blackstone_stormyx_ore",
+        "calcite_kyber_ore",
+        "calcite_starrite_ore",
+        "carmot_ore",
+        "deepslate_adamantite_ore",
+        "deepslate_carmot_ore",
+        "deepslate_morkite_ore",
+        "deepslate_mythril_ore",
+        "deepslate_orichalcum_ore",
+        "deepslate_prometheum_ore",
+        "deepslate_runite_ore",
+        "deepslate_unobtainium_ore",
+        "end_stone_starrite_ore",
+        "kyber_ore",
+        "manganese_ore",
+        "midas_gold_ore",
+        "morkite_ore",
+        "mythril_ore",
+        "nether_banglum_ore",
+        "orichalcum_ore",
+        "osmium_ore",
+        "palladium_ore",
+        "platinum_ore",
+        "prometheum_ore",
+        "quadrillum_ore",
+        "runite_ore",
+        "silver_ore",
+        "smooth_basalt_orichalcum_ore",
+        "starrite_ore",
+        "stormyx_ore",
+        "tin_ore",
+        "tuff_orichalcum_ore",
+        "unobtainium_ore"
+    ];
+
+    mythicmetals_ores.forEach((item) => {
+        event.add("c:mythicmetals_ores", "mythicmetals:" + item)
+    });
+
+    // Mythic Upgrades ores
+    const mythicupgrades_ores = [
+        "aquamarine_ore",
+        "deepslate_aquamarine_ore",
+        "citrine_ore",
+        "deepslate_citrine_ore",
+        "peridot_ore",
+        "deepslate_peridot_ore",
+        "zircon_ore",
+        "deepslate_zircon_ore",
+        "ruby_ore",
+        "sapphire_ore",
+        "topaz_ore",
+        "ametrine_ore",
+        "jade_ore",
+        "necoium_ore"
+    ];
+
+    mythicupgrades_ores.forEach((item) => {
+        event.add("c:mythicupgrades_ores", "mythicupgrades:" + item)
     })
+    
 })
 
 ServerEvents.tags('block', event => {
@@ -191,28 +261,6 @@ ServerEvents.tags('block', event => {
 
     geodeplus_ae2.forEach((item) => {
         event.add("ae2:growth_acceleratable", "geode_plus:" + item)
-    });
-
-    // Mythic Upgrades ores
-	const mythicupgrades_ores = [
-		"aquamarine_ore",
-		"deepslate_aquamarine_ore",
-		"citrine_ore",
-		"deepslate_citrine_ore",
-		"peridot_ore",
-		"deepslate_peridot_ore",
-		"zircon_ore",
-		"deepslate_zircon_ore",
-		"ruby_ore",
-		"sapphire_ore",
-		"topaz_ore",
-		"ametrine_ore",
-		"jade_ore",
-		"necoium_ore"
-	];
-
-    mythicupgrades_ores.forEach((item) => {
-        event.add("c:mythicupgrades_ores", "mythicupgrades:" + item)
     });
 
 });
