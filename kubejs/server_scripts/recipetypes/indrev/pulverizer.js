@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
     // Mythic Metals
     const mythicmetals = [
         'adamantite',
-        'aqaurium',
+        'aquarium',
         'banglum',
         'carmot',
         'kyber',
