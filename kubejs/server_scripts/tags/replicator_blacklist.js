@@ -295,7 +295,9 @@ ServerEvents.tags('item', event => {
         'trofers:medium_plate',
         'trofers:large_plate',
         'industrialreborn:filled_soul_vial',
-        'kubejs:completionist_cup'
+        'kubejs:completionist_cup',
+        '@sophisticatedbackpacks',
+        '@sophisticatedstorage'
         
 
     ];
