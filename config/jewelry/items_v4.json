@@ -1,0 +1,593 @@
+{
+  "items": {
+    "jewelry:sapphire_necklace": {
+      "attributes": [
+        {
+          "id": "generic.max_health",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:unique_fire_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:fire",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_chance",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_damage",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:topaz_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:arcane",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:fire",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_ruby_ring": {
+      "attributes": [
+        {
+          "id": "generic.attack_damage",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_attack_necklace": {
+      "attributes": [
+        {
+          "id": "generic.attack_damage",
+          "value": 0.12,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_healing_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:haste",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:sapphire_ring": {
+      "attributes": [
+        {
+          "id": "generic.max_health",
+          "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:netherite_ruby_necklace": {
+      "attributes": [
+        {
+          "id": "generic.attack_damage",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_tanzanite_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:soul",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:iron_ring": {
+      "attributes": [
+        {
+          "id": "generic.armor",
+          "value": 1.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:jade_ring": {
+      "attributes": [
+        {
+          "id": "ranged_weapon:damage",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_archer_ring": {
+      "attributes": [
+        {
+          "id": "ranged_weapon:damage",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "combatroll:recharge",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "ranged_weapon:haste",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:jade_necklace": {
+      "attributes": [
+        {
+          "id": "ranged_weapon:damage",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_tank_necklace": {
+      "attributes": [
+        {
+          "id": "generic.max_health",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "id": "generic.armor_toughness",
+          "value": 1.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:copper_ring": {
+      "attributes": [
+        {
+          "id": "generic.armor",
+          "value": 0.5,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:unique_attack_ring": {
+      "attributes": [
+        {
+          "id": "generic.attack_damage",
+          "value": 0.12,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_jade_ring": {
+      "attributes": [
+        {
+          "id": "ranged_weapon:damage",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_tanzanite_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:soul",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_dex_ring": {
+      "attributes": [
+        {
+          "id": "generic.attack_speed",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "combatroll:recharge",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:ruby_necklace": {
+      "attributes": [
+        {
+          "id": "generic.attack_damage",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_frost_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:haste",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_damage",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:gold_ring": {
+      "attributes": []
+    },
+    "jewelry:netherite_sapphire_necklace": {
+      "attributes": [
+        {
+          "id": "generic.max_health",
+          "value": 4.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:netherite_topaz_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:arcane",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:fire",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_tank_ring": {
+      "attributes": [
+        {
+          "id": "generic.max_health",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "id": "generic.armor_toughness",
+          "value": 1.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:citrine_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:lightning",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:tanzanite_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:soul",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:citrine_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:lightning",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_arcane_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:arcane",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_chance",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:haste",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:diamond_necklace": {
+      "attributes": [
+        {
+          "id": "generic.movement_speed",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:tanzanite_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:soul",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_jade_necklace": {
+      "attributes": [
+        {
+          "id": "ranged_weapon:damage",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_sapphire_ring": {
+      "attributes": [
+        {
+          "id": "generic.max_health",
+          "value": 4.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:unique_arcane_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:arcane",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_chance",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:haste",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_frost_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:frost",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:haste",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_damage",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_fire_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:fire",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_chance",
+          "value": 0.03,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:critical_damage",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_citrine_necklace": {
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:lightning",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:ruby_ring": {
+      "attributes": [
+        {
+          "id": "generic.attack_damage",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_citrine_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:lightning",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_archer_necklace": {
+      "attributes": [
+        {
+          "id": "ranged_weapon:damage",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "combatroll:count",
+          "value": 1.0,
+          "operation": "ADDITION"
+        },
+        {
+          "id": "ranged_weapon:haste",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:netherite_topaz_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:arcane",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:fire",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_healing_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:haste",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:topaz_ring": {
+      "attributes": [
+        {
+          "id": "spell_power:arcane",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "spell_power:fire",
+          "value": 0.04,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "jewelry:unique_dex_necklace": {
+      "attributes": [
+        {
+          "id": "generic.attack_speed",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "combatroll:count",
+          "value": 1.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "jewelry:emerald_necklace": {
+      "attributes": [
+        {
+          "id": "generic.luck",
+          "value": 1.0,
+          "operation": "ADDITION"
+        }
+      ]
+    }
+  }
+}

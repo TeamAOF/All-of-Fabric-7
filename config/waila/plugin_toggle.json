@@ -22,5 +22,6 @@
   "zenith:ench": true,
   "zenith:spawner": true,
   "zenith:adventure": true,
-  "megane:alloy-forgery": true
+  "megane:alloy-forgery": true,
+  "revelationary:plugin": true
 }

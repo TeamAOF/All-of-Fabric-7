@@ -1,6 +1,7 @@
 {
 	"holdToCastChannelled": true,
 	"holdToCastCharged": true,
+	"autoSwapHands": true,
 	"spellHotbarShowsOffhand": true,
 	"spellHotbar_1_defer": "USE_KEY",
 	"spellHotbar_2_defer": "HOTBAR_KEY_2",

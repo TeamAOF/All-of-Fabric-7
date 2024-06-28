@@ -1,3 +1,45 @@
+## All of Fabric 7 | v2.4.0
+
+_Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.0.md)_
+
+### Added Mods ✅
+
+  * [Amecs](https://www.curseforge.com/minecraft/mc-mods/amecs)
+  * [Exposure](https://www.curseforge.com/minecraft/mc-mods/exposure)
+  * [Ice And Fire](https://www.curseforge.com/minecraft/mc-mods/iceandfire-fabric)
+  * [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil)
+  * [Joy of Painting](https://www.curseforge.com/minecraft/mc-mods/joy-of-painting)
+  * [Just Enough Breeding](https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding)
+  * [Lodestone](https://www.curseforge.com/minecraft/mc-mods/lodestone)
+  * [Malum](https://www.curseforge.com/minecraft/mc-mods/malum)
+  * [Music Maker](https://www.curseforge.com/minecraft/mc-mods/music-maker-mod)
+
+### Removed Mods ❌
+
+  * [Modern KeyBinding [Fabric]](https://www.curseforge.com/minecraft/mc-mods/modern-keybinding-fabric) (Replaced by Amecs)
+
+### Changes/Improvements ⭐
+
+* Remove Amethyst Cheesewheel from FoW Completion **(SubordinalBlue)**
+* Added ribbit block trades through the Bee Queen **(SubordinalBlue)**
+* Added new Ribbits category to the FFB market, to prevent the mass destruction of frog villages **(nitrofenix)**
+* Added a force reload script, fixing tinkers recipes not loading correctly **(AK)**
+* Nerfed Nitro Reactor generation rates, 200K FE/t > 150K FE/t **(AK)**
+
+### Bug Fixes 🪲
+
+* Fixed the claim all rewards button being invisible **(SubordinalBlue)**
+* Fixed an issue with sophisticated mods (backpacks/storage) causing item loss when all slots are filled and only memory slots are left empty **(salandora)**
+* Fixed a major item loss issue in the InventoryHandler with sophisticated mods **(salandora)**
+* Fixed an issue with crashing when sneaking on copycats blocks **(Lysine)**
+
+### Recipes 🪵
+
+* Fixed aquarium recipe through indrev pulverizer **(SubordinalBlue)**
+* Fixed mythic upgrade/metals ore tags in mining rig **(nitrofenix)**
+* Blacklisted Sophisticated mods in Replicator **(AK)**
+---
+
 ## All of Fabric 7 | v2.3.0
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.3.0.md)_

@@ -13,6 +13,8 @@
 	"spell_cost_durability_allowed": true,
 	// The time in ticks of global cooldown to apply to all instant cast spells when casted.
 	"spell_instant_cast_gcd": 0,
+	// Players cannot unequip a spell book, if one of the spells in it is on cooldown.
+	"spell_book_cooldown_lock": true,
 	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
 	"projectiles_pass_thru_irrelevant_targets": true,
 	// Spell book creation level requirement
@@ -21,6 +23,8 @@
 	"spell_book_binding_level_cost": 1,
 	// Should the player be able to cast spells from the offhand spell book?
 	"spell_book_offhand": false,
+	// Auto swap Bow & Spear cooldown ticks to apply for attack and itemUse
+	"auto_swap_cooldown": 5,
 	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
 	"add_spell_casting_to_swords": true,
 	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)

@@ -1,0 +1,61 @@
+[UI]
+	#Film Roll Frames will be shown in the camera tooltip.
+	#Default: true
+	CameraFilmFramesTooltip = true
+	#Photographer name will be shown in Photograph's tooltip.
+	PhotographPhotographerNameTooltip = false
+	#Album will show how many photographs they contain in a tooltip.
+	AlbumShowPhotosCount = true
+	#Crosshair will not get in the way when holding a photograph.
+	PhotographInHandHideCrosshair = true
+	#Film Roll fullness bar will be shown on the Camera item. Same as it does on Film Roll item.
+	#Default: false
+	CameraShowsFilmBar = false
+	#Details about Camera configuring will be shown in Camera item tooltip.
+	CameraDetailsInTooltip = true
+	#Signed Album item will have an enchantment glint.
+	SignedAlbumGlint = true
+	#Tooltips for Developing Film Rolls and Copying Photographs will be shown on Film Rolls and Photographs respectively, describing the crafting recipe. 
+	#Only when JEI is not installed. (Only JEI shows these recipes, not REI or EMI)
+	RecipeTooltipsWithoutJei = true
+
+	[UI.Viewfinder]
+		FontSecondaryColorHex = "FF7A736C"
+		BackgroundColorHex = "FA1F1D1B"
+		#Mouse sensitivity modifier per 5 degrees of fov. Set to 0 to disable sensitivity changes.
+		#Range: 0.0 ~ 1.0
+		ZoomSensitivityModifier = 0.048
+		FontMainColorHex = "FF2B2622"
+		#Clicking middle mouse button will open Viewfinder Controls. This is independent of Open Camera Controls keybind.
+		#Allows opening camera controls without dismounting from a vehicle - and keeping controls on sneak as well.
+		#Default: true
+		MiddleClickOpensControls = true
+[Capture]
+	#Delay in ticks before capturing an image when shooting with flash.
+	#If you experience flash synchronization issues (Flash having no effect on the image) - try increasing the value.
+	#Range: 1 ~ 7
+	FlashCaptureDelayTicks = 3
+	#Delay in frames before capturing an image.
+	#Set to higher value when leftovers of GUI elements (such as nameplates) are visible on the images
+	#(some shaders have temporal effects that take several frames to disappear fully)
+	#Range: 0 ~ 100
+	CaptureDelayFrames = 0
+[FileSaving]
+	#When saving, exposures will be placed into folder corresponding to current world name.
+	WorldNameSubfolder = true
+	#Saved exposures will be enlarged by this multiplier.
+	#Given the default exposure size of 320 - this will produce:
+	#320/640/960/1280px png image. Be careful with larger frame sizes.
+	#Default: X2
+	#Allowed Values: X1, X2, X3, X4
+	Size = "X2"
+	#When the Photograph is viewed in UI, image will be saved to 'exposures' folder as a png.
+	SavePhotographs = true
+[Render]
+	#Distance from the player beyond which Photograph Frame would not be rendered. Default: 64
+	#Note: this number may not relate to distance in blocks exactly. It's influenced by onRender distance and entity distance settings.
+	#Range: 8 ~ 128
+	PhotographFrameCullingDistance = 64
+[Integration]
+	#Useful information about some items will be shown in JEI description category. Default: true
+	JeiInformation = true

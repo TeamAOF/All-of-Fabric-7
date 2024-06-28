@@ -221,8 +221,7 @@
     "flower_box": true,
     "doormat": true,
     "flint_block": true,
-    "candle_holder": true,
-    "fire_pit": true
+    "candle_holder": true
   },
   "tools": {
     "quiver": {

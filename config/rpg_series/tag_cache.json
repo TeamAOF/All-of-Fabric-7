@@ -1,0 +1,123 @@
+{
+  "cache": {
+    "rpg_series:tier_4_weapons": [],
+    "rpg_series:tier_1_armors": [
+      "archers:archer_armor_chest",
+      "archers:archer_armor_feet",
+      "archers:archer_armor_head",
+      "archers:archer_armor_legs",
+      "wizards:wizard_robe_chest",
+      "wizards:wizard_robe_feet",
+      "wizards:wizard_robe_head",
+      "wizards:wizard_robe_legs"
+    ],
+    "rpg_series:tier_2_armors": [
+      "archers:ranger_armor_chest",
+      "archers:ranger_armor_feet",
+      "archers:ranger_armor_head",
+      "archers:ranger_armor_legs",
+      "wizards:arcane_robe_chest",
+      "wizards:arcane_robe_feet",
+      "wizards:arcane_robe_head",
+      "wizards:arcane_robe_legs",
+      "wizards:fire_robe_chest",
+      "wizards:fire_robe_feet",
+      "wizards:fire_robe_head",
+      "wizards:fire_robe_legs",
+      "wizards:frost_robe_chest",
+      "wizards:frost_robe_feet",
+      "wizards:frost_robe_head",
+      "wizards:frost_robe_legs"
+    ],
+    "rpg_series:tier_3_armors": [],
+    "rpg_series:tier_0_accessories": [
+      "jewelry:copper_ring",
+      "jewelry:iron_ring",
+      "jewelry:gold_ring"
+    ],
+    "rpg_series:tier_1_accessories": [
+      "jewelry:emerald_necklace",
+      "jewelry:diamond_necklace"
+    ],
+    "rpg_series:tier_3_weapons": [
+      "archers:netherite_shortbow",
+      "archers:netherite_longbow",
+      "archers:netherite_rapid_crossbow",
+      "archers:netherite_heavy_crossbow",
+      "archers:netherite_spear",
+      "wizards:staff_netherite_arcane",
+      "wizards:staff_netherite_fire",
+      "wizards:staff_netherite_frost"
+    ],
+    "rpg_series:tier_2_accessories": [
+      "jewelry:ruby_ring",
+      "jewelry:topaz_ring",
+      "jewelry:citrine_ring",
+      "jewelry:jade_ring",
+      "jewelry:sapphire_ring",
+      "jewelry:tanzanite_ring",
+      "jewelry:ruby_necklace",
+      "jewelry:topaz_necklace",
+      "jewelry:citrine_necklace",
+      "jewelry:jade_necklace",
+      "jewelry:sapphire_necklace",
+      "jewelry:tanzanite_necklace"
+    ],
+    "rpg_series:tier_3_accessories": [
+      "jewelry:netherite_ruby_ring",
+      "jewelry:netherite_topaz_ring",
+      "jewelry:netherite_citrine_ring",
+      "jewelry:netherite_jade_ring",
+      "jewelry:netherite_sapphire_ring",
+      "jewelry:netherite_tanzanite_ring",
+      "jewelry:netherite_ruby_necklace",
+      "jewelry:netherite_topaz_necklace",
+      "jewelry:netherite_citrine_necklace",
+      "jewelry:netherite_jade_necklace",
+      "jewelry:netherite_sapphire_necklace",
+      "jewelry:netherite_tanzanite_necklace"
+    ],
+    "rpg_series:tier_1_weapons": [
+      "minecraft:crossbow",
+      "archers:composite_longbow",
+      "archers:iron_spear",
+      "wizards:staff_wizard"
+    ],
+    "rpg_series:golden_weapons": [
+      "archers:golden_spear"
+    ],
+    "rpg_series:tier_2_weapons": [
+      "archers:mechanic_shortbow",
+      "archers:royal_longbow",
+      "archers:rapid_crossbow",
+      "archers:heavy_crossbow",
+      "archers:diamond_spear",
+      "wizards:staff_arcane",
+      "wizards:staff_fire",
+      "wizards:staff_frost"
+    ],
+    "rpg_series:tier_4_accessories": [
+      "jewelry:unique_attack_ring",
+      "jewelry:unique_attack_necklace",
+      "jewelry:unique_dex_ring",
+      "jewelry:unique_dex_necklace",
+      "jewelry:unique_tank_ring",
+      "jewelry:unique_tank_necklace",
+      "jewelry:unique_archer_ring",
+      "jewelry:unique_archer_necklace",
+      "jewelry:unique_arcane_ring",
+      "jewelry:unique_arcane_necklace",
+      "jewelry:unique_fire_ring",
+      "jewelry:unique_fire_necklace",
+      "jewelry:unique_frost_ring",
+      "jewelry:unique_frost_necklace",
+      "jewelry:unique_healing_ring",
+      "jewelry:unique_healing_necklace"
+    ],
+    "rpg_series:tier_0_weapons": [
+      "minecraft:bow",
+      "archers:flint_spear",
+      "wizards:wand_novice"
+    ]
+  }
+}

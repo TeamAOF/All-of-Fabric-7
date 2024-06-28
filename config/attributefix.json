@@ -110,6 +110,17 @@
         "value": 40
       }
     },
+    "malum:soul_ward_recovery_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "porting_lib:step_height_addition": {
       "enabled": false,
       "min": {
@@ -306,6 +317,17 @@
       "max": {
         "default": 20,
         "value": 1000000
+      }
+    },
+    "malum:scythe_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "obscure_api:accuracy": {
@@ -594,6 +616,17 @@
         "value": 1
       }
     },
+    "lodestone:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "additionalentityattributes:player.critical_bonus_damage": {
       "enabled": false,
       "min": {
@@ -671,6 +704,17 @@
         "value": 128
       }
     },
+    "malum:soul_ward_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "additionalentityattributes:generic.water_speed": {
       "enabled": false,
       "min": {
@@ -715,6 +759,17 @@
         "value": 2048
       }
     },
+    "lodestone:magic_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "dml-refabricated:fly": {
       "enabled": false,
       "min": {
@@ -724,6 +779,17 @@
       "max": {
         "default": 16,
         "value": 16
+      }
+    },
+    "malum:malignant_conversion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "dml-refabricated:jump_boost": {
@@ -825,6 +891,17 @@
         "value": 1000000
       }
     },
+    "lodestone:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "dml-refabricated:shulker_friendly": {
       "enabled": false,
       "min": {
@@ -869,6 +946,17 @@
         "value": 1024
       }
     },
+    "malum:reserve_staff_charges": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "dml-refabricated:poseidon_bless": {
       "enabled": false,
       "min": {
@@ -911,6 +999,28 @@
       "max": {
         "default": 16,
         "value": 16
+      }
+    },
+    "malum:spirit_spoils": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:soul_ward_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "obscure_api:parry": {
@@ -1043,6 +1153,17 @@
       "max": {
         "default": 16,
         "value": 16
+      }
+    },
+    "malum:arcane_resonance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "spell_power:soul": {
