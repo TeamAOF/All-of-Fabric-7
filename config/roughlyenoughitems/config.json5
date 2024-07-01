@@ -422,7 +422,14 @@
 					"ad_astra:cryo_freezing",
 					"ad_astra:nasa_workbench",
 					"roughlyenoughitems:plugins/information",
-					"minecraft:plugins/tag"
+					"minecraft:plugins/tag",
+					"roughlyenoughresources:hunting_dim_worldgen_category",
+					"roughlyenoughresources:caving_dim_worldgen_category",
+					"roughlyenoughresources:nethering_dim_worldgen_category",
+					"roughlyenoughresources:mining_dim_worldgen_category",
+					"roughlyenoughresources:climbing_dim_worldgen_category",
+					"nethersdelight:plugin/composition",
+					"justenoughbreeding:breeding"
 				],
 				"hiddenCategories": []
 			}

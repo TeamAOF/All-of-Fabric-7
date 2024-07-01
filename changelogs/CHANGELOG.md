@@ -1,3 +1,23 @@
+## All of Fabric 7 | v2.4.1
+
+_Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.1.md)_
+
+### Added Mods ❌
+
+  * [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) (Feature in Amecs)
+  * [Music Maker](https://www.curseforge.com/minecraft/mc-mods/music-maker-mod) (Loading time issues & ram usage)
+
+### Changes/Improvements ⭐
+
+* Blacklisted Banks to be used in MI replicator **(nitrofenix)**
+
+### Bug Fixes 🪲
+
+* Fixed crashes when rendering any entity from Ice & Fire on servers.
+* Fixed crashes when hovering certain tooltips.
+* Fixed an issue where you couldnt set modifier keys to keybinds.
+---
+
 ## All of Fabric 7 | v2.4.0
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.0.md)_

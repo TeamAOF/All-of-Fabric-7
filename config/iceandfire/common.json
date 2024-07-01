@@ -1,1 +1,180 @@
-{"version":0,"dragon":{"generate":{"skeletons":true,"skeletonChance":300,"denChance":260,"roostChance":480,"denGoldAmount":4,"oreRatio":45},"behaviour":{"griefing":0,"tamedGriefing":true,"flapNoiseDistance":4,"fluteDistance":8,"attackDamage":17,"attackDamageFire":2.0,"attackDamageIce":2.5,"attackDamageLightning":3.5,"maxFlight":256,"goldSearchLength":30,"canHealFromBiting":false,"canDespawn":true,"sleep":true,"digWhenStuck":true,"breakBlockCooldown":5,"targetSearchLength":128,"wanderFromHomeDistance":40,"hungerTickRate":3000,"movedWronglyFix":false,"blockBreakingDropChance":0.1,"explosiveBreath":false,"chunkLoadSummonCrystal":true,"dragonFlightSpeedMod":1.0},"drop":{"skull":true,"heart":true,"blood":true},"maxHealth":500.0,"eggBornTime":7200,"maxPathingNodes":5000,"villagersFear":true,"animalsFear":true},"hippogryphs":{"spawn":true,"spawnWeight":2,"fightSpeedMod":1.0},"pixie":{"spawnChance":60,"size":5,"stealItems":true},"cyclops":{"spawnWanderingChance":900,"spawnCaveChance":170,"sheepSearchLength":17,"maxHealth":150.0,"attackStrength":15.0,"biteStrength":40.0,"griefing":true},"siren":{"maxHealth":50.0,"shader":true,"maxSingTime":12000,"timeBetweenSongs":2000,"spawnChance":400},"gorgon":{"generateTemple":true,"maxHealth":100.0},"deathworm":{"targetSearchLength":48,"maxHealth":10.0,"attackStrength":3.0,"attackMonsters":true,"spawnChance":30},"cockatrice":{"chickenSearchLength":32,"eggChance":30,"maxHealth":40.0,"chickensLayRottenEggs":true,"spawn":true,"spawnWeight":4},"stymphalianBird":{"targetSearchLength":48,"featherDropChance":25,"featherAttackStrength":1.0,"flockLength":40,"flightHeight":80,"dataTagDrops":true,"attackAnimals":false,"spawnChance":80},"troll":{"spawn":true,"spawnWeight":60,"dropWeapon":true,"maxHealth":50.0,"attackStrength":10.0},"myrmex":{"pregnantTicks":2500,"eggTicks":3000,"larvaTicks":35000,"colonyGenChance":150,"colonySize":80,"maximumWanderRadius":50,"hiveIgnoreDaytime":false,"baseAttackStrength":3.0},"amphithere":{"spawn":true,"spawnWeight":50,"villagerSearchLength":48.0,"tameTime":400,"flightSpeed":1.75,"maxHealth":50.0,"attackStrength":7.0},"seaSerpent":{"spawnChance":250,"griefing":true,"baseHealth":20.0,"attackStrength":4.0},"lich":{"spawn":true,"spawnWeight":4,"spawnChance":30},"hydra":{"maxHealth":250.0,"spawnChance":120},"ghost":{"generateGraveyards":true,"maxHealth":30.0,"attackStrength":3.0,"fromPlayerDeaths":true},"armors":{"dragon":{"fireAbility":true,"iceAbility":true,"lightningAbility":true},"dragonsteel":{"baseDamage":25.0,"baseArmor":12,"baseArmorToughness":6.0,"baseDurability":8000,"baseDurabilityEquipment":8000}},"worldGen":{"dangerousDistanceLimit":1000.0,"dangerousSeparationLimit":300.0,"generateMausoleums":true,"villagerHouseWeight":5},"dreadQueenMaxHealth":750.0,"hippocampusSpawnChance":40,"hippocampusSwimSpeedMod":1.0,"allowAttributeOverriding":true}
+{
+  "version": 1,
+  "client": {
+    "customMainMenu": true,
+    "dragonAuto3rdPerson": false
+  },
+  "dragon": {
+    "generate": {
+      "skeletons": true,
+      "skeletonChance": 300,
+      "denChance": 260,
+      "roostChance": 480,
+      "denGoldAmount": 4,
+      "oreRatio": 45
+    },
+    "behaviour": {
+      "griefing": 0,
+      "tamedGriefing": true,
+      "flapNoiseDistance": 4,
+      "fluteDistance": 8,
+      "attackDamage": 17,
+      "attackDamageFire": 2.0,
+      "attackDamageIce": 2.5,
+      "attackDamageLightning": 3.5,
+      "maxFlight": 256,
+      "goldSearchLength": 30,
+      "canHealFromBiting": false,
+      "canDespawn": true,
+      "sleep": true,
+      "digWhenStuck": true,
+      "breakBlockCooldown": 5,
+      "targetSearchLength": 128,
+      "wanderFromHomeDistance": 40,
+      "hungerTickRate": 3000,
+      "movedWronglyFix": false,
+      "blockBreakingDropChance": 0.1,
+      "explosiveBreath": false,
+      "chunkLoadSummonCrystal": true,
+      "dragonFlightSpeedMod": 1.0
+    },
+    "drop": {
+      "skull": true,
+      "heart": true,
+      "blood": true
+    },
+    "maxHealth": 500.0,
+    "eggBornTime": 7200,
+    "maxPathingNodes": 5000,
+    "villagersFear": true,
+    "animalsFear": true
+  },
+  "hippogryphs": {
+    "spawn": true,
+    "spawnWeight": 2,
+    "fightSpeedMod": 1.0
+  },
+  "pixie": {
+    "spawnChance": 60,
+    "size": 5,
+    "stealItems": true
+  },
+  "cyclops": {
+    "spawnWanderingChance": 900,
+    "spawnCaveChance": 170,
+    "sheepSearchLength": 17,
+    "maxHealth": 150.0,
+    "attackDamage": 15.0,
+    "biteDamage": 40.0,
+    "griefing": true
+  },
+  "siren": {
+    "spawnChance": 400,
+    "maxHealth": 50.0,
+    "shader": true,
+    "maxSingTime": 12000,
+    "timeBetweenSongs": 2000
+  },
+  "gorgon": {
+    "generateTemple": true,
+    "maxHealth": 100.0
+  },
+  "deathworm": {
+    "spawnChance": 30,
+    "targetSearchLength": 48,
+    "maxHealth": 10.0,
+    "attackDamage": 3.0,
+    "attackMonsters": true
+  },
+  "cockatrice": {
+    "spawn": true,
+    "spawnWeight": 4,
+    "chickenSearchLength": 32,
+    "eggChance": 30,
+    "maxHealth": 40.0,
+    "chickensLayRottenEggs": true
+  },
+  "stymphalianBird": {
+    "spawnChance": 80,
+    "targetSearchLength": 48,
+    "featherDropChance": 25,
+    "featherAttackDamage": 1.0,
+    "flockLength": 40,
+    "flightHeight": 80,
+    "dataTagDrops": true,
+    "attackAnimals": false
+  },
+  "troll": {
+    "spawn": true,
+    "spawnWeight": 60,
+    "dropWeapon": true,
+    "maxHealth": 50.0,
+    "attackDamage": 10.0
+  },
+  "myrmex": {
+    "pregnantTicks": 2500,
+    "eggTicks": 3000,
+    "larvaTicks": 35000,
+    "colonyGenChance": 150,
+    "colonySize": 80,
+    "maximumWanderRadius": 50,
+    "hiveIgnoreDaytime": false,
+    "baseAttackDamage": 3.0
+  },
+  "amphithere": {
+    "spawn": true,
+    "spawnWeight": 50,
+    "villagerSearchLength": 48.0,
+    "tameTime": 400,
+    "flightSpeed": 1.75,
+    "maxHealth": 50.0,
+    "attackDamage": 7.0
+  },
+  "seaSerpent": {
+    "spawnChance": 250,
+    "griefing": true,
+    "baseHealth": 20.0,
+    "attackDamage": 4.0
+  },
+  "lich": {
+    "spawn": true,
+    "spawnWeight": 4,
+    "spawnChance": 30
+  },
+  "hydra": {
+    "maxHealth": 250.0,
+    "spawnChance": 120
+  },
+  "hippocampus": {
+    "spawnChance": 40,
+    "swimSpeedMod": 1.0
+  },
+  "ghost": {
+    "generateGraveyards": true,
+    "maxHealth": 30.0,
+    "attackDamage": 3.0,
+    "fromPlayerDeaths": true
+  },
+  "armors": {
+    "dragon": {
+      "fireAbility": true,
+      "iceAbility": true,
+      "lightningAbility": true
+    },
+    "dragonsteel": {
+      "baseDamage": 25.0,
+      "baseArmor": 12,
+      "baseArmorToughness": 6.0,
+      "baseDurability": 8000,
+      "baseDurabilityEquipment": 8000
+    }
+  },
+  "worldGen": {
+    "dangerousDistanceLimit": 1000.0,
+    "dangerousSeparationLimit": 300.0,
+    "generateMausoleums": true,
+    "villagerHouseWeight": 5
+  },
+  "dreadQueenMaxHealth": 750.0,
+  "allowAttributeOverriding": true
+}
