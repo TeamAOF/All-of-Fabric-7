@@ -2,7 +2,7 @@
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.1.md)_
 
-### Added Mods ❌
+### Removed Mods ❌
 
   * [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) (Feature in Amecs)
   * [Music Maker](https://www.curseforge.com/minecraft/mc-mods/music-maker-mod) (Loading time issues & ram usage)
