@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:chest",
+		"lolmcv:oak_chest",
+		"lolmcv:spruce_chest",
+		"lolmcv:birch_chest",
+		"lolmcv:jungle_chest",
+		"lolmcv:acacia_chest",
+		"lolmcv:dark_oak_chest",
+		"lolmcv:crimson_chest",
+		"lolmcv:warped_chest",
+		"lolmcv:mangrove_chest",
+		"lolmcv:bamboo_chest",
+		"lolmcv:cherry_chest"
+    ]
+}
