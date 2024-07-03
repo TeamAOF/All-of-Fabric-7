@@ -138,7 +138,7 @@ element {
 }
 
 element {
-  source = All of Fabric 7 - 2.4.1
+  source = All of Fabric 7 - 2.4.2
   source_mode = direct
   shadow = true
   case_mode = normal

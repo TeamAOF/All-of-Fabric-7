@@ -1,3 +1,15 @@
+## All of Fabric 7 | v2.4.2
+
+_Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.2.md)_
+
+### Changes/Improvements ⭐
+
+* Unified copper nuggets from Ice & Fire/Malum **(AK)**
+* Stymphalian Bird now drops the correct variant of copper nugget **(AK)**
+* Removed Indrev variant of Copper gear for Ice & Fire variant **(AK)**
+* MCV chests now convert into Lootr variant in structures **(Trent)**
+---
+
 ## All of Fabric 7 | v2.4.1
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.1.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.1.md)_
