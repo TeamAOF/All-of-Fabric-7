@@ -111,6 +111,12 @@ ServerEvents.tags('item', event => {
     // Create Deco
     event.add("c:netherite_nuggets", 'createdeco:netherite_nugget')
 
+    // Ice & Fire
+    event.add("c:copper_nuggets", 'iceandfire:copper_nugget')
+
+        // Malum
+        event.add("c:copper_nuggets", 'malum:copper_nugget')
+
 
     // Gems
     event.add("c:rubies", "mythicupgrades:ruby")
@@ -151,10 +157,10 @@ ServerEvents.tags('item', event => {
     mythicmetals_nuggets.forEach((item) => {
         event.add("c:" + item + "_nuggets", "mythicmetals:" + item + "_nugget")
     });
-    
+
     // JewelryRPG
     event.add("c:jewelry_gem_vein", "jewelry:gem_vein")
-    
+
     // Mythic Metals ores
     const mythicmetals_ores = [
         "adamantite_ore",
@@ -220,7 +226,7 @@ ServerEvents.tags('item', event => {
     mythicupgrades_ores.forEach((item) => {
         event.add("c:mythicupgrades_ores", "mythicupgrades:" + item)
     })
-    
+
 })
 
 ServerEvents.tags('block', event => {

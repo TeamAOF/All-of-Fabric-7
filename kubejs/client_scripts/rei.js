@@ -72,7 +72,11 @@ const DELETED_ITEMS = [
     'mythicmetals:copper_helmet',
     'mythicmetals:copper_chestplate',
     'mythicmetals:copper_leggings',
-    'mythicmetals:copper_boots'
+    'mythicmetals:copper_boots',
+    'indrev:copper_helmet',
+    'indrev:copper_chestplate',
+    'indrev:copper_leggings',
+    'indrev:copper_boots'
 ];
 REIEvents.hide('item', (event) => {
     DELETED_ITEMS.forEach(id => event.hide(id));
