@@ -116,7 +116,11 @@ ServerEvents.tags('block', event => {
     'mythicupgrades:budding_aquamarine_crystal',
     'mythicupgrades:budding_sapphire_crystal',
     'mythicupgrades:budding_ruby_crystal',
-    'mythicupgrades:budding_ametrine_crystal'
+    'mythicupgrades:budding_ametrine_crystal',
+    'tconstruct:budding_earth_slime_crystal',
+    'tconstruct:budding_sky_slime_crystal',
+    'tconstruct:budding_ichor_slime_crystal',
+    'tconstruct:budding_ender_slime_crystal'
   ];
 
   budding_blocks.forEach((block) => {
