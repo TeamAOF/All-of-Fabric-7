@@ -1,0 +1,16 @@
+{
+	unlimitedRange: false,
+	alwaysInterdim: false,
+	alwaysHaste: "CREATIVE",
+	// Only allows portals to link if they were each constructed by the same player. Useful for servers.
+	privatePortals: false,
+	// Note: Setting this to 'Turns Portals On' means your portals will be off without redstone power!
+	redstone: "OFF",
+	defaultRange: 100,
+	rangeWithEnhancer: 1000,
+	rangeWithStrongEnhancer: 10000,
+	// Whether the below list is a whitelist or blacklist
+	isWhitelist: false,
+	// Allows customizing which blocks may be used as portal frames. Takes the block's id, e.g. "minecraft:stone" for stone block.
+	filteredBlocks: []
+}

@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
       id: 'zenith:enchanted_golden_apple'
     },
 
+    /*
     // Vial of Expulsion
     {
       output: '2x zenith:vial_of_expulsion',
@@ -41,7 +42,6 @@ ServerEvents.recipes(event => {
       },
       id: 'zenith:vial_of_expulsion'
     },
-
     // Vial of Expulsion
     {
       output: '2x zenith:vial_of_extraction',
@@ -59,6 +59,7 @@ ServerEvents.recipes(event => {
       },
       id: 'zenith:vial_of_extraction'
     },
+    */
 
     // Hellshelf
     {

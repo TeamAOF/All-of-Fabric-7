@@ -255,6 +255,8 @@
 	"isChocolateChocolatePastryEnabled": true,
 	// Enable Chocolate Filled Pastry.
 	"isChocolatePastryEnabled": true,
+	// Enable Chocolate Filled Graham Cracker Pie Crust.
+	"isChocolateFilledGrahamCrackerPieCrustEnabled": true,
 	// Enable Chocolate Filled Mini Graham Cracker Pie Crust.
 	"isChocolateFilledMiniGrahamCrackerPieCrustEnabled": true,
 	// Enable Chocolate Frosted Chocolate Sweet Roll.
@@ -435,6 +437,8 @@
 	"isGrahamCrackerEnabled": true,
 	// Enable Graham Cracker Crumbs.
 	"isGrahamCrackerCrumbsEnabled": true,
+	// Enable Graham Cracker Pie Crust.
+	"isGrahamCrackerPieCrustEnabled": true,
 	// Enable Gray Gelatin Dessert Slice.
 	"isGrayGelatinDessertSliceEnabled": true,
 	// Enable Green Gelatin Dessert Slice.
@@ -747,14 +751,24 @@
 	"isYellowGelatinDessertSliceEnabled": true,
 	// Enable Yogurt.
 	"isYogurtBottleEnabled": true,
+	// Enable Bacon Pizza.
+	"isBaconPizzaEnabled": true,
 	// Enable Black Gelatin Dessert Block.
 	"isBlackGelatinDessertBlockEnabled": true,
 	// Enable Blue Gelatin Dessert Block.
 	"isBlueGelatinDessertBlockEnabled": true,
 	// Enable Brown Gelatin Dessert Block.
 	"isBrownGelatinDessertBlockEnabled": true,
+	// Enable Cheese Pizza.
+	"isCheesePizzaEnabled": true,
 	// Enable Cyan Gelatin Dessert Block.
 	"isCyanGelatinDessertBlockEnabled": true,
+	// Enable Fish Pizza.
+	"isFishPizzaEnabled": true,
+	// Enable Fish & Bacon Pizza.
+	"isFishBaconPizzaEnabled": true,
+	// Enable Fish & Onion Pizza.
+	"isFishOnionPizzaEnabled": true,
 	// Enable Gelatin Dessert Block.
 	"isGelatinDessertBlockEnabled": true,
 	// Enable Gray Gelatin Dessert Block.
@@ -769,14 +783,74 @@
 	"isLimeGelatinDessertBlockEnabled": true,
 	// Enable Magenta Gelatin Dessert Block.
 	"isMagentaGelatinDessertBlockEnabled": true,
+	// Enable Mushroom Pizza.
+	"isMushroomPizzaEnabled": true,
+	// Enable Mushroom & Bacon Pizza.
+	"isMushroomBaconPizzaEnabled": true,
+	// Enable Mushroom & Fish Pizza.
+	"isMushroomFishPizzaEnabled": true,
+	// Enable Mushroom & Onion Pizza.
+	"isMushroomOnionPizzaEnabled": true,
+	// Enable Onion Pizza.
+	"isOnionPizzaEnabled": true,
+	// Enable Onion & Bacon Pizza.
+	"isOnionBaconPizzaEnabled": true,
 	// Enable Orange Gelatin Dessert Block.
 	"isOrangeGelatinDessertBlockEnabled": true,
 	// Enable Pink Gelatin Dessert Block.
 	"isPinkGelatinDessertBlockEnabled": true,
 	// Enable Purple Gelatin Dessert Block.
 	"isPurpleGelatinDessertBlockEnabled": true,
+	// Enable Pizza Dough.
+	"isPizzaDoughEnabled": true,
+	// Enable Pizza Dough (Tomato Sauce).
+	"isPizzaDoughTomatoSauceEnabled": true,
+	// Enable Raw Bacon Pizza.
+	"isRawBaconPizzaEnabled": true,
+	// Enable Raw Cheese Pizza.
+	"isRawCheesePizzaEnabled": true,
+	// Enable Raw Fish Pizza.
+	"isRawFishPizzaEnabled": true,
+	// Enable Raw Fish & Bacon Pizza.
+	"isRawFishBaconPizzaEnabled": true,
+	// Enable Raw Fish & Onion Pizza.
+	"isRawFishOnionPizzaEnabled": true,
+	// Enable Raw Mushroom Pizza.
+	"isRawMushroomPizzaEnabled": true,
+	// Enable Raw Mushroom & Bacon Pizza.
+	"isRawMushroomBaconPizzaEnabled": true,
+	// Enable Raw Mushroom & Fish Pizza.
+	"isRawMushroomFishPizzaEnabled": true,
+	// Enable Raw Mushroom & Onion Pizza.
+	"isRawMushroomOnionPizzaEnabled": true,
+	// Enable Raw Onion Pizza.
+	"isRawOnionPizzaEnabled": true,
+	// Enable Raw Onion & Bacon Pizza.
+	"isRawOnionBaconPizzaEnabled": true,
+	// Enable Raw Sausage Pizza.
+	"isRawSausagePizzaEnabled": true,
+	// Enable Raw Sausage & Bacon Pizza.
+	"isRawSausageBaconPizzaEnabled": true,
+	// Enable Raw Sausage & Fish Pizza.
+	"isRawSausageFishPizzaEnabled": true,
+	// Enable Raw Sausage & Mushroom Pizza.
+	"isRawSausageMushroomPizzaEnabled": true,
+	// Enable Raw Sausage & Onion Pizza.
+	"isRawSausageOnionPizzaEnabled": true,
 	// Enable Red Gelatin Dessert Block.
 	"isRedGelatinDessertBlockEnabled": true,
+	// Enable Sausage Pizza.
+	"isSausagePizzaEnabled": true,
+	// Enable Sausage & Bacon Pizza.
+	"isSausageBaconPizzaEnabled": true,
+	// Enable Sausage & Fish Pizza.
+	"isSausageFishPizzaEnabled": true,
+	// Enable Sausage & Mushroom Pizza.
+	"isSausageMushroomPizzaEnabled": true,
+	// Enable Sausage & Onion Pizza.
+	"isSausageOnionPizzaEnabled": true,
+	// Enable S'mores Pie.
+	"isSmoresPieEnabled": true,
 	// Enable Yellow Gelatin Dessert Block.
 	"isYellowGelatinDessertBlockEnabled": true,
 	// Enable Apple Cream Frosting Fluid.

@@ -51,6 +51,8 @@
 		"enableBackpackBlockQuickEquip": true,
 		// Enables unequipping the backpack when player clicks with empty hand on the ground
 		"enableBackpackRightClickUnequip": false,
+		// Allows to use only equipped backpack
+		"allowOnlyEquippedBackpack": false,
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
 		// List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
@@ -194,6 +196,8 @@
 			// Offsets to up
 			"offsetY": 30
 		},
+		// Sends a message to the player on death with backpack coordinates
+		"sendBackpackCoordinatesMessage": true,
 		// Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
 		"enableLegacyGui": false,
 		// Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn

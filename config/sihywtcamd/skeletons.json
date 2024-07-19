@@ -1,0 +1,25 @@
+{
+  "general": {
+    "baby": true,
+    "babyQuickAttackGoal": true,
+    "fleeGoal": true,
+    "swimGoal": true
+  },
+  "skeleton": {
+    "spectralArrow": true
+  },
+  "stray": {
+    "betterSlowness": true,
+    "frozenArrows": true,
+    "coldBiomeSpawn": true
+  },
+  "witherSkeleton": {
+    "baby": true,
+    "bow": true,
+    "netheriteSword": true
+  },
+  "skeletonHorse": {
+    "skeletonsVariationOnTrap": true,
+    "increasedSpeed": true
+  }
+}

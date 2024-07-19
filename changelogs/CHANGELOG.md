@@ -1,3 +1,20 @@
+## All of Fabric 7 | v2.4.3
+
+_Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.3.md)_
+
+### Bug Fixes 🪲
+
+* Fixed issues with Ice & Fire ticking entity crashes.
+
+### Added Mods ✅
+
+  * [Immersive Melodies [Fabric/Forge]](https://www.curseforge.com/minecraft/mc-mods/immersive-melodies)
+  * [Not Enough Recipe Book [NERB]](https://www.curseforge.com/minecraft/mc-mods/notenoughrecipebook)
+  * [Perfect Birbs](https://www.curseforge.com/minecraft/mc-mods/perfect-birbs)
+  * [Transmog](https://www.curseforge.com/minecraft/mc-mods/transmog)
+  * [Uranus](https://www.curseforge.com/minecraft/mc-mods/uranus)
+---
+
 ## All of Fabric 7 | v2.4.2
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.2.md)_

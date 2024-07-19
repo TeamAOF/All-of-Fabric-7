@@ -1,7 +1,13 @@
 {
-  "blazeFireCollision": true,
-  "ghastIncreasedHealth": true,
-  "magmaCubeFireCollision": true,
+  "blaze": {
+    "fireAttack": true
+  },
+  "ghast": {
+    "increasedHealth": true
+  },
+  "magmaCube": {
+    "fireCollision": true
+  },
   "piglin": {
     "goldenArmor": 1,
     "rideHoglin": false
