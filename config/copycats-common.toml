@@ -1,5 +1,5 @@
 #.
-#Enables/Disables the conversion of placed copycats from old versions to new ones. Set this to false to enable conversion! (only happens on world load, so if changed while in-game you will need to load the world again)
+#Enables/Disables the conversion of placed copycats from the single material to the multi material(where applicable) block entity. Set this to false to enable conversion! (only happens on world load, so if changed while ingame you will need to load the world again)
 disableConversion = true
 
 #.
@@ -15,10 +15,7 @@ disableConversion = true
 	copycat_stairs = true
 	copycat_shaft = true
 	copycat_block = true
-	copycat_large_cogwheel = true
-	copycat_cogwheel = true
 	copycat_vertical_step = true
-	copycat_iron_trapdoor = true
 	copycat_heavy_weighted_pressure_plate = true
 	copycat_ghost_block = true
 	copycat_half_layer = true
@@ -32,27 +29,18 @@ disableConversion = true
 	copycat_ladder = true
 	copycat_stone_pressure_plate = true
 	copycat_fence_gate = true
-	copycat_fluid_pipe = true
 	copycat_light_weighted_pressure_plate = true
-	copycat_iron_door = true
 	copycat_trapdoor = true
 	copycat_board = true
 	copycat_beam = true
 	copycat_slope_layer = true
-	copycat_door = true
 	copycat_slab = true
 #.
 #Enable/disable categories of features. Disabling a category hides all related features. Values on server override clients
 [feature_categories]
 	#.
-	#All copycats with extra functions/interactions
-	functional = true
-	#.
 	#All copycats that can be resized by putting in more of the same copycat
 	stackables = true
-	#.
-	#All copycats mimicking blocks from Create
-	create = true
 	#.
 	#.
 	#All copycats with a sloped surface
