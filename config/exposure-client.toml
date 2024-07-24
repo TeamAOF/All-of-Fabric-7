@@ -52,10 +52,16 @@
 	#When the Photograph is viewed in UI, image will be saved to 'exposures' folder as a png.
 	SavePhotographs = true
 [Render]
+	#All photographs made by other players will not be rendered.
+	HideAllPhotographsMadeByOthers = false
 	#Distance from the player beyond which Photograph Frame would not be rendered. Default: 64
 	#Note: this number may not relate to distance in blocks exactly. It's influenced by onRender distance and entity distance settings.
 	#Range: 8 ~ 128
 	PhotographFrameCullingDistance = 64
+	#Projected photographs (using Interplanar Projector) made by other players will not be rendered.
+	HideProjectedPhotographsMadeByOthers = false
 [Integration]
 	#Useful information about some items will be shown in JEI description category. Default: true
 	JeiInformation = true
+	#[Real Camera] Disable player model rendering when looking through viewfinder. Default: true
+	RealCameraDisableInViewfinder = true

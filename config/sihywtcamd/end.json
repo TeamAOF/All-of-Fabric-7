@@ -1,12 +1,5 @@
 {
-  "enderman": {
-    "blindnessAttack": true
-  },
-  "shulker": {
-    "cancelLevitation": true
-  },
-  "endermite": {
-    "infestedChorus": true,
-    "teleportAttack": true
-  }
+  "endermanBlindness": true,
+  "shulkerBlindness": true,
+  "endermiteInChorus": true
 }

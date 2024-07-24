@@ -1,11 +1,11 @@
 {
   "pillager": {
     "moreEnchants": true,
-    "speedBonus": false
+    "speedBonus": true
   },
   "vindicator": {
     "spawnInPatrols": true,
-    "speedBonus": false
+    "speedBonus": true
   },
   "evoker": {
     "stopArrows": true,

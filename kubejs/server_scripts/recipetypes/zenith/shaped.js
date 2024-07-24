@@ -59,7 +59,6 @@ ServerEvents.recipes(event => {
       },
       id: 'zenith:vial_of_extraction'
     },
-    */
 
     // Hellshelf
     {
@@ -129,6 +128,7 @@ ServerEvents.recipes(event => {
       },
       id: 'zenith:sightshelf_t2'
     },
+    */
   ];
 
   recipes.forEach((recipe) => {

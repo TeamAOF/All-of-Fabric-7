@@ -11,6 +11,6 @@
   "drowned": {
     "tridentSpawn": true,
     "highVelocity": true,
-    "guardianJockeySpawn": false
+    "guardianJockeySpawn": true
   }
 }

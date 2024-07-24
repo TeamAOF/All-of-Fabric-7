@@ -1,3 +1,21 @@
+## All of Fabric 7 | v2.4.4
+
+_Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.4.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.4.md)_
+
+### Bug Fixes 🪲
+
+* Fixed crashing when searching for skulls in REI.
+* Fixed issues with spiders spawning no matter light level.
+
+### Added Mods ✅
+
+* [Tank Storage](https://www.curseforge.com/minecraft/mc-mods/tank-storage)
+
+### Removed Mods ❌
+
+* [Variants & Ventures](https://www.curseforge.com/minecraft/mc-mods/variants-and-ventures)
+---
+
 ## All of Fabric 7 | v2.4.3
 
 _Fabric Loader 0.15.11_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.4.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.4.3.md)_

@@ -53,26 +53,6 @@
          */
         "tooltip_ignore": false,
         /*
-         * Energy usage for breath [in every 30 ticks]
-         * Type: Integer
-         */
-        "space_breathing_energy_using": 30,
-        /*
-         * Oxygen usage on using durability
-         * Type: Long
-         */
-        "space_breathing_durability_oxygen": 2,
-        /*
-         * Durability usage for breath
-         * Type: Integer
-         */
-        "space_breathing_durability_using": 1,
-        /*
-         * Breath duration on using durability [ticks, be multiple of 30]
-         * Type: Integer
-         */
-        "space_breathing_durability_duration": 60,
-        /*
          * Energy usage for proof [in every 10 ticks]
          * Type: Integer
          */

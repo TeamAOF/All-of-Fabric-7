@@ -1,5 +1,6 @@
-
-#Config for Regions Unexplored primary region!
+#Config for Regions Unexplored secondary region!
+#NOTICE: Make sure 'enable_custom_regions' is enabled in Common configs or this config will have no effect on generation!
+#If you have custom regions enabled: to get future update biomes to spawn, you will either need to delete the config and let it regen, or add the new biomes manually.
 [-----------------MIDDLE_BIOMES--------------------]
 	cool_neutral = "regions_unexplored:maple_forest"
 	cool_wet = "regions_unexplored:maple_forest"
@@ -31,7 +32,6 @@
 	hot_dry = "regions_unexplored:dry_bushland"
 	neutral_neutral = "regions_unexplored:cherry_hills"
 	icy_humid = "regions_unexplored:cold_boreal_forest"
-
 [-----------------MIDDLE_BIOMES_VARIANT--------------------]
 	cool_neutral = "regions_unexplored:maple_forest"
 	cool_wet = "regions_unexplored:boreal_forest"
@@ -63,7 +63,6 @@
 	hot_dry = "regions_unexplored:dry_bushland"
 	neutral_neutral = "regions_unexplored:cherry_hills"
 	icy_humid = "regions_unexplored:spires"
-
 [-----------------PLATEAU_BIOMES--------------------]
 	cool_neutral = "regions_unexplored:maple_forest"
 	cool_wet = "regions_unexplored:boreal_forest"
@@ -95,7 +94,6 @@
 	hot_dry = "regions_unexplored:steppe"
 	neutral_neutral = "regions_unexplored:highland_fields"
 	icy_humid = "regions_unexplored:cold_boreal_forest"
-
 [-----------------PLATEAU_BIOMES_VARIANT--------------------]
 	cool_neutral = "regions_unexplored:maple_forest"
 	cool_wet = "regions_unexplored:boreal_forest"
@@ -127,7 +125,6 @@
 	hot_dry = "regions_unexplored:steppe"
 	neutral_neutral = "regions_unexplored:cherry_hills"
 	icy_humid = "regions_unexplored:spires"
-
 [-----------------SHATTERED_BIOMES--------------------]
 	cool_neutral = "regions_unexplored:towering_cliffs"
 	cool_wet = "regions_unexplored:towering_cliffs"
@@ -159,7 +156,6 @@
 	hot_dry = "regions_unexplored:steppe"
 	neutral_neutral = "regions_unexplored:lush_hills"
 	icy_humid = "regions_unexplored:icy_heights"
-
 [-----------------SLOPE_BIOMES--------------------]
 	#slope_biomes
 	icy_slope_biome = "minecraft:snowy_slopes"
@@ -173,7 +169,6 @@
 	cold_slope_biome_variant = "regions_unexplored:pine_slopes"
 	warm_slope_biome = "regions_unexplored:cherry_hills"
 	hot_slope_biome_variant = "regions_unexplored:eucalyptus_forest"
-
 [-----------------PEAK_BIOMES--------------------]
 	cold_peak_biome = "minecraft:jagged_peaks"
 	hot_peak_biome = "regions_unexplored:arid_mountains"
@@ -187,7 +182,6 @@
 	hot_peak_biome_variant = "regions_unexplored:arid_mountains"
 	#peak_biomes_variant
 	icy_peak_biome_variant = "minecraft:jagged_peaks"
-
 [-----------------RIVER_BIOMES--------------------]
 	cool_neutral = "regions_unexplored:cold_river"
 	cool_wet = "regions_unexplored:cold_river"
@@ -219,7 +213,6 @@
 	hot_dry = "regions_unexplored:muddy_river"
 	neutral_neutral = "regions_unexplored:muddy_river"
 	icy_humid = "minecraft:frozen_river"
-
 [-----------------RIVER_BIOMES_VARIANT--------------------]
 	cool_neutral = "regions_unexplored:cold_river"
 	cool_wet = "regions_unexplored:cold_river"
@@ -251,7 +244,6 @@
 	hot_dry = "regions_unexplored:muddy_river"
 	neutral_neutral = "regions_unexplored:muddy_river"
 	icy_humid = "minecraft:frozen_river"
-
 [-----------------SWAMP_BIOMES--------------------]
 	cool_neutral = "regions_unexplored:fen"
 	cool_wet = "regions_unexplored:fen"
@@ -283,7 +275,6 @@
 	hot_dry = "regions_unexplored:tropics"
 	neutral_neutral = "regions_unexplored:bayou"
 	icy_humid = "regions_unexplored:spires"
-
 [-----------------OCEAN_BIOMES--------------------]
 	deep_warm = "minecraft:deep_lukewarm_ocean"
 	deep_hot = "minecraft:warm_ocean"
@@ -297,7 +288,6 @@
 	hot = "minecraft:warm_ocean"
 	#oceans
 	icy = "minecraft:frozen_ocean"
-
 [-----------------SHORE_BIOMES--------------------]
 	cold_beach_biome = "regions_unexplored:gravel_beach"
 	warm_beach_biome = "regions_unexplored:grassy_beach"
@@ -308,7 +298,6 @@
 	hot_stone_beach_biome = "regions_unexplored:chalk_cliffs"
 	neutral_beach_biome = "regions_unexplored:grassy_beach"
 	hot_beach_biome = "minecraft:beach"
-
 [-----------------UNDERGROUND_BIOMES--------------------]
 	cave_6_biome = "regions_unexplored:prismachasm"
 	cave_8_biome = "regions_unexplored:scorching_caves"
@@ -318,8 +307,11 @@
 	cave_4_biome = "regions_unexplored:bioshroom_caves"
 	cave_7_biome = "regions_unexplored:redstone_caves"
 	cave_2_biome = "minecraft:dripstone_caves"
-
 [-----------------OTHER_BIOMES--------------------]
-	island_biome = "regions_unexplored:smouldering_woodland"
 	shattered_cliff_biome = "regions_unexplored:towering_cliffs"
-
+[-----------------ISLAND_BIOMES--------------------]
+	icy_island_biome = "regions_unexplored:alpha_grove"
+	hot_island_biome = "regions_unexplored:tropics"
+	warm_island_biome = "regions_unexplored:tropics"
+	cool_island_biome = "regions_unexplored:alpha_grove"
+	neutral_island_biome = "regions_unexplored:ashen_woodland"

@@ -1,8 +1,16 @@
 {
+  "general": {
+    "mobsLessFear": true,
+    "merchantHostility": true
+  },
   "creeper": {
     "explosionFatigue": false,
     "explosionWeakness": false,
     "chainExplosions": true
+  },
+  "phantom": {
+    "throughBlocks": true,
+    "lightFear": true
   },
   "slime": {
     "biggerSize": true,
