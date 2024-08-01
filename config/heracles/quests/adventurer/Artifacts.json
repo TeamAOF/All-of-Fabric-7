@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Adventures and Mysteries"
-  ],
+  "dependencies": [],
   "tasks": {
     "51B9513FF8AB7491": {
       "type": "heracles:item",
       "item": "#artifacts:artifacts",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "363F3BB07909619A": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -73,10 +55,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

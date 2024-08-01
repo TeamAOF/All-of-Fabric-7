@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Adventures and Mysteries"
-  ],
+  "dependencies": [],
   "tasks": {
     "09B4372F749D9625": {
       "icon": {
@@ -13,20 +11,11 @@
       },
       "from": "minecraft:overworld",
       "to": "minecells:prison",
-      "title": "",
       "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "75521584B37DD8A1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -77,10 +66,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

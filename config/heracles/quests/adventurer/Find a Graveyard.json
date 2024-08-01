@@ -1,31 +1,13 @@
 {
-  "dependencies": [
-    "Adventures and Mysteries"
-  ],
+  "dependencies": [],
   "tasks": {
     "63A78B39851541A7": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "structures": "graveyard:small_graveyard",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "36352D142DEEC48C": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -39,14 +21,6 @@
       "type": "heracles:item"
     },
     "0D54DD2EDD2B15AD": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "graveyard:bone_dagger",
         "count": 1,
@@ -86,10 +60,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
