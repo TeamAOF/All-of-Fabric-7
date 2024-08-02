@@ -1,30 +1,8 @@
 {
-  "dependencies": [
-    "Welcome!"
-  ],
-  "tasks": {
-    "it grows task": {
-      "title": "It grows!",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
-    }
-  },
+  "dependencies": [],
+  "tasks": {},
   "rewards": {
     "cherry sapling reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:cherry_sapling",
         "count": 1
@@ -32,14 +10,6 @@
       "type": "heracles:item"
     },
     "sniffer egg reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:sniffer_egg",
         "count": 1
@@ -94,10 +64,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

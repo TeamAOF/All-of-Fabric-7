@@ -1,33 +1,14 @@
 {
-  "dependencies": [
-    "It Grows",
-    "welcome"
-  ],
+  "dependencies": [],
   "tasks": {
     "a_map_how_task": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "a_map_how_reward": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 15,
-      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -122,10 +103,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
