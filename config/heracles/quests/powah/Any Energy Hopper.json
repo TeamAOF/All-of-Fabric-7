@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "(dis)charging"
-  ],
+  "dependencies": [],
   "tasks": {
     "powah_energy_hopper_task": {
       "amount": 1,
@@ -10,99 +8,43 @@
           "type": "heracles:item",
           "item": "powah:energy_hopper_starter",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_energy_hopper_basic": {
           "type": "heracles:item",
           "item": "powah:energy_hopper_basic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_energy_hopper_hardened": {
           "type": "heracles:item",
           "item": "powah:energy_hopper_hardened",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_energy_hopper_blazing": {
           "type": "heracles:item",
           "item": "powah:energy_hopper_blazing",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_energy_hopper_niotic": {
           "type": "heracles:item",
           "item": "powah:energy_hopper_niotic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_energy_hopper_spirited": {
           "type": "heracles:item",
           "item": "powah:energy_hopper_spirited",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_energy_hopper_nitro": {
           "type": "heracles:item",
           "item": "powah:energy_hopper_nitro",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         }
       },
       "type": "heracles:composite"
@@ -111,13 +53,6 @@
   "rewards": {
     "energy hopper reward": {
       "title": "Powah! Rare Lootbag",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -165,10 +100,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

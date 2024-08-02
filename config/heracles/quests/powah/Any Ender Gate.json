@@ -10,99 +10,43 @@
           "type": "heracles:item",
           "item": "powah:ender_gate_starter",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_ender_gate_basic": {
           "type": "heracles:item",
           "item": "powah:ender_gate_basic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_ender_gate_hardened": {
           "type": "heracles:item",
           "item": "powah:ender_gate_hardened",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_ender_gate_blazing": {
           "type": "heracles:item",
           "item": "powah:ender_gate_blazing",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_ender_gate_niotic": {
           "type": "heracles:item",
           "item": "powah:ender_gate_niotic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_ender_gate_spirited": {
           "type": "heracles:item",
           "item": "powah:ender_gate_spirited",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_ender_gate_nitro": {
           "type": "heracles:item",
           "item": "powah:ender_gate_nitro",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         }
       },
       "type": "heracles:composite"
@@ -111,13 +55,6 @@
   "rewards": {
     "Powah Ender Gate Reward": {
       "title": "Powah! Rare Lootbag",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -167,10 +104,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
