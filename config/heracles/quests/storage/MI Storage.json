@@ -1,18 +1,6 @@
 {
   "dependencies": [],
-  "tasks": {
-    "storage_MI": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -346,10 +334,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

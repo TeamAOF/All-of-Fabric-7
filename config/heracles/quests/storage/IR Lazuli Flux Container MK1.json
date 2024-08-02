@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "IndRev Lazuli Flux Storage"
-  ],
+  "dependencies": [],
   "tasks": {
     "IR Lazuli Flux Container MK1 Task0": {
       "type": "heracles:item",
       "item": "indrev:lazuli_flux_container_mk1",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "IR Lazuli Flux Container MK1 Reward0": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "indrev:battery",
         "count": 3
@@ -161,10 +143,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

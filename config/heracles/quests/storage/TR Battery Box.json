@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Tech Reborn Storage"
-  ],
+  "dependencies": [],
   "tasks": {
     "TR Battery Box Task0": {
       "type": "heracles:item",
       "item": "techreborn:low_voltage_su",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "TR Battery Box Reward0": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "techreborn:red_cell_battery",
         "count": 3
@@ -82,10 +64,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
