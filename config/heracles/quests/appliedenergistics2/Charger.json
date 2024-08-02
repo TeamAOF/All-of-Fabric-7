@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Crystals are the way"
-  ],
+  "dependencies": [],
   "tasks": {
     "283357E45102D87C": {
       "type": "heracles:item",
