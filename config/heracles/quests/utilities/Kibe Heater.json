@@ -1,39 +1,35 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Kibe Machines to Automate"
-  ],
+  "dependencies": [],
   "tasks": {
     "792CDF0A914EFC9C": {
       "type": "heracles:item",
-      "item": "kibe:heater"
+      "item": "kibe:heater",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "5C0521FD0BFF9DA2": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Heater",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:heater"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
     "groups": {
       "Utilities": {
         "position": [
@@ -41,6 +37,25 @@
           -96
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:heater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Heater"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

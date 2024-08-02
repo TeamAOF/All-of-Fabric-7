@@ -3,28 +3,13 @@
   "tasks": {
     "24A1862F0308DA6E": {
       "title": "Wither machine",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
   "rewards": {
     "7716261A55143011": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "POINTS",
       "amount": 100,
-      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -47,7 +32,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:check",
+        "id": "heracles:quest_book",
         "count": 1
       },
       "type": "heracles:item"
@@ -58,10 +43,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

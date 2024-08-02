@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Armory"
-  ],
+  "dependencies": [],
   "tasks": {
     "gilded_boots": {
       "type": "heracles:item",
@@ -10,15 +8,7 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "gilded": {
       "type": "heracles:item",
@@ -27,15 +17,7 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "gilded_chest": {
       "type": "heracles:item",
@@ -44,15 +26,7 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "gilded_leggings": {
       "type": "heracles:item",
@@ -62,7 +36,6 @@
       },
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "",
       "icon": {
         "item": {
           "id": "adventurez:gilded_netherite_leggings",
@@ -77,14 +50,6 @@
   },
   "rewards": {
     "177660FB4D8E2671": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -136,10 +101,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

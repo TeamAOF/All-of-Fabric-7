@@ -1,43 +1,36 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Kibe Mob Farm Method"
-  ],
+  "dependencies": [],
   "tasks": {
     "3207E34716A01F5A": {
       "type": "heracles:item",
-      "item": "kibe:xp_shower"
+      "item": "kibe:xp_shower",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "29FE8DFF77EB95FE": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "XP Shower",
+    "subtitle": {
+      "translate": "Transforms the liquid XP from tanks behind it into experience orbs that players can absorb."
+    },
     "description": [
       "<h2>Transforms the liquid XP from tanks behind it into experience orbs that players can absorb.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:xp_shower"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Transforms the liquid XP from tanks behind it into experience orbs that players can absorb."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +38,25 @@
           0
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:xp_shower",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "XP Shower"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

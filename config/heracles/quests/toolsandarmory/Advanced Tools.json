@@ -1,61 +1,27 @@
 {
-  "dependencies": [
-    "Tools"
-  ],
+  "dependencies": [],
   "tasks": {
+    "3F481DAC528F0A17": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
     "0C330A4FB95CF932": {
       "type": "heracles:item",
       "item": "techreborn:advanced_drill",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "0ADB3F49D2FA16CF": {
       "type": "heracles:item",
       "item": "techreborn:advanced_jackhammer",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "3F481DAC528F0A17": {
-      "type": "heracles:item",
-      "item": "techreborn:advanced_chainsaw",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "611ADE0A36B53A8D": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -84,7 +50,10 @@
     ],
     "groups": {
       "Tools and Armory": {
-        "position": [-61, 44]
+        "position": [
+          -61,
+          44
+        ]
       }
     },
     "icon": {
@@ -100,10 +69,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

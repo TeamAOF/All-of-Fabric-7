@@ -1,43 +1,36 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Handy Dandy Utilities"
-  ],
+  "dependencies": [],
   "tasks": {
     "5E20F61EB482457C": {
       "type": "heracles:item",
-      "item": "kibe:white_elevator"
+      "item": "kibe:white_elevator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "05F4689E96A18A44": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "White Elevator",
+    "subtitle": {
+      "translate": "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
+    },
     "description": [
       "<h2>When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:white_elevator"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +38,25 @@
           -208
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:white_elevator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "White Elevator"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

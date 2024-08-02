@@ -1,18 +1,6 @@
 {
   "dependencies": [],
-  "tasks": {
-    "WelcomeCheck": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "kubejs:aof7_logo",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -68,10 +56,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

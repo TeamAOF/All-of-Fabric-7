@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Tech Reborn Storage"
-  ],
+  "dependencies": [],
   "tasks": {
     "TR Crude Storage Unit Task0": {
       "type": "heracles:item",
       "item": "techreborn:crude_storage_unit",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "TR Crude Storage Unit Reward0": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:barrel",
         "count": 1
@@ -82,10 +64,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

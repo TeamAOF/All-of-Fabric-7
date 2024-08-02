@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Kibe Machines to Automate"
-  ],
+  "dependencies": [],
   "tasks": {
     "6B26491A205CD947": {
       "type": "heracles:item",
       "item": "kibe:drawbridge",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "1645BBC02885470C": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -42,7 +24,9 @@
     }
   },
   "display": {
-    "title": "Drawbridge",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "---"
     ],
@@ -67,10 +51,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

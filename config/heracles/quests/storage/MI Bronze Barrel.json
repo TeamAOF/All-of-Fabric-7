@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "MI Storage"
-  ],
+  "dependencies": [],
   "tasks": {
     "MI Bronze Barrel Task0": {
       "type": "heracles:item",
       "item": "modern_industrialization:bronze_barrel",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "MI Bronze Barrel Reward0": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "modern_industrialization:bronze_plate",
         "count": 8
@@ -94,10 +76,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

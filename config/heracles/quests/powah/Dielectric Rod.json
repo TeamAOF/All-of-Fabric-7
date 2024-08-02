@@ -1,47 +1,21 @@
 {
-  "dependencies": [
-    "Caps and Dielectrics "
-  ],
+  "dependencies": [],
   "tasks": {
     "dielectric rod task": {
       "type": "heracles:item",
       "item": "powah:dielectric_rod",
       "amount": 4,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "dielectric rod horiz task": {
       "type": "heracles:item",
       "item": "powah:dielectric_rod_horizontal",
       "amount": 4,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "dielectric rods horiz reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "powah:dielectric_rod_horizontal",
         "count": 8
@@ -49,14 +23,6 @@
       "type": "heracles:item"
     },
     "dielectric rods reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "powah:dielectric_rod",
         "count": 8
@@ -92,10 +58,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

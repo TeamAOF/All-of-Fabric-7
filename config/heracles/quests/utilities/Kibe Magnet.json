@@ -1,43 +1,36 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Handy Dandy Utilities"
-  ],
+  "dependencies": [],
   "tasks": {
     "7AD6BA51329E082C": {
       "type": "heracles:item",
-      "item": "kibe:magnet"
+      "item": "kibe:magnet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "14DC0B476AF0FE4B": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Magnet",
+    "subtitle": {
+      "translate": "It does what a magnet does, magnetize items towards you."
+    },
     "description": [
       "<h2>It does what a magnet does, magnetize items towards you.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:magnet"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "It does what a magnet does, magnetize items towards you."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +38,25 @@
           -112
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:magnet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Magnet"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -1,43 +1,36 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Kibe Machines to Automate"
-  ],
+  "dependencies": [],
   "tasks": {
     "0FC05324880FB6B9": {
       "type": "heracles:item",
-      "item": "kibe:placer"
+      "item": "kibe:placer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "57512F4610E4EF68": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Placer",
+    "subtitle": {
+      "translate": "Activated by a redstone signal, will place any block in its inventory in front of it, if possible."
+    },
     "description": [
       "<h2>Activated by a redstone signal, will place any block in its inventory in front of it, if possible.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:placer"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Activated by a redstone signal, will place any block in its inventory in front of it, if possible."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +38,25 @@
           -112
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:placer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Placer"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

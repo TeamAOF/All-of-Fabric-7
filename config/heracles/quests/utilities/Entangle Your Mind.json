@@ -1,18 +1,6 @@
 {
   "dependencies": [],
-  "tasks": {
-    "7C9B04C717763B2B": {
-      "title": "Entangle your mind.",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -32,7 +20,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:check",
+        "id": "heracles:quest_book",
         "count": 1
       },
       "type": "heracles:item"
@@ -43,10 +31,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

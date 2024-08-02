@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Powah Here and There"
-  ],
+  "dependencies": [],
   "tasks": {
     "powah_battery_task": {
       "amount": 1,
@@ -10,99 +8,43 @@
           "type": "heracles:item",
           "item": "powah:battery_starter",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_battery_basic": {
           "type": "heracles:item",
           "item": "powah:battery_basic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_battery_hardened": {
           "type": "heracles:item",
           "item": "powah:battery_hardened",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_battery_blazing": {
           "type": "heracles:item",
           "item": "powah:battery_blazing",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_battery_niotic": {
           "type": "heracles:item",
           "item": "powah:battery_niotic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_battery_spirited": {
           "type": "heracles:item",
           "item": "powah:battery_spirited",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_battery_nitro": {
           "type": "heracles:item",
           "item": "powah:battery_nitro",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         }
       },
       "type": "heracles:composite"
@@ -111,13 +53,6 @@
   "rewards": {
     "Powah Battery Reward": {
       "title": "Powah! Common Lootbag",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -165,10 +100,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

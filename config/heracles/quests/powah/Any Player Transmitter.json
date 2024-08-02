@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "(dis)charging"
-  ],
+  "dependencies": [],
   "tasks": {
     "powah_player_transmitter_task": {
       "amount": 1,
@@ -10,99 +8,43 @@
           "type": "heracles:item",
           "item": "powah:player_transmitter_starter",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_player_transmitter_basic": {
           "type": "heracles:item",
           "item": "powah:player_transmitter_basic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_player_transmitter_hardened": {
           "type": "heracles:item",
           "item": "powah:player_transmitter_hardened",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_player_transmitter_blazing": {
           "type": "heracles:item",
           "item": "powah:player_transmitter_blazing",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_player_transmitter_niotic": {
           "type": "heracles:item",
           "item": "powah:player_transmitter_niotic",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_player_transmitter_spirited": {
           "type": "heracles:item",
           "item": "powah:player_transmitter_spirited",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         },
         "task_player_transmitter_nitro": {
           "type": "heracles:item",
           "item": "powah:player_transmitter_nitro",
           "amount": 1,
-          "collection": "AUTOMATIC",
-          "title": "",
-          "icon": {
-            "item": {
-              "id": "minecraft:air",
-              "count": 0
-            },
-            "type": "heracles:item"
-          }
+          "collection": "AUTOMATIC"
         }
       },
       "type": "heracles:composite"
@@ -111,13 +53,6 @@
   "rewards": {
     "Powah Reactor Reward": {
       "title": "Powah! Rare Lootbag",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -167,10 +102,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

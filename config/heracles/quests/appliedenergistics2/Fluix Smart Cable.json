@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Storage and Transport"
-  ],
+  "dependencies": [],
   "tasks": {
     "733C8308DEA8FB07": {
       "type": "heracles:item",
