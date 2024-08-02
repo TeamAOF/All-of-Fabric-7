@@ -1,43 +1,36 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Kibe Mob Farm Method"
-  ],
+  "dependencies": [],
   "tasks": {
     "4F0EC7C4BA0E965A": {
       "type": "heracles:item",
-      "item": "kibe:diamond_lasso"
+      "item": "kibe:diamond_lasso",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "066AE3CFC0607FCD": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Diamond Lasso",
+    "subtitle": {
+      "translate": "Can hold almost any entity without debuffs."
+    },
     "description": [
       "<h2>Can hold almost any entity without debuffs.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:diamond_lasso"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Can hold almost any entity without debuffs."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +38,25 @@
           112
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:diamond_lasso",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Diamond Lasso"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -1,43 +1,36 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Kibe Mob Farm Method"
-  ],
+  "dependencies": [],
   "tasks": {
     "68B7BE2C6D332A76": {
       "type": "heracles:item",
-      "item": "kibe:xp_drain"
+      "item": "kibe:xp_drain",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "51004883A842DEE3": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "XP Drain",
+    "subtitle": {
+      "translate": "Will drain XP from a player and store it in a fluid container placed directly below it."
+    },
     "description": [
       "<h2>Will drain XP from a player and store it in a fluid container placed directly below it.</h2>",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:xp_drain"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Will drain XP from a player and store it in a fluid container placed directly below it."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -45,6 +38,25 @@
           32
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:xp_drain",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "XP Drain"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

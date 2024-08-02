@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Wither Machine"
-  ],
+  "dependencies": [],
   "tasks": {
     "5F15D847732F2F5A": {
       "type": "heracles:item",
       "item": "kibe:wither_builder",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "1AAB8029A3026A44": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -53,7 +35,7 @@
       "Utilities": {
         "position": [
           464,
-          -112
+          -128
         ]
       }
     },
@@ -70,10 +52,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

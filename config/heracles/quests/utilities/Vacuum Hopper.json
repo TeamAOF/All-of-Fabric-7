@@ -1,31 +1,32 @@
 {
-  "settings": {},
-  "dependencies": [
-    "Kibe Mob Farm Method"
-  ],
+  "dependencies": [],
   "tasks": {
     "5C49C0A15140D59C": {
       "type": "heracles:item",
-      "item": "kibe:vacuum_hopper"
+      "item": "kibe:vacuum_hopper",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "7810566C93E6D4FF": {
-      "type": "heracles:item",
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
+          "Type": "UNCOMMON",
           "Color": 6750133,
           "Loot": "aof:loot_bags/misc/utilities",
-          "Name": "Utilities Lootbag",
-          "Type": "UNCOMMON"
+          "Name": "Utilities Lootbag"
         }
-      }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
-    "title": "Vacuum Hopper",
+    "subtitle": {
+      "translate": "Pulls nearby dropped items and experience orbs to their own inventory."
+    },
     "description": [
       "<h2>Pulls nearby dropped items and experience orbs to their own inventory.</h2>",
       "---",
@@ -34,14 +35,6 @@
       "Stored XP can be used to craft Bottle o' Enchanting or Liquid XP buckets.",
       "---"
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "kibe:vacuum_hopper"
-    },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
-    "subtitle": {
-      "text": "Pulls nearby dropped items and experience orbs to their own inventory."
-    },
     "groups": {
       "Utilities": {
         "position": [
@@ -49,6 +42,25 @@
           96
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:vacuum_hopper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Vacuum Hopper"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

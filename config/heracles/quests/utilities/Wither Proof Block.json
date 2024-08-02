@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Wither Machine"
-  ],
+  "dependencies": [],
   "tasks": {
     "5F64773A4D914C46": {
       "type": "heracles:item",
       "item": "kibe:wither_proof_block",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "0FA2F773EB28398D": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -43,7 +25,7 @@
   },
   "display": {
     "subtitle": {
-      "text": "Cannot be destroyed by the wither boss."
+      "translate": "Cannot be destroyed by the wither boss."
     },
     "description": [
       "<h2>Cannot be destroyed by the wither boss.</h2>",
@@ -52,8 +34,8 @@
     "groups": {
       "Utilities": {
         "position": [
-          432,
-          -224
+          464,
+          -192
         ]
       }
     },
@@ -70,10 +52,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
