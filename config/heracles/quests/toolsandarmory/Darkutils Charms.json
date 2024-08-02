@@ -1,33 +1,15 @@
 {
-  "dependencies": [
-    "Tools"
-  ],
+  "dependencies": [],
   "tasks": {
     "06063381E1AB7D20": {
       "type": "heracles:item",
       "item": "#darkutils:charms",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "5D4924DED53FF093": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -61,7 +43,10 @@
     ],
     "groups": {
       "Tools and Armory": {
-        "position": [75, 0]
+        "position": [
+          75,
+          0
+        ]
       }
     },
     "icon": {
@@ -74,10 +59,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

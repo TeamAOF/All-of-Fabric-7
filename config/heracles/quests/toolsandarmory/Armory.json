@@ -3,13 +3,6 @@
   "tasks": {
     "3FC3E8AFB7E9B57D": {
       "title": "Armory",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
@@ -31,7 +24,7 @@
     },
     "icon": {
       "item": {
-        "id": "kubejs:check",
+        "id": "heracles:quest_book",
         "count": 1
       },
       "type": "heracles:item"
@@ -42,10 +35,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

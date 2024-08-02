@@ -1,75 +1,33 @@
 {
-  "dependencies": [
-    "Tools"
-  ],
+  "dependencies": [],
   "tasks": {
     "1C23570FAFDAC0DD": {
       "type": "heracles:item",
       "item": "dragonloot:dragon_shovel",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "699EEDB4F5A5483A": {
       "type": "heracles:item",
       "item": "dragonloot:dragon_axe",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "48BEF1026E46FEFC": {
       "type": "heracles:item",
       "item": "dragonloot:dragon_pickaxe",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "6E11908E8414D5C5": {
       "type": "heracles:item",
       "item": "dragonloot:dragon_hoe",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "7DF089A2D0779224": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
@@ -95,7 +53,10 @@
     ],
     "groups": {
       "Tools and Armory": {
-        "position": [23, 71]
+        "position": [
+          23,
+          71
+        ]
       }
     },
     "icon": {
@@ -114,10 +75,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

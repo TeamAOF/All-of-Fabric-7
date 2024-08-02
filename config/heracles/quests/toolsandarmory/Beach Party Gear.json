@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "Armory"
-  ],
+  "dependencies": [],
   "tasks": {
     "bpst": {
       "type": "heracles:item",
@@ -10,49 +8,7 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "bpc": {
-      "type": "heracles:item",
-      "item": "beachparty:crocs",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "bpb": {
-      "type": "heracles:item",
-      "item": "beachparty:bikini",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "bpbh": {
       "type": "heracles:item",
@@ -61,15 +17,16 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
+    },
+    "bpc": {
+      "type": "heracles:item",
+      "item": "beachparty:crocs",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "bpsg": {
       "type": "heracles:item",
@@ -78,15 +35,7 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "bpsw": {
       "type": "heracles:item",
@@ -95,27 +44,20 @@
         "Damage": 0
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
+    },
+    "bpb": {
+      "type": "heracles:item",
+      "item": "beachparty:bikini",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "artifacts:flippers",
         "count": 1
@@ -230,10 +172,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

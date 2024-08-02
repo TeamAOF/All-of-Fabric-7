@@ -1,35 +1,17 @@
 {
-  "dependencies": [
-    "Blocks as Far as the Eye Can See"
-  ],
+  "dependencies": [],
   "tasks": {
     "068B1DB83FC58B63": {
       "type": "heracles:item",
       "item": "trowel:trowel",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "18224C4E9425E913": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "LEVEL",
       "amount": 3,
-      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -62,10 +44,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
