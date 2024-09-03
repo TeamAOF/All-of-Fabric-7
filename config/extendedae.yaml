@@ -24,4 +24,5 @@ tapeWhitelist:
   - ae2:interface
   - ae2:pattern_provider
   - ae2:drive
+  - extendedae:ex_drive
 
