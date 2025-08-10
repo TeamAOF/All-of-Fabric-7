@@ -25,4 +25,22 @@ StartupEvents.registry('fluid', event => {
     .noBucket()
 
   // Alloys (TO BE DONE)
+  // Battery Alloy
+  event.create('molten_battery_alloy')
+    .thickTexture(0x93758D)
+    .bucketColor(0x93758D)
+    .displayName('Molten Battery Alloy')
+    .luminosity(8)
+    .noBucket()
+  
+  // Blastproof Alloy
+  event.create('molten_blastproof_alloy')
+    .thickTexture(0x59523F)
+    .bucketColor(0x59523F)
+    .displayName('Molten Blastproof Alloy')
+    .luminosity(0)
+    .noBucket()
+
+  // Advanced Alloy ?
+  // Andesite Alloy ?
 })
